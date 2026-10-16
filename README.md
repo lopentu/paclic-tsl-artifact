@@ -95,24 +95,6 @@ column with the subtitle shown during each window. The runners stop with an erro
 translation-given cell meets an empty column. The articulator-only and no-cue cells need
 nothing.
 
-## What is not here
-
-**No video and no frames.** Fetch the videos from `data/sources.csv` and cut them with the
-scripts above; every timestamp is in `clip_manifest.csv`.
-
-**No subtitle text.** Besides the empty manifest column, the two places where an output record
-copied its input prompt are redacted: the `prompt` field of `handedness_probe/` and the
-`prompt_from.translation` field of `wrongclip/`, where each subtitle line is replaced by
-`<translation not redistributed>`. The model's own text (`raw_text`, `parsed`, and the
-descriptions handed back in `mediation/`) is published as generated, and sometimes quotes the
-translation it was given.
-
-**No source titles or local paths.** Videos are identified by ID and URL only, and absolute
-paths in the outputs are written as `<repo>`.
-
-**Nothing outside the reported experiment.** Only the clip formats, conditions and models
-that the paper reports are included.
-
 ## Which file backs which claim
 
 Section, table and figure numbers refer to the published paper.

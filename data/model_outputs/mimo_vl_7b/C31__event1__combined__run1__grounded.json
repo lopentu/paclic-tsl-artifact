@@ -1,0 +1,50 @@
+{
+  "clip_id": "C31",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C31_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:05:32.445492",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3s\",\n      \"end_time\": \"0.9s\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"Both hands are in the signer's lap, inactive.\",\n        \"handshape\": \"N/A\",\n        \"movement\": \"N/A\",\n        \"location\": \"N/A\",\n        \"nonmanual\": \"The signer's eyebrows are raised and furrowed, and the forehead is wrinkled. The mouth is open and tense. The head is tilted back slightly.\",\n        \"non_dominant_hand\": \"The non-dominant hand is resting in the signer's lap and is inactive.\",\n        \"temporal_alignment\": \"The facial expression is active at the very beginning of the clip and holds for the duration of the target span, then relaxes slightly at the end.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The tense, furrowed facial expression is held throughout the target span, visually conveying the negative and exasperated tone of the utterance \\\"想太多實在是不好！\\\". The raised eyebrows and wrinkled forehead are a strong affective marker of frustration or disbelief.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3s",
+        "end_time": "0.9s",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "Both hands are in the signer's lap, inactive.",
+          "handshape": "N/A",
+          "movement": "N/A",
+          "location": "N/A",
+          "nonmanual": "The signer's eyebrows are raised and furrowed, and the forehead is wrinkled. The mouth is open and tense. The head is tilted back slightly.",
+          "non_dominant_hand": "The non-dominant hand is resting in the signer's lap and is inactive.",
+          "temporal_alignment": "The facial expression is active at the very beginning of the clip and holds for the duration of the target span, then relaxes slightly at the end."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The tense, furrowed facial expression is held throughout the target span, visually conveying the negative and exasperated tone of the utterance \"想太多實在是不好！\". The raised eyebrows and wrinkled forehead are a strong affective marker of frustration or disbelief."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

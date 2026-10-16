@@ -1,0 +1,69 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C17",
+    "event_id": "event2",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP11",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 0.6000000000000227
+  },
+  "video_from": {
+    "clip_id": "C20",
+    "event_id": "event1",
+    "video_id": "S01EP11",
+    "target_channel": "manual",
+    "duration": 0.9000000000000341
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.6000000000000227,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C20_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C20_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:52:11.784633",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends forward and then moves slightly downward and inward toward the signer's chest\",\n        \"location\": \"starts near the signer's chin, moves to the center of the chest\",\n        \"nonmanual\": \"mouth slightly open, neutral facial expression\",\n        \"non_dominant_hand\": \"resting at the signer's side, not moving\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, immediately following a handshape that appears to be 'this' or 'here', and precedes a handshape that appears to be 'good' or 'excellent'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign for 'this' or 'here' in TSL, which is a grammatical marker indicating the referent of the following word 'course'. The movement toward the chest adds emphasis and focus to the referent, which is a clear pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends forward and then moves slightly downward and inward toward the signer's chest",
+          "location": "starts near the signer's chin, moves to the center of the chest",
+          "nonmanual": "mouth slightly open, neutral facial expression",
+          "non_dominant_hand": "resting at the signer's side, not moving",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, immediately following a handshape that appears to be 'this' or 'here', and precedes a handshape that appears to be 'good' or 'excellent'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign for 'this' or 'here' in TSL, which is a grammatical marker indicating the referent of the following word 'course'. The movement toward the chest adds emphasis and focus to the referent, which is a clear pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

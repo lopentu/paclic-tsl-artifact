@@ -1,0 +1,53 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/static/C03_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C03_window_model.mp4",
+  "video_id": "S01EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:42:41.302622",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not the focus\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression: brow furrowed, eyes squinted, mouth slightly downturned, conveying a look of concentration or effort\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"strong facial expression\",\n        \"non_dominant_hand\": \"not visible or not the focus\",\n        \"temporal_alignment\": \"the action occurs during a sustained manual sign (hands on shoulders) and is temporally aligned with it, likely serving as a nonmanual marker for the sign's meaning\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's intense facial expression (furrowed brow, squinted eyes) coincides with the manual sign and visually reinforces the contrast or effort implied by the meaning '聾老師和聽老師教學技巧不同'. The expression adds affect and emphasis, making the contrast more vivid. The facial expression is a conventionalized nonmanual marker that contributes to the propositional content by indicating the speaker's stance or the nature of the comparison.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not the focus",
+          "handshape": "not applicable",
+          "movement": "facial expression: brow furrowed, eyes squinted, mouth slightly downturned, conveying a look of concentration or effort",
+          "location": "center of face",
+          "nonmanual": "strong facial expression",
+          "non_dominant_hand": "not visible or not the focus",
+          "temporal_alignment": "the action occurs during a sustained manual sign (hands on shoulders) and is temporally aligned with it, likely serving as a nonmanual marker for the sign's meaning"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's intense facial expression (furrowed brow, squinted eyes) coincides with the manual sign and visually reinforces the contrast or effort implied by the meaning '聾老師和聽老師教學技巧不同'. The expression adds affect and emphasis, making the contrast more vivid. The facial expression is a conventionalized nonmanual marker that contributes to the propositional content by indicating the speaker's stance or the nature of the comparison."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

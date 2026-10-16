@@ -1,0 +1,48 @@
+{
+  "clip_id": "C33",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:16:09.987916",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"thumb up, fingers extended\",\n        \"movement\": \"both hands move from the sides toward the center, then move outward again\",\n        \"location\": \"in front of the chest, at chest height\",\n        \"nonmanual\": \"mouth open, lips pursed\",\n        \"non_dominant_hand\": \"no visible non-dominant hand activity\",\n        \"temporal_alignment\": \"the action spans the entire target span, starting with both hands moving inward and ending with them moving outward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move inward toward the chest and then outward, a gesture that visually represents the idea of 'considering' or 'thinking about' something. The movement is repeated and emphasized, suggesting the speaker is posing a hypothetical question. The gesture is a conventionalized lexical sign in TSL for 'considering' or 'thinking about', contributing to the propositional content of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "thumb up, fingers extended",
+          "movement": "both hands move from the sides toward the center, then move outward again",
+          "location": "in front of the chest, at chest height",
+          "nonmanual": "mouth open, lips pursed",
+          "non_dominant_hand": "no visible non-dominant hand activity",
+          "temporal_alignment": "the action spans the entire target span, starting with both hands moving inward and ending with them moving outward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move inward toward the chest and then outward, a gesture that visually represents the idea of 'considering' or 'thinking about' something. The movement is repeated and emphasized, suggesting the speaker is posing a hypothetical question. The gesture is a conventionalized lexical sign in TSL for 'considering' or 'thinking about', contributing to the propositional content of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1974456271,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:28:01.271720",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger and thumb form a circle, other fingers extended\",\n        \"movement\": \"hand moves upward from below the eye level to the eye level, then slightly inward toward the face\",\n        \"location\": \"starts near the signer's left side of face, moves to center near the eye\",\n        \"nonmanual\": \"signer's face is neutral, eyes look forward\",\n        \"non_dominant_hand\": \"non-dominant hand is stationary near the body\",\n        \"temporal_alignment\": \"the action occurs within a broader signing sequence about self-perception during signing, and is preceded by a gesture indicating 'I' or 'self' and followed by a gesture indicating 'face' or 'expression'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement resemble the sign for 'eye' or 'face' in TSL, and the timing within the context of discussing 'expression' and 'facial stiffness' supports its semantic role. The action is not a simple depiction or indication but a conventionalized sign that contributes to the core proposition about self-perception during signing.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger and thumb form a circle, other fingers extended",
+          "movement": "hand moves upward from below the eye level to the eye level, then slightly inward toward the face",
+          "location": "starts near the signer's left side of face, moves to center near the eye",
+          "nonmanual": "signer's face is neutral, eyes look forward",
+          "non_dominant_hand": "non-dominant hand is stationary near the body",
+          "temporal_alignment": "the action occurs within a broader signing sequence about self-perception during signing, and is preceded by a gesture indicating 'I' or 'self' and followed by a gesture indicating 'face' or 'expression'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement resemble the sign for 'eye' or 'face' in TSL, and the timing within the context of discussing 'expression' and 'facial stiffness' supports its semantic role. The action is not a simple depiction or indication but a conventionalized sign that contributes to the core proposition about self-perception during signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

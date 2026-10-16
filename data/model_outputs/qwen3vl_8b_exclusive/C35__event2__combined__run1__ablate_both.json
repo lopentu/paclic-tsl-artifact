@@ -1,0 +1,49 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:31:49.522615",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not carrying the action\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression changes: mouth opens, eyes widen, eyebrows raise, then the signer brings hand to face and rubs eye area\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression and eye movement\",\n        \"non_dominant_hand\": \"not visible or not carrying the action\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing unit, starting with a hand gesture and transitioning to facial expression and hand movement to the face\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's facial expression (wide eyes, open mouth) and the subsequent hand movement to the eye area suggest an expression of surprise or shock, which is a common affective marker in signing. The action is not a lexical sign but adds emotional weight to the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not carrying the action",
+          "handshape": "not applicable",
+          "movement": "facial expression changes: mouth opens, eyes widen, eyebrows raise, then the signer brings hand to face and rubs eye area",
+          "location": "face",
+          "nonmanual": "facial expression and eye movement",
+          "non_dominant_hand": "not visible or not carrying the action",
+          "temporal_alignment": "the action occurs within a continuous signing unit, starting with a hand gesture and transitioning to facial expression and hand movement to the face"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's facial expression (wide eyes, open mouth) and the subsequent hand movement to the eye area suggest an expression of surprise or shock, which is a common affective marker in signing. The action is not a lexical sign but adds emotional weight to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

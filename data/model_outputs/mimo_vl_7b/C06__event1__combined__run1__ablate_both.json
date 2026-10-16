@@ -1,0 +1,50 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C06_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:38:01.737140",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.7\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are used.\",\n          \"handshape\": \"The right hand is a 'V' shape (two fingers extended). The left hand is a 'P' shape (palm, thumb and index finger touching).\",\n          \"movement\": \"The right 'V' hand moves forward and slightly down from near the signer's right shoulder, towards the left hand. The left 'P' hand is held steady.\",\n          \"location\": \"The action starts at the signer's right shoulder and moves towards the center of the chest.\",\n          \"nonmanual\": \"The head is still. The eyes are looking forward. The eyebrows are slightly raised.\",\n          \"non_dominant_hand\": \"The left hand is the non-dominant hand and is stationary, serving as a base for the right hand.\",\n          \"temporal_alignment\": \"The action is a single, distinct sign that occurs in the middle of a continuous signed utterance, not at the beginning or end of a phrase.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The action is a distinct, conventional-looking sign performed in the middle of a sentence. The two-part hand configuration suggests a specific lexical meaning. The surrounding signs are different, indicating this is a separate grammatical unit.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "The right hand is a 'V' shape (two fingers extended). The left hand is a 'P' shape (palm, thumb and index finger touching).",
+          "movement": "The right 'V' hand moves forward and slightly down from near the signer's right shoulder, towards the left hand. The left 'P' hand is held steady.",
+          "location": "The action starts at the signer's right shoulder and moves towards the center of the chest.",
+          "nonmanual": "The head is still. The eyes are looking forward. The eyebrows are slightly raised.",
+          "non_dominant_hand": "The left hand is the non-dominant hand and is stationary, serving as a base for the right hand.",
+          "temporal_alignment": "The action is a single, distinct sign that occurs in the middle of a continuous signed utterance, not at the beginning or end of a phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The action is a distinct, conventional-looking sign performed in the middle of a sentence. The two-part hand configuration suggests a specific lexical meaning. The surrounding signs are different, indicating this is a separate grammatical unit."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

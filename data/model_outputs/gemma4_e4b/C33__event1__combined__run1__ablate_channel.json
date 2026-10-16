@@ -1,0 +1,61 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C33_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T22:03:00.602243",
+  "backend_call_info": {
+    "frames_per_video": [
+      76,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.8175,
+      15.54
+    ],
+    "input_tokens": 8667,
+    "output_tokens": 322
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:01\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Index finger extended, other fingers curled\",\n        \"movement\": \"Slightly moving forward and outward\",\n        \"location\": \"In front of the chest\",\n        \"nonmanual\": \"Slightly furrowed brow, mouth slightly open\",\n        \"non_dominant_hand\": \"Not explicitly described as separate from the main action\",\n        \"temporal_alignment\": \"The action occurs at the beginning of the clip and continues through the target span.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer uses both hands with index fingers extended and slightly moving forward and outward in front of the chest. The facial expression suggests questioning or contemplation, which aligns with the context of asking a hypothetical question.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:01",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Index finger extended, other fingers curled",
+          "movement": "Slightly moving forward and outward",
+          "location": "In front of the chest",
+          "nonmanual": "Slightly furrowed brow, mouth slightly open",
+          "non_dominant_hand": "Not explicitly described as separate from the main action",
+          "temporal_alignment": "The action occurs at the beginning of the clip and continues through the target span."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer uses both hands with index fingers extended and slightly moving forward and outward in front of the chest. The facial expression suggests questioning or contemplation, which aligns with the context of asking a hypothetical question."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

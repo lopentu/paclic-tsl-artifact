@@ -1,0 +1,61 @@
+{
+  "clip_id": "C18",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T21:52:47.839172",
+  "backend_call_info": {
+    "frames_per_video": [
+      60,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.7737,
+      14.5309
+    ],
+    "input_tokens": 7617,
+    "output_tokens": 292
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00\",\n      \"end_time\": \"00:00\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Index finger extended, other fingers curled\",\n        \"movement\": \"Slightly moving forward and slightly up\",\n        \"location\": \"In front of the chest\",\n        \"nonmanual\": \"Neutral\",\n        \"non_dominant_hand\": \"Not visible/active\",\n        \"temporal_alignment\": \"Starts and ends within the target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 1,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.85,\n      \"observable_evidence\": \"The signer uses both hands with an index finger extended, moving slightly forward and up in front of the chest, which appears to be part of the signing sequence for the given meaning.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00",
+        "end_time": "00:00",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Index finger extended, other fingers curled",
+          "movement": "Slightly moving forward and slightly up",
+          "location": "In front of the chest",
+          "nonmanual": "Neutral",
+          "non_dominant_hand": "Not visible/active",
+          "temporal_alignment": "Starts and ends within the target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 1,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.85,
+        "observable_evidence": "The signer uses both hands with an index finger extended, moving slightly forward and up in front of the chest, which appears to be part of the signing sequence for the given meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C08",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 567563860,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:09:51.586391",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"finger extends forward and then retracts slightly\",\n        \"location\": \"in front of signer's face, moving from right to left\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"resting, palm down, on the signer's lap or table\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, appearing after a handshape that suggests 'language' or 'translation' and before a movement that indicates 'difficulty' or 'challenge'\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The finger-pointing gesture is a conventionalized sign in TSL that indicates a specific linguistic concept or event. The movement from right to left visually suggests a transition or contrast, aligning with the discourse about the difficulty of language conversion. The gesture is not merely pointing but a lexical sign that contributes to the propositional structure of the sentence.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "finger extends forward and then retracts slightly",
+          "location": "in front of signer's face, moving from right to left",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "resting, palm down, on the signer's lap or table",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, appearing after a handshape that suggests 'language' or 'translation' and before a movement that indicates 'difficulty' or 'challenge'"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The finger-pointing gesture is a conventionalized sign in TSL that indicates a specific linguistic concept or event. The movement from right to left visually suggests a transition or contrast, aligning with the discourse about the difficulty of language conversion. The gesture is not merely pointing but a lexical sign that contributes to the propositional structure of the sentence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1195951015,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:00:57.862971",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'pinch' or 'thumb-and-index-finger' shape; left hand forms a 'pinch' or 'thumb-and-index-finger' shape\",\n        \"movement\": \"right hand moves from near the signer's chin upward and slightly forward, then moves downward and inward toward the left hand; left hand moves from near the signer's chest outward and upward, then moves downward and inward toward the right hand\",\n        \"location\": \"right hand starts near the signer's chin, moves to near the signer's chest; left hand starts near the signer's chest, moves to near the signer's chin\",\n        \"nonmanual\": \"signer's mouth is open, and the signer's eyebrows are slightly raised\",\n        \"non_dominant_hand\": \"left hand is in a 'pinch' or 'thumb-and-index-finger' shape, moving from near the signer's chest outward and upward, then moves downward and inward toward the right hand\",\n        \"temporal_alignment\": \"the action begins with the right hand moving from near the signer's chin upward and slightly forward, then moves downward and inward toward the left hand; the left hand moves from near the signer's chest outward and upward, then moves downward and inward toward the right hand\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshapes and movement path are consistent with a lexical sign that carries propositional content, likely indicating a specific group or role (e.g., 'some people' or 'certain individuals'). The movement is not depicting an action or enacting a character, but rather showing a grammatical structure. The facial expression (open mouth, raised eyebrows) adds affect and emphasis, making the sign more vivid and engaging.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'pinch' or 'thumb-and-index-finger' shape; left hand forms a 'pinch' or 'thumb-and-index-finger' shape",
+          "movement": "right hand moves from near the signer's chin upward and slightly forward, then moves downward and inward toward the left hand; left hand moves from near the signer's chest outward and upward, then moves downward and inward toward the right hand",
+          "location": "right hand starts near the signer's chin, moves to near the signer's chest; left hand starts near the signer's chest, moves to near the signer's chin",
+          "nonmanual": "signer's mouth is open, and the signer's eyebrows are slightly raised",
+          "non_dominant_hand": "left hand is in a 'pinch' or 'thumb-and-index-finger' shape, moving from near the signer's chest outward and upward, then moves downward and inward toward the right hand",
+          "temporal_alignment": "the action begins with the right hand moving from near the signer's chin upward and slightly forward, then moves downward and inward toward the left hand; the left hand moves from near the signer's chest outward and upward, then moves downward and inward toward the right hand"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshapes and movement path are consistent with a lexical sign that carries propositional content, likely indicating a specific group or role (e.g., 'some people' or 'certain individuals'). The movement is not depicting an action or enacting a character, but rather showing a grammatical structure. The facial expression (open mouth, raised eyebrows) adds affect and emphasis, making the sign more vivid and engaging."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

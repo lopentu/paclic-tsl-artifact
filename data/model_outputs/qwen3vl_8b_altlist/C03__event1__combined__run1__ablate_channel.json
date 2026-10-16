@@ -1,0 +1,49 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C03_window_model.mp4",
+  "video_id": "S01EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:42:10.546756",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"both hands move upward from the chest level to the eyes, then both hands move downward to the sides\",\n        \"location\": \"starts near the chest, moves to the eyes, then to the sides\",\n        \"nonmanual\": \"face shows a grimace or expression of frustration or effort\",\n        \"non_dominant_hand\": \"not visible or not active\",\n        \"temporal_alignment\": \"the action occurs within a larger signing unit, following a sign about 'teachers' and preceding a sign about 'teaching methods'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands form fists and move from the chest to the eyes and then down, which visually enacts the idea of 'struggling' or 'fighting' (depiction). The grimace on the face adds affective intensity (pragmatic enrichment). The action is part of a sequence about 'teachers' and 'teaching methods', suggesting it represents the effort or challenge involved in teaching (semantic load).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "both hands move upward from the chest level to the eyes, then both hands move downward to the sides",
+          "location": "starts near the chest, moves to the eyes, then to the sides",
+          "nonmanual": "face shows a grimace or expression of frustration or effort",
+          "non_dominant_hand": "not visible or not active",
+          "temporal_alignment": "the action occurs within a larger signing unit, following a sign about 'teachers' and preceding a sign about 'teaching methods'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The hands form fists and move from the chest to the eyes and then down, which visually enacts the idea of 'struggling' or 'fighting' (depiction). The grimace on the face adds affective intensity (pragmatic enrichment). The action is part of a sequence about 'teachers' and 'teaching methods', suggesting it represents the effort or challenge involved in teaching (semantic load)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

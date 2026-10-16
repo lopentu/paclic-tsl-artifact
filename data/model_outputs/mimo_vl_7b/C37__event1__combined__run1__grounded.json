@@ -1,0 +1,50 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:08:31.098637",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"Both hands are in front of the signer's body, moving in a downward and outward path.\",\n        \"handshape\": \"The right hand is a flat, open hand. The left hand is a flat, open hand.\",\n        \"movement\": \"The right hand moves from a higher position down and forward. The left hand moves from a lower position up and forward, then both hands move down and outward.\",\n        \"location\": \"In the space in front of the signer's chest.\",\n        \"nonmanual\": \"The signer's eyebrows are raised and her mouth is open, forming a shape consistent with the articulation of a word. The head is still.\",\n        \"non_dominant_hand\": \"The non-dominant hand is involved in the manual action, not acting as a separate nonmanual marker.\",\n        \"temporal_alignment\": \"The facial expression is synchronized with the manual signing, occurring in the middle of a continuous signed utterance.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The facial expression (raised eyebrows, open mouth) is a standard nonmanual marker in sign languages for grammatical aspect or mood, contributing syntactic structure. The same expression adds emphasis and a sense of assertion, contributing pragmatically.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "Both hands are in front of the signer's body, moving in a downward and outward path.",
+          "handshape": "The right hand is a flat, open hand. The left hand is a flat, open hand.",
+          "movement": "The right hand moves from a higher position down and forward. The left hand moves from a lower position up and forward, then both hands move down and outward.",
+          "location": "In the space in front of the signer's chest.",
+          "nonmanual": "The signer's eyebrows are raised and her mouth is open, forming a shape consistent with the articulation of a word. The head is still.",
+          "non_dominant_hand": "The non-dominant hand is involved in the manual action, not acting as a separate nonmanual marker.",
+          "temporal_alignment": "The facial expression is synchronized with the manual signing, occurring in the middle of a continuous signed utterance."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression (raised eyebrows, open mouth) is a standard nonmanual marker in sign languages for grammatical aspect or mood, contributing syntactic structure. The same expression adds emphasis and a sense of assertion, contributing pragmatically."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

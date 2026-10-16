@@ -1,0 +1,36 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "manual",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S01EP11",
+  "source_run": "C19__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 1,
+    "depiction": 1
+  },
+  "description_sent": "- handshape: index finger extended, other fingers curled\n- movement: index finger moves from near the signer's chin, sweeps outward and slightly upward, then moves forward and downward in a smooth arc\n- location: starts near the chin, moves to the right side of the signer's face, then forward and downward\n- nonmanual: signer's mouth is open and moving, eyes are focused forward\n- non dominant hand: resting at the signer's side\n- temporal alignment: the action begins immediately after a brief pause and is followed by a more complex hand movement",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:13:59.521324",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 2,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 3,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.9,\n  \"reasoning\": \"The action uses a conventionalized index finger handshape and movement pattern that likely encodes a referential or emphatic function, possibly indicating 'students' or 'those who' in the context of the utterance. The movement and nonmanual features suggest affective emphasis or depiction of addressing a group. While it contributes substantively to the grammatical structure (e.g., marking the subject or object), it does not fundamentally alter the core meaning. The depiction score is moderate because it enacts a gesture that visually represents the referent, but not in a highly detailed or mimetic way.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 3,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.9,
+    "reasoning": "The action uses a conventionalized index finger handshape and movement pattern that likely encodes a referential or emphatic function, possibly indicating 'students' or 'those who' in the context of the utterance. The movement and nonmanual features suggest affective emphasis or depiction of addressing a group. While it contributes substantively to the grammatical structure (e.g., marking the subject or object), it does not fundamentally alter the core meaning. The depiction score is moderate because it enacts a gesture that visually represents the referent, but not in a highly detailed or mimetic way."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

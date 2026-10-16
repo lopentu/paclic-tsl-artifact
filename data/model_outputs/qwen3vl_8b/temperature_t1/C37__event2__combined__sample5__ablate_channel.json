@@ -1,0 +1,55 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 744044871,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:20:45.881993",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand in a flat, open palm shape; left hand in a similar open palm shape\",\n        \"movement\": \"right hand moves in a smooth, downward arc from the signer's right shoulder/chest area, passing in front of the torso, while the left hand remains relatively stationary or makes a small adjustment\",\n        \"location\": \"right hand begins near the signer's right shoulder/chest and moves downward to the mid-chest level; left hand remains near the signer's left chest\",\n        \"nonmanual\": \"signer's face is neutral, mouth slightly open, eyes focused forward\",\n        \"non_dominant_hand\": \"left hand remains relatively stationary, palm facing inward, at chest level\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing unit, following a prior pointing gesture and preceding a more complex hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The movement of the right hand from the chest downward, combined with the left hand's stationary position, forms a conventionalized sign in TSL that typically indicates a 'process' or 'action' taking place. The context of the surrounding signing, which discusses communication difficulties, suggests this action represents the act of 'communicating' or 'signing' itself. The smooth, continuous motion adds a sense of flow or routine to the action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand in a flat, open palm shape; left hand in a similar open palm shape",
+          "movement": "right hand moves in a smooth, downward arc from the signer's right shoulder/chest area, passing in front of the torso, while the left hand remains relatively stationary or makes a small adjustment",
+          "location": "right hand begins near the signer's right shoulder/chest and moves downward to the mid-chest level; left hand remains near the signer's left chest",
+          "nonmanual": "signer's face is neutral, mouth slightly open, eyes focused forward",
+          "non_dominant_hand": "left hand remains relatively stationary, palm facing inward, at chest level",
+          "temporal_alignment": "the action occurs within a continuous signing unit, following a prior pointing gesture and preceding a more complex hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The movement of the right hand from the chest downward, combined with the left hand's stationary position, forms a conventionalized sign in TSL that typically indicates a 'process' or 'action' taking place. The context of the surrounding signing, which discusses communication difficulties, suggests this action represents the act of 'communicating' or 'signing' itself. The smooth, continuous motion adds a sense of flow or routine to the action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

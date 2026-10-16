@@ -1,0 +1,50 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C01_window_model.mp4",
+  "video_id": "S01EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:25:25.389430",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"1.1\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are used.\",\n          \"handshape\": \"Both hands are open, with the thumb and index finger forming a C-shape, and the other three fingers extended upwards.\",\n          \"movement\": \"The right hand moves from the signer's right side, across the chest, to the left side. The left hand moves from the signer's left side, across the chest, to the right side. The hands then meet in the center of the chest, and the right hand moves down towards the signer's right side while the left hand moves up towards the signer's left side.\",\n          \"location\": \"The action is centered on the signer's upper body, moving across the chest and then to the sides.\",\n          \"nonmanual\": \"The head is tilted slightly to the signer's right. The eyebrows are slightly raised.\",\n          \"non_dominant_hand\": \"The non-dominant hand (left hand) is involved in the same coordinated movement as the dominant hand.\",\n          \"temporal_alignment\": \"The action is a continuous, fluid movement that bridges the end of one manual sign and the beginning of the next, forming a single unit within a larger phrase.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The coordinated, symmetrical movement of both hands across the chest is a conventional grammatical marker in TSL, likely indicating a temporal or sequential relationship in the sentence structure. The same movement is repeated in the surrounding context, suggesting it's a grammatical unit. The movement also spatially indexes the 'nation' (國家) being discussed.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "Both hands are open, with the thumb and index finger forming a C-shape, and the other three fingers extended upwards.",
+          "movement": "The right hand moves from the signer's right side, across the chest, to the left side. The left hand moves from the signer's left side, across the chest, to the right side. The hands then meet in the center of the chest, and the right hand moves down towards the signer's right side while the left hand moves up towards the signer's left side.",
+          "location": "The action is centered on the signer's upper body, moving across the chest and then to the sides.",
+          "nonmanual": "The head is tilted slightly to the signer's right. The eyebrows are slightly raised.",
+          "non_dominant_hand": "The non-dominant hand (left hand) is involved in the same coordinated movement as the dominant hand.",
+          "temporal_alignment": "The action is a continuous, fluid movement that bridges the end of one manual sign and the beginning of the next, forming a single unit within a larger phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The coordinated, symmetrical movement of both hands across the chest is a conventional grammatical marker in TSL, likely indicating a temporal or sequential relationship in the sentence structure. The same movement is repeated in the surrounding context, suggesting it's a grammatical unit. The movement also spatially indexes the 'nation' (國家) being discussed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

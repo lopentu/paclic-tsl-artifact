@@ -1,0 +1,61 @@
+{
+  "clip_id": "C11",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C11_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T18:57:33.705258",
+  "backend_call_info": {
+    "frames_per_video": [
+      86,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.8611,
+      15.2575
+    ],
+    "input_tokens": 11114,
+    "output_tokens": 314
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand and non-dominant hand\",\n        \"handshape\": \"dominant hand in a loose fist, non-dominant hand in a loose fist\",\n        \"movement\": \"dominant hand moves from forward to near the non-dominant hand, then both hands move together in a forward motion\",\n        \"location\": \"forward in front of the signer\",\n        \"nonmanual\": \"neutral facial expression\",\n        \"non_dominant_hand\": \"remains relatively still, supporting the dominant hand\",\n        \"temporal_alignment\": \"part of a longer signing sequence, occurring between other signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action shows a dominant hand moving from forward to near the non-dominant hand, then both hands moving together in a forward motion, which is consistent with a lexical sign for 'also' or 'too' in the context of the sentence.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand and non-dominant hand",
+          "handshape": "dominant hand in a loose fist, non-dominant hand in a loose fist",
+          "movement": "dominant hand moves from forward to near the non-dominant hand, then both hands move together in a forward motion",
+          "location": "forward in front of the signer",
+          "nonmanual": "neutral facial expression",
+          "non_dominant_hand": "remains relatively still, supporting the dominant hand",
+          "temporal_alignment": "part of a longer signing sequence, occurring between other signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action shows a dominant hand moving from forward to near the non-dominant hand, then both hands moving together in a forward motion, which is consistent with a lexical sign for 'also' or 'too' in the context of the sentence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

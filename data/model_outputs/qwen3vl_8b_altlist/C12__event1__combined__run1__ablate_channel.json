@@ -1,0 +1,49 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C12_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:45:12.523353",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled\",\n        \"movement\": \"right hand moves in a small circular motion around the left hand's index finger, then moves downward and slightly outward\",\n        \"location\": \"center of signer's chest, near the throat\",\n        \"nonmanual\": \"signer's mouth is slightly open, lips pursed, and eyebrows are slightly raised\",\n        \"non_dominant_hand\": \"left hand remains relatively still, with the index finger extended and pointing upward\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture of surprise and preceding a gesture of pointing\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The manual action involves both hands, with the right hand moving in a circular motion around the left hand's index finger, which is extended and pointing upward. This gesture is a conventionalized sign in TSL that conveys the idea of 'also' or 'in addition,' which is semantically necessary for the clause '也和你的基本語言能力有關' (also related to your basic language ability). The gesture is also pragmatically enriched, as the signer's facial expression (slightly open mouth, pursed lips, raised eyebrows) and the movement of the hands together create a sense of emphasis and slight surprise, which is appropriate for the discourse context of discussing the importance of language ability for interpretation.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled",
+          "movement": "right hand moves in a small circular motion around the left hand's index finger, then moves downward and slightly outward",
+          "location": "center of signer's chest, near the throat",
+          "nonmanual": "signer's mouth is slightly open, lips pursed, and eyebrows are slightly raised",
+          "non_dominant_hand": "left hand remains relatively still, with the index finger extended and pointing upward",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture of surprise and preceding a gesture of pointing"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The manual action involves both hands, with the right hand moving in a circular motion around the left hand's index finger, which is extended and pointing upward. This gesture is a conventionalized sign in TSL that conveys the idea of 'also' or 'in addition,' which is semantically necessary for the clause '也和你的基本語言能力有關' (also related to your basic language ability). The gesture is also pragmatically enriched, as the signer's facial expression (slightly open mouth, pursed lips, raised eyebrows) and the movement of the hands together create a sense of emphasis and slight surprise, which is appropriate for the discourse context of discussing the importance of language ability for interpretation."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

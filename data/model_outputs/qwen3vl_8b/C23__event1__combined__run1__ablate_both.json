@@ -1,0 +1,48 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C23_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:25:32.206585",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used, with the right hand moving toward the left hand.\",\n        \"handshape\": \"Right hand is in a flat, open palm shape; left hand is in a flat, open palm shape.\",\n        \"movement\": \"The right hand moves from the signer's right side toward the left hand, which remains relatively stationary. The right hand then moves slightly upward and inward, as if presenting or offering something.\",\n        \"location\": \"Both hands are in front of the signer's chest, at midline.\",\n        \"nonmanual\": \"The signer's mouth is open and moving, indicating speech or emphasis.\",\n        \"non_dominant_hand\": \"The left hand remains relatively stationary, serving as a base or target for the right hand's movement.\",\n        \"temporal_alignment\": \"The action begins with the right hand moving toward the left hand and ends with the right hand moving slightly upward and inward, while the signer's mouth is open and moving.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The right hand moves toward the left hand, suggesting a directional or presentational action. The signer's open mouth and facial expression suggest emphasis or explanation, indicating a semantic contribution. The movement of the right hand toward the left hand is a conventionalized gesture that conveys a directional or presentational meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used, with the right hand moving toward the left hand.",
+          "handshape": "Right hand is in a flat, open palm shape; left hand is in a flat, open palm shape.",
+          "movement": "The right hand moves from the signer's right side toward the left hand, which remains relatively stationary. The right hand then moves slightly upward and inward, as if presenting or offering something.",
+          "location": "Both hands are in front of the signer's chest, at midline.",
+          "nonmanual": "The signer's mouth is open and moving, indicating speech or emphasis.",
+          "non_dominant_hand": "The left hand remains relatively stationary, serving as a base or target for the right hand's movement.",
+          "temporal_alignment": "The action begins with the right hand moving toward the left hand and ends with the right hand moving slightly upward and inward, while the signer's mouth is open and moving."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The right hand moves toward the left hand, suggesting a directional or presentational action. The signer's open mouth and facial expression suggest emphasis or explanation, indicating a semantic contribution. The movement of the right hand toward the left hand is a conventionalized gesture that conveys a directional or presentational meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C02",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP02",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1734184622,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:22:50.264185",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"extends index finger upward and forward, then points it toward the signer's own head\",\n        \"location\": \"starts near chest, moves upward to point to the signer's forehead\",\n        \"nonmanual\": \"smiling facial expression\",\n        \"non_dominant_hand\": \"resting, slightly open, at the signer's side\",\n        \"temporal_alignment\": \"begins immediately after the signer's initial open-palm gesture, and precedes a subsequent gesture of bringing the hand to the chin\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action of pointing the index finger to the head is a conventionalized sign in TSL for 'head' or 'thinking', directly linking to the discourse about communicating with deaf people. The strong affective component (smile) and the gesture's vivid depiction of the concept of 'head' or 'thinking' enhance the message about the difficulty of communication without shared language.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "extends index finger upward and forward, then points it toward the signer's own head",
+          "location": "starts near chest, moves upward to point to the signer's forehead",
+          "nonmanual": "smiling facial expression",
+          "non_dominant_hand": "resting, slightly open, at the signer's side",
+          "temporal_alignment": "begins immediately after the signer's initial open-palm gesture, and precedes a subsequent gesture of bringing the hand to the chin"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action of pointing the index finger to the head is a conventionalized sign in TSL for 'head' or 'thinking', directly linking to the discourse about communicating with deaf people. The strong affective component (smile) and the gesture's vivid depiction of the concept of 'head' or 'thinking' enhance the message about the difficulty of communication without shared language."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

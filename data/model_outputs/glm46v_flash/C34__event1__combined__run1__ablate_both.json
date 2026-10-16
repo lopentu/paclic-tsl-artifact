@@ -1,0 +1,61 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C34_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:16:20.848020",
+  "backend_call_info": {
+    "frames_per_video": [
+      124,
+      24
+    ],
+    "sampled_fps_per_video": [
+      15.8816,
+      15.984
+    ],
+    "input_tokens": 15552,
+    "output_tokens": 291
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"1.10\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, thumb tucked\",\n        \"movement\": \"moves from near the mouth/chin area forward and outward in a straight line\",\n        \"location\": \"from the signer's midface/chest area forward and outward\",\n        \"nonmanual\": \"mouth opens and closes, head slightly tilts forward\",\n        \"non_dominant_hand\": \"rests at the side\",\n        \"temporal_alignment\": \"initiates after a brief pause, part of a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand extends forward from the face, moving in a linear path, while the mouth opens and closes, indicating a lexical sign with a forward-pointing movement that contributes to propositional content and affective emphasis.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "1.10",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, thumb tucked",
+          "movement": "moves from near the mouth/chin area forward and outward in a straight line",
+          "location": "from the signer's midface/chest area forward and outward",
+          "nonmanual": "mouth opens and closes, head slightly tilts forward",
+          "non_dominant_hand": "rests at the side",
+          "temporal_alignment": "initiates after a brief pause, part of a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand extends forward from the face, moving in a linear path, while the mouth opens and closes, indicating a lexical sign with a forward-pointing movement that contributes to propositional content and affective emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

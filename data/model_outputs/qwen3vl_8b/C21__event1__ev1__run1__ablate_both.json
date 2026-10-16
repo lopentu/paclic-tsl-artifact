@@ -1,0 +1,48 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:22:46.017582",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"index finger of the right hand (dominant hand) is raised to the lips, then held steady\",\n        \"location\": \"right side of the face, near the mouth\",\n        \"nonmanual\": \"mouth slightly open, eyes looking forward\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action begins at 0.3s and remains steady until 1.2s, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer holds her index finger to her lips, a gesture commonly used to indicate silence or to signal 'wait' or 'be quiet'. This is a conventionalized sign in TSL. The gesture is held steady, suggesting emphasis or a pause in the discourse, which adds pragmatic enrichment to the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "index finger of the right hand (dominant hand) is raised to the lips, then held steady",
+          "location": "right side of the face, near the mouth",
+          "nonmanual": "mouth slightly open, eyes looking forward",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action begins at 0.3s and remains steady until 1.2s, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer holds her index finger to her lips, a gesture commonly used to indicate silence or to signal 'wait' or 'be quiet'. This is a conventionalized sign in TSL. The gesture is held steady, suggesting emphasis or a pause in the discourse, which adds pragmatic enrichment to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

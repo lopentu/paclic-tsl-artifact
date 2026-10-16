@@ -1,0 +1,55 @@
+{
+  "clip_id": "C10",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1957099223,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:40:30.940060",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"moves from near the ear upward and forward, then extends straight out\",\n        \"location\": \"begins near the signer's right ear, moves to the front\",\n        \"nonmanual\": \"neutral facial expression\",\n        \"non_dominant_hand\": \"not visible or inactive\",\n        \"temporal_alignment\": \"starts immediately after the hand touches the ear, ends before the hand moves inward toward the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement pattern are a conventionalized lexical sign in TSL, not just a gesture. The upward motion from the ear to the front is characteristic of the sign for 'teacher' or 'instructor', which is part of the core semantic content of '跟一位好的手語老師'. The movement visually enacts the concept of someone who teaches or guides, adding vividness and depictive force to the referent.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "moves from near the ear upward and forward, then extends straight out",
+          "location": "begins near the signer's right ear, moves to the front",
+          "nonmanual": "neutral facial expression",
+          "non_dominant_hand": "not visible or inactive",
+          "temporal_alignment": "starts immediately after the hand touches the ear, ends before the hand moves inward toward the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement pattern are a conventionalized lexical sign in TSL, not just a gesture. The upward motion from the ear to the front is characteristic of the sign for 'teacher' or 'instructor', which is part of the core semantic content of '跟一位好的手語老師'. The movement visually enacts the concept of someone who teaches or guides, adding vividness and depictive force to the referent."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1025384066,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:15:16.811229",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"the signer's index finger is brought to the lips and held there, with the mouth slightly closed and the eyes looking forward\",\n        \"location\": \"the finger is positioned at the corner of the mouth\",\n        \"nonmanual\": \"the signer holds a steady, thoughtful facial expression with the finger to the lips\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action begins immediately after a gesture of placing a hand on the chest and occurs before the signer resumes signing with both hands\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer holds the finger to the lips while maintaining a focused expression, which visually emphasizes a sense of contemplation or reflection. The gesture is sustained through the entire target span, suggesting it is a deliberate, affective marker rather than a simple lexical sign.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "the signer's index finger is brought to the lips and held there, with the mouth slightly closed and the eyes looking forward",
+          "location": "the finger is positioned at the corner of the mouth",
+          "nonmanual": "the signer holds a steady, thoughtful facial expression with the finger to the lips",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action begins immediately after a gesture of placing a hand on the chest and occurs before the signer resumes signing with both hands"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer holds the finger to the lips while maintaining a focused expression, which visually emphasizes a sense of contemplation or reflection. The gesture is sustained through the entire target span, suggesting it is a deliberate, affective marker rather than a simple lexical sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

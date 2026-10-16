@@ -1,0 +1,56 @@
+{
+  "clip_id": "C11",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C11_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C11_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:45:01.713476",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand forms a fist, dominant hand moves\",\n        \"handshape\": \"non-dominant hand is a closed fist\",\n        \"movement\": \"non-dominant hand moves from near the chest to the side\",\n        \"location\": \"non-dominant hand moves from chest level to the side\",\n        \"nonmanual\": \"neutral facial expression\",\n        \"non_dominant_hand\": \"fist movement from chest to side\",\n        \"temporal_alignment\": \"part of a longer signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand forms a fist and moves from the chest to the side between 0.3 and 0.5 seconds, contributing to the overall signing sequence.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand forms a fist, dominant hand moves",
+          "handshape": "non-dominant hand is a closed fist",
+          "movement": "non-dominant hand moves from near the chest to the side",
+          "location": "non-dominant hand moves from chest level to the side",
+          "nonmanual": "neutral facial expression",
+          "non_dominant_hand": "fist movement from chest to side",
+          "temporal_alignment": "part of a longer signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand forms a fist and moves from the chest to the side between 0.3 and 0.5 seconds, contributing to the overall signing sequence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

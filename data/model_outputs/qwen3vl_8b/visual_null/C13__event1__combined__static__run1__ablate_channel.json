@@ -1,0 +1,53 @@
+{
+  "clip_id": "C13",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/static/C13_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C13_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:45:45.934316",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand (right) and non-dominant hand (left)\",\n        \"handshape\": \"dominant hand: open palm, fingers slightly spread; non-dominant hand: index finger extended\",\n        \"movement\": \"dominant hand remains relatively still with palm facing forward; non-dominant hand's index finger points forward and slightly downward, maintaining a steady position\",\n        \"location\": \"dominant hand positioned near the signer's right shoulder; non-dominant hand positioned near the signer's left shoulder, pointing forward\",\n        \"nonmanual\": \"signer's eyes are closed, head is slightly tilted forward\",\n        \"non_dominant_hand\": \"index finger extended and pointing forward, remaining steady\",\n        \"temporal_alignment\": \"the action occurs within a sustained hold, framed by the broader signing context where both hands are held in a similar position\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The steady, forward-pointing index finger of the non-dominant hand, combined with the closed eyes and forward head tilt, creates a focused, emphatic gesture that visually reinforces the meaning of 'believing' or 'trusting' within the phrase. The sustained hold suggests a deliberate, weighty emphasis on the concept being conveyed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand (right) and non-dominant hand (left)",
+          "handshape": "dominant hand: open palm, fingers slightly spread; non-dominant hand: index finger extended",
+          "movement": "dominant hand remains relatively still with palm facing forward; non-dominant hand's index finger points forward and slightly downward, maintaining a steady position",
+          "location": "dominant hand positioned near the signer's right shoulder; non-dominant hand positioned near the signer's left shoulder, pointing forward",
+          "nonmanual": "signer's eyes are closed, head is slightly tilted forward",
+          "non_dominant_hand": "index finger extended and pointing forward, remaining steady",
+          "temporal_alignment": "the action occurs within a sustained hold, framed by the broader signing context where both hands are held in a similar position"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The steady, forward-pointing index finger of the non-dominant hand, combined with the closed eyes and forward head tilt, creates a focused, emphatic gesture that visually reinforces the meaning of 'believing' or 'trusting' within the phrase. The sustained hold suggests a deliberate, weighty emphasis on the concept being conveyed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

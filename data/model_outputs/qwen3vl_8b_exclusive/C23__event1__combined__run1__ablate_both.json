@@ -1,0 +1,49 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C23_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:27:01.062803",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: open palm, fingers slightly spread\",\n        \"movement\": \"right hand moves from near the signer's chin toward the left hand, then both hands move outward and slightly upward, palms facing up, fingers spread\",\n        \"location\": \"initially near the signer's face, then moving outward to chest level\",\n        \"nonmanual\": \"signer's mouth opens wide at 1.2s, eyes close at 1.2s\",\n        \"non_dominant_hand\": \"left hand remains open-palmed and moves outward with the right hand\",\n        \"temporal_alignment\": \"the action begins with the right hand moving toward the left hand, and ends with both hands moving outward and upward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move from near the face outward, a common motion for lexical signs in TSL. The simultaneous opening of the mouth and closing of the eyes at 1.2s suggests an affective or emphatic component, which is supported by the outward movement of the hands.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: open palm, fingers slightly spread",
+          "movement": "right hand moves from near the signer's chin toward the left hand, then both hands move outward and slightly upward, palms facing up, fingers spread",
+          "location": "initially near the signer's face, then moving outward to chest level",
+          "nonmanual": "signer's mouth opens wide at 1.2s, eyes close at 1.2s",
+          "non_dominant_hand": "left hand remains open-palmed and moves outward with the right hand",
+          "temporal_alignment": "the action begins with the right hand moving toward the left hand, and ends with both hands moving outward and upward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move from near the face outward, a common motion for lexical signs in TSL. The simultaneous opening of the mouth and closing of the eyes at 1.2s suggests an affective or emphatic component, which is supported by the outward movement of the hands."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

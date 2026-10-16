@@ -1,0 +1,61 @@
+{
+  "clip_id": "C04",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C04_window_model.mp4",
+  "video_id": "S01EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T18:51:41.029422",
+  "backend_call_info": {
+    "frames_per_video": [
+      58,
+      20
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      14.985
+    ],
+    "input_tokens": 9071,
+    "output_tokens": 258
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"1.00\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"no hands visible\",\n        \"handshape\": \"no handshape\",\n        \"movement\": \"no movement\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"mouth opens and closes, then purses into a thin line\",\n        \"non_dominant_hand\": \"resting on chest\",\n        \"temporal_alignment\": \"occurs during a pause between manual signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action is a facial expression with mouth opening and closing followed by a pursed mouth, occurring during a pause between manual signs, which is typical for expressing emphasis or affect in TSL.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "1.00",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "no hands visible",
+          "handshape": "no handshape",
+          "movement": "no movement",
+          "location": "center of face",
+          "nonmanual": "mouth opens and closes, then purses into a thin line",
+          "non_dominant_hand": "resting on chest",
+          "temporal_alignment": "occurs during a pause between manual signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action is a facial expression with mouth opening and closing followed by a pursed mouth, occurring during a pause between manual signs, which is typical for expressing emphasis or affect in TSL."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,56 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "head_torso",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C22_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C22_window_model.mp4",
+  "video_id": "S01EP12",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:56:21.415886",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand clasped over dominant hand\",\n        \"handshape\": \"clenched fist over open hand\",\n        \"movement\": \"static, held position\",\n        \"location\": \"in front of torso, midline\",\n        \"nonmanual\": \"neutral facial expression, head slightly forward\",\n        \"non_dominant_hand\": \"clenched fist\",\n        \"temporal_alignment\": \"pauses between longer manual gestures\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action shows a non-dominant hand forming a clenched fist over the dominant hand, held still for a brief pause, which is a common TSL grammatical marker for emphasis or a pause in discourse.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "non-dominant hand clasped over dominant hand",
+          "handshape": "clenched fist over open hand",
+          "movement": "static, held position",
+          "location": "in front of torso, midline",
+          "nonmanual": "neutral facial expression, head slightly forward",
+          "non_dominant_hand": "clenched fist",
+          "temporal_alignment": "pauses between longer manual gestures"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action shows a non-dominant hand forming a clenched fist over the dominant hand, held still for a brief pause, which is a common TSL grammatical marker for emphasis or a pause in discourse."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

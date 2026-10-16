@@ -1,0 +1,55 @@
+{
+  "clip_id": "C31",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1975963758,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:03:21.119830",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression with slight head tilt and raised eyebrows\",\n        \"location\": \"face\",\n        \"nonmanual\": \"raised eyebrows and slight head tilt\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during a sustained signing stretch, synchronized with the signer's verbal expression\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's raised eyebrows and slight head tilt occur during the signing of '想太多實在是不好！' (overthinking is really not good!), conveying an expression of disapproval or warning. The facial expression is sustained and coordinated with the signing, indicating it's an integral part of the grammatical or pragmatic structure, not just affective embellishment. The raised eyebrows specifically signal emphasis or negation, contributing to the propositional content about the negative consequence of overthinking.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression with slight head tilt and raised eyebrows",
+          "location": "face",
+          "nonmanual": "raised eyebrows and slight head tilt",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during a sustained signing stretch, synchronized with the signer's verbal expression"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's raised eyebrows and slight head tilt occur during the signing of '想太多實在是不好！' (overthinking is really not good!), conveying an expression of disapproval or warning. The facial expression is sustained and coordinated with the signing, indicating it's an integral part of the grammatical or pragmatic structure, not just affective embellishment. The raised eyebrows specifically signal emphasis or negation, contributing to the propositional content about the negative consequence of overthinking."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "manual",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T12:16:29.923885",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"flat hand, palm facing up\",\n        \"movement\": \"rising motion from lower chest to upper chest level, with slight wrist flick\",\n        \"location\": \"centered in front of torso, moving upward\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"resting at side, not involved\",\n        \"temporal_alignment\": \"starts with a prior sign, ends before next sign begins, spans a single lexical unit\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The upward motion of the flat hand matches a lexical sign for 'good' or 'excellent' in TSL, contributing to the positive evaluation in the clause. The movement is not depictive or deictic, but the upward trajectory adds emphasis and affective weight to the positive sentiment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "flat hand, palm facing up",
+          "movement": "rising motion from lower chest to upper chest level, with slight wrist flick",
+          "location": "centered in front of torso, moving upward",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "resting at side, not involved",
+          "temporal_alignment": "starts with a prior sign, ends before next sign begins, spans a single lexical unit"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The upward motion of the flat hand matches a lexical sign for 'good' or 'excellent' in TSL, contributing to the positive evaluation in the clause. The movement is not depictive or deictic, but the upward trajectory adds emphasis and affective weight to the positive sentiment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

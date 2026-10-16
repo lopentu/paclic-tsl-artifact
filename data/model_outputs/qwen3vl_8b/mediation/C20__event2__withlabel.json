@@ -1,0 +1,36 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "manual",
+  "label_channel_sent": "manual",
+  "label_is_correct": true,
+  "video_id": "S01EP11",
+  "source_run": "C20__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: right hand forms a 'V' or 'peace' sign, left hand forms a 'V' or 'peace' sign\n- movement: both hands move from the signer's chest area outward and upward, then the right hand moves slightly forward and downward while the left hand remains relatively stationary\n- location: initially near the signer's chest, then moving outward and upward\n- nonmanual: signer maintains a smiling facial expression\n- non dominant hand: left hand forms a 'V' or 'peace' sign, remains relatively stationary\n- temporal alignment: the action occurs within a continuous signing sequence, following a previous sign and preceding a subsequent sign",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:18:52.718912",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 2,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The action uses a 'V' handshape moving outward and upward, often associated with positive affirmation or encouragement in Taiwan Sign Language, which aligns with the utterance's meaning of 'you will also be able to pass the exam.' The smiling facial expression and hand movement enhance the affective tone, conveying confidence and reassurance. While not essential to the grammatical structure, it significantly enriches the pragmatic and depictive layers. The action is not indicating a specific referent or location, nor is it a fully conventionalized description sign, but it does depict a gesture of optimism.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 0,
+    "depiction": 2,
+    "confidence": 0.95,
+    "reasoning": "The action uses a 'V' handshape moving outward and upward, often associated with positive affirmation or encouragement in Taiwan Sign Language, which aligns with the utterance's meaning of 'you will also be able to pass the exam.' The smiling facial expression and hand movement enhance the affective tone, conveying confidence and reassurance. While not essential to the grammatical structure, it significantly enriches the pragmatic and depictive layers. The action is not indicating a specific referent or location, nor is it a fully conventionalized description sign, but it does depict a gesture of optimism."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

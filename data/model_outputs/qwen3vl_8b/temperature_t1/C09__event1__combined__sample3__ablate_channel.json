@@ -1,0 +1,55 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 440095737,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:39:59.674204",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a fist, left hand forms an open palm\",\n        \"movement\": \"right hand fist moves inward toward left hand's palm, then both hands move downward together in a sweeping motion\",\n        \"location\": \"initially at chest level, moving downward to the signer's lower torso\",\n        \"nonmanual\": \"signer's mouth is open and face is expressive\",\n        \"non_dominant_hand\": \"left hand is open and moves in coordination with the right hand\",\n        \"temporal_alignment\": \"the action begins with a hand movement at chest level and spans the duration of the clip's target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move in a coordinated, downward sweeping motion, which visually enacts the idea of something being 'insufficient' or 'falling short' (D2=3). The action's clear structure and the way it integrates with the surrounding signing suggest it carries a grammatical or semantic role in the discourse (D1=2).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a fist, left hand forms an open palm",
+          "movement": "right hand fist moves inward toward left hand's palm, then both hands move downward together in a sweeping motion",
+          "location": "initially at chest level, moving downward to the signer's lower torso",
+          "nonmanual": "signer's mouth is open and face is expressive",
+          "non_dominant_hand": "left hand is open and moves in coordination with the right hand",
+          "temporal_alignment": "the action begins with a hand movement at chest level and spans the duration of the clip's target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move in a coordinated, downward sweeping motion, which visually enacts the idea of something being 'insufficient' or 'falling short' (D2=3). The action's clear structure and the way it integrates with the surrounding signing suggest it carries a grammatical or semantic role in the discourse (D1=2)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

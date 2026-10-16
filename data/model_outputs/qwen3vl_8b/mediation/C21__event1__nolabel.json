@@ -1,0 +1,36 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "manual",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S01EP11",
+  "source_run": "C21__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: index finger extended, other fingers curled\n- movement: index finger moves from chin to lips, then holds steady\n- location: near the mouth, moving from chin to lips\n- nonmanual: eyes close, head slightly tilted\n- non dominant hand: resting at side\n- temporal alignment: occurs within a longer signing unit, following a gesture of placing hand on chest, and preceding a fist pump",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:14:15.874413",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.9,\n  \"reasoning\": \"The action depicts a gesture of touching the lips or chin, often associated with 'saying' or 'speaking,' which aligns with the utterance's topic of online resources being convenient for practice. It adds affective emphasis through the nonmanual cues (eyes closing, head tilt) and enactment (moving finger to lips), enhancing the speaker’s personal stance. It is not central to the propositional content but contributes to the vividness and emotional tone. The description is conventionalized as a 'speaking' or 'utterance' gesture, and it has a slight indication function by locating near the mouth. Removing it would not change core meaning but would reduce affective impact.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.9,
+    "reasoning": "The action depicts a gesture of touching the lips or chin, often associated with 'saying' or 'speaking,' which aligns with the utterance's topic of online resources being convenient for practice. It adds affective emphasis through the nonmanual cues (eyes closing, head tilt) and enactment (moving finger to lips), enhancing the speaker’s personal stance. It is not central to the propositional content but contributes to the vividness and emotional tone. The description is conventionalized as a 'speaking' or 'utterance' gesture, and it has a slight indication function by locating near the mouth. Removing it would not change core meaning but would reduce affective impact."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

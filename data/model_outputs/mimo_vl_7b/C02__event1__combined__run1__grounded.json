@@ -1,0 +1,50 @@
+{
+  "clip_id": "C02",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:19:31.792293",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.6\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands, palms down, fingers together and slightly spread.\",\n          \"handshape\": \"Fingertips together, thumb tucked in or alongside, resembling a 'knife' or 'flat finger' handshape.\",\n          \"movement\": \"A downward and slightly forward chopping or patting motion. The hands move from a higher position down towards the signer's lap area.\",\n          \"location\": \"In front of the signer's torso, at about chest height.\",\n          \"nonmanual\": \"The signer's head is upright and facing forward. The eyebrows are slightly raised.\",\n          \"non_dominant_hand\": \"The non-dominant hand is not clearly visible but appears to be in a relaxed, neutral position.\",\n          \"temporal_alignment\": \"The action is a single, distinct sign that occurs at the beginning of a new utterance, following a brief pause in signing.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 3,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The action is a clear, conventional TSL sign. The surrounding context suggests it's a grammatical or discourse marker for a new topic. The downward motion is emphatic.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands, palms down, fingers together and slightly spread.",
+          "handshape": "Fingertips together, thumb tucked in or alongside, resembling a 'knife' or 'flat finger' handshape.",
+          "movement": "A downward and slightly forward chopping or patting motion. The hands move from a higher position down towards the signer's lap area.",
+          "location": "In front of the signer's torso, at about chest height.",
+          "nonmanual": "The signer's head is upright and facing forward. The eyebrows are slightly raised.",
+          "non_dominant_hand": "The non-dominant hand is not clearly visible but appears to be in a relaxed, neutral position.",
+          "temporal_alignment": "The action is a single, distinct sign that occurs at the beginning of a new utterance, following a brief pause in signing."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The action is a clear, conventional TSL sign. The surrounding context suggests it's a grammatical or discourse marker for a new topic. The downward motion is emphatic."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

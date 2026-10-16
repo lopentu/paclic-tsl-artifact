@@ -1,0 +1,23 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Kai-Yang Peng, Pin-Er Chen, Shu-Kai Hsieh
+
+The model outputs in `data/model_outputs/`, the annotations in
+`data/reference_annotations/`, the analysis reports and tables in `data/results/`,
+and the clip manifests and source list are licensed under the Creative Commons
+Attribution 4.0 International License.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit. Credit is given by citing:
+
+    Kai-Yang Peng, Pin-Er Chen and Shu-Kai Hsieh. Naming Is Not Locating: A
+    Cue-Ablation Case Study of Metalinguistic Judgments about Taiwan Sign
+    Language in Two Vision-Language Models. PACLIC 2026.
+
+The full licence text is at https://creativecommons.org/licenses/by/4.0/legalcode
+and the summary at https://creativecommons.org/licenses/by/4.0/
+
+This licence covers only material authored by the copyright holders above. The
+source videos, their subtitles and the model checkpoints are governed by their
+own terms and are not licensed here. No video, frame or subtitle file is
+included in this repository.

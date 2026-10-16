@@ -1,0 +1,50 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:11:27.590110",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used.\",\n        \"handshape\": \"The dominant hand (on the signer's right) is a 'P' handshape (pinky and thumb extended, other fingers curled). The non-dominant hand (on the signer's left) is a 'S' handshape (palm up, fingers together and extended).\",\n        \"movement\": \"The dominant 'P' handshape moves downwards and slightly inward, towards the stationary 'S' handshape, in a repeated, gentle tapping or stroking motion.\",\n        \"location\": \"The action occurs in the space in front of the signer's torso, with the 'S' handshape held in the lower-middle area and the 'P' handshape moving towards it.\",\n        \"nonmanual\": \"The signer's facial expression is neutral to slightly positive, with a direct gaze at the camera. The head is still.\",\n        \"non_dominant_hand\": \"The non-dominant 'S' hand is held steady and open, palm up, serving as a base or target for the dominant hand.\",\n        \"temporal_alignment\": \"The target action is a brief, punctuated movement that occurs within a larger manual signing sequence. It is not a pause but a distinct movement within a continuous sign.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The specific, conventionalized two-handed movement is a core part of the TSL sign for '很棒' (great/excellent). The 'S' hand provides a base while the 'P' hand taps it, a depiction of something being 'good' or 'excellent'. The overall meaning 'this course is great' is supported by this action. The facial expression is neutral, but the movement itself is emphatic.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "The dominant hand (on the signer's right) is a 'P' handshape (pinky and thumb extended, other fingers curled). The non-dominant hand (on the signer's left) is a 'S' handshape (palm up, fingers together and extended).",
+          "movement": "The dominant 'P' handshape moves downwards and slightly inward, towards the stationary 'S' handshape, in a repeated, gentle tapping or stroking motion.",
+          "location": "The action occurs in the space in front of the signer's torso, with the 'S' handshape held in the lower-middle area and the 'P' handshape moving towards it.",
+          "nonmanual": "The signer's facial expression is neutral to slightly positive, with a direct gaze at the camera. The head is still.",
+          "non_dominant_hand": "The non-dominant 'S' hand is held steady and open, palm up, serving as a base or target for the dominant hand.",
+          "temporal_alignment": "The target action is a brief, punctuated movement that occurs within a larger manual signing sequence. It is not a pause but a distinct movement within a continuous sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The specific, conventionalized two-handed movement is a core part of the TSL sign for '很棒' (great/excellent). The 'S' hand provides a base while the 'P' hand taps it, a depiction of something being 'good' or 'excellent'. The overall meaning 'this course is great' is supported by this action. The facial expression is neutral, but the movement itself is emphatic."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

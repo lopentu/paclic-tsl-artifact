@@ -1,0 +1,55 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1679158745,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:01:02.701311",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly spread\",\n        \"movement\": \"right hand moves forward and slightly upward, palm facing forward, then both hands open outward and upward simultaneously; left hand remains relatively stationary with palm facing up\",\n        \"location\": \"initially near chest level, then both hands move outward and upward toward the signer's shoulders\",\n        \"nonmanual\": \"mouth opens wide, eyes close at 1.3s\",\n        \"non_dominant_hand\": \"left hand remains relatively stationary with palm up, serving as a stable base\",\n        \"temporal_alignment\": \"the action starts with the right hand moving forward and upward, and peaks with both hands moving outward and upward simultaneously\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The movement of both hands outward and upward, combined with the open mouth and closed eyes, strongly suggests an expression of surprise or revelation, which is a key part of the discourse meaning. The gesture is not a lexical sign but a conventionalized gesture that contributes to the overall meaning by conveying an emotional response.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly spread",
+          "movement": "right hand moves forward and slightly upward, palm facing forward, then both hands open outward and upward simultaneously; left hand remains relatively stationary with palm facing up",
+          "location": "initially near chest level, then both hands move outward and upward toward the signer's shoulders",
+          "nonmanual": "mouth opens wide, eyes close at 1.3s",
+          "non_dominant_hand": "left hand remains relatively stationary with palm up, serving as a stable base",
+          "temporal_alignment": "the action starts with the right hand moving forward and upward, and peaks with both hands moving outward and upward simultaneously"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The movement of both hands outward and upward, combined with the open mouth and closed eyes, strongly suggests an expression of surprise or revelation, which is a key part of the discourse meaning. The gesture is not a lexical sign but a conventionalized gesture that contributes to the overall meaning by conveying an emotional response."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C36_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:19:43.136494",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled\",\n        \"movement\": \"Right hand moves from right to left across the signer's face, then moves downward and outward. Left hand moves from left to right across the signer's face, then moves downward and outward.\",\n        \"location\": \"Right hand starts near the signer's right eye, moves across the face to the left side, then moves downward. Left hand starts near the signer's left eye, moves across the face to the right side, then moves downward.\",\n        \"nonmanual\": \"Signer's mouth opens wide at 0.7s, eyes widen, and head tilts slightly forward.\",\n        \"non_dominant_hand\": \"Left hand remains relatively still, with the index finger extended, until 0.7s, then moves downward and outward.\",\n        \"temporal_alignment\": \"The action begins with the right hand moving across the face and ends with the left hand moving downward and outward.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand movement across the face and downward motion visually represents the concept of 'witnesses' or 'people present' in the context of the sentence. The wide-open mouth and widened eyes convey a sense of surprise or emphasis, which is a common pragmatic enrichment in signing. The handshapes and movements are conventionalized signs that carry encoded meaning (description) and also indicate the presence of people (indication) while depicting their action (depiction).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled",
+          "movement": "Right hand moves from right to left across the signer's face, then moves downward and outward. Left hand moves from left to right across the signer's face, then moves downward and outward.",
+          "location": "Right hand starts near the signer's right eye, moves across the face to the left side, then moves downward. Left hand starts near the signer's left eye, moves across the face to the right side, then moves downward.",
+          "nonmanual": "Signer's mouth opens wide at 0.7s, eyes widen, and head tilts slightly forward.",
+          "non_dominant_hand": "Left hand remains relatively still, with the index finger extended, until 0.7s, then moves downward and outward.",
+          "temporal_alignment": "The action begins with the right hand moving across the face and ends with the left hand moving downward and outward."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hand movement across the face and downward motion visually represents the concept of 'witnesses' or 'people present' in the context of the sentence. The wide-open mouth and widened eyes convey a sense of surprise or emphasis, which is a common pragmatic enrichment in signing. The handshapes and movements are conventionalized signs that carry encoded meaning (description) and also indicate the presence of people (indication) while depicting their action (depiction)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1980246946,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:22:12.688954",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open hand, then transitions to a clenched fist\",\n        \"movement\": \"starts with an open hand moving from the side of the head toward the front, then clenches into a fist and moves downward slightly\",\n        \"location\": \"begins near the signer's right temple, moves to the front of the chest\",\n        \"nonmanual\": \"mouth opens wide, tongue sticks out briefly, then returns to a neutral expression\",\n        \"non_dominant_hand\": \"remains at the signer's side, not actively involved\",\n        \"temporal_alignment\": \"begins immediately after the initial gesture and ends before the signer brings both hands together\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The movement from head to chest with a clenched fist is a conventional sign for 'strength' or 'self-reliance', which directly relates to the meaning '我可以自立自強'. The facial expression (tongue out, then serious look) adds emphasis and affect, showing determination or defiance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open hand, then transitions to a clenched fist",
+          "movement": "starts with an open hand moving from the side of the head toward the front, then clenches into a fist and moves downward slightly",
+          "location": "begins near the signer's right temple, moves to the front of the chest",
+          "nonmanual": "mouth opens wide, tongue sticks out briefly, then returns to a neutral expression",
+          "non_dominant_hand": "remains at the signer's side, not actively involved",
+          "temporal_alignment": "begins immediately after the initial gesture and ends before the signer brings both hands together"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The movement from head to chest with a clenched fist is a conventional sign for 'strength' or 'self-reliance', which directly relates to the meaning '我可以自立自強'. The facial expression (tongue out, then serious look) adds emphasis and affect, showing determination or defiance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

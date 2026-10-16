@@ -1,0 +1,48 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C09_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:09:53.766244",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open hands, fingers spread\",\n        \"movement\": \"hands move from chest level upward and outward, then inward toward the chest, with a slight circular motion\",\n        \"location\": \"center of chest, moving upward and outward\",\n        \"nonmanual\": \"neutral facial expression, mouth slightly open\",\n        \"non_dominant_hand\": \"not clearly distinguishable as dominant/non-dominant, both hands are active\",\n        \"temporal_alignment\": \"the action begins at 0.3s, overlaps with the previous sign (0.0-0.3s) and is followed by a pointing gesture at 0.4s\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move from the chest outward and upward, a common gesture in TSL for expressing 'heart' or 'emotion'. The movement is repeated and sustained, suggesting it carries semantic weight. The gesture is not a simple point or depiction, but a conventionalized form that conveys an internal state or feeling, which is a clear semantic contribution. The outward motion adds affective enrichment, making the emotion more vivid.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open hands, fingers spread",
+          "movement": "hands move from chest level upward and outward, then inward toward the chest, with a slight circular motion",
+          "location": "center of chest, moving upward and outward",
+          "nonmanual": "neutral facial expression, mouth slightly open",
+          "non_dominant_hand": "not clearly distinguishable as dominant/non-dominant, both hands are active",
+          "temporal_alignment": "the action begins at 0.3s, overlaps with the previous sign (0.0-0.3s) and is followed by a pointing gesture at 0.4s"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move from the chest outward and upward, a common gesture in TSL for expressing 'heart' or 'emotion'. The movement is repeated and sustained, suggesting it carries semantic weight. The gesture is not a simple point or depiction, but a conventionalized form that conveys an internal state or feeling, which is a clear semantic contribution. The outward motion adds affective enrichment, making the emotion more vivid."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

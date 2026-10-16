@@ -1,0 +1,55 @@
+{
+  "clip_id": "C25",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1185109113,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:17:03.168868",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'thumb up' or 'pinch' shape; left hand forms a 'flat hand' or 'open palm' shape\",\n        \"movement\": \"right hand moves from near the signer's chin to the center of the chest, while left hand moves from the signer's left side to the center of the chest, with both hands moving toward each other and then away from each other in a rhythmic motion\",\n        \"location\": \"starts near the signer's chin and chest, moving to the center of the chest\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly serious, mouth is slightly open\",\n        \"non_dominant_hand\": \"left hand is used as a supporting hand, moving in coordination with the right hand\",\n        \"temporal_alignment\": \"the action starts at 0.3 seconds and ends at 0.7 seconds, and is part of a larger sequence of signing that includes the surrounding actions\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move toward each other and then away from each other in a rhythmic motion, which suggests a grammatical structure or a conceptual relationship. The facial expression is neutral to slightly serious, which adds emotional or pragmatic weight to the signing. The action is a conventionalized linguistic form that carries encoded meaning, as it is a lexical sign or a grammatical marker.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'thumb up' or 'pinch' shape; left hand forms a 'flat hand' or 'open palm' shape",
+          "movement": "right hand moves from near the signer's chin to the center of the chest, while left hand moves from the signer's left side to the center of the chest, with both hands moving toward each other and then away from each other in a rhythmic motion",
+          "location": "starts near the signer's chin and chest, moving to the center of the chest",
+          "nonmanual": "signer's facial expression is neutral to slightly serious, mouth is slightly open",
+          "non_dominant_hand": "left hand is used as a supporting hand, moving in coordination with the right hand",
+          "temporal_alignment": "the action starts at 0.3 seconds and ends at 0.7 seconds, and is part of a larger sequence of signing that includes the surrounding actions"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move toward each other and then away from each other in a rhythmic motion, which suggests a grammatical structure or a conceptual relationship. The facial expression is neutral to slightly serious, which adds emotional or pragmatic weight to the signing. The action is a conventionalized linguistic form that carries encoded meaning, as it is a lexical sign or a grammatical marker."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

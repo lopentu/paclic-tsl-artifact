@@ -1,0 +1,62 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C35_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:28:49.195583",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": 0.3,\n      \"end_time\": 1.1,\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"both index fingers move from a raised position toward each other and then apart, forming a 'V' shape and then opening\",\n        \"location\": \"forward and slightly upward in front of the signer\",\n        \"nonmanual\": \"mouth opens and closes, eyes widen\",\n        \"non_dominant_hand\": \"remains relatively still, supporting the dominant hand's movement\",\n        \"temporal_alignment\": \"part of a longer signing sequence, occurring between other manual signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action shows both hands with index fingers extended, moving in a 'V' shape and opening, accompanied by facial expressions, which likely conveys emphasis or a conceptual connection related to the meaning 'because the other party or police may not use sign language'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index finger extended",
+          "movement": "both index fingers move from a raised position toward each other and then apart, forming a 'V' shape and then opening",
+          "location": "forward and slightly upward in front of the signer",
+          "nonmanual": "mouth opens and closes, eyes widen",
+          "non_dominant_hand": "remains relatively still, supporting the dominant hand's movement",
+          "temporal_alignment": "part of a longer signing sequence, occurring between other manual signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action shows both hands with index fingers extended, moving in a 'V' shape and opening, accompanied by facial expressions, which likely conveys emphasis or a conceptual connection related to the meaning 'because the other party or police may not use sign language'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": [],
+  "schema_valid_strict": false,
+  "schema_errors_strict": [
+    "candidate_actions/0/end_time: 1.1 is not of type 'string'",
+    "candidate_actions/0/start_time: 0.3 is not of type 'string'"
+  ],
+  "post_hoc_normalization": "type-only, re-validated (the project design log 2026-10-09): candidate_actions/0/end_time -> string, candidate_actions/0/start_time -> string"
+}

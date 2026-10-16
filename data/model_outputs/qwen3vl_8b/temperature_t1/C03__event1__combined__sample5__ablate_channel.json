@@ -1,0 +1,55 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S01EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1328890662,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:38:36.796971",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"both fists move upward from the chest level to the eyes, then return to the chest level\",\n        \"location\": \"starts at chest level, moves to eye level, then returns to chest level\",\n        \"nonmanual\": \"face shows an expression of frustration or exasperation, eyebrows raised, mouth slightly open\",\n        \"non_dominant_hand\": \"not visible or not involved in the action\",\n        \"temporal_alignment\": \"the action occurs within the broader signing sequence, following a gesture indicating a comparison or contrast and preceding a gesture indicating a single point or item\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The fists moving to the eyes and back down visually represent the act of 'wiping away' or 'rubbing' tears or frustration, which conveys the emotional state of the signer. The action is clearly a gesture that adds affect and vividness to the signing, depicting the emotional reaction to the difference in teaching methods. The movement is a conventionalized form in sign language used to express emotional states.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "both fists move upward from the chest level to the eyes, then return to the chest level",
+          "location": "starts at chest level, moves to eye level, then returns to chest level",
+          "nonmanual": "face shows an expression of frustration or exasperation, eyebrows raised, mouth slightly open",
+          "non_dominant_hand": "not visible or not involved in the action",
+          "temporal_alignment": "the action occurs within the broader signing sequence, following a gesture indicating a comparison or contrast and preceding a gesture indicating a single point or item"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The fists moving to the eyes and back down visually represent the act of 'wiping away' or 'rubbing' tears or frustration, which conveys the emotional state of the signer. The action is clearly a gesture that adds affect and vividness to the signing, depicting the emotional reaction to the difference in teaching methods. The movement is a conventionalized form in sign language used to express emotional states."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

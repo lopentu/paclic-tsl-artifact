@@ -1,0 +1,55 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1663616119,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:16:30.127486",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled\",\n        \"movement\": \"right hand moves from right to left, then back to center; left hand remains relatively still, then moves slightly inward\",\n        \"location\": \"right hand moves from right side of signer's body to center; left hand remains near center\",\n        \"nonmanual\": \"signer's mouth is open, face is expressive\",\n        \"non_dominant_hand\": \"left hand is mostly stationary, then moves slightly inward\",\n        \"temporal_alignment\": \"the action occurs during the signing of '有部分口語者或老師、手語翻譯者', and is positioned between a previous sign and a following sign\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move in a way that visually represents the concept of 'some' or 'a portion', with the right hand making a motion from right to left, which is a common way to indicate a subset or part. The movement is clearly part of the grammatical structure of the sign, indicating the 'some' aspect of the referent. The motion also adds emphasis and vividness to the sign, making it more visually clear and impactful.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled",
+          "movement": "right hand moves from right to left, then back to center; left hand remains relatively still, then moves slightly inward",
+          "location": "right hand moves from right side of signer's body to center; left hand remains near center",
+          "nonmanual": "signer's mouth is open, face is expressive",
+          "non_dominant_hand": "left hand is mostly stationary, then moves slightly inward",
+          "temporal_alignment": "the action occurs during the signing of '有部分口語者或老師、手語翻譯者', and is positioned between a previous sign and a following sign"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move in a way that visually represents the concept of 'some' or 'a portion', with the right hand making a motion from right to left, which is a common way to indicate a subset or part. The movement is clearly part of the grammatical structure of the sign, indicating the 'some' aspect of the referent. The motion also adds emphasis and vividness to the sign, making it more visually clear and impactful."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

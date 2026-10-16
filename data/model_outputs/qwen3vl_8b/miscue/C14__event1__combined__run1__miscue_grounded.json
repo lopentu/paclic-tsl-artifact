@@ -1,0 +1,54 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "face",
+  "target_channel_cued": "manual",
+  "video_path": "<repo>/data/clips_c/C14_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C14_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:01:38.243081",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"2.3\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'pinch' or 'thumb-and-finger' shape; left hand forms a 'pinch' or 'thumb-and-finger' shape\",\n        \"movement\": \"right hand moves from the signer's right side to the left side, then down and back up; left hand moves from the signer's left side to the right side, then down and back up; both hands move in a coordinated, alternating motion, as if 'stroking' or 'rubbing' something\",\n        \"location\": \"both hands move across the signer's chest and torso, from right to left and back, then down and up\",\n        \"nonmanual\": \"signer's head and facial expression remain relatively neutral and focused\",\n        \"non_dominant_hand\": \"left hand moves in coordination with the right hand, mirroring its motion\",\n        \"temporal_alignment\": \"the action begins with the signer's hands moving from right to left across the chest, then down and back up, and continues with a rhythmic, alternating motion\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move in a coordinated, alternating motion across the chest, suggesting a rhythmic or repetitive action, which is consistent with the meaning of 'helping children communicate more smoothly'. The movement is not a simple lexical sign but a depictive action that enacts the idea of facilitating communication, which is a key part of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "2.3",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'pinch' or 'thumb-and-finger' shape; left hand forms a 'pinch' or 'thumb-and-finger' shape",
+          "movement": "right hand moves from the signer's right side to the left side, then down and back up; left hand moves from the signer's left side to the right side, then down and back up; both hands move in a coordinated, alternating motion, as if 'stroking' or 'rubbing' something",
+          "location": "both hands move across the signer's chest and torso, from right to left and back, then down and up",
+          "nonmanual": "signer's head and facial expression remain relatively neutral and focused",
+          "non_dominant_hand": "left hand moves in coordination with the right hand, mirroring its motion",
+          "temporal_alignment": "the action begins with the signer's hands moving from right to left across the chest, then down and back up, and continues with a rhythmic, alternating motion"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move in a coordinated, alternating motion across the chest, suggesting a rhythmic or repetitive action, which is consistent with the meaning of 'helping children communicate more smoothly'. The movement is not a simple lexical sign but a depictive action that enacts the idea of facilitating communication, which is a key part of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

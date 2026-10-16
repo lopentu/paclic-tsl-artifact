@@ -1,0 +1,50 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:23:02.955554",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.8\",\n        \"channel_judged\": \"face\",\n        \"form_description\": {\n          \"hands\": \"Both hands are in view, performing a sign.\",\n          \"handshape\": \"The right hand is a 'P' handshape (pinky and thumb extended). The left hand is a 'S' handshape (palm up, fingers together).\",\n          \"movement\": \"The right 'P' hand moves in a downward, slightly circular path from the signer's right shoulder area. The left 'S' hand is held steady.\",\n          \"location\": \"The right hand is in the signer's right upper chest/shoulder area. The left hand is in the signer's left upper chest area.\",\n          \"nonmanual\": \"The signer's eyebrows are raised and furrowed. The mouth is open and moving in sync with the hand motion. The head is still and facing forward.\",\n          \"non_dominant_hand\": \"The left hand is held steady in a specific location, acting as a 'base' or 'platform' for the dominant right hand.\",\n          \"temporal_alignment\": \"The facial expression is active and synchronized with the manual sign, spanning the duration of the sign.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The facial expression (furrowed brows, open mouth) is highly synchronized with the manual sign, suggesting it's integral to the meaning. The specific handshapes and their interaction are conventionalized, indicating a lexical sign. The left hand's role as a base is a grammatical feature in sign languages.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "Both hands are in view, performing a sign.",
+          "handshape": "The right hand is a 'P' handshape (pinky and thumb extended). The left hand is a 'S' handshape (palm up, fingers together).",
+          "movement": "The right 'P' hand moves in a downward, slightly circular path from the signer's right shoulder area. The left 'S' hand is held steady.",
+          "location": "The right hand is in the signer's right upper chest/shoulder area. The left hand is in the signer's left upper chest area.",
+          "nonmanual": "The signer's eyebrows are raised and furrowed. The mouth is open and moving in sync with the hand motion. The head is still and facing forward.",
+          "non_dominant_hand": "The left hand is held steady in a specific location, acting as a 'base' or 'platform' for the dominant right hand.",
+          "temporal_alignment": "The facial expression is active and synchronized with the manual sign, spanning the duration of the sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression (furrowed brows, open mouth) is highly synchronized with the manual sign, suggesting it's integral to the meaning. The specific handshapes and their interaction are conventionalized, indicating a lexical sign. The left hand's role as a base is a grammatical feature in sign languages."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

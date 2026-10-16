@@ -1,0 +1,61 @@
+{
+  "clip_id": "C08",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C08_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T17:07:10.238096",
+  "backend_call_info": {
+    "frames_per_video": [
+      84,
+      18
+    ],
+    "sampled_fps_per_video": [
+      15.7343,
+      15.984
+    ],
+    "input_tokens": 9525,
+    "output_tokens": 286
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00\",\n      \"end_time\": \"00:00\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"both\",\n        \"handshape\": \"open/cupped\",\n        \"movement\": \"slight outward movement\",\n        \"location\": \"in front of the body\",\n        \"nonmanual\": \"neutral\",\n        \"non_dominant_hand\": \"open/cupped, slightly raised\",\n        \"temporal_alignment\": \"part of a larger gesturing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand is open and slightly raised in a gesture accompanying the speech. This gesture seems to be used for emphasis or to frame the idea being expressed.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00",
+        "end_time": "00:00",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "both",
+          "handshape": "open/cupped",
+          "movement": "slight outward movement",
+          "location": "in front of the body",
+          "nonmanual": "neutral",
+          "non_dominant_hand": "open/cupped, slightly raised",
+          "temporal_alignment": "part of a larger gesturing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand is open and slightly raised in a gesture accompanying the speech. This gesture seems to be used for emphasis or to frame the idea being expressed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

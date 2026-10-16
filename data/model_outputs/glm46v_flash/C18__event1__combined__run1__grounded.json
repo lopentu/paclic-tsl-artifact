@@ -1,0 +1,61 @@
+{
+  "clip_id": "C18",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T19:20:44.438954",
+  "backend_call_info": {
+    "frames_per_video": [
+      60,
+      22
+    ],
+    "sampled_fps_per_video": [
+      15.7737,
+      15.6986
+    ],
+    "input_tokens": 9437,
+    "output_tokens": 261
+  },
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"1.10\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"open both hands forward, then bring them together in a cupping gesture\",\n        \"location\": \"forward in front of the body\",\n        \"nonmanual\": \"mouth moves as if speaking\",\n        \"non_dominant_hand\": \"moves in sync with the dominant hand\",\n        \"temporal_alignment\": \"part of a longer signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The hands move from open to cupped, a common depiction for 'time' or 'duration' in TSL, and the timing aligns with the phrase about spending a year.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "1.10",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palm",
+          "movement": "open both hands forward, then bring them together in a cupping gesture",
+          "location": "forward in front of the body",
+          "nonmanual": "mouth moves as if speaking",
+          "non_dominant_hand": "moves in sync with the dominant hand",
+          "temporal_alignment": "part of a longer signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The hands move from open to cupped, a common depiction for 'time' or 'duration' in TSL, and the timing aligns with the phrase about spending a year."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

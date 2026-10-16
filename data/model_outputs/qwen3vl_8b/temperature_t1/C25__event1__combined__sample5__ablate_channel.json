@@ -1,0 +1,55 @@
+{
+  "clip_id": "C25",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 832857327,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:16:12.493736",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a flat, open palm; left hand forms a flat, open palm\",\n        \"movement\": \"Right hand moves from the signer's right side toward the center of the chest, then left hand moves from the signer's left side toward the center of the chest, both hands meet in front of the chest and then separate outward\",\n        \"location\": \"Both hands start at the sides of the body, move inward toward the chest, then move outward again\",\n        \"nonmanual\": \"Signer's mouth is open, eyes are wide, and eyebrows are raised\",\n        \"non_dominant_hand\": \"The left hand follows the right hand's movement, mirroring it\",\n        \"temporal_alignment\": \"The action occurs during a pause in the signing, serving as a transitional gesture between previous and upcoming signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move toward the center of the chest, a gesture that often signifies 'center' or 'focus', which fits the context of discussing modern sign language that is 'different'. The open palms and wide eyes convey emphasis and affect, highlighting the contrast being discussed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a flat, open palm; left hand forms a flat, open palm",
+          "movement": "Right hand moves from the signer's right side toward the center of the chest, then left hand moves from the signer's left side toward the center of the chest, both hands meet in front of the chest and then separate outward",
+          "location": "Both hands start at the sides of the body, move inward toward the chest, then move outward again",
+          "nonmanual": "Signer's mouth is open, eyes are wide, and eyebrows are raised",
+          "non_dominant_hand": "The left hand follows the right hand's movement, mirroring it",
+          "temporal_alignment": "The action occurs during a pause in the signing, serving as a transitional gesture between previous and upcoming signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move toward the center of the chest, a gesture that often signifies 'center' or 'focus', which fits the context of discussing modern sign language that is 'different'. The open palms and wide eyes convey emphasis and affect, highlighting the contrast being discussed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

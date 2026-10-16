@@ -1,0 +1,55 @@
+{
+  "clip_id": "C32",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 554599479,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:03:55.659109",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers rise and fall in a repetitive up-and-down motion, with slight inward movement toward each other\",\n        \"location\": \"initially near the signer's chest, then moving outward slightly\",\n        \"nonmanual\": \"signer's head is slightly tilted forward, eyes focused on the listener\",\n        \"non_dominant_hand\": \"non-dominant hand (left) is held steady near the chest, fingers slightly curled\",\n        \"temporal_alignment\": \"the action begins immediately after the signer's previous manual gesture and is followed by a continuation of the same gesture pattern\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and repetitive up-and-down movement are characteristic of a lexical sign in TSL, likely representing 'two' or 'both' to emphasize the duality in the meaning 'different worlds'. The slight inward movement suggests a comparison or contrast, which aligns with the discourse meaning. The gesture is not a depiction or indication, but it adds emphasis and affect to the propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers rise and fall in a repetitive up-and-down motion, with slight inward movement toward each other",
+          "location": "initially near the signer's chest, then moving outward slightly",
+          "nonmanual": "signer's head is slightly tilted forward, eyes focused on the listener",
+          "non_dominant_hand": "non-dominant hand (left) is held steady near the chest, fingers slightly curled",
+          "temporal_alignment": "the action begins immediately after the signer's previous manual gesture and is followed by a continuation of the same gesture pattern"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and repetitive up-and-down movement are characteristic of a lexical sign in TSL, likely representing 'two' or 'both' to emphasize the duality in the meaning 'different worlds'. The slight inward movement suggests a comparison or contrast, which aligns with the discourse meaning. The gesture is not a depiction or indication, but it adds emphasis and affect to the propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

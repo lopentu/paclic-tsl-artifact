@@ -1,0 +1,55 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1800999133,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:26:42.805678",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves in a small circular motion, then points forward and slightly downward\",\n        \"location\": \"in front of the signer's chest, near the center of the frame\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly serious\",\n        \"non_dominant_hand\": \"the hand is the main articulator, moving independently from the dominant hand\",\n        \"temporal_alignment\": \"the action begins after a sign showing a number or count, and before the dominant hand begins a new gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement resemble a sign for 'say' or 'speak' in TSL, which is essential for the meaning '口譯要好' (interpretation needs to be good). The pointing motion adds emphasis and directs attention to the concept being discussed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves in a small circular motion, then points forward and slightly downward",
+          "location": "in front of the signer's chest, near the center of the frame",
+          "nonmanual": "signer's facial expression is neutral to slightly serious",
+          "non_dominant_hand": "the hand is the main articulator, moving independently from the dominant hand",
+          "temporal_alignment": "the action begins after a sign showing a number or count, and before the dominant hand begins a new gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement resemble a sign for 'say' or 'speak' in TSL, which is essential for the meaning '口譯要好' (interpretation needs to be good). The pointing motion adds emphasis and directs attention to the concept being discussed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

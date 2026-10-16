@@ -1,0 +1,36 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "manual",
+  "label_channel_sent": "manual",
+  "label_is_correct": true,
+  "video_id": "S04-3EP05",
+  "source_run": "C35__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 1,
+    "depiction": 1
+  },
+  "description_sent": "- handshape: index finger extended, other fingers curled\n- movement: moves from near the signer's face upward and slightly outward, then downward toward the forehead\n- location: starts near the signer's right eye, moves to the forehead\n- nonmanual: signer's facial expression is serious and focused\n- non dominant hand: held steady, index finger extended, pointing forward\n- temporal alignment: the action occurs within a continuous signing sequence, immediately following a gesture with both hands and preceding a gesture with the dominant hand moving toward the face",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:20:43.846865",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 2,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 3,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.9,\n  \"reasoning\": \"The gesture with the index finger moving from near the eye to the forehead, paired with a serious facial expression, likely encodes a conventionalized meaning related to 'because' or 'due to' (as in the utterance 'because the other party or police may not know sign language'), contributing substantively to the propositional content. The movement and expression add affective emphasis and vividness, enhancing the pragmatic force. It is a conventionalized description (description=3), with mild indication (pointing forward) and depiction (enacting a conceptual gesture).\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 3,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.9,
+    "reasoning": "The gesture with the index finger moving from near the eye to the forehead, paired with a serious facial expression, likely encodes a conventionalized meaning related to 'because' or 'due to' (as in the utterance 'because the other party or police may not know sign language'), contributing substantively to the propositional content. The movement and expression add affective emphasis and vividness, enhancing the pragmatic force. It is a conventionalized description (description=3), with mild indication (pointing forward) and depiction (enacting a conceptual gesture)."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

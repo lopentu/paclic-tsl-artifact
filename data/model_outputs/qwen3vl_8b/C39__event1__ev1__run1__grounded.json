@@ -1,0 +1,48 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:42:17.573466",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth opens wide, tongue protrudes, then retracts; facial expression shifts from intense to a slight smile\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"intense facial expression with open mouth and protruding tongue, followed by a slight smile\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with the signing of the phrase, starting with the mouth opening and ending with the smile\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The facial expression, particularly the open mouth and protruding tongue, visually emphasizes the speaker's determination and resilience, which aligns with the meaning 'I can be self-reliant and strong'. The shift to a smile at the end adds a positive, confident tone to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth opens wide, tongue protrudes, then retracts; facial expression shifts from intense to a slight smile",
+          "location": "center of face",
+          "nonmanual": "intense facial expression with open mouth and protruding tongue, followed by a slight smile",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with the signing of the phrase, starting with the mouth opening and ending with the smile"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The facial expression, particularly the open mouth and protruding tongue, visually emphasizes the speaker's determination and resilience, which aligns with the meaning 'I can be self-reliant and strong'. The shift to a smile at the end adds a positive, confident tone to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1243164180,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:14:21.937289",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"the signer's index finger is held to her lips, moving slightly\",\n        \"location\": \"on the signer's mouth\",\n        \"nonmanual\": \"the signer's eyes are slightly closed, then open, with a thoughtful expression\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action occurs during a pause in the signing, following a gesture of placing a hand on the chest and preceding a fist pump\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The finger-to-lips gesture, combined with the thoughtful facial expression, visually emphasizes the idea of 'practice' and 'effort' in the context of '大量練習'. The action is not a lexical sign but conveys a strong affective stance of concentration and deliberate effort.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "the signer's index finger is held to her lips, moving slightly",
+          "location": "on the signer's mouth",
+          "nonmanual": "the signer's eyes are slightly closed, then open, with a thoughtful expression",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action occurs during a pause in the signing, following a gesture of placing a hand on the chest and preceding a fist pump"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The finger-to-lips gesture, combined with the thoughtful facial expression, visually emphasizes the idea of 'practice' and 'effort' in the context of '大量練習'. The action is not a lexical sign but conveys a strong affective stance of concentration and deliberate effort."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "face",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:25:18.879606",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"both hands move upward from chest level to shoulder height, then outward and slightly downward in a sweeping motion\",\n        \"location\": \"starts near chest, ends near shoulder level and slightly outward\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"moves in coordination with dominant hand, no independent action\",\n        \"temporal_alignment\": \"begins with a preparatory hand position, spans the entire target span, and is followed by a handshape change to a more closed configuration\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The upward and outward sweeping motion of both hands visually matches the lexical sign for 'want' or 'wish' in TSL, which is semantically essential to the meaning 'I would very much like to learn'. The movement also adds affective emphasis, suggesting eagerness or aspiration, which is pragmatically enriching.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "both hands move upward from chest level to shoulder height, then outward and slightly downward in a sweeping motion",
+          "location": "starts near chest, ends near shoulder level and slightly outward",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "moves in coordination with dominant hand, no independent action",
+          "temporal_alignment": "begins with a preparatory hand position, spans the entire target span, and is followed by a handshape change to a more closed configuration"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The upward and outward sweeping motion of both hands visually matches the lexical sign for 'want' or 'wish' in TSL, which is semantically essential to the meaning 'I would very much like to learn'. The movement also adds affective emphasis, suggesting eagerness or aspiration, which is pragmatically enriching."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

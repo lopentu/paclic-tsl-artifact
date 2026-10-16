@@ -1,0 +1,55 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1925319638,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:27:17.946114",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open hand, fingers slightly curled\",\n        \"movement\": \"moves from the signer's right side (signer's left) toward the center of the face, then up to the right eye area (signer's right), with a slight inward motion toward the face\",\n        \"location\": \"begins near the signer's right shoulder level, moves to the right side of the face (signer's left), then to the right eye (signer's right)\",\n        \"nonmanual\": \"no significant facial or head movement accompanying the hand action\",\n        \"non_dominant_hand\": \"resting, not visible or inactive\",\n        \"temporal_alignment\": \"the action occurs at the start of the clip, immediately following a previous sign and preceding a new one, appearing as part of a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement toward the eye area is a conventionalized sign in TSL for 'eye' or 'look', which is semantically related to the discourse about 'expression' (表情僵硬) in the given meaning. The action is not a pointing gesture (indication) but is a lexical sign that contributes to the topic. The movement toward the face suggests a focus on the facial expression, adding vividness to the description of 'stiff expression' without changing the core propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open hand, fingers slightly curled",
+          "movement": "moves from the signer's right side (signer's left) toward the center of the face, then up to the right eye area (signer's right), with a slight inward motion toward the face",
+          "location": "begins near the signer's right shoulder level, moves to the right side of the face (signer's left), then to the right eye (signer's right)",
+          "nonmanual": "no significant facial or head movement accompanying the hand action",
+          "non_dominant_hand": "resting, not visible or inactive",
+          "temporal_alignment": "the action occurs at the start of the clip, immediately following a previous sign and preceding a new one, appearing as part of a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement toward the eye area is a conventionalized sign in TSL for 'eye' or 'look', which is semantically related to the discourse about 'expression' (表情僵硬) in the given meaning. The action is not a pointing gesture (indication) but is a lexical sign that contributes to the topic. The movement toward the face suggests a focus on the facial expression, adding vividness to the description of 'stiff expression' without changing the core propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,54 @@
+{
+  "clip_id": "C25",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "face",
+  "target_channel_cued": "manual",
+  "video_path": "<repo>/data/clips_c/C25_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C25_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:06:08.210672",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves from the signer's right side to the left side, then back to the right side, in a sweeping motion\",\n        \"location\": \"in front of the signer's chest, moving horizontally\",\n        \"nonmanual\": \"signer's mouth is open and their eyebrows are raised\",\n        \"non_dominant_hand\": \"resting on the signer's lap\",\n        \"temporal_alignment\": \"the action occurs within a larger signing sequence, starting after a hand gesture near the face and ending before a pointing gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement sweeps across the chest, which is a conventionalized gesture in TSL for 'contact' or 'interaction', aligning with the meaning '接觸到的'. The raised eyebrows and open mouth add emphasis, indicating the signer is describing something encountered or experienced.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "moves from the signer's right side to the left side, then back to the right side, in a sweeping motion",
+          "location": "in front of the signer's chest, moving horizontally",
+          "nonmanual": "signer's mouth is open and their eyebrows are raised",
+          "non_dominant_hand": "resting on the signer's lap",
+          "temporal_alignment": "the action occurs within a larger signing sequence, starting after a hand gesture near the face and ending before a pointing gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement sweeps across the chest, which is a conventionalized gesture in TSL for 'contact' or 'interaction', aligning with the meaning '接觸到的'. The raised eyebrows and open mouth add emphasis, indicating the signer is describing something encountered or experienced."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,26 @@
+{
+  "clip_id": "C21",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:09:08.496267",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"both hands in a \"shaka\" or \"hang loose\" handshape, thumb and pinky extended, fingers curled\",\n        \"movement\": \"both hands move from a position near the chest outward and slightly downward, then hold the position\",\n        \"location\": \"centered in front of the signer's chest, at approximately chest height\",\n        \"nonmanual\": \"signer's mouth is open and lips are pursed, indicating emphasis or a specific phonetic quality\",\n        \"non_dominant_hand\": \"not applicable, both hands are active\",\n        \"temporal_alignment\": \"the action begins at 0.3s and holds steady through 0.7s, coinciding with the peak of the utterance's emphasis\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are a conventionalized sign in TSL, often used to convey 'a lot' or 'many' (e.g., '大量' in the given meaning). The sustained hold and pursed lips add emphasis, making the action both semantically significant and pragmatically vivid.\"\n    }\n  ]\n}",
+  "parsed": null,
+  "schema_valid": false,
+  "schema_errors": [
+    "JSON parse error: Expecting ',' delimiter: line 10 column 40 (char 249)"
+  ]
+}

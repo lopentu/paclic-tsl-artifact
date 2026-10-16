@@ -1,0 +1,53 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "face",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:27:11.558215",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers spread\",\n        \"movement\": \"both hands move outward from chest to sides, then inward toward center, as if framing or indicating a space\",\n        \"location\": \"starts near chest, moves outward to shoulder level, then returns inward\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"moves in sync with dominant hand, no independent action\",\n        \"temporal_alignment\": \"begins at 0.3s, ends at 1.2s, spans the entire target window, no pause or break\"\n      },\n      \"semantic_syntactic_load\": 3,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 3,\n      \"indication\": 2,\n      \"depiction\": 3,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move outward and inward in a framing motion, visually representing a spatial boundary — consistent with 'in the middle of the road' or 'dangerous position'. The movement is not a lexical sign but a depictive gesture that enacts the spatial concept. The motion is repeated and emphatic, enhancing the vividness of the danger being described.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers spread",
+          "movement": "both hands move outward from chest to sides, then inward toward center, as if framing or indicating a space",
+          "location": "starts near chest, moves outward to shoulder level, then returns inward",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "moves in sync with dominant hand, no independent action",
+          "temporal_alignment": "begins at 0.3s, ends at 1.2s, spans the entire target window, no pause or break"
+        },
+        "semantic_syntactic_load": 3,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 3,
+        "indication": 2,
+        "depiction": 3,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move outward and inward in a framing motion, visually representing a spatial boundary — consistent with 'in the middle of the road' or 'dangerous position'. The movement is not a lexical sign but a depictive gesture that enacts the spatial concept. The motion is repeated and emphatic, enhancing the vividness of the danger being described."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

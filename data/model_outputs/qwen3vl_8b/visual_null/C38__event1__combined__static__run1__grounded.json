@@ -1,0 +1,53 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/static/C38_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C38_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:03:14.924141",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"thumb extended, fingers curled\",\n        \"movement\": \"held steady, thumb pointing downward\",\n        \"location\": \"at the signer's right side, near the waist\",\n        \"nonmanual\": \"signer's face shows a slight smile and head tilt\",\n        \"non_dominant_hand\": \"thumb extended and pointing downward, fingers curled into a loose fist\",\n        \"temporal_alignment\": \"the action is held steady throughout the clip, occurring within a longer signing unit\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand is held steady with the thumb pointing downward, a common gesture in TSL for 'teaching' or 'instruction'. The steady, sustained hold suggests a grammatical or semantic marker for the action of teaching. The slight smile and head tilt add affective enrichment, indicating a positive or gentle tone to the teaching action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "thumb extended, fingers curled",
+          "movement": "held steady, thumb pointing downward",
+          "location": "at the signer's right side, near the waist",
+          "nonmanual": "signer's face shows a slight smile and head tilt",
+          "non_dominant_hand": "thumb extended and pointing downward, fingers curled into a loose fist",
+          "temporal_alignment": "the action is held steady throughout the clip, occurring within a longer signing unit"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand is held steady with the thumb pointing downward, a common gesture in TSL for 'teaching' or 'instruction'. The steady, sustained hold suggests a grammatical or semantic marker for the action of teaching. The slight smile and head tilt add affective enrichment, indicating a positive or gentle tone to the teaching action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/static/C19_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:48:10.845874",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm, fingers extended\",\n        \"movement\": \"moves forward from chest level to a position in front of the signer's face, then slightly downward\",\n        \"location\": \"in front of the signer's face, at chest height\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action occurs within a single, continuous signing unit, following a previous handshape and preceding a change in hand configuration\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand moves forward in a gesture that visually represents the act of 'believing' or 'holding' something, which aligns with the semantic content of '我相信' (I believe). The forward motion and palm orientation suggest an outward projection of conviction, adding affective emphasis to the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm, fingers extended",
+          "movement": "moves forward from chest level to a position in front of the signer's face, then slightly downward",
+          "location": "in front of the signer's face, at chest height",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action occurs within a single, continuous signing unit, following a previous handshape and preceding a change in hand configuration"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hand moves forward in a gesture that visually represents the act of 'believing' or 'holding' something, which aligns with the semantic content of '我相信' (I believe). The forward motion and palm orientation suggest an outward projection of conviction, adding affective emphasis to the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

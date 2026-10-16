@@ -1,0 +1,61 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C40_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:06:41.905320",
+  "backend_call_info": {
+    "frames_per_video": [
+      84,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.8332,
+      14.5309
+    ],
+    "input_tokens": 11161,
+    "output_tokens": 285
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist-like or closed fists\",\n        \"movement\": \"brought forward from chest, then moved outward and slightly forward in a repetitive, rhythmic motion\",\n        \"location\": \"chest and forward\",\n        \"nonmanual\": \"neutral facial expression, eyes open\",\n        \"non_dominant_hand\": \"mirrors dominant hand, synchronized\",\n        \"temporal_alignment\": \"part of a longer sequence of signs, occurring between a previous sign and subsequent signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The hands move in a repetitive, rhythmic motion from the chest outward, which is typical for depicting a group of people or a collective concept, and the movement is synchronized between both hands, indicating a coordinated action.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist-like or closed fists",
+          "movement": "brought forward from chest, then moved outward and slightly forward in a repetitive, rhythmic motion",
+          "location": "chest and forward",
+          "nonmanual": "neutral facial expression, eyes open",
+          "non_dominant_hand": "mirrors dominant hand, synchronized",
+          "temporal_alignment": "part of a longer sequence of signs, occurring between a previous sign and subsequent signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The hands move in a repetitive, rhythmic motion from the chest outward, which is typical for depicting a group of people or a collective concept, and the movement is synchronized between both hands, indicating a coordinated action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

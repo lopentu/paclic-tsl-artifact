@@ -1,0 +1,56 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "face",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C39_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:44:27.141722",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, then fingers curling into a loose fist\",\n        \"movement\": \"starts with palm up, moves upward and inward toward the head, then transitions to a downward motion with fingers curling\",\n        \"location\": \"begins near the signer's right side, moves toward the head, then down toward the chest\",\n        \"nonmanual\": \"signer's mouth is open and expressive, tongue protruding slightly\",\n        \"non_dominant_hand\": \"the non-dominant hand performs a distinct, multi-part gesture: initial upward motion, then a downward curling motion\",\n        \"temporal_alignment\": \"the gesture begins with the signer's mouth open and tongue out, and ends as the hand moves down and the signer's expression softens\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand gesture is a conventionalized sign in TSL, not a simple pointing or depicting action. The accompanying facial expression (tongue out) and the movement path (upward to head, then down) suggest an affective or emphatic function, likely conveying a sense of determination or resilience, which aligns with the meaning 'I can be self-reliant'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, then fingers curling into a loose fist",
+          "movement": "starts with palm up, moves upward and inward toward the head, then transitions to a downward motion with fingers curling",
+          "location": "begins near the signer's right side, moves toward the head, then down toward the chest",
+          "nonmanual": "signer's mouth is open and expressive, tongue protruding slightly",
+          "non_dominant_hand": "the non-dominant hand performs a distinct, multi-part gesture: initial upward motion, then a downward curling motion",
+          "temporal_alignment": "the gesture begins with the signer's mouth open and tongue out, and ends as the hand moves down and the signer's expression softens"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand gesture is a conventionalized sign in TSL, not a simple pointing or depicting action. The accompanying facial expression (tongue out) and the movement path (upward to head, then down) suggest an affective or emphatic function, likely conveying a sense of determination or resilience, which aligns with the meaning 'I can be self-reliant'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

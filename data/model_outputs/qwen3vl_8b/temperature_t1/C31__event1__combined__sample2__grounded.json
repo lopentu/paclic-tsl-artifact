@@ -1,0 +1,55 @@
+{
+  "clip_id": "C31",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 480605531,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:02:57.409599",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head tilted slightly back and to the right, eyes looking upward and to the right, mouth slightly open with a subtle smile\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression and head tilt\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action occurs during the signing of the utterance, specifically as the signer produces the message, and is synchronized with the verbal speech and the other signer's gestures\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The facial expression and head tilt convey a tone of mild exasperation or condescension, which aligns with the message '想太多實在是不好！' (Overthinking is really not good!). The slight smile and upward gaze suggest a dismissive or 'you're being too much' attitude, adding emotional weight to the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "head tilted slightly back and to the right, eyes looking upward and to the right, mouth slightly open with a subtle smile",
+          "location": "face",
+          "nonmanual": "facial expression and head tilt",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action occurs during the signing of the utterance, specifically as the signer produces the message, and is synchronized with the verbal speech and the other signer's gestures"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The facial expression and head tilt convey a tone of mild exasperation or condescension, which aligns with the message '想太多實在是不好！' (Overthinking is really not good!). The slight smile and upward gaze suggest a dismissive or 'you're being too much' attitude, adding emotional weight to the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

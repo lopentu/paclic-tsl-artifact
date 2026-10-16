@@ -1,0 +1,55 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 856133702,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:54:14.675675",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"eyes remain mostly closed, then open slightly; mouth remains neutral\",\n        \"location\": \"face center\",\n        \"nonmanual\": \"eyes close and open, mouth remains neutral\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs within a broader signing sequence, immediately following a hand movement and preceding a gesture with both hands\"\n      },\n      \"semantic_syntactic_load\": 0,\n      \"pragmatic_depictive_affective_enrichment\": 0,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's eyes close and then open slightly during this span, with a neutral mouth expression, while hands are engaged in manual signing. The action does not appear to convey propositional content, grammatical marking, or discourse structure. It also lacks affective, stance, or depictive enrichment, and does not function as a conventionalized linguistic form or an indexical gesture.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "eyes remain mostly closed, then open slightly; mouth remains neutral",
+          "location": "face center",
+          "nonmanual": "eyes close and open, mouth remains neutral",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs within a broader signing sequence, immediately following a hand movement and preceding a gesture with both hands"
+        },
+        "semantic_syntactic_load": 0,
+        "pragmatic_depictive_affective_enrichment": 0,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's eyes close and then open slightly during this span, with a neutral mouth expression, while hands are engaged in manual signing. The action does not appear to convey propositional content, grammatical marking, or discourse structure. It also lacks affective, stance, or depictive enrichment, and does not function as a conventionalized linguistic form or an indexical gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

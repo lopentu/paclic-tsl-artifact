@@ -1,0 +1,48 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:44:41.076046",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'C' shape, left hand forms a 'flat' or 'open' shape\",\n        \"movement\": \"right hand moves upward from chest level to forehead level, left hand moves upward from chest level to forehead level, then both hands move inward toward the center of the chest\",\n        \"location\": \"right hand starts at chest level, moves to forehead level; left hand starts at chest level, moves to forehead level; both hands move inward toward the center of the chest\",\n        \"nonmanual\": \"head remains relatively still, eyes look forward\",\n        \"non_dominant_hand\": \"left hand moves upward from chest level to forehead level, then moves inward toward the center of the chest\",\n        \"temporal_alignment\": \"the action starts with the right hand moving upward from chest level to forehead level, then the left hand moves upward from chest level to forehead level, then both hands move inward toward the center of the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The action involves both hands moving upward from chest level to forehead level, then moving inward toward the center of the chest, which is a common gesture in TSL to indicate 'law' or 'regulation'. The movement is clear and deliberate, suggesting it is a lexical sign. The upward movement toward the forehead may also convey a sense of importance or authority, which is a pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'C' shape, left hand forms a 'flat' or 'open' shape",
+          "movement": "right hand moves upward from chest level to forehead level, left hand moves upward from chest level to forehead level, then both hands move inward toward the center of the chest",
+          "location": "right hand starts at chest level, moves to forehead level; left hand starts at chest level, moves to forehead level; both hands move inward toward the center of the chest",
+          "nonmanual": "head remains relatively still, eyes look forward",
+          "non_dominant_hand": "left hand moves upward from chest level to forehead level, then moves inward toward the center of the chest",
+          "temporal_alignment": "the action starts with the right hand moving upward from chest level to forehead level, then the left hand moves upward from chest level to forehead level, then both hands move inward toward the center of the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The action involves both hands moving upward from chest level to forehead level, then moving inward toward the center of the chest, which is a common gesture in TSL to indicate 'law' or 'regulation'. The movement is clear and deliberate, suggesting it is a lexical sign. The upward movement toward the forehead may also convey a sense of importance or authority, which is a pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

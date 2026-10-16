@@ -1,0 +1,49 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C01_window_model.mp4",
+  "video_id": "S01EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:41:16.207705",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"head tilted slightly forward and to the right, then held steady; right hand raised to temple level, index finger extended upward, left hand held near chin, both hands moving slightly in a coordinated gesture\",\n        \"location\": \"right hand at temple level, left hand near chin\",\n        \"nonmanual\": \"head tilted forward and to the right, then held steady\",\n        \"non_dominant_hand\": \"left hand held near chin, moving slightly\",\n        \"temporal_alignment\": \"the action begins with the right hand raised to temple level and the left hand near the chin, and ends with the right hand still at temple level and the left hand still near the chin\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's head is tilted forward and to the right, and her right hand is raised to temple level with the index finger extended upward, while her left hand is held near her chin. This gesture is a conventionalized sign in Taiwan Sign Language for 'law' or 'legal enactment', which is essential to the meaning of the clause '國家語言發展法已於 108 年 1 月 9 日由總統公布施行'. The gesture also conveys a sense of authority and formality, which is pragmatically enriched by the head tilt and the raised hand.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "head tilted slightly forward and to the right, then held steady; right hand raised to temple level, index finger extended upward, left hand held near chin, both hands moving slightly in a coordinated gesture",
+          "location": "right hand at temple level, left hand near chin",
+          "nonmanual": "head tilted forward and to the right, then held steady",
+          "non_dominant_hand": "left hand held near chin, moving slightly",
+          "temporal_alignment": "the action begins with the right hand raised to temple level and the left hand near the chin, and ends with the right hand still at temple level and the left hand still near the chin"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's head is tilted forward and to the right, and her right hand is raised to temple level with the index finger extended upward, while her left hand is held near her chin. This gesture is a conventionalized sign in Taiwan Sign Language for 'law' or 'legal enactment', which is essential to the meaning of the clause '國家語言發展法已於 108 年 1 月 9 日由總統公布施行'. The gesture also conveys a sense of authority and formality, which is pragmatically enriched by the head tilt and the raised hand."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

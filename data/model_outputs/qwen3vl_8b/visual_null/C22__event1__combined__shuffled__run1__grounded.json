@@ -1,0 +1,53 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "head_torso",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C22_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C22_window_model.mp4",
+  "video_id": "S01EP12",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:13:21.000664",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"not visible or not involved\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head tilts back and upward, torso slightly arches backward\",\n        \"location\": \"center of frame, facing forward\",\n        \"nonmanual\": \"head and torso movement\",\n        \"non_dominant_hand\": \"not visible or not involved\",\n        \"temporal_alignment\": \"occurs during a sustained signing segment, beginning with a hand gesture and ending with a hand gesture, serving as a sustained nonmanual marker\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The head and torso tilt back and upward, a movement that visually emphasizes the speaker's rhetorical stance, aligning with the discourse's critical tone. The sustained nature of the movement, occurring during a prolonged signing segment, suggests it functions as a grammatical marker of emphasis or a discourse marker, contributing to the propositional structure by underscoring the speaker's assertion about the loss of purpose.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "not visible or not involved",
+          "handshape": "not applicable",
+          "movement": "head tilts back and upward, torso slightly arches backward",
+          "location": "center of frame, facing forward",
+          "nonmanual": "head and torso movement",
+          "non_dominant_hand": "not visible or not involved",
+          "temporal_alignment": "occurs during a sustained signing segment, beginning with a hand gesture and ending with a hand gesture, serving as a sustained nonmanual marker"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The head and torso tilt back and upward, a movement that visually emphasizes the speaker's rhetorical stance, aligning with the discourse's critical tone. The sustained nature of the movement, occurring during a prolonged signing segment, suggests it functions as a grammatical marker of emphasis or a discourse marker, contributing to the propositional structure by underscoring the speaker's assertion about the loss of purpose."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

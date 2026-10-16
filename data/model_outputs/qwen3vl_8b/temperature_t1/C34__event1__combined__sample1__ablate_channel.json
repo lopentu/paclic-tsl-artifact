@@ -1,0 +1,55 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1952421487,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:49:29.659854",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled; both hands form a 'V' or 'pinch' shape\",\n        \"movement\": \"right hand moves from near the signer's right eye down to the chest, then both hands move inward toward the chest, then outward again, forming a framing gesture\",\n        \"location\": \"starts near the right eye, moves down to chest, then moves outward to frame the chest area\",\n        \"nonmanual\": \"signer's facial expression is serious and focused\",\n        \"non_dominant_hand\": \"non-dominant hand (left) mirrors the movement of the dominant hand (right), both performing the same gesture\",\n        \"temporal_alignment\": \"the gesture begins with the signer raising the right hand to the eye level and ends with both hands framing the chest area\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The gesture begins with the index finger pointing toward the eye, suggesting 'you' or 'person', and then moves inward to frame the chest, indicating a location or position (which aligns with the meaning 'if you are in the middle of the road or in a dangerous position'). The serious facial expression adds emphasis and affect, enhancing the warning tone of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled; both hands form a 'V' or 'pinch' shape",
+          "movement": "right hand moves from near the signer's right eye down to the chest, then both hands move inward toward the chest, then outward again, forming a framing gesture",
+          "location": "starts near the right eye, moves down to chest, then moves outward to frame the chest area",
+          "nonmanual": "signer's facial expression is serious and focused",
+          "non_dominant_hand": "non-dominant hand (left) mirrors the movement of the dominant hand (right), both performing the same gesture",
+          "temporal_alignment": "the gesture begins with the signer raising the right hand to the eye level and ends with both hands framing the chest area"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The gesture begins with the index finger pointing toward the eye, suggesting 'you' or 'person', and then moves inward to frame the chest, indicating a location or position (which aligns with the meaning 'if you are in the middle of the road or in a dangerous position'). The serious facial expression adds emphasis and affect, enhancing the warning tone of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

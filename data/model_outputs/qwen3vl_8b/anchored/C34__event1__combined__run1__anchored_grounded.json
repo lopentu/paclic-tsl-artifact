@@ -1,0 +1,54 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_c/C34_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C34_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:15:12.547203",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth opens and closes; eyebrows raise and lower; eyes widen and narrow; head tilts slightly forward and back\",\n        \"location\": \"face and head\",\n        \"nonmanual\": \"facial expression changes dynamically, conveying emphasis and intensity\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with the signing of '你' (you) and '人在' (person is at) in the surrounding discourse, occurring at the beginning of the clause\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's face shows a focused, slightly urgent expression with raised eyebrows and an open mouth, which aligns with the beginning of the clause '如果你人在...' (If you are at...). This facial expression adds emphasis and affect to the clause, making the hypothetical situation feel more immediate and important. The expression is not a lexical sign but a nonmanual marker that enhances the pragmatic force of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth opens and closes; eyebrows raise and lower; eyes widen and narrow; head tilts slightly forward and back",
+          "location": "face and head",
+          "nonmanual": "facial expression changes dynamically, conveying emphasis and intensity",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with the signing of '你' (you) and '人在' (person is at) in the surrounding discourse, occurring at the beginning of the clause"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's face shows a focused, slightly urgent expression with raised eyebrows and an open mouth, which aligns with the beginning of the clause '如果你人在...' (If you are at...). This facial expression adds emphasis and affect to the clause, making the hypothetical situation feel more immediate and important. The expression is not a lexical sign but a nonmanual marker that enhances the pragmatic force of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

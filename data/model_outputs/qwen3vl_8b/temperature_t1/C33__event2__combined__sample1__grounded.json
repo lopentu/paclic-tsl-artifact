@@ -1,0 +1,55 @@
+{
+  "clip_id": "C33",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 109506784,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:33:56.645796",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"flat, open palms, thumbs extended upward\",\n        \"movement\": \"both hands move inward from the sides toward the center, then slightly outward again in a repetitive, rhythmic motion\",\n        \"location\": \"at chest level, moving in a horizontal plane\",\n        \"nonmanual\": \"signer's mouth is slightly open and pursed, face expression is neutral to slightly emphatic\",\n        \"non_dominant_hand\": \"non-dominant hand moves in sync with the dominant hand, mirroring the motion\",\n        \"temporal_alignment\": \"the action begins after the initial hand gesture and is held for a sustained period, forming a rhythmic beat or emphasis within the signing\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move rhythmically inward and outward at chest level, mirroring the structure of a question or a reflective pause in the discourse. The sustained, repetitive motion suggests a grammatical or discourse function, such as marking a question or a rhetorical pause, which is central to the meaning of the clause. The action also conveys affective emphasis and rhythmic pacing, enhancing the tone of the question.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "flat, open palms, thumbs extended upward",
+          "movement": "both hands move inward from the sides toward the center, then slightly outward again in a repetitive, rhythmic motion",
+          "location": "at chest level, moving in a horizontal plane",
+          "nonmanual": "signer's mouth is slightly open and pursed, face expression is neutral to slightly emphatic",
+          "non_dominant_hand": "non-dominant hand moves in sync with the dominant hand, mirroring the motion",
+          "temporal_alignment": "the action begins after the initial hand gesture and is held for a sustained period, forming a rhythmic beat or emphasis within the signing"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move rhythmically inward and outward at chest level, mirroring the structure of a question or a reflective pause in the discourse. The sustained, repetitive motion suggests a grammatical or discourse function, such as marking a question or a rhetorical pause, which is central to the meaning of the clause. The action also conveys affective emphasis and rhythmic pacing, enhancing the tone of the question."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

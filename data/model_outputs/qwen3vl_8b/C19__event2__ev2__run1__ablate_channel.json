@@ -1,0 +1,48 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:02:25.738459",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"right hand moves forward and down in a sweeping motion, then left hand follows in a similar motion, both hands moving in a coordinated arc from the signer's right side to left side, then back toward center\",\n        \"location\": \"starts near the signer's right shoulder, moves across the chest and torso, ending near the center of the chest\",\n        \"nonmanual\": \"signer's mouth is open and moving as if speaking, eyes are focused forward\",\n        \"non_dominant_hand\": \"left hand mirrors the right hand's movement, maintaining coordination\",\n        \"temporal_alignment\": \"the action begins with the right hand moving forward and down, followed by the left hand mirroring the motion, spanning the entire target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The sweeping hand motion across the chest is a conventionalized sign in TSL for 'believe' or 'trust', which is essential to the meaning 'I believe'. The coordinated movement of both hands adds emphasis and a sense of conviction, enhancing the affective force of the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "right hand moves forward and down in a sweeping motion, then left hand follows in a similar motion, both hands moving in a coordinated arc from the signer's right side to left side, then back toward center",
+          "location": "starts near the signer's right shoulder, moves across the chest and torso, ending near the center of the chest",
+          "nonmanual": "signer's mouth is open and moving as if speaking, eyes are focused forward",
+          "non_dominant_hand": "left hand mirrors the right hand's movement, maintaining coordination",
+          "temporal_alignment": "the action begins with the right hand moving forward and down, followed by the left hand mirroring the motion, spanning the entire target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The sweeping hand motion across the chest is a conventionalized sign in TSL for 'believe' or 'trust', which is essential to the meaning 'I believe'. The coordinated movement of both hands adds emphasis and a sense of conviction, enhancing the affective force of the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

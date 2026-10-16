@@ -1,0 +1,49 @@
+{
+  "clip_id": "C10",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C10_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:44:24.552905",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"moves from near the ear to pointing forward, then slightly upward\",\n        \"location\": \"starts near the signer's right ear, moves to the right side of the signer's face, then forward and slightly upward\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"resting on the signer's chest\",\n        \"temporal_alignment\": \"the action occurs within a single sign, transitioning from a preparatory gesture to the main pointing motion\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are characteristic of a pointing sign in TSL, which is a lexical sign with grammatical function (indicating a referent). The upward motion and forward direction suggest emphasis or specification, which is a pragmatic enrichment. The movement is a conventionalized form (description) and indexes a specific person or entity (indication).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "moves from near the ear to pointing forward, then slightly upward",
+          "location": "starts near the signer's right ear, moves to the right side of the signer's face, then forward and slightly upward",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "resting on the signer's chest",
+          "temporal_alignment": "the action occurs within a single sign, transitioning from a preparatory gesture to the main pointing motion"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are characteristic of a pointing sign in TSL, which is a lexical sign with grammatical function (indicating a referent). The upward motion and forward direction suggest emphasis or specification, which is a pragmatic enrichment. The movement is a conventionalized form (description) and indexes a specific person or entity (indication)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 2100355464,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:20:29.604792",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used, with the right hand dominant in the movement.\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled; left hand: open palm with fingers slightly spread.\",\n        \"movement\": \"The right hand moves from the signer's right side (signer's right) to the left side (signer's left), with a slight forward motion, while the left hand remains relatively stable, moving slightly in coordination. The right hand's index finger points outward, then moves slightly inward and downward, as if indicating a location or object. The left hand moves in a small circular or arc motion near the signer's chest, then moves outward to the side, coordinating with the right hand.\",\n        \"location\": \"The right hand starts near the signer's right side, moves across the signer's chest, and ends near the left side. The left hand starts near the signer's chest and moves outward to the left side.\",\n        \"nonmanual\": \"The signer's mouth is open wide at 0.7 seconds, indicating emphasis or surprise. The eyes are wide open, and the eyebrows are raised, reinforcing the emotional tone. The head tilts slightly to the right at 0.7 seconds.\",\n        \"non_dominant_hand\": \"The left hand moves in coordination with the right hand, with small circular or arc movements near the signer's chest, then moves outward to the side.\",\n        \"temporal_alignment\": \"The action begins at 0.3 seconds, coinciding with the start of the phrase, and ends at 1.0 seconds, just before the signer moves to a new gesture. It is a single, continuous gesture that spans the entire target span.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand's index finger extended and pointing outward, combined with the left hand's arc motion, suggests a directional or locative function, which is essential for indicating '目擊者' (witness). The open mouth and wide eyes at 0.7 seconds convey emphasis and surprise, which is crucial for the pragmatic and affective meaning of the phrase. The movement of the right hand across the signer's chest and to the left side indicates a spatial reference to something or someone on the left side of the signer's space, which is essential for the referential tracking of the witness.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used, with the right hand dominant in the movement.",
+          "handshape": "Right hand: index finger extended, other fingers curled; left hand: open palm with fingers slightly spread.",
+          "movement": "The right hand moves from the signer's right side (signer's right) to the left side (signer's left), with a slight forward motion, while the left hand remains relatively stable, moving slightly in coordination. The right hand's index finger points outward, then moves slightly inward and downward, as if indicating a location or object. The left hand moves in a small circular or arc motion near the signer's chest, then moves outward to the side, coordinating with the right hand.",
+          "location": "The right hand starts near the signer's right side, moves across the signer's chest, and ends near the left side. The left hand starts near the signer's chest and moves outward to the left side.",
+          "nonmanual": "The signer's mouth is open wide at 0.7 seconds, indicating emphasis or surprise. The eyes are wide open, and the eyebrows are raised, reinforcing the emotional tone. The head tilts slightly to the right at 0.7 seconds.",
+          "non_dominant_hand": "The left hand moves in coordination with the right hand, with small circular or arc movements near the signer's chest, then moves outward to the side.",
+          "temporal_alignment": "The action begins at 0.3 seconds, coinciding with the start of the phrase, and ends at 1.0 seconds, just before the signer moves to a new gesture. It is a single, continuous gesture that spans the entire target span."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 2,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand's index finger extended and pointing outward, combined with the left hand's arc motion, suggests a directional or locative function, which is essential for indicating '目擊者' (witness). The open mouth and wide eyes at 0.7 seconds convey emphasis and surprise, which is crucial for the pragmatic and affective meaning of the phrase. The movement of the right hand across the signer's chest and to the left side indicates a spatial reference to something or someone on the left side of the signer's space, which is essential for the referential tracking of the witness."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

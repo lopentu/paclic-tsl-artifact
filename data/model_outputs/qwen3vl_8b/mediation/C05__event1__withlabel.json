@@ -1,0 +1,36 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "face",
+  "label_channel_sent": "face",
+  "label_is_correct": true,
+  "video_id": "S01EP09",
+  "source_run": "C05__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: eyes are closed, then open; mouth is slightly open and remains still\n- location: face\n- nonmanual: eyes close then open, mouth slightly open and still\n- temporal alignment: the action occurs during the signing of the phrase 'three stages' and is temporally aligned with the manual sign for 'three' (which is shown at 0.2-0.3) and the subsequent manual sign for 'pass' (0.9-1.0)",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:16:59.084066",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 2,\n  \"description\": 1,\n  \"indication\": 0,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The facial action (eyes closing then opening, mouth slightly open) likely serves to emphasize or depict the idea of stages or thresholds being passed, adding affective or depictive enrichment rather than contributing directly to propositional content. It is not indicating a specific referent or location, but enacts a sense of transition or completion, which aligns with the meaning of 'passing stages'.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The facial action (eyes closing then opening, mouth slightly open) likely serves to emphasize or depict the idea of stages or thresholds being passed, adding affective or depictive enrichment rather than contributing directly to propositional content. It is not indicating a specific referent or location, but enacts a sense of transition or completion, which aligns with the meaning of 'passing stages'."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

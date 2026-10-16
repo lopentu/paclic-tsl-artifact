@@ -1,0 +1,50 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C23_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:14:57.673741",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"The dominant right hand is the active channel. The non-dominant left hand is held steady, palm up, in the signer's lower space.\",\n        \"handshape\": \"The dominant right hand is a 'V' handshape (index and middle fingers extended, others curled).\",\n        \"movement\": \"The hand moves from a position near the signer's right cheek in an arc downwards and forwards, ending near the palm of the non-dominant hand.\",\n        \"location\": \"The movement starts in the signer's upper right space and ends in the lower space, between the two hands.\",\n        \"nonmanual\": \"The signer's head is still. The facial expression is neutral, with the mouth slightly open as if speaking or signing.\",\n        \"non_dominant_hand\": \"The non-dominant left hand is held open, palm up, in the signer's lower space, serving as a base or support for the dominant hand's movement.\",\n        \"temporal_alignment\": \"The action is a single, fluid movement that occurs at the beginning of the clip, immediately following a previous hand configuration and preceding a new one.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The dominant hand's V-shape and downward arc is a conventional TSL sign. The non-dominant hand's stable, palm-up position is a common grammatical marker in TSL, likely indicating a topic or a base for the action. The entire gesture is a clear, conventionalized unit.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant right hand is the active channel. The non-dominant left hand is held steady, palm up, in the signer's lower space.",
+          "handshape": "The dominant right hand is a 'V' handshape (index and middle fingers extended, others curled).",
+          "movement": "The hand moves from a position near the signer's right cheek in an arc downwards and forwards, ending near the palm of the non-dominant hand.",
+          "location": "The movement starts in the signer's upper right space and ends in the lower space, between the two hands.",
+          "nonmanual": "The signer's head is still. The facial expression is neutral, with the mouth slightly open as if speaking or signing.",
+          "non_dominant_hand": "The non-dominant left hand is held open, palm up, in the signer's lower space, serving as a base or support for the dominant hand's movement.",
+          "temporal_alignment": "The action is a single, fluid movement that occurs at the beginning of the clip, immediately following a previous hand configuration and preceding a new one."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The dominant hand's V-shape and downward arc is a conventional TSL sign. The non-dominant hand's stable, palm-up position is a common grammatical marker in TSL, likely indicating a topic or a base for the action. The entire gesture is a clear, conventionalized unit."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

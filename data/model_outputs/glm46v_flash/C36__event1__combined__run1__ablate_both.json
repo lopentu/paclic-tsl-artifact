@@ -1,0 +1,61 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C36_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:18:38.269638",
+  "backend_call_info": {
+    "frames_per_video": [
+      106,
+      20
+    ],
+    "sampled_fps_per_video": [
+      15.8051,
+      15.3692
+    ],
+    "input_tokens": 13506,
+    "output_tokens": 350
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.60\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used, with the dominant hand forming a pointing gesture and the non-dominant hand supporting or accompanying.\",\n        \"handshape\": \"Dominant hand: index finger extended, pointing; non-dominant hand: open or slightly curved.\",\n        \"movement\": \"The dominant hand points forward and then moves inward toward the body, while the non-dominant hand moves in a complementary arc.\",\n        \"location\": \"Forward and then inward, centered in front of the signer.\",\n        \"nonmanual\": \"Facial expression changes from neutral to slightly open mouth, indicating emphasis.\",\n        \"non_dominant_hand\": \"Supporting the dominant hand's movement, moving in sync.\",\n        \"temporal_alignment\": \"Begins after a previous sign and continues through a sequence of related gestures.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand's pointing and inward movement, combined with the non-dominant hand's support, indicates a referential action (pointing) and a descriptive gesture (inward movement), contributing to both semantic structure and affective emphasis.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.60",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used, with the dominant hand forming a pointing gesture and the non-dominant hand supporting or accompanying.",
+          "handshape": "Dominant hand: index finger extended, pointing; non-dominant hand: open or slightly curved.",
+          "movement": "The dominant hand points forward and then moves inward toward the body, while the non-dominant hand moves in a complementary arc.",
+          "location": "Forward and then inward, centered in front of the signer.",
+          "nonmanual": "Facial expression changes from neutral to slightly open mouth, indicating emphasis.",
+          "non_dominant_hand": "Supporting the dominant hand's movement, moving in sync.",
+          "temporal_alignment": "Begins after a previous sign and continues through a sequence of related gestures."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand's pointing and inward movement, combined with the non-dominant hand's support, indicates a referential action (pointing) and a descriptive gesture (inward movement), contributing to both semantic structure and affective emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,50 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C03_window_model.mp4",
+  "video_id": "S01EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:26:25.775302",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Two hands, both with closed fists.\",\n        \"handshape\": \"Fist (S1) in both hands.\",\n        \"movement\": \"The fists are shaken or moved up and down in a small, repetitive motion.\",\n        \"location\": \"The fists are held in front of the signer's upper chest, with the right fist slightly higher than the left.\",\n        \"nonmanual\": \"The signer's facial expression is serious and focused. The head is still.\",\n        \"non_dominant_hand\": \"The non-dominant hand is also a fist and is involved in the same shaking motion.\",\n        \"temporal_alignment\": \"The action occurs in the middle of a continuous signing sequence, sandwiched between other manual signs.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The fists are held in a specific location in front of the chest, suggesting they are indicating a concept or referent. The shaking motion could be depicting a quality like 'agitation' or 'intensity' related to the topic of 'teaching techniques'. The action is integrated into the flow of signing, suggesting it carries some semantic weight.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Two hands, both with closed fists.",
+          "handshape": "Fist (S1) in both hands.",
+          "movement": "The fists are shaken or moved up and down in a small, repetitive motion.",
+          "location": "The fists are held in front of the signer's upper chest, with the right fist slightly higher than the left.",
+          "nonmanual": "The signer's facial expression is serious and focused. The head is still.",
+          "non_dominant_hand": "The non-dominant hand is also a fist and is involved in the same shaking motion.",
+          "temporal_alignment": "The action occurs in the middle of a continuous signing sequence, sandwiched between other manual signs."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The fists are held in a specific location in front of the chest, suggesting they are indicating a concept or referent. The shaking motion could be depicting a quality like 'agitation' or 'intensity' related to the topic of 'teaching techniques'. The action is integrated into the flow of signing, suggesting it carries some semantic weight."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

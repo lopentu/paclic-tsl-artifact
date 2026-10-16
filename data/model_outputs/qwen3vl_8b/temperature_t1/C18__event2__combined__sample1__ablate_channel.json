@@ -1,0 +1,55 @@
+{
+  "clip_id": "C18",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1545984302,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:43:29.527309",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"right hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from chin to mouth area, then taps mouth\",\n        \"location\": \"right hand moves from lower face to mouth, then holds near mouth\",\n        \"nonmanual\": \"mouth open, looking forward\",\n        \"non_dominant_hand\": \"left hand at rest\",\n        \"temporal_alignment\": \"starts with the signing of '乙證' (the target word), and ends before the next sign '大概' begins\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement of the right index finger mimicking a writing or signing motion at the mouth aligns with the lexical sign for '乙證' (certificate) in TSL. The action is a conventionalized sign, not an indication or depiction, but its movement to the mouth adds emphasis and affect to the referent '證' (certificate).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "right hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from chin to mouth area, then taps mouth",
+          "location": "right hand moves from lower face to mouth, then holds near mouth",
+          "nonmanual": "mouth open, looking forward",
+          "non_dominant_hand": "left hand at rest",
+          "temporal_alignment": "starts with the signing of '乙證' (the target word), and ends before the next sign '大概' begins"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement of the right index finger mimicking a writing or signing motion at the mouth aligns with the lexical sign for '乙證' (certificate) in TSL. The action is a conventionalized sign, not an indication or depiction, but its movement to the mouth adds emphasis and affect to the referent '證' (certificate)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

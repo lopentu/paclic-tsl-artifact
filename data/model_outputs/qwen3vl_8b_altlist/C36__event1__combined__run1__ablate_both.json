@@ -1,0 +1,49 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C36_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:10:21.425738",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled.\",\n        \"movement\": \"Right hand moves from the signer's right side to the left side of the face, then moves outward and upward. Left hand moves from the signer's left side to the right side of the face, then moves outward and upward. Both hands then move outward and upward together, with the right hand moving slightly forward and the left hand moving slightly backward.\",\n        \"location\": \"Right hand starts near the signer's right shoulder, moves to the right side of the face, then moves outward and upward. Left hand starts near the signer's left shoulder, moves to the left side of the face, then moves outward and upward. Both hands end near the top of the signer's head.\",\n        \"nonmanual\": \"Signer's mouth is open and her eyes are wide open. Her eyebrows are raised. Her head is tilted slightly to the right.\",\n        \"non_dominant_hand\": \"The left hand is held in a static position, with the index finger extended and the other fingers curled, while the right hand moves.\",\n        \"temporal_alignment\": \"The action begins at 0.3 seconds and ends at 1.0 seconds. It is preceded by a sign with the right hand moving from the signer's right side to the left side of the face, and it is followed by a sign with the right hand moving from the signer's right side to the left side of the face.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves both hands moving outward and upward, which is a common sign for 'up' or 'high' in many sign languages. The signer's facial expression, with wide eyes and an open mouth, suggests that the action is being used to emphasize or express surprise or excitement. The action is not a depiction or indication, as it does not point to or show something specific.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled.",
+          "movement": "Right hand moves from the signer's right side to the left side of the face, then moves outward and upward. Left hand moves from the signer's left side to the right side of the face, then moves outward and upward. Both hands then move outward and upward together, with the right hand moving slightly forward and the left hand moving slightly backward.",
+          "location": "Right hand starts near the signer's right shoulder, moves to the right side of the face, then moves outward and upward. Left hand starts near the signer's left shoulder, moves to the left side of the face, then moves outward and upward. Both hands end near the top of the signer's head.",
+          "nonmanual": "Signer's mouth is open and her eyes are wide open. Her eyebrows are raised. Her head is tilted slightly to the right.",
+          "non_dominant_hand": "The left hand is held in a static position, with the index finger extended and the other fingers curled, while the right hand moves.",
+          "temporal_alignment": "The action begins at 0.3 seconds and ends at 1.0 seconds. It is preceded by a sign with the right hand moving from the signer's right side to the left side of the face, and it is followed by a sign with the right hand moving from the signer's right side to the left side of the face."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves both hands moving outward and upward, which is a common sign for 'up' or 'high' in many sign languages. The signer's facial expression, with wide eyes and an open mouth, suggests that the action is being used to emphasize or express surprise or excitement. The action is not a depiction or indication, as it does not point to or show something specific."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

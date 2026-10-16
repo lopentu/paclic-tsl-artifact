@@ -1,0 +1,50 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C26_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:04:04.512444",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.8\",\n        \"channel_judged\": \"face\",\n        \"form_description\": {\n          \"hands\": \"The dominant hand is not visible. The non-dominant hand is not visible.\",\n          \"handshape\": \"N/A\",\n          \"movement\": \"N/A\",\n          \"location\": \"N/A\",\n          \"nonmanual\": \"The signer's mouth is open, and the corners are pulled upwards and outwards in a smile. The eyebrows are slightly raised. The head is tilted slightly to the signer's right.\",\n          \"non_dominant_hand\": \"N/A\",\n          \"temporal_alignment\": \"The facial expression begins as the signer's right hand moves towards the face and continues as the hand moves away, spanning a single lexical sign.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 3,\n        \"description\": 0,\n        \"indication\": 0,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The smile and raised eyebrows are a clear affective marker that conveys a positive sentiment about the utterance. The expression is integrated with the manual sign, suggesting it's not just a random facial tic but a deliberate part of the sign's meaning.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "The dominant hand is not visible. The non-dominant hand is not visible.",
+          "handshape": "N/A",
+          "movement": "N/A",
+          "location": "N/A",
+          "nonmanual": "The signer's mouth is open, and the corners are pulled upwards and outwards in a smile. The eyebrows are slightly raised. The head is tilted slightly to the signer's right.",
+          "non_dominant_hand": "N/A",
+          "temporal_alignment": "The facial expression begins as the signer's right hand moves towards the face and continues as the hand moves away, spanning a single lexical sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The smile and raised eyebrows are a clear affective marker that conveys a positive sentiment about the utterance. The expression is integrated with the manual sign, suggesting it's not just a random facial tic but a deliberate part of the sign's meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

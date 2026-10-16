@@ -1,0 +1,48 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:18:02.155155",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb up\",\n        \"movement\": \"thumb extended upward, held steady\",\n        \"location\": \"in front of chest, at signer's midline\",\n        \"nonmanual\": \"face expression neutral to slightly smiling\",\n        \"non_dominant_hand\": \"resting at side or in neutral position\",\n        \"temporal_alignment\": \"appears after a hand gesture near chest, and before a return to neutral posture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The thumb-up gesture is a conventionalized sign in TSL that conveys approval or agreement, contributing clear semantic content. The gesture is held steady and centered, which adds emphasis and affective enrichment to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb up",
+          "movement": "thumb extended upward, held steady",
+          "location": "in front of chest, at signer's midline",
+          "nonmanual": "face expression neutral to slightly smiling",
+          "non_dominant_hand": "resting at side or in neutral position",
+          "temporal_alignment": "appears after a hand gesture near chest, and before a return to neutral posture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The thumb-up gesture is a conventionalized sign in TSL that conveys approval or agreement, contributing clear semantic content. The gesture is held steady and centered, which adds emphasis and affective enrichment to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

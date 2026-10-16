@@ -1,0 +1,61 @@
+{
+  "clip_id": "C20",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C20_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:03:02.062846",
+  "backend_call_info": {
+    "frames_per_video": [
+      60,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.7737,
+      15.54
+    ],
+    "input_tokens": 8670,
+    "output_tokens": 252
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"closed fist\",\n        \"movement\": \"moves from forward in front of chest to near chin\",\n        \"location\": \"front of body, moving from chest to chin\",\n        \"nonmanual\": \"neutral facial expression\",\n        \"non_dominant_hand\": \"rests on lap\",\n        \"temporal_alignment\": \"part of a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action shows a closed fist moving from the chest to the chin, a common TSL lexical sign form, indicating a lexical item with semantic content.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "closed fist",
+          "movement": "moves from forward in front of chest to near chin",
+          "location": "front of body, moving from chest to chin",
+          "nonmanual": "neutral facial expression",
+          "non_dominant_hand": "rests on lap",
+          "temporal_alignment": "part of a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action shows a closed fist moving from the chest to the chin, a common TSL lexical sign form, indicating a lexical item with semantic content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

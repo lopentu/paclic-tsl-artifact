@@ -1,0 +1,17 @@
+{
+  "probe_id": "ndh_is_manual",
+  "tests": "Are MANUAL and NON-DOMINANT HAND mutually exclusive labels for this model? (inventory-overlap objection)",
+  "question": "A response inventory for 'which articulator carries this action' offers exactly these four options: MANUAL, FACE, HEAD_TORSO, NON-DOMINANT HAND. An action is carried by a signer's non-dominant hand alone. Which single option is correct, and is any other option also true of that action? Answer explicitly whether NON-DOMINANT HAND is a subtype of MANUAL or a separate category from it.",
+  "answer_format": "prose",
+  "video_shown": false,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "temperature": 0.0,
+  "do_sample": false,
+  "max_new_tokens": 500,
+  "timestamp": "2026-08-03T12:24:09.708212",
+  "prompt": "You are answering a question about sign language linguistics. This is a knowledge question about signed languages in general, not about any particular video.\n\nA response inventory for 'which articulator carries this action' offers exactly these four options: MANUAL, FACE, HEAD_TORSO, NON-DOMINANT HAND. An action is carried by a signer's non-dominant hand alone. Which single option is correct, and is any other option also true of that action? Answer explicitly whether NON-DOMINANT HAND is a subtype of MANUAL or a separate category from it.\n\nAnswer in at most 120 words. Plain prose, no JSON.\n",
+  "raw_text": "The correct single option is NON-DOMINANT HAND. No other option is true of this action, as it is carried solely by that hand. NON-DOMINANT HAND is a subtype of MANUAL, since manual articulators include all hand-based movements, and the non-dominant hand is a hand, not a separate articulator category. Thus, while the action is specifically performed by the non-dominant hand, it still falls under the broader MANUAL category.",
+  "parsed": null
+}

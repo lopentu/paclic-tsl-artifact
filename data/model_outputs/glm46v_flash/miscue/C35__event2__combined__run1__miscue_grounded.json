@@ -1,0 +1,56 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C35_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:29:27.389239",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand touches nose and then forehead\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"touching nose then forehead\",\n        \"location\": \"face\",\n        \"nonmanual\": \"touching nose and forehead\",\n        \"non_dominant_hand\": \"right hand touches nose then forehead\",\n        \"temporal_alignment\": \"part of a longer sign sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The signer touches their nose and then forehead, which is a common nonmanual for 'police' in TSL, contributing to the meaning of the phrase about police not necessarily using sign language.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "non-dominant hand touches nose and then forehead",
+          "handshape": "open palm",
+          "movement": "touching nose then forehead",
+          "location": "face",
+          "nonmanual": "touching nose and forehead",
+          "non_dominant_hand": "right hand touches nose then forehead",
+          "temporal_alignment": "part of a longer sign sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The signer touches their nose and then forehead, which is a common nonmanual for 'police' in TSL, contributing to the meaning of the phrase about police not necessarily using sign language."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

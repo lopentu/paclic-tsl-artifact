@@ -1,0 +1,50 @@
+{
+  "clip_id": "C10",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C10_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:28:45.590666",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"The dominant hand is the right hand. The non-dominant hand is the left hand.\",\n        \"handshape\": \"The right hand has an extended index finger and a slightly curled thumb and middle finger, resembling a 'C' or 'gun' handshape.\",\n        \"movement\": \"The hand moves from a position near the signer's right cheek, forward and slightly downward, with a small circular or 'wiggling' motion at the wrist.\",\n        \"location\": \"The hand is initially at the signer's right cheek, then moves to the center of the chest.\",\n        \"nonmanual\": \"The signer's facial expression is neutral to serious. The head is still.\",\n        \"non_dominant_hand\": \"The left hand is held steady against the left side of the signer's chest, palm facing inward.\",\n        \"temporal_alignment\": \"The action is a brief, punctuated movement that occurs within a continuous signing flow, appearing to be the initial part of a larger sign.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The right hand's specific shape and movement path are conventionalized, suggesting a lexical sign. The left hand is held in a stable position, likely as a base for the sign. The overall form is a clear, grammatical unit within the discourse.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant hand is the right hand. The non-dominant hand is the left hand.",
+          "handshape": "The right hand has an extended index finger and a slightly curled thumb and middle finger, resembling a 'C' or 'gun' handshape.",
+          "movement": "The hand moves from a position near the signer's right cheek, forward and slightly downward, with a small circular or 'wiggling' motion at the wrist.",
+          "location": "The hand is initially at the signer's right cheek, then moves to the center of the chest.",
+          "nonmanual": "The signer's facial expression is neutral to serious. The head is still.",
+          "non_dominant_hand": "The left hand is held steady against the left side of the signer's chest, palm facing inward.",
+          "temporal_alignment": "The action is a brief, punctuated movement that occurs within a continuous signing flow, appearing to be the initial part of a larger sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The right hand's specific shape and movement path are conventionalized, suggesting a lexical sign. The left hand is held in a stable position, likely as a base for the sign. The overall form is a clear, grammatical unit within the discourse."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

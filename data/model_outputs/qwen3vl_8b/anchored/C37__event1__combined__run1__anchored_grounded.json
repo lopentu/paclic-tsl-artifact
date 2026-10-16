@@ -1,0 +1,54 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_c/C37_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:16:22.236381",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression with pursed lips and slight head tilt\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"pursed lips, slight head tilt\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during a sustained manual sign, likely marking a pause or emphasis within the clause\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The pursed lips and slight head tilt occur during a manual sign that conveys a sense of limitation or difficulty (likely '只能用簡單的手語溝通' - can only use simple sign language). The facial expression adds emphasis and conveys a tone of frustration or resignation, which is pragmatically enriching. The action is not a conventionalized lexical sign, so it scores 1 on D1 (weak contribution) and 2 on D2 (clear enrichment).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression with pursed lips and slight head tilt",
+          "location": "center of face",
+          "nonmanual": "pursed lips, slight head tilt",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during a sustained manual sign, likely marking a pause or emphasis within the clause"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The pursed lips and slight head tilt occur during a manual sign that conveys a sense of limitation or difficulty (likely '只能用簡單的手語溝通' - can only use simple sign language). The facial expression adds emphasis and conveys a tone of frustration or resignation, which is pragmatically enriching. The action is not a conventionalized lexical sign, so it scores 1 on D1 (weak contribution) and 2 on D2 (clear enrichment)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C02",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S01EP02",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:04:24.126297",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palm, fingers extended\",\n        \"movement\": \"right hand moves from chin to right side of head, then left hand moves from chin to left side of head, both in a sweeping motion\",\n        \"location\": \"starts near chin, moves outward and upward to the sides of the head\",\n        \"nonmanual\": \"smiling face, head tilted slightly\",\n        \"non_dominant_hand\": \"left hand follows right hand's motion\",\n        \"temporal_alignment\": \"begins with right hand moving from chin to right side of head, then left hand follows with a similar motion\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The sweeping motion of both hands from the chin to the sides of the head, combined with the smiling face, suggests an expressive gesture indicating a positive or enthusiastic state, possibly conveying 'yes' or 'good' in a conversational context. The movement is coordinated and appears to be a single, integrated action rather than separate signs.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palm, fingers extended",
+          "movement": "right hand moves from chin to right side of head, then left hand moves from chin to left side of head, both in a sweeping motion",
+          "location": "starts near chin, moves outward and upward to the sides of the head",
+          "nonmanual": "smiling face, head tilted slightly",
+          "non_dominant_hand": "left hand follows right hand's motion",
+          "temporal_alignment": "begins with right hand moving from chin to right side of head, then left hand follows with a similar motion"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The sweeping motion of both hands from the chin to the sides of the head, combined with the smiling face, suggests an expressive gesture indicating a positive or enthusiastic state, possibly conveying 'yes' or 'good' in a conversational context. The movement is coordinated and appears to be a single, integrated action rather than separate signs."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "face",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:19:30.274854",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers extended\",\n        \"movement\": \"both hands move upward from chest level to shoulder height, then outward and slightly downward in a sweeping motion, as if indicating levels or stages\",\n        \"location\": \"starts near chest, ends at shoulder height and slightly outward\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"moves in coordination with dominant hand, mirroring motion\",\n        \"temporal_alignment\": \"action spans the entire target span, begins with hands at chest, ends with hands at shoulder height\"\n      },\n      \"semantic_syntactic_load\": 3,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move upward and outward in a gesture that visually represents multiple stages or levels, consistent with the meaning 'three stages' in the given context. The movement is repeated and structured, suggesting grammatical marking of plurality or sequence. The gesture is vivid and depictive, showing the concept of stages or levels being counted or presented.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers extended",
+          "movement": "both hands move upward from chest level to shoulder height, then outward and slightly downward in a sweeping motion, as if indicating levels or stages",
+          "location": "starts near chest, ends at shoulder height and slightly outward",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "moves in coordination with dominant hand, mirroring motion",
+          "temporal_alignment": "action spans the entire target span, begins with hands at chest, ends with hands at shoulder height"
+        },
+        "semantic_syntactic_load": 3,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move upward and outward in a gesture that visually represents multiple stages or levels, consistent with the meaning 'three stages' in the given context. The movement is repeated and structured, suggesting grammatical marking of plurality or sequence. The gesture is vivid and depictive, showing the concept of stages or levels being counted or presented."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

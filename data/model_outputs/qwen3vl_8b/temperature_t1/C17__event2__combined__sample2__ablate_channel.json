@@ -1,0 +1,55 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 662169483,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:12:59.378060",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb up\",\n        \"movement\": \"thumb extended upward, held steady\",\n        \"location\": \"centered in front of chest, at signer's midline\",\n        \"nonmanual\": \"signer maintains a slight pouty facial expression\",\n        \"non_dominant_hand\": \"resting at side, not visible\",\n        \"temporal_alignment\": \"follows a manual gesture involving both hands clasped together, and precedes a downward movement of the dominant hand\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The thumb-up gesture is a conventionalized lexical sign in TSL, directly contributing to the propositional content of '很棒' (great/excellent) and is visually reinforced by the signer's sustained facial expression conveying positive affect.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb up",
+          "movement": "thumb extended upward, held steady",
+          "location": "centered in front of chest, at signer's midline",
+          "nonmanual": "signer maintains a slight pouty facial expression",
+          "non_dominant_hand": "resting at side, not visible",
+          "temporal_alignment": "follows a manual gesture involving both hands clasped together, and precedes a downward movement of the dominant hand"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The thumb-up gesture is a conventionalized lexical sign in TSL, directly contributing to the propositional content of '很棒' (great/excellent) and is visually reinforced by the signer's sustained facial expression conveying positive affect."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

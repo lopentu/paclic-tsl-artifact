@@ -1,0 +1,49 @@
+{
+  "clip_id": "C11",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C11_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:00:28.790232",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves upward and slightly forward, then downward in a small arc\",\n        \"location\": \"near the signer's right cheek, moving toward the center of the face\",\n        \"nonmanual\": \"signer's eyes are closed, then open slightly\",\n        \"non_dominant_hand\": \"resting on the signer's chest\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the clip, immediately after a pause, and is followed by a more complex manual gesture\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL, likely a particle or classifier. The upward motion and the slight facial expression suggest emphasis or a specific grammatical function. The action is brief and isolated, indicating it's a prosodic or grammatical marker rather than a full proposition.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves upward and slightly forward, then downward in a small arc",
+          "location": "near the signer's right cheek, moving toward the center of the face",
+          "nonmanual": "signer's eyes are closed, then open slightly",
+          "non_dominant_hand": "resting on the signer's chest",
+          "temporal_alignment": "the action occurs at the beginning of the clip, immediately after a pause, and is followed by a more complex manual gesture"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL, likely a particle or classifier. The upward motion and the slight facial expression suggest emphasis or a specific grammatical function. The action is brief and isolated, indicating it's a prosodic or grammatical marker rather than a full proposition."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

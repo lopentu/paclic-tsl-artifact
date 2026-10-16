@@ -1,0 +1,53 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "face",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T12:22:40.280334",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression with slight head tilt and eyebrow movement\",\n        \"location\": \"center of face, primarily eyes and eyebrows\",\n        \"nonmanual\": \"eyebrows raised slightly, eyes focused forward, mouth neutral\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with initial signing, precedes main manual signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.85,\n      \"observable_evidence\": \"Facial expression includes raised eyebrows and focused gaze, suggesting emphasis or mild surprise, consistent with conveying the idea that people lack sign language skills. The expression is not a lexical sign but adds affective weight to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression with slight head tilt and eyebrow movement",
+          "location": "center of face, primarily eyes and eyebrows",
+          "nonmanual": "eyebrows raised slightly, eyes focused forward, mouth neutral",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with initial signing, precedes main manual signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.85,
+        "observable_evidence": "Facial expression includes raised eyebrows and focused gaze, suggesting emphasis or mild surprise, consistent with conveying the idea that people lack sign language skills. The expression is not a lexical sign but adds affective weight to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

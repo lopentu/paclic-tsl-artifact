@@ -1,0 +1,49 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C34_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:53:46.656098",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"right hand moves from near the signer's right eye to the center of the face, then left hand mirrors it; both hands then move inward toward the chest, then outward again\",\n        \"location\": \"starts near the eyes, moves to the center of the face, then to the chest area\",\n        \"nonmanual\": \"signer's mouth is open and moving, eyes are focused forward\",\n        \"non_dominant_hand\": \"left hand mirrors the right hand's movement\",\n        \"temporal_alignment\": \"the action begins with the right hand moving from the eye area to the center of the face, and the left hand follows, then both hands move inward and outward in a coordinated motion\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move from the eye area to the center of the face, then inward and outward, which visually represents the concept of being in the middle of a dangerous place. The coordinated movement of both hands and the facial expression suggest emphasis and vividness, enhancing the meaning of being in a dangerous position.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "right hand moves from near the signer's right eye to the center of the face, then left hand mirrors it; both hands then move inward toward the chest, then outward again",
+          "location": "starts near the eyes, moves to the center of the face, then to the chest area",
+          "nonmanual": "signer's mouth is open and moving, eyes are focused forward",
+          "non_dominant_hand": "left hand mirrors the right hand's movement",
+          "temporal_alignment": "the action begins with the right hand moving from the eye area to the center of the face, and the left hand follows, then both hands move inward and outward in a coordinated motion"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move from the eye area to the center of the face, then inward and outward, which visually represents the concept of being in the middle of a dangerous place. The coordinated movement of both hands and the facial expression suggest emphasis and vividness, enhancing the meaning of being in a dangerous position."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 352610526,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:06:19.736602",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand is raised and moving, but not the focus\",\n        \"handshape\": \"not clearly visible\",\n        \"movement\": \"mouth opens wide, tongue protrudes, then retracts; facial expression shifts from open-mouthed to a grimace or strained expression\",\n        \"location\": \"central facial area\",\n        \"nonmanual\": \"strong facial expression with mouth and tongue movement\",\n        \"non_dominant_hand\": \"raised and moving in a gestural motion, but not the primary focus\",\n        \"temporal_alignment\": \"co-occurs with the signing of the phrase '我可以自立自強' (I can be self-reliant) in the surrounding context\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The facial expression (mouth wide open, tongue out) and the grimace at 0.3-1.1 seconds convey a strong affective stance, likely emphasizing determination or effort, which aligns with the meaning 'I can be self-reliant'. The action is not a lexical sign but contributes to the pragmatic force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "non-dominant hand is raised and moving, but not the focus",
+          "handshape": "not clearly visible",
+          "movement": "mouth opens wide, tongue protrudes, then retracts; facial expression shifts from open-mouthed to a grimace or strained expression",
+          "location": "central facial area",
+          "nonmanual": "strong facial expression with mouth and tongue movement",
+          "non_dominant_hand": "raised and moving in a gestural motion, but not the primary focus",
+          "temporal_alignment": "co-occurs with the signing of the phrase '我可以自立自強' (I can be self-reliant) in the surrounding context"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression (mouth wide open, tongue out) and the grimace at 0.3-1.1 seconds convey a strong affective stance, likely emphasizing determination or effort, which aligns with the meaning 'I can be self-reliant'. The action is not a lexical sign but contributes to the pragmatic force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C09_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:31:25.853247",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open hands\",\n        \"movement\": \"hands move inward from the sides toward the center of the chest, then the right hand moves downward and outward while the left hand remains near the chest\",\n        \"location\": \"initially at the sides, then moving inward toward the chest, with the right hand moving down and outward\",\n        \"nonmanual\": \"mouth open, eyebrows slightly raised\",\n        \"non_dominant_hand\": \"left hand remains near the chest, palm facing inward\",\n        \"temporal_alignment\": \"the action begins with the hands moving inward toward the chest, then the right hand moves downward and outward while the left hand remains near the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move inward toward the chest, a common gesture in TSL for indicating a person or entity. The movement is coordinated with the mouth and facial expression, suggesting emphasis or a grammatical marker. The action is part of a larger sequence that includes pointing and other gestures, indicating it is a component of a larger utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open hands",
+          "movement": "hands move inward from the sides toward the center of the chest, then the right hand moves downward and outward while the left hand remains near the chest",
+          "location": "initially at the sides, then moving inward toward the chest, with the right hand moving down and outward",
+          "nonmanual": "mouth open, eyebrows slightly raised",
+          "non_dominant_hand": "left hand remains near the chest, palm facing inward",
+          "temporal_alignment": "the action begins with the hands moving inward toward the chest, then the right hand moves downward and outward while the left hand remains near the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move inward toward the chest, a common gesture in TSL for indicating a person or entity. The movement is coordinated with the mouth and facial expression, suggesting emphasis or a grammatical marker. The action is part of a larger sequence that includes pointing and other gestures, indicating it is a component of a larger utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

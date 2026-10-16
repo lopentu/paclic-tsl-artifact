@@ -1,0 +1,55 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1623924647,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:29:32.748230",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger touches and hovers near the lips, then moves slightly up and down\",\n        \"location\": \"in front of the mouth, near the lips\",\n        \"nonmanual\": \"head slightly tilted forward, eyes looking forward\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action occurs during a pause in signing, following a gesture of touching the chest and preceding a fist pump\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The finger is positioned near the lips, a common gesture for indicating 'talking' or 'speech' in sign languages. This gesture occurs in the context of a discourse about resources being convenient for practice, suggesting the act of speaking or conveying information. The slight movement of the finger adds a dynamic, vivid quality to the signing.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger touches and hovers near the lips, then moves slightly up and down",
+          "location": "in front of the mouth, near the lips",
+          "nonmanual": "head slightly tilted forward, eyes looking forward",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action occurs during a pause in signing, following a gesture of touching the chest and preceding a fist pump"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The finger is positioned near the lips, a common gesture for indicating 'talking' or 'speech' in sign languages. This gesture occurs in the context of a discourse about resources being convenient for practice, suggesting the act of speaking or conveying information. The slight movement of the finger adds a dynamic, vivid quality to the signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

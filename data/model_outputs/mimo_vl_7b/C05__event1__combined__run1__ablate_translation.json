@@ -1,0 +1,50 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C05_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:09:12.648537",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.9\",\n        \"channel_judged\": \"face\",\n        \"form_description\": {\n          \"hands\": \"Both hands are in motion, but the target action is facial.\",\n          \"handshape\": \"Both hands appear to be in a pincer or 'O' handshape.\",\n          \"movement\": \"The right hand moves from the forehead area downwards and forwards. The left hand moves from the right hand area towards the center.\",\n          \"location\": \"The facial action is centered on the face.\",\n          \"nonmanual\": \"The signer's eyebrows are raised and her eyes are wide, indicating a look of surprise or emphasis. Her mouth is slightly open.\",\n          \"non_dominant_hand\": \"The non-dominant hand (left hand) is involved in a concurrent manual sign, moving towards the center of the body.\",\n          \"temporal_alignment\": \"The facial action occurs in the middle of a continuous manual signing sequence, appearing to be a simultaneous non-manual marker for the manual signs.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 3,\n        \"description\": 0,\n        \"indication\": 0,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The raised eyebrows and wide eyes are a strong facial marker of surprise or emphasis, which is a non-manual grammatical feature in sign language. This expression is clearly tied to the manual signs being produced, suggesting it adds a crucial pragmatic layer to their meaning.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "Both hands are in motion, but the target action is facial.",
+          "handshape": "Both hands appear to be in a pincer or 'O' handshape.",
+          "movement": "The right hand moves from the forehead area downwards and forwards. The left hand moves from the right hand area towards the center.",
+          "location": "The facial action is centered on the face.",
+          "nonmanual": "The signer's eyebrows are raised and her eyes are wide, indicating a look of surprise or emphasis. Her mouth is slightly open.",
+          "non_dominant_hand": "The non-dominant hand (left hand) is involved in a concurrent manual sign, moving towards the center of the body.",
+          "temporal_alignment": "The facial action occurs in the middle of a continuous manual signing sequence, appearing to be a simultaneous non-manual marker for the manual signs."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The raised eyebrows and wide eyes are a strong facial marker of surprise or emphasis, which is a non-manual grammatical feature in sign language. This expression is clearly tied to the manual signs being produced, suggesting it adds a crucial pragmatic layer to their meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

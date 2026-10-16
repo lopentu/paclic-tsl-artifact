@@ -1,0 +1,48 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:22:30.147363",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm, then changes to a fist\",\n        \"movement\": \"starts with open palm moving upward, then transitions to a fist with a slight downward motion\",\n        \"location\": \"right side of signer's body (signer's left side from viewer's perspective)\",\n        \"nonmanual\": \"mouth open, facial expression intense\",\n        \"non_dominant_hand\": \"resting at side\",\n        \"temporal_alignment\": \"begins with the open palm gesture, transitions to fist as the signer's expression intensifies\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand gesture transitions from an open palm to a fist, which is a common sign in TSL for 'strong' or 'determined', aligning with the message of self-reliance. The intense facial expression and open mouth suggest emphasis and emotional force, enhancing the affective tone of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm, then changes to a fist",
+          "movement": "starts with open palm moving upward, then transitions to a fist with a slight downward motion",
+          "location": "right side of signer's body (signer's left side from viewer's perspective)",
+          "nonmanual": "mouth open, facial expression intense",
+          "non_dominant_hand": "resting at side",
+          "temporal_alignment": "begins with the open palm gesture, transitions to fist as the signer's expression intensifies"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hand gesture transitions from an open palm to a fist, which is a common sign in TSL for 'strong' or 'determined', aligning with the message of self-reliance. The intense facial expression and open mouth suggest emphasis and emotional force, enhancing the affective tone of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

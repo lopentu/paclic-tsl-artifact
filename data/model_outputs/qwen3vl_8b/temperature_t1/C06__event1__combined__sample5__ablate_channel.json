@@ -1,0 +1,55 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 285448659,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:39:27.326620",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a thumbs-up, left hand is open palm\",\n        \"movement\": \"right hand remains steady in thumbs-up position, left hand moves in a forward-backward motion, palm facing right, then moves upward and inward toward the right hand\",\n        \"location\": \"both hands positioned in front of the signer's chest, right hand closer to the center, left hand moving around it\",\n        \"nonmanual\": \"signer's mouth is open, eyes looking forward\",\n        \"non_dominant_hand\": \"left hand is the non-dominant hand, actively moving\",\n        \"temporal_alignment\": \"the action begins after the signer has completed a previous sign and precedes the next sign in the sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands are in a position that could represent a sign for 'approval' or 'good', which is relevant to the context of training courses. The movement of the left hand adds emphasis to the action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a thumbs-up, left hand is open palm",
+          "movement": "right hand remains steady in thumbs-up position, left hand moves in a forward-backward motion, palm facing right, then moves upward and inward toward the right hand",
+          "location": "both hands positioned in front of the signer's chest, right hand closer to the center, left hand moving around it",
+          "nonmanual": "signer's mouth is open, eyes looking forward",
+          "non_dominant_hand": "left hand is the non-dominant hand, actively moving",
+          "temporal_alignment": "the action begins after the signer has completed a previous sign and precedes the next sign in the sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands are in a position that could represent a sign for 'approval' or 'good', which is relevant to the context of training courses. The movement of the left hand adds emphasis to the action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

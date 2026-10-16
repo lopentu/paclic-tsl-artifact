@@ -1,0 +1,55 @@
+{
+  "clip_id": "C27",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 2054869165,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:32:39.451127",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression held steady\",\n        \"location\": \"on signer's face\",\n        \"nonmanual\": \"signer's face is contorted with a grimace, eyebrows furrowed, eyes narrowed, mouth slightly open with lips pursed, conveying strong effort or discomfort\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action occurs within a sustained signing unit, starting immediately after a preceding manual sign and before a subsequent manual sign\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The grimace and contorted facial expression are held steadily during the target span, which is part of a continuous signed utterance. This expression visually reinforces the signer's strong emotional commitment to the proposition 'I am willing to participate', making it more vivid and emphatic. The facial expression is not a conventionalized lexical sign, nor does it point to or enact anything, but it is a clear nonmanual marker of affect.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression held steady",
+          "location": "on signer's face",
+          "nonmanual": "signer's face is contorted with a grimace, eyebrows furrowed, eyes narrowed, mouth slightly open with lips pursed, conveying strong effort or discomfort",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action occurs within a sustained signing unit, starting immediately after a preceding manual sign and before a subsequent manual sign"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The grimace and contorted facial expression are held steadily during the target span, which is part of a continuous signed utterance. This expression visually reinforces the signer's strong emotional commitment to the proposition 'I am willing to participate', making it more vivid and emphatic. The facial expression is not a conventionalized lexical sign, nor does it point to or enact anything, but it is a clear nonmanual marker of affect."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C10",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "manual",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:20:39.006807",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"both hands move outward and upward in a smooth arc, then come together in front of chest\",\n        \"location\": \"starts near chest level, moves outward and upward, ends near mid-chest\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"non-dominant hand moves in sync with dominant hand, mirroring motion\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.5s, occurring within a continuous signing stretch without pause\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement resembles a conventionalized lexical sign for 'teacher' or 'instructor' in TSL, consistent with the phrase '跟一位好的手語老師'. The outward motion may indicate 'a person' or 'someone', and the upward arc suggests 'good' or 'positive quality'. The synchronized hand movement adds emphasis and vividness to the referent.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "both hands move outward and upward in a smooth arc, then come together in front of chest",
+          "location": "starts near chest level, moves outward and upward, ends near mid-chest",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "non-dominant hand moves in sync with dominant hand, mirroring motion",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.5s, occurring within a continuous signing stretch without pause"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement resembles a conventionalized lexical sign for 'teacher' or 'instructor' in TSL, consistent with the phrase '跟一位好的手語老師'. The outward motion may indicate 'a person' or 'someone', and the upward arc suggests 'good' or 'positive quality'. The synchronized hand movement adds emphasis and vividness to the referent."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

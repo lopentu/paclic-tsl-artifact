@@ -1,0 +1,48 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C01_window_model.mp4",
+  "video_id": "S01EP01",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:25:09.234541",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves from lower right to upper left, then holds steady\",\n        \"location\": \"near the signer's right eye, then moves to the forehead\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"index finger extended, other fingers curled, moves from lower right to upper left, then holds steady\",\n        \"temporal_alignment\": \"starts with the signer's right hand moving to the forehead, then the non-dominant hand moves to the forehead and holds steady\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand moves to the forehead and holds steady, which is a common gesture in TSL to indicate 'thinking' or 'considering'. The movement is clear and deliberate, suggesting it carries semantic content. The gesture is also visually distinct and adds emphasis to the signer's utterance, indicating pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves from lower right to upper left, then holds steady",
+          "location": "near the signer's right eye, then moves to the forehead",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "index finger extended, other fingers curled, moves from lower right to upper left, then holds steady",
+          "temporal_alignment": "starts with the signer's right hand moving to the forehead, then the non-dominant hand moves to the forehead and holds steady"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand moves to the forehead and holds steady, which is a common gesture in TSL to indicate 'thinking' or 'considering'. The movement is clear and deliberate, suggesting it carries semantic content. The gesture is also visually distinct and adds emphasis to the signer's utterance, indicating pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

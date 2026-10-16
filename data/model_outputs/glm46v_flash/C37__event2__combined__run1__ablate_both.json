@@ -1,0 +1,61 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:20:02.702364",
+  "backend_call_info": {
+    "frames_per_video": [
+      82,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.7535,
+      14.5309
+    ],
+    "input_tokens": 10902,
+    "output_tokens": 310
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand (right) and non-dominant hand (left) both involved in a crossing motion\",\n        \"handshape\": \"dominant hand in a flat position, non-dominant hand in a slightly curved position\",\n        \"movement\": \"crossing from right to left in front of the chest, repeated\",\n        \"location\": \"chest/frontal plane\",\n        \"nonmanual\": \"eyes closed, mouth slightly open\",\n        \"non_dominant_hand\": \"stays relatively still while the dominant hand crosses\",\n        \"temporal_alignment\": \"part of a longer sequence of similar crossing motions\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The repeated crossing motion of the hands in front of the chest is a common grammatical marker in TSL for negation or a negative clause, and the closed eyes and mouth suggest a focused, possibly emphatic, signing style.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand (right) and non-dominant hand (left) both involved in a crossing motion",
+          "handshape": "dominant hand in a flat position, non-dominant hand in a slightly curved position",
+          "movement": "crossing from right to left in front of the chest, repeated",
+          "location": "chest/frontal plane",
+          "nonmanual": "eyes closed, mouth slightly open",
+          "non_dominant_hand": "stays relatively still while the dominant hand crosses",
+          "temporal_alignment": "part of a longer sequence of similar crossing motions"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The repeated crossing motion of the hands in front of the chest is a common grammatical marker in TSL for negation or a negative clause, and the closed eyes and mouth suggest a focused, possibly emphatic, signing style."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

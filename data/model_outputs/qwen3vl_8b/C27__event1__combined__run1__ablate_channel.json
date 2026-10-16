@@ -1,0 +1,48 @@
+{
+  "clip_id": "C27",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C27_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:10:50.146331",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly curled\",\n        \"movement\": \"hands move inward from the sides toward the center of the chest, then remain still\",\n        \"location\": \"centered over the chest, at the level of the heart\",\n        \"nonmanual\": \"face shows a strained, pained expression with eyes squinted and mouth open\",\n        \"non_dominant_hand\": \"not visible or not involved\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture of bringing hands together and preceding a gesture of placing a hand on the chin\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands are positioned over the chest, a common sign for 'heart' or 'emotion' in TSL, which aligns with the propositional content of willingness to participate. The strained facial expression and the inward movement of the hands strongly convey the signer's emotional investment or personal commitment to the idea, adding vividness and affect to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly curled",
+          "movement": "hands move inward from the sides toward the center of the chest, then remain still",
+          "location": "centered over the chest, at the level of the heart",
+          "nonmanual": "face shows a strained, pained expression with eyes squinted and mouth open",
+          "non_dominant_hand": "not visible or not involved",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture of bringing hands together and preceding a gesture of placing a hand on the chin"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands are positioned over the chest, a common sign for 'heart' or 'emotion' in TSL, which aligns with the propositional content of willingness to participate. The strained facial expression and the inward movement of the hands strongly convey the signer's emotional investment or personal commitment to the idea, adding vividness and affect to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

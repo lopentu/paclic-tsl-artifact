@@ -1,0 +1,50 @@
+{
+  "clip_id": "C31",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C31_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:19:43.961432",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"Both hands are visible, with the dominant hand (right) making a small gesture and the non-dominant hand (left) resting on the signer's chest.\",\n        \"handshape\": \"The dominant hand has a pinched or 'O' handshape. The non-dominant hand has a loose, relaxed shape.\",\n        \"movement\": \"The dominant hand makes a small, repetitive up-and-down or circular motion near the signer's chest.\",\n        \"location\": \"The dominant hand is in front of the signer's torso. The non-dominant hand is on the signer's lower chest.\",\n        \"nonmanual\": \"The signer's eyebrows are raised, and the mouth is open in a speaking expression. The head is tilted slightly to the signer's right.\",\n        \"non_dominant_hand\": \"The non-dominant hand is held steady against the signer's chest.\",\n        \"temporal_alignment\": \"The facial action occurs in the middle of a continuous manual signing sequence, overlapping with a manual sign.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The raised eyebrows and open mouth are a clear facial expression that coincides with the manual signing. This expression adds emphasis and a positive or explanatory affect to the manual signs, which are part of a continuous flow of discourse.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "Both hands are visible, with the dominant hand (right) making a small gesture and the non-dominant hand (left) resting on the signer's chest.",
+          "handshape": "The dominant hand has a pinched or 'O' handshape. The non-dominant hand has a loose, relaxed shape.",
+          "movement": "The dominant hand makes a small, repetitive up-and-down or circular motion near the signer's chest.",
+          "location": "The dominant hand is in front of the signer's torso. The non-dominant hand is on the signer's lower chest.",
+          "nonmanual": "The signer's eyebrows are raised, and the mouth is open in a speaking expression. The head is tilted slightly to the signer's right.",
+          "non_dominant_hand": "The non-dominant hand is held steady against the signer's chest.",
+          "temporal_alignment": "The facial action occurs in the middle of a continuous manual signing sequence, overlapping with a manual sign."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The raised eyebrows and open mouth are a clear facial expression that coincides with the manual signing. This expression adds emphasis and a positive or explanatory affect to the manual signs, which are part of a continuous flow of discourse."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

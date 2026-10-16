@@ -1,0 +1,69 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "face",
+  "prompt_from": {
+    "clip_id": "C39",
+    "event_id": "event2",
+    "translation": "<translation not redistributed>",
+    "video_id": "SP-EP07",
+    "rel_start_requested": 0.2999999999999545,
+    "rel_end_requested": 1.2999999999999545
+  },
+  "video_from": {
+    "clip_id": "C14",
+    "event_id": "event1",
+    "video_id": "S01EP11",
+    "target_channel": "face",
+    "duration": 2.5999999999999943
+  },
+  "rel_start_applied": 0.2999999999999545,
+  "rel_end_applied": 1.2999999999999545,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C14_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C14_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:01:01.591150",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.3\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression with mouth slightly open and eyebrows slightly raised, conveying a calm, determined, or resolute tone\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression coincides with the signing of the phrase '我可以自立自強' (I can be self-reliant and strong), which is the core of the message about personal resilience\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The facial expression is consistent with the message of self-reliance and strength, reinforcing the propositional content. The slight eyebrow raise and open mouth convey determination and calm confidence, which strongly enriches the affective stance of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.3",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression with mouth slightly open and eyebrows slightly raised, conveying a calm, determined, or resolute tone",
+          "location": "face",
+          "nonmanual": "facial expression",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression coincides with the signing of the phrase '我可以自立自強' (I can be self-reliant and strong), which is the core of the message about personal resilience"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The facial expression is consistent with the message of self-reliance and strength, reinforcing the propositional content. The slight eyebrow raise and open mouth convey determination and calm confidence, which strongly enriches the affective stance of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

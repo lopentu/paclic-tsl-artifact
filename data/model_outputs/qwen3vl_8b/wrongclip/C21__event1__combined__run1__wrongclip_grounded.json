@@ -1,0 +1,69 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C21",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP11",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 1.1999999999999886
+  },
+  "video_from": {
+    "clip_id": "C28",
+    "event_id": "event1",
+    "video_id": "S04-2EP07",
+    "target_channel": "manual",
+    "duration": 0.6999999999999318
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.6999999999999318,
+  "span_clamped": true,
+  "video_path": "<repo>/data/clips_c/C28_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C28_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:54:19.141508",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly spread\",\n        \"movement\": \"both hands move outward and upward from the signer's chest, then inward and downward in a sweeping motion, as if gesturing toward a large, encompassing area\",\n        \"location\": \"starts near the signer's chest, moves outward and upward, then inward and downward\",\n        \"nonmanual\": \"signer's head is slightly tilted forward, mouth is open as if speaking\",\n        \"non_dominant_hand\": \"non-dominant hand moves in coordination with the dominant hand, mirroring its motion\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a previous gesture and preceding a more detailed hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The sweeping motion of both hands outward and upward, followed by inward and downward, visually represents the concept of 'large quantity' or 'a lot' as mentioned in the given meaning. The gesture is not a simple lexical sign but enacts the idea of something expansive, contributing to the propositional content. The movement also adds vividness and emphasis, making the concept of 'large quantity' more tangible and impactful for the listener.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly spread",
+          "movement": "both hands move outward and upward from the signer's chest, then inward and downward in a sweeping motion, as if gesturing toward a large, encompassing area",
+          "location": "starts near the signer's chest, moves outward and upward, then inward and downward",
+          "nonmanual": "signer's head is slightly tilted forward, mouth is open as if speaking",
+          "non_dominant_hand": "non-dominant hand moves in coordination with the dominant hand, mirroring its motion",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a previous gesture and preceding a more detailed hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The sweeping motion of both hands outward and upward, followed by inward and downward, visually represents the concept of 'large quantity' or 'a lot' as mentioned in the given meaning. The gesture is not a simple lexical sign but enacts the idea of something expansive, contributing to the propositional content. The movement also adds vividness and emphasis, making the concept of 'large quantity' more tangible and impactful for the listener."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

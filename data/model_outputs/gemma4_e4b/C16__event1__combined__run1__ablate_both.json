@@ -1,0 +1,61 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T22:44:38.099046",
+  "backend_call_info": {
+    "frames_per_video": [
+      120,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.984
+    ],
+    "input_tokens": 12037,
+    "output_tokens": 305
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:01\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Index finger extended, other fingers curled\",\n        \"movement\": \"Both hands move forward and slightly upward in a coordinated manner\",\n        \"location\": \"In front of the signer's chest/face area\",\n        \"nonmanual\": \"Neutral expression\",\n        \"non_dominant_hand\": \"Not distinctly separate from the dominant hand movement\",\n        \"temporal_alignment\": \"The action occurs at the beginning of the clip and is sustained briefly.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.85,\n      \"observable_evidence\": \"Both hands are held up in front of the signer, with the index fingers extended, and they move forward together.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:01",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Index finger extended, other fingers curled",
+          "movement": "Both hands move forward and slightly upward in a coordinated manner",
+          "location": "In front of the signer's chest/face area",
+          "nonmanual": "Neutral expression",
+          "non_dominant_hand": "Not distinctly separate from the dominant hand movement",
+          "temporal_alignment": "The action occurs at the beginning of the clip and is sustained briefly."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.85,
+        "observable_evidence": "Both hands are held up in front of the signer, with the index fingers extended, and they move forward together."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

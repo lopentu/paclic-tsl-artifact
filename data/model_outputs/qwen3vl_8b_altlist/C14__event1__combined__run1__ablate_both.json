@@ -1,0 +1,49 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C14_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:01:23.605157",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"2.3\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'pinch' or 'thumb-and-finger' shape; left hand forms a 'pinch' or 'thumb-and-finger' shape\",\n        \"movement\": \"right hand moves from the signer's right side, across the chest, to the left side, then back to the right side, while left hand remains relatively stationary or moves in coordination; at 0.3-0.4, right hand moves forward and inward toward the left hand; at 0.5-0.7, right hand moves backward and outward away from the left hand; at 1.0-1.2, right hand moves downward and forward; at 1.5-1.7, right hand moves upward and inward toward the left hand; at 2.0-2.2, right hand moves downward and forward again\",\n        \"location\": \"right hand moves across the signer's chest and in front of the torso; left hand remains near the signer's chest or moves in coordination with the right hand\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly serious; head remains relatively still\",\n        \"non_dominant_hand\": \"left hand is used to support or coordinate the movement of the right hand; it may be held in a static position or move slightly\",\n        \"temporal_alignment\": \"the action begins with a movement of the right hand across the chest and ends with a downward movement of the right hand; it is a continuous, multi-part movement that spans the entire target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The continuous, multi-part movement of the right hand across the chest and in front of the torso suggests a lexical or grammatical sign that carries propositional content. The movement of the right hand toward and away from the left hand, and the coordination of the left hand, suggests a depictive or indicational function, possibly showing a relationship or action between two entities. The signer's neutral to serious facial expression and relatively still head suggest a focused, descriptive or grammatical action rather than an affective one.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "2.3",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'pinch' or 'thumb-and-finger' shape; left hand forms a 'pinch' or 'thumb-and-finger' shape",
+          "movement": "right hand moves from the signer's right side, across the chest, to the left side, then back to the right side, while left hand remains relatively stationary or moves in coordination; at 0.3-0.4, right hand moves forward and inward toward the left hand; at 0.5-0.7, right hand moves backward and outward away from the left hand; at 1.0-1.2, right hand moves downward and forward; at 1.5-1.7, right hand moves upward and inward toward the left hand; at 2.0-2.2, right hand moves downward and forward again",
+          "location": "right hand moves across the signer's chest and in front of the torso; left hand remains near the signer's chest or moves in coordination with the right hand",
+          "nonmanual": "signer's facial expression is neutral to slightly serious; head remains relatively still",
+          "non_dominant_hand": "left hand is used to support or coordinate the movement of the right hand; it may be held in a static position or move slightly",
+          "temporal_alignment": "the action begins with a movement of the right hand across the chest and ends with a downward movement of the right hand; it is a continuous, multi-part movement that spans the entire target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The continuous, multi-part movement of the right hand across the chest and in front of the torso suggests a lexical or grammatical sign that carries propositional content. The movement of the right hand toward and away from the left hand, and the coordination of the left hand, suggests a depictive or indicational function, possibly showing a relationship or action between two entities. The signer's neutral to serious facial expression and relatively still head suggest a focused, descriptive or grammatical action rather than an affective one."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

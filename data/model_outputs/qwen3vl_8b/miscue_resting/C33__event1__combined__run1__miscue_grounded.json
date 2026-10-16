@@ -1,0 +1,56 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C33_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C33_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:41:46.063005",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"fingers curled into a loose fist or ball\",\n        \"movement\": \"repeatedly moving the hand inward toward the chest, then outward again, in a rhythmic, pulsing motion\",\n        \"location\": \"centered in front of the chest, at approximately shoulder height\",\n        \"nonmanual\": \"signer's face shows a focused, slightly strained expression with pursed lips\",\n        \"non_dominant_hand\": \"the non-dominant hand performs the main movement, while the dominant hand remains relatively still\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture with both hands and preceding a more expansive gesture with the dominant hand\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand movement is rhythmic and inward/outward, suggesting a repeated or emphatic action. The facial expression and the context of the surrounding signing (which includes the phrase '你有沒有想過' - 'Have you thought about...') suggest the action is emphasizing a hypothetical or internal mental state, contributing to the propositional content of the clause. The movement's repetition and inward focus add affective weight, making the hypothetical scenario feel more vivid and personal.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "fingers curled into a loose fist or ball",
+          "movement": "repeatedly moving the hand inward toward the chest, then outward again, in a rhythmic, pulsing motion",
+          "location": "centered in front of the chest, at approximately shoulder height",
+          "nonmanual": "signer's face shows a focused, slightly strained expression with pursed lips",
+          "non_dominant_hand": "the non-dominant hand performs the main movement, while the dominant hand remains relatively still",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture with both hands and preceding a more expansive gesture with the dominant hand"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hand movement is rhythmic and inward/outward, suggesting a repeated or emphatic action. The facial expression and the context of the surrounding signing (which includes the phrase '你有沒有想過' - 'Have you thought about...') suggest the action is emphasizing a hypothetical or internal mental state, contributing to the propositional content of the clause. The movement's repetition and inward focus add affective weight, making the hypothetical scenario feel more vivid and personal."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

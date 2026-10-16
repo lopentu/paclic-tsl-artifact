@@ -1,0 +1,50 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C34_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:19:13.938232",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3s\",\n        \"end_time\": \"1.2s\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are used.\",\n          \"handshape\": \"Both hands are in a 'pinch' handshape (thumb and index finger touching to form a circle).\",\n          \"movement\": \"The dominant (right) hand moves from the signer's right cheek downwards and forwards. The non-dominant (left) hand moves from the signer's left cheek downwards and forwards, mirroring the right hand.\",\n          \"location\": \"The hands start at the signer's cheeks and move down in front of the chest.\",\n          \"nonmanual\": \"The signer's facial expression is serious and focused. The eyebrows are slightly raised and furrowed.\",\n          \"non_dominant_hand\": \"The non-dominant hand is active, mirroring the dominant hand's movement.\",\n          \"temporal_alignment\": \"The action begins immediately after a brief pause and is the first part of a continuous signed phrase.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 3,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two-handed, symmetrical movement is a conventional TSL form. The facial expression adds a serious, cautionary affect. The action's structure suggests it is a lexical sign (a 'word') for a concept like 'in the middle' or 'in a dangerous place'.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3s",
+        "end_time": "1.2s",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "Both hands are in a 'pinch' handshape (thumb and index finger touching to form a circle).",
+          "movement": "The dominant (right) hand moves from the signer's right cheek downwards and forwards. The non-dominant (left) hand moves from the signer's left cheek downwards and forwards, mirroring the right hand.",
+          "location": "The hands start at the signer's cheeks and move down in front of the chest.",
+          "nonmanual": "The signer's facial expression is serious and focused. The eyebrows are slightly raised and furrowed.",
+          "non_dominant_hand": "The non-dominant hand is active, mirroring the dominant hand's movement.",
+          "temporal_alignment": "The action begins immediately after a brief pause and is the first part of a continuous signed phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed, symmetrical movement is a conventional TSL form. The facial expression adds a serious, cautionary affect. The action's structure suggests it is a lexical sign (a 'word') for a concept like 'in the middle' or 'in a dangerous place'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,54 @@
+{
+  "clip_id": "C18",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_c/C18_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:08:33.686212",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"right hand moves from near the signer's right shoulder down and forward, then left hand moves from near the signer's left shoulder down and forward, both hands meet and point at each other with index fingers\",\n        \"location\": \"initially near shoulders, then both hands move forward to meet in front of the chest, fingers pointing at each other\",\n        \"nonmanual\": \"signer's head is slightly tilted forward, eyes focused forward\",\n        \"non_dominant_hand\": \"left hand remains relatively still, index finger extended, while right hand moves toward it\",\n        \"temporal_alignment\": \"the action begins after a gesture with both hands open and moving outward, and ends with the hands held in a pointing position\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move toward each other and point, indicating a specific object or concept being referred to. The action is a conventionalized sign for 'proof' or 'document' in TSL, which is essential to the meaning of '我準備乙證' (I prepared a certificate). The pointing gesture also adds emphasis and vividness to the referent.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "right hand moves from near the signer's right shoulder down and forward, then left hand moves from near the signer's left shoulder down and forward, both hands meet and point at each other with index fingers",
+          "location": "initially near shoulders, then both hands move forward to meet in front of the chest, fingers pointing at each other",
+          "nonmanual": "signer's head is slightly tilted forward, eyes focused forward",
+          "non_dominant_hand": "left hand remains relatively still, index finger extended, while right hand moves toward it",
+          "temporal_alignment": "the action begins after a gesture with both hands open and moving outward, and ends with the hands held in a pointing position"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move toward each other and point, indicating a specific object or concept being referred to. The action is a conventionalized sign for 'proof' or 'document' in TSL, which is essential to the meaning of '我準備乙證' (I prepared a certificate). The pointing gesture also adds emphasis and vividness to the referent."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

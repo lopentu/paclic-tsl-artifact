@@ -1,0 +1,53 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "face",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T12:21:39.006787",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression changes, including brow furrowing and mouth forming a warning shape\",\n        \"location\": \"center of signer's face\",\n        \"nonmanual\": \"brow lowering, lips tensing, eyes widening slightly\",\n        \"non_dominant_hand\": \"not visible or active\",\n        \"temporal_alignment\": \"co-occurs with the beginning of the signed utterance, preceding and accompanying the core message about danger\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer’s facial expression conveys urgency and warning, aligning with the message about being in danger. The brow furrowing and tense mouth suggest a grammatical emphasis on risk, while the widened eyes and tensed lips enhance the affective force, making the danger feel immediate and vivid.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression changes, including brow furrowing and mouth forming a warning shape",
+          "location": "center of signer's face",
+          "nonmanual": "brow lowering, lips tensing, eyes widening slightly",
+          "non_dominant_hand": "not visible or active",
+          "temporal_alignment": "co-occurs with the beginning of the signed utterance, preceding and accompanying the core message about danger"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer’s facial expression conveys urgency and warning, aligning with the message about being in danger. The brow furrowing and tense mouth suggest a grammatical emphasis on risk, while the widened eyes and tensed lips enhance the affective force, making the danger feel immediate and vivid."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

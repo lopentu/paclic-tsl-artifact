@@ -1,0 +1,36 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "non_dominant_hand",
+  "label_channel_sent": "face",
+  "label_is_correct": false,
+  "video_id": "S01EP09",
+  "source_run": "C06__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: thumb extended, fingers curled\n- movement: moves in a small, repetitive up-and-down motion, as if tapping or counting\n- location: near the signer's chest, slightly to the signer's left\n- nonmanual: signer's facial expression is neutral, mouth slightly open\n- non dominant hand: the non-dominant hand is held steady with thumb extended, fingers curled, and moves up and down in a small arc\n- temporal alignment: the action occurs during a pause in the signing, following a gesture with the dominant hand and preceding a new gesture",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:22:09.186174",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 2,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 1,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The repetitive up-and-down motion near the chest, combined with neutral facial expression, likely serves to emphasize or enumerate, possibly indicating 'each' or 'various' in the context of training courses. It adds pragmatic enrichment by signaling enumeration or listing, but does not carry core semantic or syntactic load. The gesture is conventionalized as a descriptive marker for plurality or iteration, and slightly depicts counting or listing.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 0,
+    "depiction": 1,
+    "confidence": 0.85,
+    "reasoning": "The repetitive up-and-down motion near the chest, combined with neutral facial expression, likely serves to emphasize or enumerate, possibly indicating 'each' or 'various' in the context of training courses. It adds pragmatic enrichment by signaling enumeration or listing, but does not carry core semantic or syntactic load. The gesture is conventionalized as a descriptive marker for plurality or iteration, and slightly depicts counting or listing."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

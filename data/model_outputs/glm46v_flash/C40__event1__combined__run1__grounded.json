@@ -1,0 +1,61 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C40_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T19:41:27.182431",
+  "backend_call_info": {
+    "frames_per_video": [
+      84,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.8332,
+      14.5309
+    ],
+    "input_tokens": 11109,
+    "output_tokens": 266
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.80\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not applicable\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"not applicable\",\n        \"location\": \"not applicable\",\n        \"nonmanual\": \"eyebrows raised, eyes wide open, mouth slightly open\",\n        \"non_dominant_hand\": \"not applicable\",\n        \"temporal_alignment\": \"part of a longer sign sequence, occurring between two manual signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action is a facial expression with raised eyebrows and wide eyes, occurring between two manual signs. This facial expression contributes to the overall meaning by adding emphasis and affect, as it is a common nonmanual marker for emphasis in sign language.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.80",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not applicable",
+          "handshape": "not applicable",
+          "movement": "not applicable",
+          "location": "not applicable",
+          "nonmanual": "eyebrows raised, eyes wide open, mouth slightly open",
+          "non_dominant_hand": "not applicable",
+          "temporal_alignment": "part of a longer sign sequence, occurring between two manual signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action is a facial expression with raised eyebrows and wide eyes, occurring between two manual signs. This facial expression contributes to the overall meaning by adding emphasis and affect, as it is a common nonmanual marker for emphasis in sign language."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "black",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/black/C37_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/black/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:47:06.809292",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"no visible movement\",\n        \"location\": \"not applicable\",\n        \"nonmanual\": \"face is still, no visible expression or movement\",\n        \"non_dominant_hand\": \"not applicable\",\n        \"temporal_alignment\": \"the action occurs during a period of no visible signing activity\"\n      },\n      \"semantic_syntactic_load\": 0,\n      \"pragmatic_depictive_affective_enrichment\": 0,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 1.0,\n      \"observable_evidence\": \"The clip from 0.3 to 0.8 seconds shows a completely black screen with no visible signer or any action. There is no facial, head, or hand movement to describe. The meaning of the surrounding discourse is not conveyed by any visible action in this span.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "no visible movement",
+          "location": "not applicable",
+          "nonmanual": "face is still, no visible expression or movement",
+          "non_dominant_hand": "not applicable",
+          "temporal_alignment": "the action occurs during a period of no visible signing activity"
+        },
+        "semantic_syntactic_load": 0,
+        "pragmatic_depictive_affective_enrichment": 0,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 1.0,
+        "observable_evidence": "The clip from 0.3 to 0.8 seconds shows a completely black screen with no visible signer or any action. There is no facial, head, or hand movement to describe. The meaning of the surrounding discourse is not conveyed by any visible action in this span."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

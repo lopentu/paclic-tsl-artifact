@@ -1,0 +1,55 @@
+{
+  "clip_id": "C33",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1474589628,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:18:52.747896",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"flat, open palms with thumbs extended upward, fingers slightly curled\",\n        \"movement\": \"both hands move in a synchronized, rhythmic up-and-down motion, starting from chest level and moving slightly outward and upward, then back down\",\n        \"location\": \"centered in front of the signer's chest, at approximately chest height\",\n        \"nonmanual\": \"signer's mouth is slightly open, lips pursed, and head is held steady\",\n        \"non_dominant_hand\": \"non-dominant hand mirrors the dominant hand's movement\",\n        \"temporal_alignment\": \"the action begins immediately after the initial sign (0.0-0.3s) and is held steady for about 0.8 seconds before transitioning to the next sign (1.1s)\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands are held in a static, open palm shape with thumbs up, a common handshape for lexical signs in TSL. The synchronized up-and-down motion, held for a sustained duration, suggests a grammatical or semantic marker, possibly indicating a contrastive or emphatic structure. The motion adds affective emphasis and vividness to the propositional content, making the action more impactful.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "flat, open palms with thumbs extended upward, fingers slightly curled",
+          "movement": "both hands move in a synchronized, rhythmic up-and-down motion, starting from chest level and moving slightly outward and upward, then back down",
+          "location": "centered in front of the signer's chest, at approximately chest height",
+          "nonmanual": "signer's mouth is slightly open, lips pursed, and head is held steady",
+          "non_dominant_hand": "non-dominant hand mirrors the dominant hand's movement",
+          "temporal_alignment": "the action begins immediately after the initial sign (0.0-0.3s) and is held steady for about 0.8 seconds before transitioning to the next sign (1.1s)"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands are held in a static, open palm shape with thumbs up, a common handshape for lexical signs in TSL. The synchronized up-and-down motion, held for a sustained duration, suggests a grammatical or semantic marker, possibly indicating a contrastive or emphatic structure. The motion adds affective emphasis and vividness to the propositional content, making the action more impactful."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

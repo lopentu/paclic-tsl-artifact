@@ -1,0 +1,56 @@
+{
+  "clip_id": "C24",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C24_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C24_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:20:11.991755",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"no hands visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"not applicable\",\n        \"location\": \"not applicable\",\n        \"nonmanual\": \"mouth opens wide, then closes, eyes narrow, head tilts slightly forward\",\n        \"non_dominant_hand\": \"resting on lap\",\n        \"temporal_alignment\": \"occurs within a longer signing sequence, not a distinct sign\"\n      },\n      \"semantic_syntactic_load\": 0,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action is a facial expression with wide mouth opening and closing, accompanied by eye narrowing and head tilt, occurring between 0.3 and 0.7 seconds in the clip. This nonmanual expression adds emphasis and affect to the signing, consistent with the pragmatic/affective enrichment score.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "no hands visible",
+          "handshape": "not applicable",
+          "movement": "not applicable",
+          "location": "not applicable",
+          "nonmanual": "mouth opens wide, then closes, eyes narrow, head tilts slightly forward",
+          "non_dominant_hand": "resting on lap",
+          "temporal_alignment": "occurs within a longer signing sequence, not a distinct sign"
+        },
+        "semantic_syntactic_load": 0,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action is a facial expression with wide mouth opening and closing, accompanied by eye narrowing and head tilt, occurring between 0.3 and 0.7 seconds in the clip. This nonmanual expression adds emphasis and affect to the signing, consistent with the pragmatic/affective enrichment score."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

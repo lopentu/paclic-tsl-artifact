@@ -1,0 +1,55 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 619589504,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:39:11.763006",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"initially fingers interlaced, then right hand forms a pointing gesture while left hand remains near the face\",\n        \"movement\": \"right hand moves from interlaced position to point outward and upward, while left hand moves from interlaced to a forward-pointing gesture, then both hands move outward and apart\",\n        \"location\": \"hands start near the signer's chest, move to midline, then right hand extends outward and upward, left hand extends forward\",\n        \"nonmanual\": \"signer's face is neutral, no strong nonmanuals\",\n        \"non_dominant_hand\": \"left hand starts interlaced, then moves to a forward-pointing gesture, then moves outward\",\n        \"temporal_alignment\": \"the action occurs within a single sign, with the movement from interlaced to pointing beginning at 0.3s and completing by 0.9s\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 2,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The interlaced hands at the start, followed by the right hand pointing upward and the left hand pointing forward, visually represents 'three stages' or 'three levels' as implied by the meaning '一共有三關，三個關卡都要及格'. The pointing gestures indicate specific, distinct stages. The movement from interlaced to pointing is a conventionalized sign form (description score 3) that also enacts the idea of multiple, distinct stages (depiction score 1) and adds emphasis (pragmatic score 2).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "initially fingers interlaced, then right hand forms a pointing gesture while left hand remains near the face",
+          "movement": "right hand moves from interlaced position to point outward and upward, while left hand moves from interlaced to a forward-pointing gesture, then both hands move outward and apart",
+          "location": "hands start near the signer's chest, move to midline, then right hand extends outward and upward, left hand extends forward",
+          "nonmanual": "signer's face is neutral, no strong nonmanuals",
+          "non_dominant_hand": "left hand starts interlaced, then moves to a forward-pointing gesture, then moves outward",
+          "temporal_alignment": "the action occurs within a single sign, with the movement from interlaced to pointing beginning at 0.3s and completing by 0.9s"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 2,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The interlaced hands at the start, followed by the right hand pointing upward and the left hand pointing forward, visually represents 'three stages' or 'three levels' as implied by the meaning '一共有三關，三個關卡都要及格'. The pointing gestures indicate specific, distinct stages. The movement from interlaced to pointing is a conventionalized sign form (description score 3) that also enacts the idea of multiple, distinct stages (depiction score 1) and adds emphasis (pragmatic score 2)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

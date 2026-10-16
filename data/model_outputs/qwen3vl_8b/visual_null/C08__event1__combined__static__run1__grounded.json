@@ -1,0 +1,53 @@
+{
+  "clip_id": "C08",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/static/C08_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C08_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:50:53.772979",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"repeatedly moves in small, quick, up-and-down motions near the signer's chest\",\n        \"location\": \"in front of the signer's torso, at chest level\",\n        \"nonmanual\": \"signer's mouth is slightly pursed, eyes focused forward\",\n        \"non_dominant_hand\": \"the hand moves rhythmically, as if tapping or counting\",\n        \"temporal_alignment\": \"the hand movement begins at 0.3s and continues through 0.8s, occurring within a sustained signing unit\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand's repetitive, rhythmic motion suggests an emphasis on the process of conversion, aligning with the meaning '考驗兩種語言轉換的純熟度' (testing the mastery of language conversion). The movement is not a lexical sign but adds a dynamic, almost counting or stressing quality to the utterance, enhancing the pragmatic emphasis.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "repeatedly moves in small, quick, up-and-down motions near the signer's chest",
+          "location": "in front of the signer's torso, at chest level",
+          "nonmanual": "signer's mouth is slightly pursed, eyes focused forward",
+          "non_dominant_hand": "the hand moves rhythmically, as if tapping or counting",
+          "temporal_alignment": "the hand movement begins at 0.3s and continues through 0.8s, occurring within a sustained signing unit"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand's repetitive, rhythmic motion suggests an emphasis on the process of conversion, aligning with the meaning '考驗兩種語言轉換的純熟度' (testing the mastery of language conversion). The movement is not a lexical sign but adds a dynamic, almost counting or stressing quality to the utterance, enhancing the pragmatic emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

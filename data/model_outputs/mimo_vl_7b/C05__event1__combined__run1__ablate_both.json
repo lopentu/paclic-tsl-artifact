@@ -1,0 +1,50 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C05_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:37:44.013009",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used.\",\n        \"handshape\": \"The right hand has an open palm, fingers together. The left hand has a pincer shape (thumb and index finger touching).\",\n        \"movement\": \"The right hand moves in a downward and slightly forward motion, while the left hand moves in a small circular or back-and-forth motion. The right hand then moves up towards the left hand.\",\n        \"location\": \"The action is centered in front of the signer's chest.\",\n        \"nonmanual\": \"The signer's head is still and facing forward. The eyebrows are slightly raised.\",\n        \"non_dominant_hand\": \"The non-dominant hand (left) is actively involved in the manual action.\",\n        \"temporal_alignment\": \"The action occurs in the middle of a continuous signing sequence, transitioning from a sign with hands near the face to this new action and then to a sign with hands moving outwards.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The two distinct handshapes and coordinated movement suggest a specific depictive or descriptive function, likely representing two different entities or parts of an event. The action is clearly integrated into the flow of the sentence, not an isolated gesture.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "The right hand has an open palm, fingers together. The left hand has a pincer shape (thumb and index finger touching).",
+          "movement": "The right hand moves in a downward and slightly forward motion, while the left hand moves in a small circular or back-and-forth motion. The right hand then moves up towards the left hand.",
+          "location": "The action is centered in front of the signer's chest.",
+          "nonmanual": "The signer's head is still and facing forward. The eyebrows are slightly raised.",
+          "non_dominant_hand": "The non-dominant hand (left) is actively involved in the manual action.",
+          "temporal_alignment": "The action occurs in the middle of a continuous signing sequence, transitioning from a sign with hands near the face to this new action and then to a sign with hands moving outwards."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The two distinct handshapes and coordinated movement suggest a specific depictive or descriptive function, likely representing two different entities or parts of an event. The action is clearly integrated into the flow of the sentence, not an isolated gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

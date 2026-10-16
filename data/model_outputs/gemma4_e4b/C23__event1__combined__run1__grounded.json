@@ -1,0 +1,61 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C23_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T21:43:02.180637",
+  "backend_call_info": {
+    "frames_per_video": [
+      50,
+      22
+    ],
+    "sampled_fps_per_video": [
+      15.6094,
+      15.6986
+    ],
+    "input_tokens": 7270,
+    "output_tokens": 307
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:01\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Open, slightly cupped\",\n        \"movement\": \"Small, repetitive opening and closing motion, moving slightly forward and inward\",\n        \"location\": \"In front of the chest/torso\",\n        \"nonmanual\": \"Slight smile, engaged expression\",\n        \"non_dominant_hand\": \"Not distinctly separate from the dominant hand movement\",\n        \"temporal_alignment\": \"The action is sustained throughout the target span.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer uses both hands in a small, repetitive opening and closing motion in front of the chest, which appears to be an emphatic or conversational gesture.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:01",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Open, slightly cupped",
+          "movement": "Small, repetitive opening and closing motion, moving slightly forward and inward",
+          "location": "In front of the chest/torso",
+          "nonmanual": "Slight smile, engaged expression",
+          "non_dominant_hand": "Not distinctly separate from the dominant hand movement",
+          "temporal_alignment": "The action is sustained throughout the target span."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer uses both hands in a small, repetitive opening and closing motion in front of the chest, which appears to be an emphatic or conversational gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C05_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:49:39.733732",
+  "backend_call_info": {
+    "frames_per_video": [
+      72,
+      18
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      14.8817
+    ],
+    "input_tokens": 10158,
+    "output_tokens": 247
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"2.30\",\n      \"end_time\": \"3.80\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms\",\n        \"movement\": \"clap together and separate\",\n        \"location\": \"forward in front of chest\",\n        \"nonmanual\": \"neutral\",\n        \"non_dominant_hand\": \"mirrors dominant hand\",\n        \"temporal_alignment\": \"part of a longer sequence of signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The clapping motion is a common TSL gesture for emphasis or to mark a transition, and its timing between other signs suggests it functions as pragmatic enrichment rather than a core lexical element.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "2.30",
+        "end_time": "3.80",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms",
+          "movement": "clap together and separate",
+          "location": "forward in front of chest",
+          "nonmanual": "neutral",
+          "non_dominant_hand": "mirrors dominant hand",
+          "temporal_alignment": "part of a longer sequence of signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The clapping motion is a common TSL gesture for emphasis or to mark a transition, and its timing between other signs suggests it functions as pragmatic enrichment rather than a core lexical element."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,56 @@
+{
+  "clip_id": "C21",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C21_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:17:35.402723",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palm, then into 'L' shape with thumb and index finger extended, other fingers closed\",\n        \"movement\": \"hands move from chest level outward and forward, then form 'L' shapes\",\n        \"location\": \"front of the body, moving outward\",\n        \"nonmanual\": \"mouth opens and closes, head slightly tilts forward\",\n        \"non_dominant_hand\": \"mirrors dominant hand\",\n        \"temporal_alignment\": \"part of a longer sign sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move from open to 'L' shapes, a common classifier for quantity, and the mouth movements suggest emphasis, supporting the semantic load and depiction scores.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palm, then into 'L' shape with thumb and index finger extended, other fingers closed",
+          "movement": "hands move from chest level outward and forward, then form 'L' shapes",
+          "location": "front of the body, moving outward",
+          "nonmanual": "mouth opens and closes, head slightly tilts forward",
+          "non_dominant_hand": "mirrors dominant hand",
+          "temporal_alignment": "part of a longer sign sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move from open to 'L' shapes, a common classifier for quantity, and the mouth movements suggest emphasis, supporting the semantic load and depiction scores."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

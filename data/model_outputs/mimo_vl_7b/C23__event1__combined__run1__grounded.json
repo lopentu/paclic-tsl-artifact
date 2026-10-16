@@ -1,0 +1,50 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C23_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:02:51.241404",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"The dominant hand (right) is the active channel. The non-dominant hand (left) is held steady, palm up, in the signer's lower space.\",\n        \"handshape\": \"The dominant hand is a 'C' handshape, with the thumb and index finger nearly touching to form a circle, and the other three fingers extended upwards.\",\n        \"movement\": \"The dominant hand moves from a position near the signer's right cheek in a downward and forward path, ending in the palm-up space of the non-dominant hand.\",\n        \"location\": \"The action occurs in the signer's upper and mid-right space, moving towards the center.\",\n        \"nonmanual\": \"The signer's head is still, and the mouth is open as if speaking or vocalizing.\",\n        \"non_dominant_hand\": \"The non-dominant hand is held open, palm up, in the signer's lower space, serving as a receiving or grounding base for the dominant hand.\",\n        \"temporal_alignment\": \"The action is a single, fluid sign that begins as the signer's hands are in a preparatory position and ends as the dominant hand moves away to begin a new sign.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are a conventional TSL sign. The non-dominant hand's position suggests it is grounding the sign's meaning. The overall form is a clear, lexical sign.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant hand (right) is the active channel. The non-dominant hand (left) is held steady, palm up, in the signer's lower space.",
+          "handshape": "The dominant hand is a 'C' handshape, with the thumb and index finger nearly touching to form a circle, and the other three fingers extended upwards.",
+          "movement": "The dominant hand moves from a position near the signer's right cheek in a downward and forward path, ending in the palm-up space of the non-dominant hand.",
+          "location": "The action occurs in the signer's upper and mid-right space, moving towards the center.",
+          "nonmanual": "The signer's head is still, and the mouth is open as if speaking or vocalizing.",
+          "non_dominant_hand": "The non-dominant hand is held open, palm up, in the signer's lower space, serving as a receiving or grounding base for the dominant hand.",
+          "temporal_alignment": "The action is a single, fluid sign that begins as the signer's hands are in a preparatory position and ends as the dominant hand moves away to begin a new sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are a conventional TSL sign. The non-dominant hand's position suggests it is grounding the sign's meaning. The overall form is a clear, lexical sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

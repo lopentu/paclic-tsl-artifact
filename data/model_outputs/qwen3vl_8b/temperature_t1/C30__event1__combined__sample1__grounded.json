@@ -1,0 +1,55 @@
+{
+  "clip_id": "C30",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1380885689,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:32:34.402098",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"extends index finger upward and slightly forward, then retracts\",\n        \"location\": \"right side of signer's body, moving from chest level toward upper right\",\n        \"nonmanual\": \"signer's head slightly tilted forward, mouth open as if speaking\",\n        \"non_dominant_hand\": \"held near chest, fingers slightly curled\",\n        \"temporal_alignment\": \"stands alone within a longer signing stretch, occurring after a preparatory gesture and before a subsequent gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The gesture of extending the index finger upward is a conventionalized lexical sign in TSL for 'exam' or 'test'. Its placement and movement indicate the referent (the exam) and are crucial for identifying the object of the discourse. The gesture also carries affective emphasis, as the signer's facial expression and the upward motion convey focus or importance, enriching the pragmatic meaning of the sentence.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "extends index finger upward and slightly forward, then retracts",
+          "location": "right side of signer's body, moving from chest level toward upper right",
+          "nonmanual": "signer's head slightly tilted forward, mouth open as if speaking",
+          "non_dominant_hand": "held near chest, fingers slightly curled",
+          "temporal_alignment": "stands alone within a longer signing stretch, occurring after a preparatory gesture and before a subsequent gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The gesture of extending the index finger upward is a conventionalized lexical sign in TSL for 'exam' or 'test'. Its placement and movement indicate the referent (the exam) and are crucial for identifying the object of the discourse. The gesture also carries affective emphasis, as the signer's facial expression and the upward motion convey focus or importance, enriching the pragmatic meaning of the sentence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

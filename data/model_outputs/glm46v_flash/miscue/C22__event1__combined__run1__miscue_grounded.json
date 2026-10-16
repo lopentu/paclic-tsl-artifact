@@ -1,0 +1,56 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "head_torso",
+  "target_channel_cued": "face",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C22_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C22_window_model.mp4",
+  "video_id": "S01EP12",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:18:16.720923",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.80\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"both hands clasped together at chest level\",\n        \"handshape\": \"fists\",\n        \"movement\": \"static\",\n        \"location\": \"chest\",\n        \"nonmanual\": \"mouth opens wide, eyes look forward\",\n        \"non_dominant_hand\": \"resting on dominant hand\",\n        \"temporal_alignment\": \"occurs during a pause between signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The signer's mouth opens wide and eyes look forward during a pause, indicating emphasis on the preceding or upcoming sign.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.80",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "both hands clasped together at chest level",
+          "handshape": "fists",
+          "movement": "static",
+          "location": "chest",
+          "nonmanual": "mouth opens wide, eyes look forward",
+          "non_dominant_hand": "resting on dominant hand",
+          "temporal_alignment": "occurs during a pause between signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The signer's mouth opens wide and eyes look forward during a pause, indicating emphasis on the preceding or upcoming sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

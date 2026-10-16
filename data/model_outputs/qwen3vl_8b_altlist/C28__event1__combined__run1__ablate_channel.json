@@ -1,0 +1,49 @@
+{
+  "clip_id": "C28",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C28_window_model.mp4",
+  "video_id": "S04-2EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:51:35.775447",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly spread\",\n        \"movement\": \"both hands move outward and slightly upward from the signer's chest area, then inward toward the center of the chest\",\n        \"location\": \"initially at chest level, moving outward and upward, then returning inward\",\n        \"nonmanual\": \"no significant facial or head movement visible during this specific span\",\n        \"non_dominant_hand\": \"not clearly distinguishable as separate from the dominant hand in this action\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, appearing to be part of a larger gestural unit that emphasizes the speaker's point\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move outward and upward from the chest, a gesture that visually emphasizes the speaker's point about people needing sign language support. The movement is part of a larger signing sequence, suggesting it carries grammatical or discourse structure (D1=2) and adds emphasis and affect (D2=2).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly spread",
+          "movement": "both hands move outward and slightly upward from the signer's chest area, then inward toward the center of the chest",
+          "location": "initially at chest level, moving outward and upward, then returning inward",
+          "nonmanual": "no significant facial or head movement visible during this specific span",
+          "non_dominant_hand": "not clearly distinguishable as separate from the dominant hand in this action",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, appearing to be part of a larger gestural unit that emphasizes the speaker's point"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move outward and upward from the chest, a gesture that visually emphasizes the speaker's point about people needing sign language support. The movement is part of a larger signing sequence, suggesting it carries grammatical or discourse structure (D1=2) and adds emphasis and affect (D2=2)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

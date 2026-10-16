@@ -1,0 +1,55 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1455014520,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:19:32.320044",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled\",\n        \"movement\": \"right hand moves from near the signer's face downward and slightly outward, palm facing forward, then stops; left hand remains stationary with index finger pointing forward\",\n        \"location\": \"right hand moves from near the signer's face to a position slightly in front of the chest, left hand remains near the chest\",\n        \"nonmanual\": \"signer's face shows a smile and expressive eyebrows\",\n        \"non_dominant_hand\": \"left hand remains stationary with index finger extended, pointing forward\",\n        \"temporal_alignment\": \"the action begins with the right hand moving downward and outward, and ends with the right hand settling in position, while the left hand remains stationary\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The right hand moves downward and outward, which visually represents the concept of 'because' or 'due to' in TSL. The stationary left hand with an extended index finger indicates the referent 'the other party or police'. The facial expression conveys a tone of explanation or emphasis.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled",
+          "movement": "right hand moves from near the signer's face downward and slightly outward, palm facing forward, then stops; left hand remains stationary with index finger pointing forward",
+          "location": "right hand moves from near the signer's face to a position slightly in front of the chest, left hand remains near the chest",
+          "nonmanual": "signer's face shows a smile and expressive eyebrows",
+          "non_dominant_hand": "left hand remains stationary with index finger extended, pointing forward",
+          "temporal_alignment": "the action begins with the right hand moving downward and outward, and ends with the right hand settling in position, while the left hand remains stationary"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The right hand moves downward and outward, which visually represents the concept of 'because' or 'due to' in TSL. The stationary left hand with an extended index finger indicates the referent 'the other party or police'. The facial expression conveys a tone of explanation or emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

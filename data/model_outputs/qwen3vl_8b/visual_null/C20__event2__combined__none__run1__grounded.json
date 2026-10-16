@@ -1,0 +1,53 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "manual",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T12:17:54.557306",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"gentle upward sweeping motion from lower chest to upper chest level\",\n        \"location\": \"starts near the signer's chest, moves upward and slightly outward\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"resting at side, not involved\",\n        \"temporal_alignment\": \"occurs within a continuous signing stretch, not isolated or punctuated by pauses\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The upward motion of the open palm aligns with the semantic structure of assurance or affirmation in TSL, consistent with the message 'you will be fine' or 'no problem'. The movement is not depictive or deictic, but its upward sweep conveys a sense of reassurance or elevation in tone, adding pragmatic emphasis.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "gentle upward sweeping motion from lower chest to upper chest level",
+          "location": "starts near the signer's chest, moves upward and slightly outward",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "resting at side, not involved",
+          "temporal_alignment": "occurs within a continuous signing stretch, not isolated or punctuated by pauses"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The upward motion of the open palm aligns with the semantic structure of assurance or affirmation in TSL, consistent with the message 'you will be fine' or 'no problem'. The movement is not depictive or deictic, but its upward sweep conveys a sense of reassurance or elevation in tone, adding pragmatic emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

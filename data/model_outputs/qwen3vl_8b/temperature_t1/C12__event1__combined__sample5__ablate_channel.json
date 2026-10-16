@@ -1,0 +1,55 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 228816319,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:06:09.527555",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a '1' (index finger extended), left hand forms a '1' (index finger extended)\",\n        \"movement\": \"Right hand moves in a circular motion around the left hand, which remains relatively stationary with the index finger pointing upward\",\n        \"location\": \"Center of signer's body, in front of chest\",\n        \"nonmanual\": \"Signer's face shows a focused, slightly serious expression with pursed lips\",\n        \"non_dominant_hand\": \"Left hand remains relatively stationary, index finger extended upward\",\n        \"temporal_alignment\": \"The action occurs within a continuous signing unit, following a gesture of holding up five fingers and preceding a gesture of touching the chest. It is not isolated in a pause.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The movement of the right hand circling around the left hand's extended index finger visually represents the concept of 'related to' or 'connected with' in TSL, which is essential to the meaning 'also related to your basic language ability'. The focused facial expression adds emphasis and seriousness to the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a '1' (index finger extended), left hand forms a '1' (index finger extended)",
+          "movement": "Right hand moves in a circular motion around the left hand, which remains relatively stationary with the index finger pointing upward",
+          "location": "Center of signer's body, in front of chest",
+          "nonmanual": "Signer's face shows a focused, slightly serious expression with pursed lips",
+          "non_dominant_hand": "Left hand remains relatively stationary, index finger extended upward",
+          "temporal_alignment": "The action occurs within a continuous signing unit, following a gesture of holding up five fingers and preceding a gesture of touching the chest. It is not isolated in a pause."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The movement of the right hand circling around the left hand's extended index finger visually represents the concept of 'related to' or 'connected with' in TSL, which is essential to the meaning 'also related to your basic language ability'. The focused facial expression adds emphasis and seriousness to the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C32",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C32_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:14:17.107301",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers rise vertically from a lower position to a higher position, then move slightly inward toward each other\",\n        \"location\": \"initially near chest level, then move upward and inward toward the signer's face\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"non-dominant hand mirrors the dominant hand's movement\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, immediately following a gesture with the right hand and preceding a gesture with the left hand\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's hands move upward with index fingers extended, a gesture that visually represents 'two' or 'both' and is used to emphasize the concept of 'different' in the given meaning. The upward motion and inward movement toward the face suggest a sense of importance or focus on the idea being conveyed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers rise vertically from a lower position to a higher position, then move slightly inward toward each other",
+          "location": "initially near chest level, then move upward and inward toward the signer's face",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "non-dominant hand mirrors the dominant hand's movement",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, immediately following a gesture with the right hand and preceding a gesture with the left hand"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's hands move upward with index fingers extended, a gesture that visually represents 'two' or 'both' and is used to emphasize the concept of 'different' in the given meaning. The upward motion and inward movement toward the face suggest a sense of importance or focus on the idea being conveyed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "clip_id": "C13",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C13_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T18:58:59.406066",
+  "backend_call_info": {
+    "frames_per_video": [
+      42,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.4922,
+      15.2575
+    ],
+    "input_tokens": 7022,
+    "output_tokens": 310
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.60\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand moves forward and back, dominant hand points\",\n        \"handshape\": \"non-dominant hand is open palm, dominant hand is index finger extended\",\n        \"movement\": \"non-dominant hand moves forward and back in a repetitive, rhythmic motion\",\n        \"location\": \"in front of the signer's torso, at chest level\",\n        \"nonmanual\": \"face remains neutral, eyes forward\",\n        \"non_dominant_hand\": \"repetitive forward-backward movement\",\n        \"temporal_alignment\": \"occurs during a longer signing sequence, between other signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand performs a repetitive forward-backward motion at chest level, while the dominant hand points, indicating a rhythmic or emphatic gesture that likely contributes to the affective tone of the signing.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.60",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand moves forward and back, dominant hand points",
+          "handshape": "non-dominant hand is open palm, dominant hand is index finger extended",
+          "movement": "non-dominant hand moves forward and back in a repetitive, rhythmic motion",
+          "location": "in front of the signer's torso, at chest level",
+          "nonmanual": "face remains neutral, eyes forward",
+          "non_dominant_hand": "repetitive forward-backward movement",
+          "temporal_alignment": "occurs during a longer signing sequence, between other signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand performs a repetitive forward-backward motion at chest level, while the dominant hand points, indicating a rhythmic or emphatic gesture that likely contributes to the affective tone of the signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

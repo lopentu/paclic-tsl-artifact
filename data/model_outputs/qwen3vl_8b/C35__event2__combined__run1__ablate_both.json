@@ -1,0 +1,48 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:36:57.069071",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves from near the signer's face upward and outward, then downward toward the forehead\",\n        \"location\": \"starts near the signer's right eye, moves to the forehead\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly concerned\",\n        \"non_dominant_hand\": \"held steady, index finger extended, pointing forward\",\n        \"temporal_alignment\": \"occurs within a continuous signing unit, following a gesture with both hands and preceding a gesture with the dominant hand near the face\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The movement of the index finger from the eye area to the forehead is a conventionalized sign in TSL for 'to think' or 'to consider', contributing to the propositional content. The gesture is also visually emphatic, adding affective enrichment to the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves from near the signer's face upward and outward, then downward toward the forehead",
+          "location": "starts near the signer's right eye, moves to the forehead",
+          "nonmanual": "signer's facial expression is neutral to slightly concerned",
+          "non_dominant_hand": "held steady, index finger extended, pointing forward",
+          "temporal_alignment": "occurs within a continuous signing unit, following a gesture with both hands and preceding a gesture with the dominant hand near the face"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The movement of the index finger from the eye area to the forehead is a conventionalized sign in TSL for 'to think' or 'to consider', contributing to the propositional content. The gesture is also visually emphatic, adding affective enrichment to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

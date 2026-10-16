@@ -1,0 +1,46 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C16",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP11",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 0.6999999999999886
+  },
+  "video_from": {
+    "clip_id": "C21",
+    "event_id": "event2",
+    "video_id": "S01EP11",
+    "target_channel": "manual",
+    "duration": 1.0
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.6999999999999886,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C21_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:51:23.684520",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both\",\n        \"handshape\": \"both hands form a \"shaka\" or \"hang loose\" gesture, with thumb and pinky extended, index, middle, and ring fingers folded\",\n        \"movement\": \"hands move from a position near the chest outward and slightly downward, then remain relatively stable\",\n        \"location\": \"in front of the signer's chest, at approximately chest height\",\n        \"nonmanual\": \"signer's mouth is open and lips are pursed, indicating an emphatic or expressive facial expression\",\n        \"non_dominant_hand\": \"the non-dominant hand (right hand, based on signer's orientation) maintains the shaka gesture while the dominant hand (left hand) moves slightly\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.7s, occurring within a continuous signing sequence that includes other gestures and facial expressions\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The shaka gesture is a conventionalized sign in TSL that can convey a range of meanings, including 'okay', 'cool', or 'I'm fine', which aligns with the context of the signer describing her own experience. The gesture is held with a slight downward motion and accompanied by an emphatic facial expression, suggesting it is used to convey a specific emotional or attitudinal stance, such as self-deprecating humor or resilience, rather than to indicate a specific referent or depict an action.\"\n    }\n  ]\n}",
+  "parsed": null,
+  "schema_valid": false,
+  "schema_errors": [
+    "JSON parse error: Expecting ',' delimiter: line 10 column 42 (char 245)"
+  ]
+}

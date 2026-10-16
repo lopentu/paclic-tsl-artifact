@@ -1,0 +1,53 @@
+{
+  "clip_id": "C30",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C30_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C30_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:06:47.860516",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"right hand moves upward and forward, left hand moves upward and forward\",\n        \"location\": \"right hand moves from chest level to above shoulder level, left hand moves from chest level to above shoulder level\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"left hand moves upward and forward\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the signing, and is followed by a continuation of the same gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's hands move upward and forward, which is a common gesture in TSL to indicate 'up' or 'forward'. The gesture is repeated and sustained, suggesting it is a key part of the message. The gesture is also accompanied by a slight head tilt, which may indicate emphasis or focus.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "right hand moves upward and forward, left hand moves upward and forward",
+          "location": "right hand moves from chest level to above shoulder level, left hand moves from chest level to above shoulder level",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "left hand moves upward and forward",
+          "temporal_alignment": "the action occurs at the beginning of the signing, and is followed by a continuation of the same gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's hands move upward and forward, which is a common gesture in TSL to indicate 'up' or 'forward'. The gesture is repeated and sustained, suggesting it is a key part of the message. The gesture is also accompanied by a slight head tilt, which may indicate emphasis or focus."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

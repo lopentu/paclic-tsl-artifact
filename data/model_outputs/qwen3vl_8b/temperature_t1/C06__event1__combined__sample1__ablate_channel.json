@@ -1,0 +1,55 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 376331722,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:38:47.804939",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand: thumb up (thumbs-up). Left hand: index finger extended, palm facing forward, held steady.\",\n        \"movement\": \"Right hand moves in a small, rhythmic up-and-down motion, palm facing forward, while the left hand remains stationary as a stable base.\",\n        \"location\": \"Right hand moves near the signer's chest, left hand held steady at chest level.\",\n        \"nonmanual\": \"Signer's facial expression is neutral to slightly emphatic, with mouth slightly open.\",\n        \"non_dominant_hand\": \"Left hand is stationary, providing a stable base for the gesture.\",\n        \"temporal_alignment\": \"The action begins at 0.3s, coinciding with the start of the 'thumbs-up' gesture, and ends at 0.7s, as the right hand completes its motion. It is framed within a larger signing sequence that includes a preceding gesture (0.0-0.2s) and a following one (0.8s).\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The gesture is a conventionalized lexical sign in TSL for 'approval' or 'good job,' which is essential to conveying the positive evaluation of the training courses mentioned in the given meaning. The rhythmic, emphatic motion of the thumbs-up, paired with a neutral-to-emphatic facial expression, adds affective weight to the message, enhancing its stance of approval or endorsement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand: thumb up (thumbs-up). Left hand: index finger extended, palm facing forward, held steady.",
+          "movement": "Right hand moves in a small, rhythmic up-and-down motion, palm facing forward, while the left hand remains stationary as a stable base.",
+          "location": "Right hand moves near the signer's chest, left hand held steady at chest level.",
+          "nonmanual": "Signer's facial expression is neutral to slightly emphatic, with mouth slightly open.",
+          "non_dominant_hand": "Left hand is stationary, providing a stable base for the gesture.",
+          "temporal_alignment": "The action begins at 0.3s, coinciding with the start of the 'thumbs-up' gesture, and ends at 0.7s, as the right hand completes its motion. It is framed within a larger signing sequence that includes a preceding gesture (0.0-0.2s) and a following one (0.8s)."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The gesture is a conventionalized lexical sign in TSL for 'approval' or 'good job,' which is essential to conveying the positive evaluation of the training courses mentioned in the given meaning. The rhythmic, emphatic motion of the thumbs-up, paired with a neutral-to-emphatic facial expression, adds affective weight to the message, enhancing its stance of approval or endorsement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1621563546,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:13:57.640492",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's chin to the right side of the signer's face, then sweeps outward and downward\",\n        \"location\": \"starts near chin, moves to right side of face, then outward and downward\",\n        \"nonmanual\": \"signer's eyes are closed during the initial movement, then open as the hand moves outward\",\n        \"non_dominant_hand\": \"resting on the signer's chest\",\n        \"temporal_alignment\": \"the action occurs within a broader signing sequence that includes a hand movement from left to right, followed by a clapping motion\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The movement of the index finger from the chin to the right side of the face, then outward, is a conventionalized lexical sign in TSL for 'believe' or 'trust'. The accompanying facial expression (eyes closing then opening) adds affective emphasis to the statement 'I believe'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's chin to the right side of the signer's face, then sweeps outward and downward",
+          "location": "starts near chin, moves to right side of face, then outward and downward",
+          "nonmanual": "signer's eyes are closed during the initial movement, then open as the hand moves outward",
+          "non_dominant_hand": "resting on the signer's chest",
+          "temporal_alignment": "the action occurs within a broader signing sequence that includes a hand movement from left to right, followed by a clapping motion"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The movement of the index finger from the chin to the right side of the face, then outward, is a conventionalized lexical sign in TSL for 'believe' or 'trust'. The accompanying facial expression (eyes closing then opening) adds affective emphasis to the statement 'I believe'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

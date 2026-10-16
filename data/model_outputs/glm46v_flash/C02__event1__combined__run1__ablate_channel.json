@@ -1,0 +1,61 @@
+{
+  "clip_id": "C02",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T19:04:30.647545",
+  "backend_call_info": {
+    "frames_per_video": [
+      136,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.2575
+    ],
+    "input_tokens": 15832,
+    "output_tokens": 301
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves forward and upward in a sweeping arc from chest to forehead\",\n        \"location\": \"front of the body, moving from lower to upper\",\n        \"nonmanual\": \"mouth forms an 'e' shape, head tilts slightly forward\",\n        \"non_dominant_hand\": \"rests at the side\",\n        \"temporal_alignment\": \"part of a longer discourse unit, occurring after a pointing gesture and before a head-touching gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The dominant hand sweeps forward and upward, a common TSL gesture for 'for example' or 'like', and the mouth forms an 'e' shape, supporting the semantic load. The sweeping movement and facial expression add emphasis and vividness, indicating pragmatic enrichment.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "moves forward and upward in a sweeping arc from chest to forehead",
+          "location": "front of the body, moving from lower to upper",
+          "nonmanual": "mouth forms an 'e' shape, head tilts slightly forward",
+          "non_dominant_hand": "rests at the side",
+          "temporal_alignment": "part of a longer discourse unit, occurring after a pointing gesture and before a head-touching gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The dominant hand sweeps forward and upward, a common TSL gesture for 'for example' or 'like', and the mouth forms an 'e' shape, supporting the semantic load. The sweeping movement and facial expression add emphasis and vividness, indicating pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

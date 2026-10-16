@@ -1,0 +1,53 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/static/C39_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:03:47.302088",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.3\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"no movement\",\n        \"location\": \"not applicable\",\n        \"nonmanual\": \"mouth pursed, lips pressed together, cheeks slightly puffed\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during a sustained signing unit, with no clear start/end marker from surrounding signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The pursed lips and puffed cheeks are a sustained nonmanual action that accompanies the signing of the phrase, which conveys a sense of determination or self-reliance. The action is not a lexical sign but adds affective emphasis to the message, making the speaker's resolve more vivid.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.3",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "no movement",
+          "location": "not applicable",
+          "nonmanual": "mouth pursed, lips pressed together, cheeks slightly puffed",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during a sustained signing unit, with no clear start/end marker from surrounding signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The pursed lips and puffed cheeks are a sustained nonmanual action that accompanies the signing of the phrase, which conveys a sense of determination or self-reliance. The action is not a lexical sign but adds affective emphasis to the message, making the speaker's resolve more vivid."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:18:44.409988",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends upward and moves slightly forward, then retracts\",\n        \"location\": \"right side of signer's body, near shoulder level\",\n        \"nonmanual\": \"signer's mouth is open, lips pursed\",\n        \"non_dominant_hand\": \"resting near the signer's chest\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing unit, following a previous sign and preceding a new one\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL, likely indicating 'point' or 'indicate' which is semantically relevant to the discourse about 'knowing oneself' through video. The upward movement and facial expression add emphasis and affect, making the action more vivid and expressive.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends upward and moves slightly forward, then retracts",
+          "location": "right side of signer's body, near shoulder level",
+          "nonmanual": "signer's mouth is open, lips pursed",
+          "non_dominant_hand": "resting near the signer's chest",
+          "temporal_alignment": "the action occurs within a continuous signing unit, following a previous sign and preceding a new one"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL, likely indicating 'point' or 'indicate' which is semantically relevant to the discourse about 'knowing oneself' through video. The upward movement and facial expression add emphasis and affect, making the action more vivid and expressive."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

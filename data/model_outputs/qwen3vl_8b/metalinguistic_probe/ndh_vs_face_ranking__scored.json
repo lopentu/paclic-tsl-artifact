@@ -1,0 +1,24 @@
+{
+  "probe_id": "ndh_vs_face_ranking",
+  "tests": "Direct ranking: does it order the non-dominant hand above or below nonmanuals?",
+  "question": "Rank these three by how much semantic/syntactic load they typically carry in signed discourse, highest first: (a) a lexical sign on the dominant hand, (b) a held non-dominant hand maintaining a discourse referent, (c) an affective facial expression. Then give each a 0-3 value on the scale below.",
+  "answer_format": "scored",
+  "video_shown": false,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "temperature": 0.0,
+  "do_sample": false,
+  "max_new_tokens": 500,
+  "timestamp": "2026-08-03T12:24:39.232837",
+  "prompt": "You are answering a question about sign language linguistics. This is a knowledge question about signed languages in general, not about any particular video.\n\nRank these three by how much semantic/syntactic load they typically carry in signed discourse, highest first: (a) a lexical sign on the dominant hand, (b) a held non-dominant hand maintaining a discourse referent, (c) an affective facial expression. Then give each a 0-3 value on the scale below.\n\nUse this 0-3 scale, which is the same scale used elsewhere in this study for D1 (semantic/syntactic load):\n0 = no clear contribution to propositional content, argument/event structure, grammatical marking, referential tracking, or discourse structure\n1 = weak or uncertain contribution\n2 = clear contribution\n3 = essential; removing it would change core meaning, a grammatical relation, referent tracking, or discourse structure\nRespond with ONLY a single JSON object and no prose around it:\n{\"value\": <integer 0-3, or an object mapping each item you were asked to rate to its integer 0-3>, \"one_sentence_reason\": \"...\"}\n",
+  "raw_text": "{\"value\": {\"a\": 3, \"b\": 2, \"c\": 0}, \"one_sentence_reason\": \"Lexical signs carry core semantic and syntactic content, held hands track discourse referents, and affective expressions convey emotional tone without altering propositional structure.\"}",
+  "parsed": {
+    "value": {
+      "a": 3,
+      "b": 2,
+      "c": 0
+    },
+    "one_sentence_reason": "Lexical signs carry core semantic and syntactic content, held hands track discourse referents, and affective expressions convey emotional tone without altering propositional structure."
+  }
+}

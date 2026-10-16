@@ -1,0 +1,50 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C40_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:22:02.073547",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Two hands, both with index fingers extended and thumbs up, are active.\",\n        \"handshape\": \"Both hands are in the 'index finger' handshape.\",\n        \"movement\": \"The hands move downwards and inwards from a starting position in front of the signer's shoulders, then move outwards and upwards in a symmetrical arc, ending in front of the chest.\",\n        \"location\": \"The movement starts at shoulder height and moves down to the chest area.\",\n        \"nonmanual\": \"The signer's facial expression is neutral and focused. The head is still.\",\n        \"non_dominant_hand\": \"The non-dominant hand is not visible or is inactive.\",\n        \"temporal_alignment\": \"The action is a single, continuous movement that appears to be the core of a sign, bracketed by other manual gestures.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The symmetrical, conventionalized movement of the two index fingers is a strong candidate for a lexical sign (a 'word'). The movement path suggests an action like 'gathering' or 'coming together', which fits the overall meaning of 'everyone just hopes...'. The facial expression is neutral, focusing on the manual form.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Two hands, both with index fingers extended and thumbs up, are active.",
+          "handshape": "Both hands are in the 'index finger' handshape.",
+          "movement": "The hands move downwards and inwards from a starting position in front of the signer's shoulders, then move outwards and upwards in a symmetrical arc, ending in front of the chest.",
+          "location": "The movement starts at shoulder height and moves down to the chest area.",
+          "nonmanual": "The signer's facial expression is neutral and focused. The head is still.",
+          "non_dominant_hand": "The non-dominant hand is not visible or is inactive.",
+          "temporal_alignment": "The action is a single, continuous movement that appears to be the core of a sign, bracketed by other manual gestures."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The symmetrical, conventionalized movement of the two index fingers is a strong candidate for a lexical sign (a 'word'). The movement path suggests an action like 'gathering' or 'coming together', which fits the overall meaning of 'everyone just hopes...'. The facial expression is neutral, focusing on the manual form."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

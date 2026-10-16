@@ -1,0 +1,53 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C40_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C40_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:11:00.223425",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"flat, open palms facing each other, fingers extended\",\n        \"movement\": \"hands move slightly inward and downward, then outward and upward in a gentle, rhythmic motion\",\n        \"location\": \"centered in front of the chest, at approximately shoulder height\",\n        \"nonmanual\": \"neutral facial expression, slight smile\",\n        \"non_dominant_hand\": \"not visible as separate from the dominant hand in this action\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, framed by other hand movements that suggest a rhythmic or repetitive gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move in a rhythmic, inward-outward motion, which is a conventionalized sign in TSL for 'peace' or 'safety', directly contributing to the meaning '平平安安' (peacefully/safely). The gentle, repetitive motion adds affective enrichment, conveying a sense of care and hope, which is central to the sentiment of the phrase.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "flat, open palms facing each other, fingers extended",
+          "movement": "hands move slightly inward and downward, then outward and upward in a gentle, rhythmic motion",
+          "location": "centered in front of the chest, at approximately shoulder height",
+          "nonmanual": "neutral facial expression, slight smile",
+          "non_dominant_hand": "not visible as separate from the dominant hand in this action",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, framed by other hand movements that suggest a rhythmic or repetitive gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move in a rhythmic, inward-outward motion, which is a conventionalized sign in TSL for 'peace' or 'safety', directly contributing to the meaning '平平安安' (peacefully/safely). The gentle, repetitive motion adds affective enrichment, conveying a sense of care and hope, which is central to the sentiment of the phrase."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

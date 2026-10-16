@@ -1,0 +1,55 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 842902756,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:21:08.646150",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a flat, open palm; left hand forms a flat, open palm\",\n        \"movement\": \"Right hand moves in a circular motion around the left hand, which remains relatively stationary. The right hand moves from the signer's right side to the left side, then back again, tracing a small circle around the left hand's palm. The movement is continuous and rhythmic, suggesting a repeated action.\",\n        \"location\": \"The hands are positioned in front of the signer's chest, at approximately mid-chest height. The right hand moves in a circular path around the left hand, which remains stationary.\",\n        \"nonmanual\": \"The signer's mouth is open and moving, indicating speech or articulation accompanying the signing. The signer's facial expression is neutral to focused, with no strong emotional display.\",\n        \"non_dominant_hand\": \"The left hand remains stationary, serving as a stable reference point for the circular motion of the right hand.\",\n        \"temporal_alignment\": \"The action occurs within the target span of 0.3 to 0.8 seconds. It is preceded by a gesture where the signer points to herself with her right hand (0.0-0.3) and is followed by a gesture where the signer moves both hands outward and downward (0.8-1.0). The action is a continuous, rhythmic movement within this span.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The circular motion of the right hand around the left hand, with the left hand serving as a stable base, is a conventionalized sign in TSL that typically represents the concept of 'repetition' or 'repeated action'. The movement is rhythmic and continuous, which supports its function as a grammatical marker for repetition. The gesture is also highly depictive, visually enacting the idea of something being repeated or occurring multiple times, which adds vividness and clarity to the message. The movement is clearly distinct from the surrounding signing and is a core part of the utterance's structure.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a flat, open palm; left hand forms a flat, open palm",
+          "movement": "Right hand moves in a circular motion around the left hand, which remains relatively stationary. The right hand moves from the signer's right side to the left side, then back again, tracing a small circle around the left hand's palm. The movement is continuous and rhythmic, suggesting a repeated action.",
+          "location": "The hands are positioned in front of the signer's chest, at approximately mid-chest height. The right hand moves in a circular path around the left hand, which remains stationary.",
+          "nonmanual": "The signer's mouth is open and moving, indicating speech or articulation accompanying the signing. The signer's facial expression is neutral to focused, with no strong emotional display.",
+          "non_dominant_hand": "The left hand remains stationary, serving as a stable reference point for the circular motion of the right hand.",
+          "temporal_alignment": "The action occurs within the target span of 0.3 to 0.8 seconds. It is preceded by a gesture where the signer points to herself with her right hand (0.0-0.3) and is followed by a gesture where the signer moves both hands outward and downward (0.8-1.0). The action is a continuous, rhythmic movement within this span."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The circular motion of the right hand around the left hand, with the left hand serving as a stable base, is a conventionalized sign in TSL that typically represents the concept of 'repetition' or 'repeated action'. The movement is rhythmic and continuous, which supports its function as a grammatical marker for repetition. The gesture is also highly depictive, visually enacting the idea of something being repeated or occurring multiple times, which adds vividness and clarity to the message. The movement is clearly distinct from the surrounding signing and is a core part of the utterance's structure."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

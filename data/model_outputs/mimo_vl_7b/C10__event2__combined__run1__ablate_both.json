@@ -1,0 +1,50 @@
+{
+  "clip_id": "C10",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C10_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:39:49.278949",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used.\",\n        \"handshape\": \"Both hands are in a 'C' handshape, with the thumb and index finger nearly touching to form a circle.\",\n        \"movement\": \"The right hand (dominant) moves forward and slightly down from a position near the signer's right shoulder. The left hand (non-dominant) moves forward and down from a position near the signer's left shoulder. Both hands move in a coordinated, symmetrical path.\",\n        \"location\": \"The action starts in the upper torso space and moves down to the mid-torso space.\",\n        \"nonmanual\": \"The signer's facial expression is serious and focused. The eyebrows are slightly furrowed.\",\n        \"non_dominant_hand\": \"The left hand is active, moving in coordination with the right hand.\",\n        \"temporal_alignment\": \"The action is a distinct sign that is part of a continuous signing sequence. It is the second distinct manual shape in a series of signs.\"\n      },\n      \"semantic_syntactic_load\": 3,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 3,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The action is a clear, conventional TSL sign. Its distinct form and placement in the signing space suggest it carries core propositional meaning. The facial expression adds a layer of affect or emphasis.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "Both hands are in a 'C' handshape, with the thumb and index finger nearly touching to form a circle.",
+          "movement": "The right hand (dominant) moves forward and slightly down from a position near the signer's right shoulder. The left hand (non-dominant) moves forward and down from a position near the signer's left shoulder. Both hands move in a coordinated, symmetrical path.",
+          "location": "The action starts in the upper torso space and moves down to the mid-torso space.",
+          "nonmanual": "The signer's facial expression is serious and focused. The eyebrows are slightly furrowed.",
+          "non_dominant_hand": "The left hand is active, moving in coordination with the right hand.",
+          "temporal_alignment": "The action is a distinct sign that is part of a continuous signing sequence. It is the second distinct manual shape in a series of signs."
+        },
+        "semantic_syntactic_load": 3,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 3,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The action is a clear, conventional TSL sign. Its distinct form and placement in the signing space suggest it carries core propositional meaning. The facial expression adds a layer of affect or emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

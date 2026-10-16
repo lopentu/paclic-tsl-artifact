@@ -1,0 +1,53 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C40_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C40_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:20:22.284766",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression with slight smile and open mouth, conveying a gentle, hopeful tone\",\n        \"location\": \"face\",\n        \"nonmanual\": \"smiling expression with slightly open mouth\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during the signing of the phrase, likely corresponding to the word '平安' (peaceful/safe) or the overall sentiment of hope\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's gentle smile and open mouth during this span convey a positive, hopeful affect that aligns with the meaning 'everyone just hopes their children can grow up safely and peacefully'. The facial expression adds emotional weight to the message without being a lexical sign.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression with slight smile and open mouth, conveying a gentle, hopeful tone",
+          "location": "face",
+          "nonmanual": "smiling expression with slightly open mouth",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during the signing of the phrase, likely corresponding to the word '平安' (peaceful/safe) or the overall sentiment of hope"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's gentle smile and open mouth during this span convey a positive, hopeful affect that aligns with the meaning 'everyone just hopes their children can grow up safely and peacefully'. The facial expression adds emotional weight to the message without being a lexical sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

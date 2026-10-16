@@ -1,0 +1,53 @@
+{
+  "clip_id": "C15",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/static/C15_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C15_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:46:17.479065",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, thumb touching the tip of the index finger, forming a 'pinch' or 'point' gesture\",\n        \"movement\": \"held steady with no significant movement\",\n        \"location\": \"near the signer's chin, pointing slightly downward\",\n        \"nonmanual\": \"signer's mouth is slightly open, eyes focused forward\",\n        \"non_dominant_hand\": \"resting at the signer's side, not visible in frame\",\n        \"temporal_alignment\": \"the gesture is held steady throughout the target span, occurring within a continuous signing phrase\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The gesture is a conventionalized lexical sign in TSL, likely representing 'effort' or 'striving' (a common sign for '努力' in TSL). Its steady, focused hold conveys determination and persistence, which aligns with the meaning '我們都持續在努力中'. The gesture points toward the signer's own body (chin area), indicating the speaker's personal involvement in the effort.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, thumb touching the tip of the index finger, forming a 'pinch' or 'point' gesture",
+          "movement": "held steady with no significant movement",
+          "location": "near the signer's chin, pointing slightly downward",
+          "nonmanual": "signer's mouth is slightly open, eyes focused forward",
+          "non_dominant_hand": "resting at the signer's side, not visible in frame",
+          "temporal_alignment": "the gesture is held steady throughout the target span, occurring within a continuous signing phrase"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The gesture is a conventionalized lexical sign in TSL, likely representing 'effort' or 'striving' (a common sign for '努力' in TSL). Its steady, focused hold conveys determination and persistence, which aligns with the meaning '我們都持續在努力中'. The gesture points toward the signer's own body (chin area), indicating the speaker's personal involvement in the effort."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

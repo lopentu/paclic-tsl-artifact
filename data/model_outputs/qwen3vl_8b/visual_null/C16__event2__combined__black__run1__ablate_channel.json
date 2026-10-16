@@ -1,0 +1,53 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "black",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/black/C16_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/black/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:33:33.493309",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"no visible movement\",\n        \"location\": \"not applicable\",\n        \"nonmanual\": \"no visible nonmanual activity\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action occurs within a silent pause in the signing, with no visible articulation\"\n      },\n      \"semantic_syntactic_load\": 0,\n      \"pragmatic_depictive_affective_enrichment\": 0,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 1.0,\n      \"observable_evidence\": \"The clip shows a completely black screen with no visible signing or facial expression during the target span. There is no observable action to describe or score.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "no visible movement",
+          "location": "not applicable",
+          "nonmanual": "no visible nonmanual activity",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action occurs within a silent pause in the signing, with no visible articulation"
+        },
+        "semantic_syntactic_load": 0,
+        "pragmatic_depictive_affective_enrichment": 0,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 1.0,
+        "observable_evidence": "The clip shows a completely black screen with no visible signing or facial expression during the target span. There is no observable action to describe or score."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

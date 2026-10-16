@@ -1,0 +1,48 @@
+{
+  "clip_id": "C20",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:23:46.225643",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's chin downward and slightly outward, then back toward the chin\",\n        \"location\": \"starts near chin, moves to mid-chest level, then returns\",\n        \"nonmanual\": \"signer's mouth is open and moving, eyes are focused forward\",\n        \"non_dominant_hand\": \"resting on the signer's torso, fingers slightly curled\",\n        \"temporal_alignment\": \"the action begins as the signer's mouth opens and ends as the signer's mouth closes\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL that conveys a sense of 'you' or 'yourself' and is used to address the audience directly. The movement from chin to chest level suggests a downward motion that can indicate a lowering of status or a shift in focus, which is relevant to the meaning 'you will be able to pass the exam' (implying the audience's capability). The facial expression and mouth movement suggest emphasis, which is a pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's chin downward and slightly outward, then back toward the chin",
+          "location": "starts near chin, moves to mid-chest level, then returns",
+          "nonmanual": "signer's mouth is open and moving, eyes are focused forward",
+          "non_dominant_hand": "resting on the signer's torso, fingers slightly curled",
+          "temporal_alignment": "the action begins as the signer's mouth opens and ends as the signer's mouth closes"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL that conveys a sense of 'you' or 'yourself' and is used to address the audience directly. The movement from chin to chest level suggests a downward motion that can indicate a lowering of status or a shift in focus, which is relevant to the meaning 'you will be able to pass the exam' (implying the audience's capability). The facial expression and mouth movement suggest emphasis, which is a pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

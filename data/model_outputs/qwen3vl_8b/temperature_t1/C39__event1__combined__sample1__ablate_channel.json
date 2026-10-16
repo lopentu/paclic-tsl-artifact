@@ -1,0 +1,55 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 107142957,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:51:34.130416",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm, then fingers curl into a loose fist\",\n        \"movement\": \"starts with an upward wave, then moves downward in a circular motion, ending with a downward flick\",\n        \"location\": \"moves from above the head to the chest level\",\n        \"nonmanual\": \"mouth opens wide and tongue sticks out during the upward motion, then retracts as the hand moves down\",\n        \"non_dominant_hand\": \"not visible or not active\",\n        \"temporal_alignment\": \"the action begins with the upward wave at 0.3s and concludes with the downward flick at 1.1s, occurring within a continuous sign sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape change from open palm to fist, combined with the upward wave and downward flick, constitutes a conventionalized lexical sign. The exaggerated facial expression (tongue out) and the dynamic hand movement add vividness and emotional emphasis, suggesting a strong personal assertion or declaration.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm, then fingers curl into a loose fist",
+          "movement": "starts with an upward wave, then moves downward in a circular motion, ending with a downward flick",
+          "location": "moves from above the head to the chest level",
+          "nonmanual": "mouth opens wide and tongue sticks out during the upward motion, then retracts as the hand moves down",
+          "non_dominant_hand": "not visible or not active",
+          "temporal_alignment": "the action begins with the upward wave at 0.3s and concludes with the downward flick at 1.1s, occurring within a continuous sign sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape change from open palm to fist, combined with the upward wave and downward flick, constitutes a conventionalized lexical sign. The exaggerated facial expression (tongue out) and the dynamic hand movement add vividness and emotional emphasis, suggesting a strong personal assertion or declaration."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

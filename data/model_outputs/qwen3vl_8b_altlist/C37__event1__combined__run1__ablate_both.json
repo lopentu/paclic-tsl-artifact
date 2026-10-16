@@ -1,0 +1,49 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:10:39.194115",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand in a flat, open palm shape; left hand in a flat, open palm shape\",\n        \"movement\": \"right hand moves in a small, repetitive circular motion in front of the chest, while the left hand remains relatively stationary with the palm facing up and slightly angled inward\",\n        \"location\": \"centered in front of the signer's chest, at approximately mid-torso level\",\n        \"nonmanual\": \"signer's mouth is slightly pursed, and her eyes are focused forward\",\n        \"non_dominant_hand\": \"left hand is stationary, palm up, supporting the motion of the right hand\",\n        \"temporal_alignment\": \"the action begins immediately after a pointing gesture and is followed by a continuation of the same motion, indicating a sustained or repeated action\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The repetitive circular motion of the right hand, combined with the stationary left hand, suggests a lexical sign that conveys a specific action or concept. The sustained nature of the motion indicates it is not a brief gesture but a core part of the utterance. The pursed lips and focused gaze add emphasis, suggesting the action is important or being described with some affect.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand in a flat, open palm shape; left hand in a flat, open palm shape",
+          "movement": "right hand moves in a small, repetitive circular motion in front of the chest, while the left hand remains relatively stationary with the palm facing up and slightly angled inward",
+          "location": "centered in front of the signer's chest, at approximately mid-torso level",
+          "nonmanual": "signer's mouth is slightly pursed, and her eyes are focused forward",
+          "non_dominant_hand": "left hand is stationary, palm up, supporting the motion of the right hand",
+          "temporal_alignment": "the action begins immediately after a pointing gesture and is followed by a continuation of the same motion, indicating a sustained or repeated action"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The repetitive circular motion of the right hand, combined with the stationary left hand, suggests a lexical sign that conveys a specific action or concept. The sustained nature of the motion indicates it is not a brief gesture but a core part of the utterance. The pursed lips and focused gaze add emphasis, suggesting the action is important or being described with some affect."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

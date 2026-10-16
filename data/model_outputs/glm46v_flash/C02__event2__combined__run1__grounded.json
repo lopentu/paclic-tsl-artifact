@@ -1,0 +1,61 @@
+{
+  "clip_id": "C02",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T18:50:26.207584",
+  "backend_call_info": {
+    "frames_per_video": [
+      136,
+      18
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.984
+    ],
+    "input_tokens": 16153,
+    "output_tokens": 301
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.80\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves from chin area forward and outward in a sweeping arc\",\n        \"location\": \"front of the signer's body, starting near the chin and moving outward\",\n        \"nonmanual\": \"smiling, head slightly tilted\",\n        \"non_dominant_hand\": \"rests at the side\",\n        \"temporal_alignment\": \"part of a longer discourse unit, occurring after a head-touching gesture and before a clapping motion\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The sweeping hand movement from chin outward is a common TSL gesture for 'example' or 'for instance', contributing to the discourse structure of the sentence. The movement's arc and timing align with the semantic role of introducing an example, while the smiling expression adds affective emphasis.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.80",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "moves from chin area forward and outward in a sweeping arc",
+          "location": "front of the signer's body, starting near the chin and moving outward",
+          "nonmanual": "smiling, head slightly tilted",
+          "non_dominant_hand": "rests at the side",
+          "temporal_alignment": "part of a longer discourse unit, occurring after a head-touching gesture and before a clapping motion"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The sweeping hand movement from chin outward is a common TSL gesture for 'example' or 'for instance', contributing to the discourse structure of the sentence. The movement's arc and timing align with the semantic role of introducing an example, while the smiling expression adds affective emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,54 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "video_path": "<repo>/data/clips_c/C16_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:02:27.052371",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression remains relatively neutral and focused, with slight lip movement and steady gaze\",\n        \"location\": \"face\",\n        \"nonmanual\": \"neutral facial expression with focused gaze\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during a brief pause in manual signing, immediately after a manual gesture and before the next manual sign\"\n      },\n      \"semantic_syntactic_load\": 0,\n      \"pragmatic_depictive_affective_enrichment\": 0,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's face shows no strong affective expression or depictive movement during the target span. The facial expression is neutral and steady, consistent with the surrounding signing which is focused on describing a cognitive state (tension, difficulty) rather than expressing emotion or enacting a scene. The lack of movement or change in expression does not contribute to the propositional content or affective tone of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression remains relatively neutral and focused, with slight lip movement and steady gaze",
+          "location": "face",
+          "nonmanual": "neutral facial expression with focused gaze",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during a brief pause in manual signing, immediately after a manual gesture and before the next manual sign"
+        },
+        "semantic_syntactic_load": 0,
+        "pragmatic_depictive_affective_enrichment": 0,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's face shows no strong affective expression or depictive movement during the target span. The facial expression is neutral and steady, consistent with the surrounding signing which is focused on describing a cognitive state (tension, difficulty) rather than expressing emotion or enacting a scene. The lack of movement or change in expression does not contribute to the propositional content or affective tone of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

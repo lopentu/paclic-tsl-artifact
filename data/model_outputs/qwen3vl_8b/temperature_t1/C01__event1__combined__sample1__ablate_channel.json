@@ -1,0 +1,55 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1480499554,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:37:03.785372",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"arm raises upward and forward, index finger points to the right side of the signer's head, then moves slightly down and inward toward the forehead\",\n        \"location\": \"right side of head, near the temple\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, appearing after a gesture toward the chest and before a gesture with both hands near the face\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The index finger points to the right side of the head, which is a conventionalized gesture in TSL for indicating 'head' or 'brain', relevant to the topic of 'language development law'. The gesture is held steady and directed, suggesting emphasis or focus on the concept of 'national language' or 'head/brain' as the subject of the discourse.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "arm raises upward and forward, index finger points to the right side of the signer's head, then moves slightly down and inward toward the forehead",
+          "location": "right side of head, near the temple",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, appearing after a gesture toward the chest and before a gesture with both hands near the face"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The index finger points to the right side of the head, which is a conventionalized gesture in TSL for indicating 'head' or 'brain', relevant to the topic of 'language development law'. The gesture is held steady and directed, suggesting emphasis or focus on the concept of 'national language' or 'head/brain' as the subject of the discourse."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

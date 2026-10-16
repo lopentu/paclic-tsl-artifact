@@ -1,0 +1,53 @@
+{
+  "clip_id": "C27",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/static/C27_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C27_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:58:55.513782",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression remains static\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"face contorted with a grimace: eyebrows furrowed, eyes narrowed, mouth compressed into a tight line\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial grimace occurs during the signing of the clause, likely accompanying the phrase '我都願意參加' (I am willing to participate), and is held steady throughout the target span\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's face is contorted into a grimace, with furrowed brows and a compressed mouth, which is held steady during the target span. This expression is not a conventionalized lexical sign but conveys strong affective commitment, aligning with the propositional content 'I am willing to participate' by emphasizing the speaker's earnestness or perhaps the difficulty of the commitment. The expression is not indicating a referent or depicting an action, but it is a strong affective marker that enhances the pragmatic force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression remains static",
+          "location": "center of face",
+          "nonmanual": "face contorted with a grimace: eyebrows furrowed, eyes narrowed, mouth compressed into a tight line",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial grimace occurs during the signing of the clause, likely accompanying the phrase '我都願意參加' (I am willing to participate), and is held steady throughout the target span"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's face is contorted into a grimace, with furrowed brows and a compressed mouth, which is held steady during the target span. This expression is not a conventionalized lexical sign but conveys strong affective commitment, aligning with the propositional content 'I am willing to participate' by emphasizing the speaker's earnestness or perhaps the difficulty of the commitment. The expression is not indicating a referent or depicting an action, but it is a strong affective marker that enhances the pragmatic force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

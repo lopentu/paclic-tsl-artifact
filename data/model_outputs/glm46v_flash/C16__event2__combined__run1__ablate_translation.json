@@ -1,0 +1,61 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:21:07.228272",
+  "backend_call_info": {
+    "frames_per_video": [
+      120,
+      12
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      14.985
+    ],
+    "input_tokens": 14013,
+    "output_tokens": 307
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.50\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand moves forward and slightly downward, non-dominant hand remains relatively still\",\n        \"handshape\": \"dominant hand in open palm shape, non-dominant hand in open shape\",\n        \"movement\": \"dominant hand moves forward in a smooth, downward arc\",\n        \"location\": \"forward and slightly downward in front of the body\",\n        \"nonmanual\": \"mouth opens and closes, head slightly tilts forward\",\n        \"non_dominant_hand\": \"remains relatively still, supporting the dominant hand's movement\",\n        \"temporal_alignment\": \"part of a longer signing sequence, occurring between other signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand's forward and downward movement, combined with the open handshape, suggests a depicting action of moving something forward or presenting it, contributing to the sign's meaning and vividness.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.50",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand moves forward and slightly downward, non-dominant hand remains relatively still",
+          "handshape": "dominant hand in open palm shape, non-dominant hand in open shape",
+          "movement": "dominant hand moves forward in a smooth, downward arc",
+          "location": "forward and slightly downward in front of the body",
+          "nonmanual": "mouth opens and closes, head slightly tilts forward",
+          "non_dominant_hand": "remains relatively still, supporting the dominant hand's movement",
+          "temporal_alignment": "part of a longer signing sequence, occurring between other signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand's forward and downward movement, combined with the open handshape, suggests a depicting action of moving something forward or presenting it, contributing to the sign's meaning and vividness."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

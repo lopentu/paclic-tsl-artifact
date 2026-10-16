@@ -1,0 +1,69 @@
+{
+  "clip_id": "C32",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C32",
+    "event_id": "event2",
+    "translation": "<translation not redistributed>",
+    "video_id": "S04-3EP01",
+    "rel_start_requested": 0.2999999999999545,
+    "rel_end_requested": 0.5
+  },
+  "video_from": {
+    "clip_id": "C10",
+    "event_id": "event1",
+    "video_id": "S01EP09",
+    "target_channel": "manual",
+    "duration": 0.8000000000000114
+  },
+  "rel_start_applied": 0.2999999999999545,
+  "rel_end_applied": 0.5,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C10_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C10_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:57:57.076044",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"moves from near the signer's temple upward and forward, then extends straight out\",\n        \"location\": \"starts near the signer's right temple, moves to the right side of the signer's face, then extends forward\",\n        \"nonmanual\": \"signer's mouth is slightly open, eyes looking forward\",\n        \"non_dominant_hand\": \"resting on the signer's chest\",\n        \"temporal_alignment\": \"the action begins after a sign indicating 'understand' or 'can' and before a sign indicating 'this world' or 'different'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign for 'understand' or 'can' in TSL, which is essential for the propositional content. The gesture is directed forward, indicating the concept of 'this world' or 'it' as the object of understanding. The forward extension adds emphasis and vividness to the action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "moves from near the signer's temple upward and forward, then extends straight out",
+          "location": "starts near the signer's right temple, moves to the right side of the signer's face, then extends forward",
+          "nonmanual": "signer's mouth is slightly open, eyes looking forward",
+          "non_dominant_hand": "resting on the signer's chest",
+          "temporal_alignment": "the action begins after a sign indicating 'understand' or 'can' and before a sign indicating 'this world' or 'different'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign for 'understand' or 'can' in TSL, which is essential for the propositional content. The gesture is directed forward, indicating the concept of 'this world' or 'it' as the object of understanding. The forward extension adds emphasis and vividness to the action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

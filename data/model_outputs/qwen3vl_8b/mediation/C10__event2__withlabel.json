@@ -1,0 +1,36 @@
+{
+  "clip_id": "C10",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "manual",
+  "label_channel_sent": "manual",
+  "label_is_correct": true,
+  "video_id": "S01EP09",
+  "source_run": "C10__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 1,
+    "depiction": 1
+  },
+  "description_sent": "- handshape: index fingers extended, other fingers curled\n- movement: both index fingers move from near the chest outward and upward, then inward and downward in a circular motion, as if drawing a small circle or indicating a point of focus\n- location: initially near the chest, moving outward and upward, then inward and downward\n- nonmanual: neutral facial expression, no prominent head or torso movement\n- non dominant hand: non-dominant hand moves in coordination with the dominant hand, mirroring the motion\n- temporal alignment: the action occurs within a continuous signing sequence, following a gesture near the head and preceding a gesture with both hands moving outward",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:17:34.703797",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 2,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 3,\n  \"indication\": 1,\n  \"depiction\": 3,\n  \"confidence\": 0.9,\n  \"reasoning\": \"The action’s circular motion and handshape suggest a conventionalized gesture for 'good' or 'quality' in context of a teacher, contributing substantively to the propositional content. The mirroring and motion add vividness and depictive quality, enhancing the affective stance toward the teacher. It is not primarily indicating a location but enacting a concept, making depiction high.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 3,
+    "indication": 1,
+    "depiction": 3,
+    "confidence": 0.9,
+    "reasoning": "The action’s circular motion and handshape suggest a conventionalized gesture for 'good' or 'quality' in context of a teacher, contributing substantively to the propositional content. The mirroring and motion add vividness and depictive quality, enhancing the affective stance toward the teacher. It is not primarily indicating a location but enacting a concept, making depiction high."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

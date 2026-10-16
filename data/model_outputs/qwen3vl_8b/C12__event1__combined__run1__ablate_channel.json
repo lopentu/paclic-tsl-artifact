@@ -1,0 +1,48 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C12_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:54:57.039649",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled.\",\n        \"movement\": \"Right hand moves in a small circular motion around the left hand's index finger, then moves downward and slightly inward. Left hand remains relatively stationary, with the index finger pointing upward.\",\n        \"location\": \"Center of signer's chest, near the throat.\",\n        \"nonmanual\": \"Signer's mouth is slightly open, and her eyebrows are slightly raised, conveying a sense of emphasis or explanation.\",\n        \"non_dominant_hand\": \"The left hand is stationary, with the index finger extended upward, serving as a reference point for the right hand's movement.\",\n        \"temporal_alignment\": \"The action begins immediately after the signer raises her hand in a gesture of surprise or emphasis (0.0-0.2) and is followed by a gesture of self-reference (0.9-1.0).\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand's circular motion around the left hand's index finger is a conventionalized sign in TSL for 'to explain' or 'to clarify', which directly contributes to the propositional content of the utterance. The stationary left hand with the extended index finger serves as a referent for the action being explained, indicating the subject or topic. The signer's facial expression (slightly raised eyebrows, open mouth) adds emphasis and affect, making the explanation more vivid and engaging.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled.",
+          "movement": "Right hand moves in a small circular motion around the left hand's index finger, then moves downward and slightly inward. Left hand remains relatively stationary, with the index finger pointing upward.",
+          "location": "Center of signer's chest, near the throat.",
+          "nonmanual": "Signer's mouth is slightly open, and her eyebrows are slightly raised, conveying a sense of emphasis or explanation.",
+          "non_dominant_hand": "The left hand is stationary, with the index finger extended upward, serving as a reference point for the right hand's movement.",
+          "temporal_alignment": "The action begins immediately after the signer raises her hand in a gesture of surprise or emphasis (0.0-0.2) and is followed by a gesture of self-reference (0.9-1.0)."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand's circular motion around the left hand's index finger is a conventionalized sign in TSL for 'to explain' or 'to clarify', which directly contributes to the propositional content of the utterance. The stationary left hand with the extended index finger serves as a referent for the action being explained, indicating the subject or topic. The signer's facial expression (slightly raised eyebrows, open mouth) adds emphasis and affect, making the explanation more vivid and engaging."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

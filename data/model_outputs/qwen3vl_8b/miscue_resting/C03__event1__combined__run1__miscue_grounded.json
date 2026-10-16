@@ -1,0 +1,56 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "face",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C03_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C03_window_model.mp4",
+  "video_id": "S01EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:30:31.993318",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"both hands move upward from the chest area to the eyes, then both hands move downward and outward\",\n        \"location\": \"starts near the chest, moves to the eyes, then moves down and outward\",\n        \"nonmanual\": \"face shows a grimace or expression of discomfort or effort\",\n        \"non_dominant_hand\": \"the non-dominant hand moves upward to the eye level, then moves downward and outward\",\n        \"temporal_alignment\": \"the action occurs within a larger signing unit, following a sign with the dominant hand and preceding a sign with the dominant hand\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand moves upward to the eye level, then moves downward and outward, which is a conventionalized gesture in TSL that can indicate a feeling of discomfort or effort. The facial expression of discomfort or effort supports the affective enrichment. The movement of the hands is a depiction of a physical action, such as a person moving their hands upward to their eyes and then downward and outward.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "both hands move upward from the chest area to the eyes, then both hands move downward and outward",
+          "location": "starts near the chest, moves to the eyes, then moves down and outward",
+          "nonmanual": "face shows a grimace or expression of discomfort or effort",
+          "non_dominant_hand": "the non-dominant hand moves upward to the eye level, then moves downward and outward",
+          "temporal_alignment": "the action occurs within a larger signing unit, following a sign with the dominant hand and preceding a sign with the dominant hand"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand moves upward to the eye level, then moves downward and outward, which is a conventionalized gesture in TSL that can indicate a feeling of discomfort or effort. The facial expression of discomfort or effort supports the affective enrichment. The movement of the hands is a depiction of a physical action, such as a person moving their hands upward to their eyes and then downward and outward."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

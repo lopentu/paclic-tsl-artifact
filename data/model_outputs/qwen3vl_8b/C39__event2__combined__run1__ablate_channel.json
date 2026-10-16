@@ -1,0 +1,48 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:23:22.921891",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.3\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"right hand moves from right to left, left hand moves from left to right, meeting in the center; then both hands move inward toward the chest\",\n        \"location\": \"starts at sides, moves toward center, ends at chest\",\n        \"nonmanual\": \"pursed lips, slight head tilt\",\n        \"non_dominant_hand\": \"left hand moves from left to right, then inward\",\n        \"temporal_alignment\": \"the action begins with the right hand moving left and the left hand moving right, then both hands meet and move inward toward the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands start at the sides and move toward the center, meeting at the chest, which visually represents the concept of 'self-reliance' or 'independence' mentioned in the given meaning. The movement inward toward the chest, combined with the pursed lips, conveys a sense of determination and inner strength, adding affective enrichment to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.3",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "right hand moves from right to left, left hand moves from left to right, meeting in the center; then both hands move inward toward the chest",
+          "location": "starts at sides, moves toward center, ends at chest",
+          "nonmanual": "pursed lips, slight head tilt",
+          "non_dominant_hand": "left hand moves from left to right, then inward",
+          "temporal_alignment": "the action begins with the right hand moving left and the left hand moving right, then both hands meet and move inward toward the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands start at the sides and move toward the center, meeting at the chest, which visually represents the concept of 'self-reliance' or 'independence' mentioned in the given meaning. The movement inward toward the chest, combined with the pursed lips, conveys a sense of determination and inner strength, adding affective enrichment to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

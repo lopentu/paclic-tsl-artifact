@@ -1,0 +1,50 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:51:12.017147",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used.\",\n        \"handshape\": \"Both hands are open, with the right hand having a slightly more prominent index finger.\",\n        \"movement\": \"The right hand moves in a downward, slightly diagonal path from the upper left to the lower right. The left hand is held steady, palm down, as a base.\",\n        \"location\": \"The action occurs in the space in front of the signer's chest.\",\n        \"nonmanual\": \"The signer's head is still, and her facial expression is neutral and focused.\",\n        \"non_dominant_hand\": \"The left hand is held relatively still, palm down, serving as a base or reference point.\",\n        \"temporal_alignment\": \"The action is a continuous movement that bridges the end of one manual sign and the beginning of the next, occurring in the middle of a larger signed phrase.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The action is a clear, conventional TSL sign. Its form (a downward chop) is a standard lexical sign. The left hand's position suggests it is indexing a location or referent in the space, which is a syntactic function. The movement itself is a depiction of something moving downwards.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "Both hands are open, with the right hand having a slightly more prominent index finger.",
+          "movement": "The right hand moves in a downward, slightly diagonal path from the upper left to the lower right. The left hand is held steady, palm down, as a base.",
+          "location": "The action occurs in the space in front of the signer's chest.",
+          "nonmanual": "The signer's head is still, and her facial expression is neutral and focused.",
+          "non_dominant_hand": "The left hand is held relatively still, palm down, serving as a base or reference point.",
+          "temporal_alignment": "The action is a continuous movement that bridges the end of one manual sign and the beginning of the next, occurring in the middle of a larger signed phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The action is a clear, conventional TSL sign. Its form (a downward chop) is a standard lexical sign. The left hand's position suggests it is indexing a location or referent in the space, which is a syntactic function. The movement itself is a depiction of something moving downwards."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S04-2EP01",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:28:09.538721",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's right cheek to the mouth, then to the chin, with slight up-and-down motion\",\n        \"location\": \"right side of signer's face, moving toward mouth and chin\",\n        \"nonmanual\": \"mouth opens and closes, eyes look forward\",\n        \"non_dominant_hand\": \"resting on lap\",\n        \"temporal_alignment\": \"starts with a sign that appears to be 'I' or 'me', then transitions into a gesture that emphasizes the face or mouth area\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are consistent with a sign for 'I' or 'me' in TSL, which carries semantic load. The gesture toward the mouth and chin, combined with the facial expression, adds pragmatic enrichment, likely indicating self-reference or emphasis on speaking.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's right cheek to the mouth, then to the chin, with slight up-and-down motion",
+          "location": "right side of signer's face, moving toward mouth and chin",
+          "nonmanual": "mouth opens and closes, eyes look forward",
+          "non_dominant_hand": "resting on lap",
+          "temporal_alignment": "starts with a sign that appears to be 'I' or 'me', then transitions into a gesture that emphasizes the face or mouth area"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are consistent with a sign for 'I' or 'me' in TSL, which carries semantic load. The gesture toward the mouth and chin, combined with the facial expression, adds pragmatic enrichment, likely indicating self-reference or emphasis on speaking."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

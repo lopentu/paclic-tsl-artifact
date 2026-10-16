@@ -1,0 +1,48 @@
+{
+  "clip_id": "C08",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:11:43.455362",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"repeatedly moves in a small, rhythmic up-and-down motion, as if tapping or pulsing\",\n        \"location\": \"resting near the signer's left shoulder, moving slightly forward and back\",\n        \"nonmanual\": \"no visible facial or head movement accompanying the hand action\",\n        \"non_dominant_hand\": \"the non-dominant hand performs a repetitive, rhythmic motion\",\n        \"temporal_alignment\": \"the motion begins at 0.3s and continues until 0.8s, occurring during the signing of the phrase\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand's repetitive motion is not a lexical sign but a rhythmic gesture that accompanies the signing, suggesting emphasis or a beat. The motion is consistent with the idea of 'testing' or 'examining' something, which aligns with the meaning '相當考驗兩種語言轉換的純熟度'. The gesture adds affective emphasis to the propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "repeatedly moves in a small, rhythmic up-and-down motion, as if tapping or pulsing",
+          "location": "resting near the signer's left shoulder, moving slightly forward and back",
+          "nonmanual": "no visible facial or head movement accompanying the hand action",
+          "non_dominant_hand": "the non-dominant hand performs a repetitive, rhythmic motion",
+          "temporal_alignment": "the motion begins at 0.3s and continues until 0.8s, occurring during the signing of the phrase"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand's repetitive motion is not a lexical sign but a rhythmic gesture that accompanies the signing, suggesting emphasis or a beat. The motion is consistent with the idea of 'testing' or 'examining' something, which aligns with the meaning '相當考驗兩種語言轉換的純熟度'. The gesture adds affective emphasis to the propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

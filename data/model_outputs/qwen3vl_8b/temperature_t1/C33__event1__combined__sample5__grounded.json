@@ -1,0 +1,55 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1987438089,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:34:32.424698",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index finger and thumb forming a 'pinch' or 'thumb-up' shape, with other fingers curled\",\n        \"movement\": \"both hands move inward toward the chest, then outward and downward in a repeated, rhythmic motion\",\n        \"location\": \"centered in front of the chest, moving toward and away from the body\",\n        \"nonmanual\": \"face shows a furrowed brow and pursed lips, conveying intensity or concern\",\n        \"non_dominant_hand\": \"non-dominant hand mirrors the dominant hand's movement\",\n        \"temporal_alignment\": \"the action occurs within a continuous sequence of signing, starting after a gesture pointing to the side and before a more open-handed gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The repeated inward-outward movement of the hands, combined with the facial expression, strongly conveys a sense of urgency or emphasis on the question being asked. The handshape and motion are conventionalized in TSL to represent the idea of 'thinking about' or 'considering' something, contributing to the grammatical structure of the question. The action is not merely illustrative but is a core component of the sign's meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index finger and thumb forming a 'pinch' or 'thumb-up' shape, with other fingers curled",
+          "movement": "both hands move inward toward the chest, then outward and downward in a repeated, rhythmic motion",
+          "location": "centered in front of the chest, moving toward and away from the body",
+          "nonmanual": "face shows a furrowed brow and pursed lips, conveying intensity or concern",
+          "non_dominant_hand": "non-dominant hand mirrors the dominant hand's movement",
+          "temporal_alignment": "the action occurs within a continuous sequence of signing, starting after a gesture pointing to the side and before a more open-handed gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The repeated inward-outward movement of the hands, combined with the facial expression, strongly conveys a sense of urgency or emphasis on the question being asked. The handshape and motion are conventionalized in TSL to represent the idea of 'thinking about' or 'considering' something, contributing to the grammatical structure of the question. The action is not merely illustrative but is a core component of the sign's meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

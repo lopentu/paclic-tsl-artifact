@@ -1,0 +1,48 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:59:04.034055",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"non-dominant hand open palm up, dominant hand fingers extended\",\n        \"movement\": \"dominant hand moves downward from above the non-dominant hand, then both hands come together in front of the chest\",\n        \"location\": \"in front of the signer's chest, moving inward\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"remains relatively stable, palm up, serving as a base\",\n        \"temporal_alignment\": \"starts after a previous hand gesture, and is followed by a hand clasping motion\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands come together in front of the chest, a common gesture in TSL for indicating something positive or affirming, which aligns with the meaning 'this course is great'. The movement is not a simple point or depictive action, but a conventionalized gesture that contributes to the propositional content by expressing approval or value.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "non-dominant hand open palm up, dominant hand fingers extended",
+          "movement": "dominant hand moves downward from above the non-dominant hand, then both hands come together in front of the chest",
+          "location": "in front of the signer's chest, moving inward",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "remains relatively stable, palm up, serving as a base",
+          "temporal_alignment": "starts after a previous hand gesture, and is followed by a hand clasping motion"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands come together in front of the chest, a common gesture in TSL for indicating something positive or affirming, which aligns with the meaning 'this course is great'. The movement is not a simple point or depictive action, but a conventionalized gesture that contributes to the propositional content by expressing approval or value."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

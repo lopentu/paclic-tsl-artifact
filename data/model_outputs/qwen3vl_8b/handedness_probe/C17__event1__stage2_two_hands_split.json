@@ -1,0 +1,30 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "stage": "stage2_two_hands_split",
+  "mode": null,
+  "video_path": "<repo>/data/clips_c/C17_ev1_model.mp4",
+  "backend": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "temperature": 0.0,
+  "timestamp": "2026-08-03T13:33:45.682422",
+  "prompt": "You are analyzing a short video clip of Taiwan Sign Language (TSL) discourse.\n\nWHO TO WATCH. Some clips show a single person signing to the camera. Others are interviews, so TWO people are visible. In every clip only ONE of them is the main signer: the person actively producing the signed utterance. Answer about that person only.\n\nPOINT OF VIEW. Describe every direction from the SIGNER's own body, never from the camera's or the viewer's. A hand that appears on the right-hand side of the frame, when the signer faces the camera, is on the signer's LEFT.\n\nA target span occurs at approximately 0.3 to 0.5 seconds into THIS\nclip. Report what BOTH hands do during that span. Do not choose between them and do not decide\nwhich one is more important -- both fields are required, and either may be at rest.\n\nFirst state which hand is the dominant one. Then describe each hand separately.\n\nRespond with ONLY a single JSON object, no prose before or after it:\n\n{\n  \"dominant_hand\": \"left\" or \"right\",\n  \"dominant_hand_action\": {\n    \"handshape\": \"...\", \"movement\": \"...\", \"location\": \"...\",\n    \"at_rest\": true or false\n  },\n  \"non_dominant_hand_action\": {\n    \"handshape\": \"...\", \"movement\": \"...\", \"location\": \"...\",\n    \"at_rest\": true or false\n  },\n  \"which_hand_carries_the_discourse_maintaining_action\": \"dominant\" or \"non_dominant\" or \"neither\",\n  \"confidence\": 0.0\n}\n",
+  "raw_text": "{\n  \"dominant_hand\": \"left\",\n  \"dominant_hand_action\": {\n    \"handshape\": \"open palm\",\n    \"movement\": \"moving downward and slightly inward\",\n    \"location\": \"near the signer's chest\",\n    \"at_rest\": false\n  },\n  \"non_dominant_hand_action\": {\n    \"handshape\": \"open palm\",\n    \"movement\": \"moving upward and slightly outward\",\n    \"location\": \"near the signer's chest\",\n    \"at_rest\": false\n  },\n  \"which_hand_carries_the_discourse_maintaining_action\": \"dominant\",\n  \"confidence\": 0.8\n}",
+  "parsed": {
+    "dominant_hand": "left",
+    "dominant_hand_action": {
+      "handshape": "open palm",
+      "movement": "moving downward and slightly inward",
+      "location": "near the signer's chest",
+      "at_rest": false
+    },
+    "non_dominant_hand_action": {
+      "handshape": "open palm",
+      "movement": "moving upward and slightly outward",
+      "location": "near the signer's chest",
+      "at_rest": false
+    },
+    "which_hand_carries_the_discourse_maintaining_action": "dominant",
+    "confidence": 0.8
+  }
+}

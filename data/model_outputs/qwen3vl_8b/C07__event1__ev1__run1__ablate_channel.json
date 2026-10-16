@@ -1,0 +1,48 @@
+{
+  "clip_id": "C07",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:49:46.121022",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: thumb and index finger forming a 'C' shape\",\n        \"movement\": \"right hand moves from right to left across the signer's face, then the left hand moves from left to right across the signer's face, both hands moving in a coordinated, sweeping motion\",\n        \"location\": \"in front of the signer's face, moving across the midline\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"left hand moves in coordination with the right hand, forming a complementary gesture\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.6s, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move in a coordinated, sweeping motion across the face, which is a conventionalized sign in TSL for 'arrange' or 'organize' (a lexical sign with semantic load). The movement across the face also visually enacts the idea of arranging or setting up something, adding depictive and pragmatic enrichment. The gesture is not a simple point but a complex manual action that contributes to the grammatical structure of the sentence.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: thumb and index finger forming a 'C' shape",
+          "movement": "right hand moves from right to left across the signer's face, then the left hand moves from left to right across the signer's face, both hands moving in a coordinated, sweeping motion",
+          "location": "in front of the signer's face, moving across the midline",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "left hand moves in coordination with the right hand, forming a complementary gesture",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.6s, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move in a coordinated, sweeping motion across the face, which is a conventionalized sign in TSL for 'arrange' or 'organize' (a lexical sign with semantic load). The movement across the face also visually enacts the idea of arranging or setting up something, adding depictive and pragmatic enrichment. The gesture is not a simple point but a complex manual action that contributes to the grammatical structure of the sentence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

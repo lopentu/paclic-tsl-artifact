@@ -1,0 +1,55 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "head_torso",
+  "video_id": "S01EP12",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 2023316574,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:45:27.300168",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"hands clasped or held together in front of the chest\",\n        \"handshape\": \"not clearly visible\",\n        \"movement\": \"head tilted slightly upward and back, eyes looking upward, maintaining a steady posture\",\n        \"location\": \"center of frame, facing camera\",\n        \"nonmanual\": \"eyes looking upward, mouth slightly open\",\n        \"non_dominant_hand\": \"not visible or not involved\",\n        \"temporal_alignment\": \"occurs at the beginning of the clip, preceding the main signing motion\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The head tilt and upward gaze, combined with the clasped hands, convey a sense of contemplation or uncertainty, which aligns with the meaning '無從判斷' (cannot judge). The gesture is not a lexical sign but adds affective weight to the propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "hands clasped or held together in front of the chest",
+          "handshape": "not clearly visible",
+          "movement": "head tilted slightly upward and back, eyes looking upward, maintaining a steady posture",
+          "location": "center of frame, facing camera",
+          "nonmanual": "eyes looking upward, mouth slightly open",
+          "non_dominant_hand": "not visible or not involved",
+          "temporal_alignment": "occurs at the beginning of the clip, preceding the main signing motion"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The head tilt and upward gaze, combined with the clasped hands, convey a sense of contemplation or uncertainty, which aligns with the meaning '無從判斷' (cannot judge). The gesture is not a lexical sign but adds affective weight to the propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

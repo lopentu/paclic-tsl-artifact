@@ -1,0 +1,61 @@
+{
+  "clip_id": "C02",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T22:11:52.343798",
+  "backend_call_info": {
+    "frames_per_video": [
+      136,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.2575
+    ],
+    "input_tokens": 13039,
+    "output_tokens": 306
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:00\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Open/cupped\",\n        \"movement\": \"Moving forward and slightly outward from the signer's chest area\",\n        \"location\": \"In front of the signer's chest\",\n        \"nonmanual\": \"Neutral\",\n        \"non_dominant_hand\": \"Not distinctly visible or active in a separate manner\",\n        \"temporal_alignment\": \"The action occurs at the beginning of the visible clip, as part of a sequence of movements.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.85,\n      \"observable_evidence\": \"The signer uses both hands in an open, cupped shape, moving them forward and slightly outward from the chest area.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:00",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Open/cupped",
+          "movement": "Moving forward and slightly outward from the signer's chest area",
+          "location": "In front of the signer's chest",
+          "nonmanual": "Neutral",
+          "non_dominant_hand": "Not distinctly visible or active in a separate manner",
+          "temporal_alignment": "The action occurs at the beginning of the visible clip, as part of a sequence of movements."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.85,
+        "observable_evidence": "The signer uses both hands in an open, cupped shape, moving them forward and slightly outward from the chest area."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

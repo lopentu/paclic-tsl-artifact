@@ -1,0 +1,56 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C17_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:11:47.904999",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand moves downward and forward, non-dominant hand remains open and flat\",\n        \"handshape\": \"dominant hand in open shape, non-dominant hand in open flat shape\",\n        \"movement\": \"dominant hand slides downward from above non-dominant hand\",\n        \"location\": \"forward in front of body\",\n        \"nonmanual\": \"mouth forms a slight pucker\",\n        \"non_dominant_hand\": \"stays stationary\",\n        \"temporal_alignment\": \"part of a longer sign sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action shows a dominant hand sliding downward over a non-dominant hand, which is a common classifier gesture for 'course' or 'program' in TSL, contributing to the meaning 'this course'. The facial pucker adds affective emphasis.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand moves downward and forward, non-dominant hand remains open and flat",
+          "handshape": "dominant hand in open shape, non-dominant hand in open flat shape",
+          "movement": "dominant hand slides downward from above non-dominant hand",
+          "location": "forward in front of body",
+          "nonmanual": "mouth forms a slight pucker",
+          "non_dominant_hand": "stays stationary",
+          "temporal_alignment": "part of a longer sign sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The target action shows a dominant hand sliding downward over a non-dominant hand, which is a common classifier gesture for 'course' or 'program' in TSL, contributing to the meaning 'this course'. The facial pucker adds affective emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

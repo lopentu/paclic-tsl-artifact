@@ -1,0 +1,55 @@
+{
+  "clip_id": "C25",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 801173836,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:16:33.268417",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a cup shape near the mouth, left hand is open and moves toward the right hand\",\n        \"movement\": \"right hand remains near the mouth while left hand moves from the signer's left side toward the right hand, then both hands come together in front of the chest\",\n        \"location\": \"initially near the mouth, then moves inward to the chest area\",\n        \"nonmanual\": \"signer's mouth is open and expressive, eyes wide, conveying emphasis or surprise\",\n        \"non_dominant_hand\": \"left hand moves toward the right hand and then both hands come together\",\n        \"temporal_alignment\": \"the action begins with the right hand near the mouth and left hand moving in, and ends with both hands clasped together in front of the chest, occurring within a larger sequence of signing that includes pointing gestures\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands come together in front of the chest, which in TSL often marks a conclusion or a key point in a clause. The signer's facial expression (wide eyes, open mouth) and the hand movement add emphasis and affect, making the action vivid and emotionally charged. The hand movement resembles a gesture of 'bringing something together' or 'making a point', which aligns with the discourse about modern sign language being different in its use of emotional vocabulary.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a cup shape near the mouth, left hand is open and moves toward the right hand",
+          "movement": "right hand remains near the mouth while left hand moves from the signer's left side toward the right hand, then both hands come together in front of the chest",
+          "location": "initially near the mouth, then moves inward to the chest area",
+          "nonmanual": "signer's mouth is open and expressive, eyes wide, conveying emphasis or surprise",
+          "non_dominant_hand": "left hand moves toward the right hand and then both hands come together",
+          "temporal_alignment": "the action begins with the right hand near the mouth and left hand moving in, and ends with both hands clasped together in front of the chest, occurring within a larger sequence of signing that includes pointing gestures"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands come together in front of the chest, which in TSL often marks a conclusion or a key point in a clause. The signer's facial expression (wide eyes, open mouth) and the hand movement add emphasis and affect, making the action vivid and emotionally charged. The hand movement resembles a gesture of 'bringing something together' or 'making a point', which aligns with the discourse about modern sign language being different in its use of emotional vocabulary."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

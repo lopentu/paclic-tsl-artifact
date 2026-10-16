@@ -1,0 +1,50 @@
+{
+  "clip_id": "C20",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C20_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:15:15.328817",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.6\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"The dominant hand (right) is the active channel. The non-dominant hand (left) is held steady near the lower abdomen.\",\n          \"handshape\": \"The dominant hand is a closed fist, with the thumb resting on the side of the index finger knuckle.\",\n          \"movement\": \"The fist moves forward from the chest area, then down and slightly forward in a repeated, rhythmic motion.\",\n          \"location\": \"The action is centered on the signer's chest and forward into the signing space.\",\n          \"nonmanual\": \"The signer's head is still and facing forward. The eyebrows are slightly raised.\",\n          \"non_dominant_hand\": \"The non-dominant hand is held stationary, palm up, near the signer's waist.\",\n          \"temporal_alignment\": \"The action is a single, repeated manual motion that occurs at the beginning of a new signed unit, following a brief pause in the previous sign.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The rhythmic, repeated motion is a conventional TSL grammatical marker for a negative prefix. The fist handshape is a standard lexical sign for 'no' or 'not'.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant hand (right) is the active channel. The non-dominant hand (left) is held steady near the lower abdomen.",
+          "handshape": "The dominant hand is a closed fist, with the thumb resting on the side of the index finger knuckle.",
+          "movement": "The fist moves forward from the chest area, then down and slightly forward in a repeated, rhythmic motion.",
+          "location": "The action is centered on the signer's chest and forward into the signing space.",
+          "nonmanual": "The signer's head is still and facing forward. The eyebrows are slightly raised.",
+          "non_dominant_hand": "The non-dominant hand is held stationary, palm up, near the signer's waist.",
+          "temporal_alignment": "The action is a single, repeated manual motion that occurs at the beginning of a new signed unit, following a brief pause in the previous sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The rhythmic, repeated motion is a conventional TSL grammatical marker for a negative prefix. The fist handshape is a standard lexical sign for 'no' or 'not'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

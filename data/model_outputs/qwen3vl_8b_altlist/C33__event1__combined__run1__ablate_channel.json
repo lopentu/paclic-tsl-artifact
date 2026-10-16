@@ -1,0 +1,49 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C33_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:53:09.103402",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"flat, open palms, fingers slightly curled\",\n        \"movement\": \"both hands move inward from the sides toward the center of the chest, then outward again in a rhythmic, pulsing motion\",\n        \"location\": \"starting near the sides of the torso, moving inward to the center chest area, then outward again\",\n        \"nonmanual\": \"signer's face shows a focused, slightly strained expression with pursed lips\",\n        \"non_dominant_hand\": \"not visible or not active\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture of pointing to the side and preceding a more expansive gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move rhythmically toward and away from the chest, a motion that visually reinforces the hypothetical nature of the question 'what if' in the given meaning. The facial expression and the inward/outward motion suggest emphasis and a sense of internal consideration, adding affective weight to the hypothetical scenario.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "flat, open palms, fingers slightly curled",
+          "movement": "both hands move inward from the sides toward the center of the chest, then outward again in a rhythmic, pulsing motion",
+          "location": "starting near the sides of the torso, moving inward to the center chest area, then outward again",
+          "nonmanual": "signer's face shows a focused, slightly strained expression with pursed lips",
+          "non_dominant_hand": "not visible or not active",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture of pointing to the side and preceding a more expansive gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move rhythmically toward and away from the chest, a motion that visually reinforces the hypothetical nature of the question 'what if' in the given meaning. The facial expression and the inward/outward motion suggest emphasis and a sense of internal consideration, adding affective weight to the hypothetical scenario."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

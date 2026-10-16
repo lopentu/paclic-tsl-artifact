@@ -1,0 +1,48 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:40:35.030289",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression with pursed lips and slight head tilt\",\n        \"location\": \"face\",\n        \"nonmanual\": \"pursed lips, slight head tilt\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during a sustained manual sign, likely marking a pause or emphasis within the clause\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's face is held in a pursed-lip expression with a slight head tilt during the manual sign, which is a common nonmanual marker in TSL for emphasis or to convey a sense of difficulty or effort, fitting the context of describing people who cannot sign and must use simple signs. The expression is not a lexical sign but adds affective weight to the proposition.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression with pursed lips and slight head tilt",
+          "location": "face",
+          "nonmanual": "pursed lips, slight head tilt",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during a sustained manual sign, likely marking a pause or emphasis within the clause"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's face is held in a pursed-lip expression with a slight head tilt during the manual sign, which is a common nonmanual marker in TSL for emphasis or to convey a sense of difficulty or effort, fitting the context of describing people who cannot sign and must use simple signs. The expression is not a lexical sign but adds affective weight to the proposition."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

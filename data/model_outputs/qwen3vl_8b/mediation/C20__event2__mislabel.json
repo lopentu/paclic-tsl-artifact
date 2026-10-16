@@ -1,0 +1,36 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "manual",
+  "label_channel_sent": "face",
+  "label_is_correct": false,
+  "video_id": "S01EP11",
+  "source_run": "C20__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: right hand forms a 'V' or 'peace' sign, left hand forms a 'V' or 'peace' sign\n- movement: both hands move from the signer's chest area outward and upward, then the right hand moves slightly forward and downward while the left hand remains relatively stationary\n- location: initially near the signer's chest, then moving outward and upward\n- nonmanual: signer maintains a smiling facial expression\n- non dominant hand: left hand forms a 'V' or 'peace' sign, remains relatively stationary\n- temporal alignment: the action occurs within a continuous signing sequence, following a previous sign and preceding a subsequent sign",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:24:25.239695",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 0,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 1,\n  \"indication\": 0,\n  \"depiction\": 1,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The action primarily conveys positive affect through the smiling facial expression and hand movement, which aligns with the reassuring tone of the utterance '你們會考上乙證也沒問題' (You will be fine even if you get the B certificate). The handshape and movement are not semantically core to the propositional content, but they enrich the affective stance. The description is minimal (V-signs, upward motion) and not highly conventionalized for specific meaning beyond positive affirmation. No indication or depiction of external referents.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 0,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 1,
+    "indication": 0,
+    "depiction": 1,
+    "confidence": 0.95,
+    "reasoning": "The action primarily conveys positive affect through the smiling facial expression and hand movement, which aligns with the reassuring tone of the utterance '你們會考上乙證也沒問題' (You will be fine even if you get the B certificate). The handshape and movement are not semantically core to the propositional content, but they enrich the affective stance. The description is minimal (V-signs, upward motion) and not highly conventionalized for specific meaning beyond positive affirmation. No indication or depiction of external referents."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

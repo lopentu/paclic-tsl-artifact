@@ -1,0 +1,53 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C39_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:19:48.770481",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth opens wide, tongue protrudes, facial expression is emphatic and forceful\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"mouth open wide, tongue protruding, facial expression emphatic\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action occurs during a sustained signing unit, beginning with a hand gesture and continuing with the facial expression\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The facial expression is emphatic and forceful, with the mouth open wide and tongue protruding, which visually reinforces the assertive tone of the message '我可以自立自強' (I can be self-reliant and strong). The sustained nature of the expression, occurring during a key part of the signing, indicates it carries significant pragmatic and affective weight, enhancing the speaker's determination.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth opens wide, tongue protrudes, facial expression is emphatic and forceful",
+          "location": "center of face",
+          "nonmanual": "mouth open wide, tongue protruding, facial expression emphatic",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action occurs during a sustained signing unit, beginning with a hand gesture and continuing with the facial expression"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The facial expression is emphatic and forceful, with the mouth open wide and tongue protruding, which visually reinforces the assertive tone of the message '我可以自立自強' (I can be self-reliant and strong). The sustained nature of the expression, occurring during a key part of the signing, indicates it carries significant pragmatic and affective weight, enhancing the speaker's determination."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:04:29.560994",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"index finger of right hand touches chin, then remains there; mouth slightly open, eyes looking forward\",\n        \"location\": \"right hand near chin, face centered\",\n        \"nonmanual\": \"mouth slightly open, eyes looking forward\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action begins with the hand moving to the chin and holds for the duration of the target span\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's hand is placed on the chin, a gesture commonly used to indicate thought or contemplation, which aligns with the meaning '大量的練習現在網路上很多資源真的很方便' (a lot of practice, now there are many resources online, really convenient). The gesture is held steady, suggesting emphasis on the idea of reflection or consideration of the convenience of online resources.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "index finger of right hand touches chin, then remains there; mouth slightly open, eyes looking forward",
+          "location": "right hand near chin, face centered",
+          "nonmanual": "mouth slightly open, eyes looking forward",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action begins with the hand moving to the chin and holds for the duration of the target span"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's hand is placed on the chin, a gesture commonly used to indicate thought or contemplation, which aligns with the meaning '大量的練習現在網路上很多資源真的很方便' (a lot of practice, now there are many resources online, really convenient). The gesture is held steady, suggesting emphasis on the idea of reflection or consideration of the convenience of online resources."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,49 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C23_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:49:55.173665",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: open palm, fingers slightly spread\",\n        \"movement\": \"right hand moves from near the signer's chin toward the left hand, then both hands move outward and slightly upward, palms facing up, then the right hand moves forward and down while the left hand remains open and slightly raised\",\n        \"location\": \"initially near the signer's chin, then moving outward and upward, ending with the right hand near the signer's chest and the left hand at shoulder height\",\n        \"nonmanual\": \"signer's mouth opens wide at 1.2 seconds, eyes close at 1.2 seconds\",\n        \"non_dominant_hand\": \"left hand remains relatively stationary, palm up, fingers slightly spread, supporting the movement of the right hand\",\n        \"temporal_alignment\": \"the action begins with the right hand moving toward the left hand, spans the entire target span, and ends with the right hand moving forward and down while the left hand remains open and slightly raised\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move in a coordinated way that suggests a gesture of presenting or offering something, which is a common way to convey the idea of 'after leaving a group' in TSL. The movement is not a simple lexical sign but a gestural action that adds emphasis and affect to the message, making it more vivid and expressive.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: open palm, fingers slightly spread",
+          "movement": "right hand moves from near the signer's chin toward the left hand, then both hands move outward and slightly upward, palms facing up, then the right hand moves forward and down while the left hand remains open and slightly raised",
+          "location": "initially near the signer's chin, then moving outward and upward, ending with the right hand near the signer's chest and the left hand at shoulder height",
+          "nonmanual": "signer's mouth opens wide at 1.2 seconds, eyes close at 1.2 seconds",
+          "non_dominant_hand": "left hand remains relatively stationary, palm up, fingers slightly spread, supporting the movement of the right hand",
+          "temporal_alignment": "the action begins with the right hand moving toward the left hand, spans the entire target span, and ends with the right hand moving forward and down while the left hand remains open and slightly raised"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move in a coordinated way that suggests a gesture of presenting or offering something, which is a common way to convey the idea of 'after leaving a group' in TSL. The movement is not a simple lexical sign but a gestural action that adds emphasis and affect to the message, making it more vivid and expressive."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

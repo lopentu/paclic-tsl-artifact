@@ -1,0 +1,55 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 460388059,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:14:27.774031",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"dominant hand forms a 'V' or 'peace' sign, non-dominant hand forms a similar 'V' or 'peace' sign\",\n        \"movement\": \"both hands move from the signer's chest area outward and slightly upward, then move inward toward each other, and then outward again in a rhythmic motion\",\n        \"location\": \"center of the signer's chest, moving outward and inward\",\n        \"nonmanual\": \"signer maintains a smiling facial expression\",\n        \"non_dominant_hand\": \"non-dominant hand mirrors the dominant hand's movement, performing a similar 'V' or 'peace' sign motion\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, immediately following a gesture with the dominant hand and preceding a gesture with both hands open and facing up\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move in a rhythmic, outward and inward motion, which is a conventionalized lexical sign in TSL, likely contributing to the propositional content of the utterance. The smiling facial expression and the rhythmic movement add affective enrichment, making the message more positive and engaging.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "dominant hand forms a 'V' or 'peace' sign, non-dominant hand forms a similar 'V' or 'peace' sign",
+          "movement": "both hands move from the signer's chest area outward and slightly upward, then move inward toward each other, and then outward again in a rhythmic motion",
+          "location": "center of the signer's chest, moving outward and inward",
+          "nonmanual": "signer maintains a smiling facial expression",
+          "non_dominant_hand": "non-dominant hand mirrors the dominant hand's movement, performing a similar 'V' or 'peace' sign motion",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, immediately following a gesture with the dominant hand and preceding a gesture with both hands open and facing up"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move in a rhythmic, outward and inward motion, which is a conventionalized lexical sign in TSL, likely contributing to the propositional content of the utterance. The smiling facial expression and the rhythmic movement add affective enrichment, making the message more positive and engaging."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

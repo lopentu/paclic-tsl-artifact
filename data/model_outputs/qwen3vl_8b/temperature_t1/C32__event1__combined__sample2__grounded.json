@@ -1,0 +1,55 @@
+{
+  "clip_id": "C32",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1072952306,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:03:14.999209",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers rise and point upward, then move slightly inward toward each other\",\n        \"location\": \"initially near chest level, then move upward and inward\",\n        \"nonmanual\": \"head slightly tilted forward, eyes focused forward\",\n        \"non_dominant_hand\": \"non-dominant hand remains relatively still, fingers slightly curled\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the signing, following a preparatory gesture and preceding a more expansive pointing motion\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The upward-pointing index fingers, combined with the forward head tilt, create a strong visual emphasis that matches the assertive tone of the phrase '也可以理解這世界的不同！' The gesture visually represents the idea of 'different' or 'diverse' aspects being pointed out, contributing both to the grammatical structure (highlighting the core concept) and to the pragmatic emphasis (enacting the idea of 'pointing to' different elements).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers rise and point upward, then move slightly inward toward each other",
+          "location": "initially near chest level, then move upward and inward",
+          "nonmanual": "head slightly tilted forward, eyes focused forward",
+          "non_dominant_hand": "non-dominant hand remains relatively still, fingers slightly curled",
+          "temporal_alignment": "the action occurs at the beginning of the signing, following a preparatory gesture and preceding a more expansive pointing motion"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The upward-pointing index fingers, combined with the forward head tilt, create a strong visual emphasis that matches the assertive tone of the phrase '也可以理解這世界的不同！' The gesture visually represents the idea of 'different' or 'diverse' aspects being pointed out, contributing both to the grammatical structure (highlighting the core concept) and to the pragmatic emphasis (enacting the idea of 'pointing to' different elements)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

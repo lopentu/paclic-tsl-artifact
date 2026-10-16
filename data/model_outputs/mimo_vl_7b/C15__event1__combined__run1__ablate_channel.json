@@ -1,0 +1,50 @@
+{
+  "clip_id": "C15",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C15_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:30:27.881104",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"The dominant right hand is used.\",\n        \"handshape\": \"The handshape is a 'P' handshape (pinky and thumb extended, other fingers curled in).\",\n        \"movement\": \"The hand moves forward and slightly downward from a location near the signer's right temple/eye area. The movement is a single, sharp, forward push.\",\n        \"location\": \"The action starts at the signer's right temple/eye area and moves forward to about chest height.\",\n        \"nonmanual\": \"The non-dominant left hand is held steady near the signer's lower chest. The facial expression is serious and focused, with direct eye contact.\",\n        \"non_dominant_hand\": \"The non-dominant left hand is held stationary near the lower chest, palm facing inward.\",\n        \"temporal_alignment\": \"The action is a single, distinct manual sign that occurs in the middle of a continuous signing flow, immediately followed by another manual sign.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 3,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The action is a single, clear manual sign with a specific handshape and location, consistent with a lexical sign in TSL. The surrounding context is continuous signing, suggesting it's a grammatical or propositional unit. The focused facial expression adds a layer of affective emphasis.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant right hand is used.",
+          "handshape": "The handshape is a 'P' handshape (pinky and thumb extended, other fingers curled in).",
+          "movement": "The hand moves forward and slightly downward from a location near the signer's right temple/eye area. The movement is a single, sharp, forward push.",
+          "location": "The action starts at the signer's right temple/eye area and moves forward to about chest height.",
+          "nonmanual": "The non-dominant left hand is held steady near the signer's lower chest. The facial expression is serious and focused, with direct eye contact.",
+          "non_dominant_hand": "The non-dominant left hand is held stationary near the lower chest, palm facing inward.",
+          "temporal_alignment": "The action is a single, distinct manual sign that occurs in the middle of a continuous signing flow, immediately followed by another manual sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 3,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The action is a single, clear manual sign with a specific handshape and location, consistent with a lexical sign in TSL. The surrounding context is continuous signing, suggesting it's a grammatical or propositional unit. The focused facial expression adds a layer of affective emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

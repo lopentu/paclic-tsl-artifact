@@ -1,0 +1,61 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C26_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:31:54.777159",
+  "backend_call_info": {
+    "frames_per_video": [
+      80,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      14.5309
+    ],
+    "input_tokens": 10664,
+    "output_tokens": 308
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"dominant hand forms a 'phone' shape near the mouth, non-dominant hand rests on the lap\",\n        \"handshape\": \"dominant hand in 'phone' shape (index and thumb touching, other fingers extended)\",\n        \"movement\": \"static handshape near the mouth\",\n        \"location\": \"near the mouth\",\n        \"nonmanual\": \"mouth opens and closes, head tilts slightly to the right\",\n        \"non_dominant_hand\": \"resting on the lap\",\n        \"temporal_alignment\": \"occurs within a longer signing sequence, starting after a general hand movement and ending before a new manual gesture\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action is a facial expression with a hand shape near the mouth, occurring between 0.3 and 0.9 seconds, contributing affect and emphasis rather than propositional content.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "dominant hand forms a 'phone' shape near the mouth, non-dominant hand rests on the lap",
+          "handshape": "dominant hand in 'phone' shape (index and thumb touching, other fingers extended)",
+          "movement": "static handshape near the mouth",
+          "location": "near the mouth",
+          "nonmanual": "mouth opens and closes, head tilts slightly to the right",
+          "non_dominant_hand": "resting on the lap",
+          "temporal_alignment": "occurs within a longer signing sequence, starting after a general hand movement and ending before a new manual gesture"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action is a facial expression with a hand shape near the mouth, occurring between 0.3 and 0.9 seconds, contributing affect and emphasis rather than propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

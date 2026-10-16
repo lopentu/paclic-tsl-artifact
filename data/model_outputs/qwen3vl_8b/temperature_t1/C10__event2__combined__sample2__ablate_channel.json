@@ -1,0 +1,55 @@
+{
+  "clip_id": "C10",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1764170531,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:10:35.026359",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Index fingers extended, other fingers curled; hands form a 'cross' or 'X' shape with fingers pointing inward.\",\n        \"movement\": \"Hands move from an initial position near the chest inward and slightly upward, then move apart and down, ending with the index fingers pointing toward each other and slightly downward.\",\n        \"location\": \"Center of signer's chest, moving toward and away from the midline of the body.\",\n        \"nonmanual\": \"Signer's facial expression is neutral to slightly serious; no visible eyebrow movement or head tilt.\",\n        \"non_dominant_hand\": \"Non-dominant hand follows the movement of the dominant hand, maintaining the cross shape and synchronized motion.\",\n        \"temporal_alignment\": \"The action occurs within a continuous signing sequence, starting after a hand gesture near the head and ending before a new hand gesture begins.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are a conventionalized sign in TSL, representing a concept (likely 'good' or 'teacher' as part of the phrase '跟一位好的手語老師'). The action is not a depiction or indication but a lexical sign. The synchronized movement of both hands suggests emphasis or a grammatical marker.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Index fingers extended, other fingers curled; hands form a 'cross' or 'X' shape with fingers pointing inward.",
+          "movement": "Hands move from an initial position near the chest inward and slightly upward, then move apart and down, ending with the index fingers pointing toward each other and slightly downward.",
+          "location": "Center of signer's chest, moving toward and away from the midline of the body.",
+          "nonmanual": "Signer's facial expression is neutral to slightly serious; no visible eyebrow movement or head tilt.",
+          "non_dominant_hand": "Non-dominant hand follows the movement of the dominant hand, maintaining the cross shape and synchronized motion.",
+          "temporal_alignment": "The action occurs within a continuous signing sequence, starting after a hand gesture near the head and ending before a new hand gesture begins."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are a conventionalized sign in TSL, representing a concept (likely 'good' or 'teacher' as part of the phrase '跟一位好的手語老師'). The action is not a depiction or indication but a lexical sign. The synchronized movement of both hands suggests emphasis or a grammatical marker."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:34:32.122450",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's chin upward and slightly outward, then returns to near the chin\",\n        \"location\": \"near the signer's chin, moving upward and outward\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"index finger extended, other fingers curled, moving from near the chin upward and slightly outward, then returning to near the chin\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand's index finger moves upward and outward from the chin, a gesture that appears to emphasize or highlight the referent being discussed, which is consistent with pragmatic enrichment. The movement is not a conventionalized lexical sign but rather a gestural enhancement of the signed message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's chin upward and slightly outward, then returns to near the chin",
+          "location": "near the signer's chin, moving upward and outward",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "index finger extended, other fingers curled, moving from near the chin upward and slightly outward, then returning to near the chin",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand's index finger moves upward and outward from the chin, a gesture that appears to emphasize or highlight the referent being discussed, which is consistent with pragmatic enrichment. The movement is not a conventionalized lexical sign but rather a gestural enhancement of the signed message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

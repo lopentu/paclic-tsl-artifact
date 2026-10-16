@@ -1,0 +1,50 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C06_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:09:29.333787",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.7\",\n        \"channel_judged\": \"non_dominant_hand\",\n        \"form_description\": {\n          \"hands\": \"The dominant hand is a thumbs-up shape, stationary. The non-dominant hand is the focus.\",\n          \"handshape\": \"The non-dominant hand is an open handshape, with the palm facing forward and fingers together.\",\n          \"movement\": \"The non-dominant hand moves in a small, circular or back-and-forth motion in front of the dominant hand.\",\n          \"location\": \"The non-dominant hand is in front of the dominant hand, at chest level.\",\n          \"nonmanual\": \"The signer's facial expression is neutral and focused. The head is still.\",\n          \"non_dominant_hand\": \"The non-dominant hand performs the target action.\",\n          \"temporal_alignment\": \"The action occurs in the middle of a continuous signing sequence, sandwiched between two other manual signs.\"\n        },\n        \"semantic_syntactic_load\": 1,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 0,\n        \"indication\": 0,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The non-dominant hand's motion is distinct from the dominant hand's static thumbs-up, suggesting it adds emphasis. The motion is circular, which is a common way to add affect in sign language.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "The dominant hand is a thumbs-up shape, stationary. The non-dominant hand is the focus.",
+          "handshape": "The non-dominant hand is an open handshape, with the palm facing forward and fingers together.",
+          "movement": "The non-dominant hand moves in a small, circular or back-and-forth motion in front of the dominant hand.",
+          "location": "The non-dominant hand is in front of the dominant hand, at chest level.",
+          "nonmanual": "The signer's facial expression is neutral and focused. The head is still.",
+          "non_dominant_hand": "The non-dominant hand performs the target action.",
+          "temporal_alignment": "The action occurs in the middle of a continuous signing sequence, sandwiched between two other manual signs."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand's motion is distinct from the dominant hand's static thumbs-up, suggesting it adds emphasis. The motion is circular, which is a common way to add affect in sign language."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

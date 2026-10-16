@@ -1,0 +1,55 @@
+{
+  "clip_id": "C27",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1455780388,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:17:33.509230",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"hands clasped together in front of chest, fingers interlaced\",\n        \"handshape\": \"not clearly visible, but hands are clasped\",\n        \"movement\": \"head tilted slightly to the right, eyes looking slightly upward and to the right, mouth open with an expressive, earnest facial expression\",\n        \"location\": \"center of chest, facing forward\",\n        \"nonmanual\": \"intense facial expression: eyebrows furrowed, eyes wide, mouth open as if speaking with emphasis\",\n        \"non_dominant_hand\": \"not visible or not active\",\n        \"temporal_alignment\": \"the action begins with the hands clasped and the facial expression at 0.3s and holds for the duration of the clip\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands are clasped together over the chest, a gesture that visually represents willingness or sincerity. The intense facial expression (furrowed brow, open mouth) conveys earnestness and emotional investment, which strongly supports the pragmatic/affective enrichment score. The gesture and expression together indicate a commitment to the proposition, contributing to the syntactic structure of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "hands clasped together in front of chest, fingers interlaced",
+          "handshape": "not clearly visible, but hands are clasped",
+          "movement": "head tilted slightly to the right, eyes looking slightly upward and to the right, mouth open with an expressive, earnest facial expression",
+          "location": "center of chest, facing forward",
+          "nonmanual": "intense facial expression: eyebrows furrowed, eyes wide, mouth open as if speaking with emphasis",
+          "non_dominant_hand": "not visible or not active",
+          "temporal_alignment": "the action begins with the hands clasped and the facial expression at 0.3s and holds for the duration of the clip"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands are clasped together over the chest, a gesture that visually represents willingness or sincerity. The intense facial expression (furrowed brow, open mouth) conveys earnestness and emotional investment, which strongly supports the pragmatic/affective enrichment score. The gesture and expression together indicate a commitment to the proposition, contributing to the syntactic structure of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

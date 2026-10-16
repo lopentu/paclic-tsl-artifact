@@ -1,0 +1,55 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 85222264,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:13:42.935139",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: thumb and index finger extended, forming a 'C' shape or 'OK' gesture, palm facing inward\",\n        \"movement\": \"right hand moves from near the signer's chest to the right side of the face, then left hand moves from near the chest to the left side of the face, both hands moving outward and slightly upward, then both hands move inward and downward to meet near the chest\",\n        \"location\": \"initially near the chest, then moving outward to the sides of the face, then returning inward\",\n        \"nonmanual\": \"signer maintains a smiling facial expression\",\n        \"non_dominant_hand\": \"left hand moves to meet right hand near the chest\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the clip, following a previous sign and preceding the next one, and is part of a sequence of signs that together convey the meaning\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The action is a manual sign that appears to be a conventionalized lexical sign in TSL, contributing to the propositional content by indicating 'you' or 'you guys' (as the meaning is 'you will pass the exam without problem'). The signer's smiling expression and the outward movement of the hands add affective enrichment, conveying positivity and confidence.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: thumb and index finger extended, forming a 'C' shape or 'OK' gesture, palm facing inward",
+          "movement": "right hand moves from near the signer's chest to the right side of the face, then left hand moves from near the chest to the left side of the face, both hands moving outward and slightly upward, then both hands move inward and downward to meet near the chest",
+          "location": "initially near the chest, then moving outward to the sides of the face, then returning inward",
+          "nonmanual": "signer maintains a smiling facial expression",
+          "non_dominant_hand": "left hand moves to meet right hand near the chest",
+          "temporal_alignment": "the action occurs at the beginning of the clip, following a previous sign and preceding the next one, and is part of a sequence of signs that together convey the meaning"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The action is a manual sign that appears to be a conventionalized lexical sign in TSL, contributing to the propositional content by indicating 'you' or 'you guys' (as the meaning is 'you will pass the exam without problem'). The signer's smiling expression and the outward movement of the hands add affective enrichment, conveying positivity and confidence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

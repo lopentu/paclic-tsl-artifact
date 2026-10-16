@@ -1,0 +1,53 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "manual",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T12:18:06.737271",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"large sweeping motion from left to right across signer's torso, then downward\",\n        \"location\": \"begins near signer's left shoulder, moves across chest, ends near lower abdomen\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"resting at side, not involved\",\n        \"temporal_alignment\": \"starts with a preparatory hold, then executes a single continuous motion, followed by a brief pause before next sign\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The sweeping motion across the torso resembles a gesture of abundance or volume, aligning with '大量的練習' (large amount of practice). The movement is not a lexical sign but visually enacts the idea of 'large quantity' through spatial sweep and scale. The downward motion may imply 'practice' as something grounded or accumulating.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "large sweeping motion from left to right across signer's torso, then downward",
+          "location": "begins near signer's left shoulder, moves across chest, ends near lower abdomen",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "resting at side, not involved",
+          "temporal_alignment": "starts with a preparatory hold, then executes a single continuous motion, followed by a brief pause before next sign"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The sweeping motion across the torso resembles a gesture of abundance or volume, aligning with '大量的練習' (large amount of practice). The movement is not a lexical sign but visually enacts the idea of 'large quantity' through spatial sweep and scale. The downward motion may imply 'practice' as something grounded or accumulating."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

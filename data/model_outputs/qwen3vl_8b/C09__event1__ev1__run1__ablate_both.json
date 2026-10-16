@@ -1,0 +1,48 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:09:36.332880",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"right hand moves from chest outward and upward, then left hand follows in a similar motion, both hands moving in tandem toward the upper right\",\n        \"location\": \"starts near chest, moves to upper right\",\n        \"nonmanual\": \"mouth open, eyes wide, expressive facial expression\",\n        \"non_dominant_hand\": \"left hand follows right hand's motion\",\n        \"temporal_alignment\": \"begins with right hand moving from chest outward, left hand follows, spans the entire target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move from the chest outward and upward, a motion that visually represents an action of revealing or presenting something. The facial expression is highly expressive, suggesting emphasis or affect. The movement is coordinated and spans the entire target span, indicating it is a core part of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "right hand moves from chest outward and upward, then left hand follows in a similar motion, both hands moving in tandem toward the upper right",
+          "location": "starts near chest, moves to upper right",
+          "nonmanual": "mouth open, eyes wide, expressive facial expression",
+          "non_dominant_hand": "left hand follows right hand's motion",
+          "temporal_alignment": "begins with right hand moving from chest outward, left hand follows, spans the entire target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move from the chest outward and upward, a motion that visually represents an action of revealing or presenting something. The facial expression is highly expressive, suggesting emphasis or affect. The movement is coordinated and spans the entire target span, indicating it is a core part of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

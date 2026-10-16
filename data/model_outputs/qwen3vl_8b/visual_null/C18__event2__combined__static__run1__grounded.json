@@ -1,0 +1,53 @@
+{
+  "clip_id": "C18",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/static/C18_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:55:03.808238",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger held steady at lip level\",\n        \"location\": \"in front of mouth, centered\",\n        \"nonmanual\": \"mouth slightly open, eyes focused forward\",\n        \"non_dominant_hand\": \"at rest, not visible\",\n        \"temporal_alignment\": \"stands alone in a pause, preceded by a thumb-up gesture and followed by a continuation of signing\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The index finger held at the lip is a conventionalized sign in TSL for 'say' or 'speak', which is semantically essential for the clause '我準備乙證' (I prepared for the exam). The gesture is also pragmatically enriched, conveying a sense of emphasis or focus on the act of speaking or preparing to speak, which aligns with the context of preparing for an exam.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger held steady at lip level",
+          "location": "in front of mouth, centered",
+          "nonmanual": "mouth slightly open, eyes focused forward",
+          "non_dominant_hand": "at rest, not visible",
+          "temporal_alignment": "stands alone in a pause, preceded by a thumb-up gesture and followed by a continuation of signing"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The index finger held at the lip is a conventionalized sign in TSL for 'say' or 'speak', which is semantically essential for the clause '我準備乙證' (I prepared for the exam). The gesture is also pragmatically enriched, conveying a sense of emphasis or focus on the act of speaking or preparing to speak, which aligns with the context of preparing for an exam."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

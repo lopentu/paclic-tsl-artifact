@@ -1,0 +1,61 @@
+{
+  "clip_id": "C32",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C32_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:13:47.617978",
+  "backend_call_info": {
+    "frames_per_video": [
+      112,
+      12
+    ],
+    "sampled_fps_per_video": [
+      15.7589,
+      14.985
+    ],
+    "input_tokens": 13320,
+    "output_tokens": 306
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.50\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand extends forward with index finger, non-dominant hand clenched into fist at chest\",\n        \"handshape\": \"index finger extended, other fingers closed\",\n        \"movement\": \"dominant hand moves forward in a pointing gesture, then retracts slightly\",\n        \"location\": \"forward in front of the signer\",\n        \"nonmanual\": \"mouth moves as if speaking, head slightly forward\",\n        \"non_dominant_hand\": \"clenched fist at chest\",\n        \"temporal_alignment\": \"part of a longer sequence of gestures, occurring between other hand movements\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand's forward pointing motion and the non-dominant hand's position at the chest are visible in the 0.30-0.50 second range, consistent with a pointing gesture used for referential tracking or emphasis.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.50",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand extends forward with index finger, non-dominant hand clenched into fist at chest",
+          "handshape": "index finger extended, other fingers closed",
+          "movement": "dominant hand moves forward in a pointing gesture, then retracts slightly",
+          "location": "forward in front of the signer",
+          "nonmanual": "mouth moves as if speaking, head slightly forward",
+          "non_dominant_hand": "clenched fist at chest",
+          "temporal_alignment": "part of a longer sequence of gestures, occurring between other hand movements"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand's forward pointing motion and the non-dominant hand's position at the chest are visible in the 0.30-0.50 second range, consistent with a pointing gesture used for referential tracking or emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

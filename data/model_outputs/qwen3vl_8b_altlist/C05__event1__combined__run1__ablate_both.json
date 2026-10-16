@@ -1,0 +1,49 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C05_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:58:20.473731",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'C' shape, left hand forms a 'V' or 'hook' shape\",\n        \"movement\": \"right hand moves from the signer's right side toward the left, then both hands move inward and cross in front of the chest, then right hand moves outward and away from the body\",\n        \"location\": \"initially near the signer's right side, then crossing in front of the chest, then moving outward\",\n        \"nonmanual\": \"signer's eyes are open and focused forward\",\n        \"non_dominant_hand\": \"left hand remains relatively stable, forming a 'V' or 'hook' shape, while the right hand moves\",\n        \"temporal_alignment\": \"the action begins immediately after the signer's previous sign (covering the face) and is followed by a sign with both hands moving outward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move in a coordinated, cross-like motion, which is a conventionalized sign in TSL. The movement is not a simple point or gesture but an enacted action that shows a crossing or blocking motion, which contributes to the propositional content. The motion is also vivid and depictive, showing an action that could represent a barrier or a crossing of paths.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'C' shape, left hand forms a 'V' or 'hook' shape",
+          "movement": "right hand moves from the signer's right side toward the left, then both hands move inward and cross in front of the chest, then right hand moves outward and away from the body",
+          "location": "initially near the signer's right side, then crossing in front of the chest, then moving outward",
+          "nonmanual": "signer's eyes are open and focused forward",
+          "non_dominant_hand": "left hand remains relatively stable, forming a 'V' or 'hook' shape, while the right hand moves",
+          "temporal_alignment": "the action begins immediately after the signer's previous sign (covering the face) and is followed by a sign with both hands moving outward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move in a coordinated, cross-like motion, which is a conventionalized sign in TSL. The movement is not a simple point or gesture but an enacted action that shows a crossing or blocking motion, which contributes to the propositional content. The motion is also vivid and depictive, showing an action that could represent a barrier or a crossing of paths."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

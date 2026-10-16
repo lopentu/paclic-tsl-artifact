@@ -1,0 +1,53 @@
+{
+  "clip_id": "C08",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C08_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C08_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:06:47.364453",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"repeatedly moves in a small, quick, up-and-down motion near the signer's right cheek/temple area\",\n        \"location\": \"near the signer's right cheek/temple\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly focused\",\n        \"non_dominant_hand\": \"the non-dominant hand performs a rapid, repetitive up-and-down motion, as if tapping or gesturing near the temple\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, appearing after a broader gesture and before a subsequent hand movement\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement is rapid and repetitive, suggesting emphasis or a specific linguistic marker. The motion is localized near the temple, which may indicate a focus on the speaker's own thought process or a cognitive effort, aligning with the meaning 'quite a test of fluency in language conversion'. The action is not a lexical sign but adds emphasis and affect to the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "repeatedly moves in a small, quick, up-and-down motion near the signer's right cheek/temple area",
+          "location": "near the signer's right cheek/temple",
+          "nonmanual": "signer's facial expression is neutral to slightly focused",
+          "non_dominant_hand": "the non-dominant hand performs a rapid, repetitive up-and-down motion, as if tapping or gesturing near the temple",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, appearing after a broader gesture and before a subsequent hand movement"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement is rapid and repetitive, suggesting emphasis or a specific linguistic marker. The motion is localized near the temple, which may indicate a focus on the speaker's own thought process or a cognitive effort, aligning with the meaning 'quite a test of fluency in language conversion'. The action is not a lexical sign but adds emphasis and affect to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

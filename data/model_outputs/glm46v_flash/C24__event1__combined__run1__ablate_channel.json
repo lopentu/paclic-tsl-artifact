@@ -1,0 +1,61 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C24_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T19:51:36.090124",
+  "backend_call_info": {
+    "frames_per_video": [
+      88,
+      18
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      14.985
+    ],
+    "input_tokens": 11724,
+    "output_tokens": 338
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant and non-dominant hands\",\n        \"handshape\": \"dominant hand in a 'C' shape, non-dominant hand in a 'flat' or 'open' shape\",\n        \"movement\": \"dominant hand moves from near the mouth to forward and slightly downward, non-dominant hand moves from forward to near the dominant hand and then apart\",\n        \"location\": \"forward and slightly downward in front of the body\",\n        \"nonmanual\": \"mouth opens and closes, head slightly tilts\",\n        \"non_dominant_hand\": \"moves from forward to near the dominant hand and then apart\",\n        \"temporal_alignment\": \"part of a longer signing sequence, occurring between other hand movements\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The hand movement and nonmanual cues suggest a depiction of speaking or vocalization, which aligns with the meaning of '有部分口語者' (some oral speakers). The handshapes and movement are not conventional lexical signs but depictive gestures.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant and non-dominant hands",
+          "handshape": "dominant hand in a 'C' shape, non-dominant hand in a 'flat' or 'open' shape",
+          "movement": "dominant hand moves from near the mouth to forward and slightly downward, non-dominant hand moves from forward to near the dominant hand and then apart",
+          "location": "forward and slightly downward in front of the body",
+          "nonmanual": "mouth opens and closes, head slightly tilts",
+          "non_dominant_hand": "moves from forward to near the dominant hand and then apart",
+          "temporal_alignment": "part of a longer signing sequence, occurring between other hand movements"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The hand movement and nonmanual cues suggest a depiction of speaking or vocalization, which aligns with the meaning of '有部分口語者' (some oral speakers). The handshapes and movement are not conventional lexical signs but depictive gestures."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

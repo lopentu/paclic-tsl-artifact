@@ -1,0 +1,55 @@
+{
+  "clip_id": "C27",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1218570119,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:47:31.270302",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly curled\",\n        \"movement\": \"hands move inward from the sides toward the center of the chest, then remain still with slight tremor\",\n        \"location\": \"centered over the chest, near the heart\",\n        \"nonmanual\": \"signer's face shows intense emotion: eyes squeezed shut, brow furrowed, mouth open in a strained expression\",\n        \"non_dominant_hand\": \"not visible as separate from dominant hand motion\",\n        \"temporal_alignment\": \"the action begins at 0.3s, peaks at 0.4s, and ends at 0.6s, spanning a clear unit of signing that is preceded by gesturing and followed by a facial grimace\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands are positioned over the chest, a location associated with the heart and emotions, which corresponds to the propositional content about willingness to participate. The intense facial expression and the inward movement of the hands strongly convey affect and emphasize the speaker's earnest, perhaps even desperate, emotional state, which is central to the meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly curled",
+          "movement": "hands move inward from the sides toward the center of the chest, then remain still with slight tremor",
+          "location": "centered over the chest, near the heart",
+          "nonmanual": "signer's face shows intense emotion: eyes squeezed shut, brow furrowed, mouth open in a strained expression",
+          "non_dominant_hand": "not visible as separate from dominant hand motion",
+          "temporal_alignment": "the action begins at 0.3s, peaks at 0.4s, and ends at 0.6s, spanning a clear unit of signing that is preceded by gesturing and followed by a facial grimace"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands are positioned over the chest, a location associated with the heart and emotions, which corresponds to the propositional content about willingness to participate. The intense facial expression and the inward movement of the hands strongly convey affect and emphasize the speaker's earnest, perhaps even desperate, emotional state, which is central to the meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 52696741,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:46:53.515920",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's right cheek toward the mouth, then slightly downward and inward\",\n        \"location\": \"near the signer's right cheek and mouth\",\n        \"nonmanual\": \"mouth slightly open, eyes looking forward\",\n        \"non_dominant_hand\": \"resting on the signer's lap\",\n        \"temporal_alignment\": \"the action occurs within a single signed unit, framed by the preceding sign and the following manual gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement of the index finger resemble a conventional sign for 'want' or 'wish' in TSL, contributing to the propositional content of 'I would very much like to learn'. The facial expression and focused gaze add affective emphasis, reinforcing the speaker's desire.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's right cheek toward the mouth, then slightly downward and inward",
+          "location": "near the signer's right cheek and mouth",
+          "nonmanual": "mouth slightly open, eyes looking forward",
+          "non_dominant_hand": "resting on the signer's lap",
+          "temporal_alignment": "the action occurs within a single signed unit, framed by the preceding sign and the following manual gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement of the index finger resemble a conventional sign for 'want' or 'wish' in TSL, contributing to the propositional content of 'I would very much like to learn'. The facial expression and focused gaze add affective emphasis, reinforcing the speaker's desire."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

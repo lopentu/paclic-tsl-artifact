@@ -1,0 +1,55 @@
+{
+  "clip_id": "C25",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1489486298,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:47:00.129297",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'C' shape; left hand forms an open palm\",\n        \"movement\": \"right hand moves from the signer's right shoulder area toward the left shoulder area, then both hands move together to meet near the chest; right hand continues to move outward while left hand moves inward, then both hands move toward each other again, with the right hand's 'C' shape moving in a circular motion near the left hand's palm\",\n        \"location\": \"right hand starts near the right shoulder, moves to the left shoulder, then to the chest; left hand starts near the chest, moves to the right shoulder, then back to the chest\",\n        \"nonmanual\": \"signer's mouth is open, eyes are wide, and eyebrows are raised, conveying emphasis or surprise\",\n        \"non_dominant_hand\": \"left hand is active, moving in coordination with the right hand, but primarily serving as a framing or counterpoint to the right hand's motion\",\n        \"temporal_alignment\": \"the action begins at 0.3 seconds, immediately following a previous sign, and ends at 0.7 seconds, just before the signer begins a new sign with both hands pointing forward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The movement of the hands, especially the circular motion of the right hand, resembles a sign for 'contact' or 'touching', which aligns with the phrase '接觸到的' (contacted). The wide eyes and open mouth convey emphasis, matching the '多半是較現代' (mostly more modern) part of the meaning. The coordinated hand movements are a conventionalized sign, contributing to the lexical structure.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'C' shape; left hand forms an open palm",
+          "movement": "right hand moves from the signer's right shoulder area toward the left shoulder area, then both hands move together to meet near the chest; right hand continues to move outward while left hand moves inward, then both hands move toward each other again, with the right hand's 'C' shape moving in a circular motion near the left hand's palm",
+          "location": "right hand starts near the right shoulder, moves to the left shoulder, then to the chest; left hand starts near the chest, moves to the right shoulder, then back to the chest",
+          "nonmanual": "signer's mouth is open, eyes are wide, and eyebrows are raised, conveying emphasis or surprise",
+          "non_dominant_hand": "left hand is active, moving in coordination with the right hand, but primarily serving as a framing or counterpoint to the right hand's motion",
+          "temporal_alignment": "the action begins at 0.3 seconds, immediately following a previous sign, and ends at 0.7 seconds, just before the signer begins a new sign with both hands pointing forward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The movement of the hands, especially the circular motion of the right hand, resembles a sign for 'contact' or 'touching', which aligns with the phrase '接觸到的' (contacted). The wide eyes and open mouth convey emphasis, matching the '多半是較現代' (mostly more modern) part of the meaning. The coordinated hand movements are a conventionalized sign, contributing to the lexical structure."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

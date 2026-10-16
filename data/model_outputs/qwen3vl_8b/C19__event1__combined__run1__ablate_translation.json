@@ -1,0 +1,48 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:41:21.968327",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'thumbs-up' shape, left hand forms a 'flat hand' shape\",\n        \"movement\": \"right hand moves from the left side of the body to the right side, crossing over the left hand, then both hands move inward toward the center of the body\",\n        \"location\": \"initially at the signer's left side, then crossing to the right side, then moving inward toward the center of the body\",\n        \"nonmanual\": \"signer's face is neutral, mouth is slightly open\",\n        \"non_dominant_hand\": \"left hand remains relatively stationary, acting as a base or frame for the right hand's movement\",\n        \"temporal_alignment\": \"the action begins immediately after a previous sign and ends before the next sign, forming a distinct unit within the signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves a clear, conventionalized handshape (thumbs-up) and movement path that is typical of a lexical sign in TSL, indicating a specific semantic contribution. The movement is deliberate and coordinated, suggesting it is not merely affective or prosodic. The action is performed as a distinct unit within the signing sequence, indicating its syntactic role.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'thumbs-up' shape, left hand forms a 'flat hand' shape",
+          "movement": "right hand moves from the left side of the body to the right side, crossing over the left hand, then both hands move inward toward the center of the body",
+          "location": "initially at the signer's left side, then crossing to the right side, then moving inward toward the center of the body",
+          "nonmanual": "signer's face is neutral, mouth is slightly open",
+          "non_dominant_hand": "left hand remains relatively stationary, acting as a base or frame for the right hand's movement",
+          "temporal_alignment": "the action begins immediately after a previous sign and ends before the next sign, forming a distinct unit within the signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves a clear, conventionalized handshape (thumbs-up) and movement path that is typical of a lexical sign in TSL, indicating a specific semantic contribution. The movement is deliberate and coordinated, suggesting it is not merely affective or prosodic. The action is performed as a distinct unit within the signing sequence, indicating its syntactic role."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 2019572966,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:39:09.437008",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a 'thumbs-up' (index finger extended, thumb up). Left hand is open, palm facing inward, positioned near the right hand's thumb.\",\n        \"movement\": \"The right hand, holding the thumbs-up, moves forward and slightly downward in a small, deliberate arc while the left hand remains relatively stationary, serving as a spatial anchor.\",\n        \"location\": \"Both hands are positioned in front of the signer's chest, at midline, with the right hand moving slightly forward and down relative to the left hand.\",\n        \"nonmanual\": \"Signer's mouth is slightly open, indicating ongoing speech, and her eyes are focused forward.\",\n        \"non_dominant_hand\": \"The left hand remains mostly stationary, with the palm facing inward and fingers slightly spread, providing a stable reference point for the right hand's movement.\",\n        \"temporal_alignment\": \"The action occurs within a single sign, beginning at 0.3s and ending at 0.7s, and is temporally aligned with the surrounding signing, which involves the same hands forming a gestural unit.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand forms a 'thumbs-up' handshape, a conventionalized lexical sign in TSL that conveys approval or positive evaluation. The gesture is used to emphasize a point, as the signer's mouth is open and her eyes are focused forward, indicating an affective or pragmatic emphasis. The left hand's stationary position provides a spatial reference, which is characteristic of how lexical signs are anchored in space to convey meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a 'thumbs-up' (index finger extended, thumb up). Left hand is open, palm facing inward, positioned near the right hand's thumb.",
+          "movement": "The right hand, holding the thumbs-up, moves forward and slightly downward in a small, deliberate arc while the left hand remains relatively stationary, serving as a spatial anchor.",
+          "location": "Both hands are positioned in front of the signer's chest, at midline, with the right hand moving slightly forward and down relative to the left hand.",
+          "nonmanual": "Signer's mouth is slightly open, indicating ongoing speech, and her eyes are focused forward.",
+          "non_dominant_hand": "The left hand remains mostly stationary, with the palm facing inward and fingers slightly spread, providing a stable reference point for the right hand's movement.",
+          "temporal_alignment": "The action occurs within a single sign, beginning at 0.3s and ending at 0.7s, and is temporally aligned with the surrounding signing, which involves the same hands forming a gestural unit."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand forms a 'thumbs-up' handshape, a conventionalized lexical sign in TSL that conveys approval or positive evaluation. The gesture is used to emphasize a point, as the signer's mouth is open and her eyes are focused forward, indicating an affective or pragmatic emphasis. The left hand's stationary position provides a spatial reference, which is characteristic of how lexical signs are anchored in space to convey meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "face",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T12:13:21.211892",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression with mouth opening and closing, eyebrows raising and lowering, and head nodding slightly\",\n        \"location\": \"center of face, primarily involving mouth and eyebrows\",\n        \"nonmanual\": \"facial expression with mouth opening and closing, eyebrows raising and lowering, and head nodding slightly\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with signing of the phrase, likely marking emphasis or enumeration\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The facial expression includes mouth movements and eyebrow raises that appear to emphasize the enumeration of 'three stages' in the signed message. The expression is not static but dynamically modulated, suggesting grammatical or discourse function (D1=2). It also conveys affective emphasis and vividness (D2=2), likely to underscore the importance of passing all three stages.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression with mouth opening and closing, eyebrows raising and lowering, and head nodding slightly",
+          "location": "center of face, primarily involving mouth and eyebrows",
+          "nonmanual": "facial expression with mouth opening and closing, eyebrows raising and lowering, and head nodding slightly",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with signing of the phrase, likely marking emphasis or enumeration"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression includes mouth movements and eyebrow raises that appear to emphasize the enumeration of 'three stages' in the signed message. The expression is not static but dynamically modulated, suggesting grammatical or discourse function (D1=2). It also conveys affective emphasis and vividness (D2=2), likely to underscore the importance of passing all three stages."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

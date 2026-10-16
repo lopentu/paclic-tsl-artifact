@@ -1,0 +1,55 @@
+{
+  "clip_id": "C04",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S01EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 520170029,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:08:20.558060",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"repeatedly points forward, then moves slightly inward toward the signer's chest\",\n        \"location\": \"starts near the signer's chest, moves forward to the viewer's perspective, then inward\",\n        \"nonmanual\": \"neutral facial expression, no strong head or torso movement\",\n        \"non_dominant_hand\": \"resting, not actively involved\",\n        \"temporal_alignment\": \"the action spans from 0.3 to 1.0 seconds, beginning with a forward point and ending with a movement toward the chest\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand repeatedly points forward, a gesture that indicates direction and can signify 'you' or 'toward you' in TSL, aligning with the discourse about addressing the audience. The movement inward toward the chest at the end adds a sense of personalization or direct address, enhancing the affective and pragmatic force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "repeatedly points forward, then moves slightly inward toward the signer's chest",
+          "location": "starts near the signer's chest, moves forward to the viewer's perspective, then inward",
+          "nonmanual": "neutral facial expression, no strong head or torso movement",
+          "non_dominant_hand": "resting, not actively involved",
+          "temporal_alignment": "the action spans from 0.3 to 1.0 seconds, beginning with a forward point and ending with a movement toward the chest"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand repeatedly points forward, a gesture that indicates direction and can signify 'you' or 'toward you' in TSL, aligning with the discourse about addressing the audience. The movement inward toward the chest at the end adds a sense of personalization or direct address, enhancing the affective and pragmatic force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

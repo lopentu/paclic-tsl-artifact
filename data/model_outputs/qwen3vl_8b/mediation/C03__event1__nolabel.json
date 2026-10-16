@@ -1,0 +1,36 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "face",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S01EP05",
+  "source_run": "C03__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: facial expression changes from a grimace to a neutral expression\n- location: face\n- nonmanual: facial expression: eyes squinted, mouth puckered into a grimace, then relaxing\n- temporal alignment: the action occurs within a broader signing sequence, following a manual gesture and preceding a single finger sign",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:12:08.223697",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 0,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 2,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The facial expression change from grimace to neutral likely conveys affective contrast or emotional shift, enriching the pragmatic tone of the utterance. It may depict a change in attitude or reaction, aligning with the contrast implied in '聾老師和聽老師教學技巧不同'. While not contributing to propositional content, it vividly enacts the difference being described. The description is moderately conventionalized as a facial expression shift, and it depicts an emotional state rather than indicating a referent.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 0,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 0,
+    "depiction": 2,
+    "confidence": 0.95,
+    "reasoning": "The facial expression change from grimace to neutral likely conveys affective contrast or emotional shift, enriching the pragmatic tone of the utterance. It may depict a change in attitude or reaction, aligning with the contrast implied in '聾老師和聽老師教學技巧不同'. While not contributing to propositional content, it vividly enacts the difference being described. The description is moderately conventionalized as a facial expression shift, and it depicts an emotional state rather than indicating a referent."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

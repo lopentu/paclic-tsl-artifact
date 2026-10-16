@@ -1,0 +1,49 @@
+{
+  "clip_id": "C29",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C29_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:29:04.645817",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"pointing upward and slightly forward, then moving slightly side-to-side\",\n        \"location\": \"in front of the signer's chest, moving toward the upper right\",\n        \"nonmanual\": \"signer's head is tilted slightly upward, eyes looking upward\",\n        \"non_dominant_hand\": \"resting on the signer's chest\",\n        \"temporal_alignment\": \"the action begins with the signer extending the index finger upward and continues through the span, with slight movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's index finger is extended and pointing upward, a common handshape for indicating a high or abstract concept. The upward movement and gaze direction suggest the signer is referring to something above or beyond the immediate context. The slight side-to-side movement adds emphasis or indicates a range.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "pointing upward and slightly forward, then moving slightly side-to-side",
+          "location": "in front of the signer's chest, moving toward the upper right",
+          "nonmanual": "signer's head is tilted slightly upward, eyes looking upward",
+          "non_dominant_hand": "resting on the signer's chest",
+          "temporal_alignment": "the action begins with the signer extending the index finger upward and continues through the span, with slight movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's index finger is extended and pointing upward, a common handshape for indicating a high or abstract concept. The upward movement and gaze direction suggest the signer is referring to something above or beyond the immediate context. The slight side-to-side movement adds emphasis or indicates a range."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

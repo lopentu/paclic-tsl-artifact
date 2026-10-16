@@ -1,0 +1,48 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:39:20.244350",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Open palm, fingers slightly spread\",\n        \"movement\": \"The right hand (signer's dominant hand) moves in a small, repetitive circular motion, rotating clockwise around the left hand (signer's non-dominant hand), which remains relatively stationary. The motion is smooth and continuous.\",\n        \"location\": \"The hands are positioned at chest level, with the right hand moving around the left hand.\",\n        \"nonmanual\": \"The signer's mouth is open and moving, indicating speech or phonation accompanying the sign.\",\n        \"non_dominant_hand\": \"The left hand remains relatively stationary, serving as a pivot point for the right hand's movement.\",\n        \"temporal_alignment\": \"The action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence. It is preceded by a pointing gesture and followed by a separation of the hands.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The repetitive circular motion of the right hand around the left hand suggests a grammatical or lexical sign, likely indicating a concept like 'turning', 'repeating', or 'circular motion'. The movement is not a simple point or index, but a constructed action. The action is clearly part of a larger signing sequence, indicating it carries semantic content. The motion is smooth and deliberate, suggesting it is not merely affective but is a core part of the sign's form.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Open palm, fingers slightly spread",
+          "movement": "The right hand (signer's dominant hand) moves in a small, repetitive circular motion, rotating clockwise around the left hand (signer's non-dominant hand), which remains relatively stationary. The motion is smooth and continuous.",
+          "location": "The hands are positioned at chest level, with the right hand moving around the left hand.",
+          "nonmanual": "The signer's mouth is open and moving, indicating speech or phonation accompanying the sign.",
+          "non_dominant_hand": "The left hand remains relatively stationary, serving as a pivot point for the right hand's movement.",
+          "temporal_alignment": "The action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence. It is preceded by a pointing gesture and followed by a separation of the hands."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The repetitive circular motion of the right hand around the left hand suggests a grammatical or lexical sign, likely indicating a concept like 'turning', 'repeating', or 'circular motion'. The movement is not a simple point or index, but a constructed action. The action is clearly part of a larger signing sequence, indicating it carries semantic content. The motion is smooth and deliberate, suggesting it is not merely affective but is a core part of the sign's form."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

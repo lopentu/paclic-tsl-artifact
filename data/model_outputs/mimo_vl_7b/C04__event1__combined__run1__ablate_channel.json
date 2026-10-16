@@ -1,0 +1,50 @@
+{
+  "clip_id": "C04",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C04_window_model.mp4",
+  "video_id": "S01EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:26:41.609764",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"yes\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Right hand only.\",\n        \"handshape\": \"The hand is a pincer shape (thumb and index finger touching, other fingers extended).\",\n        \"movement\": \"The hand moves forward and slightly to the signer's right in a short, sharp, downward chopping motion.\",\n        \"location\": \"The movement originates from near the signer's right shoulder and ends in front of her chest.\",\n        \"nonmanual\": \"The left hand is held steady near the chest. The head is still. The eyes are looking forward.\",\n        \"non_dominant_hand\": \"The left hand is held stationary near the signer's chest, palm facing inward.\",\n        \"temporal_alignment\": \"The action is a single, quick movement that occurs at the beginning of the clip, seemingly starting a new phrase or clause.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The sharp, definitive movement suggests it is a lexical sign (a 'word') with grammatical force. The pincer handshape and chopping motion are conventional in TSL. The surrounding context is a discourse about teaching and culture, and this sign likely introduces a topic or a new clause about 'you all'.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "yes",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Right hand only.",
+          "handshape": "The hand is a pincer shape (thumb and index finger touching, other fingers extended).",
+          "movement": "The hand moves forward and slightly to the signer's right in a short, sharp, downward chopping motion.",
+          "location": "The movement originates from near the signer's right shoulder and ends in front of her chest.",
+          "nonmanual": "The left hand is held steady near the chest. The head is still. The eyes are looking forward.",
+          "non_dominant_hand": "The left hand is held stationary near the signer's chest, palm facing inward.",
+          "temporal_alignment": "The action is a single, quick movement that occurs at the beginning of the clip, seemingly starting a new phrase or clause."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The sharp, definitive movement suggests it is a lexical sign (a 'word') with grammatical force. The pincer handshape and chopping motion are conventional in TSL. The surrounding context is a discourse about teaching and culture, and this sign likely introduces a topic or a new clause about 'you all'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

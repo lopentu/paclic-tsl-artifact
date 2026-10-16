@@ -1,0 +1,49 @@
+{
+  "clip_id": "C07",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C07_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:43:21.154590",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'thumbs-up' gesture; left hand forms a 'thumbs-down' gesture\",\n        \"movement\": \"right hand moves from a neutral position to a thumbs-up, then holds; left hand moves from a neutral position to a thumbs-down, then holds\",\n        \"location\": \"right hand positioned near the signer's right chest; left hand positioned near the signer's left chest\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly smiling\",\n        \"non_dominant_hand\": \"left hand holds the thumbs-down gesture\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture of surprise and preceding a gesture of agreement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The contrasting handshapes (thumbs-up and thumbs-down) are a conventionalized lexical sign in TSL, representing opposing concepts like 'good' and 'bad' or 'approve' and 'disapprove'. The simultaneous use of both gestures, with the right hand (dominant) showing approval and the left hand (non-dominant) showing disapproval, clearly contributes to the propositional content of the sentence, which discusses teachers arranging internships for deaf assistants. The action also adds pragmatic enrichment by visually contrasting the two opposing perspectives, making the message more vivid and emphatic.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'thumbs-up' gesture; left hand forms a 'thumbs-down' gesture",
+          "movement": "right hand moves from a neutral position to a thumbs-up, then holds; left hand moves from a neutral position to a thumbs-down, then holds",
+          "location": "right hand positioned near the signer's right chest; left hand positioned near the signer's left chest",
+          "nonmanual": "signer's facial expression is neutral to slightly smiling",
+          "non_dominant_hand": "left hand holds the thumbs-down gesture",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture of surprise and preceding a gesture of agreement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The contrasting handshapes (thumbs-up and thumbs-down) are a conventionalized lexical sign in TSL, representing opposing concepts like 'good' and 'bad' or 'approve' and 'disapprove'. The simultaneous use of both gestures, with the right hand (dominant) showing approval and the left hand (non-dominant) showing disapproval, clearly contributes to the propositional content of the sentence, which discusses teachers arranging internships for deaf assistants. The action also adds pragmatic enrichment by visually contrasting the two opposing perspectives, making the message more vivid and emphatic."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

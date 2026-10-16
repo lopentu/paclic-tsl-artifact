@@ -1,0 +1,61 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C38_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T21:49:20.189857",
+  "backend_call_info": {
+    "frames_per_video": [
+      56,
+      24
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.984
+    ],
+    "input_tokens": 7871,
+    "output_tokens": 285
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:01\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Flat/open\",\n        \"movement\": \"Slightly moving forward and inward\",\n        \"location\": \"In front of the chest\",\n        \"nonmanual\": \"Neutral\",\n        \"non_dominant_hand\": \"Flat/open, moving slightly forward and inward\",\n        \"temporal_alignment\": \"Part of a sequence of movements\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand is flat and moves slightly forward and inward near the chest area during this segment.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:01",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Flat/open",
+          "movement": "Slightly moving forward and inward",
+          "location": "In front of the chest",
+          "nonmanual": "Neutral",
+          "non_dominant_hand": "Flat/open, moving slightly forward and inward",
+          "temporal_alignment": "Part of a sequence of movements"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand is flat and moves slightly forward and inward near the chest area during this segment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

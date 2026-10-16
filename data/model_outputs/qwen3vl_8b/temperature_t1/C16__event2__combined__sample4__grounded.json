@@ -1,0 +1,55 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 44629849,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:57:50.434129",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open hand, fingers slightly curled\",\n        \"movement\": \"moves upward from the signer's right side toward the face, then curls inward toward the eye area\",\n        \"location\": \"begins near the signer's right side, moves to the right eye\",\n        \"nonmanual\": \"eyes look forward, mouth slightly open\",\n        \"non_dominant_hand\": \"resting, not visible\",\n        \"temporal_alignment\": \"starts after the signer has finished a previous sign and before the next one begins\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand moves toward the eye, which visually enacts the concept of 'looking' or 'checking' something, aligning with the self-reflective content about noticing one's own expression. The movement is not a lexical sign but adds affective emphasis and vividness to the discourse.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open hand, fingers slightly curled",
+          "movement": "moves upward from the signer's right side toward the face, then curls inward toward the eye area",
+          "location": "begins near the signer's right side, moves to the right eye",
+          "nonmanual": "eyes look forward, mouth slightly open",
+          "non_dominant_hand": "resting, not visible",
+          "temporal_alignment": "starts after the signer has finished a previous sign and before the next one begins"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hand moves toward the eye, which visually enacts the concept of 'looking' or 'checking' something, aligning with the self-reflective content about noticing one's own expression. The movement is not a lexical sign but adds affective emphasis and vividness to the discourse."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

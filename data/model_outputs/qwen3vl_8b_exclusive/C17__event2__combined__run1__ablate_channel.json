@@ -1,0 +1,49 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:06:35.177321",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb extended upward, fingers curled\",\n        \"movement\": \"maintains static position\",\n        \"location\": \"in front of chest, at midline\",\n        \"nonmanual\": \"face remains neutral with pursed lips\",\n        \"non_dominant_hand\": \"resting at side, not visible\",\n        \"temporal_alignment\": \"follows a prior hand movement and precedes a downward hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The static thumb-up gesture is a conventionalized lexical sign in TSL for 'good' or 'excellent', directly contributing to the meaning 'this course is great'. The gesture is held steady, indicating a positive evaluation, which adds affective emphasis to the propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb extended upward, fingers curled",
+          "movement": "maintains static position",
+          "location": "in front of chest, at midline",
+          "nonmanual": "face remains neutral with pursed lips",
+          "non_dominant_hand": "resting at side, not visible",
+          "temporal_alignment": "follows a prior hand movement and precedes a downward hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The static thumb-up gesture is a conventionalized lexical sign in TSL for 'good' or 'excellent', directly contributing to the meaning 'this course is great'. The gesture is held steady, indicating a positive evaluation, which adds affective emphasis to the propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

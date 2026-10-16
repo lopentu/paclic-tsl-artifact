@@ -1,0 +1,49 @@
+{
+  "clip_id": "C27",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C27_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:06:50.557093",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"both hands held in a cupped or open shape, positioned over the chest\",\n        \"handshape\": \"not clearly visible, but hands are open and cupped\",\n        \"movement\": \"minimal movement; hands remain relatively still over the chest\",\n        \"location\": \"centered over the chest, at the level of the heart\",\n        \"nonmanual\": \"face shows strong affect: eyes squinted, mouth open in an expression of pain or distress\",\n        \"non_dominant_hand\": \"not visible or not active\",\n        \"temporal_alignment\": \"this action occurs within a longer sequence of signing that includes a facial expression of pain and a hand gesture over the chest, suggesting it is part of a single expressive unit\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's hands are held over the chest in a gesture that is commonly used to indicate physical pain or emotional distress. The facial expression of pain, combined with the hand position, strongly conveys the affective state of the signer. The action is not a conventionalized lexical sign but rather a depictive or affective gesture that is integral to the meaning of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "both hands held in a cupped or open shape, positioned over the chest",
+          "handshape": "not clearly visible, but hands are open and cupped",
+          "movement": "minimal movement; hands remain relatively still over the chest",
+          "location": "centered over the chest, at the level of the heart",
+          "nonmanual": "face shows strong affect: eyes squinted, mouth open in an expression of pain or distress",
+          "non_dominant_hand": "not visible or not active",
+          "temporal_alignment": "this action occurs within a longer sequence of signing that includes a facial expression of pain and a hand gesture over the chest, suggesting it is part of a single expressive unit"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's hands are held over the chest in a gesture that is commonly used to indicate physical pain or emotional distress. The facial expression of pain, combined with the hand position, strongly conveys the affective state of the signer. The action is not a conventionalized lexical sign but rather a depictive or affective gesture that is integral to the meaning of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

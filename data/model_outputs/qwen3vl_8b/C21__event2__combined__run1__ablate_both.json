@@ -1,0 +1,48 @@
+{
+  "clip_id": "C21",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:23:59.583560",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"both hands form a 'shaka' or 'hang loose' sign, with thumb and pinky extended and other fingers curled\",\n        \"movement\": \"hands move from a position near the chest outward and slightly downward, then remain relatively stable\",\n        \"location\": \"centered in front of the signer's chest, at approximately chest height\",\n        \"nonmanual\": \"signer's mouth is open and lips are pursed, indicating an emphatic or expressive facial expression\",\n        \"non_dominant_hand\": \"not visible as a separate entity; both hands are used symmetrically\",\n        \"temporal_alignment\": \"the action begins at 0.3s and holds through 0.7s, occurring within a continuous signing stretch that includes other hand movements\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands form a conventionalized 'shaka' sign, a common lexical sign in TSL that can convey positive sentiment or a specific concept. The signer's facial expression (pursed lips) and the stable, held position of the hands suggest an emphatic or affective contribution, enhancing the meaning or emotional tone of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "both hands form a 'shaka' or 'hang loose' sign, with thumb and pinky extended and other fingers curled",
+          "movement": "hands move from a position near the chest outward and slightly downward, then remain relatively stable",
+          "location": "centered in front of the signer's chest, at approximately chest height",
+          "nonmanual": "signer's mouth is open and lips are pursed, indicating an emphatic or expressive facial expression",
+          "non_dominant_hand": "not visible as a separate entity; both hands are used symmetrically",
+          "temporal_alignment": "the action begins at 0.3s and holds through 0.7s, occurring within a continuous signing stretch that includes other hand movements"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands form a conventionalized 'shaka' sign, a common lexical sign in TSL that can convey positive sentiment or a specific concept. The signer's facial expression (pursed lips) and the stable, held position of the hands suggest an emphatic or affective contribution, enhancing the meaning or emotional tone of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

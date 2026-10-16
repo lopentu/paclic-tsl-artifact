@@ -1,0 +1,48 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:03:44.916563",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers extended\",\n        \"movement\": \"both hands move from the signer's chest outward and upward, then inward and downward in a smooth arc, as if framing or enclosing something\",\n        \"location\": \"starts near the signer's chest, moves outward and upward, then returns inward and downward\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"non-dominant hand moves in coordination with the dominant hand, mirroring its motion\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.5s, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move in a coordinated, enclosing motion that visually frames the concept of 'you' or 'the group' mentioned in the target meaning. The movement is not a simple lexical sign but a depictive gesture that adds emphasis and vividness to the message, suggesting a sense of encompassing or securing the outcome for the addressee.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers extended",
+          "movement": "both hands move from the signer's chest outward and upward, then inward and downward in a smooth arc, as if framing or enclosing something",
+          "location": "starts near the signer's chest, moves outward and upward, then returns inward and downward",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "non-dominant hand moves in coordination with the dominant hand, mirroring its motion",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.5s, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move in a coordinated, enclosing motion that visually frames the concept of 'you' or 'the group' mentioned in the target meaning. The movement is not a simple lexical sign but a depictive gesture that adds emphasis and vividness to the message, suggesting a sense of encompassing or securing the outcome for the addressee."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

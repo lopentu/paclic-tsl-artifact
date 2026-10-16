@@ -1,0 +1,61 @@
+{
+  "clip_id": "C24",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C24_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:30:31.392089",
+  "backend_call_info": {
+    "frames_per_video": [
+      88,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.984
+    ],
+    "input_tokens": 11409,
+    "output_tokens": 284
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.50\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"closed fist\",\n        \"movement\": \"moves from near the mouth/chest area outward and slightly upward\",\n        \"location\": \"in front of the signer's torso, starting at chest level and moving forward and upward\",\n        \"nonmanual\": \"mouth opens and closes, head tilts slightly\",\n        \"non_dominant_hand\": \"rests on the table\",\n        \"temporal_alignment\": \"occurs within a longer sequence of signing, starting after a clapping motion and ending before a new handshape\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The hand moves from a closed fist near the mouth to forward and upward, with accompanying mouth opening and head tilt, indicating a lexical sign with emphasis.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.50",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "closed fist",
+          "movement": "moves from near the mouth/chest area outward and slightly upward",
+          "location": "in front of the signer's torso, starting at chest level and moving forward and upward",
+          "nonmanual": "mouth opens and closes, head tilts slightly",
+          "non_dominant_hand": "rests on the table",
+          "temporal_alignment": "occurs within a longer sequence of signing, starting after a clapping motion and ending before a new handshape"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The hand moves from a closed fist near the mouth to forward and upward, with accompanying mouth opening and head tilt, indicating a lexical sign with emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

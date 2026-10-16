@@ -1,0 +1,48 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:43:46.725184",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from chin to mouth, then remains steady\",\n        \"location\": \"near the signer's mouth, moving from chin to lips\",\n        \"nonmanual\": \"signer's eyes look forward, mouth slightly open\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action begins after a gesture to the chest and ends before a fist gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The index finger gesture near the mouth is a conventionalized lexical sign in TSL, likely indicating 'say' or 'talk', contributing to the propositional content. The steady hold and facial expression add emphasis and affect, making the action more vivid and intentional.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from chin to mouth, then remains steady",
+          "location": "near the signer's mouth, moving from chin to lips",
+          "nonmanual": "signer's eyes look forward, mouth slightly open",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action begins after a gesture to the chest and ends before a fist gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The index finger gesture near the mouth is a conventionalized lexical sign in TSL, likely indicating 'say' or 'talk', contributing to the propositional content. The steady hold and facial expression add emphasis and affect, making the action more vivid and intentional."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

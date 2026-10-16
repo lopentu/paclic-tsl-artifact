@@ -1,0 +1,55 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 584363505,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:58:06.236137",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"dominant hand forms a flat, open palm; non-dominant hand forms a flat, open palm\",\n        \"movement\": \"dominant hand moves downward in a smooth arc from above the non-dominant hand, then makes contact and briefly presses down, as if placing something or emphasizing a point\",\n        \"location\": \"both hands start near chest level, with dominant hand moving down and forward to make contact with non-dominant hand, then both hands move slightly inward toward the center of the chest\",\n        \"nonmanual\": \"signer's face is neutral, mouth slightly pursed, no significant head or torso movement\",\n        \"non_dominant_hand\": \"held steady, palm up, serving as a receptive surface for the dominant hand's motion\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a hand gesture near the head and preceding a hand gesture toward the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement is a conventionalized lexical sign in TSL, likely representing an action like 'place' or 'put' (which contributes to the semantic load). The downward motion and contact with the other hand provide a depictive and affective emphasis, making the action more vivid and indicating a specific point of contact or focus.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "dominant hand forms a flat, open palm; non-dominant hand forms a flat, open palm",
+          "movement": "dominant hand moves downward in a smooth arc from above the non-dominant hand, then makes contact and briefly presses down, as if placing something or emphasizing a point",
+          "location": "both hands start near chest level, with dominant hand moving down and forward to make contact with non-dominant hand, then both hands move slightly inward toward the center of the chest",
+          "nonmanual": "signer's face is neutral, mouth slightly pursed, no significant head or torso movement",
+          "non_dominant_hand": "held steady, palm up, serving as a receptive surface for the dominant hand's motion",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a hand gesture near the head and preceding a hand gesture toward the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement is a conventionalized lexical sign in TSL, likely representing an action like 'place' or 'put' (which contributes to the semantic load). The downward motion and contact with the other hand provide a depictive and affective emphasis, making the action more vivid and indicating a specific point of contact or focus."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

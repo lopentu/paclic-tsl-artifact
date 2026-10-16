@@ -1,0 +1,56 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C16_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:48:37.294405",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand (right) and dominant hand (left); non-dominant hand is extended with index finger pointing forward, dominant hand is in a fist near the mouth\",\n        \"handshape\": \"non-dominant hand: index finger extended, other fingers closed; dominant hand: fist\",\n        \"movement\": \"non-dominant hand moves forward and slightly downward, dominant hand remains near the mouth\",\n        \"location\": \"non-dominant hand is in front of the signer, at chest level\",\n        \"nonmanual\": \"mouth is open, possibly speaking\",\n        \"non_dominant_hand\": \"moves forward and slightly downward\",\n        \"temporal_alignment\": \"part of a longer signing sequence, occurring between other signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand's forward movement and index finger extension at 0.3-0.7 seconds aligns with the meaning of 'knowing' or 'realizing' in the context, while the dominant hand near the mouth suggests speaking or emphasis, contributing to the affective and pragmatic aspects.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "non-dominant hand (right) and dominant hand (left); non-dominant hand is extended with index finger pointing forward, dominant hand is in a fist near the mouth",
+          "handshape": "non-dominant hand: index finger extended, other fingers closed; dominant hand: fist",
+          "movement": "non-dominant hand moves forward and slightly downward, dominant hand remains near the mouth",
+          "location": "non-dominant hand is in front of the signer, at chest level",
+          "nonmanual": "mouth is open, possibly speaking",
+          "non_dominant_hand": "moves forward and slightly downward",
+          "temporal_alignment": "part of a longer signing sequence, occurring between other signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand's forward movement and index finger extension at 0.3-0.7 seconds aligns with the meaning of 'knowing' or 'realizing' in the context, while the dominant hand near the mouth suggests speaking or emphasis, contributing to the affective and pragmatic aspects."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

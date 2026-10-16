@@ -1,0 +1,56 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C35_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T02:08:02.727542",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand moves from forward to near face, then to forehead\",\n        \"handshape\": \"open palm, then closed fist\",\n        \"movement\": \"forward then upward and outward\",\n        \"location\": \"from chest forward to forehead\",\n        \"nonmanual\": \"facial expression shifts from neutral to slightly concerned\",\n        \"non_dominant_hand\": \"starts with open palm, closes into fist, moves upward\",\n        \"temporal_alignment\": \"part of a longer sign sequence, occurring between two distinct manual signs\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand moves from forward to near the face and then to the forehead, with a closed fist, indicating a gesture related to 'police' or 'authority' in the context of the sentence about them not using sign language.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand moves from forward to near face, then to forehead",
+          "handshape": "open palm, then closed fist",
+          "movement": "forward then upward and outward",
+          "location": "from chest forward to forehead",
+          "nonmanual": "facial expression shifts from neutral to slightly concerned",
+          "non_dominant_hand": "starts with open palm, closes into fist, moves upward",
+          "temporal_alignment": "part of a longer sign sequence, occurring between two distinct manual signs"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand moves from forward to near the face and then to the forehead, with a closed fist, indicating a gesture related to 'police' or 'authority' in the context of the sentence about them not using sign language."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

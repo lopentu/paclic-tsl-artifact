@@ -1,0 +1,69 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C19",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP11",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 0.8000000000000114
+  },
+  "video_from": {
+    "clip_id": "C19",
+    "event_id": "event2",
+    "video_id": "S01EP11",
+    "target_channel": "manual",
+    "duration": 1.1000000000000227
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.8000000000000114,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C19_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C19_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:53:03.622867",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's chin, sweeps outward and slightly upward, then moves forward and downward in a smooth arc\",\n        \"location\": \"starts near the chin, moves to the right side of the signer's face, then forward and downward\",\n        \"nonmanual\": \"signer's mouth is open and moving, eyes are focused forward\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action begins immediately after a brief pause and is followed by a more complex hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL that conveys 'believe' or 'trust'. The movement from the chin outward and downward suggests an act of affirming or asserting belief. The action is clearly part of the grammatical structure of the sentence, as it precedes the main clause. The movement also has a strong depictive quality, enacting the act of believing or trusting.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's chin, sweeps outward and slightly upward, then moves forward and downward in a smooth arc",
+          "location": "starts near the chin, moves to the right side of the signer's face, then forward and downward",
+          "nonmanual": "signer's mouth is open and moving, eyes are focused forward",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action begins immediately after a brief pause and is followed by a more complex hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL that conveys 'believe' or 'trust'. The movement from the chin outward and downward suggests an act of affirming or asserting belief. The action is clearly part of the grammatical structure of the sentence, as it precedes the main clause. The movement also has a strong depictive quality, enacting the act of believing or trusting."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

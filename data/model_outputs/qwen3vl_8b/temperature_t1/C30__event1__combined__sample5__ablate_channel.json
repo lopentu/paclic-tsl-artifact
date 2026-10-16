@@ -1,0 +1,55 @@
+{
+  "clip_id": "C30",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 143595661,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:17:30.964310",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"pointing upward and slightly forward, then retracting\",\n        \"location\": \"right side of signer's body (signer's left side from viewer's perspective)\",\n        \"nonmanual\": \"head tilted slightly forward, mouth slightly open\",\n        \"non_dominant_hand\": \"resting on chest\",\n        \"temporal_alignment\": \"occurs within a continuous signing sequence, immediately after a preparatory gesture and before a subsequent descriptive gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer points upward with an extended index finger, a gesture that in TSL often indicates a specific point in time or a high-level concept, aligning with the narrative of preparing for an exam. The gesture is clearly lexical and grammatical, contributing to the event structure of 'at that time'. The upward direction adds emphasis and vividness, making the temporal reference more distinct.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "pointing upward and slightly forward, then retracting",
+          "location": "right side of signer's body (signer's left side from viewer's perspective)",
+          "nonmanual": "head tilted slightly forward, mouth slightly open",
+          "non_dominant_hand": "resting on chest",
+          "temporal_alignment": "occurs within a continuous signing sequence, immediately after a preparatory gesture and before a subsequent descriptive gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer points upward with an extended index finger, a gesture that in TSL often indicates a specific point in time or a high-level concept, aligning with the narrative of preparing for an exam. The gesture is clearly lexical and grammatical, contributing to the event structure of 'at that time'. The upward direction adds emphasis and vividness, making the temporal reference more distinct."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

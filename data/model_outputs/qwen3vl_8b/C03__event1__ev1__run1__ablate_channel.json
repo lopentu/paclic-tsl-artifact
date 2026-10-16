@@ -1,0 +1,48 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:46:54.173151",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"both fists move upward from the chest level to the level of the eyes, then both hands move downward and outward, ending with open palms facing forward\",\n        \"location\": \"starts near chest, moves to eye level, then down and outward\",\n        \"nonmanual\": \"face shows a grimace or strained expression\",\n        \"non_dominant_hand\": \"moves in sync with the dominant hand\",\n        \"temporal_alignment\": \"the action begins with the fists near the chest and ends with open palms facing forward, occurring within the target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The fists moving upward to the eyes and then down and outward is a conventionalized sign in TSL that conveys 'different' or 'contrast'. The grimace on the face adds affective emphasis to the contrast. The movement is not a depiction of a specific object or action, but rather a gestural contrast marker.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "both fists move upward from the chest level to the level of the eyes, then both hands move downward and outward, ending with open palms facing forward",
+          "location": "starts near chest, moves to eye level, then down and outward",
+          "nonmanual": "face shows a grimace or strained expression",
+          "non_dominant_hand": "moves in sync with the dominant hand",
+          "temporal_alignment": "the action begins with the fists near the chest and ends with open palms facing forward, occurring within the target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The fists moving upward to the eyes and then down and outward is a conventionalized sign in TSL that conveys 'different' or 'contrast'. The grimace on the face adds affective emphasis to the contrast. The movement is not a depiction of a specific object or action, but rather a gestural contrast marker."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

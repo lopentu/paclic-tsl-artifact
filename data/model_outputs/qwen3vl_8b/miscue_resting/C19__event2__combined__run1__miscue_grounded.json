@@ -1,0 +1,56 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C19_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:36:32.175984",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's chin, outward and slightly upward, then sweeps forward and downward in a smooth arc\",\n        \"location\": \"begins near the chin, moves to the right side of the face, then sweeps forward and downward\",\n        \"nonmanual\": \"signer's mouth is open and moving, eyes are focused forward\",\n        \"non_dominant_hand\": \"the non-dominant hand performs a sweeping motion from the chin outward and downward\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.8s, occurring within a larger signing sequence that includes a forward arm movement and a clapping motion\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL, likely indicating a concept like 'to go' or 'to move forward', which contributes to the propositional content. The sweeping motion adds emphasis and a sense of forward momentum, enhancing the affective and depictive force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's chin, outward and slightly upward, then sweeps forward and downward in a smooth arc",
+          "location": "begins near the chin, moves to the right side of the face, then sweeps forward and downward",
+          "nonmanual": "signer's mouth is open and moving, eyes are focused forward",
+          "non_dominant_hand": "the non-dominant hand performs a sweeping motion from the chin outward and downward",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.8s, occurring within a larger signing sequence that includes a forward arm movement and a clapping motion"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL, likely indicating a concept like 'to go' or 'to move forward', which contributes to the propositional content. The sweeping motion adds emphasis and a sense of forward momentum, enhancing the affective and depictive force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

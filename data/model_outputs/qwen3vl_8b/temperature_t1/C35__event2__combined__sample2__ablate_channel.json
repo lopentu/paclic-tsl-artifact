@@ -1,0 +1,55 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 576424633,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:20:02.387642",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves from lower face toward forehead, then sweeps downward and outward\",\n        \"location\": \"begins near the nose, moves to the forehead, then down to the side of the face\",\n        \"nonmanual\": \"eyes widen, mouth opens slightly\",\n        \"non_dominant_hand\": \"held steady, index finger extended upward\",\n        \"temporal_alignment\": \"occurs within a larger sign sequence that begins with a pointing gesture and ends with a hand movement near the face\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement resemble the sign for 'face' or 'expression' in TSL, contributing to the propositional content about the other party's behavior. The facial expression and movement path add affective enrichment, conveying surprise or emphasis about the unpredictability of the situation.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves from lower face toward forehead, then sweeps downward and outward",
+          "location": "begins near the nose, moves to the forehead, then down to the side of the face",
+          "nonmanual": "eyes widen, mouth opens slightly",
+          "non_dominant_hand": "held steady, index finger extended upward",
+          "temporal_alignment": "occurs within a larger sign sequence that begins with a pointing gesture and ends with a hand movement near the face"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement resemble the sign for 'face' or 'expression' in TSL, contributing to the propositional content about the other party's behavior. The facial expression and movement path add affective enrichment, conveying surprise or emphasis about the unpredictability of the situation."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

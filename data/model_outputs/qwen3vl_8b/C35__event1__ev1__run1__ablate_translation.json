@@ -1,0 +1,48 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S04-3EP05",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:56:33.216586",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"repeatedly taps or points forward, then moves slightly inward toward the chest\",\n        \"location\": \"in front of the signer's chest, moving forward and inward\",\n        \"nonmanual\": \"smiling, head tilted slightly forward\",\n        \"non_dominant_hand\": \"resting near the chest, not moving\",\n        \"temporal_alignment\": \"starts with a tap, continues with repeated tapping and inward movement, ending with a final tap\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The repeated tapping motion with the index finger is a conventionalized sign in TSL that typically indicates a specific action or object. The movement inward toward the chest and the smiling facial expression add affective and depictive force, suggesting emphasis or a personal connection to the content being signed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "repeatedly taps or points forward, then moves slightly inward toward the chest",
+          "location": "in front of the signer's chest, moving forward and inward",
+          "nonmanual": "smiling, head tilted slightly forward",
+          "non_dominant_hand": "resting near the chest, not moving",
+          "temporal_alignment": "starts with a tap, continues with repeated tapping and inward movement, ending with a final tap"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The repeated tapping motion with the index finger is a conventionalized sign in TSL that typically indicates a specific action or object. The movement inward toward the chest and the smiling facial expression add affective and depictive force, suggesting emphasis or a personal connection to the content being signed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,50 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:14:59.577189",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.8\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"The dominant right hand is used. The non-dominant left hand is held steady near the signer's lower chest.\",\n          \"handshape\": \"The hand is a 'C' shape, with the thumb and index finger forming a C, and the other three fingers curled in.\",\n          \"movement\": \"The hand moves from a position near the signer's right cheek, forward and down in a short, sharp chopping motion.\",\n          \"location\": \"The action starts at the signer's right cheek and moves to the center of the chest.\",\n          \"nonmanual\": \"The signer's facial expression is serious and focused. The eyebrows are slightly raised and the mouth is slightly open.\",\n          \"non_dominant_hand\": \"The non-dominant left hand is held still, palm facing inward, near the left side of the chest.\",\n          \"temporal_alignment\": \"The action is a single, distinct sign that occurs in the middle of a continuous signing sequence, following a downward motion and preceding a clapping motion.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The handshape and motion are a conventional TSL sign. The facial expression (serious, focused) adds affective load. The sign is a single unit within a larger discourse.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant right hand is used. The non-dominant left hand is held steady near the signer's lower chest.",
+          "handshape": "The hand is a 'C' shape, with the thumb and index finger forming a C, and the other three fingers curled in.",
+          "movement": "The hand moves from a position near the signer's right cheek, forward and down in a short, sharp chopping motion.",
+          "location": "The action starts at the signer's right cheek and moves to the center of the chest.",
+          "nonmanual": "The signer's facial expression is serious and focused. The eyebrows are slightly raised and the mouth is slightly open.",
+          "non_dominant_hand": "The non-dominant left hand is held still, palm facing inward, near the left side of the chest.",
+          "temporal_alignment": "The action is a single, distinct sign that occurs in the middle of a continuous signing sequence, following a downward motion and preceding a clapping motion."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and motion are a conventional TSL sign. The facial expression (serious, focused) adds affective load. The sign is a single unit within a larger discourse."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

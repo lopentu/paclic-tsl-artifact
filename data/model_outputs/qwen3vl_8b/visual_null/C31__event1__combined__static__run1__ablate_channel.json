@@ -1,0 +1,53 @@
+{
+  "clip_id": "C31",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/static/C31_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C31_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:52:15.631647",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"fist\",\n        \"movement\": \"held steady, slightly raised\",\n        \"location\": \"right side of signer's body, near shoulder level\",\n        \"nonmanual\": \"signer's face shows a slight smile and raised eyebrows\",\n        \"non_dominant_hand\": \"resting on lap\",\n        \"temporal_alignment\": \"the action occurs during a sustained signing unit, not a single isolated sign\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's dominant hand is held in a fist shape, raised slightly, which is a conventionalized sign in TSL for 'thinking' or 'overthinking'. The sustained hold and accompanying facial expression (smile, raised eyebrows) convey a sense of lightheartedness or mild exasperation, aligning with the meaning '想太多實在是不好！' (overthinking is really not good!). The action is not a simple gesture but a lexical sign with affective enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "fist",
+          "movement": "held steady, slightly raised",
+          "location": "right side of signer's body, near shoulder level",
+          "nonmanual": "signer's face shows a slight smile and raised eyebrows",
+          "non_dominant_hand": "resting on lap",
+          "temporal_alignment": "the action occurs during a sustained signing unit, not a single isolated sign"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's dominant hand is held in a fist shape, raised slightly, which is a conventionalized sign in TSL for 'thinking' or 'overthinking'. The sustained hold and accompanying facial expression (smile, raised eyebrows) convey a sense of lightheartedness or mild exasperation, aligning with the meaning '想太多實在是不好！' (overthinking is really not good!). The action is not a simple gesture but a lexical sign with affective enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

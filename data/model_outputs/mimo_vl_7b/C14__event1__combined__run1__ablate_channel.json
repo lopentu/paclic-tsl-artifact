@@ -1,0 +1,50 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C14_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:30:11.375137",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"2.3\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are used. The dominant (right) hand is in front, and the non-dominant (left) hand is behind it.\",\n          \"handshape\": \"Both hands have an open shape with the thumb and index finger nearly touching, forming a pincer or 'O' shape.\",\n          \"movement\": \"The dominant (right) hand moves in a downward and slightly forward path. The non-dominant (left) hand moves in a similar, slightly less pronounced path, following the dominant hand.\",\n          \"location\": \"The action starts in the upper chest/shoulder area and moves down towards the lower chest.\",\n          \"nonmanual\": \"The eyebrows are slightly raised. The mouth is open as if speaking or signing.\",\n          \"non_dominant_hand\": \"The non-dominant hand is not static; it actively participates in the movement, mirroring the dominant hand's path.\",\n          \"temporal_alignment\": \"The action is a continuous, flowing movement that appears to be part of a larger sign, starting from a previous hand configuration and leading into the next.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The coordinated, flowing movement of both hands suggests a conventional sign (description). The downward motion could be indicating a process or location (indication). The overall smoothness and integration with facial expression give it a depictive quality, as if showing something being lowered or a process unfolding (depiction). The action is clearly a core part of the message, not just an embellishment (D1=2). The facial expression and the quality of the movement add emphasis and a sense of process (D2=2).\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "2.3",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used. The dominant (right) hand is in front, and the non-dominant (left) hand is behind it.",
+          "handshape": "Both hands have an open shape with the thumb and index finger nearly touching, forming a pincer or 'O' shape.",
+          "movement": "The dominant (right) hand moves in a downward and slightly forward path. The non-dominant (left) hand moves in a similar, slightly less pronounced path, following the dominant hand.",
+          "location": "The action starts in the upper chest/shoulder area and moves down towards the lower chest.",
+          "nonmanual": "The eyebrows are slightly raised. The mouth is open as if speaking or signing.",
+          "non_dominant_hand": "The non-dominant hand is not static; it actively participates in the movement, mirroring the dominant hand's path.",
+          "temporal_alignment": "The action is a continuous, flowing movement that appears to be part of a larger sign, starting from a previous hand configuration and leading into the next."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The coordinated, flowing movement of both hands suggests a conventional sign (description). The downward motion could be indicating a process or location (indication). The overall smoothness and integration with facial expression give it a depictive quality, as if showing something being lowered or a process unfolding (depiction). The action is clearly a core part of the message, not just an embellishment (D1=2). The facial expression and the quality of the movement add emphasis and a sense of process (D2=2)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

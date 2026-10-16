@@ -1,0 +1,56 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "face",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C37_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T02:10:23.296752",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand is extended with fingers slightly curved, palm facing forward; dominant hand is held near the chest with fingers closed\",\n        \"handshape\": \"non-dominant hand: open with slight curl; dominant hand: closed fist\",\n        \"movement\": \"non-dominant hand moves forward and slightly downward in a sweeping motion, while dominant hand remains relatively still\",\n        \"location\": \"non-dominant hand moves from chest level forward and downward, while dominant hand stays near the chest\",\n        \"nonmanual\": \"face shows neutral expression, eyes slightly closed\",\n        \"non_dominant_hand\": \"moves forward and downward in a sweeping gesture\",\n        \"temporal_alignment\": \"occurs within a longer sequence of signing, starting after an initial pointing gesture and continuing through a series of hand movements\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand sweeps forward and downward, depicting the action of 'communicating' in a visual manner, while the dominant hand remains near the chest, supporting the overall meaning of the sentence.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand is extended with fingers slightly curved, palm facing forward; dominant hand is held near the chest with fingers closed",
+          "handshape": "non-dominant hand: open with slight curl; dominant hand: closed fist",
+          "movement": "non-dominant hand moves forward and slightly downward in a sweeping motion, while dominant hand remains relatively still",
+          "location": "non-dominant hand moves from chest level forward and downward, while dominant hand stays near the chest",
+          "nonmanual": "face shows neutral expression, eyes slightly closed",
+          "non_dominant_hand": "moves forward and downward in a sweeping gesture",
+          "temporal_alignment": "occurs within a longer sequence of signing, starting after an initial pointing gesture and continuing through a series of hand movements"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand sweeps forward and downward, depicting the action of 'communicating' in a visual manner, while the dominant hand remains near the chest, supporting the overall meaning of the sentence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

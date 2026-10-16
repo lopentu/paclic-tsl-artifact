@@ -1,0 +1,55 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 762853599,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:16:12.061334",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled (pointing gesture). Left hand: open palm, fingers spread, facing upward.\",\n        \"movement\": \"Right hand moves from near the signer's chin toward the viewer's left (signer's right) in a forward-pointing motion. Left hand remains relatively stable, palm up, in a receptive or presenting posture.\",\n        \"location\": \"Right hand moves forward and slightly outward (signer's right). Left hand remains near the signer's chest, slightly lower than the right hand.\",\n        \"nonmanual\": \"Signer's mouth opens wide and eyes close at 1.2s, but this occurs after the target span and is not part of the target action.\",\n        \"non_dominant_hand\": \"Left hand remains in a static, open-palm position, providing a stable base or contrast to the dynamic right-hand gesture.\",\n        \"temporal_alignment\": \"The action begins with a pointing gesture from the right hand and ends with the right hand fully extended toward the viewer's left (signer's right) as the left hand opens into a receptive posture.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand's extended index finger points forward and to the side, indicating a specific entity or location relevant to the discourse. The left hand's open palm, held steady, creates a contrast that emphasizes the directionality and focus of the pointing gesture, enhancing its affective force and making the action more vivid.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand: index finger extended, other fingers curled (pointing gesture). Left hand: open palm, fingers spread, facing upward.",
+          "movement": "Right hand moves from near the signer's chin toward the viewer's left (signer's right) in a forward-pointing motion. Left hand remains relatively stable, palm up, in a receptive or presenting posture.",
+          "location": "Right hand moves forward and slightly outward (signer's right). Left hand remains near the signer's chest, slightly lower than the right hand.",
+          "nonmanual": "Signer's mouth opens wide and eyes close at 1.2s, but this occurs after the target span and is not part of the target action.",
+          "non_dominant_hand": "Left hand remains in a static, open-palm position, providing a stable base or contrast to the dynamic right-hand gesture.",
+          "temporal_alignment": "The action begins with a pointing gesture from the right hand and ends with the right hand fully extended toward the viewer's left (signer's right) as the left hand opens into a receptive posture."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand's extended index finger points forward and to the side, indicating a specific entity or location relevant to the discourse. The left hand's open palm, held steady, creates a contrast that emphasizes the directionality and focus of the pointing gesture, enhancing its affective force and making the action more vivid."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,54 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_c/C17_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:08:04.130159",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a flat, open palm; left hand forms a flat, open palm\",\n        \"movement\": \"right hand moves downward in a smooth arc, as if placing or dropping something onto the left hand, which remains relatively stationary\",\n        \"location\": \"both hands are in front of the signer's chest, at midline\",\n        \"nonmanual\": \"signer's face is neutral, mouth slightly pursed\",\n        \"non_dominant_hand\": \"left hand is stationary, palm up, serving as a receptive surface\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture near the head and preceding a gesture of clasping hands\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves both hands, with the right hand moving downward onto the left, which is a conventionalized lexical sign in TSL for 'put' or 'place'. The movement is smooth and deliberate, contributing to the propositional content of the utterance. The gesture is not purely depictive or affective, but it adds a sense of emphasis or completion to the action being described.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a flat, open palm; left hand forms a flat, open palm",
+          "movement": "right hand moves downward in a smooth arc, as if placing or dropping something onto the left hand, which remains relatively stationary",
+          "location": "both hands are in front of the signer's chest, at midline",
+          "nonmanual": "signer's face is neutral, mouth slightly pursed",
+          "non_dominant_hand": "left hand is stationary, palm up, serving as a receptive surface",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture near the head and preceding a gesture of clasping hands"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves both hands, with the right hand moving downward onto the left, which is a conventionalized lexical sign in TSL for 'put' or 'place'. The movement is smooth and deliberate, contributing to the propositional content of the utterance. The gesture is not purely depictive or affective, but it adds a sense of emphasis or completion to the action being described."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

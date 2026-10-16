@@ -1,0 +1,50 @@
+{
+  "clip_id": "C21",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:44:59.126932",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.7\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are used.\",\n          \"handshape\": \"The dominant hand (on the viewer's right) is a 'C' shape. The non-dominant hand (on the viewer's left) is a 'P' shape, with the thumb and index finger extended and other fingers curled.\",\n          \"movement\": \"The dominant hand moves from the signer's right side, across the chest towards the center, and then slightly down. The non-dominant hand moves from the signer's left side, across the chest towards the center, and then slightly down, mirroring the dominant hand's path.\",\n          \"location\": \"The hands are in front of the signer's torso, moving from the sides towards the center.\",\n          \"nonmanual\": \"The signer's head is tilted slightly to her right. Her mouth is open as if speaking or signing.\",\n          \"non_dominant_hand\": \"The non-dominant hand is active, mirroring the dominant hand.\",\n          \"temporal_alignment\": \"The action is a single, continuous movement that bridges the gap between two other manual signs. It starts as a continuation of a sign ending around 0.0 and flows into the next sign starting around 0.8.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two-handed, symmetrical movement is a clear grammatical marker in TSL, likely indicating a 'conjunction' or 'addition'. The movement itself, moving from the sides to the center, visually represents the combination of two ideas. The facial expression is neutral, focusing on the grammatical function.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "The dominant hand (on the viewer's right) is a 'C' shape. The non-dominant hand (on the viewer's left) is a 'P' shape, with the thumb and index finger extended and other fingers curled.",
+          "movement": "The dominant hand moves from the signer's right side, across the chest towards the center, and then slightly down. The non-dominant hand moves from the signer's left side, across the chest towards the center, and then slightly down, mirroring the dominant hand's path.",
+          "location": "The hands are in front of the signer's torso, moving from the sides towards the center.",
+          "nonmanual": "The signer's head is tilted slightly to her right. Her mouth is open as if speaking or signing.",
+          "non_dominant_hand": "The non-dominant hand is active, mirroring the dominant hand.",
+          "temporal_alignment": "The action is a single, continuous movement that bridges the gap between two other manual signs. It starts as a continuation of a sign ending around 0.0 and flows into the next sign starting around 0.8."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed, symmetrical movement is a clear grammatical marker in TSL, likely indicating a 'conjunction' or 'addition'. The movement itself, moving from the sides to the center, visually represents the combination of two ideas. The facial expression is neutral, focusing on the grammatical function."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

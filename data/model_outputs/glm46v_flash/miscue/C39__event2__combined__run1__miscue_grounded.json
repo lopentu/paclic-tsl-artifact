@@ -1,0 +1,56 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "face",
+  "target_channel_cued": "manual",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C39_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:33:49.058635",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"1.30\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand forms a fist, non-dominant hand extends with open palm\",\n        \"handshape\": \"dominant: closed fist; non-dominant: open palm\",\n        \"movement\": \"dominant hand moves forward and slightly downward, non-dominant hand moves forward and slightly upward, both hands move in a synchronized, parallel motion\",\n        \"location\": \"dominant hand at chest level, non-dominant hand at lower chest/abdomen level, both hands moving forward from signer's body\",\n        \"nonmanual\": \"mouth forms a pout or pursed lips, eyes are narrowed\",\n        \"non_dominant_hand\": \"extends forward with open palm, moves in sync with dominant hand\",\n        \"temporal_alignment\": \"occurs between two distinct signs, spanning from 0.30s to 1.30s\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The synchronized movement of a closed fist and open palm from chest to forward, combined with pursed lips and narrowed eyes, indicates a strong depiction of self-reliance and determination, contributing to the overall meaning of 'I can stand on my own even without hearing sound'.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "1.30",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand forms a fist, non-dominant hand extends with open palm",
+          "handshape": "dominant: closed fist; non-dominant: open palm",
+          "movement": "dominant hand moves forward and slightly downward, non-dominant hand moves forward and slightly upward, both hands move in a synchronized, parallel motion",
+          "location": "dominant hand at chest level, non-dominant hand at lower chest/abdomen level, both hands moving forward from signer's body",
+          "nonmanual": "mouth forms a pout or pursed lips, eyes are narrowed",
+          "non_dominant_hand": "extends forward with open palm, moves in sync with dominant hand",
+          "temporal_alignment": "occurs between two distinct signs, spanning from 0.30s to 1.30s"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The synchronized movement of a closed fist and open palm from chest to forward, combined with pursed lips and narrowed eyes, indicates a strong depiction of self-reliance and determination, contributing to the overall meaning of 'I can stand on my own even without hearing sound'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 410005490,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:35:28.050652",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not active\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"not applicable\",\n        \"location\": \"not applicable\",\n        \"nonmanual\": \"mouth pursed, lips pushed forward, cheeks slightly puffed\",\n        \"non_dominant_hand\": \"not visible or not active\",\n        \"temporal_alignment\": \"occurs during the signing of 'they' and 'cannot', visually emphasizing the difficulty or impossibility being described\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The pursed lips and puffed cheeks create a facial expression that visually reinforces the idea of inability or difficulty, aligning with the phrase 'they cannot sign' in the given meaning. This expression is not a conventional sign but adds affective emphasis to the grammatical content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not active",
+          "handshape": "not applicable",
+          "movement": "not applicable",
+          "location": "not applicable",
+          "nonmanual": "mouth pursed, lips pushed forward, cheeks slightly puffed",
+          "non_dominant_hand": "not visible or not active",
+          "temporal_alignment": "occurs during the signing of 'they' and 'cannot', visually emphasizing the difficulty or impossibility being described"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The pursed lips and puffed cheeks create a facial expression that visually reinforces the idea of inability or difficulty, aligning with the phrase 'they cannot sign' in the given meaning. This expression is not a conventional sign but adds affective emphasis to the grammatical content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

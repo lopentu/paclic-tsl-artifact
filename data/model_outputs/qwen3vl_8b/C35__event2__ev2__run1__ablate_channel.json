@@ -1,0 +1,48 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:18:35.741687",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"right hand raised, index finger extended, moving from near the mouth to the forehead; left hand remains raised with index finger extended\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"right hand moves upward from near the mouth to the forehead, then remains there; left hand remains stationary\",\n        \"location\": \"right hand moves from near the mouth to the forehead; left hand remains near the right shoulder\",\n        \"nonmanual\": \"eyes look upward, eyebrows raised, mouth slightly open\",\n        \"non_dominant_hand\": \"left hand remains raised with index finger extended\",\n        \"temporal_alignment\": \"the action begins with the right hand moving from near the mouth to the forehead, and ends with the right hand resting on the forehead\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand moves from near the mouth to the forehead, a gesture that visually represents the concept of 'thinking' or 'considering', which is semantically relevant to the meaning 'because the other party or police may not know sign language'. The facial expression (eyes looking up, eyebrows raised) adds affective emphasis, suggesting uncertainty or contemplation, which enriches the pragmatic force of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "right hand raised, index finger extended, moving from near the mouth to the forehead; left hand remains raised with index finger extended",
+          "handshape": "index finger extended",
+          "movement": "right hand moves upward from near the mouth to the forehead, then remains there; left hand remains stationary",
+          "location": "right hand moves from near the mouth to the forehead; left hand remains near the right shoulder",
+          "nonmanual": "eyes look upward, eyebrows raised, mouth slightly open",
+          "non_dominant_hand": "left hand remains raised with index finger extended",
+          "temporal_alignment": "the action begins with the right hand moving from near the mouth to the forehead, and ends with the right hand resting on the forehead"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand moves from near the mouth to the forehead, a gesture that visually represents the concept of 'thinking' or 'considering', which is semantically relevant to the meaning 'because the other party or police may not know sign language'. The facial expression (eyes looking up, eyebrows raised) adds affective emphasis, suggesting uncertainty or contemplation, which enriches the pragmatic force of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

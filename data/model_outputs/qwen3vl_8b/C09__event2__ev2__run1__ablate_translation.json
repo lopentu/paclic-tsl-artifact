@@ -1,0 +1,48 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:31:51.728731",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"both index fingers extend and move upward and slightly outward, then both hands move inward toward the chest\",\n        \"location\": \"initially near the chest, then moving outward and upward\",\n        \"nonmanual\": \"head tilted slightly upward, eyes looking upward\",\n        \"non_dominant_hand\": \"non-dominant hand moves inward toward the chest as the dominant hand moves outward\",\n        \"temporal_alignment\": \"starts after a hand gesture near the chest, and ends before a hand gesture near the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The upward movement of the index fingers and the upward gaze suggest an emphasis or a directional marker. The movement toward the chest at the end suggests a return to the topic or a conclusion. The action is a conventionalized sign, not a simple point, and the handshape and movement are specific to TSL.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "both index fingers extend and move upward and slightly outward, then both hands move inward toward the chest",
+          "location": "initially near the chest, then moving outward and upward",
+          "nonmanual": "head tilted slightly upward, eyes looking upward",
+          "non_dominant_hand": "non-dominant hand moves inward toward the chest as the dominant hand moves outward",
+          "temporal_alignment": "starts after a hand gesture near the chest, and ends before a hand gesture near the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The upward movement of the index fingers and the upward gaze suggest an emphasis or a directional marker. The movement toward the chest at the end suggests a return to the topic or a conclusion. The action is a conventionalized sign, not a simple point, and the handshape and movement are specific to TSL."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

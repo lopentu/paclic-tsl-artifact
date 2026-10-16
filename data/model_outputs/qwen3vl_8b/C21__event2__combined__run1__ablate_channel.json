@@ -1,0 +1,50 @@
+{
+  "clip_id": "C21",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:49:31.973846",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both\",\n        \"handshape\": \"both hands form a \"shaka\" or \"hang loose\" gesture, with thumb and pinky extended, index, middle, and ring fingers folded\",\n        \"movement\": \"hands move from a position near the chest outward and slightly downward, then hold steady\",\n        \"location\": \"centered in front of the signer's chest, at approximately chest height\",\n        \"nonmanual\": \"signer's mouth is open and lips are pursed, indicating emphasis or a specific tone\",\n        \"non_dominant_hand\": \"non-dominant hand (right hand) is in the same gesture as the dominant hand (left hand)\",\n        \"temporal_alignment\": \"the gesture begins at 0.3s and holds through 0.7s, coinciding with the peak of the utterance in the surrounding context\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The gesture is a conventionalized sign in TSL that conveys 'a lot' or 'many' (often used with 'practice' or 'resources' in context). The hands are held steady in the gesture, which is a strong, iconic form. The pursed lips and focused gaze add affective emphasis, reinforcing the idea of abundance or intensity. The gesture is central to the meaning of the phrase '大量的練習' (a lot of practice).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both",
+          "handshape": "both hands form a \"shaka\" or \"hang loose\" gesture, with thumb and pinky extended, index, middle, and ring fingers folded",
+          "movement": "hands move from a position near the chest outward and slightly downward, then hold steady",
+          "location": "centered in front of the signer's chest, at approximately chest height",
+          "nonmanual": "signer's mouth is open and lips are pursed, indicating emphasis or a specific tone",
+          "non_dominant_hand": "non-dominant hand (right hand) is in the same gesture as the dominant hand (left hand)",
+          "temporal_alignment": "the gesture begins at 0.3s and holds through 0.7s, coinciding with the peak of the utterance in the surrounding context"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The gesture is a conventionalized sign in TSL that conveys 'a lot' or 'many' (often used with 'practice' or 'resources' in context). The hands are held steady in the gesture, which is a strong, iconic form. The pursed lips and focused gaze add affective emphasis, reinforcing the idea of abundance or intensity. The gesture is central to the meaning of the phrase '大量的練習' (a lot of practice)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": [],
+  "manually_repaired": true,
+  "manual_repair_note": "Model raw_text had unescaped literal quotes inside form_description.handshape (around \"shaka\"/\"hang loose\"), breaking JSON parsing. raw_text is preserved unchanged as the original model output; parsed/schema_valid here reflect a manual fix that only escapes those 4 quote marks -- no wording or content was changed. A deterministic re-run (07b --overwrite) reproduced the identical broken output, confirming this is not decoding noise. See the project design log 2026-07-29."
+}

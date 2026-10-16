@@ -1,0 +1,55 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1439931751,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:28:15.689697",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a flat, open palm facing up; left hand forms a flat, open palm facing up\",\n        \"movement\": \"right hand moves downward in a smooth arc from above the left hand toward the left palm, then both hands come together in a clasping motion\",\n        \"location\": \"both hands start near the signer's upper chest and move downward to the mid-chest area\",\n        \"nonmanual\": \"signer's facial expression remains neutral with lips slightly pursed throughout\",\n        \"non_dominant_hand\": \"left hand remains relatively stationary as the right hand moves toward it\",\n        \"temporal_alignment\": \"the action begins immediately after the signer's prior gesture (at 0.0) and is followed by a gesture of affirmation (at 0.7)\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The movement of the right hand toward the left palm and their subsequent clasping is a conventionalized sign for 'good' or 'excellent' in TSL, contributing to the core meaning 'this course is great'. The neutral facial expression provides no additional affective emphasis.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a flat, open palm facing up; left hand forms a flat, open palm facing up",
+          "movement": "right hand moves downward in a smooth arc from above the left hand toward the left palm, then both hands come together in a clasping motion",
+          "location": "both hands start near the signer's upper chest and move downward to the mid-chest area",
+          "nonmanual": "signer's facial expression remains neutral with lips slightly pursed throughout",
+          "non_dominant_hand": "left hand remains relatively stationary as the right hand moves toward it",
+          "temporal_alignment": "the action begins immediately after the signer's prior gesture (at 0.0) and is followed by a gesture of affirmation (at 0.7)"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The movement of the right hand toward the left palm and their subsequent clasping is a conventionalized sign for 'good' or 'excellent' in TSL, contributing to the core meaning 'this course is great'. The neutral facial expression provides no additional affective emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,36 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "manual",
+  "label_channel_sent": "face",
+  "label_is_correct": false,
+  "video_id": "S01EP11",
+  "source_run": "C19__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: right hand forms a 'thumbs-up' shape, left hand forms a 'flat hand' shape\n- movement: right hand moves from the left side of the body to the right side, crossing over the left hand, then both hands move inward toward the chest\n- location: starts near the signer's left side, moves across the chest to the right side, then both hands come together in front of the chest\n- nonmanual: signer's face is neutral, mouth is slightly open\n- non dominant hand: left hand remains relatively stationary, acting as a base or anchor for the right hand's movement\n- temporal alignment: the action begins immediately after the signer makes a 'clapping' motion and ends just before she begins to move her hands downward",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:24:02.301893",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 0,\n  \"pragmatic_depictive_affective_enrichment\": 2,\n  \"description\": 1,\n  \"indication\": 0,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The action is a gestural sequence with a thumbs-up and hand movement toward the chest, which may convey affirmation or encouragement, aligning with the utterance's meaning about believing in students taking a test. However, it does not carry core semantic or syntactic content. The facial neutrality and slight mouth opening suggest no strong affective emphasis, but the movement does depict an act of affirmation. The gesture is somewhat conventionalized (description score 1) but not primarily for indicating or pointing.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 0,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The action is a gestural sequence with a thumbs-up and hand movement toward the chest, which may convey affirmation or encouragement, aligning with the utterance's meaning about believing in students taking a test. However, it does not carry core semantic or syntactic content. The facial neutrality and slight mouth opening suggest no strong affective emphasis, but the movement does depict an act of affirmation. The gesture is somewhat conventionalized (description score 1) but not primarily for indicating or pointing."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

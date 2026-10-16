@@ -1,0 +1,55 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 24303263,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:04:12.620366",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fingers curled inward, thumbs pointing inward, forming a compact, rounded shape\",\n        \"movement\": \"both hands move inward toward the chest, then outward again in a small, repetitive motion, as if squeezing or pulsing\",\n        \"location\": \"centered at the chest level, moving slightly inward and outward\",\n        \"nonmanual\": \"signer's face is set with a focused, slightly furrowed brow and pursed lips, conveying intensity or emphasis\",\n        \"non_dominant_hand\": \"non-dominant hand mirrors the dominant hand's movement\",\n        \"temporal_alignment\": \"the action occurs within a broader signing sequence that includes gestures of questioning and hypothetical scenarios, suggesting it marks a key moment of emphasis or conceptual framing\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move in a compact, inward-outward motion near the chest, which is a conventionalized sign in TSL for concepts like 'considering', 'thinking about', or 'imagining' (e.g., '想過' - 'thought about'). The accompanying facial expression reinforces the conceptual nature. The movement's repetition and central location suggest it is structurally significant, marking the hypothetical scenario being introduced.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fingers curled inward, thumbs pointing inward, forming a compact, rounded shape",
+          "movement": "both hands move inward toward the chest, then outward again in a small, repetitive motion, as if squeezing or pulsing",
+          "location": "centered at the chest level, moving slightly inward and outward",
+          "nonmanual": "signer's face is set with a focused, slightly furrowed brow and pursed lips, conveying intensity or emphasis",
+          "non_dominant_hand": "non-dominant hand mirrors the dominant hand's movement",
+          "temporal_alignment": "the action occurs within a broader signing sequence that includes gestures of questioning and hypothetical scenarios, suggesting it marks a key moment of emphasis or conceptual framing"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move in a compact, inward-outward motion near the chest, which is a conventionalized sign in TSL for concepts like 'considering', 'thinking about', or 'imagining' (e.g., '想過' - 'thought about'). The accompanying facial expression reinforces the conceptual nature. The movement's repetition and central location suggest it is structurally significant, marking the hypothetical scenario being introduced."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

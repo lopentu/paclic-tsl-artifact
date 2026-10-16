@@ -1,0 +1,55 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 573569249,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:04:24.070238",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"no significant movement; head and facial expression remain relatively static\",\n        \"location\": \"face and head centered in frame\",\n        \"nonmanual\": \"eyes slightly narrowed, mouth slightly open, and a focused, serious expression\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs at the beginning of the signing, immediately after the signer's initial posture and before the first manual sign (which begins at 0.5s).\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's facial expression is serious and focused, which aligns with the context of describing a dangerous situation. The static expression at the start sets a tone of gravity, which is a pragmatic/affective enrichment. The expression does not appear to encode a specific lexical or grammatical meaning, but it is not purely prosodic either.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "no significant movement; head and facial expression remain relatively static",
+          "location": "face and head centered in frame",
+          "nonmanual": "eyes slightly narrowed, mouth slightly open, and a focused, serious expression",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs at the beginning of the signing, immediately after the signer's initial posture and before the first manual sign (which begins at 0.5s)."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's facial expression is serious and focused, which aligns with the context of describing a dangerous situation. The static expression at the start sets a tone of gravity, which is a pragmatic/affective enrichment. The expression does not appear to encode a specific lexical or grammatical meaning, but it is not purely prosodic either."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

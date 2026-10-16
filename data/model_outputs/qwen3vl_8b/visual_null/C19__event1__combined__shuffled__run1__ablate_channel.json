@@ -1,0 +1,53 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C19_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:02:44.176095",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'thumbs-up' shape, left hand forms a 'flat hand' shape\",\n        \"movement\": \"right hand remains relatively static in a thumbs-up position, while the left hand moves in a small circular motion around the right hand's thumb, as if indicating a point or a location\",\n        \"location\": \"centered in front of the signer's chest, at chest height\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly earnest, with direct eye contact\",\n        \"non_dominant_hand\": \"left hand is actively moving, while the right hand is static\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence that includes repeated hand movements\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The repeated circular motion of the left hand around the right hand's thumb visually emphasizes the concept of 'certainty' or 'confirmation' in the phrase '我相信' (I believe). The static 'thumbs-up' handshape serves as a conventionalized lexical sign for 'good' or 'correct', which is essential to the meaning. The action is not merely descriptive but also indicates a point of focus (the thumb) and enacts the idea of 'confirming' or 'validating' something.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'thumbs-up' shape, left hand forms a 'flat hand' shape",
+          "movement": "right hand remains relatively static in a thumbs-up position, while the left hand moves in a small circular motion around the right hand's thumb, as if indicating a point or a location",
+          "location": "centered in front of the signer's chest, at chest height",
+          "nonmanual": "signer's facial expression is neutral to slightly earnest, with direct eye contact",
+          "non_dominant_hand": "left hand is actively moving, while the right hand is static",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence that includes repeated hand movements"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The repeated circular motion of the left hand around the right hand's thumb visually emphasizes the concept of 'certainty' or 'confirmation' in the phrase '我相信' (I believe). The static 'thumbs-up' handshape serves as a conventionalized lexical sign for 'good' or 'correct', which is essential to the meaning. The action is not merely descriptive but also indicates a point of focus (the thumb) and enacts the idea of 'confirming' or 'validating' something."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C18",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:22:04.187629",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's mouth to a point in front of the chest, then retracts slightly\",\n        \"location\": \"initially near the mouth, then moves to mid-chest level\",\n        \"nonmanual\": \"mouth open, eyes looking forward\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the clip, immediately following a preparatory gesture and preceding a broader hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The index finger gesture is a conventionalized lexical sign in TSL for 'prepare' or 'get ready', which is essential for the meaning '我準備乙證' (I prepared for the exam). The gesture is held with a slight pause, adding emphasis to the preparatory action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's mouth to a point in front of the chest, then retracts slightly",
+          "location": "initially near the mouth, then moves to mid-chest level",
+          "nonmanual": "mouth open, eyes looking forward",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action occurs at the beginning of the clip, immediately following a preparatory gesture and preceding a broader hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The index finger gesture is a conventionalized lexical sign in TSL for 'prepare' or 'get ready', which is essential for the meaning '我準備乙證' (I prepared for the exam). The gesture is held with a slight pause, adding emphasis to the preparatory action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

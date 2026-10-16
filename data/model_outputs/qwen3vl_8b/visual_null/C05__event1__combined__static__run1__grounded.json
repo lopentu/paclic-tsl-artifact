@@ -1,0 +1,53 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/static/C05_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C05_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:50:00.776889",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"eyes are wide open and looking upward, eyebrows raised\",\n        \"location\": \"face\",\n        \"nonmanual\": \"eyes wide open, eyebrows raised\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression occurs during the signing of the phrase, likely marking emphasis or surprise\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's eyes are wide open and eyebrows are raised during the signing, which is a nonmanual marker that conveys emphasis or surprise. This facial expression is likely used to highlight the importance of the statement 'there are three stages, and all three must pass' by adding affective weight to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "eyes are wide open and looking upward, eyebrows raised",
+          "location": "face",
+          "nonmanual": "eyes wide open, eyebrows raised",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression occurs during the signing of the phrase, likely marking emphasis or surprise"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's eyes are wide open and eyebrows are raised during the signing, which is a nonmanual marker that conveys emphasis or surprise. This facial expression is likely used to highlight the importance of the statement 'there are three stages, and all three must pass' by adding affective weight to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

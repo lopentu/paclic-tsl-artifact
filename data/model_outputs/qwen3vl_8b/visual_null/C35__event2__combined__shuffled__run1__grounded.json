@@ -1,0 +1,53 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C35_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:18:25.837467",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"repeatedly taps the signer's right temple, moving slightly up and down\",\n        \"location\": \"right temple, near the eye\",\n        \"nonmanual\": \"signer's mouth is open, eyebrows slightly raised, looking forward\",\n        \"non_dominant_hand\": \"non-dominant hand is held up with index finger extended, pointing forward\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture of bringing hands together and preceding a gesture of moving hands outward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The repeated tapping of the temple is a conventionalized sign in TSL for 'thinking' or 'considering', which is semantically essential to the meaning 'because the other party or police may not know sign language'. The gesture is also affective, conveying a sense of contemplation or uncertainty, which enriches the pragmatic tone of the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "repeatedly taps the signer's right temple, moving slightly up and down",
+          "location": "right temple, near the eye",
+          "nonmanual": "signer's mouth is open, eyebrows slightly raised, looking forward",
+          "non_dominant_hand": "non-dominant hand is held up with index finger extended, pointing forward",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture of bringing hands together and preceding a gesture of moving hands outward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The repeated tapping of the temple is a conventionalized sign in TSL for 'thinking' or 'considering', which is semantically essential to the meaning 'because the other party or police may not know sign language'. The gesture is also affective, conveying a sense of contemplation or uncertainty, which enriches the pragmatic tone of the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

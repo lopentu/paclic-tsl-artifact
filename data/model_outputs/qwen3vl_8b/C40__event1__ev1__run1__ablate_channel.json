@@ -1,0 +1,48 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:23:50.630560",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly curled\",\n        \"movement\": \"hands move from a position near the chest outward and slightly downward, then inward and upward in a smooth, sweeping arc, as if gently embracing or encompassing something\",\n        \"location\": \"starts near the chest, moves outward and downward, then returns inward and upward\",\n        \"nonmanual\": \"face shows a gentle, empathetic expression with a slight smile\",\n        \"non_dominant_hand\": \"non-dominant hand moves in coordination with the dominant hand, mirroring its motion\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.8s, spanning the entire target span, and is the central, continuous movement in the clip\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move in a gentle, encompassing arc, which visually represents the idea of 'everyone' and 'safety' in the given meaning. The movement is smooth and continuous, suggesting a collective, protective, or nurturing sentiment. The facial expression is warm and empathetic, enhancing the affective tone of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly curled",
+          "movement": "hands move from a position near the chest outward and slightly downward, then inward and upward in a smooth, sweeping arc, as if gently embracing or encompassing something",
+          "location": "starts near the chest, moves outward and downward, then returns inward and upward",
+          "nonmanual": "face shows a gentle, empathetic expression with a slight smile",
+          "non_dominant_hand": "non-dominant hand moves in coordination with the dominant hand, mirroring its motion",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.8s, spanning the entire target span, and is the central, continuous movement in the clip"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move in a gentle, encompassing arc, which visually represents the idea of 'everyone' and 'safety' in the given meaning. The movement is smooth and continuous, suggesting a collective, protective, or nurturing sentiment. The facial expression is warm and empathetic, enhancing the affective tone of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

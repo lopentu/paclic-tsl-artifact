@@ -1,0 +1,50 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C26_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:18:17.371986",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.8\",\n        \"channel_judged\": \"face\",\n        \"form_description\": {\n          \"hands\": \"The dominant hand is a C-handshape, stationary at the chin. The non-dominant hand is not visible.\",\n          \"handshape\": \"C-hand (thumb and index finger touching, other three fingers extended)\",\n          \"movement\": \"The C-hand at the chin makes a small, sharp downward flick.\",\n          \"location\": \"The C-hand is at the signer's chin, on the right side of the frame.\",\n          \"nonmanual\": \"The signer's mouth is open, cheeks are puffed out, and the chin is pushed forward. The eyes are wide and directed forward.\",\n          \"non_dominant_hand\": \"The non-dominant hand is not visible.\",\n          \"temporal_alignment\": \"The facial action is centered in the middle of the clip, occurring during a pause between manual signs.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 3,\n        \"description\": 0,\n        \"indication\": 0,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The facial expression (puffed cheeks, open mouth, forward chin) is a strong, conventionalized non-manual marker in sign language, often used for emphasis or to mark a specific grammatical or discourse function. The sharp downward flick of the hand adds a strong affective quality.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "The dominant hand is a C-handshape, stationary at the chin. The non-dominant hand is not visible.",
+          "handshape": "C-hand (thumb and index finger touching, other three fingers extended)",
+          "movement": "The C-hand at the chin makes a small, sharp downward flick.",
+          "location": "The C-hand is at the signer's chin, on the right side of the frame.",
+          "nonmanual": "The signer's mouth is open, cheeks are puffed out, and the chin is pushed forward. The eyes are wide and directed forward.",
+          "non_dominant_hand": "The non-dominant hand is not visible.",
+          "temporal_alignment": "The facial action is centered in the middle of the clip, occurring during a pause between manual signs."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression (puffed cheeks, open mouth, forward chin) is a strong, conventionalized non-manual marker in sign language, often used for emphasis or to mark a specific grammatical or discourse function. The sharp downward flick of the hand adds a strong affective quality."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

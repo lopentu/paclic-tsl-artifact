@@ -1,0 +1,48 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:09:55.279159",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth opens wide, then closes; eyes widen and narrow; head tilts slightly\",\n        \"location\": \"face center, forward-facing\",\n        \"nonmanual\": \"facial expression changes from neutral to emphatic, with wide eyes and open mouth\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during the signing of the clause, likely corresponding to the verb '想學' (want to learn)\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The facial expression (wide eyes, open mouth) is emphatic and conveys strong desire, matching the meaning 'I would really want to learn'. The movement is sustained and central to the signing, suggesting it's not just affective but also grammatically significant for expressing the speaker's strong intention.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth opens wide, then closes; eyes widen and narrow; head tilts slightly",
+          "location": "face center, forward-facing",
+          "nonmanual": "facial expression changes from neutral to emphatic, with wide eyes and open mouth",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during the signing of the clause, likely corresponding to the verb '想學' (want to learn)"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The facial expression (wide eyes, open mouth) is emphatic and conveys strong desire, matching the meaning 'I would really want to learn'. The movement is sustained and central to the signing, suggesting it's not just affective but also grammatically significant for expressing the speaker's strong intention."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

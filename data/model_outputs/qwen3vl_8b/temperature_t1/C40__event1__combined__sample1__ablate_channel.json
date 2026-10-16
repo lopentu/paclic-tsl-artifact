@@ -1,0 +1,55 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1461823410,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:52:09.592754",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fingers extended, thumbs up\",\n        \"movement\": \"both hands move from the chest outward and upward, then the right hand moves forward and downward while the left hand moves back and down, forming a shape like a heart or a protective gesture\",\n        \"location\": \"center of chest, then moving outward and downward\",\n        \"nonmanual\": \"neutral facial expression, no significant head or torso movement\",\n        \"non_dominant_hand\": \"non-dominant hand (left) follows the dominant hand's motion\",\n        \"temporal_alignment\": \"the action begins immediately after a gesture indicating 'children' and before a gesture indicating 'grow up', forming a cohesive unit\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move from the chest outward and upward, then one hand moves forward and down while the other moves back and down, forming a shape like a heart or a protective gesture, which visually conveys the idea of 'protecting' or 'safeguarding' children. This action is central to the meaning 'everyone just hopes children can grow up safely' and adds affective enrichment by showing the protective nature of the wish.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fingers extended, thumbs up",
+          "movement": "both hands move from the chest outward and upward, then the right hand moves forward and downward while the left hand moves back and down, forming a shape like a heart or a protective gesture",
+          "location": "center of chest, then moving outward and downward",
+          "nonmanual": "neutral facial expression, no significant head or torso movement",
+          "non_dominant_hand": "non-dominant hand (left) follows the dominant hand's motion",
+          "temporal_alignment": "the action begins immediately after a gesture indicating 'children' and before a gesture indicating 'grow up', forming a cohesive unit"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move from the chest outward and upward, then one hand moves forward and down while the other moves back and down, forming a shape like a heart or a protective gesture, which visually conveys the idea of 'protecting' or 'safeguarding' children. This action is central to the meaning 'everyone just hopes children can grow up safely' and adds affective enrichment by showing the protective nature of the wish."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

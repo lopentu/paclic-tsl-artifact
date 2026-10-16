@@ -1,0 +1,55 @@
+{
+  "clip_id": "C25",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 161681989,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:31:16.352089",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression with open mouth and raised eyebrows, conveying emphasis or surprise\",\n        \"location\": \"front of signer's face\",\n        \"nonmanual\": \"open mouth, raised eyebrows, intense gaze\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during a signed phrase, aligned with the signing of '較現代' (more modern) and '速度較快' (faster pace), likely emphasizing the contrast or intensity of the description\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's open mouth and raised eyebrows occur during the signing of the phrase describing modern, faster-paced, and differently emotional sign language, suggesting emphasis on the contrasting qualities. The facial expression adds emotional weight to the description without being a literal sign for any specific word.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression with open mouth and raised eyebrows, conveying emphasis or surprise",
+          "location": "front of signer's face",
+          "nonmanual": "open mouth, raised eyebrows, intense gaze",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during a signed phrase, aligned with the signing of '較現代' (more modern) and '速度較快' (faster pace), likely emphasizing the contrast or intensity of the description"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's open mouth and raised eyebrows occur during the signing of the phrase describing modern, faster-paced, and differently emotional sign language, suggesting emphasis on the contrasting qualities. The facial expression adds emotional weight to the description without being a literal sign for any specific word."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

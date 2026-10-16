@@ -1,0 +1,55 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 612666170,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:21:05.804641",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a 'thumbs-up' or 'OK' gesture with thumb and index finger touching; left hand is open with fingers extended.\",\n        \"movement\": \"Right hand moves downward in a slow, controlled motion from the signer's right shoulder/chest area toward the lower right side of the body. Left hand remains relatively stationary, held near the right hand's wrist or forearm, acting as a stable base or frame.\",\n        \"location\": \"Right hand begins near the signer's right shoulder/chest and moves down to the lower right side of the torso. Left hand remains close to the right hand, primarily on the right forearm.\",\n        \"nonmanual\": \"Signer's head is slightly tilted to the right, and her facial expression is focused and slightly smiling, suggesting emphasis or a positive tone.\",\n        \"non_dominant_hand\": \"Left hand is positioned as a stable base near the right hand's wrist/forearm, remaining relatively still throughout the motion.\",\n        \"temporal_alignment\": \"The action begins immediately after a previous gesture (crossing hands) and spans the duration of the phrase '教他們手語' (teach them sign language). It is a continuous, sustained movement, not a single discrete sign.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The movement of the right hand downward while maintaining the 'thumbs-up' gesture is a conventionalized sign for 'teach' or 'instruct' in Taiwan Sign Language. The left hand's stable position acts as a frame, indicating the recipient or target of the action. The sustained movement and focused facial expression add emphasis and depict the act of teaching, enhancing the affective and depictive force of the sign.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a 'thumbs-up' or 'OK' gesture with thumb and index finger touching; left hand is open with fingers extended.",
+          "movement": "Right hand moves downward in a slow, controlled motion from the signer's right shoulder/chest area toward the lower right side of the body. Left hand remains relatively stationary, held near the right hand's wrist or forearm, acting as a stable base or frame.",
+          "location": "Right hand begins near the signer's right shoulder/chest and moves down to the lower right side of the torso. Left hand remains close to the right hand, primarily on the right forearm.",
+          "nonmanual": "Signer's head is slightly tilted to the right, and her facial expression is focused and slightly smiling, suggesting emphasis or a positive tone.",
+          "non_dominant_hand": "Left hand is positioned as a stable base near the right hand's wrist/forearm, remaining relatively still throughout the motion.",
+          "temporal_alignment": "The action begins immediately after a previous gesture (crossing hands) and spans the duration of the phrase '教他們手語' (teach them sign language). It is a continuous, sustained movement, not a single discrete sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The movement of the right hand downward while maintaining the 'thumbs-up' gesture is a conventionalized sign for 'teach' or 'instruct' in Taiwan Sign Language. The left hand's stable position acts as a frame, indicating the recipient or target of the action. The sustained movement and focused facial expression add emphasis and depict the act of teaching, enhancing the affective and depictive force of the sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

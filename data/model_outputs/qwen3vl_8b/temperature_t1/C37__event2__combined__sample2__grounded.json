@@ -1,0 +1,55 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1994894520,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:05:48.169351",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth moving, lips pursed and rounded, tongue protruding slightly\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"facial expression with pursed lips and slightly protruded tongue\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with the manual signing of the sign for 'communication' or 'talk' (signing 'communicate' with hands moving in a circular motion around the chest area)\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's facial expression (pursed lips, slightly protruded tongue) occurs during the manual signing of 'communication' and visually conveys a sense of difficulty or awkwardness in speaking or communicating, which aligns with the meaning '他們不會手語，平時只能用簡單的手語溝通' (They don't know sign language, can only use simple sign language to communicate). The expression adds affect and emphasis to the description of limited communication ability.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth moving, lips pursed and rounded, tongue protruding slightly",
+          "location": "center of face",
+          "nonmanual": "facial expression with pursed lips and slightly protruded tongue",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with the manual signing of the sign for 'communication' or 'talk' (signing 'communicate' with hands moving in a circular motion around the chest area)"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's facial expression (pursed lips, slightly protruded tongue) occurs during the manual signing of 'communication' and visually conveys a sense of difficulty or awkwardness in speaking or communicating, which aligns with the meaning '他們不會手語，平時只能用簡單的手語溝通' (They don't know sign language, can only use simple sign language to communicate). The expression adds affect and emphasis to the description of limited communication ability."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

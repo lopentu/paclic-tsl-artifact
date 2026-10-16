@@ -1,0 +1,53 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "manual",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:22:36.302782",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly spread\",\n        \"movement\": \"both hands move upward from below chest level to near shoulder height, then outward and slightly downward in a sweeping arc\",\n        \"location\": \"starts near chest, ends at mid-chest to shoulder level, symmetrically positioned\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"moves in coordination with dominant hand, no independent action\",\n        \"temporal_alignment\": \"begins immediately after a static handshape, spans the entire 0.3–0.6s window, followed by a new handshape\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The upward-sweeping motion of both hands, starting from below chest and moving outward, visually matches the lexical sign for 'course' or 'class' in TSL, which often involves a gestural sweep to indicate a broad, encompassing entity. The movement is not purely prosodic; it carries semantic weight by visually enacting the concept of something expansive or valuable (as in 'this course is great'), and its timing aligns with the core proposition of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly spread",
+          "movement": "both hands move upward from below chest level to near shoulder height, then outward and slightly downward in a sweeping arc",
+          "location": "starts near chest, ends at mid-chest to shoulder level, symmetrically positioned",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "moves in coordination with dominant hand, no independent action",
+          "temporal_alignment": "begins immediately after a static handshape, spans the entire 0.3–0.6s window, followed by a new handshape"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The upward-sweeping motion of both hands, starting from below chest and moving outward, visually matches the lexical sign for 'course' or 'class' in TSL, which often involves a gestural sweep to indicate a broad, encompassing entity. The movement is not purely prosodic; it carries semantic weight by visually enacting the concept of something expansive or valuable (as in 'this course is great'), and its timing aligns with the core proposition of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

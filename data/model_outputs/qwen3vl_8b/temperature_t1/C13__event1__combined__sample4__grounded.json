@@ -1,0 +1,55 @@
+{
+  "clip_id": "C13",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1270652947,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:56:49.525591",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"moves from a position near the signer's chest outward and slightly upward, then slowly lowers\",\n        \"location\": \"begins near chest, moves outward and upward, then downward\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"palm facing outward, fingers slightly spread, moving from chest outward and upward, then slowly downward\",\n        \"temporal_alignment\": \"the action occurs within a larger signing unit, following a gesture with both hands and preceding a pointing gesture with the dominant hand\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand moves from the chest outward and upward, a gesture that typically indicates 'outward' or 'forward' in TSL, contributing to the semantic structure of the phrase. The movement's direction and path add emphasis and vividness, making the action more expressive and engaging, even if not indicating a specific referent.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "moves from a position near the signer's chest outward and slightly upward, then slowly lowers",
+          "location": "begins near chest, moves outward and upward, then downward",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "palm facing outward, fingers slightly spread, moving from chest outward and upward, then slowly downward",
+          "temporal_alignment": "the action occurs within a larger signing unit, following a gesture with both hands and preceding a pointing gesture with the dominant hand"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand moves from the chest outward and upward, a gesture that typically indicates 'outward' or 'forward' in TSL, contributing to the semantic structure of the phrase. The movement's direction and path add emphasis and vividness, making the action more expressive and engaging, even if not indicating a specific referent."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

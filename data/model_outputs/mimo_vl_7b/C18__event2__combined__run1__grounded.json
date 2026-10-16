@@ -1,0 +1,50 @@
+{
+  "clip_id": "C18",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:00:10.709324",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"The dominant hand is used.\",\n        \"handshape\": \"The handshape is a pincer shape (thumb and index finger touching or nearly touching).\",\n        \"movement\": \"The hand moves from a position near the signer's right shoulder downwards and forwards in a small, circular or scooping motion.\",\n        \"location\": \"The action starts near the signer's right shoulder and ends in front of the signer's mouth.\",\n        \"nonmanual\": \"The signer's head is still and facing forward. The eyes are focused on the camera.\",\n        \"non_dominant_hand\": \"The non-dominant hand is held up, open, with fingers slightly curled, in front of the signer's chest.\",\n        \"temporal_alignment\": \"The action is a single, self-contained manual sign that occurs in the middle of a continuous signing flow, framed by other manual gestures.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 3,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The pincer handshape and specific location are a conventional TSL sign. The surrounding signing context suggests it's a key content word. The non-dominant hand is held in a stable, supportive position.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant hand is used.",
+          "handshape": "The handshape is a pincer shape (thumb and index finger touching or nearly touching).",
+          "movement": "The hand moves from a position near the signer's right shoulder downwards and forwards in a small, circular or scooping motion.",
+          "location": "The action starts near the signer's right shoulder and ends in front of the signer's mouth.",
+          "nonmanual": "The signer's head is still and facing forward. The eyes are focused on the camera.",
+          "non_dominant_hand": "The non-dominant hand is held up, open, with fingers slightly curled, in front of the signer's chest.",
+          "temporal_alignment": "The action is a single, self-contained manual sign that occurs in the middle of a continuous signing flow, framed by other manual gestures."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 3,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The pincer handshape and specific location are a conventional TSL sign. The surrounding signing context suggests it's a key content word. The non-dominant hand is held in a stable, supportive position."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

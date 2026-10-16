@@ -1,0 +1,36 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "head_torso",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S01EP12",
+  "source_run": "C22__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: head and upper torso tilt upward and back, then return to neutral\n- location: center of frame, facing forward\n- nonmanual: head and torso movement\n- non dominant hand: not visible or not active\n- temporal alignment: occurs during a pause in signing, following a previous sign and preceding a new one",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:14:25.909925",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 0,\n  \"pragmatic_depictive_affective_enrichment\": 2,\n  \"description\": 1,\n  \"indication\": 0,\n  \"depiction\": 1,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The head and torso tilt conveys a sense of questioning or uncertainty, aligning with the utterance's tone of judgment or doubt. It adds pragmatic emphasis without altering propositional content. The movement is a conventionalized nonmanual marker for hesitation or reflection, and it enacts a slight depiction of looking upward in thought. It is not indicating a specific referent or location.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 0,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 1,
+    "confidence": 0.85,
+    "reasoning": "The head and torso tilt conveys a sense of questioning or uncertainty, aligning with the utterance's tone of judgment or doubt. It adds pragmatic emphasis without altering propositional content. The movement is a conventionalized nonmanual marker for hesitation or reflection, and it enacts a slight depiction of looking upward in thought. It is not indicating a specific referent or location."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

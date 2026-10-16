@@ -1,0 +1,55 @@
+{
+  "clip_id": "C10",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1752417500,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:26:14.128145",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers move forward from chest level toward each other, then apart, then back together in a rhythmic, alternating motion\",\n        \"location\": \"initially at chest level, moving forward and outward toward the viewer\",\n        \"nonmanual\": \"neutral facial expression, head steady\",\n        \"non_dominant_hand\": \"not clearly distinguishable as dominant/non-dominant, both hands are active and symmetrically performing the same movement\",\n        \"temporal_alignment\": \"the action is part of a continuous signing sequence, occurring after a gesture to the head and before a gesture with both hands moving outward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement pattern are highly conventionalized and distinct from the surrounding gestures, indicating a specific lexical sign. The movement's rhythmic, alternating nature adds emphasis and affect, which is visible in the signer's steady, focused expression during the action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers move forward from chest level toward each other, then apart, then back together in a rhythmic, alternating motion",
+          "location": "initially at chest level, moving forward and outward toward the viewer",
+          "nonmanual": "neutral facial expression, head steady",
+          "non_dominant_hand": "not clearly distinguishable as dominant/non-dominant, both hands are active and symmetrically performing the same movement",
+          "temporal_alignment": "the action is part of a continuous signing sequence, occurring after a gesture to the head and before a gesture with both hands moving outward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement pattern are highly conventionalized and distinct from the surrounding gestures, indicating a specific lexical sign. The movement's rhythmic, alternating nature adds emphasis and affect, which is visible in the signer's steady, focused expression during the action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

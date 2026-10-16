@@ -1,0 +1,69 @@
+{
+  "clip_id": "C18",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C18",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP11",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 1.0999999999999943
+  },
+  "video_from": {
+    "clip_id": "C35",
+    "event_id": "event1",
+    "video_id": "S04-3EP05",
+    "target_channel": "manual",
+    "duration": 1.4000000000000057
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 1.0999999999999943,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C35_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:52:30.248038",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"dominant hand moves from near the signer's face outward and slightly downward, then back toward the face, with a slight circular motion\",\n        \"location\": \"starts near the signer's right eye, moves outward and downward, then returns toward the face\",\n        \"nonmanual\": \"signer's facial expression changes from smiling to a more serious, focused look\",\n        \"non_dominant_hand\": \"non-dominant hand remains extended with index finger pointing upward, relatively stationary\",\n        \"temporal_alignment\": \"the action begins with the dominant hand near the face and ends with it moving back toward the face, occurring within a single sign unit\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL, likely indicating a specific action or object. The movement from face to outward and back suggests a referential or depictive function, possibly indicating a process or action. The facial expression shift adds affective enrichment, suggesting emphasis or a change in tone.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "dominant hand moves from near the signer's face outward and slightly downward, then back toward the face, with a slight circular motion",
+          "location": "starts near the signer's right eye, moves outward and downward, then returns toward the face",
+          "nonmanual": "signer's facial expression changes from smiling to a more serious, focused look",
+          "non_dominant_hand": "non-dominant hand remains extended with index finger pointing upward, relatively stationary",
+          "temporal_alignment": "the action begins with the dominant hand near the face and ends with it moving back toward the face, occurring within a single sign unit"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL, likely indicating a specific action or object. The movement from face to outward and back suggests a referential or depictive function, possibly indicating a process or action. The facial expression shift adds affective enrichment, suggesting emphasis or a change in tone."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

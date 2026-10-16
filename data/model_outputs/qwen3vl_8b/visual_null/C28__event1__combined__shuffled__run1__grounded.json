@@ -1,0 +1,53 @@
+{
+  "clip_id": "C28",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C28_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C28_window_model.mp4",
+  "video_id": "S04-2EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:15:24.446445",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly spread\",\n        \"movement\": \"both hands move outward and slightly upward from the signer's chest, then inward toward the center of the body in a gentle, sweeping motion\",\n        \"location\": \"starts near the signer's chest, moves outward to the sides, then inward again\",\n        \"nonmanual\": \"no significant facial or head movement visible during this action\",\n        \"non_dominant_hand\": \"the non-dominant hand mirrors the dominant hand's movement\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, not isolated; it follows a previous hand movement and precedes the next\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move outward and inward in a gesture that visually emphasizes the idea of 'some' or 'certain' people, fitting the context of 'some hearing-impaired individuals'. The movement is not a lexical sign but adds emphasis and vividness to the proposition.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly spread",
+          "movement": "both hands move outward and slightly upward from the signer's chest, then inward toward the center of the body in a gentle, sweeping motion",
+          "location": "starts near the signer's chest, moves outward to the sides, then inward again",
+          "nonmanual": "no significant facial or head movement visible during this action",
+          "non_dominant_hand": "the non-dominant hand mirrors the dominant hand's movement",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, not isolated; it follows a previous hand movement and precedes the next"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move outward and inward in a gesture that visually emphasizes the idea of 'some' or 'certain' people, fitting the context of 'some hearing-impaired individuals'. The movement is not a lexical sign but adds emphasis and vividness to the proposition."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,50 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C40_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:52:40.750244",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Two hands, both with index fingers extended and thumbs up, are used.\",\n        \"handshape\": \"Both hands are in the 'index finger' handshape (1) with the thumb extended upwards (a 'finger thumb' or 'pinch' variant).\",\n        \"movement\": \"The hands move forward from a position near the signer's chest, then move inward and downward, crossing over each other. The right hand moves over the left.\",\n        \"location\": \"The action starts in front of the signer's chest and moves down towards the signer's waist.\",\n        \"nonmanual\": \"The signer's head is still and facing forward. The eyebrows are slightly raised and the mouth is moving in sync with the hand motion, suggesting speech.\",\n        \"non_dominant_hand\": \"The non-dominant hand is not visible or is out of frame.\",\n        \"temporal_alignment\": \"The action is a single, continuous movement that appears to be the core of a single sign, bracketed by other manual gestures before and after it.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The action is a distinct, structured movement that fits the shape of a single sign. The handshape and movement are conventional. The surrounding context shows this action as a unit within a larger signed phrase.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Two hands, both with index fingers extended and thumbs up, are used.",
+          "handshape": "Both hands are in the 'index finger' handshape (1) with the thumb extended upwards (a 'finger thumb' or 'pinch' variant).",
+          "movement": "The hands move forward from a position near the signer's chest, then move inward and downward, crossing over each other. The right hand moves over the left.",
+          "location": "The action starts in front of the signer's chest and moves down towards the signer's waist.",
+          "nonmanual": "The signer's head is still and facing forward. The eyebrows are slightly raised and the mouth is moving in sync with the hand motion, suggesting speech.",
+          "non_dominant_hand": "The non-dominant hand is not visible or is out of frame.",
+          "temporal_alignment": "The action is a single, continuous movement that appears to be the core of a single sign, bracketed by other manual gestures before and after it."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The action is a distinct, structured movement that fits the shape of a single sign. The handshape and movement are conventional. The surrounding context shows this action as a unit within a larger signed phrase."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

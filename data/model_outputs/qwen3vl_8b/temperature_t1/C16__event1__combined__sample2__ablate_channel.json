@@ -1,0 +1,55 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1752869607,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:12:14.079575",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Dominant hand forms a '1' shape (index finger extended, other fingers curled); non-dominant hand forms a '5' shape (all fingers extended, thumb tucked)\",\n        \"movement\": \"Dominant hand moves from the signer's chest area upward and slightly forward, then extends outward toward the right side of the signer's body (signer's right) in a pointing motion. Non-dominant hand remains relatively stationary, palm facing inward.\",\n        \"location\": \"Dominant hand begins near the signer's chest and ends near the signer's right shoulder/upper arm area. Non-dominant hand stays near the signer's torso.\",\n        \"nonmanual\": \"Signer's mouth is open and lips are pursed during the movement, indicating emphasis or articulation of a specific word.\",\n        \"non_dominant_hand\": \"Steady, palm facing inward, fingers extended in a '5' shape, positioned near the signer's torso.\",\n        \"temporal_alignment\": \"The action begins at the start of the clip and is performed in conjunction with the signer's lip movement, occurring within the context of a broader narrative about signing while feeling tense or rushed.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement pattern (index finger extended, moving outward) strongly resemble the lexical sign for 'say' or 'speak' in TSL, which is essential to the meaning of the utterance about signing. The pointing motion toward the right side of the body (signer's right) indicates a specific referent or direction, enriching the propositional content by specifying the context of the signing. The pursed lips and focused gaze during the movement add affective emphasis, highlighting the speaker's personal experience of tension or difficulty while signing.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Dominant hand forms a '1' shape (index finger extended, other fingers curled); non-dominant hand forms a '5' shape (all fingers extended, thumb tucked)",
+          "movement": "Dominant hand moves from the signer's chest area upward and slightly forward, then extends outward toward the right side of the signer's body (signer's right) in a pointing motion. Non-dominant hand remains relatively stationary, palm facing inward.",
+          "location": "Dominant hand begins near the signer's chest and ends near the signer's right shoulder/upper arm area. Non-dominant hand stays near the signer's torso.",
+          "nonmanual": "Signer's mouth is open and lips are pursed during the movement, indicating emphasis or articulation of a specific word.",
+          "non_dominant_hand": "Steady, palm facing inward, fingers extended in a '5' shape, positioned near the signer's torso.",
+          "temporal_alignment": "The action begins at the start of the clip and is performed in conjunction with the signer's lip movement, occurring within the context of a broader narrative about signing while feeling tense or rushed."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement pattern (index finger extended, moving outward) strongly resemble the lexical sign for 'say' or 'speak' in TSL, which is essential to the meaning of the utterance about signing. The pointing motion toward the right side of the body (signer's right) indicates a specific referent or direction, enriching the propositional content by specifying the context of the signing. The pursed lips and focused gaze during the movement add affective emphasis, highlighting the speaker's personal experience of tension or difficulty while signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C25",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 919183606,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:46:38.852432",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a flat, open palm; left hand forms a flat, open palm\",\n        \"movement\": \"Right hand moves from the signer's right shoulder area downward and inward toward the center of the chest, while the left hand moves from the signer's left shoulder area downward and inward toward the center of the chest, with both hands meeting and then moving apart slightly as if to indicate something being brought together and then separated or released.\",\n        \"location\": \"Starting near the shoulders, moving inward toward the chest area\",\n        \"nonmanual\": \"Signer's mouth is open and facial expression is expressive, conveying emphasis or intensity.\",\n        \"non_dominant_hand\": \"The left hand follows the movement of the right hand, mirroring its path and motion.\",\n        \"temporal_alignment\": \"The action begins at 0.3s and ends at 0.7s, occurring within a continuous signing sequence that conveys the idea of 'modern, fast-paced' hand gestures.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move together and apart, suggesting a process of bringing things together and then releasing them, which visually aligns with the concept of 'modern, fast-paced' as something dynamic and changing. The movement's inward direction toward the chest can imply a personal or internal experience of the modern hand gesture style. The expressive facial expression adds emphasis, making the action more vivid.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a flat, open palm; left hand forms a flat, open palm",
+          "movement": "Right hand moves from the signer's right shoulder area downward and inward toward the center of the chest, while the left hand moves from the signer's left shoulder area downward and inward toward the center of the chest, with both hands meeting and then moving apart slightly as if to indicate something being brought together and then separated or released.",
+          "location": "Starting near the shoulders, moving inward toward the chest area",
+          "nonmanual": "Signer's mouth is open and facial expression is expressive, conveying emphasis or intensity.",
+          "non_dominant_hand": "The left hand follows the movement of the right hand, mirroring its path and motion.",
+          "temporal_alignment": "The action begins at 0.3s and ends at 0.7s, occurring within a continuous signing sequence that conveys the idea of 'modern, fast-paced' hand gestures."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move together and apart, suggesting a process of bringing things together and then releasing them, which visually aligns with the concept of 'modern, fast-paced' as something dynamic and changing. The movement's inward direction toward the chest can imply a personal or internal experience of the modern hand gesture style. The expressive facial expression adds emphasis, making the action more vivid."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

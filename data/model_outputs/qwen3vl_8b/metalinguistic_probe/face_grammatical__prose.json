@@ -1,0 +1,17 @@
+{
+  "probe_id": "face_grammatical",
+  "tests": "Does it know facial activity can be grammatical? (its FACE D1 = 1 mapping)",
+  "question": "Can facial activity in signed discourse carry semantic or syntactic content, as opposed to only affect or emphasis? If so, give examples of grammatical nonmanual markers, and say how a grammatical facial marker can be distinguished from an affective facial expression.",
+  "answer_format": "prose",
+  "video_shown": false,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "temperature": 0.0,
+  "do_sample": false,
+  "max_new_tokens": 500,
+  "timestamp": "2026-08-03T12:24:14.109458",
+  "prompt": "You are answering a question about sign language linguistics. This is a knowledge question about signed languages in general, not about any particular video.\n\nCan facial activity in signed discourse carry semantic or syntactic content, as opposed to only affect or emphasis? If so, give examples of grammatical nonmanual markers, and say how a grammatical facial marker can be distinguished from an affective facial expression.\n\nAnswer in at most 120 words. Plain prose, no JSON.\n",
+  "raw_text": "Yes, facial activity in signed languages carries semantic or syntactic content. Grammatical nonmanual markers include eyebrow raises for questions, head tilts for negation, or lip compression for past tense. These are rule-governed and obligatory in specific contexts. Affective expressions—like smiling or frowning—are spontaneous, context-dependent, and convey emotion, not grammatical structure. Grammatical markers are predictable and essential for sentence interpretation, while affective expressions are optional and modulate tone or attitude. Their distinction lies in function: grammar vs. emotion.",
+  "parsed": null
+}

@@ -1,0 +1,61 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T19:20:08.220301",
+  "backend_call_info": {
+    "frames_per_video": [
+      42,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.54,
+      15.54
+    ],
+    "input_tokens": 7014,
+    "output_tokens": 282
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"1.5\",\n      \"end_time\": \"2.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palm for the non-dominant hand, index finger extended for the dominant hand\",\n        \"movement\": \"dominant hand moves from the non-dominant hand's palm to the chest, then clasps\",\n        \"location\": \"chest\",\n        \"nonmanual\": \"mouth is slightly open\",\n        \"non_dominant_hand\": \"stays open and stationary\",\n        \"temporal_alignment\": \"part of a longer sign sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action shows a clasping motion at the chest, which is a common TSL sign for 'this course' or 'this class', contributing to the propositional content of 'this course is great'.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "1.5",
+        "end_time": "2.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palm for the non-dominant hand, index finger extended for the dominant hand",
+          "movement": "dominant hand moves from the non-dominant hand's palm to the chest, then clasps",
+          "location": "chest",
+          "nonmanual": "mouth is slightly open",
+          "non_dominant_hand": "stays open and stationary",
+          "temporal_alignment": "part of a longer sign sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action shows a clasping motion at the chest, which is a common TSL sign for 'this course' or 'this class', contributing to the propositional content of 'this course is great'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

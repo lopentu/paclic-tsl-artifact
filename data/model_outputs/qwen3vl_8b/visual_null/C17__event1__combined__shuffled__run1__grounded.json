@@ -1,0 +1,53 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C17_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:10:16.780630",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends forward and downward in a pointing motion, then retracts\",\n        \"location\": \"dominant hand moves from near the signer's chest to a position in front of the signer's body, pointing downward\",\n        \"nonmanual\": \"signer's mouth is pursed, eyes are focused forward\",\n        \"non_dominant_hand\": \"non-dominant hand is held open and flat, palm up, stationary at the signer's lower chest\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a previous sign and preceding a subsequent sign\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The downward pointing motion of the index finger is a conventionalized sign in TSL that indicates 'good' or 'excellent' in the context of evaluating something. The action is clearly part of the grammatical structure of the sentence '這個課程很棒' (This course is great), marking the positive evaluation. The downward direction of the point adds emphasis and vividness to the positive assessment, making the evaluation more forceful and concrete.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends forward and downward in a pointing motion, then retracts",
+          "location": "dominant hand moves from near the signer's chest to a position in front of the signer's body, pointing downward",
+          "nonmanual": "signer's mouth is pursed, eyes are focused forward",
+          "non_dominant_hand": "non-dominant hand is held open and flat, palm up, stationary at the signer's lower chest",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a previous sign and preceding a subsequent sign"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The downward pointing motion of the index finger is a conventionalized sign in TSL that indicates 'good' or 'excellent' in the context of evaluating something. The action is clearly part of the grammatical structure of the sentence '這個課程很棒' (This course is great), marking the positive evaluation. The downward direction of the point adds emphasis and vividness to the positive assessment, making the evaluation more forceful and concrete."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

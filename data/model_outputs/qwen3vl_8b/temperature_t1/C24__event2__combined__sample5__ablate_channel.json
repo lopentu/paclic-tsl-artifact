@@ -1,0 +1,55 @@
+{
+  "clip_id": "C24",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 2125015427,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:15:56.134056",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from chin level up to the side of the neck, then extends outward and slightly downward\",\n        \"location\": \"starts near the chin, moves to the side of the neck, then extends outward\",\n        \"nonmanual\": \"mouth slightly open, face neutral\",\n        \"non_dominant_hand\": \"resting on lap\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, transitioning from a gesture near the chin to a pointing gesture outward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are characteristic of a lexical sign in TSL, likely representing 'teacher' or 'person' within the phrase '有部分口語者或老師、手語翻譯者'. The outward extension of the index finger indicates the referent, aligning with the discourse structure of identifying a group of people.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from chin level up to the side of the neck, then extends outward and slightly downward",
+          "location": "starts near the chin, moves to the side of the neck, then extends outward",
+          "nonmanual": "mouth slightly open, face neutral",
+          "non_dominant_hand": "resting on lap",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, transitioning from a gesture near the chin to a pointing gesture outward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are characteristic of a lexical sign in TSL, likely representing 'teacher' or 'person' within the phrase '有部分口語者或老師、手語翻譯者'. The outward extension of the index finger indicates the referent, aligning with the discourse structure of identifying a group of people."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:23:06.518416",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"starts near chin, moves outward and forward in a sweeping arc, then returns inward toward the chest\",\n        \"location\": \"begins near the signer's chin, moves across the signer's midline to the right side of the body, then back toward the center\",\n        \"nonmanual\": \"signer's mouth is open and moving, eyes are focused forward\",\n        \"non_dominant_hand\": \"resting on the signer's torso, not moving\",\n        \"temporal_alignment\": \"the action begins immediately after the signer touches her chin and spans the duration of the phrase '我相信要考乙證的同學們'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The sweeping motion of the hand from chin to chest is a conventionalized lexical sign in TSL for 'believe' or 'trust', which is essential to the propositional content of the utterance. The outward sweep adds emphasis and affect, making the statement more forceful and personal, which is a clear pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "starts near chin, moves outward and forward in a sweeping arc, then returns inward toward the chest",
+          "location": "begins near the signer's chin, moves across the signer's midline to the right side of the body, then back toward the center",
+          "nonmanual": "signer's mouth is open and moving, eyes are focused forward",
+          "non_dominant_hand": "resting on the signer's torso, not moving",
+          "temporal_alignment": "the action begins immediately after the signer touches her chin and spans the duration of the phrase '我相信要考乙證的同學們'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The sweeping motion of the hand from chin to chest is a conventionalized lexical sign in TSL for 'believe' or 'trust', which is essential to the propositional content of the utterance. The outward sweep adds emphasis and affect, making the statement more forceful and personal, which is a clear pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

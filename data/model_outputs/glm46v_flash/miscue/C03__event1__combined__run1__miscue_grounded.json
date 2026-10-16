@@ -1,0 +1,56 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "face",
+  "target_channel_cued": "manual",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C03_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C03_window_model.mp4",
+  "video_id": "S01EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:00:48.941561",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"3.0\",\n      \"end_time\": \"3.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"move from chest towards face, then back\",\n        \"location\": \"front of body\",\n        \"nonmanual\": \"frown, eyes closed\",\n        \"non_dominant_hand\": \"mirrors dominant hand\",\n        \"temporal_alignment\": \"part of a longer sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The signer uses both hands in fists moving from chest to face and back, with a frown and closed eyes, which is a common TSL depiction for 'different' or 'contrast'.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "3.0",
+        "end_time": "3.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "move from chest towards face, then back",
+          "location": "front of body",
+          "nonmanual": "frown, eyes closed",
+          "non_dominant_hand": "mirrors dominant hand",
+          "temporal_alignment": "part of a longer sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The signer uses both hands in fists moving from chest to face and back, with a frown and closed eyes, which is a common TSL depiction for 'different' or 'contrast'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "clip_id": "C13",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C13_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:56:02.098973",
+  "backend_call_info": {
+    "frames_per_video": [
+      42,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.4922,
+      15.2575
+    ],
+    "input_tokens": 6996,
+    "output_tokens": 291
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.60\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fists\",\n        \"movement\": \"bent at the elbows, raised to chest height, moving outward and inward in a circular or oscillating motion\",\n        \"location\": \"chest and forward\",\n        \"nonmanual\": \"neutral facial expression\",\n        \"non_dominant_hand\": \"stays relatively still, supporting the dominant hand's movement\",\n        \"temporal_alignment\": \"part of a longer sequence of signs, occurring between other manual actions\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The circular motion of the hands suggests a depiction of something rotating or oscillating, contributing to vividness. The action occurs within a sequence of signs, indicating it is not a core grammatical marker but contributes to the overall meaning through its depictive nature.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.60",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fists",
+          "movement": "bent at the elbows, raised to chest height, moving outward and inward in a circular or oscillating motion",
+          "location": "chest and forward",
+          "nonmanual": "neutral facial expression",
+          "non_dominant_hand": "stays relatively still, supporting the dominant hand's movement",
+          "temporal_alignment": "part of a longer sequence of signs, occurring between other manual actions"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The circular motion of the hands suggests a depiction of something rotating or oscillating, contributing to vividness. The action occurs within a sequence of signs, indicating it is not a core grammatical marker but contributes to the overall meaning through its depictive nature."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

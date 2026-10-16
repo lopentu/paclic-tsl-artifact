@@ -1,0 +1,61 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C26_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T21:44:16.990488",
+  "backend_call_info": {
+    "frames_per_video": [
+      80,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      14.5309
+    ],
+    "input_tokens": 9066,
+    "output_tokens": 286
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00.3\",\n      \"end_time\": \"00:00.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"none\",\n        \"handshape\": \"none\",\n        \"movement\": \"none\",\n        \"location\": \"none\",\n        \"nonmanual\": \"Slightly raised eyebrows and a slight open mouth, suggesting contemplation or mild emphasis.\",\n        \"non_dominant_hand\": \"none\",\n        \"temporal_alignment\": \"The action occurs early in the clip, preceding the more pronounced hand movements.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer exhibits slightly raised eyebrows and an open mouth during this brief moment, which conveys a sense of thoughtful consideration or mild emphasis.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00.3",
+        "end_time": "00:00.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "none",
+          "handshape": "none",
+          "movement": "none",
+          "location": "none",
+          "nonmanual": "Slightly raised eyebrows and a slight open mouth, suggesting contemplation or mild emphasis.",
+          "non_dominant_hand": "none",
+          "temporal_alignment": "The action occurs early in the clip, preceding the more pronounced hand movements."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer exhibits slightly raised eyebrows and an open mouth during this brief moment, which conveys a sense of thoughtful consideration or mild emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

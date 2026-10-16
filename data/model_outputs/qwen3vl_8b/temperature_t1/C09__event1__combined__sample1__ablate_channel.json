@@ -1,0 +1,55 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1949643477,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:39:39.389099",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a fist; left hand is open\",\n        \"movement\": \"right hand moves from chest level down and to the right, then up and back to chest; left hand moves from chest level down and to the left, then up and back to chest\",\n        \"location\": \"initially at chest level, then moves down and out to the right and left, then returns to chest level\",\n        \"nonmanual\": \"no clear nonmanual activity\",\n        \"non_dominant_hand\": \"left hand is open and moves in coordination with the right hand\",\n        \"temporal_alignment\": \"the action occurs during a sign that conveys 'through' or 'via' (likely '透過') and is part of a larger clause about learning through current sign language courses\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move in coordinated opposition (right hand down/right, left hand down/left) while the signer is signing 'through' or 'via', indicating a process of learning. The movement is not purely illustrative but serves a grammatical function (e.g., marking 'through') and also conveys a sense of process or transition, which is pragmatically relevant to the discourse about learning methods.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a fist; left hand is open",
+          "movement": "right hand moves from chest level down and to the right, then up and back to chest; left hand moves from chest level down and to the left, then up and back to chest",
+          "location": "initially at chest level, then moves down and out to the right and left, then returns to chest level",
+          "nonmanual": "no clear nonmanual activity",
+          "non_dominant_hand": "left hand is open and moves in coordination with the right hand",
+          "temporal_alignment": "the action occurs during a sign that conveys 'through' or 'via' (likely '透過') and is part of a larger clause about learning through current sign language courses"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move in coordinated opposition (right hand down/right, left hand down/left) while the signer is signing 'through' or 'via', indicating a process of learning. The movement is not purely illustrative but serves a grammatical function (e.g., marking 'through') and also conveys a sense of process or transition, which is pragmatically relevant to the discourse about learning methods."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:22:24.760559",
+  "backend_call_info": {
+    "frames_per_video": [
+      42,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.54,
+      15.54
+    ],
+    "input_tokens": 6945,
+    "output_tokens": 263
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"1.5\",\n      \"end_time\": \"2.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palm and flat hand\",\n        \"movement\": \"clap together\",\n        \"location\": \"chest\",\n        \"nonmanual\": \"mouth closed, neutral expression\",\n        \"non_dominant_hand\": \"supports the dominant hand\",\n        \"temporal_alignment\": \"part of a longer signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action is a clapping motion with both hands at the chest, which is a common TSL lexical sign for 'good' or 'okay'. It occurs between two other signs, indicating it functions as a lexical item rather than a purely prosodic gesture.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "1.5",
+        "end_time": "2.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palm and flat hand",
+          "movement": "clap together",
+          "location": "chest",
+          "nonmanual": "mouth closed, neutral expression",
+          "non_dominant_hand": "supports the dominant hand",
+          "temporal_alignment": "part of a longer signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action is a clapping motion with both hands at the chest, which is a common TSL lexical sign for 'good' or 'okay'. It occurs between two other signs, indicating it functions as a lexical item rather than a purely prosodic gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,50 @@
+{
+  "clip_id": "C02",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:08:03.262090",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.6\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands, palms down, are in front of the signer's torso.\",\n          \"handshape\": \"Fingers are slightly spread, possibly a '5' handshape.\",\n          \"movement\": \"The hands move downwards and slightly outwards from a higher position, then come to a stop.\",\n          \"location\": \"In front of the signer's lower chest, at about waist height.\",\n          \"nonmanual\": \"The signer's facial expression is neutral, with a slightly open mouth. The head is still.\",\n          \"non_dominant_hand\": \"The non-dominant hand is not clearly visible but appears to be in a relaxed position.\",\n          \"temporal_alignment\": \"The action occurs at the beginning of a new signed phrase, following a gesture with the right hand.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The hands are in a specific location and movement that appears to be a conventional sign, not a random gesture. The surrounding context suggests it's a grammatical or lexical element of the sentence.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands, palms down, are in front of the signer's torso.",
+          "handshape": "Fingers are slightly spread, possibly a '5' handshape.",
+          "movement": "The hands move downwards and slightly outwards from a higher position, then come to a stop.",
+          "location": "In front of the signer's lower chest, at about waist height.",
+          "nonmanual": "The signer's facial expression is neutral, with a slightly open mouth. The head is still.",
+          "non_dominant_hand": "The non-dominant hand is not clearly visible but appears to be in a relaxed position.",
+          "temporal_alignment": "The action occurs at the beginning of a new signed phrase, following a gesture with the right hand."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hands are in a specific location and movement that appears to be a conventional sign, not a random gesture. The surrounding context suggests it's a grammatical or lexical element of the sentence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

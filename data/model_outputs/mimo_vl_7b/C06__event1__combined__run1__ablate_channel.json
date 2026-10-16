@@ -1,0 +1,50 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C06_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:27:17.415786",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.7\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Two hands are used. The right hand is the dominant hand, and the left hand is the non-dominant hand.\",\n          \"handshape\": \"The right hand has an open palm with the thumb tucked in (a '5' handshape). The left hand has a '5' handshape.\",\n          \"movement\": \"The right hand moves forward and slightly down from a position near the signer's right shoulder. The left hand moves forward and down from a position near the signer's left shoulder, mirroring the right hand's motion.\",\n          \"location\": \"The action occurs in the upper torso space, in front of the signer's chest.\",\n          \"nonmanual\": \"The signer's head is still and facing forward. The eyebrows are slightly raised.\",\n          \"non_dominant_hand\": \"The left (non-dominant) hand is active, moving in coordination with the right hand.\",\n          \"temporal_alignment\": \"The action is a single, quick movement that appears to be the beginning of a new sign, following a previous sign where the hands were lower.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two-handed movement is a distinct, conventionalized starting motion for a sign in the upper body space. The surrounding context shows this action as a clear transition from a previous sign to the next one.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Two hands are used. The right hand is the dominant hand, and the left hand is the non-dominant hand.",
+          "handshape": "The right hand has an open palm with the thumb tucked in (a '5' handshape). The left hand has a '5' handshape.",
+          "movement": "The right hand moves forward and slightly down from a position near the signer's right shoulder. The left hand moves forward and down from a position near the signer's left shoulder, mirroring the right hand's motion.",
+          "location": "The action occurs in the upper torso space, in front of the signer's chest.",
+          "nonmanual": "The signer's head is still and facing forward. The eyebrows are slightly raised.",
+          "non_dominant_hand": "The left (non-dominant) hand is active, moving in coordination with the right hand.",
+          "temporal_alignment": "The action is a single, quick movement that appears to be the beginning of a new sign, following a previous sign where the hands were lower."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed movement is a distinct, conventionalized starting motion for a sign in the upper body space. The surrounding context shows this action as a clear transition from a previous sign to the next one."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

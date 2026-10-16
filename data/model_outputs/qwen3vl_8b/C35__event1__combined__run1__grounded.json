@@ -1,0 +1,48 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:38:21.021947",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"dominant hand moves from near the signer's face outward and slightly downward, then back toward the face, with a slight circular motion\",\n        \"location\": \"starts near the signer's right eye, moves outward and downward, then returns toward the face\",\n        \"nonmanual\": \"signer's face shows a slight smile and expressive eyebrows\",\n        \"non_dominant_hand\": \"non-dominant hand remains stationary, index finger extended upward\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, beginning after a preparatory gesture and before a subsequent hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL, likely indicating 'police' or 'authority figure' as part of the phrase 'because the other party or police may not know sign language'. The facial expression and the outward motion suggest emphasis or a vivid depiction of the concept.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "dominant hand moves from near the signer's face outward and slightly downward, then back toward the face, with a slight circular motion",
+          "location": "starts near the signer's right eye, moves outward and downward, then returns toward the face",
+          "nonmanual": "signer's face shows a slight smile and expressive eyebrows",
+          "non_dominant_hand": "non-dominant hand remains stationary, index finger extended upward",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, beginning after a preparatory gesture and before a subsequent hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL, likely indicating 'police' or 'authority figure' as part of the phrase 'because the other party or police may not know sign language'. The facial expression and the outward motion suggest emphasis or a vivid depiction of the concept."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

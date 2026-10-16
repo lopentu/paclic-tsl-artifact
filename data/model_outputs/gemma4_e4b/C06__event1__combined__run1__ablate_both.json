@@ -1,0 +1,61 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C06_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T22:40:49.263137",
+  "backend_call_info": {
+    "frames_per_video": [
+      80,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.984
+    ],
+    "input_tokens": 9037,
+    "output_tokens": 296
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:01\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Cupped/open\",\n        \"movement\": \"Clapping motion, bringing hands together and apart repeatedly\",\n        \"location\": \"In front of the chest\",\n        \"nonmanual\": \"Neutral\",\n        \"non_dominant_hand\": \"Not distinctly separate from dominant hand action\",\n        \"temporal_alignment\": \"The action occurs within a continuous sequence of hand movements.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer is repeatedly bringing both cupped hands together and then separating them in front of the chest, which appears to be an emphatic or rhythmic gesture.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:01",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Cupped/open",
+          "movement": "Clapping motion, bringing hands together and apart repeatedly",
+          "location": "In front of the chest",
+          "nonmanual": "Neutral",
+          "non_dominant_hand": "Not distinctly separate from dominant hand action",
+          "temporal_alignment": "The action occurs within a continuous sequence of hand movements."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer is repeatedly bringing both cupped hands together and then separating them in front of the chest, which appears to be an emphatic or rhythmic gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

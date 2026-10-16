@@ -1,0 +1,48 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C14_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:14:56.050534",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"2.3\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a 'pinch' or 'thumb-and-finger' shape; left hand forms a 'pinch' or 'thumb-and-finger' shape\",\n        \"movement\": \"Right hand moves from the signer's right side, across the chest, to the left side, then back to the right side, in a sweeping motion. Left hand remains relatively stationary, with the thumb and index finger forming a small circle or 'pinch' shape, moving slightly in coordination with the right hand.\",\n        \"location\": \"Right hand moves across the signer's chest and torso area, from right to left and back. Left hand remains near the signer's chest, near the right hand.\",\n        \"nonmanual\": \"Signer's facial expression is neutral to slightly focused, with mouth slightly open, indicating active signing.\",\n        \"non_dominant_hand\": \"Left hand is the non-dominant hand, forming a 'pinch' or 'thumb-and-finger' shape, moving slightly in coordination with the right hand.\",\n        \"temporal_alignment\": \"The action begins with the right hand moving across the chest and ends with the right hand returning to the right side of the chest. The left hand remains relatively stationary, forming a 'pinch' or 'thumb-and-finger' shape.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The right hand's sweeping motion across the chest and the coordinated movement of the left hand suggest a lexical sign or grammatical marker. The action is not purely prosodic or affective, but rather contributes to the propositional content and discourse structure. The movement of the hands indicates a specific action or event, and the coordination of the hands suggests a grammatical relation or referential tracking.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "2.3",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a 'pinch' or 'thumb-and-finger' shape; left hand forms a 'pinch' or 'thumb-and-finger' shape",
+          "movement": "Right hand moves from the signer's right side, across the chest, to the left side, then back to the right side, in a sweeping motion. Left hand remains relatively stationary, with the thumb and index finger forming a small circle or 'pinch' shape, moving slightly in coordination with the right hand.",
+          "location": "Right hand moves across the signer's chest and torso area, from right to left and back. Left hand remains near the signer's chest, near the right hand.",
+          "nonmanual": "Signer's facial expression is neutral to slightly focused, with mouth slightly open, indicating active signing.",
+          "non_dominant_hand": "Left hand is the non-dominant hand, forming a 'pinch' or 'thumb-and-finger' shape, moving slightly in coordination with the right hand.",
+          "temporal_alignment": "The action begins with the right hand moving across the chest and ends with the right hand returning to the right side of the chest. The left hand remains relatively stationary, forming a 'pinch' or 'thumb-and-finger' shape."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The right hand's sweeping motion across the chest and the coordinated movement of the left hand suggest a lexical sign or grammatical marker. The action is not purely prosodic or affective, but rather contributes to the propositional content and discourse structure. The movement of the hands indicates a specific action or event, and the coordination of the hands suggests a grammatical relation or referential tracking."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

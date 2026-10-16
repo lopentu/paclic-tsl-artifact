@@ -1,0 +1,56 @@
+{
+  "clip_id": "C33",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C33_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C33_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:27:20.605394",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"thumbs pointing forward\",\n        \"movement\": \"hands move forward and slightly outward from chest\",\n        \"location\": \"chest\",\n        \"nonmanual\": \"mouth opens and closes, head tilts slightly forward\",\n        \"non_dominant_hand\": \"mirrors dominant hand\",\n        \"temporal_alignment\": \"part of a longer sequence of signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action is a facial and hand movement where both hands form thumbs pointing forward from the chest, accompanied by mouth opening and closing, occurring between 0.3 and 1.1 seconds. This contributes to the pragmatic emphasis of the phrase.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "thumbs pointing forward",
+          "movement": "hands move forward and slightly outward from chest",
+          "location": "chest",
+          "nonmanual": "mouth opens and closes, head tilts slightly forward",
+          "non_dominant_hand": "mirrors dominant hand",
+          "temporal_alignment": "part of a longer sequence of signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action is a facial and hand movement where both hands form thumbs pointing forward from the chest, accompanied by mouth opening and closing, occurring between 0.3 and 1.1 seconds. This contributes to the pragmatic emphasis of the phrase."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

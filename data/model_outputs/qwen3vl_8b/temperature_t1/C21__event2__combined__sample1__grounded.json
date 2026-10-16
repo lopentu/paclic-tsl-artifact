@@ -1,0 +1,55 @@
+{
+  "clip_id": "C21",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 391499095,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:29:53.433270",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both\",\n        \"handshape\": \"thumb and index finger extended, forming a 'shaka' or 'hang loose' gesture\",\n        \"movement\": \"both hands move from the chest area outward and slightly downward, then remain stationary\",\n        \"location\": \"in front of the chest, at approximately mid-chest level\",\n        \"nonmanual\": \"mouth open, lips pursed forward, eyes looking forward\",\n        \"non_dominant_hand\": \"left hand performs the gesture alongside the right\",\n        \"temporal_alignment\": \"the gesture begins at the start of the clip and holds steady through the end of the target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands form a conventionalized gesture (shaka) that is lexically used in TSL to signify 'a lot' or 'many' (matching the meaning '大量的'). The gesture is held steady, which is typical for lexical signs. The gesture is also highly affective, conveying a sense of ease, confidence, or casual positivity, which aligns with the pragmatic tone of the message 'now there are many resources online, it's really convenient'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both",
+          "handshape": "thumb and index finger extended, forming a 'shaka' or 'hang loose' gesture",
+          "movement": "both hands move from the chest area outward and slightly downward, then remain stationary",
+          "location": "in front of the chest, at approximately mid-chest level",
+          "nonmanual": "mouth open, lips pursed forward, eyes looking forward",
+          "non_dominant_hand": "left hand performs the gesture alongside the right",
+          "temporal_alignment": "the gesture begins at the start of the clip and holds steady through the end of the target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands form a conventionalized gesture (shaka) that is lexically used in TSL to signify 'a lot' or 'many' (matching the meaning '大量的'). The gesture is held steady, which is typical for lexical signs. The gesture is also highly affective, conveying a sense of ease, confidence, or casual positivity, which aligns with the pragmatic tone of the message 'now there are many resources online, it's really convenient'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

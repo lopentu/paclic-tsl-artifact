@@ -1,0 +1,55 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1966966142,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:56:08.064876",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"repeatedly taps the signer's own chin/neck area with the index finger\",\n        \"location\": \"at the signer's chin and neck\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly serious, lips pursed\",\n        \"non_dominant_hand\": \"the non-dominant hand performs the tapping gesture\",\n        \"temporal_alignment\": \"the gesture occurs within a continuous signed phrase, following a large open-hand gesture and preceding a hand movement toward the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement of tapping the chin/neck with the index finger is a conventionalized sign in TSL, representing 'to be important' or 'to be related to oneself' (semantic contribution). The repetitive tapping, combined with the signer's focused expression, adds emphasis and a sense of personal relevance or self-reference to the clause (pragmatic enrichment).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "repeatedly taps the signer's own chin/neck area with the index finger",
+          "location": "at the signer's chin and neck",
+          "nonmanual": "signer's facial expression is neutral to slightly serious, lips pursed",
+          "non_dominant_hand": "the non-dominant hand performs the tapping gesture",
+          "temporal_alignment": "the gesture occurs within a continuous signed phrase, following a large open-hand gesture and preceding a hand movement toward the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement of tapping the chin/neck with the index finger is a conventionalized sign in TSL, representing 'to be important' or 'to be related to oneself' (semantic contribution). The repetitive tapping, combined with the signer's focused expression, adds emphasis and a sense of personal relevance or self-reference to the clause (pragmatic enrichment)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

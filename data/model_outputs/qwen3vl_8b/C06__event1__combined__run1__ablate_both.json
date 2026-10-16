@@ -1,0 +1,48 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C06_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:07:38.360359",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3 seconds\",\n      \"end_time\": \"0.7 seconds\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a thumb-up (index finger extended, thumb up, other fingers curled). Left hand forms a flat, open palm.\",\n        \"movement\": \"The right hand (thumb-up) moves in a small, repeated up-and-down motion, while the left hand remains relatively still, palm facing up and slightly forward, acting as a stable base. The right hand's motion is rhythmic and emphatic.\",\n        \"location\": \"Right hand is positioned in front of the signer's chest, slightly to the right side of the midline. Left hand is positioned lower, near the signer's left chest, palm up.\",\n        \"nonmanual\": \"Signer's facial expression is neutral to slightly serious, with focused eyes and a steady gaze.\",\n        \"non_dominant_hand\": \"The left hand remains stationary, palm up, providing a stable base for the right hand's movement.\",\n        \"temporal_alignment\": \"The action begins at 0.3s, immediately following a previous sign (a hand moving across the chest), and is held for a short duration before transitioning to a new sign at 0.7s.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand's thumb-up gesture is a conventionalized lexical sign in TSL, often used to mean 'good', 'okay', or 'correct'. The rhythmic up-and-down motion adds emphasis and affect, making it more than just a static sign. The left hand's stable, open palm provides a clear contrast and grounding for the right hand's movement, enhancing the action's communicative force.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3 seconds",
+        "end_time": "0.7 seconds",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a thumb-up (index finger extended, thumb up, other fingers curled). Left hand forms a flat, open palm.",
+          "movement": "The right hand (thumb-up) moves in a small, repeated up-and-down motion, while the left hand remains relatively still, palm facing up and slightly forward, acting as a stable base. The right hand's motion is rhythmic and emphatic.",
+          "location": "Right hand is positioned in front of the signer's chest, slightly to the right side of the midline. Left hand is positioned lower, near the signer's left chest, palm up.",
+          "nonmanual": "Signer's facial expression is neutral to slightly serious, with focused eyes and a steady gaze.",
+          "non_dominant_hand": "The left hand remains stationary, palm up, providing a stable base for the right hand's movement.",
+          "temporal_alignment": "The action begins at 0.3s, immediately following a previous sign (a hand moving across the chest), and is held for a short duration before transitioning to a new sign at 0.7s."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand's thumb-up gesture is a conventionalized lexical sign in TSL, often used to mean 'good', 'okay', or 'correct'. The rhythmic up-and-down motion adds emphasis and affect, making it more than just a static sign. The left hand's stable, open palm provides a clear contrast and grounding for the right hand's movement, enhancing the action's communicative force."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

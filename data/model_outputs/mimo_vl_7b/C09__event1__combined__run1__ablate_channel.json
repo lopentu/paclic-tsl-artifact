@@ -1,0 +1,50 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C09_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:28:12.127729",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.8\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are used.\",\n          \"handshape\": \"Both hands are open, with fingers slightly spread and held together.\",\n          \"movement\": \"The hands move in a circular, rubbing motion, starting from the signer's right side and moving across the body to the left. The movement is smooth and continuous.\",\n          \"location\": \"The action is centered on the signer's chest and upper abdomen area.\",\n          \"nonmanual\": \"The head is still and facing forward. The eyes are focused forward. The eyebrows are slightly raised.\",\n          \"non_dominant_hand\": \"The non-dominant hand is not visible or is held still out of frame.\",\n          \"temporal_alignment\": \"The action is a continuous, flowing movement that bridges the space between two other manual signs, appearing to be a connecting or transitional gesture within a larger phrase.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 1,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The action is a continuous, flowing movement that bridges the space between two other manual signs, appearing to be a connecting or transitional gesture within a larger phrase.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "Both hands are open, with fingers slightly spread and held together.",
+          "movement": "The hands move in a circular, rubbing motion, starting from the signer's right side and moving across the body to the left. The movement is smooth and continuous.",
+          "location": "The action is centered on the signer's chest and upper abdomen area.",
+          "nonmanual": "The head is still and facing forward. The eyes are focused forward. The eyebrows are slightly raised.",
+          "non_dominant_hand": "The non-dominant hand is not visible or is held still out of frame.",
+          "temporal_alignment": "The action is a continuous, flowing movement that bridges the space between two other manual signs, appearing to be a connecting or transitional gesture within a larger phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 1,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The action is a continuous, flowing movement that bridges the space between two other manual signs, appearing to be a connecting or transitional gesture within a larger phrase."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

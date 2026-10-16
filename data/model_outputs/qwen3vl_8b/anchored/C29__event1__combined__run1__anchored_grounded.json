@@ -1,0 +1,54 @@
+{
+  "clip_id": "C29",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_c/C29_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C29_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:13:10.596494",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends upward and slightly forward, then moves in a small arc toward the signer's right side\",\n        \"location\": \"starts near the signer's right shoulder, moves upward and outward\",\n        \"nonmanual\": \"signer's head is tilted slightly forward, eyes are focused forward\",\n        \"non_dominant_hand\": \"resting on the signer's lap\",\n        \"temporal_alignment\": \"the action begins with the signer's hand near the shoulder, extends upward, and then moves outward in a small arc\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign for 'resistance' or 'opposition' in TSL. The upward motion and outward arc suggest a sense of pushing back or resistance, which aligns with the meaning 'I will have some resistance'. The movement is not purely descriptive but also indicates a direction or force, contributing to the pragmatic enrichment of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends upward and slightly forward, then moves in a small arc toward the signer's right side",
+          "location": "starts near the signer's right shoulder, moves upward and outward",
+          "nonmanual": "signer's head is tilted slightly forward, eyes are focused forward",
+          "non_dominant_hand": "resting on the signer's lap",
+          "temporal_alignment": "the action begins with the signer's hand near the shoulder, extends upward, and then moves outward in a small arc"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign for 'resistance' or 'opposition' in TSL. The upward motion and outward arc suggest a sense of pushing back or resistance, which aligns with the meaning 'I will have some resistance'. The movement is not purely descriptive but also indicates a direction or force, contributing to the pragmatic enrichment of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

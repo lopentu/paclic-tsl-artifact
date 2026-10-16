@@ -1,0 +1,55 @@
+{
+  "clip_id": "C10",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 411095605,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:25:09.915220",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves from near the signer's temple, upward and outward toward the viewer's right\",\n        \"location\": \"starts near the signer's right temple, moves to the right and slightly forward\",\n        \"nonmanual\": \"eyes open, mouth slightly open\",\n        \"non_dominant_hand\": \"resting on chest\",\n        \"temporal_alignment\": \"starts immediately after the previous sign, ends before the next sign begins\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement resemble a pointing gesture that is conventionalized in TSL for 'teacher' or 'instructor'. The upward and outward movement, combined with the eye contact, indicates a specific referent (the 'good teacher' mentioned in the context) and conveys emphasis or importance. The gesture is not just a lexical sign but also points to the referent.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves from near the signer's temple, upward and outward toward the viewer's right",
+          "location": "starts near the signer's right temple, moves to the right and slightly forward",
+          "nonmanual": "eyes open, mouth slightly open",
+          "non_dominant_hand": "resting on chest",
+          "temporal_alignment": "starts immediately after the previous sign, ends before the next sign begins"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement resemble a pointing gesture that is conventionalized in TSL for 'teacher' or 'instructor'. The upward and outward movement, combined with the eye contact, indicates a specific referent (the 'good teacher' mentioned in the context) and conveys emphasis or importance. The gesture is not just a lexical sign but also points to the referent."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

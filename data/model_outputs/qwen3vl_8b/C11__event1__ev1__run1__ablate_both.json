@@ -1,0 +1,48 @@
+{
+  "clip_id": "C11",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:12:24.207178",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"fist\",\n        \"movement\": \"repeatedly taps or strikes the air in front of the chest, moving slightly up and down\",\n        \"location\": \"in front of the signer's chest, at midline\",\n        \"nonmanual\": \"signer's face is neutral, eyes are open and looking forward\",\n        \"non_dominant_hand\": \"resting on the signer's lap or lower torso, not moving\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.6s, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The repeated tapping motion with a closed fist is a conventionalized sign in TSL that typically conveys a concept like 'hit', 'strike', or 'beat'. The action is clearly a lexical sign, not a depictive or indicating gesture. The rhythmic repetition and the forceful nature of the taps add emphasis and affect, making the action more vivid and expressive than a simple static sign.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "fist",
+          "movement": "repeatedly taps or strikes the air in front of the chest, moving slightly up and down",
+          "location": "in front of the signer's chest, at midline",
+          "nonmanual": "signer's face is neutral, eyes are open and looking forward",
+          "non_dominant_hand": "resting on the signer's lap or lower torso, not moving",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.6s, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The repeated tapping motion with a closed fist is a conventionalized sign in TSL that typically conveys a concept like 'hit', 'strike', or 'beat'. The action is clearly a lexical sign, not a depictive or indicating gesture. The rhythmic repetition and the forceful nature of the taps add emphasis and affect, making the action more vivid and expressive than a simple static sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

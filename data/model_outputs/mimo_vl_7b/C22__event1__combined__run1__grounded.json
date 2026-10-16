@@ -1,0 +1,50 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C22_window_model.mp4",
+  "video_id": "S01EP12",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:02:33.934659",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.8\",\n        \"channel_judged\": \"head_torso\",\n        \"form_description\": {\n          \"hands\": \"Both hands are held in a relaxed, resting position in the lap area, out of the main signing space.\",\n          \"handshape\": \"Not visible.\",\n          \"movement\": \"The signer's torso and head perform a distinct, slow, and deliberate forward and backward tilting motion. The head tilts forward, then back, then forward again.\",\n          \"location\": \"The movement is centered on the signer's upper body, originating from the shoulders and chest.\",\n          \"nonmanual\": \"The facial expression is serious and focused. The eyebrows are slightly raised, and the mouth is slightly open as if in the middle of a sentence. The eyes are directed forward and slightly upward.\",\n          \"non_dominant_hand\": \"The non-dominant hand is not actively signing and is held low, out of the main signing space.\",\n          \"temporal_alignment\": \"The action is a single, continuous unit that occurs in the middle of a continuous signing flow. It is not a pause but a distinct movement within a larger phrase.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 0,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The slow, deliberate forward and backward tilt of the torso and head is a clear non-manual marker. The surrounding signing is continuous, placing this movement as a grammatical or discourse marker. The serious facial expression suggests it carries pragmatic weight, likely indicating a pause for thought or a shift in the discourse structure.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "Both hands are held in a relaxed, resting position in the lap area, out of the main signing space.",
+          "handshape": "Not visible.",
+          "movement": "The signer's torso and head perform a distinct, slow, and deliberate forward and backward tilting motion. The head tilts forward, then back, then forward again.",
+          "location": "The movement is centered on the signer's upper body, originating from the shoulders and chest.",
+          "nonmanual": "The facial expression is serious and focused. The eyebrows are slightly raised, and the mouth is slightly open as if in the middle of a sentence. The eyes are directed forward and slightly upward.",
+          "non_dominant_hand": "The non-dominant hand is not actively signing and is held low, out of the main signing space.",
+          "temporal_alignment": "The action is a single, continuous unit that occurs in the middle of a continuous signing flow. It is not a pause but a distinct movement within a larger phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The slow, deliberate forward and backward tilt of the torso and head is a clear non-manual marker. The surrounding signing is continuous, placing this movement as a grammatical or discourse marker. The serious facial expression suggests it carries pragmatic weight, likely indicating a pause for thought or a shift in the discourse structure."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

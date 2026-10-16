@@ -1,0 +1,49 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:55:52.566529",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"not visible or not carrying the action\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head and upper body move in a rhythmic, emphatic motion: head tilts back and forward, shoulders rise and fall, and the torso sways slightly, all while the mouth is open and expressive\",\n        \"location\": \"center of frame, facing forward\",\n        \"nonmanual\": \"mouth is open wide and expressive, facial expression is intense and emotive\",\n        \"non_dominant_hand\": \"not visible or not carrying the action\",\n        \"temporal_alignment\": \"the action begins with the head tilting back and the mouth opening wide, and ends with the head returning to a neutral position and the mouth closing, spanning the entire target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The head and torso movement is synchronized with the open mouth and intense facial expression, suggesting strong affective emphasis. The action spans the entire target span and is not a single sign but a sustained, rhythmic motion that conveys emotional intensity and conviction, which is central to the message 'I can be self-reliant' (自立自強).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "not visible or not carrying the action",
+          "handshape": "not applicable",
+          "movement": "head and upper body move in a rhythmic, emphatic motion: head tilts back and forward, shoulders rise and fall, and the torso sways slightly, all while the mouth is open and expressive",
+          "location": "center of frame, facing forward",
+          "nonmanual": "mouth is open wide and expressive, facial expression is intense and emotive",
+          "non_dominant_hand": "not visible or not carrying the action",
+          "temporal_alignment": "the action begins with the head tilting back and the mouth opening wide, and ends with the head returning to a neutral position and the mouth closing, spanning the entire target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The head and torso movement is synchronized with the open mouth and intense facial expression, suggesting strong affective emphasis. The action spans the entire target span and is not a single sign but a sustained, rhythmic motion that conveys emotional intensity and conviction, which is central to the message 'I can be self-reliant' (自立自強)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

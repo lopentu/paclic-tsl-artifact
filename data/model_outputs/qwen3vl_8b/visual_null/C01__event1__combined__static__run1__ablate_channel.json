@@ -1,0 +1,53 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/static/C01_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C01_window_model.mp4",
+  "video_id": "S01EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:41:47.515642",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"not visible or not carrying the main action\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head tilted slightly back and to the right, with a raised right hand near the forehead, palm facing inward, fingers slightly curled\",\n        \"location\": \"right hand near the right temple, head tilted back\",\n        \"nonmanual\": \"eyes looking upward and slightly to the right, mouth slightly open\",\n        \"non_dominant_hand\": \"not visible or not carrying the main action\",\n        \"temporal_alignment\": \"the action occurs within a sustained signing unit, following a previous gesture and preceding a new one\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The head tilt and raised hand gesture are a conventionalized sign in TSL for 'law' or 'regulation', which is semantically relevant to the topic of the law being discussed. The upward gaze and slightly open mouth add emphasis and a sense of formality or importance to the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "not visible or not carrying the main action",
+          "handshape": "not applicable",
+          "movement": "head tilted slightly back and to the right, with a raised right hand near the forehead, palm facing inward, fingers slightly curled",
+          "location": "right hand near the right temple, head tilted back",
+          "nonmanual": "eyes looking upward and slightly to the right, mouth slightly open",
+          "non_dominant_hand": "not visible or not carrying the main action",
+          "temporal_alignment": "the action occurs within a sustained signing unit, following a previous gesture and preceding a new one"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The head tilt and raised hand gesture are a conventionalized sign in TSL for 'law' or 'regulation', which is semantically relevant to the topic of the law being discussed. The upward gaze and slightly open mouth add emphasis and a sense of formality or importance to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

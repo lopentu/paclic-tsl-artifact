@@ -1,0 +1,53 @@
+{
+  "clip_id": "C33",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C33_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C33_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:08:09.754734",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"thumb and index finger extended, forming a 'shaka' or 'call me' gesture, with other fingers curled\",\n        \"movement\": \"hands move in a rhythmic, alternating motion: one hand moves forward and slightly outward, then the other, then back to the center, repeating the pattern\",\n        \"location\": \"centered in front of the signer's chest, at approximately shoulder height\",\n        \"nonmanual\": \"signer's mouth is open and moving, indicating speech or emphasis; head remains relatively still\",\n        \"non_dominant_hand\": \"non-dominant hand mirrors the dominant hand's movement, maintaining the same gesture\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, starting after a preparatory gesture and ending before a subsequent movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The gesture is repeated rhythmically, suggesting emphasis or a rhetorical question, which aligns with the meaning '你有沒有想過' (Have you thought about it?). The hands are held in a conventionalized form that likely represents a concept or question, contributing to the propositional structure. The rhythmic, alternating motion and the open mouth convey a strong affective and emphatic tone, enhancing the question's urgency or importance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "thumb and index finger extended, forming a 'shaka' or 'call me' gesture, with other fingers curled",
+          "movement": "hands move in a rhythmic, alternating motion: one hand moves forward and slightly outward, then the other, then back to the center, repeating the pattern",
+          "location": "centered in front of the signer's chest, at approximately shoulder height",
+          "nonmanual": "signer's mouth is open and moving, indicating speech or emphasis; head remains relatively still",
+          "non_dominant_hand": "non-dominant hand mirrors the dominant hand's movement, maintaining the same gesture",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, starting after a preparatory gesture and ending before a subsequent movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The gesture is repeated rhythmically, suggesting emphasis or a rhetorical question, which aligns with the meaning '你有沒有想過' (Have you thought about it?). The hands are held in a conventionalized form that likely represents a concept or question, contributing to the propositional structure. The rhythmic, alternating motion and the open mouth convey a strong affective and emphatic tone, enhancing the question's urgency or importance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,36 @@
+{
+  "clip_id": "C04",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "face",
+  "label_channel_sent": "face",
+  "label_is_correct": true,
+  "video_id": "S01EP05",
+  "source_run": "C04__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: facial expression with pursed lips and slight head tilt\n- location: center of face\n- nonmanual: pursed lips, slight head tilt\n- temporal alignment: co-occurs with the signing of '對' (to) and '台灣手語' (Taiwan Sign Language), and precedes the signing of '教學' (teaching)",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:16:54.430562",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 2,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 1,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The facial expression with pursed lips and slight head tilt likely conveys a tone of mild emphasis or engagement, aligning with the propositional content about interest in Taiwan Sign Language teaching. It adds affective enrichment by signaling the signer’s stance or attitude toward the topic. It is not indicating a specific referent or enacting a vivid scene, but it does depict a subtle emotional or attitudinal state. The action is not essential to the grammatical structure or core meaning, but it enhances the pragmatic delivery.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 0,
+    "depiction": 1,
+    "confidence": 0.85,
+    "reasoning": "The facial expression with pursed lips and slight head tilt likely conveys a tone of mild emphasis or engagement, aligning with the propositional content about interest in Taiwan Sign Language teaching. It adds affective enrichment by signaling the signer’s stance or attitude toward the topic. It is not indicating a specific referent or enacting a vivid scene, but it does depict a subtle emotional or attitudinal state. The action is not essential to the grammatical structure or core meaning, but it enhances the pragmatic delivery."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

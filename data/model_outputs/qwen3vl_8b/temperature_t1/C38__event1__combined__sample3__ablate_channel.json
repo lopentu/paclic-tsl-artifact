@@ -1,0 +1,55 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1306996239,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:51:47.565373",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand (right) and non-dominant hand (left)\",\n        \"handshape\": \"right hand forms a 'thumbs-up' or 'OK' sign; left hand forms a 'thumbs-up' or 'OK' sign\",\n        \"movement\": \"right hand moves from the signer's right shoulder area down to the left shoulder area, then stops; left hand remains stationary in a 'thumbs-up' or 'OK' sign\",\n        \"location\": \"right hand moves from the signer's right shoulder area down to the left shoulder area; left hand remains stationary at the signer's left shoulder area\",\n        \"nonmanual\": \"signer's head tilts slightly to the right; signer's facial expression remains neutral\",\n        \"non_dominant_hand\": \"left hand remains stationary in a 'thumbs-up' or 'OK' sign\",\n        \"temporal_alignment\": \"the action begins immediately after the previous sign and ends before the next sign\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand moves from the signer's right shoulder area down to the left shoulder area, indicating a movement from one point to another, which is consistent with the meaning 'from small' in the given phrase. The left hand remains stationary in a 'thumbs-up' or 'OK' sign, which adds emphasis and affect to the signing, indicating a positive or affirming stance. The signer's head tilts slightly to the right, which adds to the affective enrichment of the signing.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand (right) and non-dominant hand (left)",
+          "handshape": "right hand forms a 'thumbs-up' or 'OK' sign; left hand forms a 'thumbs-up' or 'OK' sign",
+          "movement": "right hand moves from the signer's right shoulder area down to the left shoulder area, then stops; left hand remains stationary in a 'thumbs-up' or 'OK' sign",
+          "location": "right hand moves from the signer's right shoulder area down to the left shoulder area; left hand remains stationary at the signer's left shoulder area",
+          "nonmanual": "signer's head tilts slightly to the right; signer's facial expression remains neutral",
+          "non_dominant_hand": "left hand remains stationary in a 'thumbs-up' or 'OK' sign",
+          "temporal_alignment": "the action begins immediately after the previous sign and ends before the next sign"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand moves from the signer's right shoulder area down to the left shoulder area, indicating a movement from one point to another, which is consistent with the meaning 'from small' in the given phrase. The left hand remains stationary in a 'thumbs-up' or 'OK' sign, which adds emphasis and affect to the signing, indicating a positive or affirming stance. The signer's head tilts slightly to the right, which adds to the affective enrichment of the signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

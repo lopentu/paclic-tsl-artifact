@@ -1,0 +1,55 @@
+{
+  "clip_id": "C18",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1632320319,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:58:36.466648",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended; left hand: index finger extended\",\n        \"movement\": \"right hand moves from the signer's right side toward the center, then moves downward and inward, ending with the index finger pointing to the left hand's index finger. The left hand remains relatively stationary, with its index finger pointing forward.\",\n        \"location\": \"initially right hand near the signer's right side, then moving to center and pointing at left hand's index finger\",\n        \"nonmanual\": \"neutral facial expression, no significant head or torso movement\",\n        \"non_dominant_hand\": \"left hand remains stationary, index finger extended and pointing forward\",\n        \"temporal_alignment\": \"the action begins after a gesture with both hands open and moving outward, and ends before a gesture where the right hand moves outward and upward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand moves toward and points at the left hand's index finger, indicating a specific referent or object. The gesture is a conventionalized sign in TSL that marks the relationship between two entities or concepts, contributing to the grammatical structure. The pointing action also serves to emphasize or highlight the referent being discussed, adding pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended; left hand: index finger extended",
+          "movement": "right hand moves from the signer's right side toward the center, then moves downward and inward, ending with the index finger pointing to the left hand's index finger. The left hand remains relatively stationary, with its index finger pointing forward.",
+          "location": "initially right hand near the signer's right side, then moving to center and pointing at left hand's index finger",
+          "nonmanual": "neutral facial expression, no significant head or torso movement",
+          "non_dominant_hand": "left hand remains stationary, index finger extended and pointing forward",
+          "temporal_alignment": "the action begins after a gesture with both hands open and moving outward, and ends before a gesture where the right hand moves outward and upward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand moves toward and points at the left hand's index finger, indicating a specific referent or object. The gesture is a conventionalized sign in TSL that marks the relationship between two entities or concepts, contributing to the grammatical structure. The pointing action also serves to emphasize or highlight the referent being discussed, adding pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

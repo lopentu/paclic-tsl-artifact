@@ -1,0 +1,55 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1599300987,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:37:43.816637",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's left eye to the right side of the head, then back to near the left eye\",\n        \"location\": \"in front of the signer's face, near the forehead and temple area\",\n        \"nonmanual\": \"no visible nonmanual activity\",\n        \"non_dominant_hand\": \"not visible or not actively involved\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing stretch, beginning after a hand gesture near the chest and before a hand gesture near the mouth\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The action is a manual sign that moves across the head, indicating a temporal or directional aspect relevant to the legal enactment topic. The movement path and the handshape suggest a directional or locative marking that adds vividness and emphasis to the propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's left eye to the right side of the head, then back to near the left eye",
+          "location": "in front of the signer's face, near the forehead and temple area",
+          "nonmanual": "no visible nonmanual activity",
+          "non_dominant_hand": "not visible or not actively involved",
+          "temporal_alignment": "the action occurs within a continuous signing stretch, beginning after a hand gesture near the chest and before a hand gesture near the mouth"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The action is a manual sign that moves across the head, indicating a temporal or directional aspect relevant to the legal enactment topic. The movement path and the handshape suggest a directional or locative marking that adds vividness and emphasis to the propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

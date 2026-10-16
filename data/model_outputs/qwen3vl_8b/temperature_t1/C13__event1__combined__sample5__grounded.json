@@ -1,0 +1,55 @@
+{
+  "clip_id": "C13",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1018925189,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:26:56.648703",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers spread\",\n        \"movement\": \"moves from a position near the signer's chest outward and slightly upward, then slowly closes into a fist\",\n        \"location\": \"starts near the signer's chest, moves to the left side of the signer's body (signer's left)\",\n        \"nonmanual\": \"signer's facial expression remains neutral\",\n        \"non_dominant_hand\": \"the non-dominant hand begins with an open palm, moves outward and upward, then closes into a fist\",\n        \"temporal_alignment\": \"the action occurs within a larger signing sequence, following a gesture with the dominant hand and preceding a pointing gesture with the non-dominant hand\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are conventionalized as a lexical sign in TSL, contributing to the propositional content of the utterance. The outward motion and subsequent closing into a fist add emphasis and a sense of completion or conclusion to the action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers spread",
+          "movement": "moves from a position near the signer's chest outward and slightly upward, then slowly closes into a fist",
+          "location": "starts near the signer's chest, moves to the left side of the signer's body (signer's left)",
+          "nonmanual": "signer's facial expression remains neutral",
+          "non_dominant_hand": "the non-dominant hand begins with an open palm, moves outward and upward, then closes into a fist",
+          "temporal_alignment": "the action occurs within a larger signing sequence, following a gesture with the dominant hand and preceding a pointing gesture with the non-dominant hand"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are conventionalized as a lexical sign in TSL, contributing to the propositional content of the utterance. The outward motion and subsequent closing into a fist add emphasis and a sense of completion or conclusion to the action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

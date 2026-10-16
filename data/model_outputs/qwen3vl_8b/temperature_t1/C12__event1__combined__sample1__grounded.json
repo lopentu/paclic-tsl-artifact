@@ -1,0 +1,55 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1815401668,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:25:56.243881",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves in a small, repeated circular motion, then moves downward in a slight arc\",\n        \"location\": \"near the signer's chin, moving slightly forward and down\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly pensive\",\n        \"non_dominant_hand\": \"the non-dominant hand's index finger is the primary articulator, performing a small, repetitive circular motion followed by a downward arc\",\n        \"temporal_alignment\": \"the action begins after the signer has raised her hand with an open palm (a gesture of surprise or emphasis) and is part of a sequence where the dominant hand is held steady with the index finger extended, indicating a contrast or comparison\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand's circular motion and downward arc visually echo the semantic contrast implied by the phrase '然而' (however), suggesting a shift or a counterpoint. The motion is small and controlled, enhancing the pragmatic tone of the statement without being overly dramatic, thus enriching the affective weight of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves in a small, repeated circular motion, then moves downward in a slight arc",
+          "location": "near the signer's chin, moving slightly forward and down",
+          "nonmanual": "signer's facial expression is neutral to slightly pensive",
+          "non_dominant_hand": "the non-dominant hand's index finger is the primary articulator, performing a small, repetitive circular motion followed by a downward arc",
+          "temporal_alignment": "the action begins after the signer has raised her hand with an open palm (a gesture of surprise or emphasis) and is part of a sequence where the dominant hand is held steady with the index finger extended, indicating a contrast or comparison"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand's circular motion and downward arc visually echo the semantic contrast implied by the phrase '然而' (however), suggesting a shift or a counterpoint. The motion is small and controlled, enhancing the pragmatic tone of the statement without being overly dramatic, thus enriching the affective weight of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

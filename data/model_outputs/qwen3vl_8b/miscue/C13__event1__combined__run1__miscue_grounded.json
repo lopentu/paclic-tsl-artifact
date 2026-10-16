@@ -1,0 +1,54 @@
+{
+  "clip_id": "C13",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "non_dominant_hand",
+  "target_channel_cued": "face",
+  "video_path": "<repo>/data/clips_c/C13_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C13_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:01:18.624442",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"dominant hand raised, palm open, fingers extended; non-dominant hand pointing\",\n        \"handshape\": \"dominant hand: open palm; non-dominant hand: index finger extended\",\n        \"movement\": \"dominant hand moves from open palm to a more closed, pinching gesture; non-dominant hand remains pointing\",\n        \"location\": \"dominant hand near signer's right side; non-dominant hand pointing to the right\",\n        \"nonmanual\": \"eyes look down and to the right, mouth slightly pursed\",\n        \"non_dominant_hand\": \"pointing finger remains steady\",\n        \"temporal_alignment\": \"starts with the dominant hand moving and ends with the non-dominant hand pointing\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The facial expression (eyes looking down, mouth pursed) and the pointing gesture with the non-dominant hand suggest emphasis or a specific referent, contributing to the pragmatic meaning. The movement of the dominant hand from open to closed may indicate a change in state or focus, adding to the semantic load.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "dominant hand raised, palm open, fingers extended; non-dominant hand pointing",
+          "handshape": "dominant hand: open palm; non-dominant hand: index finger extended",
+          "movement": "dominant hand moves from open palm to a more closed, pinching gesture; non-dominant hand remains pointing",
+          "location": "dominant hand near signer's right side; non-dominant hand pointing to the right",
+          "nonmanual": "eyes look down and to the right, mouth slightly pursed",
+          "non_dominant_hand": "pointing finger remains steady",
+          "temporal_alignment": "starts with the dominant hand moving and ends with the non-dominant hand pointing"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression (eyes looking down, mouth pursed) and the pointing gesture with the non-dominant hand suggest emphasis or a specific referent, contributing to the pragmatic meaning. The movement of the dominant hand from open to closed may indicate a change in state or focus, adding to the semantic load."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

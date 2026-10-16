@@ -1,0 +1,55 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1988434894,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:27:12.656226",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"2.3\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression remains relatively static, with slight mouth movements and consistent eye contact with the camera\",\n        \"location\": \"center of signer's face\",\n        \"nonmanual\": \"mouth slightly open and moving in a way consistent with speech articulation, eyes focused forward\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression persists throughout the entire target span, accompanying the signing without distinct phase changes\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's facial expression remains focused and engaged throughout the clip, consistent with the delivery of a message about helping children. This sustained expression supports the propositional content by conveying earnestness or emphasis. The mouth movements are synchronized with speech, which is part of the conventionalized linguistic form in TSL that conveys propositional content, even if the face itself is not performing a lexical sign.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "2.3",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression remains relatively static, with slight mouth movements and consistent eye contact with the camera",
+          "location": "center of signer's face",
+          "nonmanual": "mouth slightly open and moving in a way consistent with speech articulation, eyes focused forward",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression persists throughout the entire target span, accompanying the signing without distinct phase changes"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's facial expression remains focused and engaged throughout the clip, consistent with the delivery of a message about helping children. This sustained expression supports the propositional content by conveying earnestness or emphasis. The mouth movements are synchronized with speech, which is part of the conventionalized linguistic form in TSL that conveys propositional content, even if the face itself is not performing a lexical sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T21:41:03.208563",
+  "backend_call_info": {
+    "frames_per_video": [
+      46,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.8462,
+      14.5309
+    ],
+    "input_tokens": 6517,
+    "output_tokens": 316
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:01\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Open/cupped\",\n        \"movement\": \"Small, repetitive, inward and outward tapping/pounding motion\",\n        \"location\": \"In front of the signer's chest/torso\",\n        \"nonmanual\": \"Neutral\",\n        \"non_dominant_hand\": \"Not distinctly separate from the dominant hand action\",\n        \"temporal_alignment\": \"The action occurs early in the clip, preceding the more distinct pointing gestures.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.85,\n      \"observable_evidence\": \"The signer uses both hands in a small, rhythmic tapping motion in front of their chest. This action appears to be part of a general expressive gesture rather than a clear lexical sign.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:01",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Open/cupped",
+          "movement": "Small, repetitive, inward and outward tapping/pounding motion",
+          "location": "In front of the signer's chest/torso",
+          "nonmanual": "Neutral",
+          "non_dominant_hand": "Not distinctly separate from the dominant hand action",
+          "temporal_alignment": "The action occurs early in the clip, preceding the more distinct pointing gestures."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.85,
+        "observable_evidence": "The signer uses both hands in a small, rhythmic tapping motion in front of their chest. This action appears to be part of a general expressive gesture rather than a clear lexical sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,12 @@
+clip_id,event_id,clip_kind,run_index,perception_score,human_d1,human_d2,model_d1,model_d2,abs_err_d1,abs_err_d2,under_attribution_d1,over_attribution_d2,human_description,model_description,abs_err_description,human_indication,model_indication,abs_err_indication,human_depiction,model_depiction,abs_err_depiction
+C02,event1,combined,1,2.0,3.0,0.0,2,3,1.0,3.0,False,True,0.0,2,2.0,3.0,1,2.0,0.0,0,0.0
+C10,event1,combined,1,2.0,3.0,0.0,2,2,1.0,2.0,False,True,3.0,2,1.0,3.0,1,2.0,0.0,0,0.0
+C17,event1,combined,1,2.0,3.0,0.0,2,2,1.0,2.0,False,True,2.0,2,0.0,2.0,0,2.0,0.0,0,0.0
+C17,event2,combined,1,2.0,3.0,0.5,2,1,1.0,0.5,False,False,3.0,2,1.0,0.0,0,0.0,0.0,0,0.0
+C19,event2,combined,1,2.0,3.0,0.0,2,2,1.0,2.0,False,True,3.0,2,1.0,3.0,1,2.0,0.0,1,1.0
+C20,event1,combined,1,2.0,3.0,0.0,1,1,2.0,1.0,True,False,3.0,1,2.0,3.0,0,3.0,0.0,0,0.0
+C21,event2,combined,1,2.0,3.0,0.0,2,3,1.0,3.0,False,True,3.0,2,1.0,0.0,0,0.0,0.0,0,0.0
+C22,event1,combined,1,2.0,0.5,2.0,1,2,0.5,0.0,False,False,0.0,1,1.0,0.0,0,0.0,0.0,0,0.0
+C24,event1,combined,1,2.0,3.0,0.0,2,2,1.0,2.0,False,True,3.0,2,1.0,0.0,1,1.0,0.0,0,0.0
+C26,event1,combined,1,2.0,3.0,0.0,2,3,1.0,3.0,False,True,3.0,2,1.0,0.0,0,0.0,0.0,0,0.0
+C35,event1,combined,1,2.0,3.0,0.0,2,2,1.0,2.0,False,True,0.0,2,2.0,3.0,1,2.0,0.0,1,1.0

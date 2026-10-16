@@ -1,0 +1,36 @@
+{
+  "clip_id": "C20",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "manual",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S01EP11",
+  "source_run": "C20__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 1,
+    "description": 2,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: index finger extended, other fingers curled\n- movement: index finger extends forward and then moves slightly downward and inward toward the signer's chest\n- location: starts near the signer's chin, moves to the center of the chest\n- nonmanual: mouth slightly open, neutral facial expression\n- non dominant hand: resting at the signer's side, not moving\n- temporal alignment: the action occurs within a continuous signing sequence, immediately following a hand gesture near the face and preceding a hand movement toward the chest",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:14:04.471649",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 2,\n  \"pragmatic_depictive_affective_enrichment\": 1,\n  \"description\": 3,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The action with index finger extending forward and moving inward toward the chest is a conventionalized gesture in Taiwan Sign Language that encodes 'it is possible' or 'no problem' — directly contributing to the propositional content of the utterance. It is not primarily depictive or affective, but adds mild pragmatic emphasis. The gesture is also a form of indication (pointing toward the self or chest to indicate the speaker’s stance).\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 1,
+    "description": 3,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The action with index finger extending forward and moving inward toward the chest is a conventionalized gesture in Taiwan Sign Language that encodes 'it is possible' or 'no problem' — directly contributing to the propositional content of the utterance. It is not primarily depictive or affective, but adds mild pragmatic emphasis. The gesture is also a form of indication (pointing toward the self or chest to indicate the speaker’s stance)."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

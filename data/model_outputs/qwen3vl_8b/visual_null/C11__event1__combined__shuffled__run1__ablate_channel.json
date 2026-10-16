@@ -1,0 +1,53 @@
+{
+  "clip_id": "C11",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C11_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C11_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:59:54.751142",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends forward and slightly upward, then retracts\",\n        \"location\": \"in front of the signer's chest, moving from slightly lower to higher\",\n        \"nonmanual\": \"neutral facial expression\",\n        \"non_dominant_hand\": \"resting, slightly curled, near the signer's waist\",\n        \"temporal_alignment\": \"the action occurs within a repeated sequence of similar gestures, appearing as a single, distinct unit within the broader signing\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The gesture is a conventionalized lexical sign in TSL, likely representing 'choose' or 'select', which is central to the meaning '選擇合適的老師也是一門學問吧！'. The forward extension of the index finger indicates a specific choice or selection, adding emphasis and directionality to the propositional content. The gesture is repeated and integrated into a larger sequence, suggesting it is a core component of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends forward and slightly upward, then retracts",
+          "location": "in front of the signer's chest, moving from slightly lower to higher",
+          "nonmanual": "neutral facial expression",
+          "non_dominant_hand": "resting, slightly curled, near the signer's waist",
+          "temporal_alignment": "the action occurs within a repeated sequence of similar gestures, appearing as a single, distinct unit within the broader signing"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The gesture is a conventionalized lexical sign in TSL, likely representing 'choose' or 'select', which is central to the meaning '選擇合適的老師也是一門學問吧！'. The forward extension of the index finger indicates a specific choice or selection, adding emphasis and directionality to the propositional content. The gesture is repeated and integrated into a larger sequence, suggesting it is a core component of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

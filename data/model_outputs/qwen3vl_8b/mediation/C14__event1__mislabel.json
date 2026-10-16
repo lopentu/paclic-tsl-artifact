@@ -1,0 +1,36 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "face",
+  "label_channel_sent": "manual",
+  "label_is_correct": false,
+  "video_id": "S01EP11",
+  "source_run": "C14__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: facial expression with mouth slightly open and eyebrows slightly raised, conveying emphasis or explanation\n- location: face\n- nonmanual: facial expression with mouth slightly open and eyebrows slightly raised, conveying emphasis or explanation\n- temporal alignment: the facial expression coincides with the signing of the phrase, providing affective emphasis to the message",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:23:10.719448",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 0,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 0,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The facial expression adds emphasis and affective tone to the message, enhancing the speaker's stance without altering propositional content. It is a conventionalized nonmanual marker for emphasis, thus scoring high on pragmatic enrichment and moderate on description. It does not indicate or depict anything physically.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 0,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 0,
+    "depiction": 0,
+    "confidence": 0.95,
+    "reasoning": "The facial expression adds emphasis and affective tone to the message, enhancing the speaker's stance without altering propositional content. It is a conventionalized nonmanual marker for emphasis, thus scoring high on pragmatic enrichment and moderate on description. It does not indicate or depict anything physically."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

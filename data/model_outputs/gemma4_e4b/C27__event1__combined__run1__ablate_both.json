@@ -1,0 +1,61 @@
+{
+  "clip_id": "C27",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C27_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T22:50:31.761441",
+  "backend_call_info": {
+    "frames_per_video": [
+      64,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.5942,
+      15.54
+    ],
+    "input_tokens": 7687,
+    "output_tokens": 315
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:01\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Index fingers extended, other fingers curled\",\n        \"movement\": \"Small, repetitive tapping/pounding motion\",\n        \"location\": \"In front of the chest/torso\",\n        \"nonmanual\": \"Neutral to slightly engaged facial expression\",\n        \"non_dominant_hand\": \"Not distinctly separate from the dominant hand action\",\n        \"temporal_alignment\": \"The action occurs within a continuous sequence of similar movements.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer is making small, repetitive tapping motions with both index fingers held up in front of their chest. This action appears to be used for emphasis or rhythm rather than conveying a specific lexical meaning.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:01",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Index fingers extended, other fingers curled",
+          "movement": "Small, repetitive tapping/pounding motion",
+          "location": "In front of the chest/torso",
+          "nonmanual": "Neutral to slightly engaged facial expression",
+          "non_dominant_hand": "Not distinctly separate from the dominant hand action",
+          "temporal_alignment": "The action occurs within a continuous sequence of similar movements."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer is making small, repetitive tapping motions with both index fingers held up in front of their chest. This action appears to be used for emphasis or rhythm rather than conveying a specific lexical meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

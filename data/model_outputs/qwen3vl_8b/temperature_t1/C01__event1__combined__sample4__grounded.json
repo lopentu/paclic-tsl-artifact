@@ -1,0 +1,55 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1517264292,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:52:56.127419",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"index finger moves from lower right to upper left, then holds steady\",\n        \"location\": \"moves from near the signer's right shoulder to near the upper left side of the signer's face\",\n        \"nonmanual\": \"signer's gaze follows the finger's movement\",\n        \"non_dominant_hand\": \"the non-dominant hand's index finger traces an upward arc from the signer's right shoulder toward the upper left side of the signer's head\",\n        \"temporal_alignment\": \"the action begins after the signer's dominant hand has completed a gesture and before the next gesture begins, marking a transition or emphasizing a point\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The finger points upward and to the left, a direction that may indicate a specific entity or concept related to the signed message. The action is held steady for a moment, suggesting emphasis or highlighting a key point in the discourse. The signer's gaze follows the finger, reinforcing the directional focus and the importance of the pointed location.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended",
+          "movement": "index finger moves from lower right to upper left, then holds steady",
+          "location": "moves from near the signer's right shoulder to near the upper left side of the signer's face",
+          "nonmanual": "signer's gaze follows the finger's movement",
+          "non_dominant_hand": "the non-dominant hand's index finger traces an upward arc from the signer's right shoulder toward the upper left side of the signer's head",
+          "temporal_alignment": "the action begins after the signer's dominant hand has completed a gesture and before the next gesture begins, marking a transition or emphasizing a point"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The finger points upward and to the left, a direction that may indicate a specific entity or concept related to the signed message. The action is held steady for a moment, suggesting emphasis or highlighting a key point in the discourse. The signer's gaze follows the finger, reinforcing the directional focus and the importance of the pointed location."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

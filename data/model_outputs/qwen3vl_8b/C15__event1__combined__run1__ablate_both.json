@@ -1,0 +1,48 @@
+{
+  "clip_id": "C15",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C15_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:15:35.095245",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from right to left across the signer's face, then down to the chest\",\n        \"location\": \"starts near the right eye, moves across the face to the left, then down to the chest\",\n        \"nonmanual\": \"signer's mouth is slightly open, eyes focused forward\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action occurs within a larger signing unit, following a head gesture and preceding a chest gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL, likely indicating a specific person or entity. The movement across the face and down to the chest suggests a directional path, which is a common grammatical marker for location or movement in TSL. The action is also visually distinct and appears to be an integral part of the signing unit, contributing to the overall meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from right to left across the signer's face, then down to the chest",
+          "location": "starts near the right eye, moves across the face to the left, then down to the chest",
+          "nonmanual": "signer's mouth is slightly open, eyes focused forward",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action occurs within a larger signing unit, following a head gesture and preceding a chest gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL, likely indicating a specific person or entity. The movement across the face and down to the chest suggests a directional path, which is a common grammatical marker for location or movement in TSL. The action is also visually distinct and appears to be an integral part of the signing unit, contributing to the overall meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

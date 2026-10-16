@@ -1,0 +1,55 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 169985528,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:13:43.617798",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a 'thumbs-up' shape; left hand forms an open palm\",\n        \"movement\": \"Right hand moves from a neutral position to a 'thumbs-up' orientation, held steady. Left hand moves from a neutral position to cross over the right hand, palm facing inward, then moves back to a neutral position.\",\n        \"location\": \"Centered in front of the signer's chest, at midline\",\n        \"nonmanual\": \"Signer maintains eye contact and a neutral facial expression\",\n        \"non_dominant_hand\": \"Left hand moves across the right hand and then retracts\",\n        \"temporal_alignment\": \"Occurs within a continuous signing sequence, transitioning from a previous hand movement and preceding a subsequent hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The 'thumbs-up' handshape and the crossing motion of the hands are conventionalized signs in TSL that express approval or affirmation, which is semantically aligned with the message 'I believe' in the given context. The sustained hold of the thumbs-up gesture adds affective emphasis to the statement, making the affirmation more vivid and forceful.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a 'thumbs-up' shape; left hand forms an open palm",
+          "movement": "Right hand moves from a neutral position to a 'thumbs-up' orientation, held steady. Left hand moves from a neutral position to cross over the right hand, palm facing inward, then moves back to a neutral position.",
+          "location": "Centered in front of the signer's chest, at midline",
+          "nonmanual": "Signer maintains eye contact and a neutral facial expression",
+          "non_dominant_hand": "Left hand moves across the right hand and then retracts",
+          "temporal_alignment": "Occurs within a continuous signing sequence, transitioning from a previous hand movement and preceding a subsequent hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The 'thumbs-up' handshape and the crossing motion of the hands are conventionalized signs in TSL that express approval or affirmation, which is semantically aligned with the message 'I believe' in the given context. The sustained hold of the thumbs-up gesture adds affective emphasis to the statement, making the affirmation more vivid and forceful."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

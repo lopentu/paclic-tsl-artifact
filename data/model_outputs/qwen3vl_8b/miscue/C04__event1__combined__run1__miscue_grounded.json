@@ -1,0 +1,54 @@
+{
+  "clip_id": "C04",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "face",
+  "target_channel_cued": "manual",
+  "video_path": "<repo>/data/clips_c/C04_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C04_window_model.mp4",
+  "video_id": "S01EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T17:58:36.109317",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"extends index finger forward, then moves it in a small circular motion near the signer's chin, then points upward\",\n        \"location\": \"starts near the signer's chest, moves to chin level, then upward\",\n        \"nonmanual\": \"neutral facial expression, no strong head or torso movement\",\n        \"non_dominant_hand\": \"resting, not visible or inactive\",\n        \"temporal_alignment\": \"begins with a forward-pointing gesture, transitions to a circular motion near the chin, then ends with an upward-pointing gesture\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement resemble a lexical sign for 'interest' or 'curiosity' in TSL, contributing to the propositional content about interest in TSL education. The upward-pointing gesture at the end adds emphasis and affect, indicating a positive or inviting stance toward the topic.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "extends index finger forward, then moves it in a small circular motion near the signer's chin, then points upward",
+          "location": "starts near the signer's chest, moves to chin level, then upward",
+          "nonmanual": "neutral facial expression, no strong head or torso movement",
+          "non_dominant_hand": "resting, not visible or inactive",
+          "temporal_alignment": "begins with a forward-pointing gesture, transitions to a circular motion near the chin, then ends with an upward-pointing gesture"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement resemble a lexical sign for 'interest' or 'curiosity' in TSL, contributing to the propositional content about interest in TSL education. The upward-pointing gesture at the end adds emphasis and affect, indicating a positive or inviting stance toward the topic."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 522054635,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:36:09.832023",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression with lips puckered and mouth slightly open, maintained throughout the span\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"puckered lips with mouth slightly open\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with the signing of the phrase '不會手語' (cannot sign), occurring during a sustained manual sign that conveys inability or lack of ability\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The puckered lip expression is a conventionalized nonmanual marker in TSL that intensifies the semantic load of inability or lack of capacity. It is maintained while the signer performs the manual sign for 'cannot sign,' directly linking the facial expression to the grammatical or semantic notion of incapacity. The expression also adds affective enrichment, conveying a sense of difficulty or frustration related to the inability to use sign language.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression with lips puckered and mouth slightly open, maintained throughout the span",
+          "location": "center of face",
+          "nonmanual": "puckered lips with mouth slightly open",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with the signing of the phrase '不會手語' (cannot sign), occurring during a sustained manual sign that conveys inability or lack of ability"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The puckered lip expression is a conventionalized nonmanual marker in TSL that intensifies the semantic load of inability or lack of capacity. It is maintained while the signer performs the manual sign for 'cannot sign,' directly linking the facial expression to the grammatical or semantic notion of incapacity. The expression also adds affective enrichment, conveying a sense of difficulty or frustration related to the inability to use sign language."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

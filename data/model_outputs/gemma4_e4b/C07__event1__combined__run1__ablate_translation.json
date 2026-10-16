@@ -1,0 +1,61 @@
+{
+  "clip_id": "C07",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C07_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T22:14:28.159119",
+  "backend_call_info": {
+    "frames_per_video": [
+      112,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.2575
+    ],
+    "input_tokens": 11239,
+    "output_tokens": 314
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:00\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Open, slightly cupped\",\n        \"movement\": \"Moving forward and slightly outward from the chest area\",\n        \"location\": \"In front of the chest\",\n        \"nonmanual\": \"Slightly open mouth, engaged expression\",\n        \"non_dominant_hand\": \"Not distinctly separate from the dominant hand movement\",\n        \"temporal_alignment\": \"The action occurs at the beginning of the clip, as part of a rapid sequence of movements.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"Both hands are moving forward and slightly outward from the chest area with an open, cupped handshape. The facial expression is engaged, suggesting emphasis or expression.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:00",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Open, slightly cupped",
+          "movement": "Moving forward and slightly outward from the chest area",
+          "location": "In front of the chest",
+          "nonmanual": "Slightly open mouth, engaged expression",
+          "non_dominant_hand": "Not distinctly separate from the dominant hand movement",
+          "temporal_alignment": "The action occurs at the beginning of the clip, as part of a rapid sequence of movements."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "Both hands are moving forward and slightly outward from the chest area with an open, cupped handshape. The facial expression is engaged, suggesting emphasis or expression."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

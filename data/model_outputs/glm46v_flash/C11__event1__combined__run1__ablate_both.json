@@ -1,0 +1,61 @@
+{
+  "clip_id": "C11",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C11_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:54:49.641713",
+  "backend_call_info": {
+    "frames_per_video": [
+      86,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.8611,
+      15.2575
+    ],
+    "input_tokens": 11088,
+    "output_tokens": 291
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand and non-dominant hand\",\n        \"handshape\": \"dominant hand in a loose fist, non-dominant hand in a loose fist\",\n        \"movement\": \"dominant hand moves from forward to near the chest, non-dominant hand moves from near the chest to forward\",\n        \"location\": \"forward and near the chest\",\n        \"nonmanual\": \"neutral facial expression\",\n        \"non_dominant_hand\": \"moves from near the chest to forward\",\n        \"temporal_alignment\": \"part of a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action shows a handshape change and movement from forward to near the chest, typical of a lexical sign in TSL, contributing to propositional content and conveying a clear description.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand and non-dominant hand",
+          "handshape": "dominant hand in a loose fist, non-dominant hand in a loose fist",
+          "movement": "dominant hand moves from forward to near the chest, non-dominant hand moves from near the chest to forward",
+          "location": "forward and near the chest",
+          "nonmanual": "neutral facial expression",
+          "non_dominant_hand": "moves from near the chest to forward",
+          "temporal_alignment": "part of a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action shows a handshape change and movement from forward to near the chest, typical of a lexical sign in TSL, contributing to propositional content and conveying a clear description."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T03:57:13.358557",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"moves from lower chest area upward to touch the forehead, then returns to chest level\",\n        \"location\": \"starts near chest, moves to forehead, returns to chest\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"initiates upward motion to forehead, then returns to chest level\",\n        \"temporal_alignment\": \"begins with the dominant hand moving to the forehead, then the non-dominant hand follows with the upward motion\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand moves upward to the forehead, a gesture commonly used to indicate 'head' or 'thinking' in TSL, which aligns with the topic of a national language law. The gesture is not a lexical sign for a specific word but adds emphasis and a depictive quality to the signing.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "moves from lower chest area upward to touch the forehead, then returns to chest level",
+          "location": "starts near chest, moves to forehead, returns to chest",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "initiates upward motion to forehead, then returns to chest level",
+          "temporal_alignment": "begins with the dominant hand moving to the forehead, then the non-dominant hand follows with the upward motion"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand moves upward to the forehead, a gesture commonly used to indicate 'head' or 'thinking' in TSL, which aligns with the topic of a national language law. The gesture is not a lexical sign for a specific word but adds emphasis and a depictive quality to the signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

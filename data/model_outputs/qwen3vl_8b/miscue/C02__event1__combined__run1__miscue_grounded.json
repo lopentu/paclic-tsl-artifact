@@ -1,0 +1,54 @@
+{
+  "clip_id": "C02",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "video_path": "<repo>/data/clips_c/C02_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T17:57:49.757407",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head tilts slightly forward and to the right, then back; eyes look forward and slightly upward\",\n        \"location\": \"face and head\",\n        \"nonmanual\": \"facial expression: mouth slightly open, eyebrows slightly raised, conveying a tone of mild surprise or emphasis\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression and head movement occur during the signing of the phrase, likely accompanying the word 'example' or the beginning of the illustrative clause\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's head tilt and raised eyebrows occur at the start of the illustrative example, suggesting the beginning of a new clause or a shift to a hypothetical scenario. The facial expression adds emphasis and a tone of mild surprise or importance to the example being introduced, which is crucial for the pragmatic function of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "head tilts slightly forward and to the right, then back; eyes look forward and slightly upward",
+          "location": "face and head",
+          "nonmanual": "facial expression: mouth slightly open, eyebrows slightly raised, conveying a tone of mild surprise or emphasis",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression and head movement occur during the signing of the phrase, likely accompanying the word 'example' or the beginning of the illustrative clause"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's head tilt and raised eyebrows occur at the start of the illustrative example, suggesting the beginning of a new clause or a shift to a hypothetical scenario. The facial expression adds emphasis and a tone of mild surprise or importance to the example being introduced, which is crucial for the pragmatic function of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

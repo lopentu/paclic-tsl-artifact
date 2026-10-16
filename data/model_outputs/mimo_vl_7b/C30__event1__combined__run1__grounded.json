@@ -1,0 +1,50 @@
+{
+  "clip_id": "C30",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C30_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:05:18.819392",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3s\",\n        \"end_time\": \"0.4s\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"The dominant right hand is the active channel. The non-dominant left hand is held near the chest, fingers loosely curled.\",\n          \"handshape\": \"The dominant hand is a 'F' handshape: index finger extended and slightly separated from the other two extended fingers, thumb held close.\",\n          \"movement\": \"The hand moves in a small, quick, downward and slightly forward flicking or pointing motion from a position near the signer's right shoulder.\",\n          \"location\": \"The action originates near the signer's right shoulder and moves towards the center of the chest.\",\n          \"nonmanual\": \"The signer's head is oriented towards the listener. The facial expression is neutral and focused.\",\n          \"non_dominant_hand\": \"The non-dominant left hand is held relatively still near the signer's upper chest.\",\n          \"temporal_alignment\": \"The action is a brief, punctuating movement that occurs within a continuous manual signing motion, immediately following a pointing gesture with the same hand.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 1,\n        \"indication\": 2,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The 'F' handshape and downward flicking motion are conventional TSL markers for pointing or indicating a specific person or thing. The action is clearly integrated into the flow of the sentence, suggesting it carries referential or grammatical weight.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3s",
+        "end_time": "0.4s",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant right hand is the active channel. The non-dominant left hand is held near the chest, fingers loosely curled.",
+          "handshape": "The dominant hand is a 'F' handshape: index finger extended and slightly separated from the other two extended fingers, thumb held close.",
+          "movement": "The hand moves in a small, quick, downward and slightly forward flicking or pointing motion from a position near the signer's right shoulder.",
+          "location": "The action originates near the signer's right shoulder and moves towards the center of the chest.",
+          "nonmanual": "The signer's head is oriented towards the listener. The facial expression is neutral and focused.",
+          "non_dominant_hand": "The non-dominant left hand is held relatively still near the signer's upper chest.",
+          "temporal_alignment": "The action is a brief, punctuating movement that occurs within a continuous manual signing motion, immediately following a pointing gesture with the same hand."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 1,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The 'F' handshape and downward flicking motion are conventional TSL markers for pointing or indicating a specific person or thing. The action is clearly integrated into the flow of the sentence, suggesting it carries referential or grammatical weight."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

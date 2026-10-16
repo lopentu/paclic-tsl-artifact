@@ -1,0 +1,61 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C36_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T19:37:42.955276",
+  "backend_call_info": {
+    "frames_per_video": [
+      106,
+      20
+    ],
+    "sampled_fps_per_video": [
+      15.8051,
+      15.3692
+    ],
+    "input_tokens": 13538,
+    "output_tokens": 371
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"3.00s\",\n      \"end_time\": \"3.50s\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used; the dominant hand forms a pointing gesture with index finger extended, while the non-dominant hand moves in a sweeping arc from the signer's right shoulder to the left side of the body.\",\n        \"handshape\": \"Dominant hand: index finger extended; non-dominant hand: open palm.\",\n        \"movement\": \"Dominant hand points forward and then moves inward toward the body; non-dominant hand sweeps from right to left.\",\n        \"location\": \"Centered in front of the signer's torso.\",\n        \"nonmanual\": \"Facial expression changes from neutral to slightly open mouth, indicating emphasis.\",\n        \"non_dominant_hand\": \"Moves in a sweeping arc from right to left.\",\n        \"temporal_alignment\": \"The action spans from 3.00s to 3.50s, fitting within the broader signing sequence.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand's pointing gesture and the non-dominant hand's sweeping motion are clearly visible from 3.00s to 3.50s, contributing to the meaning of 'if there are witnesses' by indicating a condition and adding emphasis.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "3.00s",
+        "end_time": "3.50s",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used; the dominant hand forms a pointing gesture with index finger extended, while the non-dominant hand moves in a sweeping arc from the signer's right shoulder to the left side of the body.",
+          "handshape": "Dominant hand: index finger extended; non-dominant hand: open palm.",
+          "movement": "Dominant hand points forward and then moves inward toward the body; non-dominant hand sweeps from right to left.",
+          "location": "Centered in front of the signer's torso.",
+          "nonmanual": "Facial expression changes from neutral to slightly open mouth, indicating emphasis.",
+          "non_dominant_hand": "Moves in a sweeping arc from right to left.",
+          "temporal_alignment": "The action spans from 3.00s to 3.50s, fitting within the broader signing sequence."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand's pointing gesture and the non-dominant hand's sweeping motion are clearly visible from 3.00s to 3.50s, contributing to the meaning of 'if there are witnesses' by indicating a condition and adding emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

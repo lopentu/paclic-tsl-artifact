@@ -1,0 +1,55 @@
+{
+  "clip_id": "C33",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 529506650,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:04:06.479393",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"flat hand, thumb extended, fingers together, forming a 'thumbs-up' or 'OK' gesture\",\n        \"movement\": \"both hands move inward from the sides toward the chest, then outward again in a repeated motion\",\n        \"location\": \"initially at shoulder height, then moving toward the chest and back out\",\n        \"nonmanual\": \"mouth open, lips pursed, facial expression intense or emphatic\",\n        \"non_dominant_hand\": \"not visible as separate from the dominant hand gesture\",\n        \"temporal_alignment\": \"the action begins after a single-handed gesture and is held for a duration before transitioning to another gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The repeated inward-outward motion with the thumbs-up gesture, paired with an intense facial expression, strongly conveys emphasis or a rhetorical question, which is crucial to the meaning of the utterance '你有沒有想過...'. The gesture itself is a conventionalized form (description) that is used to intensify the message (pragmatic enrichment).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "flat hand, thumb extended, fingers together, forming a 'thumbs-up' or 'OK' gesture",
+          "movement": "both hands move inward from the sides toward the chest, then outward again in a repeated motion",
+          "location": "initially at shoulder height, then moving toward the chest and back out",
+          "nonmanual": "mouth open, lips pursed, facial expression intense or emphatic",
+          "non_dominant_hand": "not visible as separate from the dominant hand gesture",
+          "temporal_alignment": "the action begins after a single-handed gesture and is held for a duration before transitioning to another gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The repeated inward-outward motion with the thumbs-up gesture, paired with an intense facial expression, strongly conveys emphasis or a rhetorical question, which is crucial to the meaning of the utterance '你有沒有想過...'. The gesture itself is a conventionalized form (description) that is used to intensify the message (pragmatic enrichment)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

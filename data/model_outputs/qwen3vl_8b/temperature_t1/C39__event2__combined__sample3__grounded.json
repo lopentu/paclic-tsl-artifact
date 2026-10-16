@@ -1,0 +1,55 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 362646200,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:36:48.662161",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.3\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth pursed tightly, lips pressed forward; facial expression remains fixed and intense throughout\",\n        \"location\": \"centered on the signer's face\",\n        \"nonmanual\": \"pursed lips and fixed, intense facial expression\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression begins at 0.3s with the hands in a 'clenched fist' gesture and ends at 1.3s as the hands move to a 'thumbs up' position in front of the chest; the facial expression is held continuously across the entire span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The fixed, pursed-lip expression is maintained from 0.3s to 1.3s, matching the semantic load of 'I can be self-reliant' (D1=2) and adding emotional force and determination (D2=3). The expression is a conventionalized nonmanual marker in TSL that signifies resolve or determination, falling under 'description' mode (score 2).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.3",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth pursed tightly, lips pressed forward; facial expression remains fixed and intense throughout",
+          "location": "centered on the signer's face",
+          "nonmanual": "pursed lips and fixed, intense facial expression",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression begins at 0.3s with the hands in a 'clenched fist' gesture and ends at 1.3s as the hands move to a 'thumbs up' position in front of the chest; the facial expression is held continuously across the entire span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The fixed, pursed-lip expression is maintained from 0.3s to 1.3s, matching the semantic load of 'I can be self-reliant' (D1=2) and adding emotional force and determination (D2=3). The expression is a conventionalized nonmanual marker in TSL that signifies resolve or determination, falling under 'description' mode (score 2)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

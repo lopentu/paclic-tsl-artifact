@@ -1,0 +1,55 @@
+{
+  "clip_id": "C28",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1351017302,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:32:25.598698",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"both hands open, palms facing each other, fingers slightly spread\",\n        \"movement\": \"hands move inward toward each other from the sides, then outward again, with a slight up-and-down motion\",\n        \"location\": \"center of signer's chest, moving slightly upward and outward\",\n        \"nonmanual\": \"signer's head is tilted slightly forward, eyes focused on the listener\",\n        \"non_dominant_hand\": \"non-dominant hand remains relatively still, positioned near the chest\",\n        \"temporal_alignment\": \"this action occurs immediately after a gesture involving the right hand near the mouth, and before a more complex hand movement involving both hands\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move inward and outward in a gesture that resembles a 'closing' or 'coming together' motion, which in TSL often marks a contrast or a transition in the discourse. The gesture is paired with a focused facial expression, suggesting emphasis or a moment of clarification, which aligns with the pragmatic function of the action. The movement is not a lexical sign for a specific object or event, but rather serves to structure the discourse and add emphasis.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "both hands open, palms facing each other, fingers slightly spread",
+          "movement": "hands move inward toward each other from the sides, then outward again, with a slight up-and-down motion",
+          "location": "center of signer's chest, moving slightly upward and outward",
+          "nonmanual": "signer's head is tilted slightly forward, eyes focused on the listener",
+          "non_dominant_hand": "non-dominant hand remains relatively still, positioned near the chest",
+          "temporal_alignment": "this action occurs immediately after a gesture involving the right hand near the mouth, and before a more complex hand movement involving both hands"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move inward and outward in a gesture that resembles a 'closing' or 'coming together' motion, which in TSL often marks a contrast or a transition in the discourse. The gesture is paired with a focused facial expression, suggesting emphasis or a moment of clarification, which aligns with the pragmatic function of the action. The movement is not a lexical sign for a specific object or event, but rather serves to structure the discourse and add emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

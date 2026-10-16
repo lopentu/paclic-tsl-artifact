@@ -1,0 +1,49 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C40_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:12:03.577237",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fingers curled into fists\",\n        \"movement\": \"both hands move from a position near the signer's chest outward and slightly upward, then the right hand moves forward and downward while the left hand remains relatively stationary, forming a shape resembling a hand holding something or a gesture of offering/receiving\",\n        \"location\": \"initially at chest level, then right hand moves forward and downward\",\n        \"nonmanual\": \"signer's mouth is open and moving, indicating speech or phonation\",\n        \"non_dominant_hand\": \"left hand remains relatively stationary while the right hand moves\",\n        \"temporal_alignment\": \"the action begins after the signer has made a gesture with her right hand and before she brings her hands together in a different configuration\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move in a coordinated way that suggests a lexical sign, not just a gesture. The movement from chest to forward/downward suggests an action of offering or receiving, which is a common semantic function in sign languages. The simultaneous mouth movement suggests the sign is part of a lexical unit. The action is not purely depictive, but it does show a specific motion that contributes to the meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fingers curled into fists",
+          "movement": "both hands move from a position near the signer's chest outward and slightly upward, then the right hand moves forward and downward while the left hand remains relatively stationary, forming a shape resembling a hand holding something or a gesture of offering/receiving",
+          "location": "initially at chest level, then right hand moves forward and downward",
+          "nonmanual": "signer's mouth is open and moving, indicating speech or phonation",
+          "non_dominant_hand": "left hand remains relatively stationary while the right hand moves",
+          "temporal_alignment": "the action begins after the signer has made a gesture with her right hand and before she brings her hands together in a different configuration"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move in a coordinated way that suggests a lexical sign, not just a gesture. The movement from chest to forward/downward suggests an action of offering or receiving, which is a common semantic function in sign languages. The simultaneous mouth movement suggests the sign is part of a lexical unit. The action is not purely depictive, but it does show a specific motion that contributes to the meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

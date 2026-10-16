@@ -1,0 +1,55 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 338687201,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:15:40.403988",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used, with the right hand dominant.\",\n        \"handshape\": \"The right hand forms a 'pinch' or 'fist' shape with the thumb and index finger touching, while the left hand is open with fingers extended.\",\n        \"movement\": \"The right hand moves from the signer's right side toward the center of the chest, then slightly upward, while the left hand remains relatively still near the chest area.\",\n        \"location\": \"The right hand begins near the signer's right side and moves inward and upward toward the center of the chest. The left hand remains near the chest.\",\n        \"nonmanual\": \"The signer's mouth is open, indicating speech or emphasis.\",\n        \"non_dominant_hand\": \"The left hand remains relatively still near the chest area, with fingers extended, possibly serving as a framing or supportive gesture.\",\n        \"temporal_alignment\": \"The action occurs within a continuous signing sequence, immediately following a previous sign and preceding a subsequent one, suggesting it is part of a multi-sign phrase.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement of the right hand, combined with the open mouth, suggest a lexical sign that contributes to the propositional content. The action is part of a continuous signing sequence, indicating it is a grammatical or lexical component. The movement toward the chest may indicate emphasis or referential tracking.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used, with the right hand dominant.",
+          "handshape": "The right hand forms a 'pinch' or 'fist' shape with the thumb and index finger touching, while the left hand is open with fingers extended.",
+          "movement": "The right hand moves from the signer's right side toward the center of the chest, then slightly upward, while the left hand remains relatively still near the chest area.",
+          "location": "The right hand begins near the signer's right side and moves inward and upward toward the center of the chest. The left hand remains near the chest.",
+          "nonmanual": "The signer's mouth is open, indicating speech or emphasis.",
+          "non_dominant_hand": "The left hand remains relatively still near the chest area, with fingers extended, possibly serving as a framing or supportive gesture.",
+          "temporal_alignment": "The action occurs within a continuous signing sequence, immediately following a previous sign and preceding a subsequent one, suggesting it is part of a multi-sign phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement of the right hand, combined with the open mouth, suggest a lexical sign that contributes to the propositional content. The action is part of a continuous signing sequence, indicating it is a grammatical or lexical component. The movement toward the chest may indicate emphasis or referential tracking."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

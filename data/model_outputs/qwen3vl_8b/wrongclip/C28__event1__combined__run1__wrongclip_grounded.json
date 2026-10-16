@@ -1,0 +1,69 @@
+{
+  "clip_id": "C28",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C28",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S04-2EP07",
+    "rel_start_requested": 0.2999999999999545,
+    "rel_end_requested": 0.39999999999997726
+  },
+  "video_from": {
+    "clip_id": "C30",
+    "event_id": "event1",
+    "video_id": "S04-3EP01",
+    "target_channel": "manual",
+    "duration": 0.6999999999999318
+  },
+  "rel_start_applied": 0.2999999999999545,
+  "rel_end_applied": 0.39999999999997726,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C30_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C30_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:56:31.970793",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"extends index finger upward and slightly forward, then retracts\",\n        \"location\": \"right side of signer's body, moving from chest level to above shoulder level\",\n        \"nonmanual\": \"signer's head is slightly tilted forward, mouth is open\",\n        \"non_dominant_hand\": \"resting on chest\",\n        \"temporal_alignment\": \"occurs within a continuous signing stretch, immediately following a preparatory gesture and preceding a more complex hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The upward-pointing index finger gesture is a conventionalized lexical sign in TSL, often used to indicate 'up', 'above', or to mark a point of emphasis or a specific location. The gesture is clearly part of the grammatical structure of the utterance, as it is a distinct, conventionalized form. The upward motion and the signer's focused expression suggest it carries pragmatic emphasis, highlighting a key point in the discourse about '聽語障人士' (hearing-impaired individuals) needing '手語輔助' (sign language assistance).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "extends index finger upward and slightly forward, then retracts",
+          "location": "right side of signer's body, moving from chest level to above shoulder level",
+          "nonmanual": "signer's head is slightly tilted forward, mouth is open",
+          "non_dominant_hand": "resting on chest",
+          "temporal_alignment": "occurs within a continuous signing stretch, immediately following a preparatory gesture and preceding a more complex hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The upward-pointing index finger gesture is a conventionalized lexical sign in TSL, often used to indicate 'up', 'above', or to mark a point of emphasis or a specific location. The gesture is clearly part of the grammatical structure of the utterance, as it is a distinct, conventionalized form. The upward motion and the signer's focused expression suggest it carries pragmatic emphasis, highlighting a key point in the discourse about '聽語障人士' (hearing-impaired individuals) needing '手語輔助' (sign language assistance)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

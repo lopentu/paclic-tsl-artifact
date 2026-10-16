@@ -1,0 +1,55 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1532889553,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:21:39.277186",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly spread\",\n        \"movement\": \"right hand moves in a small circular motion around the left hand, which remains relatively still\",\n        \"location\": \"centered in front of the signer's chest, at approximately mid-torso level\",\n        \"nonmanual\": \"signer's mouth is slightly open and lips are pursed\",\n        \"non_dominant_hand\": \"left hand is stationary, palm facing forward\",\n        \"temporal_alignment\": \"the action occurs during a continuous signing phrase, framed by a gesture pointing outward at 0.0 and a downward-pointing gesture at 0.8\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The circular motion of the right hand around the left hand visually represents the concept of 'communication' or 'interaction', which is central to the meaning '他們不會手語，平時只能用簡單的手語溝通'. The movement is not a literal depiction of an action but a conventionalized gesture that signifies interaction or the act of communicating, contributing to the syntactic structure of the message. The pursed lips and focused gaze add emphasis, making the action more affective and vivid, indicating the speaker's emphasis on the difficulty or simplicity of communication.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly spread",
+          "movement": "right hand moves in a small circular motion around the left hand, which remains relatively still",
+          "location": "centered in front of the signer's chest, at approximately mid-torso level",
+          "nonmanual": "signer's mouth is slightly open and lips are pursed",
+          "non_dominant_hand": "left hand is stationary, palm facing forward",
+          "temporal_alignment": "the action occurs during a continuous signing phrase, framed by a gesture pointing outward at 0.0 and a downward-pointing gesture at 0.8"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The circular motion of the right hand around the left hand visually represents the concept of 'communication' or 'interaction', which is central to the meaning '他們不會手語，平時只能用簡單的手語溝通'. The movement is not a literal depiction of an action but a conventionalized gesture that signifies interaction or the act of communicating, contributing to the syntactic structure of the message. The pursed lips and focused gaze add emphasis, making the action more affective and vivid, indicating the speaker's emphasis on the difficulty or simplicity of communication."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

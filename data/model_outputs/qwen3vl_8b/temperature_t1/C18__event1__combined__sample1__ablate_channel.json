@@ -1,0 +1,55 @@
+{
+  "clip_id": "C18",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 916653132,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:43:15.390949",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"right hand moves from near the signer's right shoulder to point at the left hand's index finger, then holds steady\",\n        \"location\": \"right hand points to left hand's index finger, both hands at chest level\",\n        \"nonmanual\": \"neutral facial expression, head stable\",\n        \"non_dominant_hand\": \"left hand remains steady with index finger extended\",\n        \"temporal_alignment\": \"begins after a gesture with both hands open, continues through a sustained hold\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand points to the left index finger, indicating a specific point of reference (likely '乙證' or 'the second certificate'). The sustained hold and the pointing gesture suggest emphasis on the specific item or concept being discussed, contributing to the propositional structure by identifying the referent.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "right hand moves from near the signer's right shoulder to point at the left hand's index finger, then holds steady",
+          "location": "right hand points to left hand's index finger, both hands at chest level",
+          "nonmanual": "neutral facial expression, head stable",
+          "non_dominant_hand": "left hand remains steady with index finger extended",
+          "temporal_alignment": "begins after a gesture with both hands open, continues through a sustained hold"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand points to the left index finger, indicating a specific point of reference (likely '乙證' or 'the second certificate'). The sustained hold and the pointing gesture suggest emphasis on the specific item or concept being discussed, contributing to the propositional structure by identifying the referent."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

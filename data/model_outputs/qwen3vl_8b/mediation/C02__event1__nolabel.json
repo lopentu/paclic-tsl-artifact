@@ -1,0 +1,36 @@
+{
+  "clip_id": "C02",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "manual",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S01EP02",
+  "source_run": "C02__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 1,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: index finger extended\n- movement: moves from right to left across the signer's upper chest, then upward toward the right side of the head\n- location: starts near the signer's right shoulder, moves across the chest, ends near the right temple\n- nonmanual: signer smiles slightly\n- non dominant hand: resting, not visible\n- temporal alignment: begins after the initial open-palm gesture, precedes the pointing gesture to the right",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:11:58.493001",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The action visually enacts the idea of 'moving across the chest to the head'—likely symbolizing internal thought or mental processing, which adds vividness and affect (pragmatic enrichment). It contributes minimally to propositional content (semantic load 1) but is conventionalized as a gesture for internal reflection or mental activity (description 2). It has slight indication (pointing to self or internal state) and some depiction (enacting thought).\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The action visually enacts the idea of 'moving across the chest to the head'—likely symbolizing internal thought or mental processing, which adds vividness and affect (pragmatic enrichment). It contributes minimally to propositional content (semantic load 1) but is conventionalized as a gesture for internal reflection or mental activity (description 2). It has slight indication (pointing to self or internal state) and some depiction (enacting thought)."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

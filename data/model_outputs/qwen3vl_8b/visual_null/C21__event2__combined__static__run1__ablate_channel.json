@@ -1,0 +1,53 @@
+{
+  "clip_id": "C21",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/static/C21_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:49:21.057574",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"thumb and index finger extended, forming a 'pinch' or 'thumb-up' shape\",\n        \"movement\": \"held steady, not moving\",\n        \"location\": \"at chest level, symmetrically positioned, one hand on each side of the body\",\n        \"nonmanual\": \"mouth slightly open, lips pursed\",\n        \"non_dominant_hand\": \"not visible or not active\",\n        \"temporal_alignment\": \"the action is held steady throughout the target span, occurring within a longer signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands are held in a symmetrical, steady 'pinch' shape at chest level, which is a conventionalized lexical sign in TSL for 'a lot' or 'many'. The steady, held posture and the pursed lips suggest emphasis on the quantity being discussed, which aligns with the meaning '大量的練習' (a lot of practice). The action is not depicting or indicating anything specific, but it is a core lexical sign contributing to the propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "thumb and index finger extended, forming a 'pinch' or 'thumb-up' shape",
+          "movement": "held steady, not moving",
+          "location": "at chest level, symmetrically positioned, one hand on each side of the body",
+          "nonmanual": "mouth slightly open, lips pursed",
+          "non_dominant_hand": "not visible or not active",
+          "temporal_alignment": "the action is held steady throughout the target span, occurring within a longer signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands are held in a symmetrical, steady 'pinch' shape at chest level, which is a conventionalized lexical sign in TSL for 'a lot' or 'many'. The steady, held posture and the pursed lips suggest emphasis on the quantity being discussed, which aligns with the meaning '大量的練習' (a lot of practice). The action is not depicting or indicating anything specific, but it is a core lexical sign contributing to the propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

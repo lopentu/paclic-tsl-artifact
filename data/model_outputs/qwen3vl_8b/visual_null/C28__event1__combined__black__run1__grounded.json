@@ -1,0 +1,53 @@
+{
+  "clip_id": "C28",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "black",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/black/C28_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/black/C28_window_model.mp4",
+  "video_id": "S04-2EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:43:58.144569",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"unclear due to black screen\",\n        \"movement\": \"unclear due to black screen\",\n        \"location\": \"unclear due to black screen\",\n        \"nonmanual\": \"unclear due to black screen\",\n        \"non_dominant_hand\": \"unclear due to black screen\",\n        \"temporal_alignment\": \"occurring within a black screen segment, no visible signing activity\"\n      },\n      \"semantic_syntactic_load\": 0,\n      \"pragmatic_depictive_affective_enrichment\": 0,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.0,\n      \"observable_evidence\": \"The clip is entirely black, showing no visible signing activity or any discernible hand, face, or body movement. Therefore, no form description, semantic, pragmatic, or mode ratings can be assigned based on observable evidence.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "unclear due to black screen",
+          "movement": "unclear due to black screen",
+          "location": "unclear due to black screen",
+          "nonmanual": "unclear due to black screen",
+          "non_dominant_hand": "unclear due to black screen",
+          "temporal_alignment": "occurring within a black screen segment, no visible signing activity"
+        },
+        "semantic_syntactic_load": 0,
+        "pragmatic_depictive_affective_enrichment": 0,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.0,
+        "observable_evidence": "The clip is entirely black, showing no visible signing activity or any discernible hand, face, or body movement. Therefore, no form description, semantic, pragmatic, or mode ratings can be assigned based on observable evidence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

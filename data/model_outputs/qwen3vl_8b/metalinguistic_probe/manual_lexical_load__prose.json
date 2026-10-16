@@ -1,0 +1,17 @@
+{
+  "probe_id": "manual_lexical_load",
+  "tests": "Its stated D1 for an ordinary lexical sign -- the reference's ceiling category.",
+  "question": "Consider an ordinary lexical sign produced with the dominant hand, contributing a content word to the utterance. Typically, how much semantic/syntactic load does it carry?",
+  "answer_format": "prose",
+  "video_shown": false,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "temperature": 0.0,
+  "do_sample": false,
+  "max_new_tokens": 500,
+  "timestamp": "2026-08-03T12:24:26.098548",
+  "prompt": "You are answering a question about sign language linguistics. This is a knowledge question about signed languages in general, not about any particular video.\n\nConsider an ordinary lexical sign produced with the dominant hand, contributing a content word to the utterance. Typically, how much semantic/syntactic load does it carry?\n\nAnswer in at most 120 words. Plain prose, no JSON.\n",
+  "raw_text": "An ordinary lexical sign in signed languages typically carries substantial semantic and syntactic load. It often conveys a full lexical item—equivalent to a content word in spoken languages—encoding meaning, grammatical role, and sometimes aspect or tense. Unlike in spoken languages, where words are often disambiguated by context or morphology, signed lexical items are usually self-contained and rich in semantic content. They may also carry syntactic information, such as number, case, or agreement, depending on the language. The dominant hand’s movement, location, and orientation often encode grammatical features, making each sign a compact unit of meaning and structure. Thus, a single lexical sign can carry both semantic content and syntactic function.",
+  "parsed": null
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C13",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/static/C13_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C13_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:52:50.161357",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"held steady, no motion\",\n        \"location\": \"at chest level, slightly to the signer's left\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"palm facing forward, fingers slightly spread, held steady\",\n        \"temporal_alignment\": \"the action is held steady during the target span, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand is held steady in an open palm shape at chest level, which is a common nonmanual marker in TSL for emphasis or to indicate a state of being. The hand remains static, suggesting it is not a lexical sign but a prosodic or affective marker. The given meaning '相信經過這樣的練習' (Believe that after such practice) implies a sense of conviction or assurance, which the steady, open hand posture supports as an affective or emphatic marker.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "held steady, no motion",
+          "location": "at chest level, slightly to the signer's left",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "palm facing forward, fingers slightly spread, held steady",
+          "temporal_alignment": "the action is held steady during the target span, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand is held steady in an open palm shape at chest level, which is a common nonmanual marker in TSL for emphasis or to indicate a state of being. The hand remains static, suggesting it is not a lexical sign but a prosodic or affective marker. The given meaning '相信經過這樣的練習' (Believe that after such practice) implies a sense of conviction or assurance, which the steady, open hand posture supports as an affective or emphatic marker."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S04-3EP05",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:35:02.262404",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers move from near the signer's chin upward and inward, then both hands move slightly outward and downward to form a shape resembling a pair of eyes or a frame\",\n        \"location\": \"initially near the chin, then positioned in front of the face at chest height\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"non-dominant hand moves in coordination with the dominant hand, mirroring the gesture\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 1.2s, occurring as a single, continuous gesture within the target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The gesture is a conventionalized sign in TSL, not a simple pointing or facial expression. The handshape and movement are specific and repeated, indicating a lexical or grammatical sign. The gesture is also depictive, as it visually represents a concept (e.g., eyes, a frame, or a window) that is central to the message being conveyed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers move from near the signer's chin upward and inward, then both hands move slightly outward and downward to form a shape resembling a pair of eyes or a frame",
+          "location": "initially near the chin, then positioned in front of the face at chest height",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "non-dominant hand moves in coordination with the dominant hand, mirroring the gesture",
+          "temporal_alignment": "the action begins at 0.3s and ends at 1.2s, occurring as a single, continuous gesture within the target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The gesture is a conventionalized sign in TSL, not a simple pointing or facial expression. The handshape and movement are specific and repeated, indicating a lexical or grammatical sign. The gesture is also depictive, as it visually represents a concept (e.g., eyes, a frame, or a window) that is central to the message being conveyed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

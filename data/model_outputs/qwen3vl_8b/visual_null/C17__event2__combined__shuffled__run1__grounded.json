@@ -1,0 +1,53 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C17_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:10:31.254704",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb up\",\n        \"movement\": \"thumb is raised and held steady, palm facing forward\",\n        \"location\": \"in front of the signer's chest, at midline\",\n        \"nonmanual\": \"signer's face shows a slight smile and a neutral to positive expression\",\n        \"non_dominant_hand\": \"resting, not visible or not actively involved\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a hand movement and preceding another hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The thumb-up gesture is a conventionalized sign in TSL that conveys approval or positivity, directly contributing to the meaning 'this course is great'. The signer's facial expression reinforces the positive affect, making the gesture more vivid and emphatic.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb up",
+          "movement": "thumb is raised and held steady, palm facing forward",
+          "location": "in front of the signer's chest, at midline",
+          "nonmanual": "signer's face shows a slight smile and a neutral to positive expression",
+          "non_dominant_hand": "resting, not visible or not actively involved",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a hand movement and preceding another hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The thumb-up gesture is a conventionalized sign in TSL that conveys approval or positivity, directly contributing to the meaning 'this course is great'. The signer's facial expression reinforces the positive affect, making the gesture more vivid and emphatic."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

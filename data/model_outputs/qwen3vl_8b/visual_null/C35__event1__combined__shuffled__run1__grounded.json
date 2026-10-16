@@ -1,0 +1,53 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C35_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:18:07.588208",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"repeatedly moves the index finger in a small, up-and-down motion near the signer's right cheek, while the non-dominant hand remains relatively still, pointing upward\",\n        \"location\": \"right side of signer's face, near the cheek\",\n        \"nonmanual\": \"signer's mouth is open and expressive, eyebrows raised, conveying emphasis or surprise\",\n        \"non_dominant_hand\": \"held steady, index finger extended upward, pointing forward\",\n        \"temporal_alignment\": \"the action begins at 0.3s, coinciding with the start of the phrase, and continues through 1.1s, overlapping with the next sign\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL, likely representing 'police' or 'authority figure' (as per the given meaning 'because the other party or police may not know sign language'). The repeated motion and facial expression add emphasis and affect, making the action vivid and emotionally charged, which is typical for pragmatic enrichment in signing.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "repeatedly moves the index finger in a small, up-and-down motion near the signer's right cheek, while the non-dominant hand remains relatively still, pointing upward",
+          "location": "right side of signer's face, near the cheek",
+          "nonmanual": "signer's mouth is open and expressive, eyebrows raised, conveying emphasis or surprise",
+          "non_dominant_hand": "held steady, index finger extended upward, pointing forward",
+          "temporal_alignment": "the action begins at 0.3s, coinciding with the start of the phrase, and continues through 1.1s, overlapping with the next sign"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL, likely representing 'police' or 'authority figure' (as per the given meaning 'because the other party or police may not know sign language'). The repeated motion and facial expression add emphasis and affect, making the action vivid and emotionally charged, which is typical for pragmatic enrichment in signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

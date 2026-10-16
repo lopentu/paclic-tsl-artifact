@@ -1,0 +1,48 @@
+{
+  "clip_id": "C04",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:08:55.620658",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression with slight head movement\",\n        \"location\": \"center of frame, signer's face\",\n        \"nonmanual\": \"mouth slightly open, eyes focused forward, eyebrows neutral\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with signing, spans the entire target span\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's facial expression remains steady and focused throughout the target span, consistent with a neutral, informative tone. The slight head movement and open mouth suggest active articulation, supporting the propositional content of the message. The expression does not convey strong affect or depictive action, but it provides a baseline for the speaker's engagement with the topic.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression with slight head movement",
+          "location": "center of frame, signer's face",
+          "nonmanual": "mouth slightly open, eyes focused forward, eyebrows neutral",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with signing, spans the entire target span"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's facial expression remains steady and focused throughout the target span, consistent with a neutral, informative tone. The slight head movement and open mouth suggest active articulation, supporting the propositional content of the message. The expression does not convey strong affect or depictive action, but it provides a baseline for the speaker's engagement with the topic."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

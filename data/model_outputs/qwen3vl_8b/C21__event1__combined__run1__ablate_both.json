@@ -1,0 +1,48 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:23:06.293941",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not involved\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"static pose with index finger touching the lower lip\",\n        \"location\": \"on the signer's face, near the mouth\",\n        \"nonmanual\": \"eyes closed, head tilted slightly upward, mouth slightly open\",\n        \"non_dominant_hand\": \"not visible or not involved\",\n        \"temporal_alignment\": \"the action occurs within a pause in signing, following a gesture with both hands and preceding a new gesture with the dominant hand\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer holds a static pose with the index finger on the lower lip and eyes closed, which is a conventionalized nonmanual marker in TSL for 'thinking' or 'considering'. This action is not a lexical sign but adds affective and pragmatic enrichment to the discourse, indicating a moment of reflection or deliberation. The signer's face remains still during this action, which is typical for a nonmanual marker.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not involved",
+          "handshape": "not applicable",
+          "movement": "static pose with index finger touching the lower lip",
+          "location": "on the signer's face, near the mouth",
+          "nonmanual": "eyes closed, head tilted slightly upward, mouth slightly open",
+          "non_dominant_hand": "not visible or not involved",
+          "temporal_alignment": "the action occurs within a pause in signing, following a gesture with both hands and preceding a new gesture with the dominant hand"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer holds a static pose with the index finger on the lower lip and eyes closed, which is a conventionalized nonmanual marker in TSL for 'thinking' or 'considering'. This action is not a lexical sign but adds affective and pragmatic enrichment to the discourse, indicating a moment of reflection or deliberation. The signer's face remains still during this action, which is typical for a nonmanual marker."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

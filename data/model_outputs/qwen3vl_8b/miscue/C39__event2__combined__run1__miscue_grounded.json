@@ -1,0 +1,54 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "face",
+  "target_channel_cued": "manual",
+  "video_path": "<repo>/data/clips_c/C39_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:11:05.113526",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.3\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"both fists move inward from the sides toward the center of the chest, then come to rest with palms facing each other and fingers pointing upward\",\n        \"location\": \"starts at the sides of the body, moves inward to the center chest area\",\n        \"nonmanual\": \"signer's face is set with pursed lips and a focused expression\",\n        \"non_dominant_hand\": \"non-dominant hand moves in coordination with the dominant hand, mirroring the motion\",\n        \"temporal_alignment\": \"the action begins immediately after a previous sign and is followed by a static handshape, forming a coherent unit\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The fists moving inward toward the chest is a conventionalized sign in TSL for 'self-reliance' or 'strength', directly contributing to the propositional content. The pursed lips and focused expression add affective emphasis, reinforcing the determination conveyed in the meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.3",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "both fists move inward from the sides toward the center of the chest, then come to rest with palms facing each other and fingers pointing upward",
+          "location": "starts at the sides of the body, moves inward to the center chest area",
+          "nonmanual": "signer's face is set with pursed lips and a focused expression",
+          "non_dominant_hand": "non-dominant hand moves in coordination with the dominant hand, mirroring the motion",
+          "temporal_alignment": "the action begins immediately after a previous sign and is followed by a static handshape, forming a coherent unit"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The fists moving inward toward the chest is a conventionalized sign in TSL for 'self-reliance' or 'strength', directly contributing to the propositional content. The pursed lips and focused expression add affective emphasis, reinforcing the determination conveyed in the meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

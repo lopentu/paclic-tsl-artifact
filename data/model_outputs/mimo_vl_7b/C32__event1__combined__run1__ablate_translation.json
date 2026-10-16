@@ -1,0 +1,50 @@
+{
+  "clip_id": "C32",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C32_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:20:04.478221",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.5\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are used, the dominant hand (right) is in front and the non-dominant hand (left) is behind it.\",\n          \"handshape\": \"The dominant hand is a 'V' or 'two-finger' handshape. The non-dominant hand is also a 'V' or 'two-finger' handshape.\",\n          \"movement\": \"The dominant hand moves from a position near the signer's right shoulder downwards and forwards. The non-dominant hand moves from a position near the signer's left shoulder downwards and forwards, mirroring the dominant hand's path.\",\n          \"location\": \"In front of the signer's chest, moving downwards.\",\n          \"nonmanual\": \"The signer's head is oriented towards the listener. The eyes are open and focused on the listener.\",\n          \"non_dominant_hand\": \"The non-dominant hand is active, mirroring the dominant hand's movement.\",\n          \"temporal_alignment\": \"The action is a distinct sign that begins after a preparatory hand position and ends before the next sign begins.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two-handed, symmetrical movement is a clear and conventional TSL sign. The surrounding context shows the signer pausing his other movements to produce this specific action, indicating its importance. The sign is directed towards the listener.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used, the dominant hand (right) is in front and the non-dominant hand (left) is behind it.",
+          "handshape": "The dominant hand is a 'V' or 'two-finger' handshape. The non-dominant hand is also a 'V' or 'two-finger' handshape.",
+          "movement": "The dominant hand moves from a position near the signer's right shoulder downwards and forwards. The non-dominant hand moves from a position near the signer's left shoulder downwards and forwards, mirroring the dominant hand's path.",
+          "location": "In front of the signer's chest, moving downwards.",
+          "nonmanual": "The signer's head is oriented towards the listener. The eyes are open and focused on the listener.",
+          "non_dominant_hand": "The non-dominant hand is active, mirroring the dominant hand's movement.",
+          "temporal_alignment": "The action is a distinct sign that begins after a preparatory hand position and ends before the next sign begins."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed, symmetrical movement is a clear and conventional TSL sign. The surrounding context shows the signer pausing his other movements to produce this specific action, indicating its importance. The sign is directed towards the listener."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

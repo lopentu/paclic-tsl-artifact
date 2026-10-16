@@ -1,0 +1,48 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:22:27.213359",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb up\",\n        \"movement\": \"moves from a crossed position to a clear thumb-up gesture, then holds it\",\n        \"location\": \"in front of the signer's chest, at midline\",\n        \"nonmanual\": \"signer maintains eye contact with camera, mouth slightly open\",\n        \"non_dominant_hand\": \"resting, not visible or inactive\",\n        \"temporal_alignment\": \"the action begins after a hand-crossing gesture and holds for the duration of the target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The thumb-up gesture is a conventionalized sign in TSL that conveys affirmation or agreement, directly contributing to the propositional content of 'I believe' in the given meaning. The gesture is held steadily and with a direct gaze, which strongly enhances the affective stance of confidence and conviction, making the message more vivid and emphatic.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb up",
+          "movement": "moves from a crossed position to a clear thumb-up gesture, then holds it",
+          "location": "in front of the signer's chest, at midline",
+          "nonmanual": "signer maintains eye contact with camera, mouth slightly open",
+          "non_dominant_hand": "resting, not visible or inactive",
+          "temporal_alignment": "the action begins after a hand-crossing gesture and holds for the duration of the target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The thumb-up gesture is a conventionalized sign in TSL that conveys affirmation or agreement, directly contributing to the propositional content of 'I believe' in the given meaning. The gesture is held steadily and with a direct gaze, which strongly enhances the affective stance of confidence and conviction, making the message more vivid and emphatic."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

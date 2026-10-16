@@ -1,0 +1,53 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/static/C01_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C01_window_model.mp4",
+  "video_id": "S01EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:48:37.323012",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"held steady in a fixed position\",\n        \"location\": \"raised to the signer's right temple, near the brow\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"palm facing forward, fingers slightly spread, held steady\",\n        \"temporal_alignment\": \"the action is held steady throughout the target span, with no movement or change in position\"\n      },\n      \"semantic_syntactic_load\": 0,\n      \"pragmatic_depictive_affective_enrichment\": 0,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 1.0,\n      \"observable_evidence\": \"The non-dominant hand is held steady in a fixed position near the temple with no movement or change in shape, indicating it is not conveying propositional content or pragmatic enrichment. The action is static and does not depict or indicate anything.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "held steady in a fixed position",
+          "location": "raised to the signer's right temple, near the brow",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "palm facing forward, fingers slightly spread, held steady",
+          "temporal_alignment": "the action is held steady throughout the target span, with no movement or change in position"
+        },
+        "semantic_syntactic_load": 0,
+        "pragmatic_depictive_affective_enrichment": 0,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 1.0,
+        "observable_evidence": "The non-dominant hand is held steady in a fixed position near the temple with no movement or change in shape, indicating it is not conveying propositional content or pragmatic enrichment. The action is static and does not depict or indicate anything."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

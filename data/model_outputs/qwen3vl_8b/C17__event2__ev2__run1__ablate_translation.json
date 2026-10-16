@@ -1,0 +1,48 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:39:13.767657",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb extended upward, fingers curled\",\n        \"movement\": \"thumb moves from neutral position to extended upward position, held steady\",\n        \"location\": \"in front of chest, at midline\",\n        \"nonmanual\": \"face expression neutral, mouth slightly pursed\",\n        \"non_dominant_hand\": \"resting at side, not moving\",\n        \"temporal_alignment\": \"starts after a hand gesture near chest, ends before a return to neutral posture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The thumb-up gesture is a conventionalized sign in TSL for 'good' or 'okay', contributing clear propositional content. The gesture is held steady, suggesting emphasis or affirmation, which adds pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb extended upward, fingers curled",
+          "movement": "thumb moves from neutral position to extended upward position, held steady",
+          "location": "in front of chest, at midline",
+          "nonmanual": "face expression neutral, mouth slightly pursed",
+          "non_dominant_hand": "resting at side, not moving",
+          "temporal_alignment": "starts after a hand gesture near chest, ends before a return to neutral posture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The thumb-up gesture is a conventionalized sign in TSL for 'good' or 'okay', contributing clear propositional content. The gesture is held steady, suggesting emphasis or affirmation, which adds pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

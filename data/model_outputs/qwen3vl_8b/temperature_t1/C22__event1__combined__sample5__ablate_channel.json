@@ -1,0 +1,55 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "head_torso",
+  "video_id": "S01EP12",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 2146736199,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:15:01.402900",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"not visible or not carrying the primary action\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head tilted back and upward, gaze directed upward and away from the camera\",\n        \"location\": \"head positioned in the upper part of the frame, oriented upward\",\n        \"nonmanual\": \"eyes open, mouth slightly open\",\n        \"non_dominant_hand\": \"not visible or not involved\",\n        \"temporal_alignment\": \"the action occurs during a pause in manual signing, immediately following a pointing gesture and preceding a new manual gesture\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The head tilt and upward gaze occur during a pause in signing, which is typical for a rhetorical or emphatic pause in TSL. The upward gaze, paired with an open mouth, conveys a sense of searching for an answer or expressing a feeling of uncertainty or exasperation, which aligns with the discourse about 'no way to judge' and 'lost purpose'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "not visible or not carrying the primary action",
+          "handshape": "not applicable",
+          "movement": "head tilted back and upward, gaze directed upward and away from the camera",
+          "location": "head positioned in the upper part of the frame, oriented upward",
+          "nonmanual": "eyes open, mouth slightly open",
+          "non_dominant_hand": "not visible or not involved",
+          "temporal_alignment": "the action occurs during a pause in manual signing, immediately following a pointing gesture and preceding a new manual gesture"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The head tilt and upward gaze occur during a pause in signing, which is typical for a rhetorical or emphatic pause in TSL. The upward gaze, paired with an open mouth, conveys a sense of searching for an answer or expressing a feeling of uncertainty or exasperation, which aligns with the discourse about 'no way to judge' and 'lost purpose'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

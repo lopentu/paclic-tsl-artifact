@@ -1,0 +1,36 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "face",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "SP-EP07",
+  "source_run": "C40__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: facial expression with mouth slightly open and lips pursed, conveying a gentle, earnest tone\n- location: center of face\n- nonmanual: facial expression with mouth slightly open and lips pursed, conveying a gentle, earnest tone\n- temporal alignment: occurs during the signing of the phrase '希望孩子能平平安安長大' (hope children can grow up safely), following a gesture of pointing downward and preceding a gesture of bringing hands together",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:16:29.798769",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 0,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 1,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The facial expression conveys affect and tone (gentle, earnest), enhancing the emotional weight of the message without altering its propositional content. It is not indicating or depicting a specific referent, but rather enriching the pragmatic stance. The description is moderately conventionalized as it expresses a common affective marker in signing. The depiction score is low because it’s not enacting an action but expressing internal state.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 0,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 0,
+    "depiction": 1,
+    "confidence": 0.95,
+    "reasoning": "The facial expression conveys affect and tone (gentle, earnest), enhancing the emotional weight of the message without altering its propositional content. It is not indicating or depicting a specific referent, but rather enriching the pragmatic stance. The description is moderately conventionalized as it expresses a common affective marker in signing. The depiction score is low because it’s not enacting an action but expressing internal state."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,50 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C24_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:03:11.552365",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.9\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are active. The dominant hand (on the viewer's right) is in front of the signer's chest. The non-dominant hand (on the viewer's left) is also in front of the chest, slightly lower than the dominant hand.\",\n          \"handshape\": \"Both hands have an extended index finger and a slightly curved thumb, with other fingers held close. The dominant hand's index finger is more prominent.\",\n          \"movement\": \"The dominant hand moves from a slightly inward position to an outward pointing gesture. The non-dominant hand makes a small, subtle outward movement.\",\n          \"location\": \"In front of the signer's torso, between the chest and the chin.\",\n          \"nonmanual\": \"The signer's head is still. The mouth is open as if speaking or signing.\",\n          \"non_dominant_hand\": \"The non-dominant hand is held relatively still but makes a small accompanying movement.\",\n          \"temporal_alignment\": \"The action is a single, continuous manual gesture that occurs in the middle of a larger signed phrase, transitioning from a previous hand configuration to the next.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two-handed gesture is held in a stable location and has a clear handshape, suggesting it is a conventional sign (description). The gesture points forward, likely indicating a group or category of people (indication). The action is a clear sign, not just a random movement, and is part of the core message (D1=2).\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are active. The dominant hand (on the viewer's right) is in front of the signer's chest. The non-dominant hand (on the viewer's left) is also in front of the chest, slightly lower than the dominant hand.",
+          "handshape": "Both hands have an extended index finger and a slightly curved thumb, with other fingers held close. The dominant hand's index finger is more prominent.",
+          "movement": "The dominant hand moves from a slightly inward position to an outward pointing gesture. The non-dominant hand makes a small, subtle outward movement.",
+          "location": "In front of the signer's torso, between the chest and the chin.",
+          "nonmanual": "The signer's head is still. The mouth is open as if speaking or signing.",
+          "non_dominant_hand": "The non-dominant hand is held relatively still but makes a small accompanying movement.",
+          "temporal_alignment": "The action is a single, continuous manual gesture that occurs in the middle of a larger signed phrase, transitioning from a previous hand configuration to the next."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed gesture is held in a stable location and has a clear handshape, suggesting it is a conventional sign (description). The gesture points forward, likely indicating a group or category of people (indication). The action is a clear sign, not just a random movement, and is part of the core message (D1=2)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

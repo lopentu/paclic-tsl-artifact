@@ -1,0 +1,55 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 563924614,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:35:27.195514",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open hand, fingers slightly curled\",\n        \"movement\": \"moves from right to left in a sweeping motion, then extends outward and upward\",\n        \"location\": \"starts near the signer's right shoulder, moves across the chest, then extends outward to the right side\",\n        \"nonmanual\": \"signer's mouth opens wide at 0.7s, head tilts slightly forward\",\n        \"non_dominant_hand\": \"the non-dominant hand is the primary articulator, performing a continuous motion\",\n        \"temporal_alignment\": \"the action begins with the signer's right hand near her right shoulder and moves across her body to the right, aligning with the beginning of the phrase '也可以留下聯絡方式' in the given meaning\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand movement sweeps across the signer's body, which is a common gesture in TSL to indicate 'leaving' or 'removing' something. The accompanying facial expression (wide mouth, forward head tilt) adds emphasis and affect. The motion aligns with the phrase '留下聯絡方式' (leave contact information), suggesting an action of setting something aside or offering it. The hand movement is not purely descriptive but serves to depict the action of providing contact details, thus contributing to both meaning and vividness.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open hand, fingers slightly curled",
+          "movement": "moves from right to left in a sweeping motion, then extends outward and upward",
+          "location": "starts near the signer's right shoulder, moves across the chest, then extends outward to the right side",
+          "nonmanual": "signer's mouth opens wide at 0.7s, head tilts slightly forward",
+          "non_dominant_hand": "the non-dominant hand is the primary articulator, performing a continuous motion",
+          "temporal_alignment": "the action begins with the signer's right hand near her right shoulder and moves across her body to the right, aligning with the beginning of the phrase '也可以留下聯絡方式' in the given meaning"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hand movement sweeps across the signer's body, which is a common gesture in TSL to indicate 'leaving' or 'removing' something. The accompanying facial expression (wide mouth, forward head tilt) adds emphasis and affect. The motion aligns with the phrase '留下聯絡方式' (leave contact information), suggesting an action of setting something aside or offering it. The hand movement is not purely descriptive but serves to depict the action of providing contact details, thus contributing to both meaning and vividness."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

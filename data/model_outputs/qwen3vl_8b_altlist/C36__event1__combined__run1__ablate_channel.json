@@ -1,0 +1,49 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C36_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:54:43.361019",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled\",\n        \"movement\": \"right hand moves from right to left across the signer's face, then moves down and outward; left hand moves from left to right across the signer's face, then moves down and outward\",\n        \"location\": \"right hand starts near the signer's right eye, moves across the face to the left side; left hand starts near the signer's left eye, moves across the face to the right side\",\n        \"nonmanual\": \"signer's mouth opens wide, eyes widen, head tilts slightly forward\",\n        \"non_dominant_hand\": \"left hand remains relatively still, with the index finger extended, while the right hand moves\",\n        \"temporal_alignment\": \"the action begins with the right hand moving across the face, followed by the left hand moving across the face, and ends with both hands moving outward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move across the face in a manner that visually represents the concept of 'witnesses' or 'people present' (D1: 2). The wide-open mouth and widened eyes convey a sense of surprise or emphasis (D2: 3). The movement of the hands across the face is a conventionalized sign for 'witness' or 'person' (description: 2). The hands are positioned to indicate the presence of people (indication: 1). The movement of the hands across the face is a depiction of people moving or being present (depiction: 1).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled",
+          "movement": "right hand moves from right to left across the signer's face, then moves down and outward; left hand moves from left to right across the signer's face, then moves down and outward",
+          "location": "right hand starts near the signer's right eye, moves across the face to the left side; left hand starts near the signer's left eye, moves across the face to the right side",
+          "nonmanual": "signer's mouth opens wide, eyes widen, head tilts slightly forward",
+          "non_dominant_hand": "left hand remains relatively still, with the index finger extended, while the right hand moves",
+          "temporal_alignment": "the action begins with the right hand moving across the face, followed by the left hand moving across the face, and ends with both hands moving outward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move across the face in a manner that visually represents the concept of 'witnesses' or 'people present' (D1: 2). The wide-open mouth and widened eyes convey a sense of surprise or emphasis (D2: 3). The movement of the hands across the face is a conventionalized sign for 'witness' or 'person' (description: 2). The hands are positioned to indicate the presence of people (indication: 1). The movement of the hands across the face is a depiction of people moving or being present (depiction: 1)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

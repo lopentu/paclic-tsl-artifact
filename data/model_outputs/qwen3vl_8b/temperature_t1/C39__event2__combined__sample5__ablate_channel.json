@@ -1,0 +1,55 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1804191318,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:21:38.417171",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.3\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"both fists move from the signer's sides inward toward the chest, then hold still with palms facing each other\",\n        \"location\": \"initially at the sides, then at chest level\",\n        \"nonmanual\": \"pursed lips, slight head tilt\",\n        \"non_dominant_hand\": \"none\",\n        \"temporal_alignment\": \"the action spans the entire target window, beginning with the fists moving inward and ending with them held steady at chest level\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The fists moving inward and holding at the chest visually enacts self-reliance and inner strength, aligning with the meaning 'I can be self-reliant' in the given context. The movement is a conventionalized sign that represents internalizing strength or resilience. The sustained hold at the chest emphasizes the internal nature of this self-reliance, adding vivid affect and stance to the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.3",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "both fists move from the signer's sides inward toward the chest, then hold still with palms facing each other",
+          "location": "initially at the sides, then at chest level",
+          "nonmanual": "pursed lips, slight head tilt",
+          "non_dominant_hand": "none",
+          "temporal_alignment": "the action spans the entire target window, beginning with the fists moving inward and ending with them held steady at chest level"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The fists moving inward and holding at the chest visually enacts self-reliance and inner strength, aligning with the meaning 'I can be self-reliant' in the given context. The movement is a conventionalized sign that represents internalizing strength or resilience. The sustained hold at the chest emphasizes the internal nature of this self-reliance, adding vivid affect and stance to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

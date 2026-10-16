@@ -1,0 +1,54 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "non_dominant_hand",
+  "target_channel_cued": "face",
+  "video_path": "<repo>/data/clips_c/C01_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C01_window_model.mp4",
+  "video_id": "S01EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T17:57:32.168705",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"head tilted slightly forward and to the right, eyes looking upward and to the right, mouth slightly open\",\n        \"location\": \"face and head\",\n        \"nonmanual\": \"eyes looking upward and to the right, mouth slightly open\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action occurs during the signing of the phrase '國家語言發展法已於 108 年 1 月 9 日由總統公布施行', and is temporally aligned with the signing of the word '公布' (announced/published)\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's upward gaze and slightly open mouth during the signing of '公布' (announced/published) visually emphasizes the official nature of the announcement, adding affective weight to the statement. The action is not a conventionalized lexical sign, but it is a nonmanual marker that contributes to the pragmatic force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "head tilted slightly forward and to the right, eyes looking upward and to the right, mouth slightly open",
+          "location": "face and head",
+          "nonmanual": "eyes looking upward and to the right, mouth slightly open",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action occurs during the signing of the phrase '國家語言發展法已於 108 年 1 月 9 日由總統公布施行', and is temporally aligned with the signing of the word '公布' (announced/published)"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's upward gaze and slightly open mouth during the signing of '公布' (announced/published) visually emphasizes the official nature of the announcement, adding affective weight to the statement. The action is not a conventionalized lexical sign, but it is a nonmanual marker that contributes to the pragmatic force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

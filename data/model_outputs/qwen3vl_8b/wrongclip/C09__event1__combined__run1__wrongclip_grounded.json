@@ -1,0 +1,69 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C09",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP09",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 0.8000000000000114
+  },
+  "video_from": {
+    "clip_id": "C18",
+    "event_id": "event2",
+    "video_id": "S01EP11",
+    "target_channel": "manual",
+    "duration": 1.1000000000000227
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.8000000000000114,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C18_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C18_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:48:47.626170",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from the signer's right side to the center of the face, then taps the lips\",\n        \"location\": \"starts near the signer's right cheek, moves to the mouth/lips\",\n        \"nonmanual\": \"mouth slightly open, eyes focused forward\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the clip, immediately following a pause and preceding a broader gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The index finger taps the lips, a conventionalized sign in TSL for 'silence' or 'quiet', which is semantically essential to the meaning 'if you only learn through current sign language courses, it is far from sufficient for translation'. The gesture is also pragmatically enriched, conveying a sense of caution or emphasis on the inadequacy of the current method.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from the signer's right side to the center of the face, then taps the lips",
+          "location": "starts near the signer's right cheek, moves to the mouth/lips",
+          "nonmanual": "mouth slightly open, eyes focused forward",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action occurs at the beginning of the clip, immediately following a pause and preceding a broader gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The index finger taps the lips, a conventionalized sign in TSL for 'silence' or 'quiet', which is semantically essential to the meaning 'if you only learn through current sign language courses, it is far from sufficient for translation'. The gesture is also pragmatically enriched, conveying a sense of caution or emphasis on the inadequacy of the current method."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

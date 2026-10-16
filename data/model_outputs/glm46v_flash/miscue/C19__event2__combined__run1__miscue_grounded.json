@@ -1,0 +1,56 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C19_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:14:49.730437",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"dominant hand touches chin\",\n        \"handshape\": \"index finger touching chin\",\n        \"movement\": \"static\",\n        \"location\": \"chin\",\n        \"nonmanual\": \"frown, mouth slightly open\",\n        \"non_dominant_hand\": \"resting on table\",\n        \"temporal_alignment\": \"integrated into a longer signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The signer's index finger touches their chin from 0.3 to 0.8 seconds, accompanied by a frown and slightly open mouth, which conveys belief and emphasis.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "dominant hand touches chin",
+          "handshape": "index finger touching chin",
+          "movement": "static",
+          "location": "chin",
+          "nonmanual": "frown, mouth slightly open",
+          "non_dominant_hand": "resting on table",
+          "temporal_alignment": "integrated into a longer signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The signer's index finger touches their chin from 0.3 to 0.8 seconds, accompanied by a frown and slightly open mouth, which conveys belief and emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

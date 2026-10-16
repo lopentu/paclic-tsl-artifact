@@ -1,0 +1,55 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1518274633,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:15:21.610622",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used, with the right hand dominant.\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled into a fist (a 'pointing' or 'index' handshape). Left hand: open, palm up, fingers spread (a 'receptive' or 'presentational' handshape).\",\n        \"movement\": \"Right hand moves from a position near the signer's right shoulder, forward and slightly down, ending with the index finger extended toward the viewer. Left hand remains relatively still with palm up, slightly moving in tandem with the right hand's motion, appearing to receive or present something.\",\n        \"location\": \"Right hand moves from the signer's right side, forward to the center of the signing space, ending with the index finger pointing forward. Left hand remains in the center of the signing space, palm up, facing the viewer.\",\n        \"nonmanual\": \"Signer's mouth is open and moving, indicating speech or articulation accompanies the signing. Facial expression is neutral to slightly engaged.\",\n        \"non_dominant_hand\": \"Left hand remains relatively still with palm up, slightly moving in tandem with the right hand's motion, appearing to receive or present something.\",\n        \"temporal_alignment\": \"The action begins with the right hand moving forward and ends with the index finger extended. The left hand remains relatively still with palm up, slightly moving in tandem with the right hand's motion, appearing to receive or present something.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand's index finger points forward, a gesture that can indicate direction or refer to a specific entity. The left hand's open palm suggests receiving or presenting something, contributing to the overall meaning of the clause. The coordinated movement and the signer's open mouth suggest this action is grammatically important and adds emphasis to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used, with the right hand dominant.",
+          "handshape": "Right hand: index finger extended, other fingers curled into a fist (a 'pointing' or 'index' handshape). Left hand: open, palm up, fingers spread (a 'receptive' or 'presentational' handshape).",
+          "movement": "Right hand moves from a position near the signer's right shoulder, forward and slightly down, ending with the index finger extended toward the viewer. Left hand remains relatively still with palm up, slightly moving in tandem with the right hand's motion, appearing to receive or present something.",
+          "location": "Right hand moves from the signer's right side, forward to the center of the signing space, ending with the index finger pointing forward. Left hand remains in the center of the signing space, palm up, facing the viewer.",
+          "nonmanual": "Signer's mouth is open and moving, indicating speech or articulation accompanies the signing. Facial expression is neutral to slightly engaged.",
+          "non_dominant_hand": "Left hand remains relatively still with palm up, slightly moving in tandem with the right hand's motion, appearing to receive or present something.",
+          "temporal_alignment": "The action begins with the right hand moving forward and ends with the index finger extended. The left hand remains relatively still with palm up, slightly moving in tandem with the right hand's motion, appearing to receive or present something."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand's index finger points forward, a gesture that can indicate direction or refer to a specific entity. The left hand's open palm suggests receiving or presenting something, contributing to the overall meaning of the clause. The coordinated movement and the signer's open mouth suggest this action is grammatically important and adds emphasis to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

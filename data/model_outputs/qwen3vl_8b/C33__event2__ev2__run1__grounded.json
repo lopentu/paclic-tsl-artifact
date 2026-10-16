@@ -1,0 +1,48 @@
+{
+  "clip_id": "C33",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:36:34.636505",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"thumb up, fingers extended\",\n        \"movement\": \"both hands move from the sides toward the center, then move outward and downward\",\n        \"location\": \"initially at the sides, then move inward and downward\",\n        \"nonmanual\": \"mouth open, lips pursed\",\n        \"non_dominant_hand\": \"not visible or not active\",\n        \"temporal_alignment\": \"starts after a hand gesture, spans a continuous unit, ends before a hand gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move inward and downward, which is a common gesture for 'happening' or 'occurring' in TSL. The gesture is repeated and sustained, indicating emphasis on the event. The facial expression (pursed lips) adds affective weight to the proposition.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "thumb up, fingers extended",
+          "movement": "both hands move from the sides toward the center, then move outward and downward",
+          "location": "initially at the sides, then move inward and downward",
+          "nonmanual": "mouth open, lips pursed",
+          "non_dominant_hand": "not visible or not active",
+          "temporal_alignment": "starts after a hand gesture, spans a continuous unit, ends before a hand gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move inward and downward, which is a common gesture for 'happening' or 'occurring' in TSL. The gesture is repeated and sustained, indicating emphasis on the event. The facial expression (pursed lips) adds affective weight to the proposition."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

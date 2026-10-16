@@ -1,0 +1,55 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 856438929,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:52:26.799170",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"points forward and slightly upward, then holds steady\",\n        \"location\": \"at the signer's chin level, pointing forward\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"maintains a steady pointing gesture\",\n        \"temporal_alignment\": \"the gesture is held during the target span, framed by surrounding signing\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The non-dominant hand points forward and upward, consistent with indicating a formal or official source (like a law or presidential act). The gesture is held steadily, suggesting emphasis on the official nature of the statement. The handshape and location are consistent with a deictic gesture pointing to a source of authority or action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended",
+          "movement": "points forward and slightly upward, then holds steady",
+          "location": "at the signer's chin level, pointing forward",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "maintains a steady pointing gesture",
+          "temporal_alignment": "the gesture is held during the target span, framed by surrounding signing"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The non-dominant hand points forward and upward, consistent with indicating a formal or official source (like a law or presidential act). The gesture is held steadily, suggesting emphasis on the official nature of the statement. The handshape and location are consistent with a deictic gesture pointing to a source of authority or action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

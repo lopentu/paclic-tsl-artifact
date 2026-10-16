@@ -1,0 +1,55 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1157363136,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:31:51.248205",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not involved\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"head tilted slightly forward and to the right; mouth opens and closes with a slight upward curve at the corners; eyes look slightly upward\",\n        \"location\": \"face and head\",\n        \"nonmanual\": \"facial expression with mouth opening and closing, eyes looking upward\",\n        \"non_dominant_hand\": \"not involved\",\n        \"temporal_alignment\": \"the action occurs within a stretch of signing that includes a preceding manual sign and a following manual sign, but is not synchronized with a specific sign boundary; it is a continuous facial expression that accompanies the signed utterance\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The facial expression, with the mouth opening and closing and the eyes looking upward, is sustained throughout the target span and is accompanied by the signed utterance. This expression is typical of an emotional or emphatic facial expression in TSL, which is used to convey the signer's attitude or emotion towards the content being signed. The expression is not a lexical sign, but it adds emotional or affective enrichment to the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not involved",
+          "handshape": "not visible",
+          "movement": "head tilted slightly forward and to the right; mouth opens and closes with a slight upward curve at the corners; eyes look slightly upward",
+          "location": "face and head",
+          "nonmanual": "facial expression with mouth opening and closing, eyes looking upward",
+          "non_dominant_hand": "not involved",
+          "temporal_alignment": "the action occurs within a stretch of signing that includes a preceding manual sign and a following manual sign, but is not synchronized with a specific sign boundary; it is a continuous facial expression that accompanies the signed utterance"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression, with the mouth opening and closing and the eyes looking upward, is sustained throughout the target span and is accompanied by the signed utterance. This expression is typical of an emotional or emphatic facial expression in TSL, which is used to convey the signer's attitude or emotion towards the content being signed. The expression is not a lexical sign, but it adds emotional or affective enrichment to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

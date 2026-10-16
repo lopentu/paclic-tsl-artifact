@@ -1,0 +1,55 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1738988478,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:30:21.694424",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"held still\",\n        \"location\": \"near the signer's mouth, touching or hovering just above the lips\",\n        \"nonmanual\": \"signer's eyes look upward and slightly to the side, lips slightly parted\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"occurs within a sustained signing unit, following a gesture of placing a hand on the chest and preceding a movement away from the face\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and location (index finger near the lips) are a conventionalized sign in TSL for 'say' or 'speak'. The sustained hold and the upward gaze with parted lips convey a sense of thoughtful reflection or contemplation, which aligns with the discourse meaning about 'a lot of practice' being 'very convenient' and 'now there are many resources online'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "held still",
+          "location": "near the signer's mouth, touching or hovering just above the lips",
+          "nonmanual": "signer's eyes look upward and slightly to the side, lips slightly parted",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "occurs within a sustained signing unit, following a gesture of placing a hand on the chest and preceding a movement away from the face"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and location (index finger near the lips) are a conventionalized sign in TSL for 'say' or 'speak'. The sustained hold and the upward gaze with parted lips convey a sense of thoughtful reflection or contemplation, which aligns with the discourse meaning about 'a lot of practice' being 'very convenient' and 'now there are many resources online'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

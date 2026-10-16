@@ -1,0 +1,17 @@
+{
+  "probe_id": "ndh_hold_load",
+  "tests": "Does its stated D1 for a non-dominant-hand hold match the D1 it assigns on video?",
+  "question": "Consider a signer who produces a sign with the dominant hand while the NON-DOMINANT hand stays held in place, barely moving, from an earlier sign. Typically, how much semantic/syntactic load does that held non-dominant hand itself carry?",
+  "answer_format": "prose",
+  "video_shown": false,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "temperature": 0.0,
+  "do_sample": false,
+  "max_new_tokens": 500,
+  "timestamp": "2026-08-03T12:24:03.758742",
+  "prompt": "You are answering a question about sign language linguistics. This is a knowledge question about signed languages in general, not about any particular video.\n\nConsider a signer who produces a sign with the dominant hand while the NON-DOMINANT hand stays held in place, barely moving, from an earlier sign. Typically, how much semantic/syntactic load does that held non-dominant hand itself carry?\n\nAnswer in at most 120 words. Plain prose, no JSON.\n",
+  "raw_text": "The held non-dominant hand typically carries little to no independent semantic or syntactic load. Its primary function is structural or gestural—maintaining spatial reference, anchoring the sign’s location, or indicating grammatical roles like subject or object through handshape or orientation. In many signed languages, the non-dominant hand’s static position is a neutral scaffold, not a carrier of lexical or syntactic meaning. Semantic content usually resides in the dominant hand’s movement, location, and configuration. The held hand may contribute to discourse cohesion or grammatical marking indirectly, but not as a primary semantic or syntactic element.",
+  "parsed": null
+}

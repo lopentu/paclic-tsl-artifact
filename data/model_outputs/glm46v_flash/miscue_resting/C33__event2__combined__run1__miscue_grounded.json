@@ -1,0 +1,56 @@
+{
+  "clip_id": "C33",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C33_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C33_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T02:05:38.533203",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"thumbs pointing forward with fingers curled\",\n        \"movement\": \"hands move forward from chest level to forward-facing position, then slightly retract\",\n        \"location\": \"chest and forward\",\n        \"nonmanual\": \"mouth opens and closes, head slightly tilts\",\n        \"non_dominant_hand\": \"mirrors dominant hand\",\n        \"temporal_alignment\": \"part of a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action shows both hands with thumbs forward and fingers curled, moving forward from the chest and slightly retracting, which aligns with the temporal alignment and contributes to the semantic content of the phrase.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "thumbs pointing forward with fingers curled",
+          "movement": "hands move forward from chest level to forward-facing position, then slightly retract",
+          "location": "chest and forward",
+          "nonmanual": "mouth opens and closes, head slightly tilts",
+          "non_dominant_hand": "mirrors dominant hand",
+          "temporal_alignment": "part of a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action shows both hands with thumbs forward and fingers curled, moving forward from the chest and slightly retracting, which aligns with the temporal alignment and contributes to the semantic content of the phrase."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

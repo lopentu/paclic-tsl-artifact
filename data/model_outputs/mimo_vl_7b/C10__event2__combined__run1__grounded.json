@@ -1,0 +1,50 @@
+{
+  "clip_id": "C10",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C10_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:22:44.912780",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are active. The dominant hand (right) is in front, and the non-dominant hand (left) is behind it.\",\n        \"handshape\": \"Both hands have an extended index finger and a slightly curled 'P' handshape for the other fingers.\",\n        \"movement\": \"The dominant hand moves forward and slightly down in a small, repetitive jabbing or pointing motion. The non-dominant hand remains relatively stable, providing a base.\",\n        \"location\": \"In front of the signer's torso, at about chest height.\",\n        \"nonmanual\": \"The signer's head is still and facing forward. The eyebrows are slightly raised.\",\n        \"non_dominant_hand\": \"The non-dominant hand is held in front of the signer's chest, palm facing inward, fingers together.\",\n        \"temporal_alignment\": \"The action is a single, distinct sign that occurs in the middle of a continuous signing flow, immediately following a sign where the right hand was near the face.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The target action is a distinct, repeated jabbing motion that is clearly different from the sign immediately before it. This suggests it carries specific meaning. The handshape and movement are conventional, indicating it's a lexical sign (description). The repetitive motion could be emphasizing a quality of the referent (enrichment).\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are active. The dominant hand (right) is in front, and the non-dominant hand (left) is behind it.",
+          "handshape": "Both hands have an extended index finger and a slightly curled 'P' handshape for the other fingers.",
+          "movement": "The dominant hand moves forward and slightly down in a small, repetitive jabbing or pointing motion. The non-dominant hand remains relatively stable, providing a base.",
+          "location": "In front of the signer's torso, at about chest height.",
+          "nonmanual": "The signer's head is still and facing forward. The eyebrows are slightly raised.",
+          "non_dominant_hand": "The non-dominant hand is held in front of the signer's chest, palm facing inward, fingers together.",
+          "temporal_alignment": "The action is a single, distinct sign that occurs in the middle of a continuous signing flow, immediately following a sign where the right hand was near the face."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The target action is a distinct, repeated jabbing motion that is clearly different from the sign immediately before it. This suggests it carries specific meaning. The handshape and movement are conventional, indicating it's a lexical sign (description). The repetitive motion could be emphasizing a quality of the referent (enrichment)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

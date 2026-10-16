@@ -1,0 +1,54 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_c/C21_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:10:12.547371",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from chin to lips and holds there\",\n        \"location\": \"near the signer's mouth\",\n        \"nonmanual\": \"eyes closed, head tilted slightly upward\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action occurs within a longer signing unit, following a gesture to the chest and preceding a fist pump\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and location (index finger to lips) are a conventionalized sign for 'think' or 'consider' in TSL. The accompanying facial expression (eyes closed, head tilted) adds affective emphasis, suggesting deep thought or contemplation. The action is not merely a pause or posture reset; it is a core part of the message about '大量練習' (a lot of practice) requiring reflection.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from chin to lips and holds there",
+          "location": "near the signer's mouth",
+          "nonmanual": "eyes closed, head tilted slightly upward",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action occurs within a longer signing unit, following a gesture to the chest and preceding a fist pump"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and location (index finger to lips) are a conventionalized sign for 'think' or 'consider' in TSL. The accompanying facial expression (eyes closed, head tilted) adds affective emphasis, suggesting deep thought or contemplation. The action is not merely a pause or posture reset; it is a core part of the message about '大量練習' (a lot of practice) requiring reflection."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

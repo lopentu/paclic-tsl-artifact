@@ -1,0 +1,53 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/static/C38_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C38_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:55:15.030878",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand (right) extended with index finger pointing downward, non-dominant hand (left) held in a closed fist near the right wrist\",\n        \"handshape\": \"dominant hand: index finger extended, other fingers curled; non-dominant hand: closed fist\",\n        \"movement\": \"minimal movement; dominant hand remains steady with index finger pointing downward, non-dominant hand remains static\",\n        \"location\": \"dominant hand positioned at the signer's right side, pointing downward; non-dominant hand held near the right wrist\",\n        \"nonmanual\": \"signer's head is slightly tilted downward, face shows a slight smile\",\n        \"non_dominant_hand\": \"held in a closed fist, stationary near the right wrist\",\n        \"temporal_alignment\": \"the action occurs within a sustained signing unit, framed by the surrounding signing\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The pointing gesture with the index finger downward is a conventionalized lexical sign in TSL for 'teach' or 'instruct', which is essential for the meaning 'I started teaching them sign language from a young age'. The downward pointing indicates the direction of the teaching (toward the learners) and the slight smile adds a positive, affective tone to the action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand (right) extended with index finger pointing downward, non-dominant hand (left) held in a closed fist near the right wrist",
+          "handshape": "dominant hand: index finger extended, other fingers curled; non-dominant hand: closed fist",
+          "movement": "minimal movement; dominant hand remains steady with index finger pointing downward, non-dominant hand remains static",
+          "location": "dominant hand positioned at the signer's right side, pointing downward; non-dominant hand held near the right wrist",
+          "nonmanual": "signer's head is slightly tilted downward, face shows a slight smile",
+          "non_dominant_hand": "held in a closed fist, stationary near the right wrist",
+          "temporal_alignment": "the action occurs within a sustained signing unit, framed by the surrounding signing"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The pointing gesture with the index finger downward is a conventionalized lexical sign in TSL for 'teach' or 'instruct', which is essential for the meaning 'I started teaching them sign language from a young age'. The downward pointing indicates the direction of the teaching (toward the learners) and the slight smile adds a positive, affective tone to the action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

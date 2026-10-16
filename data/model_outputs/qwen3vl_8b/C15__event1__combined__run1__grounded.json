@@ -1,0 +1,48 @@
+{
+  "clip_id": "C15",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C15_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:17:58.738416",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression with slight head tilt and focused gaze\",\n        \"location\": \"face and head\",\n        \"nonmanual\": \"focused gaze, slight head tilt\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during the signing of '持續' (continue), aligning with the ongoing effort theme\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer maintains a focused gaze and slight head tilt during the signing of '持續', which visually reinforces the idea of ongoing effort. The facial expression adds emphasis and affect to the concept of persistence, making the meaning more vivid without changing the core proposition.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression with slight head tilt and focused gaze",
+          "location": "face and head",
+          "nonmanual": "focused gaze, slight head tilt",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during the signing of '持續' (continue), aligning with the ongoing effort theme"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer maintains a focused gaze and slight head tilt during the signing of '持續', which visually reinforces the idea of ongoing effort. The facial expression adds emphasis and affect to the concept of persistence, making the meaning more vivid without changing the core proposition."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

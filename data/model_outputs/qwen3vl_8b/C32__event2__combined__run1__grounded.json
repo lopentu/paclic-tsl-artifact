@@ -1,0 +1,48 @@
+{
+  "clip_id": "C32",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C32_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:35:25.209576",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers rise and fall in a synchronized, rhythmic motion, as if counting or emphasizing a point\",\n        \"location\": \"in front of the signer's chest, at midline\",\n        \"nonmanual\": \"signer's head is slightly tilted forward, mouth is open as if speaking\",\n        \"non_dominant_hand\": \"non-dominant hand is held steady, supporting the gesture\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, immediately following a gesture with the right hand and preceding a gesture with the left hand\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The synchronized movement of both index fingers, combined with the signer's focused expression and the context of the phrase '也可以理解這世界的不同！', suggests a grammatical or semantic marker for emphasis or enumeration, contributing to the structure of the message. The rhythmic, emphatic gesture adds affective force, making the statement more vivid and impactful.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers rise and fall in a synchronized, rhythmic motion, as if counting or emphasizing a point",
+          "location": "in front of the signer's chest, at midline",
+          "nonmanual": "signer's head is slightly tilted forward, mouth is open as if speaking",
+          "non_dominant_hand": "non-dominant hand is held steady, supporting the gesture",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, immediately following a gesture with the right hand and preceding a gesture with the left hand"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The synchronized movement of both index fingers, combined with the signer's focused expression and the context of the phrase '也可以理解這世界的不同！', suggests a grammatical or semantic marker for emphasis or enumeration, contributing to the structure of the message. The rhythmic, emphatic gesture adds affective force, making the statement more vivid and impactful."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

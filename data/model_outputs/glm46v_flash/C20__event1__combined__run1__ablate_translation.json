@@ -1,0 +1,61 @@
+{
+  "clip_id": "C20",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C20_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:25:32.946428",
+  "backend_call_info": {
+    "frames_per_video": [
+      60,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.7737,
+      15.54
+    ],
+    "input_tokens": 8619,
+    "output_tokens": 269
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"closed fist\",\n        \"movement\": \"moves from forward in front of the body to a position near the chest\",\n        \"location\": \"forward and slightly to the right of the body\",\n        \"nonmanual\": \"mouth opens and closes, head slightly tilts forward\",\n        \"non_dominant_hand\": \"rests on the lap\",\n        \"temporal_alignment\": \"part of a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign for 'to do' or 'to make' in TSL, and the nonmanual cues suggest emphasis on the action.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "closed fist",
+          "movement": "moves from forward in front of the body to a position near the chest",
+          "location": "forward and slightly to the right of the body",
+          "nonmanual": "mouth opens and closes, head slightly tilts forward",
+          "non_dominant_hand": "rests on the lap",
+          "temporal_alignment": "part of a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign for 'to do' or 'to make' in TSL, and the nonmanual cues suggest emphasis on the action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

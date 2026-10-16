@@ -1,0 +1,49 @@
+{
+  "clip_id": "C07",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C07_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:58:56.709872",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'thumbs-up' gesture; left hand forms a 'thumbs-down' gesture\",\n        \"movement\": \"right hand moves from a neutral position to a thumbs-up, then holds; left hand moves from a neutral position to a thumbs-down, then holds\",\n        \"location\": \"right hand is positioned near the signer's right side of chest; left hand is positioned near the signer's left side of chest\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly smiling\",\n        \"non_dominant_hand\": \"left hand holds the thumbs-down gesture\",\n        \"temporal_alignment\": \"the action begins immediately after a previous sign and is held for a short duration before transitioning to the next sign\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The simultaneous 'thumbs-up' and 'thumbs-down' gestures are a conventionalized sign in TSL that conveys a contrast or opposition, contributing to the propositional content. The signer's slight smile and the contrasting gestures add affective enrichment, indicating a positive or playful stance toward the contrast.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'thumbs-up' gesture; left hand forms a 'thumbs-down' gesture",
+          "movement": "right hand moves from a neutral position to a thumbs-up, then holds; left hand moves from a neutral position to a thumbs-down, then holds",
+          "location": "right hand is positioned near the signer's right side of chest; left hand is positioned near the signer's left side of chest",
+          "nonmanual": "signer's facial expression is neutral to slightly smiling",
+          "non_dominant_hand": "left hand holds the thumbs-down gesture",
+          "temporal_alignment": "the action begins immediately after a previous sign and is held for a short duration before transitioning to the next sign"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The simultaneous 'thumbs-up' and 'thumbs-down' gestures are a conventionalized sign in TSL that conveys a contrast or opposition, contributing to the propositional content. The signer's slight smile and the contrasting gestures add affective enrichment, indicating a positive or playful stance toward the contrast."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

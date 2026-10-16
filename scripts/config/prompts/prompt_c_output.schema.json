@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prompt C output (meaning-conditioned functional attribution; 2026-07 redesign, semiotic modes rescaled to 0-3 on 2026-07-27)",
+  "type": "object",
+  "required": ["caption_leakage_risk", "candidate_actions"],
+  "additionalProperties": false,
+  "properties": {
+    "caption_leakage_risk": {
+      "type": "string",
+      "enum": ["yes", "no", "uncertain"]
+    },
+    "candidate_actions": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "start_time",
+          "end_time",
+          "channel_judged",
+          "form_description",
+          "semantic_syntactic_load",
+          "pragmatic_depictive_affective_enrichment",
+          "description",
+          "indication",
+          "depiction",
+          "observable_evidence"
+        ],
+        "properties": {
+          "start_time": {"type": "string"},
+          "end_time": {"type": "string"},
+          "channel_judged": {
+            "type": "string",
+            "enum": ["face", "head_torso", "non_dominant_hand", "manual"],
+            "description": "Which articulator the model judged to be carrying the target action. Under --mode ablate_channel / ablate_both this is the measurement (was the right articulator found?); under the channel-given modes it is a compliance check. Required as of 2026-07-29: every one of the 660 runs collected under the earlier, non-required version of this field already filled it in, so making it required going forward costs nothing and closes a gap where a future run could silently skip the one field the channel-compliance check and the perception-rating sheet's Step 1 both depend on."
+          },
+          "form_description": {
+            "type": "object",
+            "required": ["hands", "handshape", "movement", "location", "nonmanual", "non_dominant_hand", "temporal_alignment"],
+            "properties": {
+              "hands": {"type": "string"},
+              "handshape": {"type": "string"},
+              "movement": {"type": "string"},
+              "location": {"type": "string"},
+              "nonmanual": {"type": "string"},
+              "non_dominant_hand": {"type": "string"},
+              "temporal_alignment": {"type": "string"}
+            }
+          },
+          "semantic_syntactic_load": {"type": "integer", "minimum": 0, "maximum": 3},
+          "pragmatic_depictive_affective_enrichment": {"type": "integer", "minimum": 0, "maximum": 3},
+          "description": {"type": "integer", "minimum": 0, "maximum": 3},
+          "indication": {"type": "integer", "minimum": 0, "maximum": 3},
+          "depiction": {"type": "integer", "minimum": 0, "maximum": 3},
+          "confidence": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+          "observable_evidence": {"type": "string"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "clip_id": "C30",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C30_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C30_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T02:02:26.001553",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.40\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand raised with index finger extended, then closed into a fist\",\n        \"handshape\": \"index finger extended, then closed into a fist\",\n        \"movement\": \"index finger extends upward from the signer's chest, then closes into a fist\",\n        \"location\": \"in front of the signer's torso, moving upward\",\n        \"nonmanual\": \"mouth moves as if speaking\",\n        \"non_dominant_hand\": \"index finger extends upward, then closes into a fist\",\n        \"temporal_alignment\": \"part of a longer signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand extends the index finger upward and then closes into a fist, which is a common TSL gesture for 'at that time' or 'then', contributing to the overall meaning of the sentence.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.40",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "non-dominant hand raised with index finger extended, then closed into a fist",
+          "handshape": "index finger extended, then closed into a fist",
+          "movement": "index finger extends upward from the signer's chest, then closes into a fist",
+          "location": "in front of the signer's torso, moving upward",
+          "nonmanual": "mouth moves as if speaking",
+          "non_dominant_hand": "index finger extends upward, then closes into a fist",
+          "temporal_alignment": "part of a longer signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand extends the index finger upward and then closes into a fist, which is a common TSL gesture for 'at that time' or 'then', contributing to the overall meaning of the sentence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

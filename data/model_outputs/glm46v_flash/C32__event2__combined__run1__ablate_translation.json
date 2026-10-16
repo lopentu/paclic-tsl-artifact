@@ -1,0 +1,61 @@
+{
+  "clip_id": "C32",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C32_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:36:33.343068",
+  "backend_call_info": {
+    "frames_per_video": [
+      112,
+      12
+    ],
+    "sampled_fps_per_video": [
+      15.7589,
+      14.985
+    ],
+    "input_tokens": 13269,
+    "output_tokens": 296
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.50\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand and non-dominant hand\",\n        \"handshape\": \"dominant hand in a fist, non-dominant hand in a fist\",\n        \"movement\": \"dominant hand moves from chest to chin, non-dominant hand moves from chest to chin\",\n        \"location\": \"chest to chin\",\n        \"nonmanual\": \"mouth is slightly open, head is forward\",\n        \"non_dominant_hand\": \"non-dominant hand is positioned near the dominant hand\",\n        \"temporal_alignment\": \"part of a longer sequence of signing\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The signer's hands move from chest to chin, which is a common depiction of 'my heart' or 'my feelings' in sign language. The movement is clear and consistent with the surrounding signing.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.50",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand and non-dominant hand",
+          "handshape": "dominant hand in a fist, non-dominant hand in a fist",
+          "movement": "dominant hand moves from chest to chin, non-dominant hand moves from chest to chin",
+          "location": "chest to chin",
+          "nonmanual": "mouth is slightly open, head is forward",
+          "non_dominant_hand": "non-dominant hand is positioned near the dominant hand",
+          "temporal_alignment": "part of a longer sequence of signing"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The signer's hands move from chest to chin, which is a common depiction of 'my heart' or 'my feelings' in sign language. The movement is clear and consistent with the surrounding signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

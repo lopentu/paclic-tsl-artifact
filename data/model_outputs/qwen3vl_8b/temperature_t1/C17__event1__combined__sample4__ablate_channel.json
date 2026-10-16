@@ -1,0 +1,55 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 613588956,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:13:10.948676",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a 'pinch' or 'thumb and index finger' shape; left hand forms an open palm.\",\n        \"movement\": \"Right hand moves downward from the upper right toward the center, then moves slightly inward and downward to tap or touch the center of the left hand's palm.\",\n        \"location\": \"Initial position: right hand above and to the right of the left hand. Final position: right hand touching the center of the left hand's palm, which is held open and slightly cupped, facing upward.\",\n        \"nonmanual\": \"Signer's facial expression is neutral to slightly puckered, with lips pressed together.\",\n        \"non_dominant_hand\": \"Left hand remains stationary, held open and cupped, palm facing upward, serving as a receptive or target surface.\",\n        \"temporal_alignment\": \"The action occurs within a continuous signing unit, following a prior gesture and preceding a subsequent hand movement toward the chest.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves a manual sign with a clear handshape and movement path, consistent with a lexical sign in TSL. The right hand's movement toward and contact with the left hand's palm suggests a specific grammatical or lexical structure, possibly indicating 'this' or 'here' as a referent within the phrase '這個課程很棒'. The facial expression and hand positioning contribute to the affective tone of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a 'pinch' or 'thumb and index finger' shape; left hand forms an open palm.",
+          "movement": "Right hand moves downward from the upper right toward the center, then moves slightly inward and downward to tap or touch the center of the left hand's palm.",
+          "location": "Initial position: right hand above and to the right of the left hand. Final position: right hand touching the center of the left hand's palm, which is held open and slightly cupped, facing upward.",
+          "nonmanual": "Signer's facial expression is neutral to slightly puckered, with lips pressed together.",
+          "non_dominant_hand": "Left hand remains stationary, held open and cupped, palm facing upward, serving as a receptive or target surface.",
+          "temporal_alignment": "The action occurs within a continuous signing unit, following a prior gesture and preceding a subsequent hand movement toward the chest."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves a manual sign with a clear handshape and movement path, consistent with a lexical sign in TSL. The right hand's movement toward and contact with the left hand's palm suggests a specific grammatical or lexical structure, possibly indicating 'this' or 'here' as a referent within the phrase '這個課程很棒'. The facial expression and hand positioning contribute to the affective tone of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

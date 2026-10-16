@@ -1,0 +1,53 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C12_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C12_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:08:31.064791",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"repeatedly moves in a small circular motion, then extends outward and back\",\n        \"location\": \"in front of the signer's chest, near the center of the frame\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"the non-dominant hand is the sole articulator, performing a repetitive, circular motion with the index finger extended, then extending outward and retracting\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing unit, framed by other signs, and is not isolated in a pause\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand performs a repetitive, circular motion with the index finger extended, which is a conventionalized sign in TSL for 'important' or 'emphasize'. The movement is not a depiction or indication but a lexical sign. The action is repeated and sustained, suggesting emphasis on the concept of 'basic language ability' mentioned in the given meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "repeatedly moves in a small circular motion, then extends outward and back",
+          "location": "in front of the signer's chest, near the center of the frame",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "the non-dominant hand is the sole articulator, performing a repetitive, circular motion with the index finger extended, then extending outward and retracting",
+          "temporal_alignment": "the action occurs within a continuous signing unit, framed by other signs, and is not isolated in a pause"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand performs a repetitive, circular motion with the index finger extended, which is a conventionalized sign in TSL for 'important' or 'emphasize'. The movement is not a depiction or indication but a lexical sign. The action is repeated and sustained, suggesting emphasis on the concept of 'basic language ability' mentioned in the given meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

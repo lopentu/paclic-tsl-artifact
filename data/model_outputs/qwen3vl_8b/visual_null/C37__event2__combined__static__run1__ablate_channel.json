@@ -1,0 +1,53 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/static/C37_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:54:58.447422",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: flat, palm up; left hand: flat, palm up\",\n        \"movement\": \"right hand remains stationary near chest; left hand moves slightly inward and downward, then outward and upward in a small arc\",\n        \"location\": \"right hand at chest level, left hand moving in front of chest\",\n        \"nonmanual\": \"mouth open, lips pursed, eyes focused forward\",\n        \"non_dominant_hand\": \"left hand is the non-dominant hand, performing the movement\",\n        \"temporal_alignment\": \"the action occurs within a sustained signing unit, with no clear pause before or after\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands are held in a flat, open palm-up configuration, which is a common sign for 'hand' or 'sign language' in TSL. The slight movement of the left hand, combined with the facial expression, suggests an emphasis on the concept of 'using' or 'communicating' with hand gestures. The sustained hold and facial expression contribute to the pragmatic emphasis on the difficulty or limitation being described in the given meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: flat, palm up; left hand: flat, palm up",
+          "movement": "right hand remains stationary near chest; left hand moves slightly inward and downward, then outward and upward in a small arc",
+          "location": "right hand at chest level, left hand moving in front of chest",
+          "nonmanual": "mouth open, lips pursed, eyes focused forward",
+          "non_dominant_hand": "left hand is the non-dominant hand, performing the movement",
+          "temporal_alignment": "the action occurs within a sustained signing unit, with no clear pause before or after"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands are held in a flat, open palm-up configuration, which is a common sign for 'hand' or 'sign language' in TSL. The slight movement of the left hand, combined with the facial expression, suggests an emphasis on the concept of 'using' or 'communicating' with hand gestures. The sustained hold and facial expression contribute to the pragmatic emphasis on the difficulty or limitation being described in the given meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

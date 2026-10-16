@@ -1,0 +1,20 @@
+{
+  "clip_id": "C02",
+  "event_id": null,
+  "stage": "stage1_handedness_only",
+  "mode": null,
+  "video_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "backend": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "temperature": 0.0,
+  "timestamp": "2026-08-03T12:00:41.479096",
+  "prompt": "You are watching a short video clip of Taiwan Sign Language (TSL) discourse.\n\nWHO TO WATCH. Some clips show a single person signing to the camera. Others are interviews, so TWO people are visible. In every clip only ONE of them is the main signer: the person actively producing the signed utterance. Answer about that person only.\n\nPOINT OF VIEW. Describe every direction from the SIGNER's own body, never from the camera's or the viewer's. A hand that appears on the right-hand side of the frame, when the signer faces the camera, is on the signer's LEFT.\n\nYou have exactly one task. Decide which of the signer's two hands is the DOMINANT hand -- the hand\nthat produces one-handed signs and leads two-handed ones -- and which is the NON-DOMINANT (weak)\nhand. Do not describe or evaluate any particular action, and do not translate the clip.\n\nRespond with ONLY a single JSON object, no prose before or after it:\n\n{\n  \"dominant_hand\": \"left\" or \"right\",\n  \"signer_position\": \"which person in the frame you took to be the signer\",\n  \"visual_evidence\": \"one or two sentences naming what in the video told you this\",\n  \"non_dominant_hand_behaviour\": \"what the OTHER hand does across this clip\",\n  \"confidence\": 0.0\n}\n",
+  "raw_text": "{\n  \"dominant_hand\": \"right\",\n  \"signer_position\": \"the man in the black shirt and cap\",\n  \"visual_evidence\": \"The signer consistently uses his right hand to produce the main gestures, including pointing to his head and making sweeping motions, while his left hand often supports or accompanies the right hand's movement.\",\n  \"non_dominant_hand_behaviour\": \"The left hand frequently moves in coordination with the right hand, often mirroring or supporting its motion, and is used to frame or emphasize the gestures made by the right hand.\",\n  \"confidence\": 0.95\n}",
+  "parsed": {
+    "dominant_hand": "right",
+    "signer_position": "the man in the black shirt and cap",
+    "visual_evidence": "The signer consistently uses his right hand to produce the main gestures, including pointing to his head and making sweeping motions, while his left hand often supports or accompanies the right hand's movement.",
+    "non_dominant_hand_behaviour": "The left hand frequently moves in coordination with the right hand, often mirroring or supporting its motion, and is used to frame or emphasize the gestures made by the right hand.",
+    "confidence": 0.95
+  }
+}

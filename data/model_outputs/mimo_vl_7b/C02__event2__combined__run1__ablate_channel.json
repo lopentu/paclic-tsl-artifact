@@ -1,0 +1,50 @@
+{
+  "clip_id": "C02",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:26:09.965990",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.8\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are used, the dominant (right) and non-dominant (left) hands.\",\n          \"handshape\": \"The dominant hand is a 'C' shape. The non-dominant hand is also a 'C' shape.\",\n          \"movement\": \"The dominant hand moves from a position near the signer's right shoulder downwards and forwards in a circular or sweeping motion. The non-dominant hand moves from near the signer's left shoulder downwards and forwards in a similar, slightly less pronounced motion.\",\n          \"location\": \"The action starts near the signer's shoulders and moves down towards the chest and stomach area.\",\n          \"nonmanual\": \"The signer's head is tilted slightly to their right. The eyebrows are slightly raised. The mouth is open as if speaking or emphasizing a point.\",\n          \"non_dominant_hand\": \"The non-dominant hand is active, mirroring the dominant hand's general motion but with less amplitude.\",\n          \"temporal_alignment\": \"The action is a continuous, fluid motion that appears to be the core of a single sign, starting and ending within a single, uninterrupted signed unit.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two-handed, symmetrical motion is a conventional form in Taiwanese Sign Language, likely a lexical sign. The surrounding context of a continuous signed discourse suggests it carries core meaning. The facial expression (raised eyebrows, open mouth) adds emphasis and affect.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used, the dominant (right) and non-dominant (left) hands.",
+          "handshape": "The dominant hand is a 'C' shape. The non-dominant hand is also a 'C' shape.",
+          "movement": "The dominant hand moves from a position near the signer's right shoulder downwards and forwards in a circular or sweeping motion. The non-dominant hand moves from near the signer's left shoulder downwards and forwards in a similar, slightly less pronounced motion.",
+          "location": "The action starts near the signer's shoulders and moves down towards the chest and stomach area.",
+          "nonmanual": "The signer's head is tilted slightly to their right. The eyebrows are slightly raised. The mouth is open as if speaking or emphasizing a point.",
+          "non_dominant_hand": "The non-dominant hand is active, mirroring the dominant hand's general motion but with less amplitude.",
+          "temporal_alignment": "The action is a continuous, fluid motion that appears to be the core of a single sign, starting and ending within a single, uninterrupted signed unit."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed, symmetrical motion is a conventional form in Taiwanese Sign Language, likely a lexical sign. The surrounding context of a continuous signed discourse suggests it carries core meaning. The facial expression (raised eyebrows, open mouth) adds emphasis and affect."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

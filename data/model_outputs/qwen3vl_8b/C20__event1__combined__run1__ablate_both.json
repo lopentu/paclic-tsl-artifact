@@ -1,0 +1,48 @@
+{
+  "clip_id": "C20",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C20_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:21:37.598523",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends forward and then moves slightly downward and inward toward the signer's body\",\n        \"location\": \"in front of the signer's chest, moving from slightly above chest level to near chest level\",\n        \"nonmanual\": \"mouth slightly open, neutral facial expression\",\n        \"non_dominant_hand\": \"resting near the signer's waist, not moving\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a hand gesture and preceding a more expansive gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL, likely a directional or referential sign. The movement is not a simple point but a specific gesture that contributes to the grammatical structure of the utterance. The action is part of a continuous signing sequence, indicating it is not a pause or isolated affective gesture.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends forward and then moves slightly downward and inward toward the signer's body",
+          "location": "in front of the signer's chest, moving from slightly above chest level to near chest level",
+          "nonmanual": "mouth slightly open, neutral facial expression",
+          "non_dominant_hand": "resting near the signer's waist, not moving",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a hand gesture and preceding a more expansive gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL, likely a directional or referential sign. The movement is not a simple point but a specific gesture that contributes to the grammatical structure of the utterance. The action is part of a continuous signing sequence, indicating it is not a pause or isolated affective gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

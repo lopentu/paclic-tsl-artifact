@@ -1,0 +1,53 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C09_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C09_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:58:54.730770",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a fist, left hand forms a flat hand\",\n        \"movement\": \"right hand moves upward from chest level to head level, then downward; left hand moves from chest level to head level, then downward, in a coordinated motion\",\n        \"location\": \"starts near chest, moves upward to head level, then downward\",\n        \"nonmanual\": \"mouth open, eyebrows raised\",\n        \"non_dominant_hand\": \"left hand moves in coordination with right hand\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, framed by other gestures\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The coordinated upward and downward motion of both hands, combined with the open mouth and raised eyebrows, visually emphasizes the contrast being discussed. The movement pattern suggests a comparison or contrast, which is central to the meaning 'if only through current sign language courses, it is far from sufficient for translation'. The action is not a single lexical sign but a gestural unit that structures the discourse by highlighting the inadequacy of the current method.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a fist, left hand forms a flat hand",
+          "movement": "right hand moves upward from chest level to head level, then downward; left hand moves from chest level to head level, then downward, in a coordinated motion",
+          "location": "starts near chest, moves upward to head level, then downward",
+          "nonmanual": "mouth open, eyebrows raised",
+          "non_dominant_hand": "left hand moves in coordination with right hand",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, framed by other gestures"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The coordinated upward and downward motion of both hands, combined with the open mouth and raised eyebrows, visually emphasizes the contrast being discussed. The movement pattern suggests a comparison or contrast, which is central to the meaning 'if only through current sign language courses, it is far from sufficient for translation'. The action is not a single lexical sign but a gestural unit that structures the discourse by highlighting the inadequacy of the current method."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

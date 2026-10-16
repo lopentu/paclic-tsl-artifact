@@ -1,0 +1,55 @@
+{
+  "clip_id": "C02",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP02",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 3673674,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:38:21.294788",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from the signer's right temple to the right side of the face, then downward toward the chin\",\n        \"location\": \"begins near the right temple, moves to the right side of the face, then down to the chin area\",\n        \"nonmanual\": \"signer smiles slightly\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action begins with the signer's index finger touching their right temple, then moves to the right side of their face, and finally to their chin, as if tracing a path from head to chin\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer uses the index finger to trace a path from the temple to the chin, which visually represents the idea of 'thinking' or 'considering', a common gesture in TSL for conceptualizing a scenario. The action is clearly linked to the discourse about communication difficulties, adding vividness and affect to the explanation.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from the signer's right temple to the right side of the face, then downward toward the chin",
+          "location": "begins near the right temple, moves to the right side of the face, then down to the chin area",
+          "nonmanual": "signer smiles slightly",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action begins with the signer's index finger touching their right temple, then moves to the right side of their face, and finally to their chin, as if tracing a path from head to chin"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer uses the index finger to trace a path from the temple to the chin, which visually represents the idea of 'thinking' or 'considering', a common gesture in TSL for conceptualizing a scenario. The action is clearly linked to the discourse about communication difficulties, adding vividness and affect to the explanation."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C18",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/static/C18_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:47:32.671615",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers point forward, slightly inward toward each other, held steady\",\n        \"location\": \"at approximately chest level, pointing forward\",\n        \"nonmanual\": \"neutral facial expression, no significant head or torso movement\",\n        \"non_dominant_hand\": \"non-dominant hand (right hand) points forward with index finger extended, while dominant hand (left hand) also points forward with index finger extended\",\n        \"temporal_alignment\": \"the action is held steady throughout the target span, occurring after a thumbs-up gesture and before a subsequent signing movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action is a conventionalized lexical sign in TSL, likely representing 'one' or 'this' (a deictic marker), which is essential for the propositional content of '我準備乙證' (I prepared for the second certificate). The pointing gesture is a strong indication of the referent (the certificate) and adds emphasis and vividness to the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers point forward, slightly inward toward each other, held steady",
+          "location": "at approximately chest level, pointing forward",
+          "nonmanual": "neutral facial expression, no significant head or torso movement",
+          "non_dominant_hand": "non-dominant hand (right hand) points forward with index finger extended, while dominant hand (left hand) also points forward with index finger extended",
+          "temporal_alignment": "the action is held steady throughout the target span, occurring after a thumbs-up gesture and before a subsequent signing movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action is a conventionalized lexical sign in TSL, likely representing 'one' or 'this' (a deictic marker), which is essential for the propositional content of '我準備乙證' (I prepared for the second certificate). The pointing gesture is a strong indication of the referent (the certificate) and adds emphasis and vividness to the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

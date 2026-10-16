@@ -1,0 +1,17 @@
+{
+  "probe_id": "ndh_functions",
+  "tests": "Does the model know the non-dominant hand's discourse functions at all?",
+  "question": "In sign language discourse, what functions can the NON-DOMINANT (weak) hand carry? List them, and for each say briefly whether it contributes to propositional or grammatical content, or to pragmatic/affective enrichment, or both.",
+  "answer_format": "prose",
+  "video_shown": false,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "temperature": 0.0,
+  "do_sample": false,
+  "max_new_tokens": 500,
+  "timestamp": "2026-08-03T12:23:58.944129",
+  "prompt": "You are answering a question about sign language linguistics. This is a knowledge question about signed languages in general, not about any particular video.\n\nIn sign language discourse, what functions can the NON-DOMINANT (weak) hand carry? List them, and for each say briefly whether it contributes to propositional or grammatical content, or to pragmatic/affective enrichment, or both.\n\nAnswer in at most 120 words. Plain prose, no JSON.\n",
+  "raw_text": "The non-dominant hand in sign language can: (1) indicate spatial reference (pragmatic/affective), (2) mark grammatical roles like topic or focus (grammatical), (3) express modality or attitude (pragmatic/affective), (4) support verb arguments (grammatical), and (5) add emphasis or emotional tone (pragmatic/affective). It often enriches meaning beyond propositional content, serving pragmatic or affective functions, but can also carry grammatical markers. Its role varies by language and context, frequently supplementing the dominant hand’s lexical or syntactic load with spatial, emotional, or structural cues.",
+  "parsed": null
+}

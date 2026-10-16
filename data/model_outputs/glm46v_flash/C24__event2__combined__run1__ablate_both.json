@@ -1,0 +1,61 @@
+{
+  "clip_id": "C24",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C24_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:08:15.910643",
+  "backend_call_info": {
+    "frames_per_video": [
+      88,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.984
+    ],
+    "input_tokens": 11460,
+    "output_tokens": 418
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.70\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand (right) and non-dominant hand (left) are both involved\",\n        \"handshape\": \"dominant hand forms a fist, non-dominant hand is open with fingers slightly curved\",\n        \"movement\": \"dominant hand moves from near the mouth to the chest, non-dominant hand moves from the chest to the right side of the body\",\n        \"location\": \"dominant hand moves from the signer's mouth/chest area to the chest, non-dominant hand moves from the chest to the right side of the body\",\n        \"nonmanual\": \"facial expression changes from speaking to a more neutral or slightly smiling expression\",\n        \"non_dominant_hand\": \"non-dominant hand moves from the chest to the right side of the body\",\n        \"temporal_alignment\": \"the action spans from 0.30 to 0.70 seconds, with the dominant hand moving from near the mouth to the chest and the non-dominant hand moving from the chest to the right side of the body\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand moves from near the mouth to the chest, and the non-dominant hand moves from the chest to the right side of the body, indicating a change in topic or a new concept being introduced. The facial expression changes from speaking to a more neutral or slightly smiling expression, adding affective enrichment.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.70",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand (right) and non-dominant hand (left) are both involved",
+          "handshape": "dominant hand forms a fist, non-dominant hand is open with fingers slightly curved",
+          "movement": "dominant hand moves from near the mouth to the chest, non-dominant hand moves from the chest to the right side of the body",
+          "location": "dominant hand moves from the signer's mouth/chest area to the chest, non-dominant hand moves from the chest to the right side of the body",
+          "nonmanual": "facial expression changes from speaking to a more neutral or slightly smiling expression",
+          "non_dominant_hand": "non-dominant hand moves from the chest to the right side of the body",
+          "temporal_alignment": "the action spans from 0.30 to 0.70 seconds, with the dominant hand moving from near the mouth to the chest and the non-dominant hand moving from the chest to the right side of the body"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand moves from near the mouth to the chest, and the non-dominant hand moves from the chest to the right side of the body, indicating a change in topic or a new concept being introduced. The facial expression changes from speaking to a more neutral or slightly smiling expression, adding affective enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

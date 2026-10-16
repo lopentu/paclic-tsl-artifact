@@ -1,0 +1,48 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:20:45.750360",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"right hand moves forward and downward in a sweeping motion, then left hand follows in a similar motion, both hands moving in unison\",\n        \"location\": \"starts near the signer's chest, moves outward and downward toward the lower right of the signer's body\",\n        \"nonmanual\": \"signer's mouth is open and moving, eyes are focused forward\",\n        \"non_dominant_hand\": \"left hand mirrors the right hand's movement\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move in a coordinated, sweeping motion that is characteristic of a lexical sign in TSL, suggesting a clear semantic contribution. The movement is emphatic and dynamic, enhancing the affective or pragmatic force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "right hand moves forward and downward in a sweeping motion, then left hand follows in a similar motion, both hands moving in unison",
+          "location": "starts near the signer's chest, moves outward and downward toward the lower right of the signer's body",
+          "nonmanual": "signer's mouth is open and moving, eyes are focused forward",
+          "non_dominant_hand": "left hand mirrors the right hand's movement",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move in a coordinated, sweeping motion that is characteristic of a lexical sign in TSL, suggesting a clear semantic contribution. The movement is emphatic and dynamic, enhancing the affective or pragmatic force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

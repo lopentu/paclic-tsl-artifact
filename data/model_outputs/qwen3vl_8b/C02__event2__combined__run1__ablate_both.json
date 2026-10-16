@@ -1,0 +1,48 @@
+{
+  "clip_id": "C02",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:04:43.348390",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3 seconds\",\n      \"end_time\": \"0.8 seconds\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's right temple, down to the chin, then up to the right temple again\",\n        \"location\": \"right side of signer's face, moving from temple to chin to temple\",\n        \"nonmanual\": \"signer smiles\",\n        \"non_dominant_hand\": \"resting, not visible\",\n        \"temporal_alignment\": \"starts with a sign that begins at 0.3s and ends at 0.8s, framed by other signing gestures\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's hand moves from temple to chin to temple, a gesture that visually represents the act of thinking or recalling something. The accompanying smile and the gesture's repetition suggest it is used to convey a personal, affective state like 'I remember' or 'I'm thinking about it,' which is a pragmatic enrichment. The handshape and movement are conventionalized to represent thought or memory, indicating a descriptive function.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3 seconds",
+        "end_time": "0.8 seconds",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's right temple, down to the chin, then up to the right temple again",
+          "location": "right side of signer's face, moving from temple to chin to temple",
+          "nonmanual": "signer smiles",
+          "non_dominant_hand": "resting, not visible",
+          "temporal_alignment": "starts with a sign that begins at 0.3s and ends at 0.8s, framed by other signing gestures"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's hand moves from temple to chin to temple, a gesture that visually represents the act of thinking or recalling something. The accompanying smile and the gesture's repetition suggest it is used to convey a personal, affective state like 'I remember' or 'I'm thinking about it,' which is a pragmatic enrichment. The handshape and movement are conventionalized to represent thought or memory, indicating a descriptive function."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

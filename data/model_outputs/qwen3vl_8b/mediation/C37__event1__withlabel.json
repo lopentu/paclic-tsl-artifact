@@ -1,0 +1,36 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "face",
+  "label_channel_sent": "face",
+  "label_is_correct": true,
+  "video_id": "SP-EP07",
+  "source_run": "C37__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: facial expression with pursed lips and slight head tilt\n- location: face\n- nonmanual: pursed lips, slight head tilt\n- temporal alignment: occurs during a sustained manual sign, likely marking a pause or emphasis within the clause",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:20:56.863611",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 1,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The facial expression with pursed lips and slight head tilt likely conveys mild frustration or resignation, aligning with the message that people can only use simple sign language. It adds affective enrichment (pragmatic) and subtly depicts the speaker’s attitude toward the limitation. It does not encode core propositional content (low semantic load) nor indicate specific referents (no indication). The description is moderately conventionalized as a facial expression marking attitude.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 0,
+    "depiction": 1,
+    "confidence": 0.85,
+    "reasoning": "The facial expression with pursed lips and slight head tilt likely conveys mild frustration or resignation, aligning with the message that people can only use simple sign language. It adds affective enrichment (pragmatic) and subtly depicts the speaker’s attitude toward the limitation. It does not encode core propositional content (low semantic load) nor indicate specific referents (no indication). The description is moderately conventionalized as a facial expression marking attitude."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

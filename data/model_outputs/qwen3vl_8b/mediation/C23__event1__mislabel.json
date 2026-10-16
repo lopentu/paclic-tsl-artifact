@@ -1,0 +1,36 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "manual",
+  "label_channel_sent": "face",
+  "label_is_correct": false,
+  "video_id": "S04-2EP01",
+  "source_run": "C23__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: right hand: index finger extended, other fingers curled; left hand: open palm, fingers slightly spread\n- movement: right hand moves from near the signer's right shoulder, forward and slightly inward, then outward and downward; left hand remains relatively stable with palm up, then moves slightly outward and downward as the right hand moves\n- location: right hand moves from the signer's right side toward the center of the signer's body, then outward; left hand remains near the signer's chest\n- nonmanual: signer's mouth opens wide at 1.2s, eyes close at 1.2s\n- non dominant hand: left hand remains relatively stable with palm up, then moves slightly outward and downward as the right hand moves\n- temporal alignment: the action begins with the right hand moving forward and inward, and ends with the right hand moving outward and downward, while the left hand remains relatively stable",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:24:52.040174",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 1,\n  \"indication\": 0,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The facial action (mouth opening wide, eyes closing) conveys strong affective emphasis, likely expressing surprise or reflection, which enriches the pragmatic tone of the utterance. The hand movement is not clearly indicating a referent or depicting a specific event in a conventionalized way, but the gesture does enact a sense of movement or transition, aligning with the temporal shift implied in the utterance. The semantic contribution is minor, as the action doesn't encode core propositional content.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 1,
+    "indication": 0,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The facial action (mouth opening wide, eyes closing) conveys strong affective emphasis, likely expressing surprise or reflection, which enriches the pragmatic tone of the utterance. The hand movement is not clearly indicating a referent or depicting a specific event in a conventionalized way, but the gesture does enact a sense of movement or transition, aligning with the temporal shift implied in the utterance. The semantic contribution is minor, as the action doesn't encode core propositional content."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

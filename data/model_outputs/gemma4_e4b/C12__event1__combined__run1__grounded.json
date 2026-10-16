@@ -1,0 +1,61 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C12_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T17:09:01.612768",
+  "backend_call_info": {
+    "frames_per_video": [
+      56,
+      18
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.984
+    ],
+    "input_tokens": 7426,
+    "output_tokens": 310
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00.3\",\n      \"end_time\": \"00:00.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Index finger extended, other fingers curled\",\n        \"movement\": \"Slightly moving forward and then slightly inward\",\n        \"location\": \"Near the chest/upper torso area\",\n        \"nonmanual\": \"Neutral\",\n        \"non_dominant_hand\": \"Index finger extended, other fingers curled, moving slightly forward and inward\",\n        \"temporal_alignment\": \"Occurs within a sequence of small, controlled movements\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand shows a small, controlled movement with the index finger extended near the chest area, which seems to be part of a sequence of gestures.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00.3",
+        "end_time": "00:00.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Index finger extended, other fingers curled",
+          "movement": "Slightly moving forward and then slightly inward",
+          "location": "Near the chest/upper torso area",
+          "nonmanual": "Neutral",
+          "non_dominant_hand": "Index finger extended, other fingers curled, moving slightly forward and inward",
+          "temporal_alignment": "Occurs within a sequence of small, controlled movements"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand shows a small, controlled movement with the index finger extended near the chest area, which seems to be part of a sequence of gestures."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

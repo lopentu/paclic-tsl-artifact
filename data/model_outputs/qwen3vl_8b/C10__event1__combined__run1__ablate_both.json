@@ -1,0 +1,48 @@
+{
+  "clip_id": "C10",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C10_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:11:17.423937",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"moves from near the signer's temple to pointing forward, then slightly upward\",\n        \"location\": \"starts near the signer's right temple, moves to the right side of the signer's face, then extends forward and slightly upward\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"resting on the signer's chest\",\n        \"temporal_alignment\": \"the action occurs within a single sign, transitioning from a head gesture to a pointing gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape is a clear index finger, and the movement from the temple to pointing forward is a conventionalized sign in TSL for 'I' or 'me', which carries propositional content. The gesture is also used to indicate the speaker's own position or perspective, adding pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "moves from near the signer's temple to pointing forward, then slightly upward",
+          "location": "starts near the signer's right temple, moves to the right side of the signer's face, then extends forward and slightly upward",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "resting on the signer's chest",
+          "temporal_alignment": "the action occurs within a single sign, transitioning from a head gesture to a pointing gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape is a clear index finger, and the movement from the temple to pointing forward is a conventionalized sign in TSL for 'I' or 'me', which carries propositional content. The gesture is also used to indicate the speaker's own position or perspective, adding pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

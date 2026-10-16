@@ -1,0 +1,36 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "manual",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S01EP09",
+  "source_run": "C09__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 1,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: index fingers extended, other fingers curled\n- movement: both index fingers point forward and upward, then move slightly inward toward each other\n- location: in front of the signer's chest, at chest height\n- nonmanual: head tilted slightly back, eyes looking upward\n- non dominant hand: non-dominant hand remains relatively still, palm facing inward\n- temporal alignment: the action begins immediately after the signer brings her right hand to her chin, and is held for a sustained duration while the signer looks upward",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:12:43.856192",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 2,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 3,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.9,\n  \"reasoning\": \"The action with index fingers pointing upward and inward, combined with upward gaze and head tilt, strongly conveys a sense of emphasis or contrast — likely indicating 'not enough' or 'insufficient' in the context of translation training. It is not primarily syntactic but adds vivid affective and depictive weight. The handshape and movement are conventionalized to express conceptual contrast or insufficiency, and the upward motion may indicate aspiration or evaluation. The slight indication is toward an abstract concept rather than a physical object.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 3,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.9,
+    "reasoning": "The action with index fingers pointing upward and inward, combined with upward gaze and head tilt, strongly conveys a sense of emphasis or contrast — likely indicating 'not enough' or 'insufficient' in the context of translation training. It is not primarily syntactic but adds vivid affective and depictive weight. The handshape and movement are conventionalized to express conceptual contrast or insufficiency, and the upward motion may indicate aspiration or evaluation. The slight indication is toward an abstract concept rather than a physical object."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

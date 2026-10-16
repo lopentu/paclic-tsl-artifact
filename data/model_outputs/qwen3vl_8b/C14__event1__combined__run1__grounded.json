@@ -1,0 +1,48 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C14_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:17:22.994931",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"2.3\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression with mouth slightly open and eyebrows slightly raised, conveying emphasis or explanation\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression with mouth slightly open and eyebrows slightly raised, conveying emphasis or explanation\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression coincides with the signing of the phrase, providing affective emphasis to the message\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's facial expression, with slightly raised eyebrows and an open mouth, is maintained throughout the target span, aligning with the signing of the phrase. This expression adds emphasis and affect, making the message more engaging, but does not encode specific propositional content or grammatical structure.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "2.3",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression with mouth slightly open and eyebrows slightly raised, conveying emphasis or explanation",
+          "location": "face",
+          "nonmanual": "facial expression with mouth slightly open and eyebrows slightly raised, conveying emphasis or explanation",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression coincides with the signing of the phrase, providing affective emphasis to the message"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's facial expression, with slightly raised eyebrows and an open mouth, is maintained throughout the target span, aligning with the signing of the phrase. This expression adds emphasis and affect, making the message more engaging, but does not encode specific propositional content or grammatical structure."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

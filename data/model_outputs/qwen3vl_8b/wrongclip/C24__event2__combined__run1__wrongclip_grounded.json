@@ -1,0 +1,69 @@
+{
+  "clip_id": "C24",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C24",
+    "event_id": "event2",
+    "translation": "<translation not redistributed>",
+    "video_id": "S04-2EP01",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 0.7000000000000455
+  },
+  "video_from": {
+    "clip_id": "C02",
+    "event_id": "event2",
+    "video_id": "S01EP02",
+    "target_channel": "manual",
+    "duration": 1.0999999999999943
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.7000000000000455,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C02_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:55:30.270602",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from the signer's right temple to the left temple, then back to the right temple\",\n        \"location\": \"begins near right temple, moves to left temple, then returns to right temple\",\n        \"nonmanual\": \"signer smiles\",\n        \"non_dominant_hand\": \"resting, not actively involved\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture to the head and preceding a gesture to the chest\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's index finger moves from one temple to the other, a gesture that visually represents the concept of 'part' or 'some' in the context of the phrase '有部分口語者或老師、手語翻譯者'. The movement is repeated and accompanied by a smile, which adds emphasis and a positive affect to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from the signer's right temple to the left temple, then back to the right temple",
+          "location": "begins near right temple, moves to left temple, then returns to right temple",
+          "nonmanual": "signer smiles",
+          "non_dominant_hand": "resting, not actively involved",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture to the head and preceding a gesture to the chest"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's index finger moves from one temple to the other, a gesture that visually represents the concept of 'part' or 'some' in the context of the phrase '有部分口語者或老師、手語翻譯者'. The movement is repeated and accompanied by a smile, which adds emphasis and a positive affect to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

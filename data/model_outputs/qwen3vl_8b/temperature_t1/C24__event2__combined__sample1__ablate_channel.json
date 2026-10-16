@@ -1,0 +1,55 @@
+{
+  "clip_id": "C24",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 2042949018,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:46:20.581972",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb and index finger extended, forming a 'pinch' or 'pointer' gesture\",\n        \"movement\": \"the hand moves from the chin area upward to the right side of the face, then slightly outward and downward, with a slight flicking motion at the end\",\n        \"location\": \"starts near the chin, moves to the right side of the face, then slightly outward\",\n        \"nonmanual\": \"no significant facial or head movement accompanies the gesture\",\n        \"non_dominant_hand\": \"resting on the lap or not visible\",\n        \"temporal_alignment\": \"the gesture occurs during a segment where the signer is speaking, and is part of a sequence of signs that appear to describe people or roles\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are characteristic of a sign for 'person' or 'individual' in TSL. The gesture's direction and movement path (from chin to right side of face) indicate a specific referent or role being highlighted. The slight flick at the end adds emphasis, suggesting a specific group or category of people.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb and index finger extended, forming a 'pinch' or 'pointer' gesture",
+          "movement": "the hand moves from the chin area upward to the right side of the face, then slightly outward and downward, with a slight flicking motion at the end",
+          "location": "starts near the chin, moves to the right side of the face, then slightly outward",
+          "nonmanual": "no significant facial or head movement accompanies the gesture",
+          "non_dominant_hand": "resting on the lap or not visible",
+          "temporal_alignment": "the gesture occurs during a segment where the signer is speaking, and is part of a sequence of signs that appear to describe people or roles"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are characteristic of a sign for 'person' or 'individual' in TSL. The gesture's direction and movement path (from chin to right side of face) indicate a specific referent or role being highlighted. The slight flick at the end adds emphasis, suggesting a specific group or category of people."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

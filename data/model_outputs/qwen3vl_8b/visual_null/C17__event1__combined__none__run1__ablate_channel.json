@@ -1,0 +1,53 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "manual",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:22:23.500098",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly spread\",\n        \"movement\": \"both hands move upward in a smooth arc from below chest level to above head level, then return downward in a controlled motion\",\n        \"location\": \"starts near chest, moves upward and outward, then returns inward and downward\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"moves in coordination with dominant hand, no independent action\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.5s, occurring within a continuous signing stretch without pause\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The upward motion of both hands from chest to above head level visually matches the gesture for 'good' or 'excellent' in TSL, contributing to the positive evaluation in the clause. The controlled, expansive movement adds emphasis and affect, enhancing the positive stance without altering the core propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly spread",
+          "movement": "both hands move upward in a smooth arc from below chest level to above head level, then return downward in a controlled motion",
+          "location": "starts near chest, moves upward and outward, then returns inward and downward",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "moves in coordination with dominant hand, no independent action",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.5s, occurring within a continuous signing stretch without pause"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The upward motion of both hands from chest to above head level visually matches the gesture for 'good' or 'excellent' in TSL, contributing to the positive evaluation in the clause. The controlled, expansive movement adds emphasis and affect, enhancing the positive stance without altering the core propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

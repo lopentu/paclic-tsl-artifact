@@ -1,0 +1,55 @@
+{
+  "clip_id": "C13",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1596970279,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:11:44.705512",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand and non-dominant hand\",\n        \"handshape\": \"dominant hand open palm, non-dominant hand index finger extended\",\n        \"movement\": \"dominant hand moves from right to left across chest level, non-dominant hand remains stationary pointing leftward\",\n        \"location\": \"dominant hand moves across chest, non-dominant hand remains at left chest level\",\n        \"nonmanual\": \"neutral facial expression, head stable\",\n        \"non_dominant_hand\": \"maintains index finger extended, pointing leftward\",\n        \"temporal_alignment\": \"begins immediately after the previous sign (a bilateral hand movement), and is held steady as the dominant hand moves across it\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The dominant hand moves across the chest from right to left, a common motion in TSL for indicating 'through' or 'across', which aligns with the meaning '經過' (through). The non-dominant hand remains fixed, pointing left, which functions as a deictic anchor for the direction of movement, reinforcing the spatial aspect of 'through' or 'across'. The combination of the directional hand movement and the stable pointing hand creates a clear spatial structure for the concept.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand and non-dominant hand",
+          "handshape": "dominant hand open palm, non-dominant hand index finger extended",
+          "movement": "dominant hand moves from right to left across chest level, non-dominant hand remains stationary pointing leftward",
+          "location": "dominant hand moves across chest, non-dominant hand remains at left chest level",
+          "nonmanual": "neutral facial expression, head stable",
+          "non_dominant_hand": "maintains index finger extended, pointing leftward",
+          "temporal_alignment": "begins immediately after the previous sign (a bilateral hand movement), and is held steady as the dominant hand moves across it"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The dominant hand moves across the chest from right to left, a common motion in TSL for indicating 'through' or 'across', which aligns with the meaning '經過' (through). The non-dominant hand remains fixed, pointing left, which functions as a deictic anchor for the direction of movement, reinforcing the spatial aspect of 'through' or 'across'. The combination of the directional hand movement and the stable pointing hand creates a clear spatial structure for the concept."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

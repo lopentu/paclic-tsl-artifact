@@ -1,0 +1,48 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:28:23.836576",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand and non-dominant hand\",\n        \"handshape\": \"dominant hand forms a 'pinch' or 'thumb-and-index' shape; non-dominant hand forms an open palm or flat hand\",\n        \"movement\": \"dominant hand moves from near the signer's chest outward and slightly upward, then back toward the chest; non-dominant hand moves in a small, accompanying motion, often with the palm facing inward or upward\",\n        \"location\": \"dominant hand starts near chest, moves outward to the signer's right side (signer's right), then returns; non-dominant hand remains near chest or moves slightly in coordination\",\n        \"nonmanual\": \"signer's mouth is open and moving, indicating speech or emphasis; facial expression is engaged and expressive\",\n        \"non_dominant_hand\": \"moves in a small, supportive motion, often with the palm facing inward or upward, coordinating with the dominant hand's movement\",\n        \"temporal_alignment\": \"the action begins with the dominant hand moving outward and ends with it returning to the chest, spanning the entire target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement, particularly the outward motion of the dominant hand, appears to be a conventionalized sign for 'some' or 'part' in TSL, contributing to the semantic structure of '有部分'. The accompanying facial expression and coordinated hand movement add emphasis and affect, enhancing the pragmatic force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand and non-dominant hand",
+          "handshape": "dominant hand forms a 'pinch' or 'thumb-and-index' shape; non-dominant hand forms an open palm or flat hand",
+          "movement": "dominant hand moves from near the signer's chest outward and slightly upward, then back toward the chest; non-dominant hand moves in a small, accompanying motion, often with the palm facing inward or upward",
+          "location": "dominant hand starts near chest, moves outward to the signer's right side (signer's right), then returns; non-dominant hand remains near chest or moves slightly in coordination",
+          "nonmanual": "signer's mouth is open and moving, indicating speech or emphasis; facial expression is engaged and expressive",
+          "non_dominant_hand": "moves in a small, supportive motion, often with the palm facing inward or upward, coordinating with the dominant hand's movement",
+          "temporal_alignment": "the action begins with the dominant hand moving outward and ends with it returning to the chest, spanning the entire target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement, particularly the outward motion of the dominant hand, appears to be a conventionalized sign for 'some' or 'part' in TSL, contributing to the semantic structure of '有部分'. The accompanying facial expression and coordinated hand movement add emphasis and affect, enhancing the pragmatic force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

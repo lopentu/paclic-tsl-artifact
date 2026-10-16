@@ -1,0 +1,61 @@
+{
+  "clip_id": "C32",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C32_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:35:50.652421",
+  "backend_call_info": {
+    "frames_per_video": [
+      112,
+      12
+    ],
+    "sampled_fps_per_video": [
+      15.7589,
+      14.985
+    ],
+    "input_tokens": 13269,
+    "output_tokens": 328
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.50\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand extended forward, non-dominant hand clenched into fist at chest\",\n        \"handshape\": \"dominant hand in open palm shape, non-dominant in fist\",\n        \"movement\": \"dominant hand moves forward in a pointing gesture, non-dominant remains still\",\n        \"location\": \"dominant hand moves from chest to forward in front of body, non-dominant at chest\",\n        \"nonmanual\": \"signer's head slightly tilts forward, mouth opens and closes\",\n        \"non_dominant_hand\": \"clenched fist at chest, no movement\",\n        \"temporal_alignment\": \"part of a longer sequence of gestures, occurring between other hand movements\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand's forward-pointing movement and the non-dominant hand's static fist position are visible from 0.30 to 0.50 seconds, indicating a pointing gesture with a clear spatial reference.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.50",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand extended forward, non-dominant hand clenched into fist at chest",
+          "handshape": "dominant hand in open palm shape, non-dominant in fist",
+          "movement": "dominant hand moves forward in a pointing gesture, non-dominant remains still",
+          "location": "dominant hand moves from chest to forward in front of body, non-dominant at chest",
+          "nonmanual": "signer's head slightly tilts forward, mouth opens and closes",
+          "non_dominant_hand": "clenched fist at chest, no movement",
+          "temporal_alignment": "part of a longer sequence of gestures, occurring between other hand movements"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand's forward-pointing movement and the non-dominant hand's static fist position are visible from 0.30 to 0.50 seconds, indicating a pointing gesture with a clear spatial reference."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

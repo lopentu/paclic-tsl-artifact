@@ -1,0 +1,36 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "non_dominant_hand",
+  "label_channel_sent": "face",
+  "label_is_correct": false,
+  "video_id": "S04-3EP05",
+  "source_run": "C36__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 1,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: index finger extended, other fingers curled\n- movement: moves from right to left, then downward, then upward\n- location: starts near the signer's right shoulder, moves across the signer's chest, then up and out\n- nonmanual: mouth open, eyes wide\n- non dominant hand: index finger extended, other fingers curled, moves from right to left, then downward, then upward\n- temporal alignment: starts with the signer's dominant hand making a pointing gesture, then the non-dominant hand moves in, then the signer's dominant hand moves out",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:26:38.165469",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The action involves a gesture that visually enacts leaving contact information, which is relevant to the propositional content but not essential to the grammatical structure. The facial expression (open mouth, wide eyes) adds affective emphasis, enhancing the speaker’s stance. The movement and handshape are conventionalized to depict leaving contact details, and the pointing gesture indicates the context of witnesses. However, the core meaning of the utterance remains intact without this action.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The action involves a gesture that visually enacts leaving contact information, which is relevant to the propositional content but not essential to the grammatical structure. The facial expression (open mouth, wide eyes) adds affective emphasis, enhancing the speaker’s stance. The movement and handshape are conventionalized to depict leaving contact details, and the pointing gesture indicates the context of witnesses. However, the core meaning of the utterance remains intact without this action."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

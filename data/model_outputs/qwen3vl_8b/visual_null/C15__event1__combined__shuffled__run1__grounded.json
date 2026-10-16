@@ -1,0 +1,53 @@
+{
+  "clip_id": "C15",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C15_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C15_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:09:20.335611",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression with slight head tilt and focused gaze\",\n        \"location\": \"face and head\",\n        \"nonmanual\": \"focused gaze, slight head tilt\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during the signing of the phrase, aligning with the lexical sign for '努力' (effort) and the ongoing narrative of continuous effort\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's focused gaze and slight head tilt occur during the signing of '努力' (effort), suggesting emphasis on the ongoing nature of the action. The facial expression conveys determination and persistence, which enriches the pragmatic meaning of continuous effort without altering the core propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression with slight head tilt and focused gaze",
+          "location": "face and head",
+          "nonmanual": "focused gaze, slight head tilt",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during the signing of the phrase, aligning with the lexical sign for '努力' (effort) and the ongoing narrative of continuous effort"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's focused gaze and slight head tilt occur during the signing of '努力' (effort), suggesting emphasis on the ongoing nature of the action. The facial expression conveys determination and persistence, which enriches the pragmatic meaning of continuous effort without altering the core propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:15:28.342088",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fingers curled into a loose fist or cupped shape\",\n        \"movement\": \"both hands move inward from the sides toward the center of the chest, then outward again in a rhythmic, pulsing motion\",\n        \"location\": \"initially at chest level, moving inward and outward\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"moves in sync with the dominant hand\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.6s, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move in a rhythmic, inward-outward motion near the chest, which is a conventionalized sign in TSL for 'thinking' or 'considering'. This action is central to the discourse about contemplating a hypothetical scenario. The movement's repetition and location near the chest visually reinforce the cognitive process being described.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fingers curled into a loose fist or cupped shape",
+          "movement": "both hands move inward from the sides toward the center of the chest, then outward again in a rhythmic, pulsing motion",
+          "location": "initially at chest level, moving inward and outward",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "moves in sync with the dominant hand",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.6s, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move in a rhythmic, inward-outward motion near the chest, which is a conventionalized sign in TSL for 'thinking' or 'considering'. This action is central to the discourse about contemplating a hypothetical scenario. The movement's repetition and location near the chest visually reinforce the cognitive process being described."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

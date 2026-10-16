@@ -1,0 +1,48 @@
+{
+  "clip_id": "C29",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C29_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:30:23.745212",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"repeatedly points upward and slightly forward, then moves slightly inward toward the chest\",\n        \"location\": \"right side of signer's body, moving from upper right to center\",\n        \"nonmanual\": \"signer's head is tilted slightly upward, eyes looking upward\",\n        \"non_dominant_hand\": \"resting on chest\",\n        \"temporal_alignment\": \"the action begins with the signer pointing upward and continues through the span, synchronized with speech\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The upward pointing gesture is a conventionalized sign in TSL for 'above' or 'higher,' contributing to the propositional content. The upward motion and head tilt indicate a referent in space (e.g., 'above' or 'higher than something'). The gesture is repeated and synchronized with speech, suggesting emphasis or vividness.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "repeatedly points upward and slightly forward, then moves slightly inward toward the chest",
+          "location": "right side of signer's body, moving from upper right to center",
+          "nonmanual": "signer's head is tilted slightly upward, eyes looking upward",
+          "non_dominant_hand": "resting on chest",
+          "temporal_alignment": "the action begins with the signer pointing upward and continues through the span, synchronized with speech"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The upward pointing gesture is a conventionalized sign in TSL for 'above' or 'higher,' contributing to the propositional content. The upward motion and head tilt indicate a referent in space (e.g., 'above' or 'higher than something'). The gesture is repeated and synchronized with speech, suggesting emphasis or vividness."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

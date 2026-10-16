@@ -1,0 +1,36 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "face",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "SP-EP07",
+  "source_run": "C39__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: mouth opens wide, tongue protrudes, then retracts; facial expression shifts from exaggerated to neutral\n- location: center of face\n- nonmanual: facial expression with open mouth and protruding tongue\n- temporal alignment: occurs during the signing of the phrase, immediately after the initial hand gesture and before the next manual sign",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:16:20.307854",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 3,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The action enacts a vivid, exaggerated expression of resilience or self-reliance, aligning with the utterance's message of independence despite hearing loss. It adds strong affective and depictive enrichment, but does not contribute to core propositional content or grammatical structure. The facial expression is conventionalized to convey emotion or emphasis, and the depiction is strong as it enacts a physical manifestation of the speaker’s attitude.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 0,
+    "depiction": 3,
+    "confidence": 0.95,
+    "reasoning": "The action enacts a vivid, exaggerated expression of resilience or self-reliance, aligning with the utterance's message of independence despite hearing loss. It adds strong affective and depictive enrichment, but does not contribute to core propositional content or grammatical structure. The facial expression is conventionalized to convey emotion or emphasis, and the depiction is strong as it enacts a physical manifestation of the speaker’s attitude."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

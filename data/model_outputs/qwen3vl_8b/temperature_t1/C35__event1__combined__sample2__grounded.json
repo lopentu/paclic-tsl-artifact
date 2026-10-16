@@ -1,0 +1,55 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1976400057,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:04:42.984975",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand and non-dominant hand\",\n        \"handshape\": \"dominant hand: index finger extended, other fingers curled; non-dominant hand: index finger extended\",\n        \"movement\": \"dominant hand moves from near the signer's face downward and outward in a wiping or brushing motion, while non-dominant hand remains stationary with index finger extended upward\",\n        \"location\": \"dominant hand moves from near the signer's face toward the signer's right side (signer's right); non-dominant hand remains at the signer's right side\",\n        \"nonmanual\": \"signer's face shows a slight smile and then a more serious expression\",\n        \"non_dominant_hand\": \"index finger extended, stationary\",\n        \"temporal_alignment\": \"starts after the signer raises both hands with index fingers extended, and ends as the signer begins to lower her dominant hand\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The dominant hand's wiping motion and the non-dominant hand's stationary index finger indicate a gesture of 'cleaning' or 'removing', which is relevant to the meaning 'because the other party or police officer may not know sign language'. The facial expression shifts from a smile to seriousness, adding affective enrichment to the pragmatic meaning of the action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand and non-dominant hand",
+          "handshape": "dominant hand: index finger extended, other fingers curled; non-dominant hand: index finger extended",
+          "movement": "dominant hand moves from near the signer's face downward and outward in a wiping or brushing motion, while non-dominant hand remains stationary with index finger extended upward",
+          "location": "dominant hand moves from near the signer's face toward the signer's right side (signer's right); non-dominant hand remains at the signer's right side",
+          "nonmanual": "signer's face shows a slight smile and then a more serious expression",
+          "non_dominant_hand": "index finger extended, stationary",
+          "temporal_alignment": "starts after the signer raises both hands with index fingers extended, and ends as the signer begins to lower her dominant hand"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The dominant hand's wiping motion and the non-dominant hand's stationary index finger indicate a gesture of 'cleaning' or 'removing', which is relevant to the meaning 'because the other party or police officer may not know sign language'. The facial expression shifts from a smile to seriousness, adding affective enrichment to the pragmatic meaning of the action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

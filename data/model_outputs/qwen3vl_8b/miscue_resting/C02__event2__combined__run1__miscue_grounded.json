@@ -1,0 +1,56 @@
+{
+  "clip_id": "C02",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C02_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:30:15.610091",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's right temple, down to the chin, then up to the right temple again\",\n        \"location\": \"starts near right temple, moves to chin, then back to right temple\",\n        \"nonmanual\": \"signer smiles slightly\",\n        \"non_dominant_hand\": \"index finger extended, other fingers curled, moves from temple to chin to temple\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, starting after the signer's initial gesture and before a broader hand movement\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement (index finger to temple to chin) are a conventionalized sign in TSL for 'thinking' or 'considering', which contributes to the propositional content about the difficulty of communication. The accompanying smile and the gesture's path (temple to chin) add affective enrichment, showing the signer is reflecting on the situation with a light, perhaps slightly amused or resigned, tone.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's right temple, down to the chin, then up to the right temple again",
+          "location": "starts near right temple, moves to chin, then back to right temple",
+          "nonmanual": "signer smiles slightly",
+          "non_dominant_hand": "index finger extended, other fingers curled, moves from temple to chin to temple",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, starting after the signer's initial gesture and before a broader hand movement"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement (index finger to temple to chin) are a conventionalized sign in TSL for 'thinking' or 'considering', which contributes to the propositional content about the difficulty of communication. The accompanying smile and the gesture's path (temple to chin) add affective enrichment, showing the signer is reflecting on the situation with a light, perhaps slightly amused or resigned, tone."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

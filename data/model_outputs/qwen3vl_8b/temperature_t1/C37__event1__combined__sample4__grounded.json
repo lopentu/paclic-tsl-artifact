@@ -1,0 +1,55 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1746590589,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:05:54.598616",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression: lips are pursed, cheeks are slightly puffed outward, mouth is slightly open\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression with pursed lips and puffed cheeks\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during the signing of '他們不會手語' (they don't know sign language), specifically while the signer is making the manual sign for 'not' (negative) and '手語' (sign language) with her hands\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The pursed lips and puffed cheeks occur during the signing of '不會' (not know), a negative marker. This facial expression reinforces the negative meaning of the clause, contributing to the semantic structure. The expression also adds affective weight, conveying the speaker's emphasis on the lack of ability, which enhances the pragmatic force of the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression: lips are pursed, cheeks are slightly puffed outward, mouth is slightly open",
+          "location": "face",
+          "nonmanual": "facial expression with pursed lips and puffed cheeks",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during the signing of '他們不會手語' (they don't know sign language), specifically while the signer is making the manual sign for 'not' (negative) and '手語' (sign language) with her hands"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The pursed lips and puffed cheeks occur during the signing of '不會' (not know), a negative marker. This facial expression reinforces the negative meaning of the clause, contributing to the semantic structure. The expression also adds affective weight, conveying the speaker's emphasis on the lack of ability, which enhances the pragmatic force of the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

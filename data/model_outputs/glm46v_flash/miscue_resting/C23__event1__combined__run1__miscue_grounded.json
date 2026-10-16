@@ -1,0 +1,56 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C23_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C23_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:57:03.339272",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand open palm facing forward, dominant hand forms a 'thumbs-up' shape\",\n        \"handshape\": \"non-dominant hand open palm, dominant hand thumb up\",\n        \"movement\": \"non-dominant hand moves slightly forward and back, dominant hand maintains 'thumbs-up' shape\",\n        \"location\": \"forward in front of body\",\n        \"nonmanual\": \"mouth opens and closes, eyes slightly squint\",\n        \"non_dominant_hand\": \"moves in a slight arc, palm facing forward\",\n        \"temporal_alignment\": \"part of a longer signing sequence, occurs during a pause between larger gestures\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand's open palm and forward movement, combined with the dominant hand's 'thumbs-up' shape, suggest a gesture of emphasis or explanation, contributing to the pragmatic tone of the signing.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand open palm facing forward, dominant hand forms a 'thumbs-up' shape",
+          "handshape": "non-dominant hand open palm, dominant hand thumb up",
+          "movement": "non-dominant hand moves slightly forward and back, dominant hand maintains 'thumbs-up' shape",
+          "location": "forward in front of body",
+          "nonmanual": "mouth opens and closes, eyes slightly squint",
+          "non_dominant_hand": "moves in a slight arc, palm facing forward",
+          "temporal_alignment": "part of a longer signing sequence, occurs during a pause between larger gestures"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand's open palm and forward movement, combined with the dominant hand's 'thumbs-up' shape, suggest a gesture of emphasis or explanation, contributing to the pragmatic tone of the signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

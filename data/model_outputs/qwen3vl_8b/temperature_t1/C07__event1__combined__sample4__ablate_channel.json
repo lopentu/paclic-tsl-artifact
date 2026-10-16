@@ -1,0 +1,55 @@
+{
+  "clip_id": "C07",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1133459787,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:09:35.745476",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled.\",\n        \"movement\": \"Right hand moves from the signer's right side toward the center, then extends the index finger forward. Left hand simultaneously moves from the signer's left side toward the center, then extends the index finger forward. Both index fingers point forward, then the right hand moves slightly away while the left hand remains extended.\",\n        \"location\": \"Right hand starts near the signer's right shoulder, moves inward toward the center, then extends forward. Left hand starts near the signer's left shoulder, moves inward toward the center, then extends forward.\",\n        \"nonmanual\": \"The signer's eyebrows are slightly raised, and the mouth is open in a neutral expression.\",\n        \"non_dominant_hand\": \"The left hand is the non-dominant hand and moves in coordination with the right hand.\",\n        \"temporal_alignment\": \"The action begins immediately after the signer makes a downward motion with both hands, and it is followed by a gesture where both hands move inward and then outward again.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves both hands extending index fingers forward, which is a conventionalized sign in TSL for 'teacher' or 'instructor'. The movement is precise and deliberate, indicating a specific referent. The facial expression is neutral, suggesting the action is primarily semantic rather than affective.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled.",
+          "movement": "Right hand moves from the signer's right side toward the center, then extends the index finger forward. Left hand simultaneously moves from the signer's left side toward the center, then extends the index finger forward. Both index fingers point forward, then the right hand moves slightly away while the left hand remains extended.",
+          "location": "Right hand starts near the signer's right shoulder, moves inward toward the center, then extends forward. Left hand starts near the signer's left shoulder, moves inward toward the center, then extends forward.",
+          "nonmanual": "The signer's eyebrows are slightly raised, and the mouth is open in a neutral expression.",
+          "non_dominant_hand": "The left hand is the non-dominant hand and moves in coordination with the right hand.",
+          "temporal_alignment": "The action begins immediately after the signer makes a downward motion with both hands, and it is followed by a gesture where both hands move inward and then outward again."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves both hands extending index fingers forward, which is a conventionalized sign in TSL for 'teacher' or 'instructor'. The movement is precise and deliberate, indicating a specific referent. The facial expression is neutral, suggesting the action is primarily semantic rather than affective."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

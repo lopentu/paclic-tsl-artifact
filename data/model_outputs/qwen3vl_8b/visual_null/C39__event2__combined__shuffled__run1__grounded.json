@@ -1,0 +1,53 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C39_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:20:06.085957",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.3\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"mouth pursed, lips pressed together, cheeks slightly puffed; head remains relatively still\",\n        \"location\": \"central face\",\n        \"nonmanual\": \"pursed lips, slightly puffed cheeks\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during the signing of the phrase '我可以自立自強' (I can be self-reliant), following a gesture of self-assertion and preceding a gesture of outward movement\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The pursed lips and puffed cheeks are a conventionalized nonmanual marker in TSL that conveys determination, resolve, or self-reliance, which aligns with the semantic content '我可以自立自強' (I can be self-reliant). The facial expression adds affective emphasis, making the statement more vivid and assertive, which is a clear pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.3",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "mouth pursed, lips pressed together, cheeks slightly puffed; head remains relatively still",
+          "location": "central face",
+          "nonmanual": "pursed lips, slightly puffed cheeks",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during the signing of the phrase '我可以自立自強' (I can be self-reliant), following a gesture of self-assertion and preceding a gesture of outward movement"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The pursed lips and puffed cheeks are a conventionalized nonmanual marker in TSL that conveys determination, resolve, or self-reliance, which aligns with the semantic content '我可以自立自強' (I can be self-reliant). The facial expression adds affective emphasis, making the statement more vivid and assertive, which is a clear pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

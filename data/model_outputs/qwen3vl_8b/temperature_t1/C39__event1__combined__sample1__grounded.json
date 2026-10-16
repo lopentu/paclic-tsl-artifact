@@ -1,0 +1,55 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 202193252,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:36:14.216953",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth opens wide and tongue extends outward; facial expression is exaggerated and theatrical\",\n        \"location\": \"center of signer's face\",\n        \"nonmanual\": \"facial expression with open mouth and protruded tongue\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the clip and spans the first 0.8 seconds, preceding a subsequent signing movement with both hands\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's exaggerated facial expression with an open mouth and protruded tongue, combined with the context '就算聽不到聲音也沒關係，我可以自立自強。', suggests an affective or emphatic expression of defiance or determination, rather than a grammatical or referential marker. The action is clearly a prosodic or affective nonmanual, contributing to the emotional tone of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth opens wide and tongue extends outward; facial expression is exaggerated and theatrical",
+          "location": "center of signer's face",
+          "nonmanual": "facial expression with open mouth and protruded tongue",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action occurs at the beginning of the clip and spans the first 0.8 seconds, preceding a subsequent signing movement with both hands"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's exaggerated facial expression with an open mouth and protruded tongue, combined with the context '就算聽不到聲音也沒關係，我可以自立自強。', suggests an affective or emphatic expression of defiance or determination, rather than a grammatical or referential marker. The action is clearly a prosodic or affective nonmanual, contributing to the emotional tone of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

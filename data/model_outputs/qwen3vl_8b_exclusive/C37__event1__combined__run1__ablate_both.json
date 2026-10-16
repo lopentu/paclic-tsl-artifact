@@ -1,0 +1,49 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:32:28.135347",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"right hand moves in a small circular motion around the left hand, which remains relatively stationary\",\n        \"location\": \"centered in front of the chest, at approximately heart level\",\n        \"nonmanual\": \"signer's mouth is pursed, lips are slightly protruded\",\n        \"non_dominant_hand\": \"left hand is stationary, palm facing slightly upward, serving as a base\",\n        \"temporal_alignment\": \"the action begins immediately after a pointing gesture and precedes a downward movement of both hands\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The circular motion of the right hand around the left hand is a conventionalized sign in TSL, likely representing a concept like 'turning', 'rotating', or 'circular motion'. The pursed lips and focused gaze suggest emphasis or a specific affective tone, but the exact meaning is not clear from the visible form alone.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "right hand moves in a small circular motion around the left hand, which remains relatively stationary",
+          "location": "centered in front of the chest, at approximately heart level",
+          "nonmanual": "signer's mouth is pursed, lips are slightly protruded",
+          "non_dominant_hand": "left hand is stationary, palm facing slightly upward, serving as a base",
+          "temporal_alignment": "the action begins immediately after a pointing gesture and precedes a downward movement of both hands"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The circular motion of the right hand around the left hand is a conventionalized sign in TSL, likely representing a concept like 'turning', 'rotating', or 'circular motion'. The pursed lips and focused gaze suggest emphasis or a specific affective tone, but the exact meaning is not clear from the visible form alone."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

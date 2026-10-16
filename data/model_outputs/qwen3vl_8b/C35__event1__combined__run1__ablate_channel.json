@@ -1,0 +1,48 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:18:07.160636",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled.\",\n        \"movement\": \"Right hand moves from near the signer's right cheek, sweeping outward and slightly downward, then forward and slightly upward. Left hand remains relatively stationary, index finger extended upward.\",\n        \"location\": \"Right hand moves from near the signer's right cheek to in front of her chest. Left hand remains near the signer's right side, index finger extended upward.\",\n        \"nonmanual\": \"Signer's facial expression changes from a smile to a more serious, focused look.\",\n        \"non_dominant_hand\": \"Left hand remains relatively stationary, index finger extended upward.\",\n        \"temporal_alignment\": \"The action begins with the right hand moving from near the signer's right cheek, sweeping outward and slightly downward, then forward and slightly upward. The left hand remains relatively stationary, index finger extended upward.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand's movement from near the face outward and upward, combined with the left hand's stationary index finger, visually represents the concept of 'not necessarily' or 'not always' in the context of the sentence 'because the other party or the police may not necessarily know sign language'. The facial expression shift adds emphasis to the pragmatic point.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled.",
+          "movement": "Right hand moves from near the signer's right cheek, sweeping outward and slightly downward, then forward and slightly upward. Left hand remains relatively stationary, index finger extended upward.",
+          "location": "Right hand moves from near the signer's right cheek to in front of her chest. Left hand remains near the signer's right side, index finger extended upward.",
+          "nonmanual": "Signer's facial expression changes from a smile to a more serious, focused look.",
+          "non_dominant_hand": "Left hand remains relatively stationary, index finger extended upward.",
+          "temporal_alignment": "The action begins with the right hand moving from near the signer's right cheek, sweeping outward and slightly downward, then forward and slightly upward. The left hand remains relatively stationary, index finger extended upward."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand's movement from near the face outward and upward, combined with the left hand's stationary index finger, visually represents the concept of 'not necessarily' or 'not always' in the context of the sentence 'because the other party or the police may not necessarily know sign language'. The facial expression shift adds emphasis to the pragmatic point."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

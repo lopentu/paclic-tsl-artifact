@@ -1,0 +1,55 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 343873878,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:30:29.009107",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: open palm, fingers slightly spread\",\n        \"movement\": \"right hand moves from near the signer's right cheek toward the center, then outward and upward; left hand remains relatively stable with palm up, then moves slightly outward as the right hand moves\",\n        \"location\": \"right hand starts near the signer's right cheek, moves to center, then outward; left hand starts near chest level, remains near chest\",\n        \"nonmanual\": \"mouth opens at 1.2s, but before that, face is neutral\",\n        \"non_dominant_hand\": \"left hand remains relatively stable, palm up, fingers slightly spread\",\n        \"temporal_alignment\": \"the action starts after the signer has just finished a previous sign (at 0.0s) and before the next sign begins (at 1.2s). It is a continuous gesture that spans the entire target span.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The right hand moves from near the cheek outward, which visually represents a motion away from a group or a location, aligning with the meaning '退出群組' (exit group). The open palm of the left hand, held steady, provides a stable base that frames the action as intentional and directed, enhancing the affective and depictive force of the gesture.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: open palm, fingers slightly spread",
+          "movement": "right hand moves from near the signer's right cheek toward the center, then outward and upward; left hand remains relatively stable with palm up, then moves slightly outward as the right hand moves",
+          "location": "right hand starts near the signer's right cheek, moves to center, then outward; left hand starts near chest level, remains near chest",
+          "nonmanual": "mouth opens at 1.2s, but before that, face is neutral",
+          "non_dominant_hand": "left hand remains relatively stable, palm up, fingers slightly spread",
+          "temporal_alignment": "the action starts after the signer has just finished a previous sign (at 0.0s) and before the next sign begins (at 1.2s). It is a continuous gesture that spans the entire target span."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The right hand moves from near the cheek outward, which visually represents a motion away from a group or a location, aligning with the meaning '退出群組' (exit group). The open palm of the left hand, held steady, provides a stable base that frames the action as intentional and directed, enhancing the affective and depictive force of the gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "clip_id": "C31",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C31_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T22:51:45.846553",
+  "backend_call_info": {
+    "frames_per_video": [
+      40,
+      18
+    ],
+    "sampled_fps_per_video": [
+      15.3692,
+      14.985
+    ],
+    "input_tokens": 6187,
+    "output_tokens": 294
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:01\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Open/cupped\",\n        \"movement\": \"Outward and slightly upward movement\",\n        \"location\": \"In front of the signer's chest/torso area\",\n        \"nonmanual\": \"Neutral\",\n        \"non_dominant_hand\": \"Not distinctly visible or active\",\n        \"temporal_alignment\": \"Occurs during the main signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer uses both hands in an outward and slightly upward motion in front of the chest area, which appears to be part of a structured signing sequence.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:01",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Open/cupped",
+          "movement": "Outward and slightly upward movement",
+          "location": "In front of the signer's chest/torso area",
+          "nonmanual": "Neutral",
+          "non_dominant_hand": "Not distinctly visible or active",
+          "temporal_alignment": "Occurs during the main signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer uses both hands in an outward and slightly upward motion in front of the chest area, which appears to be part of a structured signing sequence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

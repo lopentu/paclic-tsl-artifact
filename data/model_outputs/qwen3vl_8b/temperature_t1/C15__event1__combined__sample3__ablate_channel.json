@@ -1,0 +1,55 @@
+{
+  "clip_id": "C15",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 714091554,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:42:07.083362",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves from right to left across the signer's face, then down to the chest area\",\n        \"location\": \"starts near the right eye, moves across the face to the left, then down to the chest\",\n        \"nonmanual\": \"signer's mouth is slightly open, eyes focused forward\",\n        \"non_dominant_hand\": \"resting at the signer's side, not moving\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, immediately following a gesture near the head and preceding a gesture near the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign for 'effort' or 'struggle' in TSL, which is a core semantic element of the phrase '我們都持續在努力中'. The movement across the face and down the chest visually enacts the ongoing, sustained nature of the effort, adding pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves from right to left across the signer's face, then down to the chest area",
+          "location": "starts near the right eye, moves across the face to the left, then down to the chest",
+          "nonmanual": "signer's mouth is slightly open, eyes focused forward",
+          "non_dominant_hand": "resting at the signer's side, not moving",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, immediately following a gesture near the head and preceding a gesture near the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign for 'effort' or 'struggle' in TSL, which is a core semantic element of the phrase '我們都持續在努力中'. The movement across the face and down the chest visually enacts the ongoing, sustained nature of the effort, adding pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

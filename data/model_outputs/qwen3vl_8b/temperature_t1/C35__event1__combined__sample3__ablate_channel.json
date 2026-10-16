@@ -1,0 +1,55 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1071277901,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:50:15.893295",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"dominant hand: index finger extended, other fingers curled; non-dominant hand: index finger extended, other fingers curled\",\n        \"movement\": \"dominant hand moves from a position near the signer's face toward the signer's right side, then back toward the face; non-dominant hand remains relatively stationary, index finger extended upward\",\n        \"location\": \"dominant hand starts near the signer's right eye, moves outward and downward to the right, then returns toward the face; non-dominant hand stays near the signer's right side, index finger pointing upward\",\n        \"nonmanual\": \"signer's face shows a slight smile and a focused expression\",\n        \"non_dominant_hand\": \"index finger extended and stationary, pointing upward\",\n        \"temporal_alignment\": \"the action occurs within the span of the sign for 'because' or 'since', and is part of a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The movement of the dominant hand from the face to the side and back is a conventionalized sign in Taiwan Sign Language for 'because' or 'since', which is essential to the grammatical structure of the clause. The upward-pointing index finger of the non-dominant hand indicates the concept of 'the other party' or 'the police', which is the subject of the clause. The facial expression adds affective emphasis to the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "dominant hand: index finger extended, other fingers curled; non-dominant hand: index finger extended, other fingers curled",
+          "movement": "dominant hand moves from a position near the signer's face toward the signer's right side, then back toward the face; non-dominant hand remains relatively stationary, index finger extended upward",
+          "location": "dominant hand starts near the signer's right eye, moves outward and downward to the right, then returns toward the face; non-dominant hand stays near the signer's right side, index finger pointing upward",
+          "nonmanual": "signer's face shows a slight smile and a focused expression",
+          "non_dominant_hand": "index finger extended and stationary, pointing upward",
+          "temporal_alignment": "the action occurs within the span of the sign for 'because' or 'since', and is part of a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The movement of the dominant hand from the face to the side and back is a conventionalized sign in Taiwan Sign Language for 'because' or 'since', which is essential to the grammatical structure of the clause. The upward-pointing index finger of the non-dominant hand indicates the concept of 'the other party' or 'the police', which is the subject of the clause. The facial expression adds affective emphasis to the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

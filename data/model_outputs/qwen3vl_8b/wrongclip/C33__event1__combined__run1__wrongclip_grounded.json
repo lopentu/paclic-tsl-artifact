@@ -1,0 +1,69 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C33",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S04-3EP05",
+    "rel_start_requested": 0.3000000000000007,
+    "rel_end_requested": 0.6000000000000014
+  },
+  "video_from": {
+    "clip_id": "C07",
+    "event_id": "event1",
+    "video_id": "S01EP09",
+    "target_channel": "manual",
+    "duration": 0.9000000000000341
+  },
+  "rel_start_applied": 0.3000000000000007,
+  "rel_end_applied": 0.6000000000000014,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C07_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C07_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:58:18.080215",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'thumbs-up' gesture; left hand forms a 'thumbs-down' gesture\",\n        \"movement\": \"right hand moves from a neutral position to a thumbs-up, then back to neutral; left hand moves from a neutral position to a thumbs-down, then back to neutral\",\n        \"location\": \"right hand moves to the signer's right side (signer's right); left hand moves to the signer's left side (signer's left)\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly smiling\",\n        \"non_dominant_hand\": \"left hand is used to form the 'thumbs-down' gesture\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture that appears to be 'thinking' or 'considering' and preceding a gesture that appears to be 'agreeing' or 'approving'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer uses both hands simultaneously to form contrasting gestures (thumbs-up and thumbs-down), which is a conventionalized way to express a choice or a comparison in TSL. The action is clearly part of the discourse structure, as it follows a 'thinking' gesture and precedes an 'agreeing' gesture, suggesting a contrast or evaluation. The gesture is also affective, conveying a sense of weighing options or expressing a preference.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'thumbs-up' gesture; left hand forms a 'thumbs-down' gesture",
+          "movement": "right hand moves from a neutral position to a thumbs-up, then back to neutral; left hand moves from a neutral position to a thumbs-down, then back to neutral",
+          "location": "right hand moves to the signer's right side (signer's right); left hand moves to the signer's left side (signer's left)",
+          "nonmanual": "signer's facial expression is neutral to slightly smiling",
+          "non_dominant_hand": "left hand is used to form the 'thumbs-down' gesture",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture that appears to be 'thinking' or 'considering' and preceding a gesture that appears to be 'agreeing' or 'approving'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer uses both hands simultaneously to form contrasting gestures (thumbs-up and thumbs-down), which is a conventionalized way to express a choice or a comparison in TSL. The action is clearly part of the discourse structure, as it follows a 'thinking' gesture and precedes an 'agreeing' gesture, suggesting a contrast or evaluation. The gesture is also affective, conveying a sense of weighing options or expressing a preference."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

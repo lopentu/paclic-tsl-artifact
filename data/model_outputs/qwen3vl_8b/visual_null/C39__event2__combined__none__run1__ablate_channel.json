@@ -1,0 +1,53 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "face",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:28:48.136162",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.3\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly spread\",\n        \"movement\": \"both hands move upward from chest level to shoulder height, then outward and slightly downward in a sweeping motion, as if gesturing outward or away from self\",\n        \"location\": \"starts near chest, ends at shoulder height and slightly outward from body\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"moves in coordination with dominant hand, no independent action\",\n        \"temporal_alignment\": \"action spans the entire target span, begins with a preparatory hand position, peaks at 0.8s, and concludes at 1.3s with hands settling slightly lower\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The upward-sweeping motion of both hands, starting from chest and moving outward, visually enacts the idea of self-reliance and independence, aligning with the meaning '我可以自立自強' (I can be self-reliant). The movement is not a lexical sign but a depictive gesture that vividly conveys agency and outward expansion. The action is temporally anchored to the entire span and appears to be a key expressive gesture that reinforces the speaker’s stance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.3",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly spread",
+          "movement": "both hands move upward from chest level to shoulder height, then outward and slightly downward in a sweeping motion, as if gesturing outward or away from self",
+          "location": "starts near chest, ends at shoulder height and slightly outward from body",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "moves in coordination with dominant hand, no independent action",
+          "temporal_alignment": "action spans the entire target span, begins with a preparatory hand position, peaks at 0.8s, and concludes at 1.3s with hands settling slightly lower"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The upward-sweeping motion of both hands, starting from chest and moving outward, visually enacts the idea of self-reliance and independence, aligning with the meaning '我可以自立自強' (I can be self-reliant). The movement is not a lexical sign but a depictive gesture that vividly conveys agency and outward expansion. The action is temporally anchored to the entire span and appears to be a key expressive gesture that reinforces the speaker’s stance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

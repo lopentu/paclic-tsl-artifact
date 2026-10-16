@@ -1,0 +1,53 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/static/C34_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C34_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:01:34.280010",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression with pursed lips and slightly raised eyebrows\",\n        \"location\": \"face\",\n        \"nonmanual\": \"pursed lips, slightly raised eyebrows\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression is held steady throughout the target span, occurring within a longer signing unit that includes a pointing gesture with the dominant hand\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The pursed lips and raised eyebrows form a consistent facial expression that accompanies the signing of a warning or cautionary phrase. The expression adds emphasis and affect to the message, making it more vivid and urgent, which is consistent with the meaning 'if you are in the middle of the road or in a dangerous position'. The expression is not a conventionalized lexical sign but clearly serves to intensify the pragmatic force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression with pursed lips and slightly raised eyebrows",
+          "location": "face",
+          "nonmanual": "pursed lips, slightly raised eyebrows",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression is held steady throughout the target span, occurring within a longer signing unit that includes a pointing gesture with the dominant hand"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The pursed lips and raised eyebrows form a consistent facial expression that accompanies the signing of a warning or cautionary phrase. The expression adds emphasis and affect to the message, making it more vivid and urgent, which is consistent with the meaning 'if you are in the middle of the road or in a dangerous position'. The expression is not a conventionalized lexical sign but clearly serves to intensify the pragmatic force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 172712258,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:16:00.351956",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Dominant hand forms a 'pinch' or 'thumb-to-finger' shape, non-dominant hand is open and gesturing.\",\n        \"movement\": \"The dominant hand moves forward and slightly upward in a pointing motion, while the non-dominant hand moves in a complementary gesturing motion.\",\n        \"location\": \"Dominant hand moves toward the signer's right side (viewer's left) and slightly forward, non-dominant hand remains near the signer's chest.\",\n        \"nonmanual\": \"Signer's mouth is open and expressive, eyebrows slightly raised.\",\n        \"non_dominant_hand\": \"Open palm, moving in a small arc near the chest, coordinating with the dominant hand's gesture.\",\n        \"temporal_alignment\": \"The action occurs within a continuous signing phrase, following a previous hand movement and preceding a shift to a different gesture.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand movement is directional and specific, indicating a particular group or role (consistent with 'some speakers, teachers, or sign language interpreters'). The expressive face and coordinated hand gestures add emphasis and affect, enhancing the pragmatic force of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Dominant hand forms a 'pinch' or 'thumb-to-finger' shape, non-dominant hand is open and gesturing.",
+          "movement": "The dominant hand moves forward and slightly upward in a pointing motion, while the non-dominant hand moves in a complementary gesturing motion.",
+          "location": "Dominant hand moves toward the signer's right side (viewer's left) and slightly forward, non-dominant hand remains near the signer's chest.",
+          "nonmanual": "Signer's mouth is open and expressive, eyebrows slightly raised.",
+          "non_dominant_hand": "Open palm, moving in a small arc near the chest, coordinating with the dominant hand's gesture.",
+          "temporal_alignment": "The action occurs within a continuous signing phrase, following a previous hand movement and preceding a shift to a different gesture."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hand movement is directional and specific, indicating a particular group or role (consistent with 'some speakers, teachers, or sign language interpreters'). The expressive face and coordinated hand gestures add emphasis and affect, enhancing the pragmatic force of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

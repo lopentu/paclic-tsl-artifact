@@ -1,0 +1,48 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:13:05.498908",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand and non-dominant hand\",\n        \"handshape\": \"dominant hand forms a 'pinch' or 'thumb-and-index' shape; non-dominant hand forms a 'pinch' or 'thumb-and-index' shape\",\n        \"movement\": \"dominant hand moves from a position near the signer's chin downward and slightly outward, then upward and inward; non-dominant hand remains relatively stationary, pointing upward\",\n        \"location\": \"dominant hand moves from near the signer's chin to near the signer's chest; non-dominant hand remains near the signer's chin\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly serious\",\n        \"non_dominant_hand\": \"non-dominant hand remains relatively stationary, pointing upward\",\n        \"temporal_alignment\": \"the action begins with the dominant hand moving downward and ends with the dominant hand moving upward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand's movement from chin to chest and back suggests a grammatical or semantic structure, possibly indicating a directional or locative relationship. The non-dominant hand's stationary pointing gesture adds emphasis or affective enrichment to the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand and non-dominant hand",
+          "handshape": "dominant hand forms a 'pinch' or 'thumb-and-index' shape; non-dominant hand forms a 'pinch' or 'thumb-and-index' shape",
+          "movement": "dominant hand moves from a position near the signer's chin downward and slightly outward, then upward and inward; non-dominant hand remains relatively stationary, pointing upward",
+          "location": "dominant hand moves from near the signer's chin to near the signer's chest; non-dominant hand remains near the signer's chin",
+          "nonmanual": "signer's facial expression is neutral to slightly serious",
+          "non_dominant_hand": "non-dominant hand remains relatively stationary, pointing upward",
+          "temporal_alignment": "the action begins with the dominant hand moving downward and ends with the dominant hand moving upward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand's movement from chin to chest and back suggests a grammatical or semantic structure, possibly indicating a directional or locative relationship. The non-dominant hand's stationary pointing gesture adds emphasis or affective enrichment to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

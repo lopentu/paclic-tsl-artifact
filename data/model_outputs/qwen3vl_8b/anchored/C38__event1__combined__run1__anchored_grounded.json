@@ -1,0 +1,54 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_c/C38_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C38_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:16:53.787363",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"thumb extended, fingers curled\",\n        \"movement\": \"moves from the signer's right shoulder area down and forward, then holds steady\",\n        \"location\": \"starts near the right shoulder, moves to the right side of the chest, then remains there\",\n        \"nonmanual\": \"signer's head tilts slightly to the right, eyes look down and to the right\",\n        \"non_dominant_hand\": \"the non-dominant hand remains in a fixed position, pointing downward and slightly forward, with the thumb extended and fingers curled\",\n        \"temporal_alignment\": \"the action begins after the signer crosses her hands and continues through the end of the clip\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The non-dominant hand remains in a fixed position, pointing downward and slightly forward, which is a conventionalized sign in TSL for 'teaching' or 'instructing'. The hand's location and orientation indicate a direction or target, consistent with the meaning 'teaching them'. The head tilt and gaze direction reinforce the directionality of the sign, adding emphasis to the action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "thumb extended, fingers curled",
+          "movement": "moves from the signer's right shoulder area down and forward, then holds steady",
+          "location": "starts near the right shoulder, moves to the right side of the chest, then remains there",
+          "nonmanual": "signer's head tilts slightly to the right, eyes look down and to the right",
+          "non_dominant_hand": "the non-dominant hand remains in a fixed position, pointing downward and slightly forward, with the thumb extended and fingers curled",
+          "temporal_alignment": "the action begins after the signer crosses her hands and continues through the end of the clip"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The non-dominant hand remains in a fixed position, pointing downward and slightly forward, which is a conventionalized sign in TSL for 'teaching' or 'instructing'. The hand's location and orientation indicate a direction or target, consistent with the meaning 'teaching them'. The head tilt and gaze direction reinforce the directionality of the sign, adding emphasis to the action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

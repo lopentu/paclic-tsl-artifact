@@ -1,0 +1,48 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C05_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:06:48.013429",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fingers extended, thumbs touching or nearly touching\",\n        \"movement\": \"hands move from a clasped position near the chest outward and upward, then the right hand moves forward and the left hand moves backward, as if pushing or separating\",\n        \"location\": \"starts near the chest, moves to midline in front of the body\",\n        \"nonmanual\": \"neutral facial expression, no clear head movement\",\n        \"non_dominant_hand\": \"left hand moves backward while right hand moves forward\",\n        \"temporal_alignment\": \"the action begins after the signer covers her face and ends before she makes a gesture with her right hand\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move in a coordinated, outward and separating motion, which is a conventionalized sign in TSL for 'to separate' or 'to divide'. The movement is not just a gesture but a lexical sign with clear semantic content. The action is also depictive, as it enacts the physical act of separating two things, enhancing the meaning with visual enactment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fingers extended, thumbs touching or nearly touching",
+          "movement": "hands move from a clasped position near the chest outward and upward, then the right hand moves forward and the left hand moves backward, as if pushing or separating",
+          "location": "starts near the chest, moves to midline in front of the body",
+          "nonmanual": "neutral facial expression, no clear head movement",
+          "non_dominant_hand": "left hand moves backward while right hand moves forward",
+          "temporal_alignment": "the action begins after the signer covers her face and ends before she makes a gesture with her right hand"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move in a coordinated, outward and separating motion, which is a conventionalized sign in TSL for 'to separate' or 'to divide'. The movement is not just a gesture but a lexical sign with clear semantic content. The action is also depictive, as it enacts the physical act of separating two things, enhancing the meaning with visual enactment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

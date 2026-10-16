@@ -1,0 +1,55 @@
+{
+  "clip_id": "C31",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1147612598,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:48:31.597643",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"fist\",\n        \"movement\": \"small, repeated up-and-down motion near the signer's chin\",\n        \"location\": \"near the signer's chin, moving slightly forward and backward\",\n        \"nonmanual\": \"head tilted slightly upward, smiling\",\n        \"non_dominant_hand\": \"resting on the armrest\",\n        \"temporal_alignment\": \"co-occurs with the signer's speech and the surrounding signing, spanning a single, continuous gesture unit\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's hand remains in a fist shape near the chin while moving up and down, which is a conventionalized lexical sign in TSL for 'thinking' or 'overthinking'. The movement is repeated and the facial expression (smiling) indicates a light-hearted, slightly exasperated tone, enhancing the affective meaning of the phrase '想太多實在是不好！' (thinking too much is really not good!).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "fist",
+          "movement": "small, repeated up-and-down motion near the signer's chin",
+          "location": "near the signer's chin, moving slightly forward and backward",
+          "nonmanual": "head tilted slightly upward, smiling",
+          "non_dominant_hand": "resting on the armrest",
+          "temporal_alignment": "co-occurs with the signer's speech and the surrounding signing, spanning a single, continuous gesture unit"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's hand remains in a fist shape near the chin while moving up and down, which is a conventionalized lexical sign in TSL for 'thinking' or 'overthinking'. The movement is repeated and the facial expression (smiling) indicates a light-hearted, slightly exasperated tone, enhancing the affective meaning of the phrase '想太多實在是不好！' (thinking too much is really not good!)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

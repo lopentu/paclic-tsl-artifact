@@ -1,0 +1,54 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_c/C19_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:09:05.104634",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'thumbs-up' shape, left hand forms a 'flat hand' shape\",\n        \"movement\": \"right hand moves from a neutral position to a thumbs-up position, left hand moves from a neutral position to a flat hand position, then both hands cross in front of the chest\",\n        \"location\": \"in front of the chest, moving from the center to the right side\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"left hand remains relatively still, supporting the right hand's movement\",\n        \"temporal_alignment\": \"the action begins after a previous sign and ends before the next sign, spanning a short duration\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves a clear manual sign with a specific handshape and movement path, which is a conventionalized lexical sign in TSL. The movement of the hands crossing in front of the chest and the thumbs-up gesture are consistent with the meaning of 'I believe' in the context of the sentence. The action is not merely a gesture but carries semantic content, as removing it would weaken the expression of belief. The gesture also adds affective enrichment, conveying confidence or affirmation.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'thumbs-up' shape, left hand forms a 'flat hand' shape",
+          "movement": "right hand moves from a neutral position to a thumbs-up position, left hand moves from a neutral position to a flat hand position, then both hands cross in front of the chest",
+          "location": "in front of the chest, moving from the center to the right side",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "left hand remains relatively still, supporting the right hand's movement",
+          "temporal_alignment": "the action begins after a previous sign and ends before the next sign, spanning a short duration"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves a clear manual sign with a specific handshape and movement path, which is a conventionalized lexical sign in TSL. The movement of the hands crossing in front of the chest and the thumbs-up gesture are consistent with the meaning of 'I believe' in the context of the sentence. The action is not merely a gesture but carries semantic content, as removing it would weaken the expression of belief. The gesture also adds affective enrichment, conveying confidence or affirmation."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

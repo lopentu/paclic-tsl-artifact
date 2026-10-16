@@ -1,0 +1,54 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "face",
+  "target_channel_cued": "manual",
+  "video_path": "<repo>/data/clips_c/C39_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:10:49.999285",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open hand, fingers slightly curled\",\n        \"movement\": \"starts with hand raised near the signer's right temple, then moves downward in a smooth arc toward the signer's right shoulder, ending with the hand near the chest\",\n        \"location\": \"begins near the right temple, moves down to the right shoulder, ends near the chest\",\n        \"nonmanual\": \"signer's mouth is open and expressive, tongue is extended outward during the movement\",\n        \"non_dominant_hand\": \"non-dominant hand is initially at the signer's side, then moves to meet the dominant hand near the chest\",\n        \"temporal_alignment\": \"the action begins with the signer's mouth open and tongue out, and ends as the hand moves down and the signer's mouth closes\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand movement from temple to shoulder/chest, combined with the expressive facial expression (tongue out, open mouth), visually enacts the idea of 'self-reliance' or 'independence' as described in the given meaning. The movement path and facial expression together create a strong affective and depictive force, making the action vivid and emotionally charged.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open hand, fingers slightly curled",
+          "movement": "starts with hand raised near the signer's right temple, then moves downward in a smooth arc toward the signer's right shoulder, ending with the hand near the chest",
+          "location": "begins near the right temple, moves down to the right shoulder, ends near the chest",
+          "nonmanual": "signer's mouth is open and expressive, tongue is extended outward during the movement",
+          "non_dominant_hand": "non-dominant hand is initially at the signer's side, then moves to meet the dominant hand near the chest",
+          "temporal_alignment": "the action begins with the signer's mouth open and tongue out, and ends as the hand moves down and the signer's mouth closes"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hand movement from temple to shoulder/chest, combined with the expressive facial expression (tongue out, open mouth), visually enacts the idea of 'self-reliance' or 'independence' as described in the given meaning. The movement path and facial expression together create a strong affective and depictive force, making the action vivid and emotionally charged."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

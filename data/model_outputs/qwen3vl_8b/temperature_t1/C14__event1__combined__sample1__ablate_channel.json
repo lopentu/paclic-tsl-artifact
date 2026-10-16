@@ -1,0 +1,55 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1628822784,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:41:42.184653",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"2.3\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a 'pinch' or 'thumb and forefinger' shape; left hand forms a 'pinch' or 'thumb and forefinger' shape\",\n        \"movement\": \"Right hand moves from the signer's right side, moving forward and inward toward the left hand, which remains relatively stationary near the signer's chest. The right hand then makes a small circular motion around the left hand's index finger and thumb, as if indicating a small object or concept being held or manipulated. The hands then separate slightly, with the right hand moving slightly away from the left hand.\",\n        \"location\": \"Initially, the right hand is at the signer's right side, moving toward the center of the signer's body. The left hand remains near the signer's chest, around the mid-chest area.\",\n        \"nonmanual\": \"The signer's head and facial expression are relatively neutral and focused, with slight head tilts and facial movements that appear to accompany the signing, but are not the primary focus of the action.\",\n        \"non_dominant_hand\": \"The left hand is relatively stationary near the signer's chest, serving as a reference point or anchor for the movement of the right hand. The left hand maintains a consistent handshape throughout the action.\",\n        \"temporal_alignment\": \"The action begins with the right hand moving from the signer's right side toward the center of the body, initiating the movement at approximately 0.3 seconds. The movement of the right hand around the left hand's fingers continues until approximately 2.3 seconds, at which point the hands separate slightly. The action spans the entire target span.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The movement of the right hand around the left hand's fingers, combined with the consistent handshape and the signer's focused facial expression, suggests a depictive or indicational action. The movement appears to depict a small object or concept being held or manipulated, which is relevant to the discourse meaning of 'allowing hearing-impaired children to communicate more smoothly'. The action contributes to the propositional content by visually representing the idea of communication or interaction, and it adds vividness and affect by enacting the physical gesture of holding or manipulating something.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "2.3",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a 'pinch' or 'thumb and forefinger' shape; left hand forms a 'pinch' or 'thumb and forefinger' shape",
+          "movement": "Right hand moves from the signer's right side, moving forward and inward toward the left hand, which remains relatively stationary near the signer's chest. The right hand then makes a small circular motion around the left hand's index finger and thumb, as if indicating a small object or concept being held or manipulated. The hands then separate slightly, with the right hand moving slightly away from the left hand.",
+          "location": "Initially, the right hand is at the signer's right side, moving toward the center of the signer's body. The left hand remains near the signer's chest, around the mid-chest area.",
+          "nonmanual": "The signer's head and facial expression are relatively neutral and focused, with slight head tilts and facial movements that appear to accompany the signing, but are not the primary focus of the action.",
+          "non_dominant_hand": "The left hand is relatively stationary near the signer's chest, serving as a reference point or anchor for the movement of the right hand. The left hand maintains a consistent handshape throughout the action.",
+          "temporal_alignment": "The action begins with the right hand moving from the signer's right side toward the center of the body, initiating the movement at approximately 0.3 seconds. The movement of the right hand around the left hand's fingers continues until approximately 2.3 seconds, at which point the hands separate slightly. The action spans the entire target span."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The movement of the right hand around the left hand's fingers, combined with the consistent handshape and the signer's focused facial expression, suggests a depictive or indicational action. The movement appears to depict a small object or concept being held or manipulated, which is relevant to the discourse meaning of 'allowing hearing-impaired children to communicate more smoothly'. The action contributes to the propositional content by visually representing the idea of communication or interaction, and it adds vividness and affect by enacting the physical gesture of holding or manipulating something."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

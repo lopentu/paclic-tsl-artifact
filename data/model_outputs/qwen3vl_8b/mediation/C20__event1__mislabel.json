@@ -1,0 +1,36 @@
+{
+  "clip_id": "C20",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "manual",
+  "label_channel_sent": "face",
+  "label_is_correct": false,
+  "video_id": "S01EP11",
+  "source_run": "C20__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 1,
+    "description": 2,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: index finger extended, other fingers curled\n- movement: index finger extends forward and then moves slightly downward and inward toward the signer's chest\n- location: starts near the signer's chin, moves to the center of the chest\n- nonmanual: mouth slightly open, neutral facial expression\n- non dominant hand: resting at the signer's side, not moving\n- temporal alignment: the action occurs within a continuous signing sequence, immediately following a hand gesture near the face and preceding a hand movement toward the chest",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:24:18.365791",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 2,\n  \"description\": 2,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The action, involving a forward-extending index finger moving toward the chest, likely serves to emphasize or depict the idea of 'you' or 'your effort' in the context of the utterance '你們會考上乙證也沒問題' (You will also be able to pass the B certificate). The facial neutrality and slight mouth opening suggest it's not conveying strong affect, but the movement toward the chest may indicate self-referential or inclusive emphasis. It contributes minimally to syntax or core semantics (hence 1 for semantic load), but adds pragmatic emphasis and depiction (hence 2 for pragmatic enrichment and 2 for depiction). The movement toward the chest can be seen as a mild indication of the speaker’s own stance or the addressee’s position (hence 1 for indication).\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The action, involving a forward-extending index finger moving toward the chest, likely serves to emphasize or depict the idea of 'you' or 'your effort' in the context of the utterance '你們會考上乙證也沒問題' (You will also be able to pass the B certificate). The facial neutrality and slight mouth opening suggest it's not conveying strong affect, but the movement toward the chest may indicate self-referential or inclusive emphasis. It contributes minimally to syntax or core semantics (hence 1 for semantic load), but adds pragmatic emphasis and depiction (hence 2 for pragmatic enrichment and 2 for depiction). The movement toward the chest can be seen as a mild indication of the speaker’s own stance or the addressee’s position (hence 1 for indication)."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

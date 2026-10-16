@@ -1,0 +1,55 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1981693764,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:08:37.359625",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves upward and forward from chest level to point toward upper right\",\n        \"location\": \"begins near chest, ends pointing forward and right\",\n        \"nonmanual\": \"mouth slightly open, facial expression neutral\",\n        \"non_dominant_hand\": \"resting near body, not actively involved\",\n        \"temporal_alignment\": \"starts with the sign for 'record' or 'video', continues through the point gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with the sign for 'record' or 'video', which is a lexical sign contributing to the propositional content about 'knowing from video'. The upward-forward pointing gesture clearly indicates the direction of the video's focus or the signer's own perspective, adding emphasis and directionality to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves upward and forward from chest level to point toward upper right",
+          "location": "begins near chest, ends pointing forward and right",
+          "nonmanual": "mouth slightly open, facial expression neutral",
+          "non_dominant_hand": "resting near body, not actively involved",
+          "temporal_alignment": "starts with the sign for 'record' or 'video', continues through the point gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with the sign for 'record' or 'video', which is a lexical sign contributing to the propositional content about 'knowing from video'. The upward-forward pointing gesture clearly indicates the direction of the video's focus or the signer's own perspective, adding emphasis and directionality to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

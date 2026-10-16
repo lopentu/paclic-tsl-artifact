@@ -1,0 +1,55 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1101958129,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:29:16.277049",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a thumb-up; left hand forms a flat hand\",\n        \"movement\": \"right hand moves from the signer's right side across the chest to the left, then both hands cross in front of the chest to form a 'thumbs-up' gesture; left hand moves to cross over the right hand to form the gesture\",\n        \"location\": \"in front of the signer's chest, moving inward toward the center\",\n        \"nonmanual\": \"signer maintains eye contact, head steady, mouth slightly open\",\n        \"non_dominant_hand\": \"left hand forms a flat hand, then crosses over the right hand to form the thumbs-up gesture\",\n        \"temporal_alignment\": \"the action begins immediately after the previous sign (a hand movement) and ends before the next sign (a hand movement)\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The gesture is a conventionalized lexical sign in TSL for 'approve' or 'good job,' directly contributing to the propositional content of the sentence 'I believe the students who need to take the second-level exam.' The strong affective quality is evident in the sustained eye contact and the confident, positive posture of the gesture, which enhances the message's encouraging tone.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a thumb-up; left hand forms a flat hand",
+          "movement": "right hand moves from the signer's right side across the chest to the left, then both hands cross in front of the chest to form a 'thumbs-up' gesture; left hand moves to cross over the right hand to form the gesture",
+          "location": "in front of the signer's chest, moving inward toward the center",
+          "nonmanual": "signer maintains eye contact, head steady, mouth slightly open",
+          "non_dominant_hand": "left hand forms a flat hand, then crosses over the right hand to form the thumbs-up gesture",
+          "temporal_alignment": "the action begins immediately after the previous sign (a hand movement) and ends before the next sign (a hand movement)"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The gesture is a conventionalized lexical sign in TSL for 'approve' or 'good job,' directly contributing to the propositional content of the sentence 'I believe the students who need to take the second-level exam.' The strong affective quality is evident in the sustained eye contact and the confident, positive posture of the gesture, which enhances the message's encouraging tone."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

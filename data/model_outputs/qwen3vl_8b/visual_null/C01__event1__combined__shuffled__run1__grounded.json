@@ -1,0 +1,53 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C01_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C01_window_model.mp4",
+  "video_id": "S01EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:04:24.263364",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"repeatedly moves from the signer's right temple down to the right shoulder, then back up to the temple, in a rhythmic, sweeping motion\",\n        \"location\": \"starts near the right temple, moves down to the right shoulder, then back up to the temple\",\n        \"nonmanual\": \"signer's face is neutral, no strong facial expression\",\n        \"non_dominant_hand\": \"the non-dominant hand is the sole articulator, performing the motion\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 1.1s, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are conventionalized and repeatable, suggesting a lexical or grammatical sign. The rhythmic, sweeping motion from temple to shoulder and back, combined with the context of signing about a law being enacted, suggests emphasis or a sense of official authority, which is a pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "repeatedly moves from the signer's right temple down to the right shoulder, then back up to the temple, in a rhythmic, sweeping motion",
+          "location": "starts near the right temple, moves down to the right shoulder, then back up to the temple",
+          "nonmanual": "signer's face is neutral, no strong facial expression",
+          "non_dominant_hand": "the non-dominant hand is the sole articulator, performing the motion",
+          "temporal_alignment": "the action begins at 0.3s and ends at 1.1s, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are conventionalized and repeatable, suggesting a lexical or grammatical sign. The rhythmic, sweeping motion from temple to shoulder and back, combined with the context of signing about a law being enacted, suggests emphasis or a sense of official authority, which is a pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

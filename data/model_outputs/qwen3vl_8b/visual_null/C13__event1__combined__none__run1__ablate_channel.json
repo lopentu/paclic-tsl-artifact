@@ -1,0 +1,53 @@
+{
+  "clip_id": "C13",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "non_dominant_hand",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:21:26.815029",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly spread\",\n        \"movement\": \"both hands move upward from chest level to shoulder level in a smooth, synchronized arc, then return downward\",\n        \"location\": \"starts near chest, moves upward and outward (signer's right and left), then returns inward and downward\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"moves in coordination with dominant hand, no independent action\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.6s, aligned with the phrase '相信經過這樣的練習' and precedes a subsequent manual sign\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The upward motion of both hands resembles a gesture of affirmation or belief, consistent with the meaning '相信' (believe). The synchronized movement and arc suggest a structured, grammatical sign rather than a depictive one, but the motion conveys affective emphasis. The action is not pointing or indexing, so indication is 0.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly spread",
+          "movement": "both hands move upward from chest level to shoulder level in a smooth, synchronized arc, then return downward",
+          "location": "starts near chest, moves upward and outward (signer's right and left), then returns inward and downward",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "moves in coordination with dominant hand, no independent action",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.6s, aligned with the phrase '相信經過這樣的練習' and precedes a subsequent manual sign"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The upward motion of both hands resembles a gesture of affirmation or belief, consistent with the meaning '相信' (believe). The synchronized movement and arc suggest a structured, grammatical sign rather than a depictive one, but the motion conveys affective emphasis. The action is not pointing or indexing, so indication is 0."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

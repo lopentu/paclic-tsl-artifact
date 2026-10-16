@@ -1,0 +1,55 @@
+{
+  "clip_id": "C27",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1679705358,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:01:57.869409",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"face remains static, with intense facial expression\",\n        \"location\": \"central face\",\n        \"nonmanual\": \"intense facial expression: eyes squeezed shut, brow furrowed, mouth open wide in an expression of exertion or strong emotion\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression occurs during a sustained signing gesture with both hands near the chest\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The facial expression (eyes squeezed shut, mouth open wide) is sustained and intense, occurring during a signing segment that conveys willingness to participate. The expression strongly conveys affect (determination, effort, or strong emotion) related to the propositional content. While it may not encode a specific grammatical marker, it is a conventionalized affective nonmanual that enhances the pragmatic force of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "face remains static, with intense facial expression",
+          "location": "central face",
+          "nonmanual": "intense facial expression: eyes squeezed shut, brow furrowed, mouth open wide in an expression of exertion or strong emotion",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression occurs during a sustained signing gesture with both hands near the chest"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The facial expression (eyes squeezed shut, mouth open wide) is sustained and intense, occurring during a signing segment that conveys willingness to participate. The expression strongly conveys affect (determination, effort, or strong emotion) related to the propositional content. While it may not encode a specific grammatical marker, it is a conventionalized affective nonmanual that enhances the pragmatic force of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

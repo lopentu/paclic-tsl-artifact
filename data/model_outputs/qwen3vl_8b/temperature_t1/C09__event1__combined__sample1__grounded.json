@@ -1,0 +1,55 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 597980334,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:24:38.749814",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open hands\",\n        \"movement\": \"hands move from chest outward and upward, then one hand moves downward while the other remains raised\",\n        \"location\": \"starting near chest, moving outward and upward, then one hand moves downward\",\n        \"nonmanual\": \"no significant nonmanual activity\",\n        \"non_dominant_hand\": \"the non-dominant hand remains relatively still while the dominant hand moves\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, immediately following a gesture near the chest and preceding a pointing gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move outward and upward from the chest, which is a common gesture for expressing 'far' or 'distance' in TSL, fitting the context of 'far from sufficient' (足夠). The movement is not a simple lexical sign but a gestural extension that adds emphasis and vividness to the meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open hands",
+          "movement": "hands move from chest outward and upward, then one hand moves downward while the other remains raised",
+          "location": "starting near chest, moving outward and upward, then one hand moves downward",
+          "nonmanual": "no significant nonmanual activity",
+          "non_dominant_hand": "the non-dominant hand remains relatively still while the dominant hand moves",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, immediately following a gesture near the chest and preceding a pointing gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move outward and upward from the chest, which is a common gesture for expressing 'far' or 'distance' in TSL, fitting the context of 'far from sufficient' (足夠). The movement is not a simple lexical sign but a gestural extension that adds emphasis and vividness to the meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

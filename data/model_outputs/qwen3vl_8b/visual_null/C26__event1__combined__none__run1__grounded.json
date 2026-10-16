@@ -1,0 +1,53 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "face",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T12:19:32.456240",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression with slight head tilt and eyebrow raise\",\n        \"location\": \"center of face, forward-facing\",\n        \"nonmanual\": \"raised eyebrows, slight head tilt forward, open mouth with lips slightly parted\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with the beginning of the signing utterance, preceding manual signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.85,\n      \"observable_evidence\": \"The facial expression (raised eyebrows, slight head tilt) appears at the start of the signing and persists through the initial manual signs, suggesting emphasis on the hypothetical condition. The expression conveys affective engagement and mild surprise or eagerness, aligning with the sentiment of 'I would really like to learn' in the given meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression with slight head tilt and eyebrow raise",
+          "location": "center of face, forward-facing",
+          "nonmanual": "raised eyebrows, slight head tilt forward, open mouth with lips slightly parted",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with the beginning of the signing utterance, preceding manual signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.85,
+        "observable_evidence": "The facial expression (raised eyebrows, slight head tilt) appears at the start of the signing and persists through the initial manual signs, suggesting emphasis on the hypothetical condition. The expression conveys affective engagement and mild surprise or eagerness, aligning with the sentiment of 'I would really like to learn' in the given meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

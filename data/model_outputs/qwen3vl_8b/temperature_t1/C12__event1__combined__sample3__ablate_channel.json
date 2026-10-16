@@ -1,0 +1,55 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1690357898,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:41:17.271921",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a 'point' or 'index' shape; left hand forms a 'thumb-up' or 'index' shape\",\n        \"movement\": \"Right hand moves in a small, repetitive circular motion around the left hand's index finger, then pulls back slightly; left hand remains relatively still with index finger extended\",\n        \"location\": \"Center of signer's body, near chest level\",\n        \"nonmanual\": \"Signer's mouth is slightly open, lips pursed, and eyebrows slightly raised, conveying a sense of emphasis or slight concern\",\n        \"non_dominant_hand\": \"Left hand is held steady with index finger extended, serving as a fixed point of reference\",\n        \"temporal_alignment\": \"Occurs within a continuous signing sequence, following a broad gesture of presentation and preceding a downward motion of the right hand\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The repetitive circular motion of the right hand around the left hand's index finger suggests a structured, possibly grammatical action (e.g., indicating a process or relationship), while the steady left hand provides a stable referent. The facial expression and the gesture together convey a tone of emphasis and slight concern, which aligns with the meaning 'however, interpretation requires good basic language skills' suggesting a conditional or challenging situation.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a 'point' or 'index' shape; left hand forms a 'thumb-up' or 'index' shape",
+          "movement": "Right hand moves in a small, repetitive circular motion around the left hand's index finger, then pulls back slightly; left hand remains relatively still with index finger extended",
+          "location": "Center of signer's body, near chest level",
+          "nonmanual": "Signer's mouth is slightly open, lips pursed, and eyebrows slightly raised, conveying a sense of emphasis or slight concern",
+          "non_dominant_hand": "Left hand is held steady with index finger extended, serving as a fixed point of reference",
+          "temporal_alignment": "Occurs within a continuous signing sequence, following a broad gesture of presentation and preceding a downward motion of the right hand"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The repetitive circular motion of the right hand around the left hand's index finger suggests a structured, possibly grammatical action (e.g., indicating a process or relationship), while the steady left hand provides a stable referent. The facial expression and the gesture together convey a tone of emphasis and slight concern, which aligns with the meaning 'however, interpretation requires good basic language skills' suggesting a conditional or challenging situation."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

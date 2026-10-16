@@ -1,0 +1,69 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C20",
+    "event_id": "event2",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP11",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 0.5000000000000568
+  },
+  "video_from": {
+    "clip_id": "C02",
+    "event_id": "event1",
+    "video_id": "S01EP02",
+    "target_channel": "manual",
+    "duration": 0.8999999999999915
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.5000000000000568,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C02_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:53:58.736169",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"moves from right to left across the signer's upper chest, then upward toward the right side of the head\",\n        \"location\": \"starts near the signer's right shoulder, moves across the chest, ends near the right temple\",\n        \"nonmanual\": \"smiling expression\",\n        \"non_dominant_hand\": \"resting, not visible\",\n        \"temporal_alignment\": \"begins after the initial open-palm gesture, precedes the pointing gesture to the right\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape is a clear index finger, a common lexical sign in TSL. The movement across the chest and up to the head is a conventionalized gesture for 'thinking' or 'considering', which is semantically relevant to the message about passing an exam. The smiling expression adds affective enrichment, indicating confidence or reassurance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "moves from right to left across the signer's upper chest, then upward toward the right side of the head",
+          "location": "starts near the signer's right shoulder, moves across the chest, ends near the right temple",
+          "nonmanual": "smiling expression",
+          "non_dominant_hand": "resting, not visible",
+          "temporal_alignment": "begins after the initial open-palm gesture, precedes the pointing gesture to the right"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape is a clear index finger, a common lexical sign in TSL. The movement across the chest and up to the head is a conventionalized gesture for 'thinking' or 'considering', which is semantically relevant to the message about passing an exam. The smiling expression adds affective enrichment, indicating confidence or reassurance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1968478943,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:35:07.307966",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"moves from near the signer's face upward to the forehead, then downward to the temple\",\n        \"location\": \"starts near the nose, moves to the forehead, then to the temple area\",\n        \"nonmanual\": \"eyes widen, eyebrows raise, mouth opens slightly\",\n        \"non_dominant_hand\": \"held steady with index finger extended, pointing forward\",\n        \"temporal_alignment\": \"occurs within a larger gesture sequence that includes the dominant hand moving to the face and then to the temple, while the non-dominant hand remains steady\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The movement of the dominant hand to the forehead and temple, coupled with the facial expression (widened eyes, raised eyebrows), visually conveys the idea of 'not necessarily' or 'not always' in the context of the overall meaning. The steady non-dominant hand provides a stable reference point, enhancing the contrast and focus on the gesturing hand. The action is clearly a lexical sign (description) for 'not necessarily' or 'not always', contributing to the grammatical structure of the clause. The facial expression and hand movement together provide strong affective enrichment, indicating uncertainty or a disclaimer.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "moves from near the signer's face upward to the forehead, then downward to the temple",
+          "location": "starts near the nose, moves to the forehead, then to the temple area",
+          "nonmanual": "eyes widen, eyebrows raise, mouth opens slightly",
+          "non_dominant_hand": "held steady with index finger extended, pointing forward",
+          "temporal_alignment": "occurs within a larger gesture sequence that includes the dominant hand moving to the face and then to the temple, while the non-dominant hand remains steady"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The movement of the dominant hand to the forehead and temple, coupled with the facial expression (widened eyes, raised eyebrows), visually conveys the idea of 'not necessarily' or 'not always' in the context of the overall meaning. The steady non-dominant hand provides a stable reference point, enhancing the contrast and focus on the gesturing hand. The action is clearly a lexical sign (description) for 'not necessarily' or 'not always', contributing to the grammatical structure of the clause. The facial expression and hand movement together provide strong affective enrichment, indicating uncertainty or a disclaimer."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

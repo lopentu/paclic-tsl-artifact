@@ -1,0 +1,50 @@
+{
+  "clip_id": "C24",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C24_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:46:21.815431",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"The dominant right hand is used.\",\n        \"handshape\": \"The handshape is a 'thumbs-up', with the thumb extended upwards and the other fingers curled into the palm.\",\n        \"movement\": \"The hand moves from a position near the signer's right shoulder downwards and forwards towards the center of the chest in a single, smooth motion.\",\n        \"location\": \"The hand is initially at shoulder height on the signer's right side, and the movement path is downward and inward, ending near the upper chest.\",\n        \"nonmanual\": \"The non-dominant left hand is resting in the signer's lap. The signer's head is facing forward, and the facial expression is engaged, with the mouth open as if speaking or signing.\",\n        \"non_dominant_hand\": \"The non-dominant left hand is stationary in the signer's lap.\",\n        \"temporal_alignment\": \"The action is a single, fluid movement that occurs in the middle of a continuous signing sequence. It is not isolated but is a distinct manual gesture within a larger phrase.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The gesture is a conventional 'thumbs-up' which is a strong lexical sign in Taiwan Sign Language. It is held for a moment before transitioning to the next sign, suggesting it carries a specific propositional meaning. The facial expression is active and engaged, adding affective force.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant right hand is used.",
+          "handshape": "The handshape is a 'thumbs-up', with the thumb extended upwards and the other fingers curled into the palm.",
+          "movement": "The hand moves from a position near the signer's right shoulder downwards and forwards towards the center of the chest in a single, smooth motion.",
+          "location": "The hand is initially at shoulder height on the signer's right side, and the movement path is downward and inward, ending near the upper chest.",
+          "nonmanual": "The non-dominant left hand is resting in the signer's lap. The signer's head is facing forward, and the facial expression is engaged, with the mouth open as if speaking or signing.",
+          "non_dominant_hand": "The non-dominant left hand is stationary in the signer's lap.",
+          "temporal_alignment": "The action is a single, fluid movement that occurs in the middle of a continuous signing sequence. It is not isolated but is a distinct manual gesture within a larger phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The gesture is a conventional 'thumbs-up' which is a strong lexical sign in Taiwan Sign Language. It is held for a moment before transitioning to the next sign, suggesting it carries a specific propositional meaning. The facial expression is active and engaged, adding affective force."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

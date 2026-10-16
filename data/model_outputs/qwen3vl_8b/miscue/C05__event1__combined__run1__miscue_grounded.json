@@ -1,0 +1,54 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "face",
+  "target_channel_cued": "manual",
+  "video_path": "<repo>/data/clips_c/C05_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C05_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T17:58:51.737195",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fingers extended, thumbs touching or nearly touching\",\n        \"movement\": \"hands move from a clasped position near the chest outward and upward, then the right hand moves forward and the left hand moves backward, as if pushing or separating\",\n        \"location\": \"starts near the chest, moves to midline in front of the body\",\n        \"nonmanual\": \"neutral facial expression, no strong head or torso movement\",\n        \"non_dominant_hand\": \"left hand moves backward while right hand moves forward\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture of covering the face and preceding a gesture of pointing outward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move from a clasped position to an outward, separating motion, which visually represents the concept of 'three stages' or 'three checkpoints' mentioned in the given meaning. The movement is not a simple lexical sign but an enactment that depicts the separation or distinctness of the stages, adding vividness and emphasis to the propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fingers extended, thumbs touching or nearly touching",
+          "movement": "hands move from a clasped position near the chest outward and upward, then the right hand moves forward and the left hand moves backward, as if pushing or separating",
+          "location": "starts near the chest, moves to midline in front of the body",
+          "nonmanual": "neutral facial expression, no strong head or torso movement",
+          "non_dominant_hand": "left hand moves backward while right hand moves forward",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture of covering the face and preceding a gesture of pointing outward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move from a clasped position to an outward, separating motion, which visually represents the concept of 'three stages' or 'three checkpoints' mentioned in the given meaning. The movement is not a simple lexical sign but an enactment that depicts the separation or distinctness of the stages, adding vividness and emphasis to the propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

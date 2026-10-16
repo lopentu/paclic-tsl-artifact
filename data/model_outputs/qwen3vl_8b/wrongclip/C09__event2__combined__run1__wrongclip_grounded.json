@@ -1,0 +1,69 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C09",
+    "event_id": "event2",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP09",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 0.6000000000000227
+  },
+  "video_from": {
+    "clip_id": "C11",
+    "event_id": "event1",
+    "video_id": "S01EP09",
+    "target_channel": "manual",
+    "duration": 0.9000000000000341
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.6000000000000227,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C11_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C11_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:49:03.783653",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves upward and slightly forward, then downward in a small arc\",\n        \"location\": \"near the signer's right eye, moving toward the center of the face\",\n        \"nonmanual\": \"signer's eyes are closed or nearly closed during the movement\",\n        \"non_dominant_hand\": \"resting on the signer's lap or lower torso, not moving\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the clip, immediately after a preparatory gesture and before a more complex hand movement\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement resemble a lexical sign for 'think' or 'consider' in TSL, which is semantically relevant to the discourse about insufficient translation skills. The downward motion and closed eyes add a sense of introspection or emphasis, enhancing the pragmatic force of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves upward and slightly forward, then downward in a small arc",
+          "location": "near the signer's right eye, moving toward the center of the face",
+          "nonmanual": "signer's eyes are closed or nearly closed during the movement",
+          "non_dominant_hand": "resting on the signer's lap or lower torso, not moving",
+          "temporal_alignment": "the action occurs at the beginning of the clip, immediately after a preparatory gesture and before a more complex hand movement"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement resemble a lexical sign for 'think' or 'consider' in TSL, which is semantically relevant to the discourse about insufficient translation skills. The downward motion and closed eyes add a sense of introspection or emphasis, enhancing the pragmatic force of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

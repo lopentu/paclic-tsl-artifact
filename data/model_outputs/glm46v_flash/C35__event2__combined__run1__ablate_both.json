@@ -1,0 +1,61 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:17:49.085249",
+  "backend_call_info": {
+    "frames_per_video": [
+      96,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.722,
+      15.984
+    ],
+    "input_tokens": 12204,
+    "output_tokens": 331
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand forms a flat 'palm' shape, non-dominant hand holds up index finger\",\n        \"handshape\": \"dominant hand: open flat palm; non-dominant hand: index finger extended\",\n        \"movement\": \"dominant hand moves from chest level to near face, non-dominant hand remains steady\",\n        \"location\": \"dominant hand moves from front of body to near face, non-dominant hand points forward\",\n        \"nonmanual\": \"facial expression shifts from neutral to slightly open mouth\",\n        \"non_dominant_hand\": \"non-dominant hand maintains index finger pointing forward\",\n        \"temporal_alignment\": \"part of a continuous signing sequence, preceding and following gestures\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand moves from chest to near face with a flat palm, while the non-dominant hand holds a steady index finger, indicating a conventional lexical sign with a clear semantic role in the discourse.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand forms a flat 'palm' shape, non-dominant hand holds up index finger",
+          "handshape": "dominant hand: open flat palm; non-dominant hand: index finger extended",
+          "movement": "dominant hand moves from chest level to near face, non-dominant hand remains steady",
+          "location": "dominant hand moves from front of body to near face, non-dominant hand points forward",
+          "nonmanual": "facial expression shifts from neutral to slightly open mouth",
+          "non_dominant_hand": "non-dominant hand maintains index finger pointing forward",
+          "temporal_alignment": "part of a continuous signing sequence, preceding and following gestures"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand moves from chest to near face with a flat palm, while the non-dominant hand holds a steady index finger, indicating a conventional lexical sign with a clear semantic role in the discourse."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

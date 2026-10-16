@@ -1,0 +1,55 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 2102153684,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:46:24.304585",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Dominant hand forms a 'pinch' or 'thumb and index finger' shape; non-dominant hand forms an open palm or flat hand\",\n        \"movement\": \"Dominant hand moves from the signer's chin/neck area upward and forward, then extends outward in a pointing gesture. Non-dominant hand moves from the signer's chest toward the dominant hand, then sweeps outward and downward, following the dominant hand's movement.\",\n        \"location\": \"Dominant hand begins near the signer's chin/neck, moves to the front, and extends outward. Non-dominant hand begins near the signer's chest and follows the dominant hand's path.\",\n        \"nonmanual\": \"Signer's mouth is open, and his eyebrows are raised, conveying emphasis or surprise.\",\n        \"non_dominant_hand\": \"The non-dominant hand moves in coordination with the dominant hand, supporting the gesture.\",\n        \"temporal_alignment\": \"The action occurs within a continuous signing sequence, beginning with the dominant hand rising and ending with both hands moving outward and downward.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The dominant hand's movement from the chin/neck to the front and outward strongly resembles a lexical sign for 'person' or 'someone' in TSL. The coordinated movement of both hands, combined with the raised eyebrows and open mouth, emphasizes the referent being introduced, suggesting a specific individual or group (as in 'some people') rather than a general concept. The non-dominant hand's sweeping motion may indicate the scope or extent of the referent, contributing to the depiction of the group.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Dominant hand forms a 'pinch' or 'thumb and index finger' shape; non-dominant hand forms an open palm or flat hand",
+          "movement": "Dominant hand moves from the signer's chin/neck area upward and forward, then extends outward in a pointing gesture. Non-dominant hand moves from the signer's chest toward the dominant hand, then sweeps outward and downward, following the dominant hand's movement.",
+          "location": "Dominant hand begins near the signer's chin/neck, moves to the front, and extends outward. Non-dominant hand begins near the signer's chest and follows the dominant hand's path.",
+          "nonmanual": "Signer's mouth is open, and his eyebrows are raised, conveying emphasis or surprise.",
+          "non_dominant_hand": "The non-dominant hand moves in coordination with the dominant hand, supporting the gesture.",
+          "temporal_alignment": "The action occurs within a continuous signing sequence, beginning with the dominant hand rising and ending with both hands moving outward and downward."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The dominant hand's movement from the chin/neck to the front and outward strongly resembles a lexical sign for 'person' or 'someone' in TSL. The coordinated movement of both hands, combined with the raised eyebrows and open mouth, emphasizes the referent being introduced, suggesting a specific individual or group (as in 'some people') rather than a general concept. The non-dominant hand's sweeping motion may indicate the scope or extent of the referent, contributing to the depiction of the group."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

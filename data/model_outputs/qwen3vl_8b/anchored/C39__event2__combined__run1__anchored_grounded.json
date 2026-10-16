@@ -1,0 +1,54 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_c/C39_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:17:26.399818",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.3\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression remains consistent: lips pursed, cheeks slightly puffed, and eyes focused forward\",\n        \"location\": \"center of signer's face\",\n        \"nonmanual\": \"pursed lips and slightly puffed cheeks\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression is held steady throughout the target span, coinciding with the signing of the phrase '我可以自立自強' (I can be self-reliant) and serving as a sustained affective marker\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer maintains a consistent facial expression (pursed lips, puffed cheeks) throughout the target span, which aligns with the signing of '我可以自立自強'. This expression is not a conventionalized lexical sign but serves to convey a sense of determination and resolve, enhancing the affective tone of the message. The expression is held steady, indicating it is not a transient prosodic marker but a sustained affective marker that enriches the pragmatic force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.3",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression remains consistent: lips pursed, cheeks slightly puffed, and eyes focused forward",
+          "location": "center of signer's face",
+          "nonmanual": "pursed lips and slightly puffed cheeks",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression is held steady throughout the target span, coinciding with the signing of the phrase '我可以自立自強' (I can be self-reliant) and serving as a sustained affective marker"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer maintains a consistent facial expression (pursed lips, puffed cheeks) throughout the target span, which aligns with the signing of '我可以自立自強'. This expression is not a conventionalized lexical sign but serves to convey a sense of determination and resolve, enhancing the affective tone of the message. The expression is held steady, indicating it is not a transient prosodic marker but a sustained affective marker that enriches the pragmatic force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

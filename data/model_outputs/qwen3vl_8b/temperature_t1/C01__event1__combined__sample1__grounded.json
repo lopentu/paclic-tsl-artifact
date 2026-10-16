@@ -1,0 +1,55 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 704997675,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:22:17.515965",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves from right to left in a horizontal arc, then moves upward to touch the forehead\",\n        \"location\": \"starts near the right side of the signer's face, moves to the left, then upward to the forehead\",\n        \"nonmanual\": \"signer's head is slightly tilted forward\",\n        \"non_dominant_hand\": \"the non-dominant hand's index finger is extended and used to point to the forehead\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the clip and is followed by a continuation of the same gesture with the dominant hand\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The gesture involves pointing to the forehead, which is a common way to indicate a law or regulation in Taiwan Sign Language. The gesture is repeated and sustained, which adds emphasis and affect. The handshape and movement are consistent with the lexical sign for 'law' or 'regulation'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves from right to left in a horizontal arc, then moves upward to touch the forehead",
+          "location": "starts near the right side of the signer's face, moves to the left, then upward to the forehead",
+          "nonmanual": "signer's head is slightly tilted forward",
+          "non_dominant_hand": "the non-dominant hand's index finger is extended and used to point to the forehead",
+          "temporal_alignment": "the action occurs at the beginning of the clip and is followed by a continuation of the same gesture with the dominant hand"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The gesture involves pointing to the forehead, which is a common way to indicate a law or regulation in Taiwan Sign Language. The gesture is repeated and sustained, which adds emphasis and affect. The handshape and movement are consistent with the lexical sign for 'law' or 'regulation'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

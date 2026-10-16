@@ -1,0 +1,48 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP01",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:24:50.838501",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"moves from lower chest area upward to touch the forehead, then moves downward to the chin area\",\n        \"location\": \"starts near chest, moves to forehead, then to chin\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"the non-dominant hand moves in a smooth arc from chest to forehead to chin\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 1.1s, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand moves from chest to forehead to chin, a motion that visually represents a gesture of thought or contemplation. The movement is smooth and continuous, suggesting a deliberate, expressive action rather than a grammatical marker. The action is not a lexical sign but conveys affect or emphasis, as the signer's facial expression remains neutral, making the hand movement the primary source of enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "moves from lower chest area upward to touch the forehead, then moves downward to the chin area",
+          "location": "starts near chest, moves to forehead, then to chin",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "the non-dominant hand moves in a smooth arc from chest to forehead to chin",
+          "temporal_alignment": "the action begins at 0.3s and ends at 1.1s, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand moves from chest to forehead to chin, a motion that visually represents a gesture of thought or contemplation. The movement is smooth and continuous, suggesting a deliberate, expressive action rather than a grammatical marker. The action is not a lexical sign but conveys affect or emphasis, as the signer's facial expression remains neutral, making the hand movement the primary source of enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

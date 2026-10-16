@@ -1,0 +1,55 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1913869294,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:14:57.489719",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: thumb extended, other fingers curled\",\n        \"movement\": \"right hand moves from right to left across the signer's chest, left hand moves from left to right to meet it, forming a 'frame' or 'enclosing' gesture\",\n        \"location\": \"center of chest, moving inward toward the body\",\n        \"nonmanual\": \"smiling facial expression\",\n        \"non_dominant_hand\": \"left hand moves to meet right hand, forming a frame\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a previous hand movement and preceding a broader gestural expansion\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands form a framing gesture that visually encloses the concept of 'you' (the addressee) in the sentence, which is a key grammatical structure in TSL. The smiling expression and the inward movement of the hands convey warmth, reassurance, and a sense of inclusion, strongly enhancing the supportive tone of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: thumb extended, other fingers curled",
+          "movement": "right hand moves from right to left across the signer's chest, left hand moves from left to right to meet it, forming a 'frame' or 'enclosing' gesture",
+          "location": "center of chest, moving inward toward the body",
+          "nonmanual": "smiling facial expression",
+          "non_dominant_hand": "left hand moves to meet right hand, forming a frame",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a previous hand movement and preceding a broader gestural expansion"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hands form a framing gesture that visually encloses the concept of 'you' (the addressee) in the sentence, which is a key grammatical structure in TSL. The smiling expression and the inward movement of the hands convey warmth, reassurance, and a sense of inclusion, strongly enhancing the supportive tone of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

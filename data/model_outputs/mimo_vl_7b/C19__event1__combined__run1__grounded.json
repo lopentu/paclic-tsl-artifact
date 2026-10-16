@@ -1,0 +1,50 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:00:26.841344",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"The dominant hand (right) is the active channel. The non-dominant hand (left) is held steady, palm up, in front of the signer's body.\",\n        \"handshape\": \"The dominant hand is a pincer shape (thumb and index finger nearly touching). The non-dominant hand is an open hand, palm up.\",\n        \"movement\": \"The dominant hand moves forward and downward in a small, repetitive, circular or scooping motion.\",\n        \"location\": \"The action is in the space in front of the signer's torso, between the two hands.\",\n        \"nonmanual\": \"The signer's head is still and facing forward. The facial expression is neutral and focused.\",\n        \"non_dominant_hand\": \"The non-dominant hand is stationary, serving as a base or support for the dominant hand's movement.\",\n        \"temporal_alignment\": \"The action is a brief, punctuated movement that occurs within a continuous signing flow, immediately followed by a new manual shape.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The target action is a conventional TSL sign, likely a lexical item, given its clear form and structure. The non-dominant hand provides a stable base, which is a common grammatical feature. The pincer handshape and scooping motion are conventionalized for a specific meaning.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant hand (right) is the active channel. The non-dominant hand (left) is held steady, palm up, in front of the signer's body.",
+          "handshape": "The dominant hand is a pincer shape (thumb and index finger nearly touching). The non-dominant hand is an open hand, palm up.",
+          "movement": "The dominant hand moves forward and downward in a small, repetitive, circular or scooping motion.",
+          "location": "The action is in the space in front of the signer's torso, between the two hands.",
+          "nonmanual": "The signer's head is still and facing forward. The facial expression is neutral and focused.",
+          "non_dominant_hand": "The non-dominant hand is stationary, serving as a base or support for the dominant hand's movement.",
+          "temporal_alignment": "The action is a brief, punctuated movement that occurs within a continuous signing flow, immediately followed by a new manual shape."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The target action is a conventional TSL sign, likely a lexical item, given its clear form and structure. The non-dominant hand provides a stable base, which is a common grammatical feature. The pincer handshape and scooping motion are conventionalized for a specific meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

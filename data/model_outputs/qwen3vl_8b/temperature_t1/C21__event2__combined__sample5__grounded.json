@@ -1,0 +1,55 @@
+{
+  "clip_id": "C21",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 272107854,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:30:43.434963",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"both hands in a flat, open shape, thumbs extended and pointing inward\",\n        \"movement\": \"both hands move inward from the sides of the chest toward the center, then slightly outward again, forming a shape resembling a 'U' or 'C' around the chest area\",\n        \"location\": \"centered at the signer's chest, moving inward and outward\",\n        \"nonmanual\": \"mouth slightly open, face neutral\",\n        \"non_dominant_hand\": \"non-dominant hand (left) mirrors the movement of the dominant hand (right) symmetrically\",\n        \"temporal_alignment\": \"the action begins with the hands near the chest and moves inward, then outward, synchronized with the signing of the phrase '大量的練習' (a large amount of practice) in the surrounding discourse\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move inward and outward in a symmetrical, chest-centered gesture that visually represents the concept of 'a large amount' or 'a great deal' in the context of practice. The synchronized, expansive movement contributes to the semantic load of quantity. The gesture also adds pragmatic enrichment by emphasizing the scale of practice being discussed, making the concept more vivid and impactful.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "both hands in a flat, open shape, thumbs extended and pointing inward",
+          "movement": "both hands move inward from the sides of the chest toward the center, then slightly outward again, forming a shape resembling a 'U' or 'C' around the chest area",
+          "location": "centered at the signer's chest, moving inward and outward",
+          "nonmanual": "mouth slightly open, face neutral",
+          "non_dominant_hand": "non-dominant hand (left) mirrors the movement of the dominant hand (right) symmetrically",
+          "temporal_alignment": "the action begins with the hands near the chest and moves inward, then outward, synchronized with the signing of the phrase '大量的練習' (a large amount of practice) in the surrounding discourse"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move inward and outward in a symmetrical, chest-centered gesture that visually represents the concept of 'a large amount' or 'a great deal' in the context of practice. The synchronized, expansive movement contributes to the semantic load of quantity. The gesture also adds pragmatic enrichment by emphasizing the scale of practice being discussed, making the concept more vivid and impactful."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

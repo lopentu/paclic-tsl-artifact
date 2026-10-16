@@ -1,0 +1,31 @@
+{
+  "clip_id": "C21",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_c/C21_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:10:35.776520",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both\",\n        \"handshape\": \"both hands form a \"shaka\" or \"hang loose\" gesture, with thumb and pinky extended, index, middle, and ring fingers folded\",\n        \"movement\": \"both hands move from a position near the chest outward and slightly downward, then remain relatively stable\",\n        \"location\": \"initially at chest level, then held slightly lower and outward\",\n        \"nonmanual\": \"mouth open, lips pursed, eyes looking forward\",\n        \"non_dominant_hand\": \"non-dominant hand (right) mirrors the dominant hand (left) in gesture and movement\",\n        \"temporal_alignment\": \"the gesture begins at 0.3s and holds through 0.7s, occurring within a continuous signing phrase\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The gesture is a conventionalized lexical sign in TSL, often used to convey 'a lot' or 'many' (e.g., '大量' in the given meaning). The hands are held in a stable, outward position, not depicting motion or pointing, but representing a quantity. The gesture is held for a duration, indicating it carries semantic weight. The pursed lips and focused gaze add affective emphasis to the quantity being described.\"\n    }\n  ]\n}",
+  "parsed": null,
+  "schema_valid": false,
+  "schema_errors": [
+    "JSON parse error: Expecting ',' delimiter: line 10 column 42 (char 245)"
+  ]
+}

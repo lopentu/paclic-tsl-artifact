@@ -1,0 +1,56 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C21_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:54:55.522914",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"1.20\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand touches chin, then retracts\",\n        \"handshape\": \"fist-like, then open\",\n        \"movement\": \"touch chin with index finger, then withdraw\",\n        \"location\": \"chin area\",\n        \"nonmanual\": \"neutral facial expression\",\n        \"non_dominant_hand\": \"touches chin, then retracts\",\n        \"temporal_alignment\": \"part of a longer sequence of signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand touches the chin and then retracts, occurring between 0.30 and 1.20 seconds, contributing to the overall meaning through emphasis and affect.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "1.20",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand touches chin, then retracts",
+          "handshape": "fist-like, then open",
+          "movement": "touch chin with index finger, then withdraw",
+          "location": "chin area",
+          "nonmanual": "neutral facial expression",
+          "non_dominant_hand": "touches chin, then retracts",
+          "temporal_alignment": "part of a longer sequence of signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand touches the chin and then retracts, occurring between 0.30 and 1.20 seconds, contributing to the overall meaning through emphasis and affect."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

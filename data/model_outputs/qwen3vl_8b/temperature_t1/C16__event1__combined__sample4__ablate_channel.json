@@ -1,0 +1,55 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 18419666,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:12:36.812230",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand (right) extended with index finger pointing forward, non-dominant hand (left) in a closed fist near the signer's chest\",\n        \"handshape\": \"index finger extended on right hand; fist on left hand\",\n        \"movement\": \"right hand moves forward and slightly upward, index finger maintaining a pointing direction\",\n        \"location\": \"right hand points toward the viewer's right (signer's front-right)\",\n        \"nonmanual\": \"signer's mouth is open and lips are slightly pursed, indicating an expressive or emphatic tone\",\n        \"non_dominant_hand\": \"left hand remains stationary as a closed fist near the chest\",\n        \"temporal_alignment\": \"the action begins with the right hand already pointing and holds that position as the signer's mouth opens, spanning the target span\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand's index finger points forward, a common deictic gesture in TSL to indicate 'this' or 'here', which aligns with the discourse about the signer's own experience. The gesture is held steady and paired with an expressive facial expression, suggesting emphasis or self-reference, which is pragmatically rich and affects the affective weight of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand (right) extended with index finger pointing forward, non-dominant hand (left) in a closed fist near the signer's chest",
+          "handshape": "index finger extended on right hand; fist on left hand",
+          "movement": "right hand moves forward and slightly upward, index finger maintaining a pointing direction",
+          "location": "right hand points toward the viewer's right (signer's front-right)",
+          "nonmanual": "signer's mouth is open and lips are slightly pursed, indicating an expressive or emphatic tone",
+          "non_dominant_hand": "left hand remains stationary as a closed fist near the chest",
+          "temporal_alignment": "the action begins with the right hand already pointing and holds that position as the signer's mouth opens, spanning the target span"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand's index finger points forward, a common deictic gesture in TSL to indicate 'this' or 'here', which aligns with the discourse about the signer's own experience. The gesture is held steady and paired with an expressive facial expression, suggesting emphasis or self-reference, which is pragmatically rich and affects the affective weight of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

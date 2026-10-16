@@ -1,0 +1,61 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C34_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T19:35:20.120936",
+  "backend_call_info": {
+    "frames_per_video": [
+      124,
+      24
+    ],
+    "sampled_fps_per_video": [
+      15.8816,
+      15.984
+    ],
+    "input_tokens": 15576,
+    "output_tokens": 266
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"1.20\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index finger pointing to mouth\",\n        \"movement\": \"static\",\n        \"location\": \"mouth\",\n        \"nonmanual\": \"mouth opens and closes, eyes narrow\",\n        \"non_dominant_hand\": \"both hands\",\n        \"temporal_alignment\": \"part of a longer discourse unit\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The signer's hands point to their mouth while their mouth opens and closes, indicating a focus on the mouth area, which aligns with the meaning of 'if you are in the middle of the road' by emphasizing the location of the speaker's mouth as a reference point for the listener.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "1.20",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index finger pointing to mouth",
+          "movement": "static",
+          "location": "mouth",
+          "nonmanual": "mouth opens and closes, eyes narrow",
+          "non_dominant_hand": "both hands",
+          "temporal_alignment": "part of a longer discourse unit"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The signer's hands point to their mouth while their mouth opens and closes, indicating a focus on the mouth area, which aligns with the meaning of 'if you are in the middle of the road' by emphasizing the location of the speaker's mouth as a reference point for the listener."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

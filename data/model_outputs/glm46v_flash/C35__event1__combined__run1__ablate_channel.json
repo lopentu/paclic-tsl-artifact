@@ -1,0 +1,61 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:01:02.676382",
+  "backend_call_info": {
+    "frames_per_video": [
+      96,
+      22
+    ],
+    "sampled_fps_per_video": [
+      15.722,
+      15.6986
+    ],
+    "input_tokens": 12835,
+    "output_tokens": 296
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index finger extended, other fingers closed\",\n        \"movement\": \"both index fingers move from a raised position near the face to a position pointing forward, then back to near the face\",\n        \"location\": \"forward of the signer's body\",\n        \"nonmanual\": \"mouth opens and closes, head tilts slightly\",\n        \"non_dominant_hand\": \"remains relatively still, supporting the dominant hand\",\n        \"temporal_alignment\": \"part of a longer sequence of signs\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The handshape and movement of both index fingers, along with the mouth opening and closing, indicate a lexical sign for '对方' (the other party) and '警察' (police), contributing to the propositional content of the sentence.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index finger extended, other fingers closed",
+          "movement": "both index fingers move from a raised position near the face to a position pointing forward, then back to near the face",
+          "location": "forward of the signer's body",
+          "nonmanual": "mouth opens and closes, head tilts slightly",
+          "non_dominant_hand": "remains relatively still, supporting the dominant hand",
+          "temporal_alignment": "part of a longer sequence of signs"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The handshape and movement of both index fingers, along with the mouth opening and closing, indicate a lexical sign for '对方' (the other party) and '警察' (police), contributing to the propositional content of the sentence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

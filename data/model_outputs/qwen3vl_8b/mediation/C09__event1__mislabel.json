@@ -1,0 +1,36 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "manual",
+  "label_channel_sent": "face",
+  "label_is_correct": false,
+  "video_id": "S01EP09",
+  "source_run": "C09__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 1,
+    "depiction": 1
+  },
+  "description_sent": "- handshape: open palm, fingers slightly spread\n- movement: right hand moves from chest level to the signer's right side, then left hand follows in a similar path, both hands moving outward and slightly upward\n- location: starts near chest, moves outward and upward\n- nonmanual: mouth open, eyebrows slightly raised\n- non dominant hand: left hand follows the right hand's movement\n- temporal alignment: the action begins with the right hand moving outward and upward, followed by the left hand mirroring the motion, occurring within a continuous signing unit",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:22:26.848042",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 1,\n  \"indication\": 0,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The action's facial nonmanual features (open mouth, raised eyebrows) and hand movement outward and upward convey emphasis and affect, aligning with the speaker's evaluative stance in the utterance. The movement enacts a sense of expansion or inadequacy, enhancing the pragmatic force. However, it does not encode core propositional content or grammatical structure, nor does it indicate specific referents or depict concrete objects.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 1,
+    "indication": 0,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The action's facial nonmanual features (open mouth, raised eyebrows) and hand movement outward and upward convey emphasis and affect, aligning with the speaker's evaluative stance in the utterance. The movement enacts a sense of expansion or inadequacy, enhancing the pragmatic force. However, it does not encode core propositional content or grammatical structure, nor does it indicate specific referents or depict concrete objects."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

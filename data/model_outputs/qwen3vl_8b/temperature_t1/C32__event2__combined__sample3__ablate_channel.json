@@ -1,0 +1,55 @@
+{
+  "clip_id": "C32",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 453789319,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:49:06.231196",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers rise from a lower position to a higher position, then move slightly inward toward each other\",\n        \"location\": \"initially near chest level, moving upward and inward toward the signer's face\",\n        \"nonmanual\": \"head tilted slightly forward, eyes focused forward\",\n        \"non_dominant_hand\": \"non-dominant hand remains relatively still, supporting the gesture with the dominant hand\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, immediately following a preparatory hand movement and preceding a more emphatic gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The index finger gesture is a conventionalized lexical sign in TSL for 'two' or 'both,' which is essential for the propositional content of 'this world's different' as it implies dual perspectives. The upward movement and inward convergence toward the face add emphasis and affect, visually enacting the idea of 'understanding' or 'grasping' the concept.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers rise from a lower position to a higher position, then move slightly inward toward each other",
+          "location": "initially near chest level, moving upward and inward toward the signer's face",
+          "nonmanual": "head tilted slightly forward, eyes focused forward",
+          "non_dominant_hand": "non-dominant hand remains relatively still, supporting the gesture with the dominant hand",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, immediately following a preparatory hand movement and preceding a more emphatic gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The index finger gesture is a conventionalized lexical sign in TSL for 'two' or 'both,' which is essential for the propositional content of 'this world's different' as it implies dual perspectives. The upward movement and inward convergence toward the face add emphasis and affect, visually enacting the idea of 'understanding' or 'grasping' the concept."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

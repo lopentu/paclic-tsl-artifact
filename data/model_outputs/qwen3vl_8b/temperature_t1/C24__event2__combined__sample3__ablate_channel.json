@@ -1,0 +1,55 @@
+{
+  "clip_id": "C24",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 399150262,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:46:39.832885",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves from chin area upward to the right side of the face, then extends outward and slightly downward\",\n        \"location\": \"begins near chin, moves to right side of face, then extends outward\",\n        \"nonmanual\": \"mouth open, looking forward\",\n        \"non_dominant_hand\": \"resting on lap\",\n        \"temporal_alignment\": \"occurs within a larger signing unit, following a hand movement near the mouth and preceding a hand movement toward the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are conventionalized to represent a person (a lexical sign), which contributes to the propositional content about 'oral speakers or teachers'. The movement toward the right side of the face and outward extension visually enacts the concept of 'part' or 'some', adding affective and depictive enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves from chin area upward to the right side of the face, then extends outward and slightly downward",
+          "location": "begins near chin, moves to right side of face, then extends outward",
+          "nonmanual": "mouth open, looking forward",
+          "non_dominant_hand": "resting on lap",
+          "temporal_alignment": "occurs within a larger signing unit, following a hand movement near the mouth and preceding a hand movement toward the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are conventionalized to represent a person (a lexical sign), which contributes to the propositional content about 'oral speakers or teachers'. The movement toward the right side of the face and outward extension visually enacts the concept of 'part' or 'some', adding affective and depictive enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

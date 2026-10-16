@@ -1,0 +1,54 @@
+{
+  "clip_id": "C25",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_c/C25_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C25_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:12:07.690980",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression with mouth open and eyebrows raised, conveying emphasis or surprise\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"facial expression with open mouth and raised eyebrows\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during a signing sequence, immediately following a hand gesture and preceding a pointing gesture\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The facial expression (open mouth, raised eyebrows) occurs during signing and appears to emphasize the message, adding affective force. It is not a conventionalized lexical sign but rather an affective nonmanual that enhances the pragmatic impact of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression with mouth open and eyebrows raised, conveying emphasis or surprise",
+          "location": "center of face",
+          "nonmanual": "facial expression with open mouth and raised eyebrows",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during a signing sequence, immediately following a hand gesture and preceding a pointing gesture"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression (open mouth, raised eyebrows) occurs during signing and appears to emphasize the message, adding affective force. It is not a conventionalized lexical sign but rather an affective nonmanual that enhances the pragmatic impact of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

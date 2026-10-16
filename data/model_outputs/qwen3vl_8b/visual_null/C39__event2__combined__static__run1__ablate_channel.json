@@ -1,0 +1,53 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/static/C39_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:55:43.623833",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.3\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not the focus\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth pursed, lips pressed together\",\n        \"location\": \"central face\",\n        \"nonmanual\": \"pursed lips, slight head tilt\",\n        \"non_dominant_hand\": \"not visible or not involved\",\n        \"temporal_alignment\": \"co-occurs with the signing of the phrase, likely marking a pause or emphasis\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The pursed lips and slight head tilt are a nonmanual marker that accompanies the signing of the phrase '就算聽不到聲音也沒關係，我可以自立自強。' The facial expression conveys a sense of determination or resolve, which is affective and pragmatic enrichment. The action is not a lexical sign but a prosodic marker that adds emotional weight to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.3",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not the focus",
+          "handshape": "not applicable",
+          "movement": "mouth pursed, lips pressed together",
+          "location": "central face",
+          "nonmanual": "pursed lips, slight head tilt",
+          "non_dominant_hand": "not visible or not involved",
+          "temporal_alignment": "co-occurs with the signing of the phrase, likely marking a pause or emphasis"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The pursed lips and slight head tilt are a nonmanual marker that accompanies the signing of the phrase '就算聽不到聲音也沒關係，我可以自立自強。' The facial expression conveys a sense of determination or resolve, which is affective and pragmatic enrichment. The action is not a lexical sign but a prosodic marker that adds emotional weight to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

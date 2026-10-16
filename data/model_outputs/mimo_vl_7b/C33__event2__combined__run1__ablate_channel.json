@@ -1,0 +1,50 @@
+{
+  "clip_id": "C33",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C33_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:18:52.445109",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"1.1\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are active. The dominant hand (on the viewer's right, signer's left) is a 'B' handshape (pinky and thumb extended, other fingers curled) held vertically. The non-dominant hand (on the viewer's left, signer's right) is a '5' handshape (open palm, fingers together) held vertically.\",\n          \"handshape\": \"B and 5\",\n          \"movement\": \"The dominant hand moves forward and slightly down from the signer's face. The non-dominant hand moves forward and slightly down from the signer's chest.\",\n          \"location\": \"In front of the signer's face and chest.\",\n          \"nonmanual\": \"The signer's mouth is open, and the cheeks are puffed out, indicating speech or a specific mouth morpheme.\",\n          \"non_dominant_hand\": \"The non-dominant hand is the primary carrier of the action, moving in coordination with the dominant hand.\",\n          \"temporal_alignment\": \"The action begins with the hands already in position and continues as the hands move forward, overlapping with the start of the next sign.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 3,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The coordinated movement of two hands with specific, conventionalized handshapes suggests a lexical sign. The puffed cheeks are a key nonmanual component of the sign's form. The surrounding signs are different, indicating this is a distinct grammatical unit.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are active. The dominant hand (on the viewer's right, signer's left) is a 'B' handshape (pinky and thumb extended, other fingers curled) held vertically. The non-dominant hand (on the viewer's left, signer's right) is a '5' handshape (open palm, fingers together) held vertically.",
+          "handshape": "B and 5",
+          "movement": "The dominant hand moves forward and slightly down from the signer's face. The non-dominant hand moves forward and slightly down from the signer's chest.",
+          "location": "In front of the signer's face and chest.",
+          "nonmanual": "The signer's mouth is open, and the cheeks are puffed out, indicating speech or a specific mouth morpheme.",
+          "non_dominant_hand": "The non-dominant hand is the primary carrier of the action, moving in coordination with the dominant hand.",
+          "temporal_alignment": "The action begins with the hands already in position and continues as the hands move forward, overlapping with the start of the next sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The coordinated movement of two hands with specific, conventionalized handshapes suggests a lexical sign. The puffed cheeks are a key nonmanual component of the sign's form. The surrounding signs are different, indicating this is a distinct grammatical unit."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

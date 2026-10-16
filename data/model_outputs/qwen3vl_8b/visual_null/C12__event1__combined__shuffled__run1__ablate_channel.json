@@ -1,0 +1,53 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C12_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C12_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:00:11.626824",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a 'pinch' or 'thumb-and-index' shape; left hand forms a 'pinch' or 'thumb-and-index' shape\",\n        \"movement\": \"Right hand moves in a small, repeated circular motion around the left hand, which remains relatively stationary. The motion is rhythmic and continuous.\",\n        \"location\": \"Centered in front of the signer's chest, at midline\",\n        \"nonmanual\": \"Signer's facial expression is neutral to slightly focused, with mouth slightly open\",\n        \"non_dominant_hand\": \"Left hand is held steady, serving as a pivot point for the right hand's movement\",\n        \"temporal_alignment\": \"The action occurs within a continuous signing unit, framed by other signs that establish the discourse context\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The repetitive, circular motion of the right hand around the left hand is a conventionalized sign in TSL for 'to be related to' or 'to be connected with', which is essential for the grammatical structure of the clause. The rhythmic, focused movement adds emphasis and vividness to the concept of connection or relationship, which is central to the meaning '口譯要好，也和你的基本語言能力有關' (Interpreting well is also related to your basic language ability).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a 'pinch' or 'thumb-and-index' shape; left hand forms a 'pinch' or 'thumb-and-index' shape",
+          "movement": "Right hand moves in a small, repeated circular motion around the left hand, which remains relatively stationary. The motion is rhythmic and continuous.",
+          "location": "Centered in front of the signer's chest, at midline",
+          "nonmanual": "Signer's facial expression is neutral to slightly focused, with mouth slightly open",
+          "non_dominant_hand": "Left hand is held steady, serving as a pivot point for the right hand's movement",
+          "temporal_alignment": "The action occurs within a continuous signing unit, framed by other signs that establish the discourse context"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The repetitive, circular motion of the right hand around the left hand is a conventionalized sign in TSL for 'to be related to' or 'to be connected with', which is essential for the grammatical structure of the clause. The rhythmic, focused movement adds emphasis and vividness to the concept of connection or relationship, which is central to the meaning '口譯要好，也和你的基本語言能力有關' (Interpreting well is also related to your basic language ability)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

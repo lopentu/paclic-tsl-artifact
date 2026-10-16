@@ -1,0 +1,36 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "manual",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S01EP11",
+  "source_run": "C16__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: open palm\n- movement: moves upward from below the face to the eye level, then slightly inward toward the face\n- location: starts near the signer's chest, moves to the right side of the face (signer's left)\n- nonmanual: no significant facial or head movement\n- non dominant hand: resting, not involved\n- temporal alignment: occurs within a continuous signing stretch, not isolated",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:13:26.513628",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The action visually enacts the idea of 'face expression' or 'looking at oneself' — aligning with the utterance’s theme of self-awareness during signing. It adds vividness and affect by depicting a moment of self-reflection. While it contributes minimally to propositional content (semantic_syntactic_load=1), it is conventionalized to mean 'face' or 'expression' (description=2) and slightly indicates the face region (indication=1). The movement is depictive (depiction=2), showing an upward gaze toward the face.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The action visually enacts the idea of 'face expression' or 'looking at oneself' — aligning with the utterance’s theme of self-awareness during signing. It adds vividness and affect by depicting a moment of self-reflection. While it contributes minimally to propositional content (semantic_syntactic_load=1), it is conventionalized to mean 'face' or 'expression' (description=2) and slightly indicates the face region (indication=1). The movement is depictive (depiction=2), showing an upward gaze toward the face."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

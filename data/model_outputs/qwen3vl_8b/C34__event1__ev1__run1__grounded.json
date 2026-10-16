@@ -1,0 +1,48 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:37:20.164682",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth opens and closes, eyebrows raise and lower, eyes widen and narrow, head tilts slightly forward and back\",\n        \"location\": \"face center, frontal view\",\n        \"nonmanual\": \"facial expression changes dynamically, conveying urgency and warning\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with and supports the manual signing, beginning as the signer starts to speak and continuing through the signing of the phrase\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's face shows a clear expression of alarm and urgency, with wide eyes and raised eyebrows, which visually reinforces the warning in the given meaning '如果你人在馬路中間，或是在危險的位置' (If you are in the middle of the road, or in a dangerous position). The facial expression is not a static pose but dynamically changes, enhancing the sense of immediacy and danger. The facial activity is temporally aligned with the manual signing, suggesting it is an integral part of the signed utterance, not just a reaction.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth opens and closes, eyebrows raise and lower, eyes widen and narrow, head tilts slightly forward and back",
+          "location": "face center, frontal view",
+          "nonmanual": "facial expression changes dynamically, conveying urgency and warning",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with and supports the manual signing, beginning as the signer starts to speak and continuing through the signing of the phrase"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's face shows a clear expression of alarm and urgency, with wide eyes and raised eyebrows, which visually reinforces the warning in the given meaning '如果你人在馬路中間，或是在危險的位置' (If you are in the middle of the road, or in a dangerous position). The facial expression is not a static pose but dynamically changes, enhancing the sense of immediacy and danger. The facial activity is temporally aligned with the manual signing, suggesting it is an integral part of the signed utterance, not just a reaction."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

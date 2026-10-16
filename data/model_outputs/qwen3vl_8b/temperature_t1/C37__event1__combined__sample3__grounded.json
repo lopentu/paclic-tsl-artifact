@@ -1,0 +1,55 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1987989214,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:35:45.135562",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression: lips pursed outward and forward, cheeks slightly puffed, with a slight upward tilt of the head\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression with lips and cheeks\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression begins at 0.3s, coinciding with the onset of the manual sign for 'communicate' or 'sign language' (the hands moving in a circular motion), and remains held through 0.8s, during which the manual sign is sustained and repeated\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The facial expression of pursed lips and puffed cheeks at 0.3-0.8s is synchronized with the manual sign for 'communicate' or 'sign language', suggesting it serves to emphasize the difficulty or effort involved in communication. This facial expression is a nonmanual marker that adds affect and emphasis to the manual sign, which is the only manual action occurring in the target span. It is not a lexical sign or grammatical marker, but it enhances the pragmatic force of the message 'they can't sign language' by conveying a sense of difficulty or effort.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression: lips pursed outward and forward, cheeks slightly puffed, with a slight upward tilt of the head",
+          "location": "face",
+          "nonmanual": "facial expression with lips and cheeks",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression begins at 0.3s, coinciding with the onset of the manual sign for 'communicate' or 'sign language' (the hands moving in a circular motion), and remains held through 0.8s, during which the manual sign is sustained and repeated"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression of pursed lips and puffed cheeks at 0.3-0.8s is synchronized with the manual sign for 'communicate' or 'sign language', suggesting it serves to emphasize the difficulty or effort involved in communication. This facial expression is a nonmanual marker that adds affect and emphasis to the manual sign, which is the only manual action occurring in the target span. It is not a lexical sign or grammatical marker, but it enhances the pragmatic force of the message 'they can't sign language' by conveying a sense of difficulty or effort."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

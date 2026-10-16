@@ -1,0 +1,55 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1891471003,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:40:17.413790",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"right hand moves upward from chest level to the signer's right side of the head, then the left hand follows, moving from chest to the signer's left side of the head, both hands forming a parallel, upward-pointing gesture\",\n        \"location\": \"initially at chest level, then moving upward to the sides of the head\",\n        \"nonmanual\": \"head tilts slightly upward, eyes look upward\",\n        \"non_dominant_hand\": \"left hand follows the right hand's movement\",\n        \"temporal_alignment\": \"the action begins with the right hand moving upward, followed immediately by the left hand moving upward, both hands reaching toward the signer's head region\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move upward to the head region, which in TSL typically indicates 'head' or 'thought' and can be used to mark the topic or subject. The upward motion and head tilt suggest emphasis or a shift in focus. The parallel movement of both hands toward the head can depict an idea being formed or considered, adding vividness to the discourse about translation being insufficient.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "right hand moves upward from chest level to the signer's right side of the head, then the left hand follows, moving from chest to the signer's left side of the head, both hands forming a parallel, upward-pointing gesture",
+          "location": "initially at chest level, then moving upward to the sides of the head",
+          "nonmanual": "head tilts slightly upward, eyes look upward",
+          "non_dominant_hand": "left hand follows the right hand's movement",
+          "temporal_alignment": "the action begins with the right hand moving upward, followed immediately by the left hand moving upward, both hands reaching toward the signer's head region"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move upward to the head region, which in TSL typically indicates 'head' or 'thought' and can be used to mark the topic or subject. The upward motion and head tilt suggest emphasis or a shift in focus. The parallel movement of both hands toward the head can depict an idea being formed or considered, adding vividness to the discourse about translation being insufficient."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

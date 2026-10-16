@@ -1,0 +1,53 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/static/C23_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C23_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:49:54.189489",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"dominant hand: flat, open palm facing forward; non-dominant hand: flat, open palm facing upward, slightly cupped\",\n        \"movement\": \"minimal movement; hands held steady in a fixed position\",\n        \"location\": \"in front of the signer's chest, at approximately shoulder height, with the dominant hand slightly higher than the non-dominant hand\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"held steady, palm up, fingers slightly spread\",\n        \"temporal_alignment\": \"the action is held steady throughout the target span, occurring after a preceding sign and before a subsequent one\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands are held in a fixed, open-palm position, which is a conventionalized sign in TSL for 'group' or 'community'. The steady, held posture suggests a static referent, indicating the group being discussed. The open-palm gesture also conveys a sense of openness or exposure, which pragmatically enriches the meaning by suggesting the group is being presented or revealed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "dominant hand: flat, open palm facing forward; non-dominant hand: flat, open palm facing upward, slightly cupped",
+          "movement": "minimal movement; hands held steady in a fixed position",
+          "location": "in front of the signer's chest, at approximately shoulder height, with the dominant hand slightly higher than the non-dominant hand",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "held steady, palm up, fingers slightly spread",
+          "temporal_alignment": "the action is held steady throughout the target span, occurring after a preceding sign and before a subsequent one"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hands are held in a fixed, open-palm position, which is a conventionalized sign in TSL for 'group' or 'community'. The steady, held posture suggests a static referent, indicating the group being discussed. The open-palm gesture also conveys a sense of openness or exposure, which pragmatically enriches the meaning by suggesting the group is being presented or revealed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

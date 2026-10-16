@@ -1,0 +1,57 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C24_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C24_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:57:42.308825",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand moves from open to closed fist, then opens again\",\n        \"handshape\": \"open palm at start, transitions to closed fist, then reopens\",\n        \"movement\": \"closed fist formed and held briefly, then released\",\n        \"location\": \"in front of torso, moving slightly inward and outward\",\n        \"nonmanual\": \"mouth opens and closes, eyes narrow\",\n        \"non_dominant_hand\": \"dominant hand remains still, supporting the non-dominant hand's movement\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand forms a closed fist and then reopens, while the mouth opens and closes, indicating emphasis on the phrase being signed.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand moves from open to closed fist, then opens again",
+          "handshape": "open palm at start, transitions to closed fist, then reopens",
+          "movement": "closed fist formed and held briefly, then released",
+          "location": "in front of torso, moving slightly inward and outward",
+          "nonmanual": "mouth opens and closes, eyes narrow",
+          "non_dominant_hand": "dominant hand remains still, supporting the non-dominant hand's movement"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand forms a closed fist and then reopens, while the mouth opens and closes, indicating emphasis on the phrase being signed."
+      }
+    ]
+  },
+  "schema_valid": false,
+  "schema_errors": [
+    "candidate_actions/0/form_description: 'temporal_alignment' is a required property"
+  ]
+}

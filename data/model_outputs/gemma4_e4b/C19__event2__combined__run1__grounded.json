@@ -1,0 +1,61 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T21:41:20.181140",
+  "backend_call_info": {
+    "frames_per_video": [
+      46,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.8462,
+      14.5309
+    ],
+    "input_tokens": 6517,
+    "output_tokens": 293
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:00\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Index finger extended, other fingers curled\",\n        \"movement\": \"Slightly forward and inward movement\",\n        \"location\": \"In front of the chest\",\n        \"nonmanual\": \"Neutral\",\n        \"non_dominant_hand\": \"Not clearly visible or active\",\n        \"temporal_alignment\": \"The action occurs at the beginning of the clip, preceding the more dynamic movements.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.85,\n      \"observable_evidence\": \"The signer uses both hands with an index finger extended, moving slightly forward and inward in front of the chest area.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:00",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Index finger extended, other fingers curled",
+          "movement": "Slightly forward and inward movement",
+          "location": "In front of the chest",
+          "nonmanual": "Neutral",
+          "non_dominant_hand": "Not clearly visible or active",
+          "temporal_alignment": "The action occurs at the beginning of the clip, preceding the more dynamic movements."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.85,
+        "observable_evidence": "The signer uses both hands with an index finger extended, moving slightly forward and inward in front of the chest area."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

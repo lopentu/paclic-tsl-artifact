@@ -1,0 +1,53 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_visual_null/static/C37_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:02:43.367292",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not active\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"no movement\",\n        \"location\": \"not applicable\",\n        \"nonmanual\": \"face is puckered, lips are pressed together, cheeks are slightly puffed out\",\n        \"non_dominant_hand\": \"not applicable\",\n        \"temporal_alignment\": \"the facial action occurs during the signing of the phrase, likely corresponding to the word '只能' (can only) or the concept of limited ability\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's face is puckered and lips are pressed together, which visually conveys a sense of limitation or constraint, aligning with the meaning 'can only' in the context of limited sign language ability. This facial expression adds affective emphasis to the propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not active",
+          "handshape": "not applicable",
+          "movement": "no movement",
+          "location": "not applicable",
+          "nonmanual": "face is puckered, lips are pressed together, cheeks are slightly puffed out",
+          "non_dominant_hand": "not applicable",
+          "temporal_alignment": "the facial action occurs during the signing of the phrase, likely corresponding to the word '只能' (can only) or the concept of limited ability"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's face is puckered and lips are pressed together, which visually conveys a sense of limitation or constraint, aligning with the meaning 'can only' in the context of limited sign language ability. This facial expression adds affective emphasis to the propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,49 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:02:15.787817",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves upward from below the face to the right side of the face, then moves downward to the left side of the face\",\n        \"location\": \"starts near the signer's chest, moves to the right side of the face, then to the left side of the face\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, not isolated\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement is a conventionalized sign in TSL, likely representing a directional or locative concept. The movement is smooth and deliberate, suggesting it carries semantic content. The action is not a simple gesture but a sign that contributes to the grammatical structure of the utterance, as it is part of a continuous signing sequence. The movement is also visually distinct and adds emphasis to the utterance, making it more vivid and affective.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "moves upward from below the face to the right side of the face, then moves downward to the left side of the face",
+          "location": "starts near the signer's chest, moves to the right side of the face, then to the left side of the face",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, not isolated"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement is a conventionalized sign in TSL, likely representing a directional or locative concept. The movement is smooth and deliberate, suggesting it carries semantic content. The action is not a simple gesture but a sign that contributes to the grammatical structure of the utterance, as it is part of a continuous signing sequence. The movement is also visually distinct and adds emphasis to the utterance, making it more vivid and affective."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

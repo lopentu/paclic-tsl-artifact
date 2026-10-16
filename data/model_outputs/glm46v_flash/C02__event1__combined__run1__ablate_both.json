@@ -1,0 +1,61 @@
+{
+  "clip_id": "C02",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:47:07.399171",
+  "backend_call_info": {
+    "frames_per_video": [
+      136,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.2575
+    ],
+    "input_tokens": 15738,
+    "output_tokens": 291
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.60\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves forward and slightly downward in a sweeping arc\",\n        \"location\": \"in front of the signer's torso, moving from chest level to lower abdomen\",\n        \"nonmanual\": \"mouth is open, head slightly tilts forward\",\n        \"non_dominant_hand\": \"rests at the signer's side\",\n        \"temporal_alignment\": \"part of a longer signing sequence, occurring between other manual signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The sweeping forward movement of the open hand from 0.30 to 0.60 seconds, combined with the open mouth and forward head tilt, suggests a depiction of an action or concept being presented, contributing to affective and depictive enrichment.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.60",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "moves forward and slightly downward in a sweeping arc",
+          "location": "in front of the signer's torso, moving from chest level to lower abdomen",
+          "nonmanual": "mouth is open, head slightly tilts forward",
+          "non_dominant_hand": "rests at the signer's side",
+          "temporal_alignment": "part of a longer signing sequence, occurring between other manual signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The sweeping forward movement of the open hand from 0.30 to 0.60 seconds, combined with the open mouth and forward head tilt, suggests a depiction of an action or concept being presented, contributing to affective and depictive enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

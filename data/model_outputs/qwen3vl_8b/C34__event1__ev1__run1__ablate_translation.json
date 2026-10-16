@@ -1,0 +1,48 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S04-3EP05",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:55:44.740400",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth opens and closes; eyebrows raise and lower; head tilts slightly forward and back\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression changes, including raised eyebrows and mouth movements\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"begins with a neutral expression, then mouth opens as if speaking, followed by eyebrow raise and head movement\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The facial expression changes from neutral to emphatic, with mouth opening and eyebrows raising, which appears to accompany the signing and likely conveys emphasis or affect. The movement is synchronized with the signing, suggesting it is part of the linguistic structure.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth opens and closes; eyebrows raise and lower; head tilts slightly forward and back",
+          "location": "face",
+          "nonmanual": "facial expression changes, including raised eyebrows and mouth movements",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "begins with a neutral expression, then mouth opens as if speaking, followed by eyebrow raise and head movement"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression changes from neutral to emphatic, with mouth opening and eyebrows raising, which appears to accompany the signing and likely conveys emphasis or affect. The movement is synchronized with the signing, suggesting it is part of the linguistic structure."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

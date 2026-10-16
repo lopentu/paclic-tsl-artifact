@@ -1,0 +1,55 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 24739400,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:05:32.064855",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"mouth puckered, lips protruded outward, cheeks slightly puffed\",\n        \"location\": \"central facial area\",\n        \"nonmanual\": \"facial expression with puckered lips\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during a sustained manual sign involving both hands moving in a circular motion near the chest, with the signer maintaining this facial expression throughout the action\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer maintains a puckered-lip expression while performing the manual sign, suggesting an affective or emphatic function rather than a purely descriptive one. The facial expression is consistent with conveying a sense of effort or difficulty, which aligns with the meaning 'they don't know sign language' and the context of 'can only communicate with simple signs'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "mouth puckered, lips protruded outward, cheeks slightly puffed",
+          "location": "central facial area",
+          "nonmanual": "facial expression with puckered lips",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during a sustained manual sign involving both hands moving in a circular motion near the chest, with the signer maintaining this facial expression throughout the action"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer maintains a puckered-lip expression while performing the manual sign, suggesting an affective or emphatic function rather than a purely descriptive one. The facial expression is consistent with conveying a sense of effort or difficulty, which aligns with the meaning 'they don't know sign language' and the context of 'can only communicate with simple signs'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

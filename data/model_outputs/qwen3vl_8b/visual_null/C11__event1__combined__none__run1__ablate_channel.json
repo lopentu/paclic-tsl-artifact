@@ -1,0 +1,53 @@
+{
+  "clip_id": "C11",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "manual",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:21:03.036574",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly spread\",\n        \"movement\": \"both hands move upward from chest level to shoulder height, then outward and slightly downward in a sweeping arc\",\n        \"location\": \"starts near chest, ends near shoulder level and slightly outward\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"moves in coordination with dominant hand, no independent action\",\n        \"temporal_alignment\": \"occurs within a continuous signing stretch, not aligned with a single discrete sign but spans a gestural unit\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The upward-sweeping motion with open palms visually enacts the idea of 'choosing' or 'selecting' as implied by the meaning '選擇合適的老師也是一門學問吧！'. The movement spans a gestural unit and appears to mark a conceptual boundary or emphasis, contributing to the propositional structure. The open-palm gesture and sweeping motion also add vividness and depictive force, suggesting an expansive or evaluative action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly spread",
+          "movement": "both hands move upward from chest level to shoulder height, then outward and slightly downward in a sweeping arc",
+          "location": "starts near chest, ends near shoulder level and slightly outward",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "moves in coordination with dominant hand, no independent action",
+          "temporal_alignment": "occurs within a continuous signing stretch, not aligned with a single discrete sign but spans a gestural unit"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The upward-sweeping motion with open palms visually enacts the idea of 'choosing' or 'selecting' as implied by the meaning '選擇合適的老師也是一門學問吧！'. The movement spans a gestural unit and appears to mark a conceptual boundary or emphasis, contributing to the propositional structure. The open-palm gesture and sweeping motion also add vividness and depictive force, suggesting an expansive or evaluative action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

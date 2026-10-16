@@ -1,0 +1,61 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:04:10.486256",
+  "backend_call_info": {
+    "frames_per_video": [
+      82,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.7535,
+      14.5309
+    ],
+    "input_tokens": 10984,
+    "output_tokens": 314
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand (right) and non-dominant hand (left) both engaged in a coordinated movement\",\n        \"handshape\": \"dominant hand in a flat open position, non-dominant hand in a slightly curved position\",\n        \"movement\": \"dominant hand moves from a forward position to cross over the non-dominant hand, then returns to a forward position\",\n        \"location\": \"chest and forward area\",\n        \"nonmanual\": \"eyes closed, mouth slightly open\",\n        \"non_dominant_hand\": \"remains relatively stable while the dominant hand moves\",\n        \"temporal_alignment\": \"part of a longer, repetitive signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand crosses over the non-dominant hand in a repetitive manner, a common grammatical marker in TSL for negation or emphasis, contributing to the semantic structure of the sentence.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand (right) and non-dominant hand (left) both engaged in a coordinated movement",
+          "handshape": "dominant hand in a flat open position, non-dominant hand in a slightly curved position",
+          "movement": "dominant hand moves from a forward position to cross over the non-dominant hand, then returns to a forward position",
+          "location": "chest and forward area",
+          "nonmanual": "eyes closed, mouth slightly open",
+          "non_dominant_hand": "remains relatively stable while the dominant hand moves",
+          "temporal_alignment": "part of a longer, repetitive signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand crosses over the non-dominant hand in a repetitive manner, a common grammatical marker in TSL for negation or emphasis, contributing to the semantic structure of the sentence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

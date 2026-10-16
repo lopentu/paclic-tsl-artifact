@@ -1,0 +1,55 @@
+{
+  "clip_id": "C32",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1963075499,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:48:37.696804",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers rise and point forward, then move slightly inward toward each other\",\n        \"location\": \"in front of the signer's chest, at midline\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"non-dominant hand mirrors dominant hand\",\n        \"temporal_alignment\": \"occurs within a continuous signing stretch, preceded by a gesturing motion and followed by a pointing motion\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands form a distinct 'V' or 'peace' sign with index fingers extended, a common lexical sign in TSL. The action is held steady and centered, suggesting a grammatical marker or lexical item with semantic content. The pointing gesture toward the chest and forward direction indicates a referential or emphatic function, adding pragmatic enrichment to the propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers rise and point forward, then move slightly inward toward each other",
+          "location": "in front of the signer's chest, at midline",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "non-dominant hand mirrors dominant hand",
+          "temporal_alignment": "occurs within a continuous signing stretch, preceded by a gesturing motion and followed by a pointing motion"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hands form a distinct 'V' or 'peace' sign with index fingers extended, a common lexical sign in TSL. The action is held steady and centered, suggesting a grammatical marker or lexical item with semantic content. The pointing gesture toward the chest and forward direction indicates a referential or emphatic function, adding pragmatic enrichment to the propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

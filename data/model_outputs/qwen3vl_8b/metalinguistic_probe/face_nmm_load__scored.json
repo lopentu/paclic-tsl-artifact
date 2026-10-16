@@ -1,0 +1,20 @@
+{
+  "probe_id": "face_nmm_load",
+  "tests": "Its stated D1 for a grammatical nonmanual marker.",
+  "question": "Consider a signer producing a grammatical nonmanual marker with the face -- for example the brow and head configuration marking a conditional clause or a topic. Typically, how much semantic/syntactic load does that facial marking carry?",
+  "answer_format": "scored",
+  "video_shown": false,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "temperature": 0.0,
+  "do_sample": false,
+  "max_new_tokens": 500,
+  "timestamp": "2026-08-03T12:24:20.617818",
+  "prompt": "You are answering a question about sign language linguistics. This is a knowledge question about signed languages in general, not about any particular video.\n\nConsider a signer producing a grammatical nonmanual marker with the face -- for example the brow and head configuration marking a conditional clause or a topic. Typically, how much semantic/syntactic load does that facial marking carry?\n\nUse this 0-3 scale, which is the same scale used elsewhere in this study for D1 (semantic/syntactic load):\n0 = no clear contribution to propositional content, argument/event structure, grammatical marking, referential tracking, or discourse structure\n1 = weak or uncertain contribution\n2 = clear contribution\n3 = essential; removing it would change core meaning, a grammatical relation, referent tracking, or discourse structure\nRespond with ONLY a single JSON object and no prose around it:\n{\"value\": <integer 0-3, or an object mapping each item you were asked to rate to its integer 0-3>, \"one_sentence_reason\": \"...\"}\n",
+  "raw_text": "{\"value\": 3, \"one_sentence_reason\": \"Nonmanual markers like facial configurations in signed languages are essential for grammatical function, and their removal can alter core syntactic relations or discourse structure.\"}",
+  "parsed": {
+    "value": 3,
+    "one_sentence_reason": "Nonmanual markers like facial configurations in signed languages are essential for grammatical function, and their removal can alter core syntactic relations or discourse structure."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C14_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:56:34.335374",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"2.3\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a 'pinch' or 'thumb-and-finger' shape; left hand forms a 'pinch' or 'thumb-and-finger' shape\",\n        \"movement\": \"Right hand moves from the signer's right side, sweeping inward and downward toward the left hand, which is held steady near the signer's chest. The right hand then moves back out to the right side, and the hands come together again in a pinching motion near the chest, then separate again. The right hand then moves downward and outward, as if indicating a downward direction or a downward motion.\",\n        \"location\": \"Right hand starts near the signer's right side, moves inward and downward toward the left hand, then back out to the right side. The hands come together near the chest, then separate again. The right hand then moves downward and outward.\",\n        \"nonmanual\": \"The signer's facial expression is neutral to slightly serious, with a focused gaze. The head remains relatively still.\",\n        \"non_dominant_hand\": \"The left hand remains relatively steady, held near the chest, and is used as a target or anchor point for the right hand's movement.\",\n        \"temporal_alignment\": \"The action begins with the right hand moving inward and downward toward the left hand, which is held steady near the chest. The hands come together in a pinching motion near the chest, then separate again. The right hand then moves downward and outward, as if indicating a downward direction or a downward motion.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands come together in a pinching motion near the chest, then separate again, which is a common gesture in TSL for 'communication' or 'expression'. The right hand then moves downward and outward, which could indicate a downward direction or a downward motion, which is relevant to the meaning 'letting hearing-impaired children communicate more smoothly with the outside world'. The facial expression is neutral to slightly serious, which adds emphasis to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "2.3",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a 'pinch' or 'thumb-and-finger' shape; left hand forms a 'pinch' or 'thumb-and-finger' shape",
+          "movement": "Right hand moves from the signer's right side, sweeping inward and downward toward the left hand, which is held steady near the signer's chest. The right hand then moves back out to the right side, and the hands come together again in a pinching motion near the chest, then separate again. The right hand then moves downward and outward, as if indicating a downward direction or a downward motion.",
+          "location": "Right hand starts near the signer's right side, moves inward and downward toward the left hand, then back out to the right side. The hands come together near the chest, then separate again. The right hand then moves downward and outward.",
+          "nonmanual": "The signer's facial expression is neutral to slightly serious, with a focused gaze. The head remains relatively still.",
+          "non_dominant_hand": "The left hand remains relatively steady, held near the chest, and is used as a target or anchor point for the right hand's movement.",
+          "temporal_alignment": "The action begins with the right hand moving inward and downward toward the left hand, which is held steady near the chest. The hands come together in a pinching motion near the chest, then separate again. The right hand then moves downward and outward, as if indicating a downward direction or a downward motion."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hands come together in a pinching motion near the chest, then separate again, which is a common gesture in TSL for 'communication' or 'expression'. The right hand then moves downward and outward, which could indicate a downward direction or a downward motion, which is relevant to the meaning 'letting hearing-impaired children communicate more smoothly with the outside world'. The facial expression is neutral to slightly serious, which adds emphasis to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

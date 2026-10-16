@@ -1,0 +1,48 @@
+{
+  "clip_id": "C08",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:50:29.213655",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"repeatedly points forward and slightly upward, then retracts\",\n        \"location\": \"in front of signer's face, at eye level\",\n        \"nonmanual\": \"signer's mouth is pursed, head slightly tilted\",\n        \"non_dominant_hand\": \"resting on table, fingers slightly spread\",\n        \"temporal_alignment\": \"starts with a forward-pointing gesture, continues with repeated pointing motions\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The repeated pointing gesture, combined with the pursed lips and head tilt, visually emphasizes the idea of 'testing' or 'examining' something, which aligns with the meaning '相當考驗兩種語言轉換的純熟度'. The gesture is not a lexical sign but functions as an indication of the action being discussed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "repeatedly points forward and slightly upward, then retracts",
+          "location": "in front of signer's face, at eye level",
+          "nonmanual": "signer's mouth is pursed, head slightly tilted",
+          "non_dominant_hand": "resting on table, fingers slightly spread",
+          "temporal_alignment": "starts with a forward-pointing gesture, continues with repeated pointing motions"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The repeated pointing gesture, combined with the pursed lips and head tilt, visually emphasizes the idea of 'testing' or 'examining' something, which aligns with the meaning '相當考驗兩種語言轉換的純熟度'. The gesture is not a lexical sign but functions as an indication of the action being discussed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

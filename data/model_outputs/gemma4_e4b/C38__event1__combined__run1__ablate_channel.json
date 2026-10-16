@@ -1,0 +1,61 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C38_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T22:07:17.215948",
+  "backend_call_info": {
+    "frames_per_video": [
+      56,
+      24
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.984
+    ],
+    "input_tokens": 7916,
+    "output_tokens": 306
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:01\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Open/flat\",\n        \"movement\": \"Moving forward and slightly outward from the chest area\",\n        \"location\": \"In front of the chest\",\n        \"nonmanual\": \"Slightly open mouth, engaged expression\",\n        \"non_dominant_hand\": \"Not specified, but mirroring the dominant hand movement\",\n        \"temporal_alignment\": \"The action occurs at the beginning of the clip and continues through the target span.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands are moving forward and outward from the chest area while the signer has an engaged facial expression, suggesting emphasis or introduction of a concept.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:01",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Open/flat",
+          "movement": "Moving forward and slightly outward from the chest area",
+          "location": "In front of the chest",
+          "nonmanual": "Slightly open mouth, engaged expression",
+          "non_dominant_hand": "Not specified, but mirroring the dominant hand movement",
+          "temporal_alignment": "The action occurs at the beginning of the clip and continues through the target span."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands are moving forward and outward from the chest area while the signer has an engaged facial expression, suggesting emphasis or introduction of a concept."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

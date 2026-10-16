@@ -1,0 +1,7 @@
+# Per-video caption regions blurred by 04_deidentify_subtitles.py, in addition to
+# subtitle_removal in pipeline_config.yaml. A value is one {x,y,w,h} region or a list
+# of regions; coordinates are fractions of frame width/height, origin top-left.
+
+S01EP01:
+- {x: 0.0, y: 0.0, w: 0.44, h: 0.85}
+- {x: 0.0, y: 0.82, w: 1.0, h: 0.18}

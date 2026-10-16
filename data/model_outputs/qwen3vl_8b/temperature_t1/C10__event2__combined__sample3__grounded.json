@@ -1,0 +1,55 @@
+{
+  "clip_id": "C10",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 17850857,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:25:43.193169",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers point forward, then move inward toward each other, then outward again\",\n        \"location\": \"in front of the signer's chest, moving in a small arc\",\n        \"nonmanual\": \"neutral facial expression, no strong head or torso movement\",\n        \"non_dominant_hand\": \"non-dominant hand moves in coordination with the dominant hand, mirroring the gesture\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing unit, immediately following a gesture near the chest and preceding a gesture with both hands pointing outward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL that conveys 'good' or 'excellent', which is essential for the meaning '跟一位好的手語老師'. The gesture is not just descriptive but also depicts an evaluative stance, enhancing the affective quality of the phrase.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers point forward, then move inward toward each other, then outward again",
+          "location": "in front of the signer's chest, moving in a small arc",
+          "nonmanual": "neutral facial expression, no strong head or torso movement",
+          "non_dominant_hand": "non-dominant hand moves in coordination with the dominant hand, mirroring the gesture",
+          "temporal_alignment": "the action occurs within a continuous signing unit, immediately following a gesture near the chest and preceding a gesture with both hands pointing outward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL that conveys 'good' or 'excellent', which is essential for the meaning '跟一位好的手語老師'. The gesture is not just descriptive but also depicts an evaluative stance, enhancing the affective quality of the phrase."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

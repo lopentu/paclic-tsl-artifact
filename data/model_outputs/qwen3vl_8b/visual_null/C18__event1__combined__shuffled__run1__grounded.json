@@ -1,0 +1,53 @@
+{
+  "clip_id": "C18",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C18_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:10:47.183295",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"index fingers point toward each other, then move slightly apart and back together in a repetitive motion\",\n        \"location\": \"centered in front of the signer's chest, at midline\",\n        \"nonmanual\": \"neutral facial expression, no strong head or torso movement\",\n        \"non_dominant_hand\": \"non-dominant hand mirrors the dominant hand's movement\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing stretch, framed by other signs\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The repetitive, inward-pointing motion with index fingers is a conventionalized sign in TSL for 'one year' or 'a period of time', contributing to the propositional content. The motion is also visually emphatic, reinforcing the duration mentioned in the given meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "index fingers point toward each other, then move slightly apart and back together in a repetitive motion",
+          "location": "centered in front of the signer's chest, at midline",
+          "nonmanual": "neutral facial expression, no strong head or torso movement",
+          "non_dominant_hand": "non-dominant hand mirrors the dominant hand's movement",
+          "temporal_alignment": "the action occurs within a continuous signing stretch, framed by other signs"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The repetitive, inward-pointing motion with index fingers is a conventionalized sign in TSL for 'one year' or 'a period of time', contributing to the propositional content. The motion is also visually emphatic, reinforcing the duration mentioned in the given meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

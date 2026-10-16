@@ -1,0 +1,48 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:15:50.613450",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's chin upward and outward, then downward and inward toward the chest\",\n        \"location\": \"starts near chin, moves to chest level\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"index finger extended, other fingers curled, moving in a small arc from chin to chest\",\n        \"temporal_alignment\": \"the action begins as the dominant hand starts a new sign and ends as the dominant hand completes its movement\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand's index finger movement from chin to chest visually emphasizes the speaker's point about language ability being foundational. The movement is a conventionalized sign that contributes to the propositional content by marking the topic or subject of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's chin upward and outward, then downward and inward toward the chest",
+          "location": "starts near chin, moves to chest level",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "index finger extended, other fingers curled, moving in a small arc from chin to chest",
+          "temporal_alignment": "the action begins as the dominant hand starts a new sign and ends as the dominant hand completes its movement"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand's index finger movement from chin to chest visually emphasizes the speaker's point about language ability being foundational. The movement is a conventionalized sign that contributes to the propositional content by marking the topic or subject of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

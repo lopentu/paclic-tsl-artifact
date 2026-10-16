@@ -1,0 +1,48 @@
+{
+  "clip_id": "C13",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:35:11.365763",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers extended\",\n        \"movement\": \"held steady, palm facing forward, fingers slightly spread\",\n        \"location\": \"positioned near the signer's chest, slightly to the signer's left\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"palm facing forward, fingers extended, held steady\",\n        \"temporal_alignment\": \"co-occurs with the dominant hand's movement, but remains static while the dominant hand moves\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 0,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand is held steady with an open palm, a common handshape for lexical signs in TSL. It remains static while the dominant hand moves, suggesting it carries a lexical or grammatical function. The handshape and position are consistent with a conventionalized sign, not a depictive or indicating gesture.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers extended",
+          "movement": "held steady, palm facing forward, fingers slightly spread",
+          "location": "positioned near the signer's chest, slightly to the signer's left",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "palm facing forward, fingers extended, held steady",
+          "temporal_alignment": "co-occurs with the dominant hand's movement, but remains static while the dominant hand moves"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 0,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand is held steady with an open palm, a common handshape for lexical signs in TSL. It remains static while the dominant hand moves, suggesting it carries a lexical or grammatical function. The handshape and position are consistent with a conventionalized sign, not a depictive or indicating gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

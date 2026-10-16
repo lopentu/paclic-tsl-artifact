@@ -1,0 +1,69 @@
+{
+  "clip_id": "C08",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "non_dominant_hand",
+  "prompt_from": {
+    "clip_id": "C08",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP09",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 0.8000000000000114
+  },
+  "video_from": {
+    "clip_id": "C12",
+    "event_id": "event1",
+    "video_id": "S01EP09",
+    "target_channel": "non_dominant_hand",
+    "duration": 1.1000000000000227
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.8000000000000114,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C12_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C12_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:48:32.400536",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves in a small, repeated up-and-down motion, as if tapping or counting\",\n        \"location\": \"near the signer's chin, moving slightly forward and back\",\n        \"nonmanual\": \"signer's mouth is slightly pursed, eyes focused forward\",\n        \"non_dominant_hand\": \"the non-dominant hand's index finger performs a repetitive tapping motion while the thumb remains in contact with the palm\",\n        \"temporal_alignment\": \"the action begins immediately after the previous sign and is held for a duration of about 0.5 seconds, then transitions into the next sign\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign for 'count' or 'repetition' in TSL, contributing to the semantic load of 'requiring proficiency' in the given meaning. The repetitive tapping motion adds emphasis and a sense of effort or precision, which enriches the pragmatic/affective layer.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves in a small, repeated up-and-down motion, as if tapping or counting",
+          "location": "near the signer's chin, moving slightly forward and back",
+          "nonmanual": "signer's mouth is slightly pursed, eyes focused forward",
+          "non_dominant_hand": "the non-dominant hand's index finger performs a repetitive tapping motion while the thumb remains in contact with the palm",
+          "temporal_alignment": "the action begins immediately after the previous sign and is held for a duration of about 0.5 seconds, then transitions into the next sign"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign for 'count' or 'repetition' in TSL, contributing to the semantic load of 'requiring proficiency' in the given meaning. The repetitive tapping motion adds emphasis and a sense of effort or precision, which enriches the pragmatic/affective layer."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/static/C16_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:54:01.486572",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"fist\",\n        \"movement\": \"punching motion downward and forward, then retracting\",\n        \"location\": \"in front of the signer's body, moving from upper chest level to lower chest level\",\n        \"nonmanual\": \"neutral facial expression, no significant head or torso movement\",\n        \"non_dominant_hand\": \"resting at the signer's side, not involved\",\n        \"temporal_alignment\": \"the action occurs within a single, continuous signing unit, not preceded or followed by a pause\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The fist-punching motion is a conventionalized sign in TSL for 'hit' or 'strike', which is semantically loaded as it represents a physical action. The downward-forward motion and the forceful retraction depict the act of striking, which is affectively enriched to convey the physicality and impact of the action being described in the discourse about 'tense or unable to keep up with the speed'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "fist",
+          "movement": "punching motion downward and forward, then retracting",
+          "location": "in front of the signer's body, moving from upper chest level to lower chest level",
+          "nonmanual": "neutral facial expression, no significant head or torso movement",
+          "non_dominant_hand": "resting at the signer's side, not involved",
+          "temporal_alignment": "the action occurs within a single, continuous signing unit, not preceded or followed by a pause"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The fist-punching motion is a conventionalized sign in TSL for 'hit' or 'strike', which is semantically loaded as it represents a physical action. The downward-forward motion and the forceful retraction depict the act of striking, which is affectively enriched to convey the physicality and impact of the action being described in the discourse about 'tense or unable to keep up with the speed'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

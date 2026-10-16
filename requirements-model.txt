@@ -1,0 +1,14 @@
+# Fetching and cutting the source videos, and model inference. Install on top of
+# requirements-core.txt. Inference needs one 24GB GPU; clip cutting needs ffmpeg on PATH.
+# Versions are those of the environment the cross-model runs used. Greedy decoding is
+# deterministic for a fixed environment, but outputs can differ slightly across library or
+# GPU versions.
+yt-dlp==2026.7.4
+torch==2.12.1
+torchvision==0.27.1
+transformers==5.13.0
+accelerate==1.14.0
+qwen-vl-utils==0.0.14
+decord==0.6.0
+av==18.0.0
+pillow==12.3.0

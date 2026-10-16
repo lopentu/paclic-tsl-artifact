@@ -1,0 +1,55 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1877933314,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:35:43.460409",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression: lips are pursed and slightly protruded, eyes are slightly narrowed, conveying a sense of effort or emphasis\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression with pursed lips and narrowed eyes\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with the signing motion of the hands moving toward and away from the chest, and is held steady during this period\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The pursed lips and narrowed eyes are maintained during the signing of '他們不會手語' (they don't know sign language), which is a factual statement. The facial expression adds emphasis and conveys a tone of frustration or disappointment, enriching the pragmatic affect of the utterance. The expression is not a lexical sign but a prosodic nonmanual that modifies the emotional weight of the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression: lips are pursed and slightly protruded, eyes are slightly narrowed, conveying a sense of effort or emphasis",
+          "location": "face",
+          "nonmanual": "facial expression with pursed lips and narrowed eyes",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with the signing motion of the hands moving toward and away from the chest, and is held steady during this period"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The pursed lips and narrowed eyes are maintained during the signing of '他們不會手語' (they don't know sign language), which is a factual statement. The facial expression adds emphasis and conveys a tone of frustration or disappointment, enriching the pragmatic affect of the utterance. The expression is not a lexical sign but a prosodic nonmanual that modifies the emotional weight of the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

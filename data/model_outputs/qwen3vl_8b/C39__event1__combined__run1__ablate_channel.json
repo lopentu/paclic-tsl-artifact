@@ -1,0 +1,48 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:22:44.146733",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"fist\",\n        \"movement\": \"starts with a wave-like motion, then transitions to a downward fist movement, followed by a slight upward motion\",\n        \"location\": \"right side of signer's body\",\n        \"nonmanual\": \"mouth open, tongue out\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"starts with a wave-like motion, then transitions to a downward fist movement, followed by a slight upward motion\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand movement, starting with a wave and ending with a fist, visually represents the idea of 'self-reliance' and 'strength' mentioned in the given meaning. The facial expression with the tongue out adds a strong affective and emphatic component, enhancing the emotional weight of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "fist",
+          "movement": "starts with a wave-like motion, then transitions to a downward fist movement, followed by a slight upward motion",
+          "location": "right side of signer's body",
+          "nonmanual": "mouth open, tongue out",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "starts with a wave-like motion, then transitions to a downward fist movement, followed by a slight upward motion"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hand movement, starting with a wave and ending with a fist, visually represents the idea of 'self-reliance' and 'strength' mentioned in the given meaning. The facial expression with the tongue out adds a strong affective and emphatic component, enhancing the emotional weight of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

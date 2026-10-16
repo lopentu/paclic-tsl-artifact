@@ -1,0 +1,48 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C36_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:37:47.131740",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled.\",\n        \"movement\": \"Right hand moves from right to left, then down and forward. Left hand moves from left to right, then up and forward. Both hands move in a coordinated, sweeping motion.\",\n        \"location\": \"Right hand starts near the signer's right shoulder, moves across the signer's chest, and ends near the signer's left shoulder. Left hand starts near the signer's left shoulder, moves across the signer's chest, and ends near the signer's right shoulder.\",\n        \"nonmanual\": \"Signer's mouth is open and her facial expression is animated, conveying emphasis or surprise.\",\n        \"non_dominant_hand\": \"The left hand is used in coordination with the right hand, moving in a mirrored fashion.\",\n        \"temporal_alignment\": \"The action begins with the right hand moving from right to left, followed by the left hand moving from left to right, and ends with both hands moving in a coordinated motion.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The coordinated hand movement and facial expression suggest a grammatical structure or discourse marker. The sweeping motion and animated face convey emphasis and affect, enhancing the meaning of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled.",
+          "movement": "Right hand moves from right to left, then down and forward. Left hand moves from left to right, then up and forward. Both hands move in a coordinated, sweeping motion.",
+          "location": "Right hand starts near the signer's right shoulder, moves across the signer's chest, and ends near the signer's left shoulder. Left hand starts near the signer's left shoulder, moves across the signer's chest, and ends near the signer's right shoulder.",
+          "nonmanual": "Signer's mouth is open and her facial expression is animated, conveying emphasis or surprise.",
+          "non_dominant_hand": "The left hand is used in coordination with the right hand, moving in a mirrored fashion.",
+          "temporal_alignment": "The action begins with the right hand moving from right to left, followed by the left hand moving from left to right, and ends with both hands moving in a coordinated motion."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The coordinated hand movement and facial expression suggest a grammatical structure or discourse marker. The sweeping motion and animated face convey emphasis and affect, enhancing the meaning of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

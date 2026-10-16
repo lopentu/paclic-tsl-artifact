@@ -1,0 +1,53 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/static/C12_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C12_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:52:33.370356",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"held steady, pointing forward\",\n        \"location\": \"in front of the signer's chest, at midline\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"index finger extended, pointing forward\",\n        \"temporal_alignment\": \"held steady during the target span, while the dominant hand performs a different gesture\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The non-dominant hand is held steady with the index finger extended, pointing forward, which is a conventionalized gesture in TSL for 'one' or 'first'. This gesture is held steady while the dominant hand performs a different action, suggesting it marks a specific referent or concept within the discourse. The gesture is not merely descriptive but serves to indicate a specific point or entity, adding emphasis and structure to the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "held steady, pointing forward",
+          "location": "in front of the signer's chest, at midline",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "index finger extended, pointing forward",
+          "temporal_alignment": "held steady during the target span, while the dominant hand performs a different gesture"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The non-dominant hand is held steady with the index finger extended, pointing forward, which is a conventionalized gesture in TSL for 'one' or 'first'. This gesture is held steady while the dominant hand performs a different action, suggesting it marks a specific referent or concept within the discourse. The gesture is not merely descriptive but serves to indicate a specific point or entity, adding emphasis and structure to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

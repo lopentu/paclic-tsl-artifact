@@ -1,0 +1,54 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "video_path": "<repo>/data/clips_c/C17_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:02:52.815495",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression: lips pursed, cheeks slightly puffed, eyes looking forward\",\n        \"location\": \"face\",\n        \"nonmanual\": \"pursed lips, slightly puffed cheeks\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during the signing of 'good' (the sign for 'good' is shown at 0.2-0.3, and the facial expression is held while the signer holds the thumbs-up gesture at 0.3-0.6)\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The pursed lips and puffed cheeks are a conventionalized nonmanual marker in TSL for 'good' or 'excellent', adding affective emphasis to the positive evaluation. The expression is held while the signer holds the thumbs-up gesture, reinforcing the positive sentiment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression: lips pursed, cheeks slightly puffed, eyes looking forward",
+          "location": "face",
+          "nonmanual": "pursed lips, slightly puffed cheeks",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during the signing of 'good' (the sign for 'good' is shown at 0.2-0.3, and the facial expression is held while the signer holds the thumbs-up gesture at 0.3-0.6)"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The pursed lips and puffed cheeks are a conventionalized nonmanual marker in TSL for 'good' or 'excellent', adding affective emphasis to the positive evaluation. The expression is held while the signer holds the thumbs-up gesture, reinforcing the positive sentiment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

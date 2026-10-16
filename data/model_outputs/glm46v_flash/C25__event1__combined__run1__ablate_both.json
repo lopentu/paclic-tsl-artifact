@@ -1,0 +1,61 @@
+{
+  "clip_id": "C25",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C25_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:08:55.108736",
+  "backend_call_info": {
+    "frames_per_video": [
+      72,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.6365,
+      15.984
+    ],
+    "input_tokens": 9972,
+    "output_tokens": 284
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand (right) and non-dominant hand (left) cross in front of the chest\",\n        \"handshape\": \"dominant hand open, non-dominant hand open\",\n        \"movement\": \"crossing from right to left in front of the chest\",\n        \"location\": \"front of the chest\",\n        \"nonmanual\": \"mouth opens and closes\",\n        \"non_dominant_hand\": \"resting on the lap\",\n        \"temporal_alignment\": \"part of a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The crossing hand movement is a common TSL lexical sign for 'and' or 'also', contributing to propositional content. The mouth opening and closing adds emphasis, supporting the pragmatic score.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand (right) and non-dominant hand (left) cross in front of the chest",
+          "handshape": "dominant hand open, non-dominant hand open",
+          "movement": "crossing from right to left in front of the chest",
+          "location": "front of the chest",
+          "nonmanual": "mouth opens and closes",
+          "non_dominant_hand": "resting on the lap",
+          "temporal_alignment": "part of a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The crossing hand movement is a common TSL lexical sign for 'and' or 'also', contributing to propositional content. The mouth opening and closing adds emphasis, supporting the pragmatic score."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,50 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C20_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:44:08.535245",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used.\",\n        \"handshape\": \"The dominant hand (on the signer's right) is a pincer shape (thumb and index finger). The non-dominant hand (on the signer's left) is an open hand, palm up.\",\n        \"movement\": \"The dominant hand moves from a position near the signer's right shoulder downwards and forwards in a small arc, towards the non-dominant hand.\",\n        \"location\": \"The action occurs in the upper body space, starting near the signer's right shoulder and ending in front of the chest.\",\n        \"nonmanual\": \"The head is still and facing forward. The facial expression is neutral.\",\n        \"non_dominant_hand\": \"The non-dominant hand is held steady, palm up, in front of the signer's torso.\",\n        \"temporal_alignment\": \"The action is a brief, punctuated movement that occurs in the middle of a continuous signing sequence, transitioning from a previous sign to the next.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The pincer handshape and downward motion are conventional forms in sign languages, suggesting a specific lexical meaning. The action is clearly integrated into the flow of the sentence, not a separate gesture.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "The dominant hand (on the signer's right) is a pincer shape (thumb and index finger). The non-dominant hand (on the signer's left) is an open hand, palm up.",
+          "movement": "The dominant hand moves from a position near the signer's right shoulder downwards and forwards in a small arc, towards the non-dominant hand.",
+          "location": "The action occurs in the upper body space, starting near the signer's right shoulder and ending in front of the chest.",
+          "nonmanual": "The head is still and facing forward. The facial expression is neutral.",
+          "non_dominant_hand": "The non-dominant hand is held steady, palm up, in front of the signer's torso.",
+          "temporal_alignment": "The action is a brief, punctuated movement that occurs in the middle of a continuous signing sequence, transitioning from a previous sign to the next."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The pincer handshape and downward motion are conventional forms in sign languages, suggesting a specific lexical meaning. The action is clearly integrated into the flow of the sentence, not a separate gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1307654889,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:12:47.343663",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled; Left hand: palm up, fingers extended, forming a receptive or open handshape.\",\n        \"movement\": \"The right hand moves downward in a tapping or striking motion against the palm of the left hand, which remains relatively stationary. The motion is small and precise.\",\n        \"location\": \"Centered in front of the signer's chest, at chest height.\",\n        \"nonmanual\": \"Signer's face remains neutral with a slight pucker, maintaining consistent eye contact.\",\n        \"non_dominant_hand\": \"The left hand (non-dominant hand) is held steady with the palm facing upward, providing a stable surface for the right hand to strike or tap.\",\n        \"temporal_alignment\": \"The action occurs within a continuous signing sequence, following a gesture near the head and preceding a hand-clasp gesture. It is a distinct, self-contained movement within the flow.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand taps the left palm, a common manual sign in TSL that visually corresponds to the idea of 'good' or 'excellent' (e.g., a tap on the chest or hand to signify approval or quality). The action is not merely a gesture but a conventionalized sign, contributing to the grammatical structure of the sentence. The motion is clear and deliberate, enhancing the positive connotation of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand: index finger extended, other fingers curled; Left hand: palm up, fingers extended, forming a receptive or open handshape.",
+          "movement": "The right hand moves downward in a tapping or striking motion against the palm of the left hand, which remains relatively stationary. The motion is small and precise.",
+          "location": "Centered in front of the signer's chest, at chest height.",
+          "nonmanual": "Signer's face remains neutral with a slight pucker, maintaining consistent eye contact.",
+          "non_dominant_hand": "The left hand (non-dominant hand) is held steady with the palm facing upward, providing a stable surface for the right hand to strike or tap.",
+          "temporal_alignment": "The action occurs within a continuous signing sequence, following a gesture near the head and preceding a hand-clasp gesture. It is a distinct, self-contained movement within the flow."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand taps the left palm, a common manual sign in TSL that visually corresponds to the idea of 'good' or 'excellent' (e.g., a tap on the chest or hand to signify approval or quality). The action is not merely a gesture but a conventionalized sign, contributing to the grammatical structure of the sentence. The motion is clear and deliberate, enhancing the positive connotation of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

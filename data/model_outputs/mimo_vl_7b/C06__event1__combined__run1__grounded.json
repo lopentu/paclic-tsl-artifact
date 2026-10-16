@@ -1,0 +1,50 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C06_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:20:58.212175",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"The non-dominant hand is active. The dominant hand is held steady, palm up, in front of the chest.\",\n        \"handshape\": \"The non-dominant hand is an open hand, with the thumb held across the index and middle fingers.\",\n        \"movement\": \"The hand moves in a small, repetitive up-and-down motion, like a gentle shaking or nodding.\",\n        \"location\": \"The hand is in front of the signer's lower chest, slightly to the signer's right.\",\n        \"nonmanual\": \"The signer's facial expression is neutral and focused. The head is still.\",\n        \"non_dominant_hand\": \"This is the non-dominant hand performing the action.\",\n        \"temporal_alignment\": \"The action occurs in the middle of a continuous signing sequence, overlapping with the start of a new sign with the dominant hand.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The action is rhythmic and does not appear to be a conventional sign, suggesting a prosodic or emphatic function. The surrounding context is a continuous discourse, and this motion adds a layer of emphasis to the utterance.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "The non-dominant hand is active. The dominant hand is held steady, palm up, in front of the chest.",
+          "handshape": "The non-dominant hand is an open hand, with the thumb held across the index and middle fingers.",
+          "movement": "The hand moves in a small, repetitive up-and-down motion, like a gentle shaking or nodding.",
+          "location": "The hand is in front of the signer's lower chest, slightly to the signer's right.",
+          "nonmanual": "The signer's facial expression is neutral and focused. The head is still.",
+          "non_dominant_hand": "This is the non-dominant hand performing the action.",
+          "temporal_alignment": "The action occurs in the middle of a continuous signing sequence, overlapping with the start of a new sign with the dominant hand."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The action is rhythmic and does not appear to be a conventional sign, suggesting a prosodic or emphatic function. The surrounding context is a continuous discourse, and this motion adds a layer of emphasis to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

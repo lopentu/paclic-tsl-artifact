@@ -1,0 +1,49 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C03_window_model.mp4",
+  "video_id": "S01EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:01:01.994234",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"both hands move upward from the chest area to the eyes, then both hands move inward toward the face\",\n        \"location\": \"starting near the chest, moving to the eyes, then inward toward the face\",\n        \"nonmanual\": \"face shows a grimace or expression of discomfort or effort\",\n        \"non_dominant_hand\": \"not applicable, both hands are active\",\n        \"temporal_alignment\": \"the action occurs within a larger signing unit, following a sign about 'teachers' and preceding a sign about 'teaching methods'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 3,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves both hands moving to the eyes and inward, which visually enacts the concept of 'different' or 'contrasting' methods, fitting the discourse about deaf and hearing teachers having different teaching techniques. The facial grimace adds affective enrichment, emphasizing the contrast or difficulty. The movement is a conventionalized depiction of contrasting or differing methods.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "both hands move upward from the chest area to the eyes, then both hands move inward toward the face",
+          "location": "starting near the chest, moving to the eyes, then inward toward the face",
+          "nonmanual": "face shows a grimace or expression of discomfort or effort",
+          "non_dominant_hand": "not applicable, both hands are active",
+          "temporal_alignment": "the action occurs within a larger signing unit, following a sign about 'teachers' and preceding a sign about 'teaching methods'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 3,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves both hands moving to the eyes and inward, which visually enacts the concept of 'different' or 'contrasting' methods, fitting the discourse about deaf and hearing teachers having different teaching techniques. The facial grimace adds affective enrichment, emphasizing the contrast or difficulty. The movement is a conventionalized depiction of contrasting or differing methods."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,9 @@
+# Scoring and analysis, from the released model outputs. No GPU needed.
+# Versions are those the released reports were generated with (Python 3.12).
+numpy==2.5.1
+scipy==1.18.0
+pandas==3.0.3
+scikit-learn==1.9.0
+pyyaml==6.0.3
+jsonschema==4.26.0
+krippendorff==0.8.2

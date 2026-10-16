@@ -1,0 +1,55 @@
+{
+  "clip_id": "C20",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1195600752,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:59:34.201321",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from right to left, then downward in a small arc\",\n        \"location\": \"in front of the signer's chest, moving from right to left\",\n        \"nonmanual\": \"mouth slightly open, neutral facial expression\",\n        \"non_dominant_hand\": \"resting near the signer's waist\",\n        \"temporal_alignment\": \"begins at the start of the clip, follows a prior gesture and precedes a subsequent hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with the TSL sign for 'exam' or 'test', which is a key component of the clause '你們會考上乙證也沒問題' (You will be able to pass the Level 2 exam). The gesture is part of a larger sequence, suggesting it's a lexical sign carrying core propositional content. The movement adds slight emphasis to the assertion, but the core meaning relies on the lexical form.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from right to left, then downward in a small arc",
+          "location": "in front of the signer's chest, moving from right to left",
+          "nonmanual": "mouth slightly open, neutral facial expression",
+          "non_dominant_hand": "resting near the signer's waist",
+          "temporal_alignment": "begins at the start of the clip, follows a prior gesture and precedes a subsequent hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with the TSL sign for 'exam' or 'test', which is a key component of the clause '你們會考上乙證也沒問題' (You will be able to pass the Level 2 exam). The gesture is part of a larger sequence, suggesting it's a lexical sign carrying core propositional content. The movement adds slight emphasis to the assertion, but the core meaning relies on the lexical form."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

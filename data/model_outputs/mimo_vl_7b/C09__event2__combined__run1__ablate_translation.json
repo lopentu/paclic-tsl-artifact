@@ -1,0 +1,50 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C09_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:10:45.976115",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.6\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are used.\",\n          \"handshape\": \"The dominant hand (right) is a 'C' handshape. The non-dominant hand (left) is an 'open palm' handshape.\",\n          \"movement\": \"The dominant hand moves from the signer's chest area forward and slightly upward. The non-dominant hand is held relatively still.\",\n          \"location\": \"The dominant hand is in the signer's forward personal space.\",\n          \"nonmanual\": \"The signer's head is tilted back and up, and the eyes are looking upward. The eyebrows are slightly raised.\",\n          \"non_dominant_hand\": \"The non-dominant hand is held in front of the signer's torso, palm facing inward.\",\n          \"temporal_alignment\": \"The action is a distinct sign that is part of a continuous signed utterance, occurring in the middle of a phrase.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The handshape and movement are conventional for a specific TSL sign. The head and eye gaze are integral to the sign's meaning and are clearly visible. The sign is part of a flowing discourse, not an isolated gesture.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "The dominant hand (right) is a 'C' handshape. The non-dominant hand (left) is an 'open palm' handshape.",
+          "movement": "The dominant hand moves from the signer's chest area forward and slightly upward. The non-dominant hand is held relatively still.",
+          "location": "The dominant hand is in the signer's forward personal space.",
+          "nonmanual": "The signer's head is tilted back and up, and the eyes are looking upward. The eyebrows are slightly raised.",
+          "non_dominant_hand": "The non-dominant hand is held in front of the signer's torso, palm facing inward.",
+          "temporal_alignment": "The action is a distinct sign that is part of a continuous signed utterance, occurring in the middle of a phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are conventional for a specific TSL sign. The head and eye gaze are integral to the sign's meaning and are clearly visible. The sign is part of a flowing discourse, not an isolated gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "head_torso",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP12",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T12:18:31.292063",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"not visible or not involved\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head and torso tilt slightly forward and downward, then return to neutral; slight inward lean of torso\",\n        \"location\": \"centered in front of signer’s body, facing camera\",\n        \"nonmanual\": \"head tilt and torso lean\",\n        \"non_dominant_hand\": \"not visible or not involved\",\n        \"temporal_alignment\": \"occurs during a continuous signing stretch, not aligned with a discrete sign but embedded within the discourse flow\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.85,\n      \"observable_evidence\": \"The head and torso movement is sustained and rhythmic, suggesting emphasis on the evaluative stance in the clause. The slight forward lean and downward tilt visually reinforce the tone of judgment or concern implied in the meaning. The movement is not a discrete lexical sign but modulates the affective weight of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "not visible or not involved",
+          "handshape": "not applicable",
+          "movement": "head and torso tilt slightly forward and downward, then return to neutral; slight inward lean of torso",
+          "location": "centered in front of signer’s body, facing camera",
+          "nonmanual": "head tilt and torso lean",
+          "non_dominant_hand": "not visible or not involved",
+          "temporal_alignment": "occurs during a continuous signing stretch, not aligned with a discrete sign but embedded within the discourse flow"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.85,
+        "observable_evidence": "The head and torso movement is sustained and rhythmic, suggesting emphasis on the evaluative stance in the clause. The slight forward lean and downward tilt visually reinforce the tone of judgment or concern implied in the meaning. The movement is not a discrete lexical sign but modulates the affective weight of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

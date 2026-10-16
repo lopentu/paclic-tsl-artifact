@@ -1,0 +1,55 @@
+{
+  "clip_id": "C33",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 32191737,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:34:48.778588",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"thumb extended, fingers curled into a hook shape\",\n        \"movement\": \"both hands move from the signer's chest outward and slightly upward, then inward and downward in a rhythmic, repetitive motion\",\n        \"location\": \"centered in front of the signer's chest, moving slightly outward and inward\",\n        \"nonmanual\": \"signer's mouth is slightly open, face is neutral to focused\",\n        \"non_dominant_hand\": \"non-dominant hand mirrors the dominant hand's movement\",\n        \"temporal_alignment\": \"the action begins immediately after a single-handed sign and precedes a change in handshape and movement direction\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands form a distinct, conventionalized handshape (thumb extended, fingers curled) and move rhythmically, which is characteristic of a lexical sign in TSL. The movement's repetition and central location suggest it's not just a gesture but carries propositional content. The action's rhythmic nature and the signer's focused expression contribute to emphasis and affect, making the signing more vivid.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "thumb extended, fingers curled into a hook shape",
+          "movement": "both hands move from the signer's chest outward and slightly upward, then inward and downward in a rhythmic, repetitive motion",
+          "location": "centered in front of the signer's chest, moving slightly outward and inward",
+          "nonmanual": "signer's mouth is slightly open, face is neutral to focused",
+          "non_dominant_hand": "non-dominant hand mirrors the dominant hand's movement",
+          "temporal_alignment": "the action begins immediately after a single-handed sign and precedes a change in handshape and movement direction"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands form a distinct, conventionalized handshape (thumb extended, fingers curled) and move rhythmically, which is characteristic of a lexical sign in TSL. The movement's repetition and central location suggest it's not just a gesture but carries propositional content. The action's rhythmic nature and the signer's focused expression contribute to emphasis and affect, making the signing more vivid."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

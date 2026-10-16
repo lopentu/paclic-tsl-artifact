@@ -1,0 +1,61 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C22_window_model.mp4",
+  "video_id": "S01EP12",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T18:46:54.310833",
+  "backend_call_info": {
+    "frames_per_video": [
+      190,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.9504,
+      14.5309
+    ],
+    "input_tokens": 20994,
+    "output_tokens": 271
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"both hands clasped together at chest level\",\n        \"handshape\": \"fists\",\n        \"movement\": \"slight downward and inward movement\",\n        \"location\": \"chest\",\n        \"nonmanual\": \"head tilts slightly forward and down\",\n        \"non_dominant_hand\": \"resting on dominant hand\",\n        \"temporal_alignment\": \"occurs during a pause between signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The head and torso movement at 0.3-0.8 seconds conveys a sense of uncertainty or hesitation, which aligns with the pragmatic meaning of the phrase '無從判斷是否符合本團規範'.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "both hands clasped together at chest level",
+          "handshape": "fists",
+          "movement": "slight downward and inward movement",
+          "location": "chest",
+          "nonmanual": "head tilts slightly forward and down",
+          "non_dominant_hand": "resting on dominant hand",
+          "temporal_alignment": "occurs during a pause between signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The head and torso movement at 0.3-0.8 seconds conveys a sense of uncertainty or hesitation, which aligns with the pragmatic meaning of the phrase '無從判斷是否符合本團規範'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

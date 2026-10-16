@@ -1,0 +1,36 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "face",
+  "label_channel_sent": "face",
+  "label_is_correct": true,
+  "video_id": "SP-EP07",
+  "source_run": "C39__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: mouth opens wide, tongue protrudes, then retracts; facial expression shifts from exaggerated to neutral\n- location: center of face\n- nonmanual: facial expression with open mouth and protruding tongue\n- temporal alignment: occurs during the signing of the phrase, immediately after the initial hand gesture and before the next manual sign",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:21:13.112228",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 0,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 2,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The facial action vividly enacts a humorous or exaggerated expression of resilience, aligning with the phrase's tone of self-reliance despite hearing loss. It adds strong affective and depictive enrichment without altering propositional content. The description is conventionalized as a facial expression of defiance or humor, and it depicts the signer’s internal state or attitude.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 0,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 0,
+    "depiction": 2,
+    "confidence": 0.95,
+    "reasoning": "The facial action vividly enacts a humorous or exaggerated expression of resilience, aligning with the phrase's tone of self-reliance despite hearing loss. It adds strong affective and depictive enrichment without altering propositional content. The description is conventionalized as a facial expression of defiance or humor, and it depicts the signer’s internal state or attitude."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,49 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:11:30.750434",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"not visible or not carrying the action\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head and upper body move in a rhythmic, emphatic up-and-down motion, accompanied by a wide-open mouth and facial expression\",\n        \"location\": \"center of frame, facing forward\",\n        \"nonmanual\": \"mouth is wide open, facial expression is intense and exaggerated\",\n        \"non_dominant_hand\": \"not visible or not carrying the action\",\n        \"temporal_alignment\": \"the action begins with a strong upward motion and ends with a downward motion, spanning the target time window\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The head and torso movement is large and rhythmic, paired with an open mouth and intense facial expression, suggesting emphasis or affective force. The movement is not a conventionalized lexical sign but rather a strong nonmanual gesture that adds emotional weight to the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "not visible or not carrying the action",
+          "handshape": "not applicable",
+          "movement": "head and upper body move in a rhythmic, emphatic up-and-down motion, accompanied by a wide-open mouth and facial expression",
+          "location": "center of frame, facing forward",
+          "nonmanual": "mouth is wide open, facial expression is intense and exaggerated",
+          "non_dominant_hand": "not visible or not carrying the action",
+          "temporal_alignment": "the action begins with a strong upward motion and ends with a downward motion, spanning the target time window"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The head and torso movement is large and rhythmic, paired with an open mouth and intense facial expression, suggesting emphasis or affective force. The movement is not a conventionalized lexical sign but rather a strong nonmanual gesture that adds emotional weight to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

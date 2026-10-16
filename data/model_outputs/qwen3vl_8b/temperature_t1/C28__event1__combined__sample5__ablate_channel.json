@@ -1,0 +1,55 @@
+{
+  "clip_id": "C28",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1134112173,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:17:01.415874",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"both hands form a cupped shape\",\n        \"movement\": \"both hands move inward toward the signer's chest, then outward again in a gentle, repetitive motion\",\n        \"location\": \"centered in front of the signer's chest, moving in a small vertical arc\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"non-dominant hand performs the same motion as the dominant hand\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the clip, immediately after the signer brings both hands up from a lower position and before they move them outward again\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands form a cupped shape and move inward and outward, a common sign for 'speech' or 'talking' in TSL. This action is repeated throughout the clip and is clearly part of the signed message about people who can speak but still need sign language support. The movement is emphatic and contributes to the idea of verbal communication, fitting the context of the sentence.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "both hands form a cupped shape",
+          "movement": "both hands move inward toward the signer's chest, then outward again in a gentle, repetitive motion",
+          "location": "centered in front of the signer's chest, moving in a small vertical arc",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "non-dominant hand performs the same motion as the dominant hand",
+          "temporal_alignment": "the action occurs at the beginning of the clip, immediately after the signer brings both hands up from a lower position and before they move them outward again"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands form a cupped shape and move inward and outward, a common sign for 'speech' or 'talking' in TSL. This action is repeated throughout the clip and is clearly part of the signed message about people who can speak but still need sign language support. The movement is emphatic and contributes to the idea of verbal communication, fitting the context of the sentence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

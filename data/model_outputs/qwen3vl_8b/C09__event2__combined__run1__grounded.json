@@ -1,0 +1,48 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C09_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:13:25.633793",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers point forward and upward, then move slightly inward toward each other\",\n        \"location\": \"in front of the signer's chest, at chest height\",\n        \"nonmanual\": \"head tilted slightly back, eyes looking upward\",\n        \"non_dominant_hand\": \"non-dominant hand remains relatively still, palm facing inward\",\n        \"temporal_alignment\": \"the action begins immediately after the signer brings her right hand to her chin, and is held for a sustained duration while the signer looks upward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL that conveys 'to think' or 'to consider', which is semantically necessary for the clause 'if only through current sign language courses'. The upward gaze and sustained hold add emphasis and a sense of contemplation, which is pragmatically enriching.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers point forward and upward, then move slightly inward toward each other",
+          "location": "in front of the signer's chest, at chest height",
+          "nonmanual": "head tilted slightly back, eyes looking upward",
+          "non_dominant_hand": "non-dominant hand remains relatively still, palm facing inward",
+          "temporal_alignment": "the action begins immediately after the signer brings her right hand to her chin, and is held for a sustained duration while the signer looks upward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL that conveys 'to think' or 'to consider', which is semantically necessary for the clause 'if only through current sign language courses'. The upward gaze and sustained hold add emphasis and a sense of contemplation, which is pragmatically enriching."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

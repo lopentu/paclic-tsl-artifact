@@ -1,0 +1,50 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:07:33.179997",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"1.1\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are active. The dominant hand (right) is near the signer's right cheek, with the index finger extended and thumb up, forming a 'C' shape. The non-dominant hand (left) is in front of the signer's chest, with the index finger extended and pointing forward. The right hand moves from a position near the signer's right eye, across the face, and down towards the left hand.\",\n          \"handshape\": \"Right hand: 'C' shape (index finger extended, thumb up). Left hand: extended index finger.\",\n          \"movement\": \"A diagonal movement from the signer's upper right to lower left. The right hand sweeps across the face and down. The left hand remains relatively stable, pointing forward.\",\n          \"location\": \"The right hand starts near the signer's right eye and moves to the center of the chest. The left hand is in the center of the chest.\",\n          \"nonmanual\": \"The signer's head is tilted slightly to her right. Her eyebrows are slightly raised. Her mouth is slightly open as if speaking or emphasizing a point.\",\n          \"non_dominant_hand\": \"The non-dominant hand is held steady in front of the signer's chest, index finger pointing forward.\",\n          \"temporal_alignment\": \"The action is a continuous, fluid motion that begins just after the clip starts and continues for about a second before the hands separate and the next sign begins.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two-handed movement is a distinct and complex sign, suggesting it carries significant semantic and syntactic weight. The facial expression (raised eyebrows) adds emphasis. The handshapes and movement path are conventionalized, indicating it's a lexical sign rather than a simple pointing or depiction.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are active. The dominant hand (right) is near the signer's right cheek, with the index finger extended and thumb up, forming a 'C' shape. The non-dominant hand (left) is in front of the signer's chest, with the index finger extended and pointing forward. The right hand moves from a position near the signer's right eye, across the face, and down towards the left hand.",
+          "handshape": "Right hand: 'C' shape (index finger extended, thumb up). Left hand: extended index finger.",
+          "movement": "A diagonal movement from the signer's upper right to lower left. The right hand sweeps across the face and down. The left hand remains relatively stable, pointing forward.",
+          "location": "The right hand starts near the signer's right eye and moves to the center of the chest. The left hand is in the center of the chest.",
+          "nonmanual": "The signer's head is tilted slightly to her right. Her eyebrows are slightly raised. Her mouth is slightly open as if speaking or emphasizing a point.",
+          "non_dominant_hand": "The non-dominant hand is held steady in front of the signer's chest, index finger pointing forward.",
+          "temporal_alignment": "The action is a continuous, fluid motion that begins just after the clip starts and continues for about a second before the hands separate and the next sign begins."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed movement is a distinct and complex sign, suggesting it carries significant semantic and syntactic weight. The facial expression (raised eyebrows) adds emphasis. The handshapes and movement path are conventionalized, indicating it's a lexical sign rather than a simple pointing or depiction."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

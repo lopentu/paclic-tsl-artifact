@@ -1,0 +1,49 @@
+{
+  "clip_id": "C05",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C05_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:19:09.277537",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled, forming a 'V' or 'peace' sign\",\n        \"movement\": \"hands move from a clasped position near the chest outward and upward, then the right hand moves forward and slightly down while the left hand moves back and up, as if pushing or separating\",\n        \"location\": \"initially near the chest, then moving outward and upward\",\n        \"nonmanual\": \"signer's eyes are open and focused forward, mouth is neutral\",\n        \"non_dominant_hand\": \"the non-dominant hand (left) moves in coordination with the dominant hand (right), both are active\",\n        \"temporal_alignment\": \"the action begins immediately after the signer's hand covers her face and ends before she begins the next sign, which involves pointing\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move in a coordinated, outward and separating motion, which is a conventionalized sign in TSL for 'separate' or 'apart'. The movement is not just a gesture but a lexical sign with clear semantic content. The action is also depictive, as it enacts the physical separation of two entities, enhancing the meaning with visual enactment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled, forming a 'V' or 'peace' sign",
+          "movement": "hands move from a clasped position near the chest outward and upward, then the right hand moves forward and slightly down while the left hand moves back and up, as if pushing or separating",
+          "location": "initially near the chest, then moving outward and upward",
+          "nonmanual": "signer's eyes are open and focused forward, mouth is neutral",
+          "non_dominant_hand": "the non-dominant hand (left) moves in coordination with the dominant hand (right), both are active",
+          "temporal_alignment": "the action begins immediately after the signer's hand covers her face and ends before she begins the next sign, which involves pointing"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move in a coordinated, outward and separating motion, which is a conventionalized sign in TSL for 'separate' or 'apart'. The movement is not just a gesture but a lexical sign with clear semantic content. The action is also depictive, as it enacts the physical separation of two entities, enhancing the meaning with visual enactment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 989203071,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:42:59.841541",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended; left hand: open palm, fingers slightly spread\",\n        \"movement\": \"right index finger moves downward in a vertical path, tracing a path over the open palm of the left hand, then makes contact and taps or lightly presses against the left hand\",\n        \"location\": \"centered in front of the signer's chest, at chest level\",\n        \"nonmanual\": \"signer's face is neutral with slightly pursed lips, no significant head movement\",\n        \"non_dominant_hand\": \"left hand remains stationary as a platform, palm up, supporting the movement of the right hand\",\n        \"temporal_alignment\": \"the action begins immediately after the signer has raised her right hand in a preparatory gesture (0.0-0.2) and precedes the transition to the next sign (0.5-0.7) where her hands come together in front of her chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves the right index finger moving down and tapping the left open palm, which is a conventionalized sign in TSL. The motion of the finger over the palm visually represents the idea of 'good' or 'excellent' as a quality being applied to the course (the 'this' in '這個課程很棒'). The slight pause before the tap and the focused gaze at the hands suggest emphasis on the positive evaluation.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended; left hand: open palm, fingers slightly spread",
+          "movement": "right index finger moves downward in a vertical path, tracing a path over the open palm of the left hand, then makes contact and taps or lightly presses against the left hand",
+          "location": "centered in front of the signer's chest, at chest level",
+          "nonmanual": "signer's face is neutral with slightly pursed lips, no significant head movement",
+          "non_dominant_hand": "left hand remains stationary as a platform, palm up, supporting the movement of the right hand",
+          "temporal_alignment": "the action begins immediately after the signer has raised her right hand in a preparatory gesture (0.0-0.2) and precedes the transition to the next sign (0.5-0.7) where her hands come together in front of her chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves the right index finger moving down and tapping the left open palm, which is a conventionalized sign in TSL. The motion of the finger over the palm visually represents the idea of 'good' or 'excellent' as a quality being applied to the course (the 'this' in '這個課程很棒'). The slight pause before the tap and the focused gaze at the hands suggest emphasis on the positive evaluation."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

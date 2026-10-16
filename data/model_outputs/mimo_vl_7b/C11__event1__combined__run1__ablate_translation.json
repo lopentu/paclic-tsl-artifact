@@ -1,0 +1,50 @@
+{
+  "clip_id": "C11",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C11_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:11:34.481160",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.6\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"The dominant hand is used. The non-dominant hand is relaxed on the table.\",\n          \"handshape\": \"The handshape is a pincer shape (thumb and index finger touching).\",\n          \"movement\": \"The hand moves forward and slightly down from near the signer's right temple, then retracts back towards the temple. The movement is repeated.\",\n          \"location\": \"The action is located at the right side of the signer's head, near the temple.\",\n          \"nonmanual\": \"The signer's facial expression is neutral and focused. The head is still.\",\n          \"non_dominant_hand\": \"The non-dominant hand is resting on the table in front of the signer.\",\n          \"temporal_alignment\": \"The action is a single, repeated manual movement that occurs at the beginning of the clip, seemingly starting a new signed unit.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The action is a distinct, repeated movement that appears to be a single TSL sign. Its form suggests it carries propositional content. The non-dominant hand is stationary, indicating the manual is the carrier of the sign's meaning.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant hand is used. The non-dominant hand is relaxed on the table.",
+          "handshape": "The handshape is a pincer shape (thumb and index finger touching).",
+          "movement": "The hand moves forward and slightly down from near the signer's right temple, then retracts back towards the temple. The movement is repeated.",
+          "location": "The action is located at the right side of the signer's head, near the temple.",
+          "nonmanual": "The signer's facial expression is neutral and focused. The head is still.",
+          "non_dominant_hand": "The non-dominant hand is resting on the table in front of the signer.",
+          "temporal_alignment": "The action is a single, repeated manual movement that occurs at the beginning of the clip, seemingly starting a new signed unit."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The action is a distinct, repeated movement that appears to be a single TSL sign. Its form suggests it carries propositional content. The non-dominant hand is stationary, indicating the manual is the carrier of the sign's meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

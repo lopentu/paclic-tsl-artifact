@@ -1,0 +1,49 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C12_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:00:44.151777",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled\",\n        \"movement\": \"right hand moves from right to left in a horizontal arc, then down; left hand remains relatively still, index finger extended upward\",\n        \"location\": \"right hand moves across the signer's midline, left hand remains near the signer's chest\",\n        \"nonmanual\": \"signer's mouth is slightly open, eyes focused forward\",\n        \"non_dominant_hand\": \"left hand is stationary, index finger extended upward\",\n        \"temporal_alignment\": \"the action begins after the signer has completed a large, open-palm gesture and before she begins a new gesture with her right hand\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are conventionalized signs in TSL, not just gestures. The right hand's movement across the body suggests a directional or relational component, contributing to the grammatical structure. The stationary left hand with extended index finger provides a stable reference point, which is a common way to mark grammatical relations in TSL.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled",
+          "movement": "right hand moves from right to left in a horizontal arc, then down; left hand remains relatively still, index finger extended upward",
+          "location": "right hand moves across the signer's midline, left hand remains near the signer's chest",
+          "nonmanual": "signer's mouth is slightly open, eyes focused forward",
+          "non_dominant_hand": "left hand is stationary, index finger extended upward",
+          "temporal_alignment": "the action begins after the signer has completed a large, open-palm gesture and before she begins a new gesture with her right hand"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are conventionalized signs in TSL, not just gestures. The right hand's movement across the body suggests a directional or relational component, contributing to the grammatical structure. The stationary left hand with extended index finger provides a stable reference point, which is a common way to mark grammatical relations in TSL."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

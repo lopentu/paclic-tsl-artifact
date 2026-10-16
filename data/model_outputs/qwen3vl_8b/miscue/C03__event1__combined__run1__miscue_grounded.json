@@ -1,0 +1,54 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "face",
+  "target_channel_cued": "manual",
+  "video_path": "<repo>/data/clips_c/C03_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C03_window_model.mp4",
+  "video_id": "S01EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T17:58:21.887394",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"both fists move upward from the chest area to the eyes, then both hands move outward and downward\",\n        \"location\": \"starts near the chest, moves to the eyes, then outward and downward\",\n        \"nonmanual\": \"face contorts with a grimace, eyes squint\",\n        \"non_dominant_hand\": \"moves in coordination with the dominant hand\",\n        \"temporal_alignment\": \"the action occurs within a larger signing unit, following a gesture indicating 'teacher' and preceding a gesture indicating 'teaching method'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 3,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves both hands moving from the chest to the eyes and then outward, which visually enacts the concept of 'struggling' or 'fighting' (depiction). The grimace and squinting face add strong affective and depictive force (pragmatic/depictive/affective enrichment). The movement is a conventionalized sign for 'struggle' or 'fight' in TSL, which is essential for conveying the contrast between deaf and hearing teachers' different teaching methods (semantic/syntactic load).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "both fists move upward from the chest area to the eyes, then both hands move outward and downward",
+          "location": "starts near the chest, moves to the eyes, then outward and downward",
+          "nonmanual": "face contorts with a grimace, eyes squint",
+          "non_dominant_hand": "moves in coordination with the dominant hand",
+          "temporal_alignment": "the action occurs within a larger signing unit, following a gesture indicating 'teacher' and preceding a gesture indicating 'teaching method'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 3,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves both hands moving from the chest to the eyes and then outward, which visually enacts the concept of 'struggling' or 'fighting' (depiction). The grimace and squinting face add strong affective and depictive force (pragmatic/depictive/affective enrichment). The movement is a conventionalized sign for 'struggle' or 'fight' in TSL, which is essential for conveying the contrast between deaf and hearing teachers' different teaching methods (semantic/syntactic load)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

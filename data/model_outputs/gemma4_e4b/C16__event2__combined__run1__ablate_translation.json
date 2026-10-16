@@ -1,0 +1,61 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T22:21:13.020735",
+  "backend_call_info": {
+    "frames_per_video": [
+      120,
+      12
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      14.985
+    ],
+    "input_tokens": 11689,
+    "output_tokens": 318
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00:00\",\n      \"end_time\": \"00:00:01\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Index finger extended, other fingers curled\",\n        \"movement\": \"The hands move forward and slightly upward in a small, repetitive motion.\",\n        \"location\": \"In front of the signer's chest/face area.\",\n        \"nonmanual\": \"Neutral expression.\",\n        \"non_dominant_hand\": \"Not distinctly visible or active in a separate manner.\",\n        \"temporal_alignment\": \"The action occurs at the beginning of the clip and is part of a continuous movement sequence.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.85,\n      \"observable_evidence\": \"The signer uses both hands with an index finger extended, moving them forward and slightly upward in a small, repetitive motion in front of the chest.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00:00",
+        "end_time": "00:00:01",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Index finger extended, other fingers curled",
+          "movement": "The hands move forward and slightly upward in a small, repetitive motion.",
+          "location": "In front of the signer's chest/face area.",
+          "nonmanual": "Neutral expression.",
+          "non_dominant_hand": "Not distinctly visible or active in a separate manner.",
+          "temporal_alignment": "The action occurs at the beginning of the clip and is part of a continuous movement sequence."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.85,
+        "observable_evidence": "The signer uses both hands with an index finger extended, moving them forward and slightly upward in a small, repetitive motion in front of the chest."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

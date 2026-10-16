@@ -1,0 +1,50 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C23_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:17:07.411852",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"The dominant hand (right) is the active channel. The non-dominant hand (left) is held steady, palm up, below the dominant hand.\",\n        \"handshape\": \"The dominant hand is a 'C' handshape, with the thumb tucked in. The non-dominant hand is an 'open' handshape.\",\n        \"movement\": \"The dominant hand moves downwards and slightly forward from an initial position near the signer's chin, towards the non-dominant hand.\",\n        \"location\": \"The action occurs in the upper-middle space in front of the signer's body, moving from the chin area downwards.\",\n        \"nonmanual\": \"The signer's head is tilted slightly forward. The eyebrows are slightly raised. The mouth is open as if speaking or signing.\",\n        \"non_dominant_hand\": \"The non-dominant hand is held stationary, palm facing upward, in the space below the dominant hand's path.\",\n        \"temporal_alignment\": \"The action is a single, continuous movement that bridges the end of a previous manual shape and the beginning of a new one, suggesting it's part of a single, flowing sign.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are a conventional TSL sign. The non-dominant hand provides a stable base or location for the action. The entire movement is contained within a specific spatial location in front of the signer.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant hand (right) is the active channel. The non-dominant hand (left) is held steady, palm up, below the dominant hand.",
+          "handshape": "The dominant hand is a 'C' handshape, with the thumb tucked in. The non-dominant hand is an 'open' handshape.",
+          "movement": "The dominant hand moves downwards and slightly forward from an initial position near the signer's chin, towards the non-dominant hand.",
+          "location": "The action occurs in the upper-middle space in front of the signer's body, moving from the chin area downwards.",
+          "nonmanual": "The signer's head is tilted slightly forward. The eyebrows are slightly raised. The mouth is open as if speaking or signing.",
+          "non_dominant_hand": "The non-dominant hand is held stationary, palm facing upward, in the space below the dominant hand's path.",
+          "temporal_alignment": "The action is a single, continuous movement that bridges the end of a previous manual shape and the beginning of a new one, suggesting it's part of a single, flowing sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are a conventional TSL sign. The non-dominant hand provides a stable base or location for the action. The entire movement is contained within a specific spatial location in front of the signer."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

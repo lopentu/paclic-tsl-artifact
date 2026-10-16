@@ -1,0 +1,55 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 676615661,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:07:29.901323",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand, non-dominant hand\",\n        \"handshape\": \"dominant hand: index finger extended; non-dominant hand: index finger extended\",\n        \"movement\": \"dominant hand: index finger moves from chin level upward to forehead level, palm facing outward; non-dominant hand: index finger points toward dominant hand's index finger, then moves upward with it\",\n        \"location\": \"dominant hand: starts near chin, ends near forehead; non-dominant hand: starts near chin, ends near forehead\",\n        \"nonmanual\": \"no visible nonmanual activity\",\n        \"non_dominant_hand\": \"index finger points at dominant hand's index finger, then moves upward with it\",\n        \"temporal_alignment\": \"the action begins with the dominant hand moving upward from chin to forehead level, while the non-dominant hand points at it and follows its movement upward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The dominant hand moves from chin to forehead level, a gesture that visually represents the act of looking upward, which aligns with the meaning of a law being 'published and implemented' (a formal, official action). The non-dominant hand's pointing and following motion adds emphasis and directs attention to the action, enhancing its vividness and depictive quality.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand, non-dominant hand",
+          "handshape": "dominant hand: index finger extended; non-dominant hand: index finger extended",
+          "movement": "dominant hand: index finger moves from chin level upward to forehead level, palm facing outward; non-dominant hand: index finger points toward dominant hand's index finger, then moves upward with it",
+          "location": "dominant hand: starts near chin, ends near forehead; non-dominant hand: starts near chin, ends near forehead",
+          "nonmanual": "no visible nonmanual activity",
+          "non_dominant_hand": "index finger points at dominant hand's index finger, then moves upward with it",
+          "temporal_alignment": "the action begins with the dominant hand moving upward from chin to forehead level, while the non-dominant hand points at it and follows its movement upward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The dominant hand moves from chin to forehead level, a gesture that visually represents the act of looking upward, which aligns with the meaning of a law being 'published and implemented' (a formal, official action). The non-dominant hand's pointing and following motion adds emphasis and directs attention to the action, enhancing its vividness and depictive quality."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,36 @@
+{
+  "clip_id": "C07",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "manual",
+  "label_channel_sent": "face",
+  "label_is_correct": false,
+  "video_id": "S01EP09",
+  "source_run": "C07__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: right hand forms a 'thumbs-up' gesture, left hand forms a 'thumbs-down' gesture\n- movement: right hand moves from a neutral position to a thumbs-up, left hand moves from a neutral position to a thumbs-down, then both hands move together toward the center and then apart\n- location: right hand moves to the signer's right side, left hand moves to the signer's left side, then both hands move toward the center of the signer's chest\n- nonmanual: signer's facial expression is neutral to slightly smiling\n- non dominant hand: left hand forms a 'thumbs-down' gesture\n- temporal alignment: the action occurs within a larger signing unit that includes other gestures, but this specific gesture is a distinct, self-contained action within the clip",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:22:14.960237",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 1,\n  \"depiction\": 3,\n  \"confidence\": 0.9,\n  \"reasoning\": \"The gesture uses contrasting handshapes (thumbs-up/down) and movement toward/away from the body to visually depict a comparison or possibility — aligning with the utterance's meaning about some teachers possibly arranging internships. The facial neutrality suggests a neutral stance, not strong affect, but the enactment adds vividness. It’s not core syntax but enriches the pragmatic tone and depiction.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 1,
+    "depiction": 3,
+    "confidence": 0.9,
+    "reasoning": "The gesture uses contrasting handshapes (thumbs-up/down) and movement toward/away from the body to visually depict a comparison or possibility — aligning with the utterance's meaning about some teachers possibly arranging internships. The facial neutrality suggests a neutral stance, not strong affect, but the enactment adds vividness. It’s not core syntax but enriches the pragmatic tone and depiction."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

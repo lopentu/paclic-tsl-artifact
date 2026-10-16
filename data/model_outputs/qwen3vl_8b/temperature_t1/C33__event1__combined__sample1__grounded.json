@@ -1,0 +1,55 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1897406992,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:33:39.917976",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fingers curled into a loose fist or cupped shape\",\n        \"movement\": \"both hands move inward from the sides toward the center of the chest, then outward again in a repetitive, rhythmic motion, as if mimicking a squeezing or pulsing action\",\n        \"location\": \"starting near the sides of the torso, moving inward toward the center chest, then outward again\",\n        \"nonmanual\": \"signer's facial expression is tense and focused, with brows slightly furrowed and mouth set in a firm line\",\n        \"non_dominant_hand\": \"the non-dominant hand moves in a mirrored pattern to the dominant hand, contributing to the bilateral symmetry of the gesture\",\n        \"temporal_alignment\": \"the action occurs within a continuous sign sequence, appearing to be part of a larger syntactic unit that emphasizes the hypothetical scenario mentioned in the given meaning\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The rhythmic, inward-outward hand movement combined with the tense facial expression visually reinforces the hypothetical nature of the scenario '如果在路上發生交通事故' (if an accident happens on the road), suggesting a sense of tension or potential danger. The bilateral hand movement and the location near the chest may be indicating the internal emotional or cognitive state of the speaker, adding affective enrichment. The movement is not a conventional lexical sign but a constructed action that depicts a dynamic, pulsing force, which contributes to the semantic load by conveying the concept of an unfolding event.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fingers curled into a loose fist or cupped shape",
+          "movement": "both hands move inward from the sides toward the center of the chest, then outward again in a repetitive, rhythmic motion, as if mimicking a squeezing or pulsing action",
+          "location": "starting near the sides of the torso, moving inward toward the center chest, then outward again",
+          "nonmanual": "signer's facial expression is tense and focused, with brows slightly furrowed and mouth set in a firm line",
+          "non_dominant_hand": "the non-dominant hand moves in a mirrored pattern to the dominant hand, contributing to the bilateral symmetry of the gesture",
+          "temporal_alignment": "the action occurs within a continuous sign sequence, appearing to be part of a larger syntactic unit that emphasizes the hypothetical scenario mentioned in the given meaning"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The rhythmic, inward-outward hand movement combined with the tense facial expression visually reinforces the hypothetical nature of the scenario '如果在路上發生交通事故' (if an accident happens on the road), suggesting a sense of tension or potential danger. The bilateral hand movement and the location near the chest may be indicating the internal emotional or cognitive state of the speaker, adding affective enrichment. The movement is not a conventional lexical sign but a constructed action that depicts a dynamic, pulsing force, which contributes to the semantic load by conveying the concept of an unfolding event."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

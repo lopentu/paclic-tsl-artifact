@@ -1,0 +1,55 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 684535492,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:28:43.920993",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'thumbs-up' shape; left hand forms a 'flat hand' shape\",\n        \"movement\": \"right hand moves from the right side of the signer's body to the center, then stops; left hand moves from the left side of the signer's body to the center, then stops\",\n        \"location\": \"center of the signer's body, near the chest\",\n        \"nonmanual\": \"signer's face is neutral, mouth is slightly open\",\n        \"non_dominant_hand\": \"left hand remains relatively still, palm facing inward\",\n        \"temporal_alignment\": \"the action begins immediately after a previous sign and ends before the next sign\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with the lexical sign for 'good' or 'approval' in TSL, which is semantically relevant to the message about believing in students. The gesture is held steady, which adds emphasis and affective weight to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'thumbs-up' shape; left hand forms a 'flat hand' shape",
+          "movement": "right hand moves from the right side of the signer's body to the center, then stops; left hand moves from the left side of the signer's body to the center, then stops",
+          "location": "center of the signer's body, near the chest",
+          "nonmanual": "signer's face is neutral, mouth is slightly open",
+          "non_dominant_hand": "left hand remains relatively still, palm facing inward",
+          "temporal_alignment": "the action begins immediately after a previous sign and ends before the next sign"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with the lexical sign for 'good' or 'approval' in TSL, which is semantically relevant to the message about believing in students. The gesture is held steady, which adds emphasis and affective weight to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

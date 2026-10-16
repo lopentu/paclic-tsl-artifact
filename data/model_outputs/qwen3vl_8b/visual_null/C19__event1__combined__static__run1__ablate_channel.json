@@ -1,0 +1,53 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/static/C19_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:47:57.670689",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb up\",\n        \"movement\": \"held steady\",\n        \"location\": \"in front of chest, at midline\",\n        \"nonmanual\": \"neutral facial expression\",\n        \"non_dominant_hand\": \"not visible or not active\",\n        \"temporal_alignment\": \"held throughout the target span, following a prior sign\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape is a conventionalized lexical sign for 'good' or 'positive' in TSL, which is semantically necessary for the message 'I believe the students taking the exam'. The steady, held posture conveys affirmation and conviction, which is pragmatically essential to the speaker's stance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb up",
+          "movement": "held steady",
+          "location": "in front of chest, at midline",
+          "nonmanual": "neutral facial expression",
+          "non_dominant_hand": "not visible or not active",
+          "temporal_alignment": "held throughout the target span, following a prior sign"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape is a conventionalized lexical sign for 'good' or 'positive' in TSL, which is semantically necessary for the message 'I believe the students taking the exam'. The steady, held posture conveys affirmation and conviction, which is pragmatically essential to the speaker's stance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

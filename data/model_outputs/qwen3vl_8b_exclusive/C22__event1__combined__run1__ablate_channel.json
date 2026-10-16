@@ -1,0 +1,49 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C22_window_model.mp4",
+  "video_id": "S01EP12",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:09:29.938275",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not carrying the action\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head tilted back, eyes looking upward, mouth slightly open\",\n        \"location\": \"head and face oriented upward\",\n        \"nonmanual\": \"eyes looking upward, mouth slightly open\",\n        \"non_dominant_hand\": \"not visible or not carrying the action\",\n        \"temporal_alignment\": \"the action occurs during a pause in signing, following a previous sign and preceding a new one\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's head is tilted back and eyes are looking upward, which is a common nonmanual marker in TSL for expressing uncertainty, seeking clarification, or indicating a lack of knowledge. This aligns with the meaning '無從判斷' (cannot judge). The upward gaze also adds affective enrichment, conveying a sense of searching or being at a loss.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not carrying the action",
+          "handshape": "not applicable",
+          "movement": "head tilted back, eyes looking upward, mouth slightly open",
+          "location": "head and face oriented upward",
+          "nonmanual": "eyes looking upward, mouth slightly open",
+          "non_dominant_hand": "not visible or not carrying the action",
+          "temporal_alignment": "the action occurs during a pause in signing, following a previous sign and preceding a new one"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's head is tilted back and eyes are looking upward, which is a common nonmanual marker in TSL for expressing uncertainty, seeking clarification, or indicating a lack of knowledge. This aligns with the meaning '無從判斷' (cannot judge). The upward gaze also adds affective enrichment, conveying a sense of searching or being at a loss."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

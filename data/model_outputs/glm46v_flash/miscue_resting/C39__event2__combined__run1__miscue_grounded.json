@@ -1,0 +1,56 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "face",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C39_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T02:12:37.152454",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"1.30\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand forms a fist, dominant hand extends with open palm\",\n        \"handshape\": \"non-dominant hand: closed fist; dominant hand: open palm\",\n        \"movement\": \"non-dominant hand moves forward and slightly downward, dominant hand moves in a sweeping arc from right to left\",\n        \"location\": \"non-dominant hand moves from chest level forward and down, dominant hand moves from right side of body to left\",\n        \"nonmanual\": \"mouth forms a pout, eyes are narrowed\",\n        \"non_dominant_hand\": \"moves forward and down, then returns to chest\",\n        \"temporal_alignment\": \"part of a longer sequence, starting after a handshape change and ending before a new handshape\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand's forward and downward movement, combined with the dominant hand's sweeping arc, suggests a depiction of effort or overcoming obstacles, which aligns with the meaning of 'can stand on my own' and contributes to the overall message.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "1.30",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand forms a fist, dominant hand extends with open palm",
+          "handshape": "non-dominant hand: closed fist; dominant hand: open palm",
+          "movement": "non-dominant hand moves forward and slightly downward, dominant hand moves in a sweeping arc from right to left",
+          "location": "non-dominant hand moves from chest level forward and down, dominant hand moves from right side of body to left",
+          "nonmanual": "mouth forms a pout, eyes are narrowed",
+          "non_dominant_hand": "moves forward and down, then returns to chest",
+          "temporal_alignment": "part of a longer sequence, starting after a handshape change and ending before a new handshape"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand's forward and downward movement, combined with the dominant hand's sweeping arc, suggests a depiction of effort or overcoming obstacles, which aligns with the meaning of 'can stand on my own' and contributes to the overall message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

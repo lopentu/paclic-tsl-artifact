@@ -1,0 +1,48 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:20:59.240329",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a flat, open palm; left hand forms a flat, open palm\",\n        \"movement\": \"right hand moves downward in a sweeping motion, palm facing inward, while left hand remains relatively stationary with fingers slightly spread\",\n        \"location\": \"right hand moves from the signer's right shoulder area down toward the mid-chest, left hand remains near the chest\",\n        \"nonmanual\": \"signer's mouth is open and moving, indicating speech or emphasis\",\n        \"non_dominant_hand\": \"left hand is relatively stationary, palm facing inward, fingers slightly spread\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The downward sweeping motion of the right hand, combined with the stationary left hand, is a conventionalized sign in TSL that conveys the idea of 'communication' or 'interaction'. The movement is not a simple gesture but a lexical sign that contributes to the propositional content. The mouth movement suggests emphasis, adding pragmatic enrichment to the sign.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a flat, open palm; left hand forms a flat, open palm",
+          "movement": "right hand moves downward in a sweeping motion, palm facing inward, while left hand remains relatively stationary with fingers slightly spread",
+          "location": "right hand moves from the signer's right shoulder area down toward the mid-chest, left hand remains near the chest",
+          "nonmanual": "signer's mouth is open and moving, indicating speech or emphasis",
+          "non_dominant_hand": "left hand is relatively stationary, palm facing inward, fingers slightly spread",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The downward sweeping motion of the right hand, combined with the stationary left hand, is a conventionalized sign in TSL that conveys the idea of 'communication' or 'interaction'. The movement is not a simple gesture but a lexical sign that contributes to the propositional content. The mouth movement suggests emphasis, adding pragmatic enrichment to the sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

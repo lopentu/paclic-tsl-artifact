@@ -1,0 +1,48 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C22_window_model.mp4",
+  "video_id": "S01EP12",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:24:50.197201",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"hands clasped or held together near chest\",\n        \"handshape\": \"not clearly visible\",\n        \"movement\": \"head tilted back and upward, eyes looking up\",\n        \"location\": \"head and torso oriented upward\",\n        \"nonmanual\": \"eyes looking up, mouth slightly open\",\n        \"non_dominant_hand\": \"not visible or not active\",\n        \"temporal_alignment\": \"occurs at the beginning of the clip, preceding a more complex manual gesture\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The head tilt and upward gaze occur at the start of the clip, preceding a manual gesture, suggesting a preparatory or emphatic posture. The upward gaze and open mouth suggest an affective or emphatic stance, possibly indicating a shift in topic or a moment of reflection, which adds to the pragmatic force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "hands clasped or held together near chest",
+          "handshape": "not clearly visible",
+          "movement": "head tilted back and upward, eyes looking up",
+          "location": "head and torso oriented upward",
+          "nonmanual": "eyes looking up, mouth slightly open",
+          "non_dominant_hand": "not visible or not active",
+          "temporal_alignment": "occurs at the beginning of the clip, preceding a more complex manual gesture"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The head tilt and upward gaze occur at the start of the clip, preceding a manual gesture, suggesting a preparatory or emphatic posture. The upward gaze and open mouth suggest an affective or emphatic stance, possibly indicating a shift in topic or a moment of reflection, which adds to the pragmatic force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

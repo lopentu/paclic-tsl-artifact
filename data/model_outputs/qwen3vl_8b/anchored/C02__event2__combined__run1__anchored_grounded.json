@@ -1,0 +1,54 @@
+{
+  "clip_id": "C02",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_c/C02_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:03:14.111479",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from the signer's right temple to the right side of the face, then back to the temple\",\n        \"location\": \"right temple, then right side of face\",\n        \"nonmanual\": \"smiling expression\",\n        \"non_dominant_hand\": \"resting, not actively involved\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture to the head and preceding a gesture to the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's index finger moves from the temple to the side of the face, a gesture that visually represents the idea of 'thinking' or 'considering', which is semantically relevant to the discourse about communication challenges. The accompanying smile adds affective enrichment, indicating a lighthearted or humorous tone to the point being made.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from the signer's right temple to the right side of the face, then back to the temple",
+          "location": "right temple, then right side of face",
+          "nonmanual": "smiling expression",
+          "non_dominant_hand": "resting, not actively involved",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture to the head and preceding a gesture to the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's index finger moves from the temple to the side of the face, a gesture that visually represents the idea of 'thinking' or 'considering', which is semantically relevant to the discourse about communication challenges. The accompanying smile adds affective enrichment, indicating a lighthearted or humorous tone to the point being made."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

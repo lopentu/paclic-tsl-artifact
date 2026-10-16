@@ -1,0 +1,48 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:21:47.209135",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand (right) and non-dominant hand (left)\",\n        \"handshape\": \"dominant hand forms a flat, open palm; non-dominant hand forms a closed fist\",\n        \"movement\": \"dominant hand moves from the signer's chest outward and downward, then sweeps back up; non-dominant hand remains relatively still, held in a fist near the signer's waist\",\n        \"location\": \"dominant hand starts near the signer's chest and moves to the right side of the body (signer's right); non-dominant hand remains near the waist\",\n        \"nonmanual\": \"signer's head is slightly tilted downward, eyes are looking down\",\n        \"non_dominant_hand\": \"held in a closed fist, stationary near the waist\",\n        \"temporal_alignment\": \"the action begins with the dominant hand moving outward and downward, and ends with the dominant hand sweeping back up\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The dominant hand's movement from chest to right side and back up visually represents the action of 'teaching' or 'instructing' someone, which is central to the meaning '我從小就開始教他們手語'. The downward motion suggests the act of imparting knowledge, and the upward motion suggests the completion or continuation of the action. The non-dominant hand's closed fist near the waist may indicate the 'them' or the group being taught, providing a referential anchor for the action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand (right) and non-dominant hand (left)",
+          "handshape": "dominant hand forms a flat, open palm; non-dominant hand forms a closed fist",
+          "movement": "dominant hand moves from the signer's chest outward and downward, then sweeps back up; non-dominant hand remains relatively still, held in a fist near the signer's waist",
+          "location": "dominant hand starts near the signer's chest and moves to the right side of the body (signer's right); non-dominant hand remains near the waist",
+          "nonmanual": "signer's head is slightly tilted downward, eyes are looking down",
+          "non_dominant_hand": "held in a closed fist, stationary near the waist",
+          "temporal_alignment": "the action begins with the dominant hand moving outward and downward, and ends with the dominant hand sweeping back up"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The dominant hand's movement from chest to right side and back up visually represents the action of 'teaching' or 'instructing' someone, which is central to the meaning '我從小就開始教他們手語'. The downward motion suggests the act of imparting knowledge, and the upward motion suggests the completion or continuation of the action. The non-dominant hand's closed fist near the waist may indicate the 'them' or the group being taught, providing a referential anchor for the action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

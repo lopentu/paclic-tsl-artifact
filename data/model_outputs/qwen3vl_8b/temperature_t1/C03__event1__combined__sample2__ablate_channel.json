@@ -1,0 +1,55 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S01EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1364317829,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:08:05.854616",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fists\",\n        \"movement\": \"both fists move upward from chest level to the level of the eyes, then the signer grimaces and lowers the fists\",\n        \"location\": \"starts near chest, moves to eye level\",\n        \"nonmanual\": \"the signer makes a grimacing facial expression with eyes squeezed shut and mouth puckered\",\n        \"non_dominant_hand\": \"moves in coordination with the dominant hand\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the clip and is followed by a hand gesture indicating 'one' with the right index finger\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 3,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves both fists moving to eye level and a grimace, which visually enacts the idea of 'tense' or 'straining' in the context of teaching techniques. The movement and facial expression vividly depict the physical effort or difficulty implied by the phrase '聾老師和聽老師教學技巧不同' (Deaf teachers and hearing teachers have different teaching techniques), suggesting a contrast in physical or emotional effort.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fists",
+          "movement": "both fists move upward from chest level to the level of the eyes, then the signer grimaces and lowers the fists",
+          "location": "starts near chest, moves to eye level",
+          "nonmanual": "the signer makes a grimacing facial expression with eyes squeezed shut and mouth puckered",
+          "non_dominant_hand": "moves in coordination with the dominant hand",
+          "temporal_alignment": "the action occurs at the beginning of the clip and is followed by a hand gesture indicating 'one' with the right index finger"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 3,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves both fists moving to eye level and a grimace, which visually enacts the idea of 'tense' or 'straining' in the context of teaching techniques. The movement and facial expression vividly depict the physical effort or difficulty implied by the phrase '聾老師和聽老師教學技巧不同' (Deaf teachers and hearing teachers have different teaching techniques), suggesting a contrast in physical or emotional effort."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

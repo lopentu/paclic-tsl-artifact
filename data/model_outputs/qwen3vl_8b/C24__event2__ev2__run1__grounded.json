@@ -1,0 +1,48 @@
+{
+  "clip_id": "C24",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:29:09.377438",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb and index finger extended, forming a 'pinch' or 'OK' gesture\",\n        \"movement\": \"the hand moves from near the signer's chin/neck area down and slightly outward, then back up toward the chin, with a slight circular motion\",\n        \"location\": \"starts near the signer's chin, moves to the front of the chest, then returns to near the chin\",\n        \"nonmanual\": \"signer's mouth is open and moving as if speaking, eyes are focused forward\",\n        \"non_dominant_hand\": \"resting on the lap, not moving\",\n        \"temporal_alignment\": \"the action begins after a brief pause and is followed by continued signing\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL that conveys 'part' or 'some' (e.g., a sign for 'some' or 'part' that involves a pinching motion). The movement from chin to chest and back suggests a referential or emphatic gesture, reinforcing the idea of 'part' or 'some' within the discourse structure. The signer's facial expression and open mouth indicate active production of the signed utterance, supporting the semantic load.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb and index finger extended, forming a 'pinch' or 'OK' gesture",
+          "movement": "the hand moves from near the signer's chin/neck area down and slightly outward, then back up toward the chin, with a slight circular motion",
+          "location": "starts near the signer's chin, moves to the front of the chest, then returns to near the chin",
+          "nonmanual": "signer's mouth is open and moving as if speaking, eyes are focused forward",
+          "non_dominant_hand": "resting on the lap, not moving",
+          "temporal_alignment": "the action begins after a brief pause and is followed by continued signing"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL that conveys 'part' or 'some' (e.g., a sign for 'some' or 'part' that involves a pinching motion). The movement from chin to chest and back suggests a referential or emphatic gesture, reinforcing the idea of 'part' or 'some' within the discourse structure. The signer's facial expression and open mouth indicate active production of the signed utterance, supporting the semantic load."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,69 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "non_dominant_hand",
+  "prompt_from": {
+    "clip_id": "C12",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP09",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 0.8000000000000114
+  },
+  "video_from": {
+    "clip_id": "C36",
+    "event_id": "event1",
+    "video_id": "S04-3EP05",
+    "target_channel": "non_dominant_hand",
+    "duration": 1.3000000000000114
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.8000000000000114,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C36_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C36_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:50:12.823812",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves from right to left, then downward, then upward\",\n        \"location\": \"starts near the signer's right shoulder, moves across the chest, then up and out\",\n        \"nonmanual\": \"mouth open, eyes wide\",\n        \"non_dominant_hand\": \"index finger extended, other fingers curled, moves from right to left, then downward, then upward\",\n        \"temporal_alignment\": \"starts with the signer's dominant hand making a pointing gesture, then the non-dominant hand moves in, then the dominant hand moves out\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The non-dominant hand's movement from right to left, then downward, then upward, combined with the open mouth and wide eyes, suggests a strong affective or emphatic contribution. The handshape and movement are consistent with a lexical sign that carries propositional content, likely indicating a contrast or a shift in the discourse structure.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves from right to left, then downward, then upward",
+          "location": "starts near the signer's right shoulder, moves across the chest, then up and out",
+          "nonmanual": "mouth open, eyes wide",
+          "non_dominant_hand": "index finger extended, other fingers curled, moves from right to left, then downward, then upward",
+          "temporal_alignment": "starts with the signer's dominant hand making a pointing gesture, then the non-dominant hand moves in, then the dominant hand moves out"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The non-dominant hand's movement from right to left, then downward, then upward, combined with the open mouth and wide eyes, suggests a strong affective or emphatic contribution. The handshape and movement are consistent with a lexical sign that carries propositional content, likely indicating a contrast or a shift in the discourse structure."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

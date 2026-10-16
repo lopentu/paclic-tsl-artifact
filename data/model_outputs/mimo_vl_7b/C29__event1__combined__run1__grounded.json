@@ -1,0 +1,50 @@
+{
+  "clip_id": "C29",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C29_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:04:59.798169",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used, the dominant hand (right) is in front and the non-dominant hand (left) is behind it.\",\n        \"handshape\": \"The dominant hand is a 'V' handshape (index and middle fingers extended). The non-dominant hand is a 'C' handshape (pinky and thumb extended, other fingers curled in).\",\n        \"movement\": \"The dominant hand moves forward and slightly down from a position near the signer's right shoulder. The non-dominant hand moves forward and down from a position near the signer's left shoulder, following the dominant hand's path.\",\n        \"location\": \"In front of the signer's upper chest, at head height.\",\n        \"nonmanual\": \"The signer's head is tilted back and to their right. Their mouth is open as they are speaking or signing.\",\n        \"non_dominant_hand\": \"The non-dominant hand is active, mirroring the dominant hand's movement but slightly delayed and from a position further back.\",\n        \"temporal_alignment\": \"The action is a continuous movement that begins as the signer leans back and starts the sign, and continues as they lean forward into the next part of the sign.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The coordinated movement of two hands in a specific location and manner is a conventional sign in Taiwan Sign Language. The given meaning is about a feeling of resistance, and this sign is a standard way to express that concept. The head tilt and body lean add a strong affective layer, suggesting reluctance or being pushed back.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used, the dominant hand (right) is in front and the non-dominant hand (left) is behind it.",
+          "handshape": "The dominant hand is a 'V' handshape (index and middle fingers extended). The non-dominant hand is a 'C' handshape (pinky and thumb extended, other fingers curled in).",
+          "movement": "The dominant hand moves forward and slightly down from a position near the signer's right shoulder. The non-dominant hand moves forward and down from a position near the signer's left shoulder, following the dominant hand's path.",
+          "location": "In front of the signer's upper chest, at head height.",
+          "nonmanual": "The signer's head is tilted back and to their right. Their mouth is open as they are speaking or signing.",
+          "non_dominant_hand": "The non-dominant hand is active, mirroring the dominant hand's movement but slightly delayed and from a position further back.",
+          "temporal_alignment": "The action is a continuous movement that begins as the signer leans back and starts the sign, and continues as they lean forward into the next part of the sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The coordinated movement of two hands in a specific location and manner is a conventional sign in Taiwan Sign Language. The given meaning is about a feeling of resistance, and this sign is a standard way to express that concept. The head tilt and body lean add a strong affective layer, suggesting reluctance or being pushed back."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C10",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:13:48.934477",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends forward and upward, then moves slightly inward toward the chest\",\n        \"location\": \"starts near the signer's right temple, moves to the front and inward\",\n        \"nonmanual\": \"signer's eyes look forward, mouth slightly open\",\n        \"non_dominant_hand\": \"resting on the signer's chest\",\n        \"temporal_alignment\": \"the action begins after a hand gesture near the temple and ends before the signer brings both hands together over the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The index finger gesture is a conventionalized lexical sign in TSL, likely representing 'teacher' or 'instructor', which is essential to the meaning '跟一位好的手語老師'. The upward and inward movement adds emphasis and directionality, enhancing the affective tone of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends forward and upward, then moves slightly inward toward the chest",
+          "location": "starts near the signer's right temple, moves to the front and inward",
+          "nonmanual": "signer's eyes look forward, mouth slightly open",
+          "non_dominant_hand": "resting on the signer's chest",
+          "temporal_alignment": "the action begins after a hand gesture near the temple and ends before the signer brings both hands together over the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The index finger gesture is a conventionalized lexical sign in TSL, likely representing 'teacher' or 'instructor', which is essential to the meaning '跟一位好的手語老師'. The upward and inward movement adds emphasis and directionality, enhancing the affective tone of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "non_dominant_hand",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:18:32.402128",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers extended\",\n        \"movement\": \"both hands move upward from below chest level to above head level in a sweeping motion, then return downward\",\n        \"location\": \"starts near chest, moves upward and outward, then returns inward and downward\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"moves in coordination with dominant hand, no independent action\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 1.1s, spans the entire target window, and is not preceded or followed by a distinct sign\"\n      },\n      \"semantic_syntactic_load\": 3,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The upward sweeping motion of both hands from chest to above head level is a conventionalized lexical sign in TSL for 'law' or 'act', which is essential to the propositional content of the clause. The motion is also visually emphatic and vivid, enhancing the declarative force of the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers extended",
+          "movement": "both hands move upward from below chest level to above head level in a sweeping motion, then return downward",
+          "location": "starts near chest, moves upward and outward, then returns inward and downward",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "moves in coordination with dominant hand, no independent action",
+          "temporal_alignment": "the action begins at 0.3s and ends at 1.1s, spans the entire target window, and is not preceded or followed by a distinct sign"
+        },
+        "semantic_syntactic_load": 3,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The upward sweeping motion of both hands from chest to above head level is a conventionalized lexical sign in TSL for 'law' or 'act', which is essential to the propositional content of the clause. The motion is also visually emphatic and vivid, enhancing the declarative force of the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

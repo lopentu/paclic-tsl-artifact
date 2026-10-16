@@ -1,0 +1,55 @@
+{
+  "clip_id": "C04",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S01EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 344974481,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:23:19.934748",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression with pursed lips and focused gaze, remaining relatively still\",\n        \"location\": \"face\",\n        \"nonmanual\": \"pursed lips, focused gaze\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression begins at 0.3s and persists through 1.0s, coinciding with the signing of the phrase '你們若對台灣手語教學、聾人文化有興趣'\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer maintains a focused gaze and pursed lips throughout the target span, which visually reinforces the seriousness or importance of the topic being introduced. The facial expression appears to convey a tone of earnestness or invitation, which adds pragmatic enrichment to the propositional content without being a grammatical marker.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression with pursed lips and focused gaze, remaining relatively still",
+          "location": "face",
+          "nonmanual": "pursed lips, focused gaze",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression begins at 0.3s and persists through 1.0s, coinciding with the signing of the phrase '你們若對台灣手語教學、聾人文化有興趣'"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer maintains a focused gaze and pursed lips throughout the target span, which visually reinforces the seriousness or importance of the topic being introduced. The facial expression appears to convey a tone of earnestness or invitation, which adds pragmatic enrichment to the propositional content without being a grammatical marker."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

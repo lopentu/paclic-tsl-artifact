@@ -1,0 +1,55 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1428736119,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:34:30.365244",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression changes from neutral to a look of concern or warning\",\n        \"location\": \"face\",\n        \"nonmanual\": \"mouth slightly open, eyebrows raised, eyes focused forward\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"begins with the signer's mouth opening and ends as the signer brings both hands to their face in a gesture of caution\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's facial expression, with raised eyebrows and a focused gaze, conveys urgency and danger, which aligns with the meaning 'if you are in the middle of the road or in a dangerous position'. The expression adds strong affective enrichment, emphasizing the seriousness of the situation.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression changes from neutral to a look of concern or warning",
+          "location": "face",
+          "nonmanual": "mouth slightly open, eyebrows raised, eyes focused forward",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "begins with the signer's mouth opening and ends as the signer brings both hands to their face in a gesture of caution"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's facial expression, with raised eyebrows and a focused gaze, conveys urgency and danger, which aligns with the meaning 'if you are in the middle of the road or in a dangerous position'. The expression adds strong affective enrichment, emphasizing the seriousness of the situation."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

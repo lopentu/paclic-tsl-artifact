@@ -1,0 +1,53 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/static/C35_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:54:10.514654",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"dominant hand near face, fingers near eye area\",\n        \"handshape\": \"not clearly visible\",\n        \"movement\": \"minimal movement, hand held steady near the eye\",\n        \"location\": \"dominant hand positioned near the right eye\",\n        \"nonmanual\": \"eyes slightly narrowed, focused gaze\",\n        \"non_dominant_hand\": \"extended index finger pointing forward\",\n        \"temporal_alignment\": \"the action occurs within a sustained signing unit, framed by other gestures\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand near the eye, combined with the focused gaze, visually represents the concept of 'seeing' or 'perceiving' as part of the phrase 'because the other party or police may not know sign language'. The extended index finger points forward, indicating the referent 'the other party or police' in the discourse.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "dominant hand near face, fingers near eye area",
+          "handshape": "not clearly visible",
+          "movement": "minimal movement, hand held steady near the eye",
+          "location": "dominant hand positioned near the right eye",
+          "nonmanual": "eyes slightly narrowed, focused gaze",
+          "non_dominant_hand": "extended index finger pointing forward",
+          "temporal_alignment": "the action occurs within a sustained signing unit, framed by other gestures"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand near the eye, combined with the focused gaze, visually represents the concept of 'seeing' or 'perceiving' as part of the phrase 'because the other party or police may not know sign language'. The extended index finger points forward, indicating the referent 'the other party or police' in the discourse."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

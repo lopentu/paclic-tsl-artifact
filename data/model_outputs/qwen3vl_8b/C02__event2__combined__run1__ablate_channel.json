@@ -1,0 +1,48 @@
+{
+  "clip_id": "C02",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:46:30.608188",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's right temple, tracing a path down the side of the head to the chin, then moves outward and downward\",\n        \"location\": \"begins near the right temple, moves down the side of the head, ends near the chin\",\n        \"nonmanual\": \"signer smiles slightly\",\n        \"non_dominant_hand\": \"resting near the chest\",\n        \"temporal_alignment\": \"starts with the signer's right index finger near the temple, then moves down the side of the head to the chin, then moves outward and downward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's index finger traces a path from the temple down the side of the head to the chin, a gesture that visually represents the idea of 'thinking' or 'considering' as part of the discourse about communication challenges. The gesture is accompanied by a slight smile, adding affective enrichment to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's right temple, tracing a path down the side of the head to the chin, then moves outward and downward",
+          "location": "begins near the right temple, moves down the side of the head, ends near the chin",
+          "nonmanual": "signer smiles slightly",
+          "non_dominant_hand": "resting near the chest",
+          "temporal_alignment": "starts with the signer's right index finger near the temple, then moves down the side of the head to the chin, then moves outward and downward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's index finger traces a path from the temple down the side of the head to the chin, a gesture that visually represents the idea of 'thinking' or 'considering' as part of the discourse about communication challenges. The gesture is accompanied by a slight smile, adding affective enrichment to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

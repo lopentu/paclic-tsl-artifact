@@ -1,0 +1,55 @@
+{
+  "clip_id": "C13",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1003902108,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:26:11.298371",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"moves from a higher position downward in a smooth, controlled arc, ending with the palm facing slightly outward\",\n        \"location\": \"begins near the signer's right shoulder level, moves down and forward toward the chest area\",\n        \"nonmanual\": \"signer's face remains neutral, eyes focused forward\",\n        \"non_dominant_hand\": \"the non-dominant hand moves from the upper right side of the signer's body, arcs downward and forward, ending with the palm facing slightly outward\",\n        \"temporal_alignment\": \"the action begins immediately after the signer's dominant hand has completed a gesture and before the dominant hand begins its next movement\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement is a conventionalized lexical sign, not a pointing or depicting gesture. The motion of moving downward and forward with an open palm conveys the idea of 'through' or 'via' as part of the phrase '經過這樣的練習' (through such practice), which is essential for the meaning. The movement adds emphasis and a sense of forward progression, enhancing the pragmatic force of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "moves from a higher position downward in a smooth, controlled arc, ending with the palm facing slightly outward",
+          "location": "begins near the signer's right shoulder level, moves down and forward toward the chest area",
+          "nonmanual": "signer's face remains neutral, eyes focused forward",
+          "non_dominant_hand": "the non-dominant hand moves from the upper right side of the signer's body, arcs downward and forward, ending with the palm facing slightly outward",
+          "temporal_alignment": "the action begins immediately after the signer's dominant hand has completed a gesture and before the dominant hand begins its next movement"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement is a conventionalized lexical sign, not a pointing or depicting gesture. The motion of moving downward and forward with an open palm conveys the idea of 'through' or 'via' as part of the phrase '經過這樣的練習' (through such practice), which is essential for the meaning. The movement adds emphasis and a sense of forward progression, enhancing the pragmatic force of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

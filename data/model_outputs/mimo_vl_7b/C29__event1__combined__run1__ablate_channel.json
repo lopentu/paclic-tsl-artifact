@@ -1,0 +1,50 @@
+{
+  "clip_id": "C29",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C29_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:17:03.486135",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used.\",\n        \"handshape\": \"Both hands are open, with the index finger extended and other fingers curled (a 'V' or 'gun' handshape).\",\n        \"movement\": \"The right hand moves forward and slightly down from a position near the signer's right shoulder. The left hand moves forward and slightly down from a position near the signer's left shoulder. The movement is simultaneous and symmetrical.\",\n        \"location\": \"In front of the signer's upper chest, at about shoulder height.\",\n        \"nonmanual\": \"The signer's head is tilted back slightly. The eyebrows are raised and the mouth is open, consistent with speech or emphasis.\",\n        \"non_dominant_hand\": \"The non-dominant hand is involved in the action, not separate.\",\n        \"temporal_alignment\": \"The action occurs at the beginning of a new phrase, following a brief pause in the previous sign.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The symmetrical, two-handed gesture is a conventional TSL form for a grammatical particle or a specific word, indicating a shift in the clause. The raised eyebrows and open mouth add a layer of affect, suggesting the feeling of 'resistance'.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "Both hands are open, with the index finger extended and other fingers curled (a 'V' or 'gun' handshape).",
+          "movement": "The right hand moves forward and slightly down from a position near the signer's right shoulder. The left hand moves forward and slightly down from a position near the signer's left shoulder. The movement is simultaneous and symmetrical.",
+          "location": "In front of the signer's upper chest, at about shoulder height.",
+          "nonmanual": "The signer's head is tilted back slightly. The eyebrows are raised and the mouth is open, consistent with speech or emphasis.",
+          "non_dominant_hand": "The non-dominant hand is involved in the action, not separate.",
+          "temporal_alignment": "The action occurs at the beginning of a new phrase, following a brief pause in the previous sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The symmetrical, two-handed gesture is a conventional TSL form for a grammatical particle or a specific word, indicating a shift in the clause. The raised eyebrows and open mouth add a layer of affect, suggesting the feeling of 'resistance'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

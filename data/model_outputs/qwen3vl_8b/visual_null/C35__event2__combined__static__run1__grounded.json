@@ -1,0 +1,53 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/static/C35_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:02:11.249671",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open hand, fingers slightly curled\",\n        \"movement\": \"held steady near the right eye, with slight inward movement toward the nose\",\n        \"location\": \"right side of face, near the right eye\",\n        \"nonmanual\": \"no visible facial expression or head movement\",\n        \"non_dominant_hand\": \"thumb extended upward, held steady at shoulder height\",\n        \"temporal_alignment\": \"the action occurs within a sustained signing unit, held steady while the signer's face is static\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and location near the eye are consistent with a lexical sign in TSL that conveys 'eye' or 'sight'. The sustained hold and the context of the phrase 'because the other party or police may not know sign language' suggest this sign is semantically essential for the proposition. The slight inward movement adds a subtle emphasis or affective nuance to the sign.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open hand, fingers slightly curled",
+          "movement": "held steady near the right eye, with slight inward movement toward the nose",
+          "location": "right side of face, near the right eye",
+          "nonmanual": "no visible facial expression or head movement",
+          "non_dominant_hand": "thumb extended upward, held steady at shoulder height",
+          "temporal_alignment": "the action occurs within a sustained signing unit, held steady while the signer's face is static"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and location near the eye are consistent with a lexical sign in TSL that conveys 'eye' or 'sight'. The sustained hold and the context of the phrase 'because the other party or police may not know sign language' suggest this sign is semantically essential for the proposition. The slight inward movement adds a subtle emphasis or affective nuance to the sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

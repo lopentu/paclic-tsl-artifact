@@ -1,0 +1,55 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 903993360,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:36:18.574236",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"thumb extended, fingers curled into a fist\",\n        \"movement\": \"maintains a static handshape, with the thumb extended and pointing downward, remaining in the same location\",\n        \"location\": \"in front of the signer's body, at chest level\",\n        \"nonmanual\": \"signer's face shows a slight smile and a relaxed expression\",\n        \"non_dominant_hand\": \"the non-dominant hand remains stationary, with the thumb extended and pointing downward, as if indicating a specific point or object\",\n        \"temporal_alignment\": \"the action occurs during the signing of the phrase '我從小就開始教他們手語', serving as a static gesture to emphasize the beginning or source of the action\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand remains stationary with the thumb extended, indicating a specific point or object, which aligns with the meaning of '我從小就開始教他們手語' (I started teaching them sign language from a young age). The gesture provides a clear visual anchor for the beginning of the teaching action, contributing to the propositional content by marking the source or starting point. The static nature of the gesture, combined with the relaxed facial expression, adds a sense of emphasis and vividness to the narrative, enhancing the affective and depictive aspects of the signing.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "thumb extended, fingers curled into a fist",
+          "movement": "maintains a static handshape, with the thumb extended and pointing downward, remaining in the same location",
+          "location": "in front of the signer's body, at chest level",
+          "nonmanual": "signer's face shows a slight smile and a relaxed expression",
+          "non_dominant_hand": "the non-dominant hand remains stationary, with the thumb extended and pointing downward, as if indicating a specific point or object",
+          "temporal_alignment": "the action occurs during the signing of the phrase '我從小就開始教他們手語', serving as a static gesture to emphasize the beginning or source of the action"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand remains stationary with the thumb extended, indicating a specific point or object, which aligns with the meaning of '我從小就開始教他們手語' (I started teaching them sign language from a young age). The gesture provides a clear visual anchor for the beginning of the teaching action, contributing to the propositional content by marking the source or starting point. The static nature of the gesture, combined with the relaxed facial expression, adds a sense of emphasis and vividness to the narrative, enhancing the affective and depictive aspects of the signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

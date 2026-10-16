@@ -1,0 +1,36 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "manual",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S04-3EP05",
+  "source_run": "C33__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: fingers curled inward, thumbs pointing inward\n- movement: hands move inward toward the chest, then outward again in a repeated motion\n- location: centered in front of the chest, moving inward and outward\n- nonmanual: signer's face shows a frowning, concerned expression\n- non dominant hand: not visible or not involved\n- temporal alignment: the action occurs within a continuous signing sequence, following a gesture of pointing and preceding a gesture of clapping",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:15:34.794518",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 2,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 3,\n  \"indication\": 0,\n  \"depiction\": 3,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The action’s repeated inward-outward motion with a concerned facial expression strongly conveys emotional weight and hypothetical concern, matching the utterance’s meaning about imagining a traffic accident. It is a conventionalized depiction of internal worry or contemplation, contributing substantively to the propositional content by framing the hypothetical scenario. It does not indicate a specific referent or location, nor is it primarily syntactic, but it vividly enacts the affective stance.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 3,
+    "indication": 0,
+    "depiction": 3,
+    "confidence": 0.95,
+    "reasoning": "The action’s repeated inward-outward motion with a concerned facial expression strongly conveys emotional weight and hypothetical concern, matching the utterance’s meaning about imagining a traffic accident. It is a conventionalized depiction of internal worry or contemplation, contributing substantively to the propositional content by framing the hypothetical scenario. It does not indicate a specific referent or location, nor is it primarily syntactic, but it vividly enacts the affective stance."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

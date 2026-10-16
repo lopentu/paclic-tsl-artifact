@@ -1,0 +1,48 @@
+{
+  "clip_id": "C29",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:32:26.902988",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends upward and slightly forward, then moves in a small arc toward the signer's right side\",\n        \"location\": \"starts near the signer's right shoulder, moves upward and outward\",\n        \"nonmanual\": \"signer's head is tilted slightly back, eyes are looking upward\",\n        \"non_dominant_hand\": \"resting on the signer's lap\",\n        \"temporal_alignment\": \"the action begins with the signer's hand near their shoulder and ends with the hand extended upward and outward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's hand moves upward and outward, which is a common gesture in TSL to indicate 'mother' or 'parent'. The upward motion and the signer's gaze upward suggest a sense of resistance or distance from the mother. The handshape and movement are conventionalized to represent the concept of 'mother' in TSL.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends upward and slightly forward, then moves in a small arc toward the signer's right side",
+          "location": "starts near the signer's right shoulder, moves upward and outward",
+          "nonmanual": "signer's head is tilted slightly back, eyes are looking upward",
+          "non_dominant_hand": "resting on the signer's lap",
+          "temporal_alignment": "the action begins with the signer's hand near their shoulder and ends with the hand extended upward and outward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's hand moves upward and outward, which is a common gesture in TSL to indicate 'mother' or 'parent'. The upward motion and the signer's gaze upward suggest a sense of resistance or distance from the mother. The handshape and movement are conventionalized to represent the concept of 'mother' in TSL."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

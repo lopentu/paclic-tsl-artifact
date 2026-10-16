@@ -1,0 +1,55 @@
+{
+  "clip_id": "C20",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 412454540,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:14:42.485182",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"finger points forward and then moves slightly downward in a small arc\",\n        \"location\": \"centered in front of the signer's chest, moving slightly downward\",\n        \"nonmanual\": \"signer's mouth is slightly open and head is tilted slightly forward\",\n        \"non_dominant_hand\": \"resting on the signer's hip\",\n        \"temporal_alignment\": \"the action begins with the signer pointing forward and ends with the finger moving downward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The finger point gesture is a conventionalized sign in TSL that can indicate direction or refer to a specific entity. The downward movement may emphasize the 'also' or 'as well' aspect of the message. The action is clearly visible and distinct from surrounding signs.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "finger points forward and then moves slightly downward in a small arc",
+          "location": "centered in front of the signer's chest, moving slightly downward",
+          "nonmanual": "signer's mouth is slightly open and head is tilted slightly forward",
+          "non_dominant_hand": "resting on the signer's hip",
+          "temporal_alignment": "the action begins with the signer pointing forward and ends with the finger moving downward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The finger point gesture is a conventionalized sign in TSL that can indicate direction or refer to a specific entity. The downward movement may emphasize the 'also' or 'as well' aspect of the message. The action is clearly visible and distinct from surrounding signs."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

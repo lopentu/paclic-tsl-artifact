@@ -1,0 +1,53 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "manual",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:23:57.113484",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers spread\",\n        \"movement\": \"large sweeping motion from left to right, then downward\",\n        \"location\": \"starts near signer's left shoulder, moves across chest to right side, then down toward waist\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"moves in coordination with dominant hand, mirroring motion\",\n        \"temporal_alignment\": \"begins with a preparatory hold, then executes motion across torso, aligns with beginning of phrase\"\n      },\n      \"semantic_syntactic_load\": 3,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The large, sweeping motion across the torso visually enacts the idea of '大量' (large amount) and '練習' (practice), matching the semantic load of the phrase. The coordinated hand movement and downward motion suggest accumulation or volume, adding vividness and depictive force.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers spread",
+          "movement": "large sweeping motion from left to right, then downward",
+          "location": "starts near signer's left shoulder, moves across chest to right side, then down toward waist",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "moves in coordination with dominant hand, mirroring motion",
+          "temporal_alignment": "begins with a preparatory hold, then executes motion across torso, aligns with beginning of phrase"
+        },
+        "semantic_syntactic_load": 3,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The large, sweeping motion across the torso visually enacts the idea of '大量' (large amount) and '練習' (practice), matching the semantic load of the phrase. The coordinated hand movement and downward motion suggest accumulation or volume, adding vividness and depictive force."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

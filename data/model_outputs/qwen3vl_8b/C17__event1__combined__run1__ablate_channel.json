@@ -1,0 +1,48 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:59:18.517690",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled. Left hand: open palm, facing upward.\",\n        \"movement\": \"Right hand moves downward in a tapping motion onto the open palm of the left hand, then both hands come together in a clapping motion.\",\n        \"location\": \"Center of signer's chest, moving inward toward the body.\",\n        \"nonmanual\": \"Signer's mouth is pursed, and her eyebrows are slightly raised.\",\n        \"non_dominant_hand\": \"Left hand remains relatively stationary, providing a stable base for the right hand's movement.\",\n        \"temporal_alignment\": \"The action occurs within a continuous signing sequence, following a gesture near the head and preceding a thumbs-up sign.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand movement resembles a 'tapping' or 'beating' gesture, which in TSL often conveys a sense of approval or emphasis. The pursed lips and raised eyebrows add affective intensity, suggesting enthusiasm or satisfaction. The action is part of a sequence that conveys positive evaluation, consistent with the meaning 'this course is great'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand: index finger extended, other fingers curled. Left hand: open palm, facing upward.",
+          "movement": "Right hand moves downward in a tapping motion onto the open palm of the left hand, then both hands come together in a clapping motion.",
+          "location": "Center of signer's chest, moving inward toward the body.",
+          "nonmanual": "Signer's mouth is pursed, and her eyebrows are slightly raised.",
+          "non_dominant_hand": "Left hand remains relatively stationary, providing a stable base for the right hand's movement.",
+          "temporal_alignment": "The action occurs within a continuous signing sequence, following a gesture near the head and preceding a thumbs-up sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hand movement resembles a 'tapping' or 'beating' gesture, which in TSL often conveys a sense of approval or emphasis. The pursed lips and raised eyebrows add affective intensity, suggesting enthusiasm or satisfaction. The action is part of a sequence that conveys positive evaluation, consistent with the meaning 'this course is great'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

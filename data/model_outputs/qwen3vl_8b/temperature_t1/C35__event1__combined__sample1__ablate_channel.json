@@ -1,0 +1,55 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1372849761,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:49:48.534174",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled, held slightly lower and closer to the body.\",\n        \"movement\": \"The right hand moves in a small, circular motion, starting near the right shoulder and moving forward and slightly inward. The left hand remains relatively still, pointing forward with the index finger.\",\n        \"location\": \"Right hand: starts near right shoulder, moves to mid-chest level. Left hand: held steady near chest level, pointing forward.\",\n        \"nonmanual\": \"Signer's facial expression is animated, with a smile and wide eyes, conveying enthusiasm or emphasis.\",\n        \"non_dominant_hand\": \"The left hand is held steady, index finger extended, pointing forward.\",\n        \"temporal_alignment\": \"The action begins with the right hand moving in a circular motion and ends with the right hand moving down and the left hand remaining steady.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand's circular motion, combined with the left hand's steady pointing, visually represents the idea of 'not necessarily' or 'not always' in the context of the phrase 'because the other party or police may not sign.' The animated facial expression adds affect and emphasis to the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand: index finger extended, other fingers curled. Left hand: index finger extended, other fingers curled, held slightly lower and closer to the body.",
+          "movement": "The right hand moves in a small, circular motion, starting near the right shoulder and moving forward and slightly inward. The left hand remains relatively still, pointing forward with the index finger.",
+          "location": "Right hand: starts near right shoulder, moves to mid-chest level. Left hand: held steady near chest level, pointing forward.",
+          "nonmanual": "Signer's facial expression is animated, with a smile and wide eyes, conveying enthusiasm or emphasis.",
+          "non_dominant_hand": "The left hand is held steady, index finger extended, pointing forward.",
+          "temporal_alignment": "The action begins with the right hand moving in a circular motion and ends with the right hand moving down and the left hand remaining steady."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand's circular motion, combined with the left hand's steady pointing, visually represents the idea of 'not necessarily' or 'not always' in the context of the phrase 'because the other party or police may not sign.' The animated facial expression adds affect and emphasis to the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

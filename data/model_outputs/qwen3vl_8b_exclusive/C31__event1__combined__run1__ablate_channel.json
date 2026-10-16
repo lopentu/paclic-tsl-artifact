@@ -1,0 +1,49 @@
+{
+  "clip_id": "C31",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C31_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:12:32.623036",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not carrying the action\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head tilted slightly upward and to the right, with a slight smile and raised eyebrows\",\n        \"location\": \"face, centered on the signer's own body\",\n        \"nonmanual\": \"eyes looking upward, mouth slightly open with a smile\",\n        \"non_dominant_hand\": \"not visible or not carrying the action\",\n        \"temporal_alignment\": \"the action occurs during a sustained signing unit, with the signer maintaining this facial expression while continuing to sign with their hands\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's upward gaze and slight smile during the signing of '想太多實在是不好！' convey a tone of mild exasperation or resignation, which adds affective enrichment to the message. The facial expression is sustained throughout the target span, indicating it is an integral part of the signing's expression.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not carrying the action",
+          "handshape": "not applicable",
+          "movement": "head tilted slightly upward and to the right, with a slight smile and raised eyebrows",
+          "location": "face, centered on the signer's own body",
+          "nonmanual": "eyes looking upward, mouth slightly open with a smile",
+          "non_dominant_hand": "not visible or not carrying the action",
+          "temporal_alignment": "the action occurs during a sustained signing unit, with the signer maintaining this facial expression while continuing to sign with their hands"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's upward gaze and slight smile during the signing of '想太多實在是不好！' convey a tone of mild exasperation or resignation, which adds affective enrichment to the message. The facial expression is sustained throughout the target span, indicating it is an integral part of the signing's expression."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

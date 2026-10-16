@@ -1,0 +1,49 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:05:44.823385",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled\",\n        \"movement\": \"right hand moves from a position near the signer's chest upward and outward, then downward and inward; left hand remains relatively stationary, with index finger extended and pointing forward\",\n        \"location\": \"right hand moves from chest level to shoulder level, then back down; left hand remains near chest level, pointing forward\",\n        \"nonmanual\": \"signer's mouth is open, lips are pursed, and eyes are focused forward\",\n        \"non_dominant_hand\": \"left hand is stationary, index finger extended and pointing forward\",\n        \"temporal_alignment\": \"the action begins with the right hand moving upward and outward, and ends with the right hand moving downward and inward, while the left hand remains stationary\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand's movement from chest to shoulder level and back down, combined with the left hand's stationary pointing, visually represents the act of 'pointing' or 'indicating' something, which is a common gesture in TSL to show direction or emphasis. The signer's facial expression, with pursed lips and focused eyes, adds affective enrichment, suggesting a sense of emphasis or importance to the action being performed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled",
+          "movement": "right hand moves from a position near the signer's chest upward and outward, then downward and inward; left hand remains relatively stationary, with index finger extended and pointing forward",
+          "location": "right hand moves from chest level to shoulder level, then back down; left hand remains near chest level, pointing forward",
+          "nonmanual": "signer's mouth is open, lips are pursed, and eyes are focused forward",
+          "non_dominant_hand": "left hand is stationary, index finger extended and pointing forward",
+          "temporal_alignment": "the action begins with the right hand moving upward and outward, and ends with the right hand moving downward and inward, while the left hand remains stationary"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand's movement from chest to shoulder level and back down, combined with the left hand's stationary pointing, visually represents the act of 'pointing' or 'indicating' something, which is a common gesture in TSL to show direction or emphasis. The signer's facial expression, with pursed lips and focused eyes, adds affective enrichment, suggesting a sense of emphasis or importance to the action being performed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

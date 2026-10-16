@@ -1,0 +1,49 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:06:03.185533",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves upward from below the face to the eye level, then slightly inward toward the face\",\n        \"location\": \"starts near the chest, moves to the right side of the face (signer's left)\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"resting, not actively involved\",\n        \"temporal_alignment\": \"occurs within a continuous signing stretch, not isolated\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand moves toward the face in a gesture that visually represents the act of 'seeing' or 'watching', which aligns with the meaning of '有錄影才知道' (only know after recording). The movement is not a lexical sign but a depictive gesture that adds vividness to the self-reflective statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "moves upward from below the face to the eye level, then slightly inward toward the face",
+          "location": "starts near the chest, moves to the right side of the face (signer's left)",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "resting, not actively involved",
+          "temporal_alignment": "occurs within a continuous signing stretch, not isolated"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hand moves toward the face in a gesture that visually represents the act of 'seeing' or 'watching', which aligns with the meaning of '有錄影才知道' (only know after recording). The movement is not a lexical sign but a depictive gesture that adds vividness to the self-reflective statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

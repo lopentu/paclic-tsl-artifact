@@ -1,0 +1,49 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:16:20.878431",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not carrying the action\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth opens wide, tongue protrudes, then retracts; facial expression shifts from intense to neutral\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"mouth and tongue movement, facial expression\",\n        \"non_dominant_hand\": \"not visible or not carrying the action\",\n        \"temporal_alignment\": \"the action occurs during the signing of the phrase '就算聽不到聲音也沒關係' and precedes the transition to '我可以自立自強'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The facial expression, with the tongue protruding and mouth wide open, visually emphasizes the speaker's determination and resilience, aligning with the meaning 'I can be self-reliant'. The action is not a lexical sign but a strong affective gesture that enhances the speaker's stance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not carrying the action",
+          "handshape": "not applicable",
+          "movement": "mouth opens wide, tongue protrudes, then retracts; facial expression shifts from intense to neutral",
+          "location": "center of face",
+          "nonmanual": "mouth and tongue movement, facial expression",
+          "non_dominant_hand": "not visible or not carrying the action",
+          "temporal_alignment": "the action occurs during the signing of the phrase '就算聽不到聲音也沒關係' and precedes the transition to '我可以自立自強'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The facial expression, with the tongue protruding and mouth wide open, visually emphasizes the speaker's determination and resilience, aligning with the meaning 'I can be self-reliant'. The action is not a lexical sign but a strong affective gesture that enhances the speaker's stance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

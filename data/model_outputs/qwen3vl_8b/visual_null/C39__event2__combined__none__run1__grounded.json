@@ -1,0 +1,53 @@
+{
+  "clip_id": "C39",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "face",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T12:23:17.697307",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.3\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression with slight head tilt and steady gaze\",\n        \"location\": \"centered on signer’s face, forward-facing\",\n        \"nonmanual\": \"mouth slightly open, eyebrows neutral, eyes focused forward\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with initial signing, spans full target span, no clear pause or sign boundary\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.85,\n      \"observable_evidence\": \"The facial expression remains steady and focused, suggesting emphasis on self-reliance and resilience, aligning with the meaning 'even if you can't hear, it's okay, I can be self-reliant.' The slight head tilt and open mouth may indicate assertive tone, enhancing the pragmatic stance without altering core propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.3",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression with slight head tilt and steady gaze",
+          "location": "centered on signer’s face, forward-facing",
+          "nonmanual": "mouth slightly open, eyebrows neutral, eyes focused forward",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with initial signing, spans full target span, no clear pause or sign boundary"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.85,
+        "observable_evidence": "The facial expression remains steady and focused, suggesting emphasis on self-reliance and resilience, aligning with the meaning 'even if you can't hear, it's okay, I can be self-reliant.' The slight head tilt and open mouth may indicate assertive tone, enhancing the pragmatic stance without altering core propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

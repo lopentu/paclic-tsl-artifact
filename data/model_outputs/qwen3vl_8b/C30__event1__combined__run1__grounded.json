@@ -1,0 +1,48 @@
+{
+  "clip_id": "C30",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C30_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:33:22.583963",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"extends index finger upward and slightly forward, then retracts\",\n        \"location\": \"right side of signer's body, moving from chest level to above shoulder level\",\n        \"nonmanual\": \"signer's head is slightly tilted forward, mouth is open\",\n        \"non_dominant_hand\": \"resting on chest\",\n        \"temporal_alignment\": \"occurs within a continuous signing stretch, immediately following a preparatory gesture and preceding a more complex hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The upward-pointing index finger gesture is a conventionalized lexical sign in TSL, often used to indicate a specific point in time or to mark a key event in a narrative, which aligns with the meaning 'at that time'. The gesture is also used to emphasize or highlight the referent, contributing to the pragmatic enrichment of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "extends index finger upward and slightly forward, then retracts",
+          "location": "right side of signer's body, moving from chest level to above shoulder level",
+          "nonmanual": "signer's head is slightly tilted forward, mouth is open",
+          "non_dominant_hand": "resting on chest",
+          "temporal_alignment": "occurs within a continuous signing stretch, immediately following a preparatory gesture and preceding a more complex hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The upward-pointing index finger gesture is a conventionalized lexical sign in TSL, often used to indicate a specific point in time or to mark a key event in a narrative, which aligns with the meaning 'at that time'. The gesture is also used to emphasize or highlight the referent, contributing to the pragmatic enrichment of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

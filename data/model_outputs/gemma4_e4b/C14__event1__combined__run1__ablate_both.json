@@ -1,0 +1,61 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C14_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T22:43:58.338941",
+  "backend_call_info": {
+    "frames_per_video": [
+      72,
+      40
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.3692
+    ],
+    "input_tokens": 10237,
+    "output_tokens": 322
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:01.0\",\n      \"end_time\": \"00:02.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Open, slightly cupped\",\n        \"movement\": \"Moving outward and slightly forward from the chest area, then slightly inward\",\n        \"location\": \"In front of the signer's chest/torso\",\n        \"nonmanual\": \"Neutral\",\n        \"non_dominant_hand\": \"Not distinctly separate from the dominant hand movement\",\n        \"temporal_alignment\": \"The action occurs within a continuous flow of signing, appearing to be part of a larger gestural unit.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.85,\n      \"observable_evidence\": \"The hands move outward and then slightly inward in a sweeping motion in front of the signer's body. This gesture seems to be used to emphasize or frame the concept being signed.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:01.0",
+        "end_time": "00:02.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Open, slightly cupped",
+          "movement": "Moving outward and slightly forward from the chest area, then slightly inward",
+          "location": "In front of the signer's chest/torso",
+          "nonmanual": "Neutral",
+          "non_dominant_hand": "Not distinctly separate from the dominant hand movement",
+          "temporal_alignment": "The action occurs within a continuous flow of signing, appearing to be part of a larger gestural unit."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.85,
+        "observable_evidence": "The hands move outward and then slightly inward in a sweeping motion in front of the signer's body. This gesture seems to be used to emphasize or frame the concept being signed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

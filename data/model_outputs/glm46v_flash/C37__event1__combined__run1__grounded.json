@@ -1,0 +1,61 @@
+{
+  "clip_id": "C37",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C37_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T19:38:19.506430",
+  "backend_call_info": {
+    "frames_per_video": [
+      82,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.7535,
+      14.5309
+    ],
+    "input_tokens": 10932,
+    "output_tokens": 259
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"both hands not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"not applicable\",\n        \"location\": \"not applicable\",\n        \"nonmanual\": \"eyes closed, mouth forming a pout or slight frown\",\n        \"non_dominant_hand\": \"not applicable\",\n        \"temporal_alignment\": \"part of a longer sign sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The signer's eyes are closed and mouth is pouted during the target span, which is a nonmanual feature often used to convey negation or emphasis in sign language, contributing to the pragmatic/affective aspect of the signing.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "both hands not visible",
+          "handshape": "not applicable",
+          "movement": "not applicable",
+          "location": "not applicable",
+          "nonmanual": "eyes closed, mouth forming a pout or slight frown",
+          "non_dominant_hand": "not applicable",
+          "temporal_alignment": "part of a longer sign sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The signer's eyes are closed and mouth is pouted during the target span, which is a nonmanual feature often used to convey negation or emphasis in sign language, contributing to the pragmatic/affective aspect of the signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

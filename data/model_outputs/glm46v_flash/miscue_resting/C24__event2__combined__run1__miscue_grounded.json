@@ -1,0 +1,56 @@
+{
+  "clip_id": "C24",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C24_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C24_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:58:23.336058",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.70\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand is raised and moves, dominant hand is lowered and rests\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves from near the mouth/chest area outward and slightly downward\",\n        \"location\": \"in front of the torso, at chest level\",\n        \"nonmanual\": \"mouth is open and speaking, head is slightly tilted\",\n        \"non_dominant_hand\": \"moves from a raised position near the mouth to a lower position, palm facing outward\",\n        \"temporal_alignment\": \"occurs during a pause between other signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand moves outward from the chest area, which is a common gesture for indicating a group or a general concept, contributing to the pragmatic emphasis of the phrase.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.70",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand is raised and moves, dominant hand is lowered and rests",
+          "handshape": "open palm",
+          "movement": "moves from near the mouth/chest area outward and slightly downward",
+          "location": "in front of the torso, at chest level",
+          "nonmanual": "mouth is open and speaking, head is slightly tilted",
+          "non_dominant_hand": "moves from a raised position near the mouth to a lower position, palm facing outward",
+          "temporal_alignment": "occurs during a pause between other signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand moves outward from the chest area, which is a common gesture for indicating a group or a general concept, contributing to the pragmatic emphasis of the phrase."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

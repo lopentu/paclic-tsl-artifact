@@ -1,0 +1,36 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "non_dominant_hand",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S04-3EP05",
+  "source_run": "C36__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 1,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: index finger extended, other fingers curled\n- movement: moves from right to left, then downward, then upward\n- location: starts near the signer's right shoulder, moves across the signer's chest, then up and out\n- nonmanual: mouth open, eyes wide\n- non dominant hand: index finger extended, other fingers curled, moves from right to left, then downward, then upward\n- temporal alignment: starts with the signer's dominant hand making a pointing gesture, then the non-dominant hand moves in, then the signer's dominant hand moves out",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:16:01.030807",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 2,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 3,\n  \"indication\": 2,\n  \"depiction\": 3,\n  \"confidence\": 0.9,\n  \"reasoning\": \"The action depicts a gesture of offering or presenting information (e.g., leaving contact details), which is central to the propositional content. The nonmanual features (wide eyes, open mouth) and movement path suggest emphasis and affective enrichment. The handshape and movement are conventionalized for 'leaving contact' or 'providing information,' and the pointing gesture indicates a referent (e.g., witnesses). The depiction is strong as it enacts the act of offering contact details.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 3,
+    "indication": 2,
+    "depiction": 3,
+    "confidence": 0.9,
+    "reasoning": "The action depicts a gesture of offering or presenting information (e.g., leaving contact details), which is central to the propositional content. The nonmanual features (wide eyes, open mouth) and movement path suggest emphasis and affective enrichment. The handshape and movement are conventionalized for 'leaving contact' or 'providing information,' and the pointing gesture indicates a referent (e.g., witnesses). The depiction is strong as it enacts the act of offering contact details."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C09_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:10:40.051292",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Index fingers extended, other fingers curled; both hands form a 'V' or 'pinch' shape\",\n        \"movement\": \"Both hands move upward and slightly outward from the chest, then the right hand moves slightly forward and upward while the left hand remains relatively stationary, forming a pointing gesture\",\n        \"location\": \"Starting near the chest, moving to the upper right side of the signer's body\",\n        \"nonmanual\": \"Signer's head tilts slightly upward and to the right, eyes look upward\",\n        \"non_dominant_hand\": \"Left hand remains relatively stationary near the chest while the right hand moves\",\n        \"temporal_alignment\": \"Occurs within a continuous signing sequence, following a gesture near the chest and preceding a downward hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The upward movement and pointing gesture with both index fingers, combined with the upward head tilt, strongly suggest a directional or referential function, likely indicating a specific location or entity. The gesture is not a simple lexical sign but a directional indicator, contributing to the propositional content by specifying where something is or where attention should be directed. The upward gaze and head tilt enhance the emphasis and directionality of the gesture, adding affective and depictive force.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Index fingers extended, other fingers curled; both hands form a 'V' or 'pinch' shape",
+          "movement": "Both hands move upward and slightly outward from the chest, then the right hand moves slightly forward and upward while the left hand remains relatively stationary, forming a pointing gesture",
+          "location": "Starting near the chest, moving to the upper right side of the signer's body",
+          "nonmanual": "Signer's head tilts slightly upward and to the right, eyes look upward",
+          "non_dominant_hand": "Left hand remains relatively stationary near the chest while the right hand moves",
+          "temporal_alignment": "Occurs within a continuous signing sequence, following a gesture near the chest and preceding a downward hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The upward movement and pointing gesture with both index fingers, combined with the upward head tilt, strongly suggest a directional or referential function, likely indicating a specific location or entity. The gesture is not a simple lexical sign but a directional indicator, contributing to the propositional content by specifying where something is or where attention should be directed. The upward gaze and head tilt enhance the emphasis and directionality of the gesture, adding affective and depictive force."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

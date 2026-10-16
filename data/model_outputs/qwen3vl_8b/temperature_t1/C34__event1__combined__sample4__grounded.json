@@ -1,0 +1,55 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1263295956,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:04:45.507325",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"mouth opens and closes, eyebrows raise and lower, eyes widen and narrow\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression changes dynamically\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"starts with the signer's mouth opening at 0.3s and ends with her facial expression settling at 1.2s, concurrent with the signing of the phrase about being in the middle of the road\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The facial expression is dynamic and changes throughout the span, conveying concern or urgency, which aligns with the context of being in a dangerous location. The mouth movements are synchronized with the signing, suggesting they are part of the grammatical structure of the phrase.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "mouth opens and closes, eyebrows raise and lower, eyes widen and narrow",
+          "location": "face",
+          "nonmanual": "facial expression changes dynamically",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "starts with the signer's mouth opening at 0.3s and ends with her facial expression settling at 1.2s, concurrent with the signing of the phrase about being in the middle of the road"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The facial expression is dynamic and changes throughout the span, conveying concern or urgency, which aligns with the context of being in a dangerous location. The mouth movements are synchronized with the signing, suggesting they are part of the grammatical structure of the phrase."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

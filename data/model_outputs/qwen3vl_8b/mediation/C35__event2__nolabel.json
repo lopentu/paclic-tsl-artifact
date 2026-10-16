@@ -1,0 +1,36 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "manual",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S04-3EP05",
+  "source_run": "C35__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 1,
+    "depiction": 1
+  },
+  "description_sent": "- handshape: index finger extended, other fingers curled\n- movement: moves from near the signer's face upward and slightly outward, then downward toward the forehead\n- location: starts near the signer's right eye, moves to the forehead\n- nonmanual: signer's facial expression is serious and focused\n- non dominant hand: held steady, index finger extended, pointing forward\n- temporal alignment: the action occurs within a continuous signing sequence, immediately following a gesture with both hands and preceding a gesture with the dominant hand moving toward the face",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:15:55.808607",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 2,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 3,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.9,\n  \"reasoning\": \"The gesture with the index finger moving from near the eye to the forehead, combined with a serious facial expression, likely encodes a conventionalized meaning related to 'not necessarily' or 'uncertainty' (as in the utterance 'because the other party or police may not necessarily use sign language'). It adds affective emphasis and vividness (pragmatic enrichment), and while it points forward (indication), its primary function is depictive (enacting the idea of uncertainty or limitation). The action is not purely syntactic but contributes substantively to the propositional content.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 3,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.9,
+    "reasoning": "The gesture with the index finger moving from near the eye to the forehead, combined with a serious facial expression, likely encodes a conventionalized meaning related to 'not necessarily' or 'uncertainty' (as in the utterance 'because the other party or police may not necessarily use sign language'). It adds affective emphasis and vividness (pragmatic enrichment), and while it points forward (indication), its primary function is depictive (enacting the idea of uncertainty or limitation). The action is not purely syntactic but contributes substantively to the propositional content."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

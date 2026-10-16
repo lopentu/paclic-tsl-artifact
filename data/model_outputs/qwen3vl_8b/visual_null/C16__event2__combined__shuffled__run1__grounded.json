@@ -1,0 +1,53 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C16_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:09:59.654174",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves from the signer's right side (signer's left) toward the center of the body, then downward in a smooth arc\",\n        \"location\": \"starts near the signer's right shoulder/upper chest area, moves across the midline, ends near the signer's lower chest\",\n        \"nonmanual\": \"no significant facial or head movement accompanies this action\",\n        \"non_dominant_hand\": \"resting, not involved\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, not isolated; it follows a previous sign and precedes the next one, forming part of a larger gestural unit\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement is a conventionalized sign in TSL, likely representing a concept like 'record' or 'video' (as the overall context is about recording oneself signing). The downward motion and arc suggest a sense of self-reflection or self-assessment, which aligns with the meaning 'knowing oneself' after recording. The action is not a simple pointing or depicting gesture, but a lexical sign with added affective weight.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "moves from the signer's right side (signer's left) toward the center of the body, then downward in a smooth arc",
+          "location": "starts near the signer's right shoulder/upper chest area, moves across the midline, ends near the signer's lower chest",
+          "nonmanual": "no significant facial or head movement accompanies this action",
+          "non_dominant_hand": "resting, not involved",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, not isolated; it follows a previous sign and precedes the next one, forming part of a larger gestural unit"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement is a conventionalized sign in TSL, likely representing a concept like 'record' or 'video' (as the overall context is about recording oneself signing). The downward motion and arc suggest a sense of self-reflection or self-assessment, which aligns with the meaning 'knowing oneself' after recording. The action is not a simple pointing or depicting gesture, but a lexical sign with added affective weight."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

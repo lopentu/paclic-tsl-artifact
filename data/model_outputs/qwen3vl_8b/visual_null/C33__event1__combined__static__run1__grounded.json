@@ -1,0 +1,53 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/static/C33_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C33_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:00:58.989724",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"both hands form a heart shape with thumbs and index fingers touching, forming a diamond-like outline\",\n        \"movement\": \"static, no movement\",\n        \"location\": \"centered in front of the chest, at approximately chest height\",\n        \"nonmanual\": \"signer's face shows a focused, slightly furrowed brow and pursed lips, conveying seriousness or concentration\",\n        \"non_dominant_hand\": \"not visible or not involved in the action\",\n        \"temporal_alignment\": \"the action is held steady during the target span, occurring within a longer signing sequence that appears to be a sustained, static pose\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The static, heart-shaped hand configuration is a conventionalized sign in TSL for 'heart' or 'love', which is semantically loaded as it relates to the discourse about 'thinking about an accident' (implying emotional impact). The facial expression (focused, serious) and the sustained, static nature of the gesture strongly enrich the affective tone, suggesting deep contemplation or emotional weight, which would be lost if the gesture were removed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "both hands form a heart shape with thumbs and index fingers touching, forming a diamond-like outline",
+          "movement": "static, no movement",
+          "location": "centered in front of the chest, at approximately chest height",
+          "nonmanual": "signer's face shows a focused, slightly furrowed brow and pursed lips, conveying seriousness or concentration",
+          "non_dominant_hand": "not visible or not involved in the action",
+          "temporal_alignment": "the action is held steady during the target span, occurring within a longer signing sequence that appears to be a sustained, static pose"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The static, heart-shaped hand configuration is a conventionalized sign in TSL for 'heart' or 'love', which is semantically loaded as it relates to the discourse about 'thinking about an accident' (implying emotional impact). The facial expression (focused, serious) and the sustained, static nature of the gesture strongly enrich the affective tone, suggesting deep contemplation or emotional weight, which would be lost if the gesture were removed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

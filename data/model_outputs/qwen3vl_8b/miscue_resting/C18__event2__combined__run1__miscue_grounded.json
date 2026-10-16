@@ -1,0 +1,56 @@
+{
+  "clip_id": "C18",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C18_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:36:02.399433",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's mouth to a point in front of the chest, then remains steady\",\n        \"location\": \"initially near the mouth, then moves to a position in front of the chest, at the signer's midline\",\n        \"nonmanual\": \"signer's mouth is open and moving, indicating speech or emphasis\",\n        \"non_dominant_hand\": \"the non-dominant hand is used to point to a location in front of the chest, maintaining that position\",\n        \"temporal_alignment\": \"the action begins with the hand moving from the mouth area and ends with the hand held steady in front of the chest, coinciding with the signer's mouth movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a pointing gesture, which in TSL often indicates a specific referent or location. The hand remains steady in front of the chest, suggesting it is marking a specific point in space related to the discourse. The action is timed with the signer's mouth movement, indicating it is part of the grammatical structure of the utterance, likely marking the location or object being discussed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's mouth to a point in front of the chest, then remains steady",
+          "location": "initially near the mouth, then moves to a position in front of the chest, at the signer's midline",
+          "nonmanual": "signer's mouth is open and moving, indicating speech or emphasis",
+          "non_dominant_hand": "the non-dominant hand is used to point to a location in front of the chest, maintaining that position",
+          "temporal_alignment": "the action begins with the hand moving from the mouth area and ends with the hand held steady in front of the chest, coinciding with the signer's mouth movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a pointing gesture, which in TSL often indicates a specific referent or location. The hand remains steady in front of the chest, suggesting it is marking a specific point in space related to the discourse. The action is timed with the signer's mouth movement, indicating it is part of the grammatical structure of the utterance, likely marking the location or object being discussed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,36 @@
+{
+  "clip_id": "C15",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "face",
+  "label_channel_sent": "face",
+  "label_is_correct": true,
+  "video_id": "S01EP11",
+  "source_run": "C15__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: facial expression with slight head tilt and focused gaze\n- location: face and head\n- nonmanual: focused gaze, slight head tilt\n- temporal alignment: occurs during the signing of '持續' (continue), aligning with the ongoing effort theme",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:17:57.331130",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 2,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The facial expression with slight head tilt and focused gaze reinforces the ongoing effort conveyed by '持續', adding affect and emphasis without altering the core propositional meaning. It enacts the signer’s focused engagement, making the depiction vivid. It is not indicating a specific referent or location, nor does it carry heavy grammatical or semantic load, but it enriches the pragmatic and depictive layers significantly.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 0,
+    "depiction": 2,
+    "confidence": 0.95,
+    "reasoning": "The facial expression with slight head tilt and focused gaze reinforces the ongoing effort conveyed by '持續', adding affect and emphasis without altering the core propositional meaning. It enacts the signer’s focused engagement, making the depiction vivid. It is not indicating a specific referent or location, nor does it carry heavy grammatical or semantic load, but it enriches the pragmatic and depictive layers significantly."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

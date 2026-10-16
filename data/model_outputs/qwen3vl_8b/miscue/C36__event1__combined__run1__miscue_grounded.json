@@ -1,0 +1,54 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "non_dominant_hand",
+  "target_channel_cued": "face",
+  "video_path": "<repo>/data/clips_c/C36_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C36_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:09:44.834818",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"mouth opens wide, eyes widen, head tilts slightly forward\",\n        \"location\": \"face\",\n        \"nonmanual\": \"mouth opens wide, eyes widen, head tilts slightly forward\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action occurs during the signing of the clause '也可以留下聯絡方式' (can also leave contact information), following a gesture indicating 'witnesses' and preceding a gesture indicating 'contact information'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer's face shows a strong, open-mouthed expression with widened eyes, which visually emphasizes the possibility or desirability of leaving contact information, aligning with the pragmatic function of the clause. The facial expression is not a conventionalized lexical sign but a strong affective marker that enhances the message's impact.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "mouth opens wide, eyes widen, head tilts slightly forward",
+          "location": "face",
+          "nonmanual": "mouth opens wide, eyes widen, head tilts slightly forward",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action occurs during the signing of the clause '也可以留下聯絡方式' (can also leave contact information), following a gesture indicating 'witnesses' and preceding a gesture indicating 'contact information'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer's face shows a strong, open-mouthed expression with widened eyes, which visually emphasizes the possibility or desirability of leaving contact information, aligning with the pragmatic function of the clause. The facial expression is not a conventionalized lexical sign but a strong affective marker that enhances the message's impact."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

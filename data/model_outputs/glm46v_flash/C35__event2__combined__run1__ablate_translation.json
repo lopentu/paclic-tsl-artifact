@@ -1,0 +1,61 @@
+{
+  "clip_id": "C35",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C35_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:39:57.265524",
+  "backend_call_info": {
+    "frames_per_video": [
+      96,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.722,
+      15.984
+    ],
+    "input_tokens": 12153,
+    "output_tokens": 347
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand forms a flat 'palm' shape, non-dominant hand holds up index finger\",\n        \"handshape\": \"dominant hand: flat palm; non-dominant hand: index finger extended\",\n        \"movement\": \"dominant hand moves from chest level to near face, then to forehead\",\n        \"location\": \"dominant hand moves from front of body to forehead\",\n        \"nonmanual\": \"facial expression shifts from neutral to slightly concerned\",\n        \"non_dominant_hand\": \"non-dominant hand remains steady, index finger pointing forward\",\n        \"temporal_alignment\": \"part of a longer sequence where the dominant hand moves from chest to face to forehead\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand moves from chest level to near the face and then to the forehead, while the non-dominant hand remains steady with an index finger pointing forward. This movement pattern is consistent with a lexical sign for 'face' or 'forehead' and contributes to the propositional content by indicating a specific body part.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand forms a flat 'palm' shape, non-dominant hand holds up index finger",
+          "handshape": "dominant hand: flat palm; non-dominant hand: index finger extended",
+          "movement": "dominant hand moves from chest level to near face, then to forehead",
+          "location": "dominant hand moves from front of body to forehead",
+          "nonmanual": "facial expression shifts from neutral to slightly concerned",
+          "non_dominant_hand": "non-dominant hand remains steady, index finger pointing forward",
+          "temporal_alignment": "part of a longer sequence where the dominant hand moves from chest to face to forehead"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand moves from chest level to near the face and then to the forehead, while the non-dominant hand remains steady with an index finger pointing forward. This movement pattern is consistent with a lexical sign for 'face' or 'forehead' and contributes to the propositional content by indicating a specific body part."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,36 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "manual",
+  "label_channel_sent": "manual",
+  "label_is_correct": true,
+  "video_id": "S04-3EP05",
+  "source_run": "C33__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: fingers curled inward, thumbs pointing inward\n- movement: hands move inward toward the chest, then outward again in a repeated motion\n- location: centered in front of the chest, moving inward and outward\n- nonmanual: signer's face shows a frowning, concerned expression\n- non dominant hand: not visible or not involved\n- temporal alignment: the action occurs within a continuous signing sequence, following a gesture of pointing and preceding a gesture of clapping",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:20:18.322796",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 2,\n  \"confidence\": 0.9,\n  \"reasoning\": \"The action’s repeated inward-outward motion with a concerned facial expression likely conveys emotional weight or hypothetical concern, aligning with the utterance’s question about imagining a traffic accident. It adds vividness and affect (high pragmatic enrichment), and while it has a conventionalized meaning (e.g., expressing worry or contemplation), it doesn’t carry core propositional content (low semantic load). It’s not indicating a specific referent (no indication) but enacts a mental or emotional state (moderate depiction).\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 0,
+    "depiction": 2,
+    "confidence": 0.9,
+    "reasoning": "The action’s repeated inward-outward motion with a concerned facial expression likely conveys emotional weight or hypothetical concern, aligning with the utterance’s question about imagining a traffic accident. It adds vividness and affect (high pragmatic enrichment), and while it has a conventionalized meaning (e.g., expressing worry or contemplation), it doesn’t carry core propositional content (low semantic load). It’s not indicating a specific referent (no indication) but enacts a mental or emotional state (moderate depiction)."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,50 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C24_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:46:02.744916",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used.\",\n        \"handshape\": \"Both hands are in a 'pinch' handshape (thumb and index finger touching or nearly touching).\",\n        \"movement\": \"The right hand (dominant) moves forward and slightly down from the chin area. The left hand (non-dominant) moves forward and down from the chest area, following the right hand's general path.\",\n        \"location\": \"The hands start near the signer's chin and chest, and move forward in front of the signer's torso.\",\n        \"nonmanual\": \"The signer's head is still. The eyebrows are slightly raised. The mouth is open as if speaking or signing.\",\n        \"non_dominant_hand\": \"The left hand is active, mirroring the right hand's general movement but slightly delayed and less defined.\",\n        \"temporal_alignment\": \"The action is a single, continuous movement that bridges the end of a previous manual sign and the beginning of the next manual sign.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The two-handed, pinch handshape is a conventional TSL form. The surrounding signs are also manual, placing this action within the core of the discourse. The forward movement suggests a pointing or indicating function.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "Both hands are in a 'pinch' handshape (thumb and index finger touching or nearly touching).",
+          "movement": "The right hand (dominant) moves forward and slightly down from the chin area. The left hand (non-dominant) moves forward and down from the chest area, following the right hand's general path.",
+          "location": "The hands start near the signer's chin and chest, and move forward in front of the signer's torso.",
+          "nonmanual": "The signer's head is still. The eyebrows are slightly raised. The mouth is open as if speaking or signing.",
+          "non_dominant_hand": "The left hand is active, mirroring the right hand's general movement but slightly delayed and less defined.",
+          "temporal_alignment": "The action is a single, continuous movement that bridges the end of a previous manual sign and the beginning of the next manual sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed, pinch handshape is a conventional TSL form. The surrounding signs are also manual, placing this action within the core of the discourse. The forward movement suggests a pointing or indicating function."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

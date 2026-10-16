@@ -1,0 +1,55 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1018181714,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:27:47.113121",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"dominant hand: index finger extended, other fingers curled; non-dominant hand: open palm, flat\",\n        \"movement\": \"dominant hand moves downward in a tapping or stroking motion over the open palm of the non-dominant hand\",\n        \"location\": \"centered in front of the signer's chest\",\n        \"nonmanual\": \"signer's lips are pursed, eyes are focused forward\",\n        \"non_dominant_hand\": \"held steady with open palm facing upward, serving as a base\",\n        \"temporal_alignment\": \"this action occurs within a continuous signing sequence, immediately following a gesture near the head and preceding a hand-clasping motion\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves a specific manual configuration and movement that is conventionalized in TSL. The downward motion over the palm suggests a semantic contribution, likely indicating a process or action related to the meaning '很棒' (great/excellent). The pursed lips and focused gaze add affective emphasis, making the gesture more vivid and expressive.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "dominant hand: index finger extended, other fingers curled; non-dominant hand: open palm, flat",
+          "movement": "dominant hand moves downward in a tapping or stroking motion over the open palm of the non-dominant hand",
+          "location": "centered in front of the signer's chest",
+          "nonmanual": "signer's lips are pursed, eyes are focused forward",
+          "non_dominant_hand": "held steady with open palm facing upward, serving as a base",
+          "temporal_alignment": "this action occurs within a continuous signing sequence, immediately following a gesture near the head and preceding a hand-clasping motion"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves a specific manual configuration and movement that is conventionalized in TSL. The downward motion over the palm suggests a semantic contribution, likely indicating a process or action related to the meaning '很棒' (great/excellent). The pursed lips and focused gaze add affective emphasis, making the gesture more vivid and expressive."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

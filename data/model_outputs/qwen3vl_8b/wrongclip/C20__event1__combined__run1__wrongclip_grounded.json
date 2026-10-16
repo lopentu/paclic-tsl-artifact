@@ -1,0 +1,69 @@
+{
+  "clip_id": "C20",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C20",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP11",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 0.6000000000000227
+  },
+  "video_from": {
+    "clip_id": "C16",
+    "event_id": "event1",
+    "video_id": "S01EP11",
+    "target_channel": "manual",
+    "duration": 1.0
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.6000000000000227,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C16_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:53:39.937714",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends upward and slightly forward, then moves in a small arc toward the signer's right side\",\n        \"location\": \"starts near the signer's chest, moves to the right side of the signer's face\",\n        \"nonmanual\": \"mouth slightly open, eyes focused forward\",\n        \"non_dominant_hand\": \"resting near the signer's waist\",\n        \"temporal_alignment\": \"the action begins at the start of the clip and is held for a brief duration, occurring within a larger signing unit that includes a handshape change and movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL that conveys a specific referent or concept. The movement toward the right side of the face indicates a directional component, which is often used to mark the location or direction of an event or entity in the discourse. The action is held with a clear, deliberate motion, suggesting it carries semantic weight rather than being purely affective.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends upward and slightly forward, then moves in a small arc toward the signer's right side",
+          "location": "starts near the signer's chest, moves to the right side of the signer's face",
+          "nonmanual": "mouth slightly open, eyes focused forward",
+          "non_dominant_hand": "resting near the signer's waist",
+          "temporal_alignment": "the action begins at the start of the clip and is held for a brief duration, occurring within a larger signing unit that includes a handshape change and movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL that conveys a specific referent or concept. The movement toward the right side of the face indicates a directional component, which is often used to mark the location or direction of an event or entity in the discourse. The action is held with a clear, deliberate motion, suggesting it carries semantic weight rather than being purely affective."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

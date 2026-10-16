@@ -1,0 +1,55 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1800583178,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:27:16.693004",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves upward and slightly outward, then holds steady\",\n        \"location\": \"in front of the signer's chest, at chest height\",\n        \"nonmanual\": \"mouth slightly open, eyes looking forward\",\n        \"non_dominant_hand\": \"resting, not actively involved\",\n        \"temporal_alignment\": \"occurs during a sustained signing unit, following a previous gesture and preceding a shift to a different handshape\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are characteristic of a lexical sign in TSL that marks a specific conceptual category, likely related to 'hand' or 'signing'. The gesture is held steady, suggesting emphasis or a grammatical marker. The upward movement may indicate a shift in topic or a directional marker, contributing to discourse structure. The sustained hold and facial expression add affective weight to the utterance, enhancing the speaker's self-reflective tone.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves upward and slightly outward, then holds steady",
+          "location": "in front of the signer's chest, at chest height",
+          "nonmanual": "mouth slightly open, eyes looking forward",
+          "non_dominant_hand": "resting, not actively involved",
+          "temporal_alignment": "occurs during a sustained signing unit, following a previous gesture and preceding a shift to a different handshape"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are characteristic of a lexical sign in TSL that marks a specific conceptual category, likely related to 'hand' or 'signing'. The gesture is held steady, suggesting emphasis or a grammatical marker. The upward movement may indicate a shift in topic or a directional marker, contributing to discourse structure. The sustained hold and facial expression add affective weight to the utterance, enhancing the speaker's self-reflective tone."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

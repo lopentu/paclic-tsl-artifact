@@ -1,0 +1,55 @@
+{
+  "clip_id": "C16",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 2,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1808489068,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:57:24.494138",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves from lower left to upper right, then slightly inward toward the face\",\n        \"location\": \"begins near the signer's left shoulder/chest area, moves across the front of the torso, ending near the eye/forehead area\",\n        \"nonmanual\": \"no significant facial or head movement accompanies the hand movement\",\n        \"non_dominant_hand\": \"resting, not involved in the action\",\n        \"temporal_alignment\": \"the action occurs within a broader signing sequence that includes other manual and nonmanual components, but is not preceded or followed by another distinct sign; it appears to be part of a continuous flow of manual movement\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement, starting near the chest and moving upward and inward toward the face, is consistent with the signer's expression of self-consciousness or internal reflection, which aligns with the meaning 'knowing oneself through video'. The movement is not a conventional lexical sign but rather an expressive gesture that adds affective and depictive weight to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "moves from lower left to upper right, then slightly inward toward the face",
+          "location": "begins near the signer's left shoulder/chest area, moves across the front of the torso, ending near the eye/forehead area",
+          "nonmanual": "no significant facial or head movement accompanies the hand movement",
+          "non_dominant_hand": "resting, not involved in the action",
+          "temporal_alignment": "the action occurs within a broader signing sequence that includes other manual and nonmanual components, but is not preceded or followed by another distinct sign; it appears to be part of a continuous flow of manual movement"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement, starting near the chest and moving upward and inward toward the face, is consistent with the signer's expression of self-consciousness or internal reflection, which aligns with the meaning 'knowing oneself through video'. The movement is not a conventional lexical sign but rather an expressive gesture that adds affective and depictive weight to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

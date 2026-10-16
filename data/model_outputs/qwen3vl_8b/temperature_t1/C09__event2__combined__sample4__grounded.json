@@ -1,0 +1,55 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 609243857,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:55:39.284865",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"both index fingers move upward and slightly outward from the chest, then converge toward each other at the level of the signer's chin\",\n        \"location\": \"starting near the chest, moving upward and outward, then converging in front of the chin\",\n        \"nonmanual\": \"signer's head tilts slightly upward, eyes look upward\",\n        \"non_dominant_hand\": \"the non-dominant hand remains near the chest, partially obscured\",\n        \"temporal_alignment\": \"the action begins immediately after the signer brings her right hand to her chest, and is followed by a hand movement that moves away from the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement, with both index fingers moving upward and converging, are characteristic of a lexical sign in TSL, likely conveying 'compare' or 'contrast'. The upward gaze and convergence of fingers suggest a comparison or contrast between two ideas, which is central to the meaning 'if only through current sign language courses, it is far from sufficient for translation'. The gesture also adds emphasis and vividness to the contrast being made.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "both index fingers move upward and slightly outward from the chest, then converge toward each other at the level of the signer's chin",
+          "location": "starting near the chest, moving upward and outward, then converging in front of the chin",
+          "nonmanual": "signer's head tilts slightly upward, eyes look upward",
+          "non_dominant_hand": "the non-dominant hand remains near the chest, partially obscured",
+          "temporal_alignment": "the action begins immediately after the signer brings her right hand to her chest, and is followed by a hand movement that moves away from the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement, with both index fingers moving upward and converging, are characteristic of a lexical sign in TSL, likely conveying 'compare' or 'contrast'. The upward gaze and convergence of fingers suggest a comparison or contrast between two ideas, which is central to the meaning 'if only through current sign language courses, it is far from sufficient for translation'. The gesture also adds emphasis and vividness to the contrast being made."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

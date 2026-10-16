@@ -1,0 +1,48 @@
+{
+  "clip_id": "C29",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C29_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:12:15.270567",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"repeatedly points upward and slightly forward, then moves downward in a small arc\",\n        \"location\": \"right side of signer's body, moving from upper right to upper center\",\n        \"nonmanual\": \"signer's head is slightly tilted back, eyes looking upward\",\n        \"non_dominant_hand\": \"resting on chest\",\n        \"temporal_alignment\": \"the action begins with the signer pointing upward and continues through the span, synchronized with the verbal utterance\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The upward pointing gesture is repeated and sustained, visually emphasizing the speaker's resistance or reluctance, which aligns with the meaning 'I will have some resistance'. The gesture is not a lexical sign but a depictive action that enacts the idea of 'reaching up' or 'resisting upward pressure', adding vividness and affect to the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "repeatedly points upward and slightly forward, then moves downward in a small arc",
+          "location": "right side of signer's body, moving from upper right to upper center",
+          "nonmanual": "signer's head is slightly tilted back, eyes looking upward",
+          "non_dominant_hand": "resting on chest",
+          "temporal_alignment": "the action begins with the signer pointing upward and continues through the span, synchronized with the verbal utterance"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The upward pointing gesture is repeated and sustained, visually emphasizing the speaker's resistance or reluctance, which aligns with the meaning 'I will have some resistance'. The gesture is not a lexical sign but a depictive action that enacts the idea of 'reaching up' or 'resisting upward pressure', adding vividness and affect to the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

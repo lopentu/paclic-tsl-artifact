@@ -1,0 +1,48 @@
+{
+  "clip_id": "C07",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:29:40.976522",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb extended, fingers curled\",\n        \"movement\": \"thumb moves from right to left across the signer's face, then extends forward\",\n        \"location\": \"starts near the signer's right eye, moves across the face to the left, then extends forward\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"resting, not visible or inactive\",\n        \"temporal_alignment\": \"starts after a hand gesture near the face, ends before a new gesture begins\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement resemble a lexical sign for 'face' or 'expression' in TSL, contributing to propositional content. The movement across the face and forward extension adds vividness and emphasis, enhancing the affective or depictive force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb extended, fingers curled",
+          "movement": "thumb moves from right to left across the signer's face, then extends forward",
+          "location": "starts near the signer's right eye, moves across the face to the left, then extends forward",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "resting, not visible or inactive",
+          "temporal_alignment": "starts after a hand gesture near the face, ends before a new gesture begins"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement resemble a lexical sign for 'face' or 'expression' in TSL, contributing to propositional content. The movement across the face and forward extension adds vividness and emphasis, enhancing the affective or depictive force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

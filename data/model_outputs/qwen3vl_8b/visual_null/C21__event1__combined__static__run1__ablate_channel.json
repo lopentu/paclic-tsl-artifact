@@ -1,0 +1,53 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/static/C21_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:49:00.776994",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not active\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"static\",\n        \"location\": \"not applicable\",\n        \"nonmanual\": \"right index finger held vertically against the right side of the chin, mouth slightly open, eyes looking forward\",\n        \"non_dominant_hand\": \"not applicable\",\n        \"temporal_alignment\": \"the action occurs during a sustained signing unit, holding the pose for the duration of the clip\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer holds a static facial expression with the index finger touching the chin, which is a common nonmanual marker in TSL for emphasis or to convey a sense of 'thinking' or 'considering' while making a point. The surrounding signing (in the broader context) discusses '大量練習' (a lot of practice) and '資源真的很方便' (resources are very convenient), suggesting the action adds emphasis or a reflective tone to the statement. The action is not a lexical sign but a prosodic or affective nonmanual, contributing to the pragmatic/affective enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not active",
+          "handshape": "not applicable",
+          "movement": "static",
+          "location": "not applicable",
+          "nonmanual": "right index finger held vertically against the right side of the chin, mouth slightly open, eyes looking forward",
+          "non_dominant_hand": "not applicable",
+          "temporal_alignment": "the action occurs during a sustained signing unit, holding the pose for the duration of the clip"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The signer holds a static facial expression with the index finger touching the chin, which is a common nonmanual marker in TSL for emphasis or to convey a sense of 'thinking' or 'considering' while making a point. The surrounding signing (in the broader context) discusses '大量練習' (a lot of practice) and '資源真的很方便' (resources are very convenient), suggesting the action adds emphasis or a reflective tone to the statement. The action is not a lexical sign but a prosodic or affective nonmanual, contributing to the pragmatic/affective enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

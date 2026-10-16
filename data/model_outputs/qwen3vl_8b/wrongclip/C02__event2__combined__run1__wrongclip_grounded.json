@@ -1,0 +1,69 @@
+{
+  "clip_id": "C02",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "manual",
+  "prompt_from": {
+    "clip_id": "C02",
+    "event_id": "event2",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP02",
+    "rel_start_requested": 0.29999999999999716,
+    "rel_end_requested": 0.7999999999999972
+  },
+  "video_from": {
+    "clip_id": "C09",
+    "event_id": "event1",
+    "video_id": "S01EP09",
+    "target_channel": "manual",
+    "duration": 1.1000000000000227
+  },
+  "rel_start_applied": 0.29999999999999716,
+  "rel_end_applied": 0.7999999999999972,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C09_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C09_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:46:57.949658",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves from chest outward and upward, then downward in a sweeping motion\",\n        \"location\": \"starts near chest, moves upward and outward, then downward\",\n        \"nonmanual\": \"mouth open, eyebrows raised\",\n        \"non_dominant_hand\": \"resting on chest\",\n        \"temporal_alignment\": \"starts after a gesture near chest, ends before a pointing gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand moves from the chest outward and upward, a motion that visually represents the idea of 'going' or 'moving away' from the signer's body, which aligns with the context of 'flying to America'. The open palm and upward motion add emphasis and vividness to the action of departure.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "moves from chest outward and upward, then downward in a sweeping motion",
+          "location": "starts near chest, moves upward and outward, then downward",
+          "nonmanual": "mouth open, eyebrows raised",
+          "non_dominant_hand": "resting on chest",
+          "temporal_alignment": "starts after a gesture near chest, ends before a pointing gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hand moves from the chest outward and upward, a motion that visually represents the idea of 'going' or 'moving away' from the signer's body, which aligns with the context of 'flying to America'. The open palm and upward motion add emphasis and vividness to the action of departure."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

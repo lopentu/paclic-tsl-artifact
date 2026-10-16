@@ -1,0 +1,48 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:40:48.440147",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"fist\",\n        \"movement\": \"starts with hand raised near head, moves downward in a sweeping arc, then transitions to a more open, gesturing motion\",\n        \"location\": \"begins near the signer's right temple, moves down and outward toward the right side of the body\",\n        \"nonmanual\": \"mouth open, tongue extended outward, facial expression intense\",\n        \"non_dominant_hand\": \"not visible or not involved\",\n        \"temporal_alignment\": \"the action begins with the signer's mouth open and tongue out, and the hand movement is synchronized with the facial expression\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand movement is a conventionalized sign (likely 'say' or 'talk' in TSL) that carries propositional content. The intense facial expression with the tongue out and the sweeping hand motion strongly convey affect and emphasis, making the action vivid and emotionally charged.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "fist",
+          "movement": "starts with hand raised near head, moves downward in a sweeping arc, then transitions to a more open, gesturing motion",
+          "location": "begins near the signer's right temple, moves down and outward toward the right side of the body",
+          "nonmanual": "mouth open, tongue extended outward, facial expression intense",
+          "non_dominant_hand": "not visible or not involved",
+          "temporal_alignment": "the action begins with the signer's mouth open and tongue out, and the hand movement is synchronized with the facial expression"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hand movement is a conventionalized sign (likely 'say' or 'talk' in TSL) that carries propositional content. The intense facial expression with the tongue out and the sweeping hand motion strongly convey affect and emphasis, making the action vivid and emotionally charged."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

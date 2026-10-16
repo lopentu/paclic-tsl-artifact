@@ -1,0 +1,55 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 566162158,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:20:27.983060",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: index finger extended, other fingers curled; left hand: index and middle fingers extended, other fingers curled (forming a 'V' or 'peace' sign)\",\n        \"movement\": \"right hand moves from near the signer's face down and outward, palm facing forward, then back toward the face; left hand remains relatively still with fingers extended, pointing forward\",\n        \"location\": \"right hand starts near the signer's right cheek, moves down and outward, then back toward the face; left hand is held steady in front of the chest, pointing forward\",\n        \"nonmanual\": \"signer's facial expression changes from smiling to more serious as the action progresses\",\n        \"non_dominant_hand\": \"left hand remains steady, pointing forward\",\n        \"temporal_alignment\": \"the action spans from 0.3 to 1.1 seconds, occurring within a larger signing sequence that includes the signer's mouth movement and other hand gestures\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement of the right hand resemble a lexical sign in Taiwan Sign Language for 'police' or 'authority', which aligns with the given meaning about police not necessarily knowing sign language. The left hand's steady pointing gesture adds emphasis and directs attention to the topic.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: index finger extended, other fingers curled; left hand: index and middle fingers extended, other fingers curled (forming a 'V' or 'peace' sign)",
+          "movement": "right hand moves from near the signer's face down and outward, palm facing forward, then back toward the face; left hand remains relatively still with fingers extended, pointing forward",
+          "location": "right hand starts near the signer's right cheek, moves down and outward, then back toward the face; left hand is held steady in front of the chest, pointing forward",
+          "nonmanual": "signer's facial expression changes from smiling to more serious as the action progresses",
+          "non_dominant_hand": "left hand remains steady, pointing forward",
+          "temporal_alignment": "the action spans from 0.3 to 1.1 seconds, occurring within a larger signing sequence that includes the signer's mouth movement and other hand gestures"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement of the right hand resemble a lexical sign in Taiwan Sign Language for 'police' or 'authority', which aligns with the given meaning about police not necessarily knowing sign language. The left hand's steady pointing gesture adds emphasis and directs attention to the topic."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

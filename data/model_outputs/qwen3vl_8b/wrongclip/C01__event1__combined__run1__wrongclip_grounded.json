@@ -1,0 +1,69 @@
+{
+  "clip_id": "C01",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "non_dominant_hand",
+  "prompt_from": {
+    "clip_id": "C01",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP01",
+    "rel_start_requested": 0.29999999999999716,
+    "rel_end_requested": 1.1000000000000085
+  },
+  "video_from": {
+    "clip_id": "C38",
+    "event_id": "event1",
+    "video_id": "SP-EP07",
+    "target_channel": "non_dominant_hand",
+    "duration": 1.499999999999993
+  },
+  "rel_start_applied": 0.29999999999999716,
+  "rel_end_applied": 1.1000000000000085,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C38_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C38_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:46:26.220361",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"thumb extended, fingers curled\",\n        \"movement\": \"moves from the signer's right shoulder area down and forward, then holds steady\",\n        \"location\": \"initially near right shoulder, then moves to the signer's right side, pointing downward\",\n        \"nonmanual\": \"signer's head tilts slightly to the right, eyes look down at the pointing hand\",\n        \"non_dominant_hand\": \"maintains a steady pointing gesture with the thumb extended, fingers curled, directed downward\",\n        \"temporal_alignment\": \"the action begins after a cross-arm gesture and continues through a pause in signing\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and pointing movement are conventionalized to indicate a specific location or object, contributing to the referential structure of the sentence. The downward pointing and head tilt add emphasis and direct the viewer's attention to the location being discussed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "thumb extended, fingers curled",
+          "movement": "moves from the signer's right shoulder area down and forward, then holds steady",
+          "location": "initially near right shoulder, then moves to the signer's right side, pointing downward",
+          "nonmanual": "signer's head tilts slightly to the right, eyes look down at the pointing hand",
+          "non_dominant_hand": "maintains a steady pointing gesture with the thumb extended, fingers curled, directed downward",
+          "temporal_alignment": "the action begins after a cross-arm gesture and continues through a pause in signing"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and pointing movement are conventionalized to indicate a specific location or object, contributing to the referential structure of the sentence. The downward pointing and head tilt add emphasis and direct the viewer's attention to the location being discussed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,56 @@
+{
+  "clip_id": "C27",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "face",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C27_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C27_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T02:00:18.373245",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"thumbs up, palms facing inward\",\n        \"movement\": \"hands move inward from chest level, then close together\",\n        \"location\": \"chest\",\n        \"nonmanual\": \"frowning, mouth slightly open\",\n        \"non_dominant_hand\": \"inward movement\",\n        \"temporal_alignment\": \"part of a longer sign sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The hands form a thumbs-up shape and move inward from the chest, with a frown and open mouth, indicating willingness or agreement, which aligns with the meaning of 'I'm willing to participate'.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "thumbs up, palms facing inward",
+          "movement": "hands move inward from chest level, then close together",
+          "location": "chest",
+          "nonmanual": "frowning, mouth slightly open",
+          "non_dominant_hand": "inward movement",
+          "temporal_alignment": "part of a longer sign sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The hands form a thumbs-up shape and move inward from the chest, with a frown and open mouth, indicating willingness or agreement, which aligns with the meaning of 'I'm willing to participate'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

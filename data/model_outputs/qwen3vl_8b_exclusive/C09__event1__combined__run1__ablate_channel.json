@@ -1,0 +1,49 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C09_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:02:57.738882",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open hands, palms facing inward\",\n        \"movement\": \"hands move inward from the sides toward the center of the chest, then the right hand moves downward and outward while the left hand remains near the chest\",\n        \"location\": \"initially at the sides, moving inward to the chest area\",\n        \"nonmanual\": \"neutral facial expression, no significant head movement\",\n        \"non_dominant_hand\": \"left hand remains relatively stationary near the chest while the right hand moves\",\n        \"temporal_alignment\": \"the action begins with the hands moving inward and ends with the right hand moving downward and outward, occurring within a continuous signing stretch\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move inward toward the chest, a common gesture in TSL for indicating 'self' or 'one's own situation', which aligns with the discourse about personal learning experience. The movement of the right hand downward and outward at the end suggests a contrast or a shift away from the initial state, adding emphasis to the idea of 'insufficient' learning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open hands, palms facing inward",
+          "movement": "hands move inward from the sides toward the center of the chest, then the right hand moves downward and outward while the left hand remains near the chest",
+          "location": "initially at the sides, moving inward to the chest area",
+          "nonmanual": "neutral facial expression, no significant head movement",
+          "non_dominant_hand": "left hand remains relatively stationary near the chest while the right hand moves",
+          "temporal_alignment": "the action begins with the hands moving inward and ends with the right hand moving downward and outward, occurring within a continuous signing stretch"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move inward toward the chest, a common gesture in TSL for indicating 'self' or 'one's own situation', which aligns with the discourse about personal learning experience. The movement of the right hand downward and outward at the end suggests a contrast or a shift away from the initial state, adding emphasis to the idea of 'insufficient' learning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,49 @@
+{
+  "clip_id": "C02",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:57:33.506347",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"not visible or not carrying the action\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head tilts slightly forward and downward, then moves upward and back, as if in a nodding motion\",\n        \"location\": \"head movement is centered on the signer's own body\",\n        \"nonmanual\": \"face shows a slight smile, eyes looking forward\",\n        \"non_dominant_hand\": \"not visible or not carrying the action\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a gesture to the head and preceding a gesture to the chest\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The head movement is a distinct, rhythmic nod that follows a gesture to the head and precedes a gesture to the chest, suggesting a grammatical or discourse marker. The slight smile and forward gaze indicate a positive or affirming affective stance, enhancing the communicative force of the sign.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "not visible or not carrying the action",
+          "handshape": "not applicable",
+          "movement": "head tilts slightly forward and downward, then moves upward and back, as if in a nodding motion",
+          "location": "head movement is centered on the signer's own body",
+          "nonmanual": "face shows a slight smile, eyes looking forward",
+          "non_dominant_hand": "not visible or not carrying the action",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a gesture to the head and preceding a gesture to the chest"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The head movement is a distinct, rhythmic nod that follows a gesture to the head and precedes a gesture to the chest, suggesting a grammatical or discourse marker. The slight smile and forward gaze indicate a positive or affirming affective stance, enhancing the communicative force of the sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

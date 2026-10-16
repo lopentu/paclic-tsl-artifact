@@ -1,0 +1,55 @@
+{
+  "clip_id": "C29",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1846003259,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:33:12.634683",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"extends index finger upward and slightly forward, then makes small up-and-down motions while maintaining upward orientation\",\n        \"location\": \"right side of signer's body, moving from mid-chest level toward upper right space\",\n        \"nonmanual\": \"signer's head is slightly tilted forward and to the right, eyes looking upward\",\n        \"non_dominant_hand\": \"resting on chest, fingers slightly curled\",\n        \"temporal_alignment\": \"starts after the signer's previous gesture, continues for about 0.6 seconds, and is followed by a downward movement of the hand\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The upward-pointing index finger gesture, combined with the upward gaze, visually represents the concept of 'mother' or 'upward direction' in the context of the utterance '我就會有點抗拒和媽媽比手語' (I will have some resistance to sign with my mother). The movement of the finger up and down adds a sense of resistance or hesitation, enhancing the affective layer. The handshape and movement are consistent with conventional TSL signs for 'mother' or 'upward direction'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "extends index finger upward and slightly forward, then makes small up-and-down motions while maintaining upward orientation",
+          "location": "right side of signer's body, moving from mid-chest level toward upper right space",
+          "nonmanual": "signer's head is slightly tilted forward and to the right, eyes looking upward",
+          "non_dominant_hand": "resting on chest, fingers slightly curled",
+          "temporal_alignment": "starts after the signer's previous gesture, continues for about 0.6 seconds, and is followed by a downward movement of the hand"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The upward-pointing index finger gesture, combined with the upward gaze, visually represents the concept of 'mother' or 'upward direction' in the context of the utterance '我就會有點抗拒和媽媽比手語' (I will have some resistance to sign with my mother). The movement of the finger up and down adds a sense of resistance or hesitation, enhancing the affective layer. The handshape and movement are consistent with conventional TSL signs for 'mother' or 'upward direction'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

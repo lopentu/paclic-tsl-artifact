@@ -1,0 +1,48 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:49:09.396596",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not involved\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head tilted slightly upward, eyes looking upward and to the right, mouth slightly open, chin lifted\",\n        \"location\": \"face and head\",\n        \"nonmanual\": \"eyes looking upward and to the right, mouth slightly open, chin lifted\",\n        \"non_dominant_hand\": \"not visible or not involved\",\n        \"temporal_alignment\": \"the action occurs within a pause in signing, following a gesture with the right hand and preceding a fist pump with the left hand\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's upward gaze and lifted chin, combined with a slight smile, convey a sense of contemplation or realization, which aligns with the meaning of '大量的練習現在網路上很多資源真的很方便' (a lot of practice, now there are many resources on the internet, really convenient). The action is not a lexical sign but adds affective emphasis to the statement.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not involved",
+          "handshape": "not applicable",
+          "movement": "head tilted slightly upward, eyes looking upward and to the right, mouth slightly open, chin lifted",
+          "location": "face and head",
+          "nonmanual": "eyes looking upward and to the right, mouth slightly open, chin lifted",
+          "non_dominant_hand": "not visible or not involved",
+          "temporal_alignment": "the action occurs within a pause in signing, following a gesture with the right hand and preceding a fist pump with the left hand"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's upward gaze and lifted chin, combined with a slight smile, convey a sense of contemplation or realization, which aligns with the meaning of '大量的練習現在網路上很多資源真的很方便' (a lot of practice, now there are many resources on the internet, really convenient). The action is not a lexical sign but adds affective emphasis to the statement."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

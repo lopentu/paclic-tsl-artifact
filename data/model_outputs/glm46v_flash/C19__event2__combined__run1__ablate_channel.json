@@ -1,0 +1,61 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C19_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T19:46:33.138289",
+  "backend_call_info": {
+    "frames_per_video": [
+      46,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.8462,
+      14.5309
+    ],
+    "input_tokens": 7626,
+    "output_tokens": 314
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves forward and then back, with a slight downward arc\",\n        \"location\": \"in front of the signer, at chest level\",\n        \"nonmanual\": \"mouth opens and closes, head slightly tilts forward\",\n        \"non_dominant_hand\": \"rests on the table, remains still\",\n        \"temporal_alignment\": \"occurs between two distinct signs, starting after a handshape change and ending before the next sign begins\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action is a forward-backward movement of the dominant hand with an open palm, occurring between two distinct signs (a handshape change at 0.3s and a clapping motion at 0.8s). This movement adds emphasis and affect to the signing, contributing to the overall pragmatic tone of the utterance.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "moves forward and then back, with a slight downward arc",
+          "location": "in front of the signer, at chest level",
+          "nonmanual": "mouth opens and closes, head slightly tilts forward",
+          "non_dominant_hand": "rests on the table, remains still",
+          "temporal_alignment": "occurs between two distinct signs, starting after a handshape change and ending before the next sign begins"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action is a forward-backward movement of the dominant hand with an open palm, occurring between two distinct signs (a handshape change at 0.3s and a clapping motion at 0.8s). This movement adds emphasis and affect to the signing, contributing to the overall pragmatic tone of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "visual_condition": "static",
+  "target_channel": "non_dominant_hand",
+  "video_path": "<repo>/data/clips_visual_null/static/C36_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/static/C36_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:02:28.111863",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"held steady\",\n        \"location\": \"near the signer's chin, pointing slightly outward\",\n        \"nonmanual\": \"mouth open wide, eyes wide\",\n        \"non_dominant_hand\": \"index finger extended, pointing forward and slightly outward, held steady\",\n        \"temporal_alignment\": \"held steady throughout the target span, with no movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and location (pointing forward) indicate a specific referent (e.g., a witness) in the discourse. The open mouth and wide eyes provide strong affective enrichment, conveying surprise or emphasis. The hand is held steady, suggesting a static, declarative function rather than a dynamic action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "held steady",
+          "location": "near the signer's chin, pointing slightly outward",
+          "nonmanual": "mouth open wide, eyes wide",
+          "non_dominant_hand": "index finger extended, pointing forward and slightly outward, held steady",
+          "temporal_alignment": "held steady throughout the target span, with no movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and location (pointing forward) indicate a specific referent (e.g., a witness) in the discourse. The open mouth and wide eyes provide strong affective enrichment, conveying surprise or emphasis. The hand is held steady, suggesting a static, declarative function rather than a dynamic action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

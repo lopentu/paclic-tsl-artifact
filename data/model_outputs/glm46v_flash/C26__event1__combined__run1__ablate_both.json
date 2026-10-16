@@ -1,0 +1,61 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C26_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:09:31.856027",
+  "backend_call_info": {
+    "frames_per_video": [
+      80,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      14.5309
+    ],
+    "input_tokens": 10716,
+    "output_tokens": 262
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"fist with thumb tucked\",\n        \"movement\": \"moves from chest to face, then holds near mouth\",\n        \"location\": \"near face/chest\",\n        \"nonmanual\": \"head tilts slightly right, mouth opens and closes\",\n        \"non_dominant_hand\": \"rests on lap\",\n        \"temporal_alignment\": \"part of a longer signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign for 'phone' or 'call', and the nonmanuals (head tilt, mouth movement) add affective emphasis.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "fist with thumb tucked",
+          "movement": "moves from chest to face, then holds near mouth",
+          "location": "near face/chest",
+          "nonmanual": "head tilts slightly right, mouth opens and closes",
+          "non_dominant_hand": "rests on lap",
+          "temporal_alignment": "part of a longer signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign for 'phone' or 'call', and the nonmanuals (head tilt, mouth movement) add affective emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

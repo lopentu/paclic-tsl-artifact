@@ -1,0 +1,54 @@
+{
+  "clip_id": "C20",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_c/C20_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C20_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:09:34.820078",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends forward and then moves slightly downward and inward toward the signer's chest\",\n        \"location\": \"starts near the signer's chin, moves to the center of the chest\",\n        \"nonmanual\": \"mouth slightly open, eyes focused forward\",\n        \"non_dominant_hand\": \"resting near the signer's waist\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a hand gesture near the face and preceding a hand movement toward the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign in TSL that conveys a specific referent or concept. The movement toward the chest suggests a focus on the signer or the subject of the utterance, contributing to the propositional content. The action is not purely affective or prosodic, but carries a clear semantic load.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends forward and then moves slightly downward and inward toward the signer's chest",
+          "location": "starts near the signer's chin, moves to the center of the chest",
+          "nonmanual": "mouth slightly open, eyes focused forward",
+          "non_dominant_hand": "resting near the signer's waist",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a hand gesture near the face and preceding a hand movement toward the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign in TSL that conveys a specific referent or concept. The movement toward the chest suggests a focus on the signer or the subject of the utterance, contributing to the propositional content. The action is not purely affective or prosodic, but carries a clear semantic load."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

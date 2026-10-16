@@ -1,0 +1,50 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C09_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:22:13.642566",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.6\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are active.\",\n          \"handshape\": \"The dominant hand (on the signer's right) is a 'C' shape. The non-dominant hand (on the signer's left) is an 'open palm'.\",\n          \"movement\": \"The dominant hand moves forward and slightly down from the signer's right cheek. The non-dominant hand moves forward from the signer's left shoulder.\",\n          \"location\": \"The dominant hand is at the signer's right cheek/eye level. The non-dominant hand is at the signer's left shoulder/upper chest level.\",\n          \"nonmanual\": \"The signer's head is tilted slightly to her right. Her eyebrows are slightly raised.\",\n          \"non_dominant_hand\": \"The non-dominant hand is held up, palm facing forward, as a static location for the dominant hand.\",\n          \"temporal_alignment\": \"The action is a single, quick sign that occurs in the middle of a continuous signing flow, not at the beginning or end of a phrase.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 3,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The specific handshapes and their coordinated movement are a conventional TSL sign. The head tilt and raised eyebrows add a layer of pragmatic emphasis or stance to the sign's meaning.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are active.",
+          "handshape": "The dominant hand (on the signer's right) is a 'C' shape. The non-dominant hand (on the signer's left) is an 'open palm'.",
+          "movement": "The dominant hand moves forward and slightly down from the signer's right cheek. The non-dominant hand moves forward from the signer's left shoulder.",
+          "location": "The dominant hand is at the signer's right cheek/eye level. The non-dominant hand is at the signer's left shoulder/upper chest level.",
+          "nonmanual": "The signer's head is tilted slightly to her right. Her eyebrows are slightly raised.",
+          "non_dominant_hand": "The non-dominant hand is held up, palm facing forward, as a static location for the dominant hand.",
+          "temporal_alignment": "The action is a single, quick sign that occurs in the middle of a continuous signing flow, not at the beginning or end of a phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The specific handshapes and their coordinated movement are a conventional TSL sign. The head tilt and raised eyebrows add a layer of pragmatic emphasis or stance to the sign's meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

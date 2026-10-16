@@ -1,0 +1,49 @@
+{
+  "clip_id": "C17",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:23:40.999302",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a flat, open palm; left hand forms a flat, open palm\",\n        \"movement\": \"right hand moves downward in a smooth arc, as if placing or dropping something onto the left hand, which remains relatively stationary\",\n        \"location\": \"both hands are in front of the signer's chest, at midline\",\n        \"nonmanual\": \"signer's face is neutral, lips are slightly pursed\",\n        \"non_dominant_hand\": \"left hand is stationary, serving as a base or recipient\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, immediately following a gesture to the head and preceding a gesture to the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move in a coordinated, conventionalized way, suggesting a lexical sign. The downward motion of the right hand onto the left hand is a clear, structured action that contributes to the grammatical structure of the utterance. The action is not purely affective or depictive, but it adds a sense of emphasis or completion to the preceding gesture.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a flat, open palm; left hand forms a flat, open palm",
+          "movement": "right hand moves downward in a smooth arc, as if placing or dropping something onto the left hand, which remains relatively stationary",
+          "location": "both hands are in front of the signer's chest, at midline",
+          "nonmanual": "signer's face is neutral, lips are slightly pursed",
+          "non_dominant_hand": "left hand is stationary, serving as a base or recipient",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, immediately following a gesture to the head and preceding a gesture to the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move in a coordinated, conventionalized way, suggesting a lexical sign. The downward motion of the right hand onto the left hand is a clear, structured action that contributes to the grammatical structure of the utterance. The action is not purely affective or depictive, but it adds a sense of emphasis or completion to the preceding gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

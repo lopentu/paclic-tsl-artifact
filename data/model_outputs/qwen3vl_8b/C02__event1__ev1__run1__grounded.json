@@ -1,0 +1,48 @@
+{
+  "clip_id": "C02",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP02",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:06:47.594590",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"moves from the signer's chest outward and upward, then extends forward and slightly downward\",\n        \"location\": \"starts near the signer's chest, moves outward and upward, then extends forward and slightly downward\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"resting at the side\",\n        \"temporal_alignment\": \"the action occurs during the signing of the clause, likely corresponding to the verb 'fly' or the concept of 'going to a place'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand moves outward and upward, then extends forward, which visually represents the action of 'flying' or 'traveling' to a distant place, aligning with the meaning of 'fly to America'. The movement is not a simple lexical sign but enacts the motion of travel, adding vividness to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "moves from the signer's chest outward and upward, then extends forward and slightly downward",
+          "location": "starts near the signer's chest, moves outward and upward, then extends forward and slightly downward",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "resting at the side",
+          "temporal_alignment": "the action occurs during the signing of the clause, likely corresponding to the verb 'fly' or the concept of 'going to a place'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hand moves outward and upward, then extends forward, which visually represents the action of 'flying' or 'traveling' to a distant place, aligning with the meaning of 'fly to America'. The movement is not a simple lexical sign but enacts the motion of travel, adding vividness to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

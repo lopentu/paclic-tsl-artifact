@@ -1,0 +1,54 @@
+{
+  "clip_id": "C21",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "video_path": "<repo>/data/clips_c/C21_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:04:52.859858",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth open, lips pursed forward, cheeks slightly puffed\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"mouth pursed, lips protruded\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with the signing of '大量' and '練習' in the surrounding discourse\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The pursed lips and slightly puffed cheeks are a conventionalized nonmanual marker in TSL for 'a lot' or 'many', which directly corresponds to the lexical item '大量' in the given meaning. The facial expression adds emphasis and vividness to the concept of 'a lot' or 'many', making the quantity more salient to the viewer.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth open, lips pursed forward, cheeks slightly puffed",
+          "location": "center of face",
+          "nonmanual": "mouth pursed, lips protruded",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with the signing of '大量' and '練習' in the surrounding discourse"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The pursed lips and slightly puffed cheeks are a conventionalized nonmanual marker in TSL for 'a lot' or 'many', which directly corresponds to the lexical item '大量' in the given meaning. The facial expression adds emphasis and vividness to the concept of 'a lot' or 'many', making the quantity more salient to the viewer."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

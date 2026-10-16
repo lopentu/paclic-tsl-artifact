@@ -1,0 +1,48 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP05",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:05:09.221466",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"both fists move upward from the chest level to the level of the eyes, then both hands move downward and outward, ending with the right hand moving down and the left hand moving up\",\n        \"location\": \"starts near the chest, moves to the eyes, then moves down and outward\",\n        \"nonmanual\": \"face shows a grimace or expression of effort or frustration\",\n        \"non_dominant_hand\": \"the left hand moves down and outward, while the right hand moves down and inward\",\n        \"temporal_alignment\": \"the action begins with the fists near the chest and ends with the hands moving down and outward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The fists moving upward to the eyes and then down and outward suggests a gesture of frustration or effort, which is a clear pragmatic/affective enrichment. The movement is a conventionalized gesture in TSL that conveys emotion or emphasis, not a lexical sign. The action is not indicating a specific referent, but it does depict a physical action (moving fists up and down).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "both fists move upward from the chest level to the level of the eyes, then both hands move downward and outward, ending with the right hand moving down and the left hand moving up",
+          "location": "starts near the chest, moves to the eyes, then moves down and outward",
+          "nonmanual": "face shows a grimace or expression of effort or frustration",
+          "non_dominant_hand": "the left hand moves down and outward, while the right hand moves down and inward",
+          "temporal_alignment": "the action begins with the fists near the chest and ends with the hands moving down and outward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The fists moving upward to the eyes and then down and outward suggests a gesture of frustration or effort, which is a clear pragmatic/affective enrichment. The movement is a conventionalized gesture in TSL that conveys emotion or emphasis, not a lexical sign. The action is not indicating a specific referent, but it does depict a physical action (moving fists up and down)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

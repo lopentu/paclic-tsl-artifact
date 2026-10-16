@@ -1,0 +1,54 @@
+{
+  "clip_id": "C32",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "video_path": "<repo>/data/clips_c/C32_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C32_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:08:05.717543",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth opens and closes, eyebrows raise slightly\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression with raised eyebrows and open mouth\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during the signing of the phrase, aligning with the onset of the utterance\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's facial expression, with raised eyebrows and an open mouth, occurs at the start of the signing and appears to convey a tone of emphasis or surprise, which is consistent with the meaning 'can also understand the different aspects of this world'. The facial expression adds affective enrichment to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth opens and closes, eyebrows raise slightly",
+          "location": "face",
+          "nonmanual": "facial expression with raised eyebrows and open mouth",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during the signing of the phrase, aligning with the onset of the utterance"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's facial expression, with raised eyebrows and an open mouth, occurs at the start of the signing and appears to convey a tone of emphasis or surprise, which is consistent with the meaning 'can also understand the different aspects of this world'. The facial expression adds affective enrichment to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

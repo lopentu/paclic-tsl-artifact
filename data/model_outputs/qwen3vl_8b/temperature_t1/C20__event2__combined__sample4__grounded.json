@@ -1,0 +1,55 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 819837312,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:59:49.301804",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"dominant hand forms a 'V' or 'peace' sign, non-dominant hand forms a 'thumb up' gesture\",\n        \"movement\": \"the dominant hand moves from the signer's chest area outward and slightly upward, while the non-dominant hand remains relatively stationary in a thumbs-up position\",\n        \"location\": \"dominant hand moves from the signer's chest toward the front of the body, non-dominant hand remains near the chest\",\n        \"nonmanual\": \"signer maintains a smiling facial expression\",\n        \"non_dominant_hand\": \"holds a steady thumb-up gesture\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a hand movement and preceding a broader gesture\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The handshape and movement are conventionalized signs in TSL, not merely affective gestures. The action's placement in the discourse and its clear, positive facial expression suggest it's not just a filler but carries pragmatic emphasis and positive affect, consistent with the message of reassurance in the given meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "dominant hand forms a 'V' or 'peace' sign, non-dominant hand forms a 'thumb up' gesture",
+          "movement": "the dominant hand moves from the signer's chest area outward and slightly upward, while the non-dominant hand remains relatively stationary in a thumbs-up position",
+          "location": "dominant hand moves from the signer's chest toward the front of the body, non-dominant hand remains near the chest",
+          "nonmanual": "signer maintains a smiling facial expression",
+          "non_dominant_hand": "holds a steady thumb-up gesture",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a hand movement and preceding a broader gesture"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The handshape and movement are conventionalized signs in TSL, not merely affective gestures. The action's placement in the discourse and its clear, positive facial expression suggest it's not just a filler but carries pragmatic emphasis and positive affect, consistent with the message of reassurance in the given meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

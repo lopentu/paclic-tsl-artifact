@@ -1,0 +1,56 @@
+{
+  "clip_id": "C28",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "manual",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C28_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C28_window_model.mp4",
+  "video_id": "S04-2EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:40:06.794147",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"moves from near the signer's chin upward and outward, then back down\",\n        \"location\": \"starts near chin, moves to mid-chest level\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"moves in a small arc, palm facing outward\",\n        \"temporal_alignment\": \"occurs within a continuous signing stretch, not isolated\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand moves from the chin area upward, a gesture that visually emphasizes the speaker's point about 'some hearing-impaired people' needing sign language support. The movement is not a lexical sign but adds emphasis and affect to the discourse.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "moves from near the signer's chin upward and outward, then back down",
+          "location": "starts near chin, moves to mid-chest level",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "moves in a small arc, palm facing outward",
+          "temporal_alignment": "occurs within a continuous signing stretch, not isolated"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hand moves from the chin area upward, a gesture that visually emphasizes the speaker's point about 'some hearing-impaired people' needing sign language support. The movement is not a lexical sign but adds emphasis and affect to the discourse."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C28",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C28_window_model.mp4",
+  "video_id": "S04-2EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:32:02.625228",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.4\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly spread\",\n        \"movement\": \"both hands move outward and slightly upward from the signer's chest area, then inward toward the center of the chest\",\n        \"location\": \"starts near the chest, moves outward and upward, then returns inward\",\n        \"nonmanual\": \"no significant facial or head movement visible during this action\",\n        \"non_dominant_hand\": \"the non-dominant hand (left hand) moves in coordination with the dominant hand (right hand), both performing the same motion\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, appearing as a coordinated movement within a larger phrase\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move outward and upward from the chest, a motion that visually represents the concept of 'some' or 'a certain number' in TSL, contributing to the propositional content. The coordinated movement of both hands adds emphasis and vividness to the signing, enhancing the affective and depictive force of the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.4",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly spread",
+          "movement": "both hands move outward and slightly upward from the signer's chest area, then inward toward the center of the chest",
+          "location": "starts near the chest, moves outward and upward, then returns inward",
+          "nonmanual": "no significant facial or head movement visible during this action",
+          "non_dominant_hand": "the non-dominant hand (left hand) moves in coordination with the dominant hand (right hand), both performing the same motion",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, appearing as a coordinated movement within a larger phrase"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move outward and upward from the chest, a motion that visually represents the concept of 'some' or 'a certain number' in TSL, contributing to the propositional content. The coordinated movement of both hands adds emphasis and vividness to the signing, enhancing the affective and depictive force of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

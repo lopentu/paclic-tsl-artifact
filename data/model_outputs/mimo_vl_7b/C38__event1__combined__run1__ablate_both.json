@@ -1,0 +1,50 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C38_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:51:50.059529",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3s\",\n      \"end_time\": \"1.2s\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands are used.\",\n        \"handshape\": \"The dominant (right) hand is a 'C' handshape (pinky and thumb extended, other fingers curled in). The non-dominant (left) hand is a 'B' handshape (palm up, fingers together and extended, thumb across palm).\",\n        \"movement\": \"The dominant hand moves in a downward and slightly forward path from the signer's right shoulder/chest area. The non-dominant hand is held relatively still.\",\n        \"location\": \"The dominant hand is in the upper right quadrant of the signer's body, moving downwards. The non-dominant hand is on the signer's left side, near the chest.\",\n        \"nonmanual\": \"The signer's head is tilted to her right. Her facial expression is engaged, with a slight smile.\",\n        \"non_dominant_hand\": \"The non-dominant hand is held steady on the signer's left side, palm up, as a base for the dominant hand's movement.\",\n        \"temporal_alignment\": \"The action begins as a new manual gesture starts after a previous downward-pointing gesture and continues into the next manual gesture.\"\n      },\n      \"semantic_syntactic_load\": 3,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The action is a distinct, repeated manual gesture that occurs in the middle of a signed phrase. Its conventional form suggests it is a lexical sign. The head tilt and engaged facial expression add a slight affective layer.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3s",
+        "end_time": "1.2s",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "The dominant (right) hand is a 'C' handshape (pinky and thumb extended, other fingers curled in). The non-dominant (left) hand is a 'B' handshape (palm up, fingers together and extended, thumb across palm).",
+          "movement": "The dominant hand moves in a downward and slightly forward path from the signer's right shoulder/chest area. The non-dominant hand is held relatively still.",
+          "location": "The dominant hand is in the upper right quadrant of the signer's body, moving downwards. The non-dominant hand is on the signer's left side, near the chest.",
+          "nonmanual": "The signer's head is tilted to her right. Her facial expression is engaged, with a slight smile.",
+          "non_dominant_hand": "The non-dominant hand is held steady on the signer's left side, palm up, as a base for the dominant hand's movement.",
+          "temporal_alignment": "The action begins as a new manual gesture starts after a previous downward-pointing gesture and continues into the next manual gesture."
+        },
+        "semantic_syntactic_load": 3,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The action is a distinct, repeated manual gesture that occurs in the middle of a signed phrase. Its conventional form suggests it is a lexical sign. The head tilt and engaged facial expression add a slight affective layer."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

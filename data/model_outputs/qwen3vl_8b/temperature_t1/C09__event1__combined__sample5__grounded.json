@@ -1,0 +1,55 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 617197751,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:25:29.269114",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open hands, palms facing each other\",\n        \"movement\": \"hands move from the chest outward and upward, then inward toward the chest\",\n        \"location\": \"starts at chest level, moves outward and upward, then returns inward\",\n        \"nonmanual\": \"neutral facial expression, no significant head or torso movement\",\n        \"non_dominant_hand\": \"not clearly distinguishable, both hands move symmetrically\",\n        \"temporal_alignment\": \"the action begins with a clear motion from the chest outward and upward, followed by a return inward, and is temporally aligned with the surrounding signing that conveys a sense of contrast or emphasis\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move from the chest outward and upward, then inward, which visually conveys a sense of contrast or emphasis, aligning with the semantic content 'if only through current sign language courses, it is far from sufficient for translation.' The motion is clear and conventionalized, suggesting a grammatical or structural marker rather than a depictive or indicating gesture.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open hands, palms facing each other",
+          "movement": "hands move from the chest outward and upward, then inward toward the chest",
+          "location": "starts at chest level, moves outward and upward, then returns inward",
+          "nonmanual": "neutral facial expression, no significant head or torso movement",
+          "non_dominant_hand": "not clearly distinguishable, both hands move symmetrically",
+          "temporal_alignment": "the action begins with a clear motion from the chest outward and upward, followed by a return inward, and is temporally aligned with the surrounding signing that conveys a sense of contrast or emphasis"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move from the chest outward and upward, then inward, which visually conveys a sense of contrast or emphasis, aligning with the semantic content 'if only through current sign language courses, it is far from sufficient for translation.' The motion is clear and conventionalized, suggesting a grammatical or structural marker rather than a depictive or indicating gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

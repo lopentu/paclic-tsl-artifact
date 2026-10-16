@@ -1,0 +1,48 @@
+{
+  "clip_id": "C02",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:25:54.651596",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"moves from right to left across the signer's upper chest, then upward toward the right side of the head\",\n        \"location\": \"starts near the signer's right shoulder, moves across the chest, ends near the right temple\",\n        \"nonmanual\": \"signer smiles slightly\",\n        \"non_dominant_hand\": \"resting, not visible\",\n        \"temporal_alignment\": \"begins with the signer's right hand moving from the right side of the chest toward the left, then upward to the right temple, while the signer is speaking\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's hand moves from the right side of the chest to the right temple, a motion that visually corresponds to the action of 'thinking' or 'remembering' in TSL. The movement is integrated with the signer's speech and facial expression, suggesting it is a grammatical or lexical sign, not just a gesture. The motion is not pointing to a specific external referent, nor is it enacting an action, so it is not indication or depiction.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "moves from right to left across the signer's upper chest, then upward toward the right side of the head",
+          "location": "starts near the signer's right shoulder, moves across the chest, ends near the right temple",
+          "nonmanual": "signer smiles slightly",
+          "non_dominant_hand": "resting, not visible",
+          "temporal_alignment": "begins with the signer's right hand moving from the right side of the chest toward the left, then upward to the right temple, while the signer is speaking"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's hand moves from the right side of the chest to the right temple, a motion that visually corresponds to the action of 'thinking' or 'remembering' in TSL. The movement is integrated with the signer's speech and facial expression, suggesting it is a grammatical or lexical sign, not just a gesture. The motion is not pointing to a specific external referent, nor is it enacting an action, so it is not indication or depiction."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

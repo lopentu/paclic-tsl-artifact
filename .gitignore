@@ -1,0 +1,16 @@
+# Video and derived frames are never redistributed: fetch the videos yourself with
+# scripts/01_fetch_source_videos.py --url-list data/sources.csv
+data/raw/
+data/clips_c/
+data/clips_visual_null/
+
+# Credentials
+*cookies*.txt
+cookies.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+.DS_Store

@@ -1,0 +1,36 @@
+{
+  "clip_id": "C04",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "face",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S01EP05",
+  "source_run": "C04__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: facial expression with pursed lips and slight head tilt\n- location: center of face\n- nonmanual: pursed lips, slight head tilt\n- temporal alignment: co-occurs with the signing of '對' (to) and '台灣手語' (Taiwan Sign Language), and precedes the signing of '教學' (teaching)",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:12:13.152887",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 2,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 1,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The pursed lips and head tilt are not essential for grammatical structure or propositional content (hence low semantic load), but they convey a tone of mild emphasis or personal engagement, enriching the pragmatic affect. The action is conventionalized as a facial expression that signals interest or focus (description score 2), and while not pointing or indexing, it enacts a subtle depiction of the signer’s attitude (depiction score 1).\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 0,
+    "depiction": 1,
+    "confidence": 0.85,
+    "reasoning": "The pursed lips and head tilt are not essential for grammatical structure or propositional content (hence low semantic load), but they convey a tone of mild emphasis or personal engagement, enriching the pragmatic affect. The action is conventionalized as a facial expression that signals interest or focus (description score 2), and while not pointing or indexing, it enacts a subtle depiction of the signer’s attitude (depiction score 1)."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

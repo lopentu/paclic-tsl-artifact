@@ -1,0 +1,48 @@
+{
+  "clip_id": "C22",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C22_window_model.mp4",
+  "video_id": "S01EP12",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:06:32.486177",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"hands clasped together in front of chest\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"head tilted back and upward, eyes looking up and away from camera\",\n        \"location\": \"head and torso\",\n        \"nonmanual\": \"eyes looking upward, mouth slightly open\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during a pause in signing, following a previous sign and preceding a new one\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The head tilt and upward gaze occur during a pause, suggesting a moment of reflection or emphasis. The upward gaze and clasped hands convey a sense of searching or uncertainty, which aligns with the meaning '無從判斷' (cannot judge).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "hands clasped together in front of chest",
+          "handshape": "not visible",
+          "movement": "head tilted back and upward, eyes looking up and away from camera",
+          "location": "head and torso",
+          "nonmanual": "eyes looking upward, mouth slightly open",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during a pause in signing, following a previous sign and preceding a new one"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The head tilt and upward gaze occur during a pause, suggesting a moment of reflection or emphasis. The upward gaze and clasped hands convey a sense of searching or uncertainty, which aligns with the meaning '無從判斷' (cannot judge)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

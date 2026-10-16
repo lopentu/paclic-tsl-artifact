@@ -1,0 +1,49 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C06_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:43:01.354939",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a thumb-up gesture; left hand forms a flat, open palm\",\n        \"movement\": \"right hand moves in a small, repetitive up-and-down motion while maintaining the thumb-up shape; left hand remains relatively still, held in a flat palm position\",\n        \"location\": \"right hand is positioned near the signer's chest, left hand is held lower, near the signer's waist\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly serious\",\n        \"non_dominant_hand\": \"left hand is held in a static, open palm position, not moving\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a previous gesture and preceding a subsequent one\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The right hand's thumb-up gesture is a conventionalized sign in TSL that typically conveys approval, agreement, or 'yes'. The repetitive motion reinforces this meaning. The left hand's static position provides a stable base, which is common in TSL for grammatical or syntactic structure. The combination of the gesture and the signer's neutral expression suggests a factual or declarative statement, contributing to the propositional content of the discourse.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a thumb-up gesture; left hand forms a flat, open palm",
+          "movement": "right hand moves in a small, repetitive up-and-down motion while maintaining the thumb-up shape; left hand remains relatively still, held in a flat palm position",
+          "location": "right hand is positioned near the signer's chest, left hand is held lower, near the signer's waist",
+          "nonmanual": "signer's facial expression is neutral to slightly serious",
+          "non_dominant_hand": "left hand is held in a static, open palm position, not moving",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a previous gesture and preceding a subsequent one"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The right hand's thumb-up gesture is a conventionalized sign in TSL that typically conveys approval, agreement, or 'yes'. The repetitive motion reinforces this meaning. The left hand's static position provides a stable base, which is common in TSL for grammatical or syntactic structure. The combination of the gesture and the signer's neutral expression suggests a factual or declarative statement, contributing to the propositional content of the discourse."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

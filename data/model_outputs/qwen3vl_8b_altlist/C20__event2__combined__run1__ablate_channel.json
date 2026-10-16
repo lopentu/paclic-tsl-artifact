@@ -1,0 +1,49 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C20_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:48:38.661710",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'V' or 'peace' sign, left hand forms a 'V' or 'peace' sign\",\n        \"movement\": \"both hands move from a position near the chest outward and slightly upward, then the right hand moves slightly forward and downward while the left hand remains relatively stable\",\n        \"location\": \"initially near the chest, then moving outward and slightly upward\",\n        \"nonmanual\": \"smiling facial expression\",\n        \"non_dominant_hand\": \"left hand forms a 'V' or 'peace' sign, relatively stable\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a previous sign and preceding a subsequent sign\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands form a 'V' or 'peace' sign, a common gesture in TSL that can indicate 'good' or 'positive' and is used here to convey a reassuring or encouraging tone. The smiling facial expression and the outward movement of the hands contribute to a positive, encouraging affect, which is consistent with the meaning 'You will also be able to pass the exam'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'V' or 'peace' sign, left hand forms a 'V' or 'peace' sign",
+          "movement": "both hands move from a position near the chest outward and slightly upward, then the right hand moves slightly forward and downward while the left hand remains relatively stable",
+          "location": "initially near the chest, then moving outward and slightly upward",
+          "nonmanual": "smiling facial expression",
+          "non_dominant_hand": "left hand forms a 'V' or 'peace' sign, relatively stable",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a previous sign and preceding a subsequent sign"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The hands form a 'V' or 'peace' sign, a common gesture in TSL that can indicate 'good' or 'positive' and is used here to convey a reassuring or encouraging tone. The smiling facial expression and the outward movement of the hands contribute to a positive, encouraging affect, which is consistent with the meaning 'You will also be able to pass the exam'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

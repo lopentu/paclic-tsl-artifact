@@ -1,0 +1,49 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C33_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:08:44.635589",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"thumbs up, fingers curled inward\",\n        \"movement\": \"hands move inward toward the chest, then outward again, with a slight up-and-down motion\",\n        \"location\": \"centered in front of the chest, at approximately shoulder height\",\n        \"nonmanual\": \"signer's face shows a serious, focused expression with slightly furrowed brows\",\n        \"non_dominant_hand\": \"non-dominant hand moves in sync with the dominant hand, mirroring the gesture\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a previous gesture and preceding a more emphatic one\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move inward and outward in a rhythmic, repetitive motion, which is a conventionalized sign in TSL for 'to be' or 'to exist' (e.g., 'there is/are'). The synchronized movement of both hands and the focused facial expression suggest this is a grammatical marker, not a depictive or emphatic gesture. The action is clearly part of a larger grammatical structure, as it is followed by a more emphatic gesture.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "thumbs up, fingers curled inward",
+          "movement": "hands move inward toward the chest, then outward again, with a slight up-and-down motion",
+          "location": "centered in front of the chest, at approximately shoulder height",
+          "nonmanual": "signer's face shows a serious, focused expression with slightly furrowed brows",
+          "non_dominant_hand": "non-dominant hand moves in sync with the dominant hand, mirroring the gesture",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a previous gesture and preceding a more emphatic one"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move inward and outward in a rhythmic, repetitive motion, which is a conventionalized sign in TSL for 'to be' or 'to exist' (e.g., 'there is/are'). The synchronized movement of both hands and the focused facial expression suggest this is a grammatical marker, not a depictive or emphatic gesture. The action is clearly part of a larger grammatical structure, as it is followed by a more emphatic gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

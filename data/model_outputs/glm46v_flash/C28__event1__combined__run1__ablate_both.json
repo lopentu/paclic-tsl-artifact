@@ -1,0 +1,61 @@
+{
+  "clip_id": "C28",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C28_window_model.mp4",
+  "video_id": "S04-2EP07",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:10:59.622025",
+  "backend_call_info": {
+    "frames_per_video": [
+      128,
+      10
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      14.2714
+    ],
+    "input_tokens": 14622,
+    "output_tokens": 339
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.40\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand raised with index finger extended, non-dominant hand open and slightly forward\",\n        \"handshape\": \"index finger extended, other fingers closed\",\n        \"movement\": \"dominant hand moves upward and forward in a pointing gesture\",\n        \"location\": \"in front of the signer's chest, moving from lower to upper position\",\n        \"nonmanual\": \"mouth is open, head slightly tilted forward\",\n        \"non_dominant_hand\": \"remains relatively still, open and slightly forward\",\n        \"temporal_alignment\": \"occurs within a longer sequence of signing, starting after a previous hand movement and preceding another\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The dominant hand's upward and forward movement with an extended index finger is a clear pointing gesture, indicating a referent. The handshape and movement are consistent with a lexical sign for 'pointing' or 'indicating' something, contributing to propositional content. The non-dominant hand remains still, supporting the focus on the manual action.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.40",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand raised with index finger extended, non-dominant hand open and slightly forward",
+          "handshape": "index finger extended, other fingers closed",
+          "movement": "dominant hand moves upward and forward in a pointing gesture",
+          "location": "in front of the signer's chest, moving from lower to upper position",
+          "nonmanual": "mouth is open, head slightly tilted forward",
+          "non_dominant_hand": "remains relatively still, open and slightly forward",
+          "temporal_alignment": "occurs within a longer sequence of signing, starting after a previous hand movement and preceding another"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The dominant hand's upward and forward movement with an extended index finger is a clear pointing gesture, indicating a referent. The handshape and movement are consistent with a lexical sign for 'pointing' or 'indicating' something, contributing to propositional content. The non-dominant hand remains still, supporting the focus on the manual action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

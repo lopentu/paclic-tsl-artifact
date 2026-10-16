@@ -1,0 +1,50 @@
+{
+  "clip_id": "C07",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C07_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:21:18.938935",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.6\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are active. The dominant hand (on the viewer's right) is a pincer shape, moving in a downward and slightly forward path. The non-dominant hand (on the viewer's left) is a flat, open hand, palm facing forward, moving in a downward and slightly forward path.\",\n          \"handshape\": \"Dominant: pincer (thumb and index finger). Non-dominant: open, flat hand.\",\n          \"movement\": \"Both hands move downwards and slightly forwards from a higher starting position, with a slight circular or scooping motion.\",\n          \"location\": \"In front of the signer's chest, at about shoulder height.\",\n          \"nonmanual\": \"The signer's head is tilted slightly to their right. The eyebrows are slightly raised. The mouth is slightly open.\",\n          \"non_dominant_hand\": \"The non-dominant hand is an active participant in the sign, not held still.\",\n          \"temporal_alignment\": \"The action is a single, completed sign that occurs in the middle of a continuous signing flow, not at the beginning or end of a phrase.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two-handed, downward motion is a conventional TSL sign. The surrounding signing context suggests it is a grammatical or content word. The facial expression (slightly raised eyebrows) adds a subtle layer of emphasis or questioning.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are active. The dominant hand (on the viewer's right) is a pincer shape, moving in a downward and slightly forward path. The non-dominant hand (on the viewer's left) is a flat, open hand, palm facing forward, moving in a downward and slightly forward path.",
+          "handshape": "Dominant: pincer (thumb and index finger). Non-dominant: open, flat hand.",
+          "movement": "Both hands move downwards and slightly forwards from a higher starting position, with a slight circular or scooping motion.",
+          "location": "In front of the signer's chest, at about shoulder height.",
+          "nonmanual": "The signer's head is tilted slightly to their right. The eyebrows are slightly raised. The mouth is slightly open.",
+          "non_dominant_hand": "The non-dominant hand is an active participant in the sign, not held still.",
+          "temporal_alignment": "The action is a single, completed sign that occurs in the middle of a continuous signing flow, not at the beginning or end of a phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed, downward motion is a conventional TSL sign. The surrounding signing context suggests it is a grammatical or content word. The facial expression (slightly raised eyebrows) adds a subtle layer of emphasis or questioning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

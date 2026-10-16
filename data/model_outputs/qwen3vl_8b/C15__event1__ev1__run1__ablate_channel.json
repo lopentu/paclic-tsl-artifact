@@ -1,0 +1,48 @@
+{
+  "clip_id": "C15",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:56:57.682801",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from right to left across the signer's chest, then points forward\",\n        \"location\": \"starts near the signer's right shoulder, moves across the chest, ends pointing forward\",\n        \"nonmanual\": \"neutral facial expression, head steady\",\n        \"non_dominant_hand\": \"resting on the signer's chest\",\n        \"temporal_alignment\": \"the action begins with the signer's right hand moving from the right side of her body across her chest and ends with the index finger pointing forward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are consistent with a lexical sign for 'effort' or 'striving' in TSL. The movement across the chest and forward pointing visually reinforces the ongoing, forward-directed nature of the effort described in the meaning '我們都持續在努力中'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from right to left across the signer's chest, then points forward",
+          "location": "starts near the signer's right shoulder, moves across the chest, ends pointing forward",
+          "nonmanual": "neutral facial expression, head steady",
+          "non_dominant_hand": "resting on the signer's chest",
+          "temporal_alignment": "the action begins with the signer's right hand moving from the right side of her body across her chest and ends with the index finger pointing forward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are consistent with a lexical sign for 'effort' or 'striving' in TSL. The movement across the chest and forward pointing visually reinforces the ongoing, forward-directed nature of the effort described in the meaning '我們都持續在努力中'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

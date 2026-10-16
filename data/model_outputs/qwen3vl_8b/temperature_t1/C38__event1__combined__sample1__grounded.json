@@ -1,0 +1,55 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1542437180,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:35:59.495158",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"thumb extended, other fingers curled into a fist\",\n        \"movement\": \"the hand moves downward in a straight line, then holds steady\",\n        \"location\": \"in front of the signer's chest, at approximately chest height\",\n        \"nonmanual\": \"signer's head is slightly tilted, eyes are looking down at the hand\",\n        \"non_dominant_hand\": \"the hand is held steady in a downward position, thumb extended, other fingers curled into a fist\",\n        \"temporal_alignment\": \"the action begins immediately after a hand gesture and holds for a duration that coincides with the phrase '從小就開始教他們手語'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and downward movement are consistent with a lexical sign in Taiwan Sign Language that indicates 'teaching' or 'instruction'. The steady hold and downward motion, combined with the signer's gaze, emphasize the act of teaching and suggest a sustained, deliberate action. The downward trajectory may also indicate the 'beginning' of a long-term process, aligning with '從小就開始' (from childhood, started).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "thumb extended, other fingers curled into a fist",
+          "movement": "the hand moves downward in a straight line, then holds steady",
+          "location": "in front of the signer's chest, at approximately chest height",
+          "nonmanual": "signer's head is slightly tilted, eyes are looking down at the hand",
+          "non_dominant_hand": "the hand is held steady in a downward position, thumb extended, other fingers curled into a fist",
+          "temporal_alignment": "the action begins immediately after a hand gesture and holds for a duration that coincides with the phrase '從小就開始教他們手語'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and downward movement are consistent with a lexical sign in Taiwan Sign Language that indicates 'teaching' or 'instruction'. The steady hold and downward motion, combined with the signer's gaze, emphasize the act of teaching and suggest a sustained, deliberate action. The downward trajectory may also indicate the 'beginning' of a long-term process, aligning with '從小就開始' (from childhood, started)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

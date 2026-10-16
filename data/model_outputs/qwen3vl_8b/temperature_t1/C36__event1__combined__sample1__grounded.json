@@ -1,0 +1,55 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1335013290,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:35:14.181124",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3 seconds\",\n      \"end_time\": \"1.0 seconds\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"moves from right to left across the signer's chest, then downward\",\n        \"location\": \"starts near the signer's right shoulder, moves across the chest to the left side, then down toward the waist\",\n        \"nonmanual\": \"signer's mouth opens wide and eyes widen at 0.7 seconds, showing strong affective expression\",\n        \"non_dominant_hand\": \"the non-dominant hand's index finger points forward, then sweeps leftward and downward, while the other fingers remain curled\",\n        \"temporal_alignment\": \"the action begins at 0.3 seconds, coincides with the signer's facial expression of surprise or emphasis, and ends at 1.0 seconds\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The non-dominant hand's movement from right to left and downward, combined with the signer's wide-open mouth and widened eyes, strongly conveys an affective emphasis, likely expressing surprise or urgency. The movement is not a conventionalized lexical sign (description score 1) but clearly contributes to the pragmatic force of the utterance. The handshape is a conventionalized index finger, but the movement and context make it depictive of an action (like pointing out something important or alarming).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3 seconds",
+        "end_time": "1.0 seconds",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "moves from right to left across the signer's chest, then downward",
+          "location": "starts near the signer's right shoulder, moves across the chest to the left side, then down toward the waist",
+          "nonmanual": "signer's mouth opens wide and eyes widen at 0.7 seconds, showing strong affective expression",
+          "non_dominant_hand": "the non-dominant hand's index finger points forward, then sweeps leftward and downward, while the other fingers remain curled",
+          "temporal_alignment": "the action begins at 0.3 seconds, coincides with the signer's facial expression of surprise or emphasis, and ends at 1.0 seconds"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The non-dominant hand's movement from right to left and downward, combined with the signer's wide-open mouth and widened eyes, strongly conveys an affective emphasis, likely expressing surprise or urgency. The movement is not a conventionalized lexical sign (description score 1) but clearly contributes to the pragmatic force of the utterance. The handshape is a conventionalized index finger, but the movement and context make it depictive of an action (like pointing out something important or alarming)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

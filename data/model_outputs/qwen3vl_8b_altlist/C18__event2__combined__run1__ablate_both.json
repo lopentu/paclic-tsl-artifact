@@ -1,0 +1,49 @@
+{
+  "clip_id": "C18",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:03:14.321071",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from the signer's right side to the center of the face, then taps the lips\",\n        \"location\": \"starts near the signer's right cheek, moves to the lips\",\n        \"nonmanual\": \"mouth slightly open, eyes looking forward\",\n        \"non_dominant_hand\": \"resting at the signer's side\",\n        \"temporal_alignment\": \"the action occurs at the beginning of the clip, immediately after the signer's mouth opens and before she brings her hands together\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The index finger taps the lips, a conventionalized sign in TSL for 'quiet' or 'be silent', which is a lexical sign carrying propositional content. The action is performed with clear, deliberate movement and is followed by a gesture of bringing hands together, suggesting a shift to a new topic or a request for attention, indicating pragmatic enrichment.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from the signer's right side to the center of the face, then taps the lips",
+          "location": "starts near the signer's right cheek, moves to the lips",
+          "nonmanual": "mouth slightly open, eyes looking forward",
+          "non_dominant_hand": "resting at the signer's side",
+          "temporal_alignment": "the action occurs at the beginning of the clip, immediately after the signer's mouth opens and before she brings her hands together"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The index finger taps the lips, a conventionalized sign in TSL for 'quiet' or 'be silent', which is a lexical sign carrying propositional content. The action is performed with clear, deliberate movement and is followed by a gesture of bringing hands together, suggesting a shift to a new topic or a request for attention, indicating pragmatic enrichment."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

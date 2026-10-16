@@ -1,0 +1,48 @@
+{
+  "clip_id": "C34",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C34_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:17:17.249078",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"right hand moves from near the signer's right cheek to the center of the face, then left hand mirrors it; both hands then move inward toward the center of the chest\",\n        \"location\": \"starts near the signer's right cheek, moves to center of face, then inward toward chest\",\n        \"nonmanual\": \"signer's mouth is open and moving, eyes are focused forward\",\n        \"non_dominant_hand\": \"left hand mirrors the right hand's movement\",\n        \"temporal_alignment\": \"the action begins with the right hand moving from the right side of the face toward the center, and the left hand follows, mirroring the right hand's movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move from the sides of the face inward, which visually represents the concept of being in the middle or center, aligning with the meaning 'in the middle of the road'. The movement is coordinated and deliberate, suggesting a grammatical or structural role in the signing. The action is also vivid and depictive, showing the signer's hands moving inward to represent being in the center of a space.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "right hand moves from near the signer's right cheek to the center of the face, then left hand mirrors it; both hands then move inward toward the center of the chest",
+          "location": "starts near the signer's right cheek, moves to center of face, then inward toward chest",
+          "nonmanual": "signer's mouth is open and moving, eyes are focused forward",
+          "non_dominant_hand": "left hand mirrors the right hand's movement",
+          "temporal_alignment": "the action begins with the right hand moving from the right side of the face toward the center, and the left hand follows, mirroring the right hand's movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move from the sides of the face inward, which visually represents the concept of being in the middle or center, aligning with the meaning 'in the middle of the road'. The movement is coordinated and deliberate, suggesting a grammatical or structural role in the signing. The action is also vivid and depictive, showing the signer's hands moving inward to represent being in the center of a space."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

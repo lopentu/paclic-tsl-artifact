@@ -1,0 +1,50 @@
+{
+  "clip_id": "C21",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:02:06.702611",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.7\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are active. The dominant hand (on the viewer's right) is in front of the body, and the non-dominant hand (on the viewer's left) is also in front of the body.\",\n          \"handshape\": \"The dominant hand has an open palm, fingers slightly spread. The non-dominant hand has a similar open palm shape.\",\n          \"movement\": \"The dominant hand moves from a position near the chest, outwards and downwards. The non-dominant hand moves from a similar position, outwards and downwards, in a slightly different path.\",\n          \"location\": \"In front of the signer's torso, at chest level.\",\n          \"nonmanual\": \"The signer's head is tilted slightly to their right. The mouth is open as if speaking or signing.\",\n          \"non_dominant_hand\": \"The non-dominant hand is active, moving in coordination with the dominant hand.\",\n          \"temporal_alignment\": \"The action is a continuous part of a larger signed phrase, flowing from the previous hand configuration and leading into the next.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two-handed, outward and downward motion is a conventional TSL structure for indicating a large quantity or a broad availability of resources. The handshapes are conventional for this type of sign. The facial expression is engaged and matches the pragmatic tone of the discourse.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are active. The dominant hand (on the viewer's right) is in front of the body, and the non-dominant hand (on the viewer's left) is also in front of the body.",
+          "handshape": "The dominant hand has an open palm, fingers slightly spread. The non-dominant hand has a similar open palm shape.",
+          "movement": "The dominant hand moves from a position near the chest, outwards and downwards. The non-dominant hand moves from a similar position, outwards and downwards, in a slightly different path.",
+          "location": "In front of the signer's torso, at chest level.",
+          "nonmanual": "The signer's head is tilted slightly to their right. The mouth is open as if speaking or signing.",
+          "non_dominant_hand": "The non-dominant hand is active, moving in coordination with the dominant hand.",
+          "temporal_alignment": "The action is a continuous part of a larger signed phrase, flowing from the previous hand configuration and leading into the next."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed, outward and downward motion is a conventional TSL structure for indicating a large quantity or a broad availability of resources. The handshapes are conventional for this type of sign. The facial expression is engaged and matches the pragmatic tone of the discourse."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

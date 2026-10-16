@@ -1,0 +1,61 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T19:40:10.760833",
+  "backend_call_info": {
+    "frames_per_video": [
+      64,
+      22
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.6986
+    ],
+    "input_tokens": 9814,
+    "output_tokens": 276
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"1.10\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"dominant hand raised to head, fingers slightly curled\",\n        \"handshape\": \"fist-like with thumb tucked\",\n        \"movement\": \"static, held in place\",\n        \"location\": \"frontal plane, near the signer's head\",\n        \"nonmanual\": \"mouth wide open, eyes closed, brow furrowed\",\n        \"non_dominant_hand\": \"resting at sides\",\n        \"temporal_alignment\": \"initial segment of a longer signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The signer maintains a wide-open mouth and furrowed brow from 0.30 to 1.10 seconds, paired with a static hand gesture near the head, indicating strong affective emphasis.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "1.10",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "dominant hand raised to head, fingers slightly curled",
+          "handshape": "fist-like with thumb tucked",
+          "movement": "static, held in place",
+          "location": "frontal plane, near the signer's head",
+          "nonmanual": "mouth wide open, eyes closed, brow furrowed",
+          "non_dominant_hand": "resting at sides",
+          "temporal_alignment": "initial segment of a longer signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The signer maintains a wide-open mouth and furrowed brow from 0.30 to 1.10 seconds, paired with a static hand gesture near the head, indicating strong affective emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

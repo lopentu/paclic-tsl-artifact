@@ -1,0 +1,54 @@
+{
+  "clip_id": "C39",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_c/C39_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C39_window_model.mp4",
+  "video_id": "SP-EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:17:09.557138",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"mouth opens wide, tongue protrudes, then retracts; facial expression shifts from open-mouthed to a grimace\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"mouth and tongue movement, facial grimace\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with the signing of '聽不到聲音' (can't hear sound) and the beginning of '我可以自立自強' (I can be self-reliant)\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The facial expression, with the tongue protruding and mouth wide open, visually enacts the concept of 'not hearing' or 'soundless' as part of the phrase '聽不到聲音'. The grimace at the end conveys the emotional resilience of '我可以自立自強' (I can be self-reliant), adding affective enrichment to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "mouth opens wide, tongue protrudes, then retracts; facial expression shifts from open-mouthed to a grimace",
+          "location": "center of face",
+          "nonmanual": "mouth and tongue movement, facial grimace",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with the signing of '聽不到聲音' (can't hear sound) and the beginning of '我可以自立自強' (I can be self-reliant)"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The facial expression, with the tongue protruding and mouth wide open, visually enacts the concept of 'not hearing' or 'soundless' as part of the phrase '聽不到聲音'. The grimace at the end conveys the emotional resilience of '我可以自立自強' (I can be self-reliant), adding affective enrichment to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

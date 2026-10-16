@@ -1,0 +1,54 @@
+{
+  "clip_id": "C07",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "video_path": "<repo>/data/clips_c/C07_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C07_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T17:59:22.705326",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression changes from neutral to a slight smile\",\n        \"location\": \"face\",\n        \"nonmanual\": \"mouth corners turn up, eyes crinkle slightly\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during the signing of the word '老師' (teacher), following a gesture indicating 'arrange' or 'organize' and preceding a gesture indicating 'internship'\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The facial expression shifts to a slight smile during the signing of '老師', which is a key noun in the sentence. This smile adds a positive, perhaps slightly amused or approving tone to the statement about teachers arranging internships, which is a pragmatic enrichment. The expression is not a conventionalized lexical sign but a nonmanual marker that modifies the affective valence of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression changes from neutral to a slight smile",
+          "location": "face",
+          "nonmanual": "mouth corners turn up, eyes crinkle slightly",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during the signing of the word '老師' (teacher), following a gesture indicating 'arrange' or 'organize' and preceding a gesture indicating 'internship'"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression shifts to a slight smile during the signing of '老師', which is a key noun in the sentence. This smile adds a positive, perhaps slightly amused or approving tone to the statement about teachers arranging internships, which is a pragmatic enrichment. The expression is not a conventionalized lexical sign but a nonmanual marker that modifies the affective valence of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

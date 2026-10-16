@@ -1,0 +1,36 @@
+{
+  "clip_id": "C19",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "manual",
+  "label_channel_sent": "face",
+  "label_is_correct": false,
+  "video_id": "S01EP11",
+  "source_run": "C19__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 1,
+    "depiction": 1
+  },
+  "description_sent": "- handshape: index finger extended, other fingers curled\n- movement: index finger moves from near the signer's chin, sweeps outward and slightly upward, then moves forward and downward in a smooth arc\n- location: starts near the chin, moves to the right side of the signer's face, then forward and downward\n- nonmanual: signer's mouth is open and moving, eyes are focused forward\n- non dominant hand: resting at the signer's side\n- temporal alignment: the action begins immediately after a brief pause and is followed by a more complex hand movement",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:24:09.218458",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The action is facial and involves mouth movement and eye focus, which typically conveys affect or emphasis rather than propositional content. The gesture’s movement and location suggest a performative or expressive function, likely reinforcing the speaker’s belief or conviction. It is not a conventionalized description or strong indication, but it does depict the speaker’s engagement with the message. The utterance’s core meaning (‘I believe the students taking the exam’) is not altered by its absence, but the affective weight is significantly reduced.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The action is facial and involves mouth movement and eye focus, which typically conveys affect or emphasis rather than propositional content. The gesture’s movement and location suggest a performative or expressive function, likely reinforcing the speaker’s belief or conviction. It is not a conventionalized description or strong indication, but it does depict the speaker’s engagement with the message. The utterance’s core meaning (‘I believe the students taking the exam’) is not altered by its absence, but the affective weight is significantly reduced."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

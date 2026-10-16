@@ -1,0 +1,55 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1934549546,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:17:17.898881",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible or not primary\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth opens and closes with a slight upward tilt of the chin and head; eyebrows raise slightly\",\n        \"location\": \"face and head, oriented forward\",\n        \"nonmanual\": \"facial expression with raised eyebrows and slightly open mouth\",\n        \"non_dominant_hand\": \"not visible or not involved\",\n        \"temporal_alignment\": \"the action occurs during the signing of the phrase '我會很想學' and is temporally aligned with the expression of desire or eagerness\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The facial expression (raised eyebrows, open mouth) conveys eagerness or strong desire, which is semantically aligned with '很想學' (very want to learn). The expression adds vividness and affect, making the speaker's intent more emphatic and emotionally resonant.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible or not primary",
+          "handshape": "not applicable",
+          "movement": "mouth opens and closes with a slight upward tilt of the chin and head; eyebrows raise slightly",
+          "location": "face and head, oriented forward",
+          "nonmanual": "facial expression with raised eyebrows and slightly open mouth",
+          "non_dominant_hand": "not visible or not involved",
+          "temporal_alignment": "the action occurs during the signing of the phrase '我會很想學' and is temporally aligned with the expression of desire or eagerness"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The facial expression (raised eyebrows, open mouth) conveys eagerness or strong desire, which is semantically aligned with '很想學' (very want to learn). The expression adds vividness and affect, making the speaker's intent more emphatic and emotionally resonant."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "clip_id": "C38",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:39:50.706858",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand (right) and non-dominant hand (left)\",\n        \"handshape\": \"dominant hand forms a 'thumb-up' or 'OK' gesture; non-dominant hand forms a 'flat hand' or 'palm' shape\",\n        \"movement\": \"dominant hand moves from the signer's chest area down and slightly outward, then points downward with the index finger; non-dominant hand remains relatively still, held in a palm-up position near the signer's waist\",\n        \"location\": \"dominant hand starts near the signer's chest and moves to the lower right side of the signer's body (signer's right side); non-dominant hand remains near the signer's waist\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly smiling\",\n        \"non_dominant_hand\": \"held steady in a palm-up position, supporting the dominant hand's movement\",\n        \"temporal_alignment\": \"the action begins with the dominant hand moving downward and ends with the index finger pointing downward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The dominant hand's downward movement and pointing gesture clearly indicate a direction or location, which is a common grammatical marker in TSL for spatial reference. The non-dominant hand's steady palm-up position provides a stable base for the gesture, enhancing its depictive force. The action is not a lexical sign but a grammatical marker for direction, contributing to the propositional content.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand (right) and non-dominant hand (left)",
+          "handshape": "dominant hand forms a 'thumb-up' or 'OK' gesture; non-dominant hand forms a 'flat hand' or 'palm' shape",
+          "movement": "dominant hand moves from the signer's chest area down and slightly outward, then points downward with the index finger; non-dominant hand remains relatively still, held in a palm-up position near the signer's waist",
+          "location": "dominant hand starts near the signer's chest and moves to the lower right side of the signer's body (signer's right side); non-dominant hand remains near the signer's waist",
+          "nonmanual": "signer's facial expression is neutral to slightly smiling",
+          "non_dominant_hand": "held steady in a palm-up position, supporting the dominant hand's movement",
+          "temporal_alignment": "the action begins with the dominant hand moving downward and ends with the index finger pointing downward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 3,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The dominant hand's downward movement and pointing gesture clearly indicate a direction or location, which is a common grammatical marker in TSL for spatial reference. The non-dominant hand's steady palm-up position provides a stable base for the gesture, enhancing its depictive force. The action is not a lexical sign but a grammatical marker for direction, contributing to the propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

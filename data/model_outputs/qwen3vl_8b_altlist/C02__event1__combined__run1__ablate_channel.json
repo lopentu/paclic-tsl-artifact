@@ -1,0 +1,49 @@
+{
+  "clip_id": "C02",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C02_window_model.mp4",
+  "video_id": "S01EP02",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:41:36.491638",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"extends index finger upward and forward, then moves it in a small circular motion near the signer's right temple\",\n        \"location\": \"right side of signer's head, near temple\",\n        \"nonmanual\": \"signer smiles slightly\",\n        \"non_dominant_hand\": \"resting, not moving\",\n        \"temporal_alignment\": \"begins with a gesture of pointing to the head, then transitions into a circular motion near the temple\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The signer extends his index finger upward and makes a small circular motion near his temple, which visually represents the idea of 'thinking' or 'considering' — a common gesture in TSL to indicate mental activity. This action is semantically loaded as it introduces the concept of cognitive processing, which is central to the discourse about communication challenges. It is also pragmatically enriched as the gesture is vivid and affective, conveying the signer's emphasis on the mental effort required to communicate in a different context. The movement is a conventionalized sign (description) that also indicates the signer's own mental state (indication) and enacts the act of thinking (depiction).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "extends index finger upward and forward, then moves it in a small circular motion near the signer's right temple",
+          "location": "right side of signer's head, near temple",
+          "nonmanual": "signer smiles slightly",
+          "non_dominant_hand": "resting, not moving",
+          "temporal_alignment": "begins with a gesture of pointing to the head, then transitions into a circular motion near the temple"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The signer extends his index finger upward and makes a small circular motion near his temple, which visually represents the idea of 'thinking' or 'considering' — a common gesture in TSL to indicate mental activity. This action is semantically loaded as it introduces the concept of cognitive processing, which is central to the discourse about communication challenges. It is also pragmatically enriched as the gesture is vivid and affective, conveying the signer's emphasis on the mental effort required to communicate in a different context. The movement is a conventionalized sign (description) that also indicates the signer's own mental state (indication) and enacts the act of thinking (depiction)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

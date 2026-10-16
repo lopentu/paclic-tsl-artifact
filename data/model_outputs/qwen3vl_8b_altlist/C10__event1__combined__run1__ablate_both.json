@@ -1,0 +1,49 @@
+{
+  "clip_id": "C10",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C10_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:59:58.405639",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended\",\n        \"movement\": \"moves from near the ear to pointing forward, then slightly upward\",\n        \"location\": \"starts near the signer's right ear, moves to the right side of the signer's face, then forward and slightly up\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"resting on the signer's chest\",\n        \"temporal_alignment\": \"the action occurs within a single sign, transitioning from a gesture near the ear to a pointing gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape is a clear index finger, a common lexical sign in TSL for 'say' or 'tell'. The movement from the ear to pointing forward indicates the direction of the message. The gesture is a conventionalized sign, not a simple pointing action, and its placement in the discourse (after a gesture near the ear) suggests it is marking the act of speaking or directing attention to a message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended",
+          "movement": "moves from near the ear to pointing forward, then slightly upward",
+          "location": "starts near the signer's right ear, moves to the right side of the signer's face, then forward and slightly up",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "resting on the signer's chest",
+          "temporal_alignment": "the action occurs within a single sign, transitioning from a gesture near the ear to a pointing gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape is a clear index finger, a common lexical sign in TSL for 'say' or 'tell'. The movement from the ear to pointing forward indicates the direction of the message. The gesture is a conventionalized sign, not a simple pointing action, and its placement in the discourse (after a gesture near the ear) suggests it is marking the act of speaking or directing attention to a message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

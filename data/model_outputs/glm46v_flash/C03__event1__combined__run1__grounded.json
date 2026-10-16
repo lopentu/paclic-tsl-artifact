@@ -1,0 +1,61 @@
+{
+  "clip_id": "C03",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C03_window_model.mp4",
+  "video_id": "S01EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T18:51:05.361977",
+  "backend_call_info": {
+    "frames_per_video": [
+      64,
+      18
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.984
+    ],
+    "input_tokens": 9438,
+    "output_tokens": 287
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fist\",\n        \"movement\": \"both fists move upward and inward toward the face, then outward and downward\",\n        \"location\": \"in front of the face\",\n        \"nonmanual\": \"eyes close tightly, eyebrows furrow, mouth pucker\",\n        \"non_dominant_hand\": \"mirrors the dominant hand\",\n        \"temporal_alignment\": \"occurs between two manual signs\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The target action from 0.3 to 0.8 seconds shows both hands forming fists and moving in a circular motion near the face, accompanied by a furrowed brow and closed eyes, which conveys strong affective and depictive meaning related to the contrast between teaching methods.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fist",
+          "movement": "both fists move upward and inward toward the face, then outward and downward",
+          "location": "in front of the face",
+          "nonmanual": "eyes close tightly, eyebrows furrow, mouth pucker",
+          "non_dominant_hand": "mirrors the dominant hand",
+          "temporal_alignment": "occurs between two manual signs"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The target action from 0.3 to 0.8 seconds shows both hands forming fists and moving in a circular motion near the face, accompanied by a furrowed brow and closed eyes, which conveys strong affective and depictive meaning related to the contrast between teaching methods."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

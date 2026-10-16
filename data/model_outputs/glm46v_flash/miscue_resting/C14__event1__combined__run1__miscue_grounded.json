@@ -1,0 +1,59 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "face",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C14_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C14_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:47:09.207741",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": 0.3,\n      \"end_time\": 2.3,\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand moves outward and inward, then forward and back, while dominant hand remains relatively still\",\n        \"handshape\": \"open palm, then changes to a fist and back to open\",\n        \"movement\": \"outward and inward, forward and back, with a circular motion\",\n        \"location\": \"in front of the signer, moving from chest to side and back\",\n        \"nonmanual\": \"mouth moves as if speaking, head slightly tilts\",\n        \"non_dominant_hand\": \"active, moving in a circular and back-and-forth pattern\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand moves in a circular and back-and-forth pattern, which is typical for depicting a concept or process, and the movement is consistent with the meaning of 'communicate' or 'express'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": 0.3,
+        "end_time": 2.3,
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand moves outward and inward, then forward and back, while dominant hand remains relatively still",
+          "handshape": "open palm, then changes to a fist and back to open",
+          "movement": "outward and inward, forward and back, with a circular motion",
+          "location": "in front of the signer, moving from chest to side and back",
+          "nonmanual": "mouth moves as if speaking, head slightly tilts",
+          "non_dominant_hand": "active, moving in a circular and back-and-forth pattern"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand moves in a circular and back-and-forth pattern, which is typical for depicting a concept or process, and the movement is consistent with the meaning of 'communicate' or 'express'."
+      }
+    ]
+  },
+  "schema_valid": false,
+  "schema_errors": [
+    "candidate_actions/0/end_time: 2.3 is not of type 'string'",
+    "candidate_actions/0/form_description: 'temporal_alignment' is a required property",
+    "candidate_actions/0/start_time: 0.3 is not of type 'string'"
+  ]
+}

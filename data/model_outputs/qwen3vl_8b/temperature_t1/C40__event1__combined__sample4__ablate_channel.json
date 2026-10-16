@@ -1,0 +1,55 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "SP-EP07",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 659247933,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:22:45.458678",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"fingers curled into fists, then opening into open palms\",\n        \"movement\": \"both hands start with fists clenched near the chest, then move outward and upward in a smooth arc, palms facing each other and then outward, as if spreading or opening something\",\n        \"location\": \"initially at chest level, moving outward and upward to shoulder level\",\n        \"nonmanual\": \"mouth slightly open, neutral facial expression\",\n        \"non_dominant_hand\": \"no visible distinct activity\",\n        \"temporal_alignment\": \"the action begins immediately after a previous sign (eye movement) and is followed by a hand movement indicating 'peace' or 'calm', suggesting a contrast or transition in the discourse\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The movement of both hands opening outward and upward, starting from the chest, visually represents the idea of 'growing' or 'expanding' as in the phrase '孩子能平平安安長大' (children can grow up safely). The gesture is not a simple lexical sign but enacts the process of growth and safety, contributing to the propositional structure. The action is also affective, conveying a sense of care and nurturing, which enriches the emotional tone of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "fingers curled into fists, then opening into open palms",
+          "movement": "both hands start with fists clenched near the chest, then move outward and upward in a smooth arc, palms facing each other and then outward, as if spreading or opening something",
+          "location": "initially at chest level, moving outward and upward to shoulder level",
+          "nonmanual": "mouth slightly open, neutral facial expression",
+          "non_dominant_hand": "no visible distinct activity",
+          "temporal_alignment": "the action begins immediately after a previous sign (eye movement) and is followed by a hand movement indicating 'peace' or 'calm', suggesting a contrast or transition in the discourse"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.95,
+        "observable_evidence": "The movement of both hands opening outward and upward, starting from the chest, visually represents the idea of 'growing' or 'expanding' as in the phrase '孩子能平平安安長大' (children can grow up safely). The gesture is not a simple lexical sign but enacts the process of growth and safety, contributing to the propositional structure. The action is also affective, conveying a sense of care and nurturing, which enriches the emotional tone of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

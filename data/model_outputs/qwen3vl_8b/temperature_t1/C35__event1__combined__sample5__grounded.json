@@ -1,0 +1,55 @@
+{
+  "clip_id": "C35",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1806298394,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:35:21.968227",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger taps the palm of the other hand, then moves forward and slightly downward\",\n        \"location\": \"near the signer's chest, moving outward\",\n        \"nonmanual\": \"facial expression changes from smiling to neutral\",\n        \"non_dominant_hand\": \"held steady, index finger extended upward\",\n        \"temporal_alignment\": \"the action begins after the signer raises both hands and ends before the signer lowers the dominant hand\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The dominant hand's tapping motion and forward movement, combined with the upward-pointing non-dominant hand, form a conventionalized sign for 'because' or 'due to', which is essential for the grammatical structure of the clause. The facial expression shift and the hand's movement outward add emphasis and vividness to the causal relationship being expressed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger taps the palm of the other hand, then moves forward and slightly downward",
+          "location": "near the signer's chest, moving outward",
+          "nonmanual": "facial expression changes from smiling to neutral",
+          "non_dominant_hand": "held steady, index finger extended upward",
+          "temporal_alignment": "the action begins after the signer raises both hands and ends before the signer lowers the dominant hand"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The dominant hand's tapping motion and forward movement, combined with the upward-pointing non-dominant hand, form a conventionalized sign for 'because' or 'due to', which is essential for the grammatical structure of the clause. The facial expression shift and the hand's movement outward add emphasis and vividness to the causal relationship being expressed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

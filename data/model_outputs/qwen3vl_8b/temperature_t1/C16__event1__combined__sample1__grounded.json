@@ -1,0 +1,55 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 89970982,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:26:57.519953",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends forward and upward in a pointing motion, then moves slightly inward toward the signer's face\",\n        \"location\": \"initially at chest level, then moves to the signer's right side (signer's left) and slightly forward\",\n        \"nonmanual\": \"mouth slightly open, lips pursed\",\n        \"non_dominant_hand\": \"resting at side\",\n        \"temporal_alignment\": \"starts with a preceding sign, ends before the next sign begins, spans a short unit of signing\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are a conventionalized pointing sign, which contributes to the propositional structure by indicating a referent (e.g., 'the video' or 'the self' as the subject). The upward and inward motion, combined with the pursed lips, adds affective emphasis, making the sign more vivid and personal, which aligns with the context of self-reflection on one's performance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends forward and upward in a pointing motion, then moves slightly inward toward the signer's face",
+          "location": "initially at chest level, then moves to the signer's right side (signer's left) and slightly forward",
+          "nonmanual": "mouth slightly open, lips pursed",
+          "non_dominant_hand": "resting at side",
+          "temporal_alignment": "starts with a preceding sign, ends before the next sign begins, spans a short unit of signing"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are a conventionalized pointing sign, which contributes to the propositional structure by indicating a referent (e.g., 'the video' or 'the self' as the subject). The upward and inward motion, combined with the pursed lips, adds affective emphasis, making the sign more vivid and personal, which aligns with the context of self-reflection on one's performance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

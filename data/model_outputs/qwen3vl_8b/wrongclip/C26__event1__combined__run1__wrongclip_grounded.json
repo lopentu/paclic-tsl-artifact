@@ -1,0 +1,69 @@
+{
+  "clip_id": "C26",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "face",
+  "prompt_from": {
+    "clip_id": "C26",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S04-2EP01",
+    "rel_start_requested": 0.30000000000001137,
+    "rel_end_requested": 0.8000000000000114
+  },
+  "video_from": {
+    "clip_id": "C31",
+    "event_id": "event1",
+    "video_id": "S04-3EP01",
+    "target_channel": "face",
+    "duration": 1.1999999999999318
+  },
+  "rel_start_applied": 0.30000000000001137,
+  "rel_end_applied": 0.8000000000000114,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C31_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C31_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:55:58.244019",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"head tilted slightly back and to the right, mouth slightly open with a subtle smile\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression with slight smile and tilted head\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"co-occurs with the signer's manual signing, appearing as a sustained facial expression during the signing\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's facial expression, including a slight smile and tilted head, is sustained during the signing and appears to convey a sense of eagerness or enthusiasm, which aligns with the meaning 'I would really like to learn' (the affective component). The expression is not a conventionalized lexical sign but adds emotional weight to the utterance.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "head tilted slightly back and to the right, mouth slightly open with a subtle smile",
+          "location": "face",
+          "nonmanual": "facial expression with slight smile and tilted head",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "co-occurs with the signer's manual signing, appearing as a sustained facial expression during the signing"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's facial expression, including a slight smile and tilted head, is sustained during the signing and appears to convey a sense of eagerness or enthusiasm, which aligns with the meaning 'I would really like to learn' (the affective component). The expression is not a conventionalized lexical sign but adds emotional weight to the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

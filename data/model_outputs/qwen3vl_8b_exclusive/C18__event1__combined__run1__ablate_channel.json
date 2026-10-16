@@ -1,0 +1,49 @@
+{
+  "clip_id": "C18",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:06:53.922014",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"index fingers extended, other fingers curled\",\n        \"movement\": \"right hand moves from the signer's right side to the left side, then both index fingers point toward each other and hold the position\",\n        \"location\": \"in front of the signer's chest, moving from right to left, then stabilizing in the center\",\n        \"nonmanual\": \"neutral facial expression, no significant head or torso movement\",\n        \"non_dominant_hand\": \"the left hand holds the same index finger extended position, acting as a target or reference point\",\n        \"temporal_alignment\": \"the action begins after a gesture of opening hands and precedes a gesture of pointing downward, forming a sequence that emphasizes a specific duration or period\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves both hands with index fingers extended, moving from right to left and then holding a position, which visually represents a duration or period, aligning with the meaning 'spent about a year'. The movement and positioning indicate a specific timeframe, contributing to the semantic structure. The gesture is not merely descriptive but also indicates a referent (the time period) and adds emphasis to the duration being discussed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "index fingers extended, other fingers curled",
+          "movement": "right hand moves from the signer's right side to the left side, then both index fingers point toward each other and hold the position",
+          "location": "in front of the signer's chest, moving from right to left, then stabilizing in the center",
+          "nonmanual": "neutral facial expression, no significant head or torso movement",
+          "non_dominant_hand": "the left hand holds the same index finger extended position, acting as a target or reference point",
+          "temporal_alignment": "the action begins after a gesture of opening hands and precedes a gesture of pointing downward, forming a sequence that emphasizes a specific duration or period"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves both hands with index fingers extended, moving from right to left and then holding a position, which visually represents a duration or period, aligning with the meaning 'spent about a year'. The movement and positioning indicate a specific timeframe, contributing to the semantic structure. The gesture is not merely descriptive but also indicates a referent (the time period) and adds emphasis to the duration being discussed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

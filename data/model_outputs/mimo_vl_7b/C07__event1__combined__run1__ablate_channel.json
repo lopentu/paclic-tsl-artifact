@@ -1,0 +1,57 @@
+{
+  "clip_id": "C07",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C07_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T16:27:37.263364",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.6\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are active.\",\n          \"handshape\": \"The dominant hand (on the viewer's right) is a 'C' handshape. The non-dominant hand (on the viewer's left) is an 'L' handshape.\",\n          \"movement\": \"The dominant 'C' hand moves forward and slightly down from the signer's right shoulder area. The non-dominant 'L' hand moves forward from the signer's left shoulder area.\",\n          \"location\": \"The action is in the upper torso space, moving forward from the shoulders.\",\n          \"nonmanual\": \"The head is tilted slightly to the signer's right. The eyebrows are slightly raised.\",\n          \"non_dominant_hand\": \"The non-dominant hand is not static; it moves forward in coordination with the dominant hand.\",\n          \"temporal_alignment\": \"The action occurs at the beginning of a new signed unit, following a downward-pointing sign and preceding a sign involving a thumbs-up.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": \"2\",\n        \"indication\": \"1\",\n        \"depiction\": \"0\",\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two hands move forward from the shoulders in a coordinated way, suggesting the introduction of a new topic or a shift in focus, which is a syntactic function. The forward motion could be indicating something being presented or offered.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are active.",
+          "handshape": "The dominant hand (on the viewer's right) is a 'C' handshape. The non-dominant hand (on the viewer's left) is an 'L' handshape.",
+          "movement": "The dominant 'C' hand moves forward and slightly down from the signer's right shoulder area. The non-dominant 'L' hand moves forward from the signer's left shoulder area.",
+          "location": "The action is in the upper torso space, moving forward from the shoulders.",
+          "nonmanual": "The head is tilted slightly to the signer's right. The eyebrows are slightly raised.",
+          "non_dominant_hand": "The non-dominant hand is not static; it moves forward in coordination with the dominant hand.",
+          "temporal_alignment": "The action occurs at the beginning of a new signed unit, following a downward-pointing sign and preceding a sign involving a thumbs-up."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The two hands move forward from the shoulders in a coordinated way, suggesting the introduction of a new topic or a shift in focus, which is a syntactic function. The forward motion could be indicating something being presented or offered."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": [],
+  "schema_valid_strict": false,
+  "schema_errors_strict": [
+    "candidate_actions/0/depiction: '0' is not of type 'integer'",
+    "candidate_actions/0/description: '2' is not of type 'integer'",
+    "candidate_actions/0/indication: '1' is not of type 'integer'"
+  ],
+  "post_hoc_normalization": "type-only, re-validated (the project design log 2026-10-09): candidate_actions/0/depiction -> integer, candidate_actions/0/description -> integer, candidate_actions/0/indication -> integer"
+}

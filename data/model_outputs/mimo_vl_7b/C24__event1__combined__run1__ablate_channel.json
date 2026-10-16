@@ -1,0 +1,50 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C24_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_channel",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T23:15:15.600143",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.9\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are active.\",\n          \"handshape\": \"Both hands are in a 'pinch' handshape (thumb and index finger touching or nearly touching).\",\n          \"movement\": \"The dominant (right) hand moves from a central position forward and slightly down. The non-dominant (left) hand is held steady in front of the chest.\",\n          \"location\": \"In front of the signer's chest.\",\n          \"nonmanual\": \"The signer's head is still, and the mouth is open as if speaking or signing with vocalization.\",\n          \"non_dominant_hand\": \"The non-dominant (left) hand is held relatively still, with the pinch handshape oriented towards the dominant hand.\",\n          \"temporal_alignment\": \"The action occurs at the beginning of a new signed unit, following a previous hand movement and preceding a new, different hand configuration.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two-handed pinch configuration is a conventional TSL form, likely a lexical sign or a grammatical marker, giving it high semantic load. The forward movement of the dominant hand suggests it is indicating a specific referent or location.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are active.",
+          "handshape": "Both hands are in a 'pinch' handshape (thumb and index finger touching or nearly touching).",
+          "movement": "The dominant (right) hand moves from a central position forward and slightly down. The non-dominant (left) hand is held steady in front of the chest.",
+          "location": "In front of the signer's chest.",
+          "nonmanual": "The signer's head is still, and the mouth is open as if speaking or signing with vocalization.",
+          "non_dominant_hand": "The non-dominant (left) hand is held relatively still, with the pinch handshape oriented towards the dominant hand.",
+          "temporal_alignment": "The action occurs at the beginning of a new signed unit, following a previous hand movement and preceding a new, different hand configuration."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed pinch configuration is a conventional TSL form, likely a lexical sign or a grammatical marker, giving it high semantic load. The forward movement of the dominant hand suggests it is indicating a specific referent or location."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

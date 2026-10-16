@@ -1,0 +1,61 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:04:21.104307",
+  "backend_call_info": {
+    "frames_per_video": [
+      160,
+      24
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.984
+    ],
+    "input_tokens": 18900,
+    "output_tokens": 293
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30s\",\n      \"end_time\": \"1.20s\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand touches chin, non-dominant hand rests at side\",\n        \"handshape\": \"dominant hand in open palm shape, index finger extended\",\n        \"movement\": \"dominant hand moves from chest to chin, slight downward pressure\",\n        \"location\": \"chin area\",\n        \"nonmanual\": \"neutral facial expression\",\n        \"non_dominant_hand\": \"resting at side\",\n        \"temporal_alignment\": \"part of a longer sequence of signs\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action is a manual sign where the dominant hand moves from the chest to touch the chin, a common TSL gesture for 'think' or 'consider'. This action is part of a continuous signing sequence, and its timing aligns with the broader discourse flow.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30s",
+        "end_time": "1.20s",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand touches chin, non-dominant hand rests at side",
+          "handshape": "dominant hand in open palm shape, index finger extended",
+          "movement": "dominant hand moves from chest to chin, slight downward pressure",
+          "location": "chin area",
+          "nonmanual": "neutral facial expression",
+          "non_dominant_hand": "resting at side",
+          "temporal_alignment": "part of a longer sequence of signs"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action is a manual sign where the dominant hand moves from the chest to touch the chin, a common TSL gesture for 'think' or 'consider'. This action is part of a continuous signing sequence, and its timing aligns with the broader discourse flow."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

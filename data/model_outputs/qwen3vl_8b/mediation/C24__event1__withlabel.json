@@ -1,0 +1,36 @@
+{
+  "clip_id": "C24",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "manual",
+  "label_channel_sent": "manual",
+  "label_is_correct": true,
+  "video_id": "S04-2EP01",
+  "source_run": "C24__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 1,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: right hand: index finger extended, other fingers curled; left hand: index finger extended, other fingers curled\n- movement: right hand moves forward and slightly upward from chest level, then back down; left hand remains relatively stationary, with index finger pointing forward\n- location: right hand moves from chest level to near the signer's chin, left hand remains near the signer's chest\n- nonmanual: signer's mouth is open, eyes are focused forward\n- non dominant hand: left hand remains relatively stationary, with index finger pointing forward\n- temporal alignment: the action begins with the right hand moving forward and slightly upward, and ends with the right hand moving back down to chest level",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:19:19.782452",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 2,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 3,\n  \"indication\": 2,\n  \"depiction\": 2,\n  \"confidence\": 0.9,\n  \"reasoning\": \"The action uses a conventionalized handshape and movement pattern to depict 'some' or 'a portion' (likely indicating a subset of the referent group mentioned in the utterance). The right hand’s forward motion and return gesture visually enacts the idea of 'part' or 'some', while the stationary left index finger may indicate the category (e.g., 'speakers, teachers, interpreters'). The nonmanual features (open mouth, forward gaze) add emphasis and affective enrichment, enhancing the depiction. The action is not merely pointing but enacting a conceptual quantity, making it semantically substantive and pragmatically vivid.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 3,
+    "indication": 2,
+    "depiction": 2,
+    "confidence": 0.9,
+    "reasoning": "The action uses a conventionalized handshape and movement pattern to depict 'some' or 'a portion' (likely indicating a subset of the referent group mentioned in the utterance). The right hand’s forward motion and return gesture visually enacts the idea of 'part' or 'some', while the stationary left index finger may indicate the category (e.g., 'speakers, teachers, interpreters'). The nonmanual features (open mouth, forward gaze) add emphasis and affective enrichment, enhancing the depiction. The action is not merely pointing but enacting a conceptual quantity, making it semantically substantive and pragmatically vivid."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

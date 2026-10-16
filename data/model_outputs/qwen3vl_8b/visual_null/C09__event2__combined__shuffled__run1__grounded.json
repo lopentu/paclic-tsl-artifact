@@ -1,0 +1,53 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "shuffled",
+  "target_channel": "manual",
+  "video_path": "<repo>/data/clips_visual_null/shuffled/C09_ev2_model.mp4",
+  "context_clip_path": "<repo>/data/clips_visual_null/shuffled/C09_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T15:07:24.950748",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a flat, open palm; left hand forms a flat, open palm\",\n        \"movement\": \"right hand moves from the signer's right shoulder area toward the left shoulder area, then back; left hand moves from the signer's left shoulder area toward the right shoulder area, then back; both hands move in a coordinated, alternating motion\",\n        \"location\": \"center of chest, near the shoulders\",\n        \"nonmanual\": \"signer's head is slightly tilted forward, eyes are focused forward\",\n        \"non_dominant_hand\": \"left hand moves in coordination with the right hand\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, framed by other signs that establish the discourse context\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hands move in a coordinated, alternating motion across the chest, which is a conventionalized sign in TSL for 'translation' or 'interpreting'. The movement is repeated and rhythmic, suggesting emphasis on the concept of 'translation' within the discourse. The action is not a simple point or depiction but a lexical sign that contributes to the propositional content of the sentence.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a flat, open palm; left hand forms a flat, open palm",
+          "movement": "right hand moves from the signer's right shoulder area toward the left shoulder area, then back; left hand moves from the signer's left shoulder area toward the right shoulder area, then back; both hands move in a coordinated, alternating motion",
+          "location": "center of chest, near the shoulders",
+          "nonmanual": "signer's head is slightly tilted forward, eyes are focused forward",
+          "non_dominant_hand": "left hand moves in coordination with the right hand",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, framed by other signs that establish the discourse context"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hands move in a coordinated, alternating motion across the chest, which is a conventionalized sign in TSL for 'translation' or 'interpreting'. The movement is repeated and rhythmic, suggesting emphasis on the concept of 'translation' within the discourse. The action is not a simple point or depiction but a lexical sign that contributes to the propositional content of the sentence."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

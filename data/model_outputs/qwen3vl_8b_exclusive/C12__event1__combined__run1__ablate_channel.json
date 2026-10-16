@@ -1,0 +1,49 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C12_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:04:26.011111",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a 'one' shape (index finger extended), left hand forms a 'one' shape (index finger extended)\",\n        \"movement\": \"right hand moves from a position near the signer's right shoulder, moving forward and slightly downward, then back up; left hand remains relatively stationary, pointing forward with the index finger\",\n        \"location\": \"right hand moves from the signer's right shoulder area to a position in front of the chest, left hand remains near the chest\",\n        \"nonmanual\": \"signer's facial expression is neutral to slightly serious, mouth slightly open\",\n        \"non_dominant_hand\": \"left hand is the non-dominant hand, holding a 'one' shape and pointing forward\",\n        \"temporal_alignment\": \"the action begins immediately after the signer's previous sign (showing a hand with five fingers) and is followed by a sign with the right hand moving downward and the left hand moving upward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves both hands forming 'one' shapes, which is a conventionalized sign in TSL for 'one' or 'first'. The movement of the right hand forward and the left hand pointing forward indicates a directional or referential function, likely marking the first point in a sequence. The facial expression is neutral, suggesting a factual or declarative tone.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a 'one' shape (index finger extended), left hand forms a 'one' shape (index finger extended)",
+          "movement": "right hand moves from a position near the signer's right shoulder, moving forward and slightly downward, then back up; left hand remains relatively stationary, pointing forward with the index finger",
+          "location": "right hand moves from the signer's right shoulder area to a position in front of the chest, left hand remains near the chest",
+          "nonmanual": "signer's facial expression is neutral to slightly serious, mouth slightly open",
+          "non_dominant_hand": "left hand is the non-dominant hand, holding a 'one' shape and pointing forward",
+          "temporal_alignment": "the action begins immediately after the signer's previous sign (showing a hand with five fingers) and is followed by a sign with the right hand moving downward and the left hand moving upward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves both hands forming 'one' shapes, which is a conventionalized sign in TSL for 'one' or 'first'. The movement of the right hand forward and the left hand pointing forward indicates a directional or referential function, likely marking the first point in a sequence. The facial expression is neutral, suggesting a factual or declarative tone."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

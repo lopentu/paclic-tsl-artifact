@@ -1,0 +1,48 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C17_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:39:25.722658",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb extended upward, fingers curled\",\n        \"movement\": \"maintains static position\",\n        \"location\": \"in front of chest, at midline\",\n        \"nonmanual\": \"face expression: lips pursed, eyes looking forward\",\n        \"non_dominant_hand\": \"resting at side, not visible\",\n        \"temporal_alignment\": \"follows a previous sign (hands clasped) and precedes a downward hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 3,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and static position are a conventionalized lexical sign in TSL, not a depiction or indication. The pursed lips and direct gaze add affective emphasis, making the gesture more forceful or emphatic than a neutral sign would be.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb extended upward, fingers curled",
+          "movement": "maintains static position",
+          "location": "in front of chest, at midline",
+          "nonmanual": "face expression: lips pursed, eyes looking forward",
+          "non_dominant_hand": "resting at side, not visible",
+          "temporal_alignment": "follows a previous sign (hands clasped) and precedes a downward hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 3,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and static position are a conventionalized lexical sign in TSL, not a depiction or indication. The pursed lips and direct gaze add affective emphasis, making the gesture more forceful or emphatic than a neutral sign would be."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

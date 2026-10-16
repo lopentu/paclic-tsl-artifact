@@ -1,0 +1,56 @@
+{
+  "clip_id": "C28",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C28_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C28_window_model.mp4",
+  "video_id": "S04-2EP07",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:22:47.576645",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.40\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"no hands visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"not applicable\",\n        \"location\": \"not applicable\",\n        \"nonmanual\": \"mouth opens and closes, possibly forming a 'sh' or 's' sound, with slight head tilt forward\",\n        \"non_dominant_hand\": \"resting on lap\",\n        \"temporal_alignment\": \"occurs within a continuous signing sequence, part of a longer utterance\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action is a facial expression with mouth movements, occurring at 0.30-0.40 seconds, which contributes to the pragmatic emphasis of the utterance.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.40",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "no hands visible",
+          "handshape": "not applicable",
+          "movement": "not applicable",
+          "location": "not applicable",
+          "nonmanual": "mouth opens and closes, possibly forming a 'sh' or 's' sound, with slight head tilt forward",
+          "non_dominant_hand": "resting on lap",
+          "temporal_alignment": "occurs within a continuous signing sequence, part of a longer utterance"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action is a facial expression with mouth movements, occurring at 0.30-0.40 seconds, which contributes to the pragmatic emphasis of the utterance."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

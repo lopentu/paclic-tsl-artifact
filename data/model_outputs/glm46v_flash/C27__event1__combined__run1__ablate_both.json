@@ -1,0 +1,61 @@
+{
+  "clip_id": "C27",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C27_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:10:10.991415",
+  "backend_call_info": {
+    "frames_per_video": [
+      64,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.5942,
+      15.54
+    ],
+    "input_tokens": 9042,
+    "output_tokens": 290
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.60\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"thumbs up, with fingers closed\",\n        \"movement\": \"hands move from chest level outward and then back inward, forming a circular or expanding motion\",\n        \"location\": \"in front of the chest, moving outward and then inward\",\n        \"nonmanual\": \"frowning, mouth slightly open\",\n        \"non_dominant_hand\": \"mirrors the dominant hand\",\n        \"temporal_alignment\": \"part of a longer sign sequence, occurring between other hand movements\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The hands form a thumbs-up shape and move in a circular motion in front of the chest, a common TSL gesture for 'good' or 'positive' with strong affective emphasis, supported by the frowning and open mouth.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.60",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "thumbs up, with fingers closed",
+          "movement": "hands move from chest level outward and then back inward, forming a circular or expanding motion",
+          "location": "in front of the chest, moving outward and then inward",
+          "nonmanual": "frowning, mouth slightly open",
+          "non_dominant_hand": "mirrors the dominant hand",
+          "temporal_alignment": "part of a longer sign sequence, occurring between other hand movements"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The hands form a thumbs-up shape and move in a circular motion in front of the chest, a common TSL gesture for 'good' or 'positive' with strong affective emphasis, supported by the frowning and open mouth."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

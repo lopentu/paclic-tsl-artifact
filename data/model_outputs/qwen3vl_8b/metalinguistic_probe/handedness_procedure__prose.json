@@ -1,0 +1,17 @@
+{
+  "probe_id": "handedness_procedure",
+  "tests": "Does it know how handedness is established -- the mechanism the paper says is missing?",
+  "question": "How do you determine which of a signer's hands is the dominant one from a video recording? Describe what you would look at, and say how much of the recording you would need to see to decide.",
+  "answer_format": "prose",
+  "video_shown": false,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "temperature": 0.0,
+  "do_sample": false,
+  "max_new_tokens": 500,
+  "timestamp": "2026-08-03T12:24:32.331075",
+  "prompt": "You are answering a question about sign language linguistics. This is a knowledge question about signed languages in general, not about any particular video.\n\nHow do you determine which of a signer's hands is the dominant one from a video recording? Describe what you would look at, and say how much of the recording you would need to see to decide.\n\nAnswer in at most 120 words. Plain prose, no JSON.\n",
+  "raw_text": "To determine a signer’s dominant hand from video, observe which hand is most frequently used for signing, especially for core grammatical elements like subject markers or verb agreement. Look for consistent hand preference in initiating signs, spatial referencing, and complex movements. You need only a few seconds of clear, continuous signing—ideally 10–30 seconds—to spot patterns. Dominance is often consistent, so even brief, natural signing reveals it. Avoid relying on isolated gestures; context and repetition matter. If both hands are used equally, dominance may be ambiguous or non-existent.",
+  "parsed": null
+}

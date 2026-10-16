@@ -1,0 +1,50 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:13:02.109213",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"0.7\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are active. The dominant (right) hand is in front of the body, and the non-dominant (left) hand is on the right side of the body.\",\n          \"handshape\": \"The dominant (right) hand is a pincer shape (thumb and index finger). The non-dominant (left) hand is an extended index finger.\",\n          \"movement\": \"The dominant (right) hand moves from a position near the chest, forward and down, in a repeated tapping or pointing motion towards the non-dominant (left) hand. The non-dominant (left) hand is held relatively still.\",\n          \"location\": \"The action is in the signer's forward personal space, with the dominant hand moving towards the non-dominant hand which is on the signer's right side.\",\n          \"nonmanual\": \"The signer's head is still and facing forward. The mouth is moving in sync with the manual action, forming shapes consistent with speech.\",\n          \"non_dominant_hand\": \"The non-dominant (left) hand is held up with the index finger extended, serving as a target or reference point for the dominant hand.\",\n          \"temporal_alignment\": \"The action is tightly integrated with the surrounding signs, appearing to be the core of a single, continuous manual gesture within a larger signed phrase.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The dominant hand's pincer shape and tapping motion towards the non-dominant index finger strongly suggest a conventional sign. The mouth is moving in coordination, indicating it's a lexical unit. The non-dominant hand acts as a stable reference point, a common feature in sign language syntax.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are active. The dominant (right) hand is in front of the body, and the non-dominant (left) hand is on the right side of the body.",
+          "handshape": "The dominant (right) hand is a pincer shape (thumb and index finger). The non-dominant (left) hand is an extended index finger.",
+          "movement": "The dominant (right) hand moves from a position near the chest, forward and down, in a repeated tapping or pointing motion towards the non-dominant (left) hand. The non-dominant (left) hand is held relatively still.",
+          "location": "The action is in the signer's forward personal space, with the dominant hand moving towards the non-dominant hand which is on the signer's right side.",
+          "nonmanual": "The signer's head is still and facing forward. The mouth is moving in sync with the manual action, forming shapes consistent with speech.",
+          "non_dominant_hand": "The non-dominant (left) hand is held up with the index finger extended, serving as a target or reference point for the dominant hand.",
+          "temporal_alignment": "The action is tightly integrated with the surrounding signs, appearing to be the core of a single, continuous manual gesture within a larger signed phrase."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The dominant hand's pincer shape and tapping motion towards the non-dominant index finger strongly suggest a conventional sign. The mouth is moving in coordination, indicating it's a lexical unit. The non-dominant hand acts as a stable reference point, a common feature in sign language syntax."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

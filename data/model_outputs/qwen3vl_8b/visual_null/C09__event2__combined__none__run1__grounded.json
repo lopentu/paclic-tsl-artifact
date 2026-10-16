@@ -1,0 +1,53 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "visual_condition": "none",
+  "target_channel": "manual",
+  "video_path": null,
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T12:14:26.350828",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"hand moves from lower left to upper right in a sweeping arc, then returns to lower left\",\n        \"location\": \"starts near signer's left hip, moves across midline to right shoulder area, then back\",\n        \"nonmanual\": \"no visible facial or head movement\",\n        \"non_dominant_hand\": \"resting at side, not involved\",\n        \"temporal_alignment\": \"occurs within a continuous signing stretch, not aligned with a discrete sign boundary\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement sweeps across space, visually mirroring a conceptual 'range' or 'scope'—consistent with the clause '透過目前的手語課程在學習' (through current sign language courses). The arc motion suggests a broad, encompassing gesture, which adds emphasis and vividness to the claim that current methods are insufficient. The handshape and path are conventionalized for spatial depiction in TSL, indicating a referential or conceptual space.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "hand moves from lower left to upper right in a sweeping arc, then returns to lower left",
+          "location": "starts near signer's left hip, moves across midline to right shoulder area, then back",
+          "nonmanual": "no visible facial or head movement",
+          "non_dominant_hand": "resting at side, not involved",
+          "temporal_alignment": "occurs within a continuous signing stretch, not aligned with a discrete sign boundary"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement sweeps across space, visually mirroring a conceptual 'range' or 'scope'—consistent with the clause '透過目前的手語課程在學習' (through current sign language courses). The arc motion suggests a broad, encompassing gesture, which adds emphasis and vividness to the claim that current methods are insufficient. The handshape and path are conventionalized for spatial depiction in TSL, indicating a referential or conceptual space."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C33_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T21:15:00.853483",
+  "backend_call_info": {
+    "frames_per_video": [
+      76,
+      14
+    ],
+    "sampled_fps_per_video": [
+      15.8175,
+      15.54
+    ],
+    "input_tokens": 10158,
+    "output_tokens": 249
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"0.60\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"thumbs extended, fingers curled\",\n        \"movement\": \"held steady, then move inward and downward\",\n        \"location\": \"forward and slightly inward from the body\",\n        \"nonmanual\": \"neutral\",\n        \"non_dominant_hand\": \"mirrors dominant hand\",\n        \"temporal_alignment\": \"part of a repeated sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The hands form a distinct shape and move in a coordinated way, typical of a lexical sign, and the movement is part of a repeated pattern in the surrounding signing.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "0.60",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "thumbs extended, fingers curled",
+          "movement": "held steady, then move inward and downward",
+          "location": "forward and slightly inward from the body",
+          "nonmanual": "neutral",
+          "non_dominant_hand": "mirrors dominant hand",
+          "temporal_alignment": "part of a repeated sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.8,
+        "observable_evidence": "The hands form a distinct shape and move in a coordinated way, typical of a lexical sign, and the movement is part of a repeated pattern in the surrounding signing."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "clip_id": "C12",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C12_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T18:58:18.604025",
+  "backend_call_info": {
+    "frames_per_video": [
+      56,
+      18
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.984
+    ],
+    "input_tokens": 8702,
+    "output_tokens": 338
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"2.30\",\n      \"end_time\": \"3.30\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand forms a thumb with the thumb extended and fingers curled inward, non-dominant hand forms a point with the index finger extended\",\n        \"handshape\": \"non-dominant hand: thumb extended, fingers curled; dominant hand: index finger extended\",\n        \"movement\": \"non-dominant hand moves from forward to near the chin, dominant hand moves from forward to near the chin\",\n        \"location\": \"near the signer's chin\",\n        \"nonmanual\": \"mouth is closed, eyes are forward\",\n        \"non_dominant_hand\": \"moves from forward to near the chin\",\n        \"temporal_alignment\": \"part of a longer sequence of signs\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand forms a thumb shape and moves to the chin, while the dominant hand forms a point shape and moves to the chin, indicating a referential or grammatical function related to the phrase '也和你的基本語言能力有關'.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "2.30",
+        "end_time": "3.30",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand forms a thumb with the thumb extended and fingers curled inward, non-dominant hand forms a point with the index finger extended",
+          "handshape": "non-dominant hand: thumb extended, fingers curled; dominant hand: index finger extended",
+          "movement": "non-dominant hand moves from forward to near the chin, dominant hand moves from forward to near the chin",
+          "location": "near the signer's chin",
+          "nonmanual": "mouth is closed, eyes are forward",
+          "non_dominant_hand": "moves from forward to near the chin",
+          "temporal_alignment": "part of a longer sequence of signs"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand forms a thumb shape and moves to the chin, while the dominant hand forms a point shape and moves to the chin, indicating a referential or grammatical function related to the phrase '也和你的基本語言能力有關'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

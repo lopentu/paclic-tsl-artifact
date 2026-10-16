@@ -1,0 +1,48 @@
+{
+  "clip_id": "C02",
+  "event_id": "event2",
+  "clip_kind": "ev2",
+  "context_clip_path": null,
+  "video_id": "S01EP02",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:26:24.674290",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm, fingers slightly spread\",\n        \"movement\": \"moves from near the chin upward and outward, then sweeps across the chest and down toward the right side of the body\",\n        \"location\": \"begins near the chin, moves across the chest, ends near the right side of the torso\",\n        \"nonmanual\": \"smiling face, head tilted slightly forward\",\n        \"non_dominant_hand\": \"resting on the hip\",\n        \"temporal_alignment\": \"starts with the signer's head tilted and smiling, then the hand moves upward and outward, and the signer's head tilts back slightly as the hand sweeps across the chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hand movement starts near the chin and sweeps across the chest, which is a common gesture in TSL for indicating a person or group. The signer's smiling face and head tilt suggest a positive or enthusiastic tone. The movement is not a simple lexical sign but appears to be a depictive gesture showing a person moving or gesturing across space.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm, fingers slightly spread",
+          "movement": "moves from near the chin upward and outward, then sweeps across the chest and down toward the right side of the body",
+          "location": "begins near the chin, moves across the chest, ends near the right side of the torso",
+          "nonmanual": "smiling face, head tilted slightly forward",
+          "non_dominant_hand": "resting on the hip",
+          "temporal_alignment": "starts with the signer's head tilted and smiling, then the hand moves upward and outward, and the signer's head tilts back slightly as the hand sweeps across the chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement starts near the chin and sweeps across the chest, which is a common gesture in TSL for indicating a person or group. The signer's smiling face and head tilt suggest a positive or enthusiastic tone. The movement is not a simple lexical sign but appears to be a depictive gesture showing a person moving or gesturing across space."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

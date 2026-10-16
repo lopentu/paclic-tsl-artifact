@@ -1,0 +1,55 @@
+{
+  "clip_id": "C20",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1085754639,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:29:13.252847",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"dominant hand forms a 'thumbs-up' gesture; non-dominant hand forms a 'palm-up' shape\",\n        \"movement\": \"dominant hand moves from a neutral position to a 'thumbs-up' position; non-dominant hand remains palm-up and moves slightly forward\",\n        \"location\": \"center of signer's chest, facing forward\",\n        \"nonmanual\": \"signer maintains a smiling facial expression\",\n        \"non_dominant_hand\": \"palm-up, slightly moving forward\",\n        \"temporal_alignment\": \"starts after the previous sign, spans the duration of the phrase 'also no problem'\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The thumbs-up gesture is a conventional sign in TSL that conveys approval, agreement, or reassurance, directly contributing to the positive semantic content of the phrase 'also no problem'. The smiling face and the gesture together create a strong affective and pragmatic enrichment, signaling confidence and encouragement, which would be significantly reduced without the gesture.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "dominant hand forms a 'thumbs-up' gesture; non-dominant hand forms a 'palm-up' shape",
+          "movement": "dominant hand moves from a neutral position to a 'thumbs-up' position; non-dominant hand remains palm-up and moves slightly forward",
+          "location": "center of signer's chest, facing forward",
+          "nonmanual": "signer maintains a smiling facial expression",
+          "non_dominant_hand": "palm-up, slightly moving forward",
+          "temporal_alignment": "starts after the previous sign, spans the duration of the phrase 'also no problem'"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The thumbs-up gesture is a conventional sign in TSL that conveys approval, agreement, or reassurance, directly contributing to the positive semantic content of the phrase 'also no problem'. The smiling face and the gesture together create a strong affective and pragmatic enrichment, signaling confidence and encouragement, which would be significantly reduced without the gesture."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

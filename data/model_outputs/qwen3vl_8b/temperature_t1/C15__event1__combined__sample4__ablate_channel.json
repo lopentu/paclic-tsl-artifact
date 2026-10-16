@@ -1,0 +1,55 @@
+{
+  "clip_id": "C15",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 888453505,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:12:17.374345",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger extends forward from near the signer's chin, then moves downward toward the chest\",\n        \"location\": \"starts near chin, moves down to chest level\",\n        \"nonmanual\": \"signer's mouth is slightly open, gaze is forward\",\n        \"non_dominant_hand\": \"resting at side, not visible in motion\",\n        \"temporal_alignment\": \"begins immediately after a previous sign (index finger to temple) and is followed by a new sign (hand to chest)\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The index finger points forward and down, a common lexical sign in TSL for 'continue' or 'keep going', which directly corresponds to the meaning 'we are all still working hard'. The downward movement visually reinforces the ongoing, continuous nature of the action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger extends forward from near the signer's chin, then moves downward toward the chest",
+          "location": "starts near chin, moves down to chest level",
+          "nonmanual": "signer's mouth is slightly open, gaze is forward",
+          "non_dominant_hand": "resting at side, not visible in motion",
+          "temporal_alignment": "begins immediately after a previous sign (index finger to temple) and is followed by a new sign (hand to chest)"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The index finger points forward and down, a common lexical sign in TSL for 'continue' or 'keep going', which directly corresponds to the meaning 'we are all still working hard'. The downward movement visually reinforces the ongoing, continuous nature of the action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

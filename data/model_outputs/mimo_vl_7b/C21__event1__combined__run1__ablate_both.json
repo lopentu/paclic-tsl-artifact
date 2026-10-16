@@ -1,0 +1,50 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-10T00:44:32.858292",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3\",\n        \"end_time\": \"1.2\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"Both hands are used.\",\n          \"handshape\": \"The dominant hand (on the viewer's right) is a 'C' shape. The non-dominant hand (on the viewer's left) is a 'V' or 'gun' shape.\",\n          \"movement\": \"The dominant hand moves from the signer's chest outwards and downwards. The non-dominant hand moves from the signer's chest outwards and downwards, mirroring the dominant hand's path.\",\n          \"location\": \"The action starts at the signer's upper chest and moves downwards towards the mid-torso.\",\n          \"nonmanual\": \"The signer's facial expression is serious and focused. The eyebrows are slightly raised.\",\n          \"non_dominant_hand\": \"The non-dominant hand is active and mirrors the dominant hand's movement.\",\n          \"temporal_alignment\": \"The action is a single, continuous movement that bridges the end of a previous manual sign and the beginning of the next manual sign.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 1,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 0,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The two-handed, symmetrical movement is a clear and conventional TSL sign. It is positioned in the signing space and has a distinct form, indicating it's a lexical sign. The surrounding signs are different, showing this is a discrete unit.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands are used.",
+          "handshape": "The dominant hand (on the viewer's right) is a 'C' shape. The non-dominant hand (on the viewer's left) is a 'V' or 'gun' shape.",
+          "movement": "The dominant hand moves from the signer's chest outwards and downwards. The non-dominant hand moves from the signer's chest outwards and downwards, mirroring the dominant hand's path.",
+          "location": "The action starts at the signer's upper chest and moves downwards towards the mid-torso.",
+          "nonmanual": "The signer's facial expression is serious and focused. The eyebrows are slightly raised.",
+          "non_dominant_hand": "The non-dominant hand is active and mirrors the dominant hand's movement.",
+          "temporal_alignment": "The action is a single, continuous movement that bridges the end of a previous manual sign and the beginning of the next manual sign."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The two-handed, symmetrical movement is a clear and conventional TSL sign. It is positioned in the signing space and has a distinct form, indicating it's a lexical sign. The surrounding signs are different, showing this is a discrete unit."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

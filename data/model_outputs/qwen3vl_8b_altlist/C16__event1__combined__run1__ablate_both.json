@@ -1,0 +1,49 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C16_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T19:01:57.884894",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand (right) extended with index finger pointing forward, non-dominant hand (left) in a closed fist near the chest\",\n        \"handshape\": \"index finger extended, other fingers curled; closed fist\",\n        \"movement\": \"dominant hand moves from a downward position to a forward-pointing position, then holds steady; non-dominant hand remains relatively still\",\n        \"location\": \"dominant hand moves from near the signer's chest to a position pointing forward, at approximately eye level; non-dominant hand remains near the chest\",\n        \"nonmanual\": \"signer's mouth is open and moving, indicating speech or articulation\",\n        \"non_dominant_hand\": \"held in a closed fist, stationary near the chest\",\n        \"temporal_alignment\": \"the action begins with the dominant hand moving forward and ends with it held steady, while the non-dominant hand remains still\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The dominant hand's forward-pointing gesture is a conventionalized sign in TSL, likely indicating a direction or location, contributing to the propositional content. The gesture is held steady, suggesting emphasis or a specific referent. The non-dominant hand's closed fist near the chest may be a grammatical marker or a nonmanual element that adds pragmatic emphasis to the sign.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand (right) extended with index finger pointing forward, non-dominant hand (left) in a closed fist near the chest",
+          "handshape": "index finger extended, other fingers curled; closed fist",
+          "movement": "dominant hand moves from a downward position to a forward-pointing position, then holds steady; non-dominant hand remains relatively still",
+          "location": "dominant hand moves from near the signer's chest to a position pointing forward, at approximately eye level; non-dominant hand remains near the chest",
+          "nonmanual": "signer's mouth is open and moving, indicating speech or articulation",
+          "non_dominant_hand": "held in a closed fist, stationary near the chest",
+          "temporal_alignment": "the action begins with the dominant hand moving forward and ends with it held steady, while the non-dominant hand remains still"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The dominant hand's forward-pointing gesture is a conventionalized sign in TSL, likely indicating a direction or location, contributing to the propositional content. The gesture is held steady, suggesting emphasis or a specific referent. The non-dominant hand's closed fist near the chest may be a grammatical marker or a nonmanual element that adds pragmatic emphasis to the sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

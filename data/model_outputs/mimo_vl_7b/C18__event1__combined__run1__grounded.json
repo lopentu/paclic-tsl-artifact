@@ -1,0 +1,50 @@
+{
+  "clip_id": "C18",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "mimo_vl",
+  "model_name": "MiMo-VL",
+  "model_version": "XiaomiMiMo/MiMo-VL-7B-RL-2508 [+/no_think]",
+  "timestamp": "2026-10-09T22:59:55.245291",
+  "backend_call_info": null,
+  "raw_text": "<think>\n</think>\n\n```json\n[\n  {\n    \"caption_leakage_risk\": \"no\",\n    \"candidate_actions\": [\n      {\n        \"start_time\": \"0.3s\",\n        \"end_time\": \"1.1s\",\n        \"channel_judged\": \"manual\",\n        \"form_description\": {\n          \"hands\": \"The dominant hand (right) is used. The non-dominant hand (left) is held steady, open, and low, near the waist.\",\n          \"handshape\": \"The dominant hand is a 'C' handshape, with the thumb tucked in and fingers curved.\",\n          \"movement\": \"The hand moves from a position near the signer's right cheek, moving forward and slightly downward in a smooth, continuous path.\",\n          \"location\": \"The hand starts at the signer's right cheek and moves forward to about chest height, in front of the body.\",\n          \"nonmanual\": \"The signer's head is still and facing forward. The eyebrows are slightly raised and relaxed.\",\n          \"non_dominant_hand\": \"The non-dominant hand is held open, palm up, in a stable position near the signer's lower torso.\",\n          \"temporal_alignment\": \"The action is a single, fluid movement that occurs at the beginning of the clip, immediately followed by a new manual configuration.\"\n        },\n        \"semantic_syntactic_load\": 2,\n        \"pragmatic_depictive_affective_enrichment\": 2,\n        \"description\": 2,\n        \"indication\": 1,\n        \"depiction\": 1,\n        \"confidence\": 0.9,\n        \"observable_evidence\": \"The hand movement is a conventional TSL sign for a specific concept. The movement path and location are precise and grammatical. The non-dominant hand is used for stability, a common feature in TSL. The overall form is a clear, lexical sign.\"\n      }\n    ]\n  }\n]\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3s",
+        "end_time": "1.1s",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "The dominant hand (right) is used. The non-dominant hand (left) is held steady, open, and low, near the waist.",
+          "handshape": "The dominant hand is a 'C' handshape, with the thumb tucked in and fingers curved.",
+          "movement": "The hand moves from a position near the signer's right cheek, moving forward and slightly downward in a smooth, continuous path.",
+          "location": "The hand starts at the signer's right cheek and moves forward to about chest height, in front of the body.",
+          "nonmanual": "The signer's head is still and facing forward. The eyebrows are slightly raised and relaxed.",
+          "non_dominant_hand": "The non-dominant hand is held open, palm up, in a stable position near the signer's lower torso.",
+          "temporal_alignment": "The action is a single, fluid movement that occurs at the beginning of the clip, immediately followed by a new manual configuration."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hand movement is a conventional TSL sign for a specific concept. The movement path and location are precise and grammatical. The non-dominant hand is used for stability, a common feature in TSL. The overall form is a clear, lexical sign."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

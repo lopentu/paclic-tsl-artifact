@@ -1,0 +1,55 @@
+{
+  "clip_id": "C08",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1932210415,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:25:12.319970",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand\",\n        \"handshape\": \"fingers extended, thumb tucked in, forming a pointing gesture\",\n        \"movement\": \"moves from the signer's right side (signer's left) toward the center, then back out\",\n        \"location\": \"initially at the signer's right side, then moves toward the center and back\",\n        \"nonmanual\": \"no significant facial or head movement visible during the action\",\n        \"non_dominant_hand\": \"the non-dominant hand makes a pointing gesture, moving from the right to the center and back, with a slight inward motion\",\n        \"temporal_alignment\": \"the action occurs during a continuous signing sequence, following a previous sign and preceding a new one, appearing to be part of a larger gestural unit\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The non-dominant hand performs a pointing gesture, moving from the right to the center, which appears to indicate a specific referent or concept. The gesture is not a lexical sign but seems to serve an emphatic or referential function, adding vividness and focus to the discourse about language conversion. The movement is clearly part of a continuous signing sequence, reinforcing the discourse structure.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand",
+          "handshape": "fingers extended, thumb tucked in, forming a pointing gesture",
+          "movement": "moves from the signer's right side (signer's left) toward the center, then back out",
+          "location": "initially at the signer's right side, then moves toward the center and back",
+          "nonmanual": "no significant facial or head movement visible during the action",
+          "non_dominant_hand": "the non-dominant hand makes a pointing gesture, moving from the right to the center and back, with a slight inward motion",
+          "temporal_alignment": "the action occurs during a continuous signing sequence, following a previous sign and preceding a new one, appearing to be part of a larger gestural unit"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The non-dominant hand performs a pointing gesture, moving from the right to the center, which appears to indicate a specific referent or concept. The gesture is not a lexical sign but seems to serve an emphatic or referential function, adding vividness and focus to the discourse about language conversion. The movement is clearly part of a continuous signing sequence, reinforcing the discourse structure."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

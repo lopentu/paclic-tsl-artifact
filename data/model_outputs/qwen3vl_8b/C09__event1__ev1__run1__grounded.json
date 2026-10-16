@@ -1,0 +1,48 @@
+{
+  "clip_id": "C09",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T04:12:26.089962",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"open palm\",\n        \"movement\": \"starts near chest, moves outward and upward in a sweeping arc, then returns inward toward chest\",\n        \"location\": \"begins at chest level, moves to upper right (signer's right), then back to chest\",\n        \"nonmanual\": \"mouth open, eyes wide, expressive facial expression\",\n        \"non_dominant_hand\": \"resting on chest\",\n        \"temporal_alignment\": \"starts with the signer's hand near chest, spans the duration of the phrase, ends with hand returning to chest\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The hand movement sweeps outward and upward, visually emphasizing the idea of 'insufficient' or 'not enough' as stated in the given meaning. The facial expression (wide eyes, open mouth) adds affective emphasis, making the statement more forceful. The movement is a conventionalized sign that contributes to the grammatical structure of the sentence by marking the extent or scope of the insufficiency.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "open palm",
+          "movement": "starts near chest, moves outward and upward in a sweeping arc, then returns inward toward chest",
+          "location": "begins at chest level, moves to upper right (signer's right), then back to chest",
+          "nonmanual": "mouth open, eyes wide, expressive facial expression",
+          "non_dominant_hand": "resting on chest",
+          "temporal_alignment": "starts with the signer's hand near chest, spans the duration of the phrase, ends with hand returning to chest"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The hand movement sweeps outward and upward, visually emphasizing the idea of 'insufficient' or 'not enough' as stated in the given meaning. The facial expression (wide eyes, open mouth) adds affective emphasis, making the statement more forceful. The movement is a conventionalized sign that contributes to the grammatical structure of the sentence by marking the extent or scope of the insufficiency."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

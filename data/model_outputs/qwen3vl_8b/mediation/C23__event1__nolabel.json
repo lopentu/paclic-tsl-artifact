@@ -1,0 +1,36 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "manual",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S04-2EP01",
+  "source_run": "C23__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: right hand: index finger extended, other fingers curled; left hand: open palm, fingers slightly spread\n- movement: right hand moves from near the signer's right shoulder, forward and slightly inward, then outward and downward; left hand remains relatively stable with palm up, then moves slightly outward and downward as the right hand moves\n- location: right hand moves from the signer's right side toward the center of the signer's body, then outward; left hand remains near the signer's chest\n- nonmanual: signer's mouth opens wide at 1.2s, eyes close at 1.2s\n- non dominant hand: left hand remains relatively stable with palm up, then moves slightly outward and downward as the right hand moves\n- temporal alignment: the action begins with the right hand moving forward and inward, and ends with the right hand moving outward and downward, while the left hand remains relatively stable",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:14:32.695313",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 2,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 1,\n  \"depiction\": 3,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The action involves a right hand moving from shoulder to center then outward, paired with a nonmanual expression (wide mouth, closed eyes) suggesting emotional emphasis or enactment. This likely depicts a gesture of leaving or withdrawing (e.g., exiting a group), which is central to the utterance’s meaning. The left hand’s stable palm-up posture may indicate a contrastive or grounding function. The movement and nonmanuals strongly enrich the affective and depictive quality, making the action vivid and emotionally charged. While it contributes substantively to the propositional content (‘exit group’), it is not the sole grammatical anchor, so semantic load is 2. The depiction score is high because the hand movement enacts the action of leaving.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 1,
+    "depiction": 3,
+    "confidence": 0.85,
+    "reasoning": "The action involves a right hand moving from shoulder to center then outward, paired with a nonmanual expression (wide mouth, closed eyes) suggesting emotional emphasis or enactment. This likely depicts a gesture of leaving or withdrawing (e.g., exiting a group), which is central to the utterance’s meaning. The left hand’s stable palm-up posture may indicate a contrastive or grounding function. The movement and nonmanuals strongly enrich the affective and depictive quality, making the action vivid and emotionally charged. While it contributes substantively to the propositional content (‘exit group’), it is not the sole grammatical anchor, so semantic load is 2. The depiction score is high because the hand movement enacts the action of leaving."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,56 @@
+{
+  "clip_id": "C31",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "resting_ndh",
+  "target_channel": "face",
+  "target_channel_cued": "non_dominant_hand",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C31_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C31_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T02:03:04.707272",
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.5\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"non_dominant_hand\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand (right) is raised and moves\",\n        \"handshape\": \"fist\",\n        \"movement\": \"moves from near the mouth to forward and outward\",\n        \"location\": \"in front of the signer's torso, moving from chest level to forward\",\n        \"nonmanual\": \"mouth is slightly open, head tilts slightly\",\n        \"non_dominant_hand\": \"fist, moving from near the mouth to forward and outward\",\n        \"temporal_alignment\": \"occurs during a pause between signs\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The non-dominant hand moves from near the mouth to forward and outward, which is a common way to emphasize a point in TSL, and the timing aligns with the pause between signs.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.5",
+        "end_time": "0.9",
+        "channel_judged": "non_dominant_hand",
+        "form_description": {
+          "hands": "non-dominant hand (right) is raised and moves",
+          "handshape": "fist",
+          "movement": "moves from near the mouth to forward and outward",
+          "location": "in front of the signer's torso, moving from chest level to forward",
+          "nonmanual": "mouth is slightly open, head tilts slightly",
+          "non_dominant_hand": "fist, moving from near the mouth to forward and outward",
+          "temporal_alignment": "occurs during a pause between signs"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The non-dominant hand moves from near the mouth to forward and outward, which is a common way to emphasize a point in TSL, and the timing aligns with the pause between signs."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

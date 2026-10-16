@@ -1,0 +1,36 @@
+{
+  "clip_id": "C17",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "manual",
+  "label_channel_sent": "manual",
+  "label_is_correct": true,
+  "video_id": "S01EP11",
+  "source_run": "C17__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 3,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: thumb extended upward, fingers curled\n- movement: thumb moves upward and slightly forward, then remains steady\n- location: in front of chest, at midline\n- nonmanual: mouth pursed, eyes looking forward\n- non dominant hand: resting at side, not moving\n- temporal alignment: follows a previous hand gesture, holds position for duration of target span",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:18:19.055573",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 2,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 3,\n  \"indication\": 0,\n  \"depiction\": 0,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The handshape and movement resemble a common sign for 'good' or 'excellent' in Taiwan Sign Language, directly encoding the semantic content of 'this course is great'. The nonmanual features (pursed lips, forward gaze) add affective emphasis, enhancing the positive evaluation. The action is conventionalized and contributes substantively to the propositional meaning, but does not indicate a specific referent or depict an action.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 3,
+    "indication": 0,
+    "depiction": 0,
+    "confidence": 0.95,
+    "reasoning": "The handshape and movement resemble a common sign for 'good' or 'excellent' in Taiwan Sign Language, directly encoding the semantic content of 'this course is great'. The nonmanual features (pursed lips, forward gaze) add affective emphasis, enhancing the positive evaluation. The action is conventionalized and contributes substantively to the propositional meaning, but does not indicate a specific referent or depict an action."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

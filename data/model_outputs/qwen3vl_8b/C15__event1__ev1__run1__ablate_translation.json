@@ -1,0 +1,48 @@
+{
+  "clip_id": "C15",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:36:30.308737",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression changes: at 0.3s, mouth is slightly open; at 0.4s, mouth closes and lips purse; at 0.5s, lips purse further; at 0.6s, mouth opens slightly again; at 0.7s, mouth closes and lips return to neutral\",\n        \"location\": \"face\",\n        \"nonmanual\": \"facial expression with pursed lips and mouth opening/closing\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial action occurs during the signing of the target span, immediately following a hand gesture and preceding a hand gesture on the chest\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The facial expression with pursed lips and mouth opening/closing occurs during the signing of the target span, immediately following a hand gesture and preceding a hand gesture on the chest. The expression appears to be an affective or emphatic marker, adding emotional weight to the utterance, but does not appear to encode propositional content or grammatical structure.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression changes: at 0.3s, mouth is slightly open; at 0.4s, mouth closes and lips purse; at 0.5s, lips purse further; at 0.6s, mouth opens slightly again; at 0.7s, mouth closes and lips return to neutral",
+          "location": "face",
+          "nonmanual": "facial expression with pursed lips and mouth opening/closing",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial action occurs during the signing of the target span, immediately following a hand gesture and preceding a hand gesture on the chest"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression with pursed lips and mouth opening/closing occurs during the signing of the target span, immediately following a hand gesture and preceding a hand gesture on the chest. The expression appears to be an affective or emphatic marker, adding emotional weight to the utterance, but does not appear to encode propositional content or grammatical structure."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

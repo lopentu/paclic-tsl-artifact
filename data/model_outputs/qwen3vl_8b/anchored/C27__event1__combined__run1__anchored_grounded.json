@@ -1,0 +1,54 @@
+{
+  "clip_id": "C27",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "anchored",
+  "anchored_dimension": "semantic_syntactic_load",
+  "target_channel": "face",
+  "video_path": "<repo>/data/clips_c/C27_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C27_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution_anchored.md",
+  "base_prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T10:12:37.556250",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression remains static\",\n        \"location\": \"center of face\",\n        \"nonmanual\": \"intense facial expression: eyes narrowed, eyebrows furrowed, mouth open with teeth bared, conveying strong emotion or effort\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression is held steady during the target span, occurring within a continuous signing unit that includes hand gestures\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The facial expression is intense and consistent, matching the emotional tone of the surrounding signing. The expression is not a conventionalized sign but an affective nonmanual, which strongly conveys the signer's emotional stance (e.g., determination, frustration, or effort) related to the propositional content. The expression is held steady, indicating it is not a transitional gesture but an integral part of the utterance's affective layer.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression remains static",
+          "location": "center of face",
+          "nonmanual": "intense facial expression: eyes narrowed, eyebrows furrowed, mouth open with teeth bared, conveying strong emotion or effort",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression is held steady during the target span, occurring within a continuous signing unit that includes hand gestures"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The facial expression is intense and consistent, matching the emotional tone of the surrounding signing. The expression is not a conventionalized sign but an affective nonmanual, which strongly conveys the signer's emotional stance (e.g., determination, frustration, or effort) related to the propositional content. The expression is held steady, indicating it is not a transitional gesture but an integral part of the utterance's affective layer."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

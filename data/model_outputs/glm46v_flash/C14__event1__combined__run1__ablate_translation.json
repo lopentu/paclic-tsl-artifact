@@ -1,0 +1,61 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C14_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-09T20:19:02.671537",
+  "backend_call_info": {
+    "frames_per_video": [
+      72,
+      40
+    ],
+    "sampled_fps_per_video": [
+      15.984,
+      15.3692
+    ],
+    "input_tokens": 12152,
+    "output_tokens": 298
+  },
+  "raw_text": "<|begin_of_box|>{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.30\",\n      \"end_time\": \"2.30\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"dominant and non-dominant hands at rest\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"not applicable\",\n        \"location\": \"not applicable\",\n        \"nonmanual\": \"mouth opens and closes, head tilts slightly forward and back, eyebrows raise and lower\",\n        \"non_dominant_hand\": \"resting on the table\",\n        \"temporal_alignment\": \"occurs during a continuous stretch of signing, not aligned with a specific manual sign\"\n      },\n      \"semantic_syntactic_load\": 0,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The target action is a series of facial and head movements, including mouth opening/closing and eyebrow changes, occurring between 0.30 and 2.30 seconds. These nonmanual cues are typical for expressing affect or emphasis in sign language discourse, contributing to pragmatic enrichment without carrying propositional content.\"\n    }\n  ]\n}<|end_of_box|>",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.30",
+        "end_time": "2.30",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "dominant and non-dominant hands at rest",
+          "handshape": "not applicable",
+          "movement": "not applicable",
+          "location": "not applicable",
+          "nonmanual": "mouth opens and closes, head tilts slightly forward and back, eyebrows raise and lower",
+          "non_dominant_hand": "resting on the table",
+          "temporal_alignment": "occurs during a continuous stretch of signing, not aligned with a specific manual sign"
+        },
+        "semantic_syntactic_load": 0,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.8,
+        "observable_evidence": "The target action is a series of facial and head movements, including mouth opening/closing and eyebrow changes, occurring between 0.30 and 2.30 seconds. These nonmanual cues are typical for expressing affect or emphasis in sign language discourse, contributing to pragmatic enrichment without carrying propositional content."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

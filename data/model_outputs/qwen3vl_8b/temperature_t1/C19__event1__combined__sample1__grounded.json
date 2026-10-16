@@ -1,0 +1,55 @@
+{
+  "clip_id": "C19",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 1,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1187205096,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:28:31.017752",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand forms a thumbs-up, left hand forms a flat, open palm\",\n        \"movement\": \"right hand moves from a neutral position to a thumbs-up gesture, left hand moves to cross over the right hand and then retracts slightly\",\n        \"location\": \"in front of the signer's chest, centered\",\n        \"nonmanual\": \"signer maintains eye contact with the camera, mouth slightly open\",\n        \"non_dominant_hand\": \"left hand moves to cross over the right hand and then retracts slightly\",\n        \"temporal_alignment\": \"the action begins after the signer has completed a gesture with both hands in front of the chest and ends before she begins to move her hands away\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The thumbs-up gesture is a conventionalized lexical sign in TSL, commonly used to indicate approval or agreement, which directly contributes to the propositional content of the utterance '我相信要考乙證的同學們' (I believe the students taking the Level B exam). The gesture also conveys positive affect and emphasis, enhancing the speaker's stance of confidence and support for the students.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand forms a thumbs-up, left hand forms a flat, open palm",
+          "movement": "right hand moves from a neutral position to a thumbs-up gesture, left hand moves to cross over the right hand and then retracts slightly",
+          "location": "in front of the signer's chest, centered",
+          "nonmanual": "signer maintains eye contact with the camera, mouth slightly open",
+          "non_dominant_hand": "left hand moves to cross over the right hand and then retracts slightly",
+          "temporal_alignment": "the action begins after the signer has completed a gesture with both hands in front of the chest and ends before she begins to move her hands away"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The thumbs-up gesture is a conventionalized lexical sign in TSL, commonly used to indicate approval or agreement, which directly contributes to the propositional content of the utterance '我相信要考乙證的同學們' (I believe the students taking the Level B exam). The gesture also conveys positive affect and emphasis, enhancing the speaker's stance of confidence and support for the students."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

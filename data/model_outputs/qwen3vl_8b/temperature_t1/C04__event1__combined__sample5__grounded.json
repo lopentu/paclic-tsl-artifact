@@ -1,0 +1,55 @@
+{
+  "clip_id": "C04",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "face",
+  "video_id": "S01EP05",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 333586568,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:24:06.719913",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"mouth moves, lips purse and relax, jaw moves; eyebrows raise slightly and furrow; head tilts slightly forward and back\",\n        \"location\": \"face, head, and torso\",\n        \"nonmanual\": \"facial expression changes, head tilts\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action occurs during the signing of '你們若對台灣手語教學、聾人文化有興趣' and is not synchronized with any specific sign but coincides with the verbal phrase '若對...有興趣'\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The facial expression, including pursed lips and eyebrow movement, is consistent with conveying a sense of earnestness or mild emphasis, which aligns with the interrogative tone of '若對...有興趣'. The expression enhances the affective weight of the question, making it feel more direct or important, which is not purely lexical or grammatical.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "mouth moves, lips purse and relax, jaw moves; eyebrows raise slightly and furrow; head tilts slightly forward and back",
+          "location": "face, head, and torso",
+          "nonmanual": "facial expression changes, head tilts",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action occurs during the signing of '你們若對台灣手語教學、聾人文化有興趣' and is not synchronized with any specific sign but coincides with the verbal phrase '若對...有興趣'"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The facial expression, including pursed lips and eyebrow movement, is consistent with conveying a sense of earnestness or mild emphasis, which aligns with the interrogative tone of '若對...有興趣'. The expression enhances the affective weight of the question, making it feel more direct or important, which is not purely lexical or grammatical."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

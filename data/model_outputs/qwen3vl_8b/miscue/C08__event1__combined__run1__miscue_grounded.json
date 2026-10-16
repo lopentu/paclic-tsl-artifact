@@ -1,0 +1,54 @@
+{
+  "clip_id": "C08",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "non_dominant_hand",
+  "target_channel_cued": "face",
+  "video_path": "<repo>/data/clips_c/C08_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C08_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T17:59:39.458983",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"dominant hand is raised and moving, non-dominant hand is resting\",\n        \"handshape\": \"dominant hand forms a pointing gesture\",\n        \"movement\": \"dominant hand moves from near the signer's head down and forward, then back up; non-dominant hand remains relatively still\",\n        \"location\": \"dominant hand starts near the signer's right temple, moves to the right side of the face, then back to the temple area\",\n        \"nonmanual\": \"signer's facial expression is animated, with pursed lips and a slight frown, conveying emphasis or intensity\",\n        \"non_dominant_hand\": \"resting on the table or in front of the body, not actively moving\",\n        \"temporal_alignment\": \"the facial expression and head movement occur during the signing of the phrase, which discusses the difficulty of language conversion\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's facial expression (pursed lips, slight frown) and head movement are synchronized with the signing, suggesting emphasis on the difficulty being discussed. The facial expression adds affective weight to the propositional content, making the statement more forceful.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "dominant hand is raised and moving, non-dominant hand is resting",
+          "handshape": "dominant hand forms a pointing gesture",
+          "movement": "dominant hand moves from near the signer's head down and forward, then back up; non-dominant hand remains relatively still",
+          "location": "dominant hand starts near the signer's right temple, moves to the right side of the face, then back to the temple area",
+          "nonmanual": "signer's facial expression is animated, with pursed lips and a slight frown, conveying emphasis or intensity",
+          "non_dominant_hand": "resting on the table or in front of the body, not actively moving",
+          "temporal_alignment": "the facial expression and head movement occur during the signing of the phrase, which discusses the difficulty of language conversion"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's facial expression (pursed lips, slight frown) and head movement are synchronized with the signing, suggesting emphasis on the difficulty being discussed. The facial expression adds affective weight to the propositional content, making the statement more forceful."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

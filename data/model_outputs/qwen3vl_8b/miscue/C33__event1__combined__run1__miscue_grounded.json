@@ -1,0 +1,54 @@
+{
+  "clip_id": "C33",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "target_channel": "manual",
+  "target_channel_cued": "face",
+  "video_path": "<repo>/data/clips_c/C33_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C33_window_model.mp4",
+  "video_id": "S04-3EP05",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T18:08:21.358900",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"facial expression: brow furrowed, lips pursed, mouth slightly open, conveying a look of concern or seriousness\",\n        \"location\": \"face\",\n        \"nonmanual\": \"brow furrowed, lips pursed, mouth slightly open\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the facial expression coincides with the signing of the clause '如果在路上發生交通事故' (if an accident happens on the road), which is a hypothetical or conditional clause in the discourse\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's furrowed brow and pursed lips are visible from 0.3 to 0.6 seconds, coinciding with the signing of the hypothetical clause. This facial expression conveys seriousness and concern, which is pragmatically relevant to the hypothetical scenario being discussed. The expression is a conventionalized nonmanual marker for seriousness or worry, contributing to the propositional content by signaling the gravity of the hypothetical situation.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "facial expression: brow furrowed, lips pursed, mouth slightly open, conveying a look of concern or seriousness",
+          "location": "face",
+          "nonmanual": "brow furrowed, lips pursed, mouth slightly open",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the facial expression coincides with the signing of the clause '如果在路上發生交通事故' (if an accident happens on the road), which is a hypothetical or conditional clause in the discourse"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's furrowed brow and pursed lips are visible from 0.3 to 0.6 seconds, coinciding with the signing of the hypothetical clause. This facial expression conveys seriousness and concern, which is pragmatically relevant to the hypothetical scenario being discussed. The expression is a conventionalized nonmanual marker for seriousness or worry, contributing to the propositional content by signaling the gravity of the hypothetical situation."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

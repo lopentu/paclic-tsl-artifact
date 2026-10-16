@@ -1,0 +1,36 @@
+{
+  "clip_id": "C33",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "nolabel",
+  "target_channel": "manual",
+  "label_channel_sent": null,
+  "label_is_correct": false,
+  "video_id": "S04-3EP05",
+  "source_run": "C33__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: both hands in a flat, open handshape with thumbs extended upward, forming a 'thumbs-up' or 'OK' gesture\n- movement: both hands move from a position near the signer's chest outward and slightly upward, then remain relatively still with slight adjustments\n- location: centered in front of the signer's chest, at approximately shoulder height\n- nonmanual: signer's mouth is slightly open and lips are pursed, with a focused facial expression\n- non dominant hand: non-dominant hand (left) mirrors the dominant hand (right) in gesture and position\n- temporal alignment: the action begins after the initial signing gesture and is held for a sustained period, forming a stable, static pose that contrasts with the dynamic signing before and after",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:15:40.173470",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 0,\n  \"depiction\": 2,\n  \"confidence\": 0.9,\n  \"reasoning\": \"The gesture is a static, mirrored thumbs-up/OK sign, which is conventionally used to express affirmation or agreement. While it doesn't carry heavy propositional content (semantic_syntactic_load=1), it strongly conveys affective stance (pragmatic=3) — perhaps signaling a rhetorical question or inviting reflection. It is a conventionalized description (description=2) and enacts a conceptual idea (depiction=2), but does not indicate specific referents (indication=0).\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 0,
+    "depiction": 2,
+    "confidence": 0.9,
+    "reasoning": "The gesture is a static, mirrored thumbs-up/OK sign, which is conventionally used to express affirmation or agreement. While it doesn't carry heavy propositional content (semantic_syntactic_load=1), it strongly conveys affective stance (pragmatic=3) — perhaps signaling a rhetorical question or inviting reflection. It is a conventionalized description (description=2) and enacts a conceptual idea (depiction=2), but does not indicate specific referents (indication=0)."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "clip_id": "C11",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1361929945,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:41:00.576456",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger taps or taps down repeatedly in a small vertical motion\",\n        \"location\": \"near the signer's right cheek, moving slightly forward and down\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"resting, fingers slightly curled, near the signer's left side\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, appearing after a pause and before a more complex hand gesture\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The repeated tapping motion of the index finger near the cheek is a common TSL sign for 'choose' or 'select', which aligns with the discourse about choosing a teacher. The repetitive tapping adds emphasis and a slight performative quality, suggesting careful consideration, which is relevant to the meaning 'choosing a suitable teacher is also an art'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger taps or taps down repeatedly in a small vertical motion",
+          "location": "near the signer's right cheek, moving slightly forward and down",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "resting, fingers slightly curled, near the signer's left side",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, appearing after a pause and before a more complex hand gesture"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The repeated tapping motion of the index finger near the cheek is a common TSL sign for 'choose' or 'select', which aligns with the discourse about choosing a teacher. The repetitive tapping adds emphasis and a slight performative quality, suggesting careful consideration, which is relevant to the meaning 'choosing a suitable teacher is also an art'."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

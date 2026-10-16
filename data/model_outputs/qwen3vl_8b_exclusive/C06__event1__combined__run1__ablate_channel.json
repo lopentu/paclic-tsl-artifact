@@ -1,0 +1,49 @@
+{
+  "clip_id": "C06",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C06_window_model.mp4",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_exclusive.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-03T14:01:57.240762",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"right hand: thumb up; left hand: index finger extended, palm facing right\",\n        \"movement\": \"right hand moves in a small circular motion in front of the chest, while left hand remains relatively still, holding a pointing position\",\n        \"location\": \"in front of the signer's chest, at midline\",\n        \"nonmanual\": \"neutral facial expression, no significant head movement\",\n        \"non_dominant_hand\": \"left hand holds a static pointing handshape\",\n        \"temporal_alignment\": \"the action occurs within a continuous signing sequence, following a previous gesture and preceding a new one\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are conventionalized signs in TSL. The right hand's circular motion with thumb up is a common sign for 'approval' or 'good', which is semantically relevant to the context of 'training courses' mentioned in the given meaning. The left hand's static pointing gesture adds emphasis and directs attention to the concept being signed.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "right hand: thumb up; left hand: index finger extended, palm facing right",
+          "movement": "right hand moves in a small circular motion in front of the chest, while left hand remains relatively still, holding a pointing position",
+          "location": "in front of the signer's chest, at midline",
+          "nonmanual": "neutral facial expression, no significant head movement",
+          "non_dominant_hand": "left hand holds a static pointing handshape",
+          "temporal_alignment": "the action occurs within a continuous signing sequence, following a previous gesture and preceding a new one"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are conventionalized signs in TSL. The right hand's circular motion with thumb up is a common sign for 'approval' or 'good', which is semantically relevant to the context of 'training courses' mentioned in the given meaning. The left hand's static pointing gesture adds emphasis and directs attention to the concept being signed."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

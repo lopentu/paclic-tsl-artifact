@@ -1,0 +1,48 @@
+{
+  "clip_id": "C40",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "SP-EP07",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:41:53.558792",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.8\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly curled\",\n        \"movement\": \"both hands move from a position near the chest outward and slightly downward, then inward and upward in a smooth, continuous arc, as if drawing a curved line in the air\",\n        \"location\": \"starts near the chest, moves outward and downward, then returns inward and upward\",\n        \"nonmanual\": \"mouth open, smiling\",\n        \"non_dominant_hand\": \"not visible or not involved\",\n        \"temporal_alignment\": \"the action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 1,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The hands move in a smooth, curved path, which is a common way to depict a continuous motion or a path in TSL. The smiling face and open mouth suggest a positive, affective tone. The movement is not a lexical sign for a specific object or event, but its continuous, curved motion strongly contributes to the depiction of a path or trajectory, which is a key part of the utterance's meaning.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.8",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly curled",
+          "movement": "both hands move from a position near the chest outward and slightly downward, then inward and upward in a smooth, continuous arc, as if drawing a curved line in the air",
+          "location": "starts near the chest, moves outward and downward, then returns inward and upward",
+          "nonmanual": "mouth open, smiling",
+          "non_dominant_hand": "not visible or not involved",
+          "temporal_alignment": "the action begins at 0.3s and ends at 0.8s, occurring within a continuous signing sequence"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 0,
+        "depiction": 1,
+        "confidence": 0.9,
+        "observable_evidence": "The hands move in a smooth, curved path, which is a common way to depict a continuous motion or a path in TSL. The smiling face and open mouth suggest a positive, affective tone. The movement is not a lexical sign for a specific object or event, but its continuous, curved motion strongly contributes to the depiction of a path or trajectory, which is a key part of the utterance's meaning."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

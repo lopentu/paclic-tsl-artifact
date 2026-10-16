@@ -1,0 +1,48 @@
+{
+  "clip_id": "C18",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C18_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:18:55.597282",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Index fingers extended, other fingers curled\",\n        \"movement\": \"Right hand moves from the signer's right side to the left side, then both index fingers point toward each other and remain still. The left hand remains relatively still, with the index finger extended and pointing toward the right hand.\",\n        \"location\": \"Both hands are in front of the signer's chest, at approximately mid-chest height.\",\n        \"nonmanual\": \"The signer's facial expression is neutral to slightly serious, with a focused gaze.\",\n        \"non_dominant_hand\": \"The left hand is relatively still, with the index finger extended and pointing toward the right hand.\",\n        \"temporal_alignment\": \"The action begins after a gesture with both hands open and moving outward, and ends with a sustained pointing gesture.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 3,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves both hands pointing toward each other, which is a conventionalized sign in TSL for 'this' or 'here'. The sustained, focused gesture suggests emphasis or a specific referent. The movement from one side to the other and the pointing gesture indicate a referential or deictic function, tracking a specific entity or location.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Index fingers extended, other fingers curled",
+          "movement": "Right hand moves from the signer's right side to the left side, then both index fingers point toward each other and remain still. The left hand remains relatively still, with the index finger extended and pointing toward the right hand.",
+          "location": "Both hands are in front of the signer's chest, at approximately mid-chest height.",
+          "nonmanual": "The signer's facial expression is neutral to slightly serious, with a focused gaze.",
+          "non_dominant_hand": "The left hand is relatively still, with the index finger extended and pointing toward the right hand.",
+          "temporal_alignment": "The action begins after a gesture with both hands open and moving outward, and ends with a sustained pointing gesture."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 3,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves both hands pointing toward each other, which is a conventionalized sign in TSL for 'this' or 'here'. The sustained, focused gesture suggests emphasis or a specific referent. The movement from one side to the other and the pointing gesture indicate a referential or deictic function, tracking a specific entity or location."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

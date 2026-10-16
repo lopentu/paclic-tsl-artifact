@@ -1,0 +1,55 @@
+{
+  "clip_id": "C24",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1505080418,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:01:35.465856",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"thumb and index finger forming a 'C' shape, other fingers extended\",\n        \"movement\": \"hand moves from the signer's chin area upward and slightly outward, then rotates slightly to present the 'C' shape palm-outward\",\n        \"location\": \"begins near the chin, moves to the front of the neck/upper chest area\",\n        \"nonmanual\": \"mouth slightly open, eyes looking forward\",\n        \"non_dominant_hand\": \"resting on the lap, not visible in detail\",\n        \"temporal_alignment\": \"the action occurs during the signing of the phrase, immediately following a hand movement near the mouth and preceding a pointing gesture\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The handshape and movement are a conventionalized sign for 'person' or 'individual' in TSL, which is a lexical item contributing to the propositional content of 'some people'. The upward and outward motion adds emphasis and visual focus to the referent being discussed, enhancing the pragmatic force of the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "thumb and index finger forming a 'C' shape, other fingers extended",
+          "movement": "hand moves from the signer's chin area upward and slightly outward, then rotates slightly to present the 'C' shape palm-outward",
+          "location": "begins near the chin, moves to the front of the neck/upper chest area",
+          "nonmanual": "mouth slightly open, eyes looking forward",
+          "non_dominant_hand": "resting on the lap, not visible in detail",
+          "temporal_alignment": "the action occurs during the signing of the phrase, immediately following a hand movement near the mouth and preceding a pointing gesture"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The handshape and movement are a conventionalized sign for 'person' or 'individual' in TSL, which is a lexical item contributing to the propositional content of 'some people'. The upward and outward motion adds emphasis and visual focus to the referent being discussed, enhancing the pragmatic force of the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,52 @@
+# Qwen3-VL-8B-Instruct with the list-order prompt variant (manual listed last).
+# Only the articulator-withheld block of the prompt differs from the main run.
+
+paths:
+  raw_videos_dir: data/raw
+  windows_manifest: data/windows/manifest.csv
+  clips_dir: data/windows/clips
+  c_clips_dir: data/clips_c
+  human_annotations_csv: data/reference_annotations/events_checked.csv
+  perception_scores_csv: data/reference_annotations/perception_scores.csv
+  model_outputs_dir: data/model_outputs/qwen3vl_8b_altlist
+  results_dir: data/results/qwen3vl_8b_altlist
+subtitle_removal:
+  default_region:
+    x: 0.0
+    y: 0.83
+    w: 1.0
+    h: 0.17
+  blur_strength: 16
+  always_blur_regions:
+  - x: 0.595
+    y: 0.0
+    w: 0.405
+    h: 0.19
+  - x: 0.0
+    y: 0.0
+    w: 0.2
+    h: 0.27
+model:
+  backend: qwen3_vl
+  model_id: Qwen/Qwen3-VL-8B-Instruct
+  device: cuda
+  quantization: null
+  fps: 16
+  max_pixels: 151200
+  temperature: 0.0
+  do_sample: false
+  max_new_tokens: 1500
+  n_runs_per_item: 1
+localization_scoring:
+  onset_offset_tolerance_sec: 1.0
+  min_overlap_ratio: 0.3
+attribution_scoring:
+  perception_adequate_min_score: 2
+  high_d1_threshold: 2
+  low_d1_threshold: 1
+  high_d2_threshold: 2
+  low_d2_threshold: 1
+  semiotic_modes:
+  - description
+  - indication
+  - depiction

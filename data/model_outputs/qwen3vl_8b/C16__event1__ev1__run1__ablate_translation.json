@@ -1,0 +1,48 @@
+{
+  "clip_id": "C16",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP11",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:37:10.024998",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"extends index finger upward and slightly forward, then holds steady\",\n        \"location\": \"right side of signer's body, moving from lower right to upper right\",\n        \"nonmanual\": \"mouth slightly open, eyes focused forward\",\n        \"non_dominant_hand\": \"resting near chest, not moving\",\n        \"temporal_alignment\": \"begins after a downward hand movement, holds steady while signer speaks, then transitions to a different hand movement\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 1,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The index finger is extended and held steady, a common handshape in TSL for indicating a specific point or direction. The movement is directional and sustained, suggesting it marks a referent or location. The hand remains in a fixed position while the signer speaks, indicating it is a grammatical or referential marker, not a depictive action.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "extends index finger upward and slightly forward, then holds steady",
+          "location": "right side of signer's body, moving from lower right to upper right",
+          "nonmanual": "mouth slightly open, eyes focused forward",
+          "non_dominant_hand": "resting near chest, not moving",
+          "temporal_alignment": "begins after a downward hand movement, holds steady while signer speaks, then transitions to a different hand movement"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 1,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The index finger is extended and held steady, a common handshape in TSL for indicating a specific point or direction. The movement is directional and sustained, suggesting it marks a referent or location. The hand remains in a fixed position while the signer speaks, indicating it is a grammatical or referential marker, not a depictive action."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

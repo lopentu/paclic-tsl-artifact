@@ -1,0 +1,49 @@
+{
+  "clip_id": "C21",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C21_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "ablate_channel",
+  "prompt_file": "scripts/config/prompts/prompt_c_grounded_attribution_altlist.md",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T18:48:58.274328",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.2\",\n      \"channel_judged\": \"head_torso\",\n      \"form_description\": {\n        \"hands\": \"non-dominant hand is resting, not moving\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"head tilts slightly forward and downward, then remains still\",\n        \"location\": \"head positioned centrally, facing forward\",\n        \"nonmanual\": \"eyes close, lips purse slightly, chin lifts slightly\",\n        \"non_dominant_hand\": \"resting on torso, not moving\",\n        \"temporal_alignment\": \"the action occurs during a pause in signing, following a gesture of placing a hand on the chest and preceding a fist pump\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The head tilt and closed eyes, combined with the pursed lips, convey a sense of contemplation or emphasis on the idea of 'a lot of practice' being 'very convenient' as stated in the given meaning. The action is not a lexical sign but adds affective weight to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.2",
+        "channel_judged": "head_torso",
+        "form_description": {
+          "hands": "non-dominant hand is resting, not moving",
+          "handshape": "not visible",
+          "movement": "head tilts slightly forward and downward, then remains still",
+          "location": "head positioned centrally, facing forward",
+          "nonmanual": "eyes close, lips purse slightly, chin lifts slightly",
+          "non_dominant_hand": "resting on torso, not moving",
+          "temporal_alignment": "the action occurs during a pause in signing, following a gesture of placing a hand on the chest and preceding a fist pump"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The head tilt and closed eyes, combined with the pursed lips, convey a sense of contemplation or emphasis on the idea of 'a lot of practice' being 'very convenient' as stated in the given meaning. The action is not a lexical sign but adds affective weight to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

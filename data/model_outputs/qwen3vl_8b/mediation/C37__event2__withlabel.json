@@ -1,0 +1,36 @@
+{
+  "clip_id": "C37",
+  "event_id": "event2",
+  "condition": "mediation",
+  "arm": "withlabel",
+  "target_channel": "face",
+  "label_channel_sent": "face",
+  "label_is_correct": true,
+  "video_id": "SP-EP07",
+  "source_run": "C37__event2__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 0
+  },
+  "description_sent": "- movement: mouth opens and closes, lips purse and relax, tongue moves\n- location: face\n- nonmanual: facial expression with pursed lips and moving mouth\n- temporal alignment: occurs during the signing of the phrase, synchronized with the manual signing",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:21:02.416660",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 2,\n  \"description\": 1,\n  \"indication\": 0,\n  \"depiction\": 1,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The facial action (pursed lips, moving mouth) likely conveys affect or emphasis, aligning with the pragmatic need to express frustration or limitation in communication. It does not carry core semantic or syntactic content, but adds emotional weight. It is not indicating or depicting a specific object or event, but rather enacting a state of verbal limitation.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 1,
+    "indication": 0,
+    "depiction": 1,
+    "confidence": 0.85,
+    "reasoning": "The facial action (pursed lips, moving mouth) likely conveys affect or emphasis, aligning with the pragmatic need to express frustration or limitation in communication. It does not carry core semantic or syntactic content, but adds emotional weight. It is not indicating or depicting a specific object or event, but rather enacting a state of verbal limitation."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

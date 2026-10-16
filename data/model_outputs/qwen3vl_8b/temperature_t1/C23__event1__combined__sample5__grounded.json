@@ -1,0 +1,55 @@
+{
+  "clip_id": "C23",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "sample_index": 5,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 320003407,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:31:18.596761",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.1\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"both hands\",\n        \"handshape\": \"open palms, fingers slightly curled\",\n        \"movement\": \"right hand moves forward and down from the signer's right side, then both hands move outward and slightly upward in a sweeping motion; left hand remains relatively stationary while right hand moves\",\n        \"location\": \"initially right hand near signer's right side, then both hands move outward and upward, palms facing slightly inward\",\n        \"nonmanual\": \"mouth opens wide at 1.2s, eyes closed at 1.2s, then opens again at 1.3s\",\n        \"non_dominant_hand\": \"left hand remains relatively stationary, palm facing up, fingers slightly curled\",\n        \"temporal_alignment\": \"starts with a preparatory gesture, then moves into a sweeping motion that coincides with the phrase 'after leaving the group' in the given meaning\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 2,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The sweeping motion of the hands outward and upward is a common TSL gesture for 'passing by' or 'going away', which aligns with 'after leaving the group'. The movement is visually distinct and carries a strong depictive force. The facial expression (eyes closed, mouth open) adds affect and emphasis, enhancing the sense of time passing or something being left behind.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.1",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "both hands",
+          "handshape": "open palms, fingers slightly curled",
+          "movement": "right hand moves forward and down from the signer's right side, then both hands move outward and slightly upward in a sweeping motion; left hand remains relatively stationary while right hand moves",
+          "location": "initially right hand near signer's right side, then both hands move outward and upward, palms facing slightly inward",
+          "nonmanual": "mouth opens wide at 1.2s, eyes closed at 1.2s, then opens again at 1.3s",
+          "non_dominant_hand": "left hand remains relatively stationary, palm facing up, fingers slightly curled",
+          "temporal_alignment": "starts with a preparatory gesture, then moves into a sweeping motion that coincides with the phrase 'after leaving the group' in the given meaning"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 2,
+        "confidence": 0.9,
+        "observable_evidence": "The sweeping motion of the hands outward and upward is a common TSL gesture for 'passing by' or 'going away', which aligns with 'after leaving the group'. The movement is visually distinct and carries a strong depictive force. The facial expression (eyes closed, mouth open) adds affect and emphasis, enhancing the sense of time passing or something being left behind."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

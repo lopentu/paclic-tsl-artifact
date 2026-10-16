@@ -1,0 +1,36 @@
+{
+  "clip_id": "C18",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "manual",
+  "label_channel_sent": "face",
+  "label_is_correct": false,
+  "video_id": "S01EP11",
+  "source_run": "C18__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 3,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: index fingers extended, other fingers curled\n- movement: right hand moves from the signer's right side to the left side, then both index fingers point toward each other and move slightly inward\n- location: initially at the signer's right side, then both hands move to the center of the signer's chest\n- nonmanual: no significant facial or head movement\n- non dominant hand: left hand remains relatively still, index finger extended, pointing toward the right hand\n- temporal alignment: the action begins after a gesture with open palms and ends before a gesture with the right hand moving downward",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:23:48.633345",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 2,\n  \"description\": 2,\n  \"indication\": 2,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The action involves index fingers moving toward each other and pointing inward, which visually enacts the idea of 'preparing' or 'combining' effort over time, aligning with the utterance's meaning of spending a year to prepare. It adds emphasis and vividness (pragmatic enrichment) by depicting the process. It is not core grammatical structure (low semantic load), but it does indicate a central concept (indication) and depicts an action (depiction). The description score reflects a conventionalized gesture for 'preparing' or 'time investment'.\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 2,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The action involves index fingers moving toward each other and pointing inward, which visually enacts the idea of 'preparing' or 'combining' effort over time, aligning with the utterance's meaning of spending a year to prepare. It adds emphasis and vividness (pragmatic enrichment) by depicting the process. It is not core grammatical structure (low semantic load), but it does indicate a central concept (indication) and depicts an action (depiction). The description score reflects a conventionalized gesture for 'preparing' or 'time investment'."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

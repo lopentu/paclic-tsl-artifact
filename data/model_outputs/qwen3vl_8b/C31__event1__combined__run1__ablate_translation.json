@@ -1,0 +1,48 @@
+{
+  "clip_id": "C31",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C31_window_model.mp4",
+  "video_id": "S04-3EP01",
+  "mode": "ablate_translation",
+  "cues": {
+    "translation": false,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T05:52:24.472027",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.9\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not visible\",\n        \"movement\": \"head tilted slightly back, mouth open and moving as if speaking, eyes looking upward and to the right\",\n        \"location\": \"face\",\n        \"nonmanual\": \"head tilted back, eyes looking upward and to the right, mouth open and moving\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"the action occurs during a stretch of signing, starting after the signer's initial gesture and continuing through the duration of the clip\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's head tilt and upward gaze, combined with an open mouth, suggest an expressive or emphatic component to the utterance, likely conveying a sense of surprise, emphasis, or a rhetorical question. The action is not a conventionalized lexical sign but rather a nonmanual marker that adds affective or pragmatic weight to the signed message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.9",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not visible",
+          "movement": "head tilted slightly back, mouth open and moving as if speaking, eyes looking upward and to the right",
+          "location": "face",
+          "nonmanual": "head tilted back, eyes looking upward and to the right, mouth open and moving",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "the action occurs during a stretch of signing, starting after the signer's initial gesture and continuing through the duration of the clip"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's head tilt and upward gaze, combined with an open mouth, suggest an expressive or emphatic component to the utterance, likely conveying a sense of surprise, emphasis, or a rhetorical question. The action is not a conventionalized lexical sign but rather a nonmanual marker that adds affective or pragmatic weight to the signed message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

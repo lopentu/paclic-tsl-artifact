@@ -1,0 +1,55 @@
+{
+  "clip_id": "C36",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "non_dominant_hand",
+  "video_id": "S04-3EP05",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 3,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 171430174,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T19:50:53.139103",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"1.0\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Index finger extended on right hand; open palm on left hand\",\n        \"movement\": \"Right hand moves from right to left, index finger extended, then gestures outward and upward. Left hand remains relatively stationary, palm facing up, fingers slightly curled.\",\n        \"location\": \"Right hand moves across the signer's midline, from right to left, then outward and upward. Left hand remains near the signer's torso.\",\n        \"nonmanual\": \"Mouth opens wide at 0.7s, eyes widen, conveying emphasis or surprise.\",\n        \"non_dominant_hand\": \"Left hand is stationary, palm up, fingers slightly curled, supporting the right hand's movement.\",\n        \"temporal_alignment\": \"Occurs within a continuous signing sequence, beginning with a gesture that establishes a directional movement and ending with a strong, emphatic gesture and facial expression.\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 3,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 1,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The action involves a directional movement (right to left) followed by an outward gesture, which likely indicates the concept of 'left' or 'the other side' in the context of '目擊者'. The wide-open mouth and widened eyes at 0.7s convey strong emphasis, which is crucial for the pragmatic force of the message '也可以留下聯絡方式' (can also leave contact information). The movement is a conventionalized lexical sign (description score 2) and indicates a referent (indication score 1) while also enacting the idea of providing contact information (depiction score 1).\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "1.0",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Index finger extended on right hand; open palm on left hand",
+          "movement": "Right hand moves from right to left, index finger extended, then gestures outward and upward. Left hand remains relatively stationary, palm facing up, fingers slightly curled.",
+          "location": "Right hand moves across the signer's midline, from right to left, then outward and upward. Left hand remains near the signer's torso.",
+          "nonmanual": "Mouth opens wide at 0.7s, eyes widen, conveying emphasis or surprise.",
+          "non_dominant_hand": "Left hand is stationary, palm up, fingers slightly curled, supporting the right hand's movement.",
+          "temporal_alignment": "Occurs within a continuous signing sequence, beginning with a gesture that establishes a directional movement and ending with a strong, emphatic gesture and facial expression."
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 3,
+        "description": 2,
+        "indication": 1,
+        "depiction": 1,
+        "confidence": 0.95,
+        "observable_evidence": "The action involves a directional movement (right to left) followed by an outward gesture, which likely indicates the concept of 'left' or 'the other side' in the context of '目擊者'. The wide-open mouth and widened eyes at 0.7s convey strong emphasis, which is crucial for the pragmatic force of the message '也可以留下聯絡方式' (can also leave contact information). The movement is a conventionalized lexical sign (description score 2) and indicates a referent (indication score 1) while also enacting the idea of providing contact information (depiction score 1)."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

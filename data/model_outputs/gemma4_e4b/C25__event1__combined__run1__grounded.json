@@ -1,0 +1,61 @@
+{
+  "clip_id": "C25",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "context_clip_path": "<repo>/data/clips_c/C25_window_model.mp4",
+  "video_id": "S04-2EP01",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "gemma4",
+  "model_name": "Gemma-4",
+  "model_version": "google/gemma-4-E4B-it",
+  "timestamp": "2026-10-09T21:43:58.787241",
+  "backend_call_info": {
+    "frames_per_video": [
+      72,
+      16
+    ],
+    "sampled_fps_per_video": [
+      15.6365,
+      15.984
+    ],
+    "input_tokens": 8478,
+    "output_tokens": 272
+  },
+  "raw_text": "```json\n{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"00:00\",\n      \"end_time\": \"00:01\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"none\",\n        \"handshape\": \"none\",\n        \"movement\": \"none\",\n        \"location\": \"none\",\n        \"nonmanual\": \"Slightly raised eyebrows and a slightly open mouth, suggesting contemplation or mild surprise.\",\n        \"non_dominant_hand\": \"none\",\n        \"temporal_alignment\": \"The facial expression is sustained throughout the target span.\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer maintains a facial expression characterized by slightly raised eyebrows and a slightly open mouth during the target span.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "00:00",
+        "end_time": "00:01",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "none",
+          "handshape": "none",
+          "movement": "none",
+          "location": "none",
+          "nonmanual": "Slightly raised eyebrows and a slightly open mouth, suggesting contemplation or mild surprise.",
+          "non_dominant_hand": "none",
+          "temporal_alignment": "The facial expression is sustained throughout the target span."
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer maintains a facial expression characterized by slightly raised eyebrows and a slightly open mouth during the target span."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

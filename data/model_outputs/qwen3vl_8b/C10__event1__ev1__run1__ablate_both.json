@@ -1,0 +1,48 @@
+{
+  "clip_id": "C10",
+  "event_id": "event1",
+  "clip_kind": "ev1",
+  "context_clip_path": null,
+  "video_id": "S01EP09",
+  "mode": "ablate_both",
+  "cues": {
+    "translation": false,
+    "channel": false,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-07-29T06:11:04.257071",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.5\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand\",\n        \"handshape\": \"index finger extended, other fingers curled\",\n        \"movement\": \"index finger moves from near the signer's temple to point forward, then slightly downward\",\n        \"location\": \"starts near the signer's right temple (signer's left side), moves to the front and slightly down\",\n        \"nonmanual\": \"no significant facial or head movement\",\n        \"non_dominant_hand\": \"resting on the signer's chest\",\n        \"temporal_alignment\": \"the action begins at 0.3s, coinciding with the start of the target span, and ends at 0.5s, as the signer's hand moves downward\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 1,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's index finger points forward, a common gesture in TSL for indicating direction or focus. The hand moves from the temple to a forward position, suggesting a directional or emphatic function. The handshape and movement are consistent with a lexical sign that carries semantic content, likely indicating a direction or a specific entity. The movement is not purely prosodic; it is integrated with the signing flow, suggesting it contributes to the grammatical structure or discourse structure.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.5",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand",
+          "handshape": "index finger extended, other fingers curled",
+          "movement": "index finger moves from near the signer's temple to point forward, then slightly downward",
+          "location": "starts near the signer's right temple (signer's left side), moves to the front and slightly down",
+          "nonmanual": "no significant facial or head movement",
+          "non_dominant_hand": "resting on the signer's chest",
+          "temporal_alignment": "the action begins at 0.3s, coinciding with the start of the target span, and ends at 0.5s, as the signer's hand moves downward"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 1,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's index finger points forward, a common gesture in TSL for indicating direction or focus. The hand moves from the temple to a forward position, suggesting a directional or emphatic function. The handshape and movement are consistent with a lexical sign that carries semantic content, likely indicating a direction or a specific entity. The movement is not purely prosodic; it is integrated with the signing flow, suggesting it contributes to the grammatical structure or discourse structure."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

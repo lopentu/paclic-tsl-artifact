@@ -1,0 +1,62 @@
+{
+  "clip_id": "C14",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "miscue",
+  "scheme": "cross_boundary",
+  "target_channel": "face",
+  "target_channel_cued": "manual",
+  "cue_is_correct": false,
+  "video_path": "<repo>/data/clips_c/C14_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C14_window_model.mp4",
+  "video_id": "S01EP11",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run_except_target_channel": true,
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "glm46v",
+  "model_name": "GLM-4.6V",
+  "model_version": "zai-org/GLM-4.6V-Flash",
+  "timestamp": "2026-10-10T01:09:03.970551",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": 0.3,\n      \"end_time\": 2.3,\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"dominant hand and non-dominant hand\",\n        \"handshape\": \"dominant hand open palm, non-dominant hand open\",\n        \"movement\": \"dominant hand moves from forward to right, non-dominant hand moves from left to right, then both hands come together and separate again\",\n        \"location\": \"forward and right\",\n        \"nonmanual\": \"mouth moves as if speaking\",\n        \"non_dominant_hand\": \"moves from left to right\",\n        \"temporal_alignment\": \"part of a longer signing sequence\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 0,\n      \"indication\": 0,\n      \"depiction\": 2,\n      \"confidence\": 0.8,\n      \"observable_evidence\": \"The hand movement from forward to right and back, combined with the non-dominant hand movement, suggests a depiction of communication or interaction, which aligns with the meaning of 'communicate' in the given context.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "2.3",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "dominant hand and non-dominant hand",
+          "handshape": "dominant hand open palm, non-dominant hand open",
+          "movement": "dominant hand moves from forward to right, non-dominant hand moves from left to right, then both hands come together and separate again",
+          "location": "forward and right",
+          "nonmanual": "mouth moves as if speaking",
+          "non_dominant_hand": "moves from left to right",
+          "temporal_alignment": "part of a longer signing sequence"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 0,
+        "indication": 0,
+        "depiction": 2,
+        "confidence": 0.8,
+        "observable_evidence": "The hand movement from forward to right and back, combined with the non-dominant hand movement, suggests a depiction of communication or interaction, which aligns with the meaning of 'communicate' in the given context."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": [],
+  "schema_valid_strict": false,
+  "schema_errors_strict": [
+    "candidate_actions/0/end_time: 2.3 is not of type 'string'",
+    "candidate_actions/0/start_time: 0.3 is not of type 'string'"
+  ],
+  "post_hoc_normalization": "type-only, re-validated (the project design log 2026-10-09): candidate_actions/0/end_time -> string, candidate_actions/0/start_time -> string"
+}

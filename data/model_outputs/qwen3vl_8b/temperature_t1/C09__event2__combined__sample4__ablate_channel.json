@@ -1,0 +1,55 @@
+{
+  "clip_id": "C09",
+  "event_id": "event2",
+  "clip_kind": "combined",
+  "condition": "temperature_sampling",
+  "target_channel": "manual",
+  "video_id": "S01EP09",
+  "mode": "ablate_channel",
+  "cues": {
+    "translation": true,
+    "channel": false,
+    "distractor_span": false
+  },
+  "sample_index": 4,
+  "k": 5,
+  "temperature": 1.0,
+  "do_sample": true,
+  "seed": 1859722040,
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "prompt_identical_to_main_run": true,
+  "pad_sec": 0.3,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-14T20:10:28.553347",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.6\",\n      \"channel_judged\": \"manual\",\n      \"form_description\": {\n        \"hands\": \"Both hands\",\n        \"handshape\": \"Right hand forms a 'pinch' or 'fist' with thumb and index finger; left hand forms a 'flat hand' with fingers extended\",\n        \"movement\": \"Right hand moves from near the signer's right cheek/temple, moving forward and slightly upward toward the center of the face; left hand moves from the signer's chest, moving forward and upward to meet the right hand, forming a gesture that resembles a 'pointing' or 'indicating' motion\",\n        \"location\": \"Right hand starts near the signer's right cheek, moves toward the center of the face; left hand starts near the chest and moves upward to meet the right hand\",\n        \"nonmanual\": \"Signer's head is tilted slightly back and eyes are looking upward\",\n        \"non_dominant_hand\": \"Left hand is active, moving from the chest to meet the right hand\",\n        \"temporal_alignment\": \"Occurs at the beginning of the clip, immediately following a previous gesture and preceding a subsequent one, forming part of a continuous sequence of signing\"\n      },\n      \"semantic_syntactic_load\": 2,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 2,\n      \"indication\": 2,\n      \"depiction\": 0,\n      \"confidence\": 0.95,\n      \"observable_evidence\": \"The gesture involves both hands moving toward the face and chest area, which is typical for indicating a concept or referring to a person or object. The upward gaze and the movement of the hands suggest an emphasis or a point of reference. The action is part of a larger signing sequence that discusses learning and translation, suggesting it contributes to the propositional structure and pragmatic emphasis.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.6",
+        "channel_judged": "manual",
+        "form_description": {
+          "hands": "Both hands",
+          "handshape": "Right hand forms a 'pinch' or 'fist' with thumb and index finger; left hand forms a 'flat hand' with fingers extended",
+          "movement": "Right hand moves from near the signer's right cheek/temple, moving forward and slightly upward toward the center of the face; left hand moves from the signer's chest, moving forward and upward to meet the right hand, forming a gesture that resembles a 'pointing' or 'indicating' motion",
+          "location": "Right hand starts near the signer's right cheek, moves toward the center of the face; left hand starts near the chest and moves upward to meet the right hand",
+          "nonmanual": "Signer's head is tilted slightly back and eyes are looking upward",
+          "non_dominant_hand": "Left hand is active, moving from the chest to meet the right hand",
+          "temporal_alignment": "Occurs at the beginning of the clip, immediately following a previous gesture and preceding a subsequent one, forming part of a continuous sequence of signing"
+        },
+        "semantic_syntactic_load": 2,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 2,
+        "indication": 2,
+        "depiction": 0,
+        "confidence": 0.95,
+        "observable_evidence": "The gesture involves both hands moving toward the face and chest area, which is typical for indicating a concept or referring to a person or object. The upward gaze and the movement of the hands suggest an emphasis or a point of reference. The action is part of a larger signing sequence that discusses learning and translation, suggesting it contributes to the propositional structure and pragmatic emphasis."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

@@ -1,0 +1,69 @@
+{
+  "clip_id": "C15",
+  "event_id": "event1",
+  "clip_kind": "combined",
+  "condition": "wrongclip",
+  "target_channel": "face",
+  "prompt_from": {
+    "clip_id": "C15",
+    "event_id": "event1",
+    "translation": "<translation not redistributed>",
+    "video_id": "S01EP11",
+    "rel_start_requested": 0.29999999999999716,
+    "rel_end_requested": 0.7000000000000028
+  },
+  "video_from": {
+    "clip_id": "C25",
+    "event_id": "event1",
+    "video_id": "S04-2EP01",
+    "target_channel": "face",
+    "duration": 1.0
+  },
+  "rel_start_applied": 0.29999999999999716,
+  "rel_end_applied": 0.7000000000000028,
+  "span_clamped": false,
+  "video_path": "<repo>/data/clips_c/C25_ev1_model.mp4",
+  "context_clip_path": "<repo>/data/clips_c/C25_window_model.mp4",
+  "mode": "grounded",
+  "prompt_file": "prompts/prompt_c_grounded_attribution.md",
+  "cues": {
+    "translation": true,
+    "channel": true,
+    "distractor_span": false
+  },
+  "pad_sec": 0.3,
+  "run_index": 1,
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T09:50:58.852587",
+  "raw_text": "{\n  \"caption_leakage_risk\": \"no\",\n  \"candidate_actions\": [\n    {\n      \"start_time\": \"0.3\",\n      \"end_time\": \"0.7\",\n      \"channel_judged\": \"face\",\n      \"form_description\": {\n        \"hands\": \"not visible\",\n        \"handshape\": \"not applicable\",\n        \"movement\": \"facial expression with mouth open and eyebrows raised, conveying emphasis or intensity\",\n        \"location\": \"center of signer's face\",\n        \"nonmanual\": \"intense facial expression with open mouth and raised eyebrows\",\n        \"non_dominant_hand\": \"not visible\",\n        \"temporal_alignment\": \"occurs during a segment of signing that includes hand movements, likely marking a point of emphasis or emotional intensity in the utterance\"\n      },\n      \"semantic_syntactic_load\": 1,\n      \"pragmatic_depictive_affective_enrichment\": 2,\n      \"description\": 1,\n      \"indication\": 0,\n      \"depiction\": 0,\n      \"confidence\": 0.9,\n      \"observable_evidence\": \"The signer's face shows an intense expression with an open mouth and raised eyebrows during the target span, which is consistent with the emotional tone of the phrase '我們都持續在努力中' (We are all continuously striving). The facial expression appears to emphasize the effort or determination being described, adding affective weight to the message.\"\n    }\n  ]\n}",
+  "parsed": {
+    "caption_leakage_risk": "no",
+    "candidate_actions": [
+      {
+        "start_time": "0.3",
+        "end_time": "0.7",
+        "channel_judged": "face",
+        "form_description": {
+          "hands": "not visible",
+          "handshape": "not applicable",
+          "movement": "facial expression with mouth open and eyebrows raised, conveying emphasis or intensity",
+          "location": "center of signer's face",
+          "nonmanual": "intense facial expression with open mouth and raised eyebrows",
+          "non_dominant_hand": "not visible",
+          "temporal_alignment": "occurs during a segment of signing that includes hand movements, likely marking a point of emphasis or emotional intensity in the utterance"
+        },
+        "semantic_syntactic_load": 1,
+        "pragmatic_depictive_affective_enrichment": 2,
+        "description": 1,
+        "indication": 0,
+        "depiction": 0,
+        "confidence": 0.9,
+        "observable_evidence": "The signer's face shows an intense expression with an open mouth and raised eyebrows during the target span, which is consistent with the emotional tone of the phrase '我們都持續在努力中' (We are all continuously striving). The facial expression appears to emphasize the effort or determination being described, adding affective weight to the message."
+      }
+    ]
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}

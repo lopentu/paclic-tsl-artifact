@@ -1,0 +1,36 @@
+{
+  "clip_id": "C30",
+  "event_id": "event1",
+  "condition": "mediation",
+  "arm": "mislabel",
+  "target_channel": "manual",
+  "label_channel_sent": "face",
+  "label_is_correct": false,
+  "video_id": "S04-3EP01",
+  "source_run": "C30__event1__combined__run1__grounded.json",
+  "source_scores": {
+    "semantic_syntactic_load": 2,
+    "pragmatic_depictive_affective_enrichment": 2,
+    "description": 2,
+    "indication": 1,
+    "depiction": 0
+  },
+  "description_sent": "- handshape: index finger extended\n- movement: extends index finger upward and slightly forward, then retracts\n- location: right side of signer's body, moving from chest level to above shoulder level\n- nonmanual: signer's head is slightly tilted forward, mouth is open\n- non dominant hand: resting on chest\n- temporal alignment: occurs within a continuous signing stretch, immediately following a preparatory gesture and preceding a more complex hand movement",
+  "prompt_file": "prompts/prompt_m_mediation.md",
+  "backend": "qwen3_vl",
+  "model_name": "Qwen3-VL",
+  "model_version": "Qwen/Qwen3-VL-8B-Instruct",
+  "timestamp": "2026-08-15T11:25:41.303917",
+  "raw_text": "```json\n{\n  \"semantic_syntactic_load\": 1,\n  \"pragmatic_depictive_affective_enrichment\": 3,\n  \"description\": 2,\n  \"indication\": 1,\n  \"depiction\": 2,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The action, involving an index finger gesture and head tilt with open mouth, likely conveys emphasis or affective stance (e.g., excitement or focus) rather than core propositional content. It may depict the signer’s personal involvement in preparing for the bar exam, adding vividness and emotional weight. The gesture is not a conventionalized description of an object or event (hence description=2), nor does it clearly indicate a specific referent (indication=1), but it does depict an enactment of the signer’s state (depiction=2).\"\n}\n```",
+  "parsed": {
+    "semantic_syntactic_load": 1,
+    "pragmatic_depictive_affective_enrichment": 3,
+    "description": 2,
+    "indication": 1,
+    "depiction": 2,
+    "confidence": 0.85,
+    "reasoning": "The action, involving an index finger gesture and head tilt with open mouth, likely conveys emphasis or affective stance (e.g., excitement or focus) rather than core propositional content. It may depict the signer’s personal involvement in preparing for the bar exam, adding vividness and emotional weight. The gesture is not a conventionalized description of an object or event (hence description=2), nor does it clearly indicate a specific referent (indication=1), but it does depict an enactment of the signer’s state (depiction=2)."
+  },
+  "schema_valid": true,
+  "schema_errors": []
+}
